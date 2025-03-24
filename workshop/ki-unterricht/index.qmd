@@ -1,0 +1,63 @@
+---
+title: "KI im Unterricht"
+---
+
+Diese Präsentation zeigt, wie KI im Unterricht eingesetzt werden kann, um Denkprozesse zu beschleunigen, individuelles Lernen zu fördern und kollaborative Lernumgebungen zu unterstützen. Dabei werden Chancen wie personalisiertes Lernen und 24/7-Verfügbarkeit ebenso thematisiert wie Herausforderungen (z.B. Kompetenzverlust und Informationsüberflutung).
+
+
+
+## {{< bi file-slides >}} Präsentation
+
+{{< html file="https://slides.com/stefanhackstein/ki-im-unterricht/embed" height="500px" class="ratio ratio-16x9" >}}
+
+<br>
+
+## {{< bi book >}} Zusammenfassung
+
+::: {.callout-note collapse="true"}
+## {{< bi book >}} Inhalt der Präsentation
+
+### 1. KI-Lernkompetenz vermitteln
+#### Beispielaufgabe: Zentrale Konzepte verstehen
+- Es sollen vier grundlegenden Konzepten des unterrichteten Kurses mit/ohne KI verständlich gemacht werden.
+
+#### Zwei Arbeitsmodi
+- __Allein erklären__: Ein Konzept eigenständig erläutern.
+- __KI-unterstützt erklären__: Mit Hilfe von KI (z. B. Copilot, ChatGPT) dasselbe Konzept erklären.
+
+
+#### Reflexion und Diskussion
+Vergleich der beiden Ansätze:
+
+- Wo unterstützt KI den Lernprozess?
+- Wo liegen die Grenzen?
+
+### 2. Asynchrones und kollaboratives Lernen
+#### Herausforderungen im traditionellen Lernen
+- Unterschiedliche Lerngeschwindigkeiten
+- Unbekanntes Vorwissen
+- Wenig Zeit für Fragen und Hemmschwellen
+
+#### Vorteile eines KI-Tutors
+- Sofortige Antworten rund um die Uhr.
+- Individuelle Lernwege und bessere Zusammenarbeit.
+- Förderung kreativer und engagierter Projekte.
+
+### 3. KI als persönlicher Tutor
+#### Vision vs. Realität
+- __Vision__: Vollständig personalisierter KI-Tutor.
+- __Realität__: Begrenzte Individualisierung, Flexibilität und manchmal Informationsüberflutung.
+
+#### Praktische Unterstützung
+- Klärung von Konzepten und Begriffen.
+- Diskussion und Perspektivenvielfalt.
+- Anpassung des Schwierigkeitsgrads.
+
+*Kernaussage: KI unterstützt, ersetzt aber keine menschlichen Tutoren.*
+
+### 4. Integration von KI in den Unterricht
+#### Ausgewogener Ansatz
+- Zunächst selbst üben, dann KI einsetzen.
+- Wichtige Übungen im Unterricht, um Grundkompetenzen zu sichern.
+
+:::
