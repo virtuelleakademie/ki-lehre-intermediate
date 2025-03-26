@@ -9,7 +9,6 @@ Diese Präsentation untersucht die Funktionsweise von Large Language Models (LLM
 
 {{< html file="https://slides.com/stefanhackstein/chatbots-denken/embed" height="500px" class="ratio ratio-16x9" >}}
 
-<br>
 
 <!-- ## {{< bi book >}} Zusammenfassung -->
 
