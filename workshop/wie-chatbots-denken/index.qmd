@@ -2,7 +2,8 @@
 title: "Wie Chatbots denken"
 ---
 
-Diese Präsentation zeigt, wie künstliche Intelligenz (KI) und insbesondere Chatbots als digitale Lehrassistenten eingesetzt werden können. Der Fokus liegt darauf, wie diese Technologien die Qualität des Unterrichts verbessern und Lehrende bei ihrer Arbeit effektiv unterstützen können.
+
+Diese Präsentation untersucht die Funktionsweise von Large Language Models (LLMs), ihre Unterschiede zu Chatbots, Assistenten und Agenten sowie deren Fähigkeit, kohärente, aber nicht immer genaue Antworten zu generieren. 
 
 ## {{< bi file-slides >}} Präsentation
 
@@ -10,82 +11,7 @@ Diese Präsentation zeigt, wie künstliche Intelligenz (KI) und insbesondere Cha
 
 <br>
 
-## {{< bi book >}} Zusammenfassung
+<!-- ## {{< bi book >}} Zusammenfassung -->
 
-::: {.callout-note collapse="true"}
-## {{< bi book >}} Inhalt der Präsentation
-
-### 1. KI als Superkraft
-
-#### Erweiterte Möglichkeiten:
-- Nutzung vielfältiger Medien
-- Individualisiertes Lernen und flexible Unterrichtsmethoden
-- Praxisorientierter und kompetenzbasierter Unterricht
-
-#### Zentrale Botschaft:
-KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
-
-### 2. KI verstehen, um sie zu lehren
-
-#### Lernen als Voraussetzung:
-- Effektiver KI-Einsatz im Unterricht beginnt mit einem eigenen Verständnis der Technik.
-- Chatbots als Schlüsseltechnologie für weiterführende KI-Anwendungen.
-
-#### Praktischer Einsatz:
-- KI zur Unterrichtsvorbereitung nutzen und dabei selbst deren Anwendung erlernen.
-
-### 3. Der KI-Assistent---Chatbot im Klassenzimmer
-
-#### Hauptvorteile:
-- Reduziert den Arbeitsaufwand durch Übernahme repetitiver Aufgaben.
-- Ermöglicht Fokussierung auf Didaktik und Fachkompetenz.
-
-#### Wesentliche Voraussetzung:
-- Klare, strukturierte Anweisungen sind entscheidend für den erfolgreichen Einsatz.
-
-### 4. Erstellung von Musterlösungen
-
-#### Merkmale guter Musterlösungen:
-- Klarheit, Vollständigkeit und schrittweise Darstellung.
-- Einsatz von Beispielen und Grafiken zur Veranschaulichung.
-
-#### Beispiel:
-- Detaillierte, strukturierte Lösungen (z.B. LaTeX) für Übungsaufgaben erstellen.
-
-### 5. Gestaltung von Multiple-Choice-Quizzen
-
-#### Richtlinien:
-- Fragen sollen fair sein, kritisches Denken fördern und Raterei vermeiden.
-
-#### Zu beachten:
-- Anleitungen zur Erstellung von MC Fragen konsultieren.
-
-### 6. Verbesserung von Feedback mit KI
-
-#### Effektives Feedback:
-- Beginnt positiv und enthält konstruktive, umsetzbare Vorschläge.
-- Fördert den Dialog und unterstützt Studierende zielgerichtet.
-
-#### Praxisübung:
-- Erstellung von KI-gestütztem Feedback für verschiedene Lernsituationen.
-
-### 7. KI macht Lehrkräfte effektiver
-
-#### Unterstützungsbereiche:
-- Planung von Unterricht und Skripterstellung.
-- Erstellung von Quizzen und Umfragen.
-- Einbindung aktueller Themen, Recherche, Projektideen und Bewertung von Abgaben.
-
-### 8. Neue Denkweisen: System 0, 1 und 2
-
-#### Kognitive Ansätze:
-- **System 2:** Langsam und analytisch.
-- **System 1:** Schnell und intuitiv.
-- **System 0:** Auslagerung der Kognition durch KI.
-
-#### Chancen & Risiken:
-- **Chancen:** Schnelleres Denken, Zugriff auf neues Wissen, fundiertere Entscheidungen.
-- **Risiken:** Verstärkung von Vorurteilen, Kompetenzverlust (Deskilling) und blindes Vertrauen in die Technik.
-:::
-
-
+<!-- ::: {.callout-note collapse="true"}
+::: -->
