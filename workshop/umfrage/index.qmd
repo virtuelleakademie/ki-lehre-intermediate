@@ -1,5 +1,10 @@
 ---
 title: "Auswertung der Umfrage"
 ---
- 
-Wir werten die Umfrage mithilfe von ChatGPT aus.
+
+
+## {{< bi file-slides >}} Präsentation
+
+
+
+- Wir werten die Umfrage mithilfe von ChatGPT aus.
