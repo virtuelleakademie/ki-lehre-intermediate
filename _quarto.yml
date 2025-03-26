@@ -72,7 +72,7 @@ website:
         - workshop/umfrage/index.qmd
         - workshop/wie-chatbots-denken/index.qmd
         - workshop/chatbot-agenten/index.qmd
-        
+
     - title: "Übungen"
       style: "docked"
       search: true
@@ -81,7 +81,9 @@ website:
         - exercises/index.qmd
         - exercises/exercise-1/index.qmd
         - exercises/exercise-2/index.qmd
+        - exercises/exercise-3/index.qmd
         - exercises/miro-board/index.qmd
+        
 page-footer:
   right:
     - icon: github
