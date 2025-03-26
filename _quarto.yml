@@ -40,6 +40,7 @@ website:
         href: exercises/index.qmd
         text: Übungen
 
+    right:
       - icon: file-slides
         text: "Dokumente" # {{< fa person-chalkboard >}}
         menu:
@@ -72,6 +73,7 @@ website:
         - workshop/umfrage/index.qmd
         - workshop/wie-chatbots-denken/index.qmd
         - workshop/chatbot-agenten/index.qmd
+        - workshop/prompting/index.qmd
 
     - title: "Übungen"
       style: "docked"
@@ -83,7 +85,7 @@ website:
         - exercises/exercise-2/index.qmd
         - exercises/exercise-3/index.qmd
         - exercises/miro-board/index.qmd
-        
+
 page-footer:
   right:
     - icon: github
