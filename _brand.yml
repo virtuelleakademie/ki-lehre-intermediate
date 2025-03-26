@@ -1,8 +1,8 @@
 color:
   palette:
     dark-grey: "#222222"
-    blue: "#ddeaf1"
-  background: blue
+    lightgrey: "#F5F5F5"
+  background: lightgrey
   foreground: dark-grey
   primary: black
 

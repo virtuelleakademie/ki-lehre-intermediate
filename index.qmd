@@ -1,5 +1,5 @@
 ---
-title: "Modul 6: KI in der Lehre"
+# title: "KI in der Lehre"
 format:
   html:
     toc: false
@@ -22,11 +22,13 @@ about:
 ---
 
 
-{{< bi calendar-event >}} 21.03.2025
+{{< bi calendar-event >}} 27. März 2025
 
-{{< bi clock >}} 13.13–14.45 Uhr
+{{< bi clock >}} 9:00–12:00 Uhr
 
-<!-- {{< bi map >}} H55, Grosser Konzertsaal, Papiermühlestrasse 13d, 3014 Bern -->
+{{< bi map >}} Raum E103, Effingerstrasse 47, 3008 Bern
+
+<br>
 
 ## Dozenten
 
@@ -38,11 +40,11 @@ Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkung
 
 ## Website
 
-{{< bi link >}} [virtuelleakademie.github.io/cas-hochschuldidaktik](https://virtuelleakademie.github.io/cas-hochschuldidaktik)
+{{< bi link >}} [virtuelleakademie.github.io/ki-lehre-intermediate/](https://virtuelleakademie.github.io/ki-lehre-intermediate/)
 
 <br>
 <!-- ## QR Code -->
-{{< qrcode https://virtuelleakademie.github.io/cas-hochschuldidaktik width=400 height=400 colorDark='#000000' >}}
+{{< qrcode https://virtuelleakademie.github.io/ki-lehre-intermediate/ width=200 height=200 colorDark='#000000' >}}
 
 
 
