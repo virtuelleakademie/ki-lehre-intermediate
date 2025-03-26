@@ -18,6 +18,7 @@ ipython_config.py
 /env/
 *.code-workspace
 data/*
+notes/*
 
 # Quarto
 /.quarto/
