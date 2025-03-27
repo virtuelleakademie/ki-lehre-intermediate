@@ -355,89 +355,89 @@
   {
     "objectID": "workshop/prompting/index.html",
     "href": "workshop/prompting/index.html",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "",
-    "text": "#TODO: use markdown formatting #TODO: bonus tip: think first: state the answer, then explain your reasoning vs explain your reasoning, then state the answer",
+    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. Employing effective prompting techniques is critical, however. This influences whether LLMs support meaningful learning or merely provide superficial answers. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#overview",
     "href": "workshop/prompting/index.html#overview",
-    "title": "Prompting",
-    "section": "Overview",
-    "text": "Overview\nLarge Language Models (LLMs) like ChatGPT can greatly enhance higher education by providing explanations, examples, and instant feedback. Effective prompting is critical, influencing whether the AI supports meaningful learning or merely provides superficial answers. Thoughtfully constructed prompts leverage cognitive science principles, promoting active student engagement and deeper understanding.",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "",
+    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. Employing effective prompting techniques is critical, however. This influences whether LLMs support meaningful learning or merely provide superficial answers. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#key-principles-for-educational-prompting",
     "href": "workshop/prompting/index.html#key-principles-for-educational-prompting",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "Key Principles for Educational Prompting",
-    "text": "Key Principles for Educational Prompting\n\n1. Retrieval Practice\nEncourage recall of learned information to strengthen memory. - Example Prompt (Chemistry): - “Quiz me on three key points from our organic chemistry lecture on reaction kinetics.”\n\n\n2. Scaffolding\nBreak complex tasks into smaller steps to guide students gradually. - Example Prompt: - “First, give the balanced equation for this reaction. Now, what are the initial concentrations?”\n\n\n3. Metacognition\nPromote self-reflection and justification of reasoning. - Example Prompt: - “Explain why you chose this method for determining equilibrium. Are there assumptions you’ve made?”\n\n\n4. Cognitive Load Management\nChunk information clearly to prevent overload. - Example Prompt: - “Define entropy briefly. Next, explain how entropy differs from enthalpy.”",
+    "text": "Key Principles for Educational Prompting\n\n1. Retrieval Practice\nEncourage recall of learned information to strengthen memory.\n\n\n\n\n\n\nTutor:\n\n\n\nQuiz me on three key points from our organic chemistry lecture on reaction kinetics.\n\n\n\n\n2. Scaffolding\nBreak complex tasks into smaller steps to guide students gradually.\n\n\n\n\n\n\nTutor:\n\n\n\nFirst, give the balanced equation for this [chemical] reaction. Now, what are the initial concentrations?\n\n\n\n\n3. Metacognition\nPromote self-reflection and justification of reasoning.\n\n\n\n\n\n\nTutor:\n\n\n\nExplain why you chose this method for determining equilibrium. Are there assumptions you’ve made?\n\n\n\n\n4. Cognitive Load Management\nChunk information clearly to prevent overload.\n\n\n\n\n\n\nTutor:\n\n\n\nDefine entropy briefly. Next, explain how entropy differs from enthalpy.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#effective-prompting-techniques",
     "href": "workshop/prompting/index.html#effective-prompting-techniques",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "Effective Prompting Techniques",
-    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the AI’s responses. - Example: - “You are an organic chemistry tutor helping a first-year student.”\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses. - Example: - “Explain ionic bonding using a real-world analogy suitable for freshmen.”\n\n\nUse Examples or Templates\nDemonstrate the desired output format. - Example: - “Provide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.”\n\n\nChain-of-Thought and Reasoning\nAsk AI to detail its reasoning or provide multiple approaches. - Example: - “Step-by-step, explain how to identify the limiting reagent in this reaction.”\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation. - Example: - “Simplify the previous explanation and provide a metaphor.”",
+    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the LLM’s responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nYou are an organic chemistry tutor helping a first-year student.\n\n\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nExplain ionic bonding using a real-world analogy suitable for freshmen.\n\n\n\n\nUse Examples or Templates\nDemonstrate the desired output.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nProvide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.\n\n\n\n\nChain-of-Thought and Reasoning\nAsk the LLM to detail its reasoning or provide multiple approaches.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nStep-by-step, explain how to identify the limiting reagent in this reaction.\n\n\n\n\n\n\n\n\n✅\n\n\n\nInstruct the LLM to think first: “Explain your reasoning first, then state the answer.”\n\n\n\n\n\n\n\n\n❌\n\n\n\nInstruct the LLM to give the answer first: “State the answer first, then explain your reasoning.”\n\n\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify the previous explanation and provide a metaphor.\n\n\n\n\nUse Markdown Formatting\nUse Markdown formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).\n\n\n\n\n\n\nBasic Markdown Formatting\n\n\n\n\n\n# Heading level 1\n## Heading level 2\n### Heading level 3\n\n**Bold text**\n\n*Italic text*\n\n1. List item 1\n2. List item 2\n3. List item 3\nUse delimiters (e.g. ---, \"\"\") to indicate different roles or parts of a prompt.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#example-teaching-activities",
     "href": "workshop/prompting/index.html#example-teaching-activities",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "Example Teaching Activities",
-    "text": "Example Teaching Activities\n\nIllustrative Analogies:\n\nPrompt: “Create an everyday analogy to illustrate Le Châtelier’s principle.”\n\nPractice Questions Generation:\n\nPrompt: “Create three practice questions on acid-base titrations at varying difficulty levels.”\n\nLesson Planning:\n\nPrompt: “Outline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.”\n\nConcept Explanation at Different Levels:\n\nPrompt: “Explain chemical equilibrium in a sentence, then in a paragraph, and then provide a real-world example.”\n\nInteractive Problem Solving:\n\nPrompt: “Guide me through solving a galvanic cell problem, providing hints without revealing the solution immediately.”",
+    "text": "Example Teaching Activities\n\nIllustrative Analogies\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate an everyday analogy to illustrate Le Châtelier’s principle.\n\n\n\n\nPractice Questions Generation\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate three practice questions on acid-base titrations at varying difficulty levels.\n\n\n\n\n\n\n\n\nNote that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.\n\n\n\n\n\nLesson Planning\n\n\n\n\n\n\nExample Prompt:\n\n\n\nOutline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.\n\n\n\n\nInteractive Problem Solving\n\n\n\n\n\n\nExample Prompt:\n\n\n\nGuide me through solving a galvanic cell problem, providing hints without revealing the solution immediately.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#example-student-activities",
     "href": "workshop/prompting/index.html#example-student-activities",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "Example Student Activities",
-    "text": "Example Student Activities\n\nClarifying Concepts:\n\nPrompt: “Simplify and explain the concept of electrons behaving as waves.”\n\nCreating Study Guides:\n\nPrompt: “Summarize thermodynamics laws and generate two review questions for each.”\n\nSelf-Explanation and Reflection:\n\nPrompt: “Evaluate my explanation of buffer solutions and ask a clarifying follow-up question.”\n\nError-Checking Practice:\n\nPrompt: “Review my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.”\n\nBrainstorming Project Ideas:\n\nPrompt: “Suggest three practical applications of electrochemistry suitable for a student project.”",
+    "text": "Example Student Activities\n\nClarifying Concepts\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify and explain the concept of electrons behaving as waves.\n\n\n\n\nCreating Study Guides\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSummarize thermodynamics laws and generate two review questions for each.\n\n\n\n\nSelf-Explanation and Reflection\n\n\n\n\n\n\nExample Prompt:\n\n\n\nEvaluate my explanation of buffer solutions and ask a clarifying follow-up question.\n\n\n\n\nError-Checking Practice\n\n\n\n\n\n\nExample Prompt:\n\n\n\nReview my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.\n\n\n\n\nBrainstorming Project Ideas\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSuggest three practical applications of electrochemistry suitable for a student project.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#designing-ai-enhanced-assignments",
     "href": "workshop/prompting/index.html#designing-ai-enhanced-assignments",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "Designing AI-Enhanced Assignments",
     "text": "Designing AI-Enhanced Assignments\n\nAlign prompts with clear learning objectives.\nModel effective prompting skills for students.\nCreate assignments requiring iterative AI-student interaction.\nIncorporate reflective components, prompting verification and analysis of AI outputs.\nClearly communicate guidelines for ethical AI usage.\nRegularly iterate and seek student feedback to improve AI integration practices.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
     "objectID": "workshop/prompting/index.html#conclusion",
     "href": "workshop/prompting/index.html#conclusion",
-    "title": "Prompting",
+    "title": "Effective Prompting Strategies in Education",
     "section": "Conclusion",
     "text": "Conclusion\nEffective use of prompts transforms LLMs from passive information providers into active learning partners. By grounding prompt design in cognitive science and thoughtful instructional practice, educators can significantly enhance teaching and learning across disciplines.",
     "crumbs": [
       "Workshop",
-      "Prompting"
+      "Effective Prompting Strategies in Education"
     ]
   },
   {
