@@ -1,91 +1,60 @@
 ---
-title: "Übung 1"
+title: "Übung 1: Tutor erstellen"
 ---
 
-Diese Präsentation zeigt, wie künstliche Intelligenz (KI) und insbesondere Chatbots als digitale Lehrassistenten eingesetzt werden können. Der Fokus liegt darauf, wie diese Technologien die Qualität des Unterrichts verbessern und Lehrende bei ihrer Arbeit effektiv unterstützen können.
 
-## {{< bi file-slides >}} Präsentation
-
-{{< html file="https://slides.com/stefanhackstein/ki-als-lehrassistent/embed" height="500px" class="ratio ratio-16x9" >}}
-
-<br>
-
-## {{< bi book >}} Zusammenfassung
+## Aufgabe
+Passen Sie das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.
 
 ::: {.callout-note collapse="true"}
-## {{< bi book >}} Inhalt der Präsentation
+## Prompt-Template
 
-### 1. KI als Superkraft
+```
+# Lern-Tutor
 
-#### Erweiterte Möglichkeiten:
-- Nutzung vielfältiger Medien
-- Individualisiertes Lernen und flexible Unterrichtsmethoden
-- Praxisorientierter und kompetenzbasierter Unterricht
+Du bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis für ein Thema zu erlangen. 
 
-#### Zentrale Botschaft:
-KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
+---
 
-### 2. KI verstehen, um sie zu lehren
+## Ziel
 
-#### Lernen als Voraussetzung:
-- Effektiver KI-Einsatz im Unterricht beginnt mit einem eigenen Verständnis der Technik.
-- Chatbots als Schlüsseltechnologie für weiterführende KI-Anwendungen.
+*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln – nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*
 
-#### Praktischer Einsatz:
-- KI zur Unterrichtsvorbereitung nutzen und dabei selbst deren Anwendung erlernen.
+---
 
-### 3. Der KI-Assistent---Chatbot im Klassenzimmer
+## Verhaltensleitfaden
 
-#### Hauptvorteile:
-- Reduziert den Arbeitsaufwand durch Übernahme repetitiver Aufgaben.
-- Ermöglicht Fokussierung auf Didaktik und Fachkompetenz.
+### Wenn der Nutzer eine Frage stellt:
+- **[Platzhalter]**
 
-#### Wesentliche Voraussetzung:
-- Klare, strukturierte Anweisungen sind entscheidend für den erfolgreichen Einsatz.
+### Wenn der Nutzer eine Erklärung abgibt:
+- **[Platzhalter]**
 
-### 4. Erstellung von Musterlösungen
+### Wenn der Nutzer eine Wissenslücke bemerkt:
+- **[Platzhalter]**
 
-#### Merkmale guter Musterlösungen:
-- Klarheit, Vollständigkeit und schrittweise Darstellung.
-- Einsatz von Beispielen und Grafiken zur Veranschaulichung.
+### Wenn der Nutzer Fortschritte zeigt:
+- **[Platzhalter]**
 
-#### Beispiel:
-- Detaillierte, strukturierte Lösungen (z.B. LaTeX) für Übungsaufgaben erstellen.
+### Allgemein:
+- **[Platzhalter]**
 
-### 5. Gestaltung von Multiple-Choice-Quizzen
-
-#### Richtlinien:
-- Fragen sollen fair sein, kritisches Denken fördern und Raterei vermeiden.
-
-#### Zu beachten:
-- Anleitungen zur Erstellung von MC Fragen konsultieren.
-
-### 6. Verbesserung von Feedback mit KI
-
-#### Effektives Feedback:
-- Beginnt positiv und enthält konstruktive, umsetzbare Vorschläge.
-- Fördert den Dialog und unterstützt Studierende zielgerichtet.
-
-#### Praxisübung:
-- Erstellung von KI-gestütztem Feedback für verschiedene Lernsituationen.
-
-### 7. KI macht Lehrkräfte effektiver
-
-#### Unterstützungsbereiche:
-- Planung von Unterricht und Skripterstellung.
-- Erstellung von Quizzen und Umfragen.
-- Einbindung aktueller Themen, Recherche, Projektideen und Bewertung von Abgaben.
-
-### 8. Neue Denkweisen: System 0, 1 und 2
-
-#### Kognitive Ansätze:
-- **System 2:** Langsam und analytisch.
-- **System 1:** Schnell und intuitiv.
-- **System 0:** Auslagerung der Kognition durch KI.
-
-#### Chancen & Risiken:
-- **Chancen:** Schnelleres Denken, Zugriff auf neues Wissen, fundiertere Entscheidungen.
-- **Risiken:** Verstärkung von Vorurteilen, Kompetenzverlust (Deskilling) und blindes Vertrauen in die Technik.
+```
 :::
 
 
+::: {.pro-tip collapse="alse"}
+## Hinweis zur Verwendung
+
+Der Initial-Prompt wird einmalig zu Beginn eingegeben und dient dazu, den Chatbot in einen gewünschten Tutormodus zu versetzen. Er bildet die Grundlage für das Verhalten und die didaktische Interaktion im weiteren Verlauf. Wenn der Prompt weiter geändert werden soll, dann muss er direkt ganz oben im Chat editiert werden, oder mit dem geänderten Prompt ein neuer Chat gestartet werden.
+
+:::
+
+## Beispielfragen an den Tutor
+
+- Wie funktioniert ein Initial-Prompt?
+- Was sind `System` und `User` Prompt und wo liegt der Unterschied?
+- Wie lernen LLMs?
+- Wie wählt ein LLM zufällig passende Worte?
+- Während das LLM eine Antwort schreibt, welchen Einfluss haben die schon geschriebenen Worte auf jene, die noch kommen?
+- Welchen Einfluss hat die Struktur  eines Prompts auf die Antwort des LLM?
