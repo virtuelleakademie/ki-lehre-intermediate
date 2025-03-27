@@ -43,7 +43,7 @@ Du bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis fü
 :::
 
 
-::: {.pro-tip collapse="alse"}
+::: {.pro-tip collapse="false"}
 ## Hinweis zur Verwendung
 
 Der Initial-Prompt wird einmalig zu Beginn eingegeben und dient dazu, den Chatbot in einen gewünschten Tutormodus zu versetzen. Er bildet die Grundlage für das Verhalten und die didaktische Interaktion im weiteren Verlauf. Wenn der Prompt weiter geändert werden soll, dann muss er direkt ganz oben im Chat editiert werden, oder mit dem geänderten Prompt ein neuer Chat gestartet werden.
