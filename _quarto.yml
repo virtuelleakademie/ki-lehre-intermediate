@@ -197,16 +197,16 @@ custom-callout:
 
   # Technical Elements
   prompt-example:
-    title: "Example Prompt"
+    title: "Example Prompt:"
     icon-symbol: "👩🏼‍🔧"
     color: "steelblue"
     collapse: false
 
-  output-example:
-    title: "Output Example"
+  tutor-example:
+    title: "Tutor:"
     icon-symbol: "📄"
     color: "purple"
-    collapse: true
+    collapse: false
 
   prompt-template:
     title: "Prompt Template"
