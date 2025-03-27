@@ -1,5 +1,5 @@
 ---
-title: "Ablauf"
+title: "Übersicht"
 ---
 
 | {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
