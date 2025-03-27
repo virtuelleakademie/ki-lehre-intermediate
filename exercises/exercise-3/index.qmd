@@ -6,7 +6,7 @@ title: "Übung 3: Eigenen Agenten erstellen"
 
 **Beispiel:** Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.
 
-::: {.callout-note collapse="true"}
+<!-- ::: {.callout-note collapse="true"}
 ## Sokratischer Tutor
 Konzept vollständig begreifen
 
@@ -24,7 +24,7 @@ Ein neues Konzept schnell verstehen:
 - Wissenslücken identifizieren
 - Wissenslücken füllen
 - Erklärung erweitern & vereinfachen
-:::
+::: -->
 
 
 
@@ -38,4 +38,3 @@ Ein neues Konzept schnell verstehen:
 2. Sie können mit den Prompt-Templates aus der  [Chatbot Agenten](../../workshop/chatbot-agenten/index.qmd) Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.
 3. Überlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.
 :::
-

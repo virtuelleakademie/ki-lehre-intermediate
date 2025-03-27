@@ -5,7 +5,7 @@ description: |
 # date: last-modified
 date: 27 March, 2024
 date-format: "DD MMM, YYYY"
-author: 
+author:
   - name: Andrew Ellis
     url: https://github.com/awellis
     affiliation: Virtuelle Akademie, Berner Fachhochschule
@@ -37,7 +37,7 @@ Large Language Models (LLMs) can greatly enhance education by providing explanat
 Encourage recall of learned information to strengthen memory.
 
 ::: {.tutor-example}
-Quiz me on three key points from our organic chemistry lecture on reaction kinetics.
+Quiz me on three key points from the organic chemistry lecture on reaction kinetics [provided as PDF].
 :::
 
 ### 2. Scaffolding
@@ -134,7 +134,7 @@ Use [Markdown](https://www.markdownguide.org/basic-syntax/) formatting to make t
 
 Use delimiters (e.g. `---`, `"""`) to indicate different roles or parts of a prompt.
 
-::: 
+:::
 
 ## Example Teaching Activities
 
@@ -200,5 +200,3 @@ Review my solution to this equilibrium problem, identify mistakes, and guide me 
 ::: {.prompt-example}
 Suggest three practical applications of electrochemistry suitable for a student project.
 :::
-
-
