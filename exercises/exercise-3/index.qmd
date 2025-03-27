@@ -4,11 +4,7 @@ title: "Übung 3: Eigenen Agenten erstellen"
 
 ## Aufgabe
 
-### Tutor erstellen
-Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.
-
-### Qualitätssicherung
-Überlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?
+**Beispiel:** Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.
 
 ::: {.callout-note collapse="true"}
 ## Sokratischer Tutor
@@ -31,6 +27,10 @@ Ein neues Konzept schnell verstehen:
 :::
 
 
+
+### Qualitätssicherung
+Überlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?
+
 ::: {.pro-tip collapse="false"}
 ## Hinweis zur Verwendung
 
@@ -38,3 +38,4 @@ Ein neues Konzept schnell verstehen:
 2. Sie können mit den Prompt-Templates aus der  [Chatbot Agenten](../../workshop/chatbot-agenten/index.qmd) Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.
 3. Überlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.
 :::
+
