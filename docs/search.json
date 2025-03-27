@@ -324,7 +324,7 @@
     "href": "exercises/exercise-3/index.html",
     "title": "Übung 3: Eigenen Agenten erstellen",
     "section": "",
-    "text": "Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.\n\n\n\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?\n\n\n\n\n\n\nSokratischer Tutor\n\n\n\n\n\nKonzept vollständig begreifen\n\nVerständis durch Fragen & Diskussion\nDeckt Widersprüche & Fehler auf\nUnterstützt erlangen von Wissen\n\n\n\n\n\n\n\n\n\n\nFeynman Tutor\n\n\n\n\n\nEin neues Konzept schnell verstehen:\n\nEinfache Erklärung schreiben\nWissenslücken identifizieren\nWissenslücken füllen\nErklärung erweitern & vereinfachen\n\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\n\nVerwenden Sie entweder Copilot oder HuggingChat um Ihren Agenten zu erstellen.\nSie können mit den Prompt-Templates aus der Chatbot Agenten Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.",
+    "text": "Beispiel: Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.\n\n\n\n\n\n\nSokratischer Tutor\n\n\n\n\n\nKonzept vollständig begreifen\n\nVerständis durch Fragen & Diskussion\nDeckt Widersprüche & Fehler auf\nUnterstützt erlangen von Wissen\n\n\n\n\n\n\n\n\n\n\nFeynman Tutor\n\n\n\n\n\nEin neues Konzept schnell verstehen:\n\nEinfache Erklärung schreiben\nWissenslücken identifizieren\nWissenslücken füllen\nErklärung erweitern & vereinfachen\n\n\n\n\n\n\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\n\nVerwenden Sie entweder Copilot oder HuggingChat um Ihren Agenten zu erstellen.\nSie können mit den Prompt-Templates aus der Chatbot Agenten Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.",
     "crumbs": [
       "Übungen",
       "Übung 3: Eigenen Agenten erstellen"
@@ -333,23 +333,23 @@
   {
     "objectID": "exercises/exercise-3/index.html#präsentation",
     "href": "exercises/exercise-3/index.html#präsentation",
-    "title": "Übung 3: Eigenen Agenten erstellen",
+    "title": "Übung 1",
     "section": " Präsentation",
     "text": "Präsentation\n    View webpage in full screen",
     "crumbs": [
       "Übungen",
-      "Übung 3: Eigenen Agenten erstellen"
+      "Übung 1"
     ]
   },
   {
     "objectID": "exercises/exercise-3/index.html#zusammenfassung",
     "href": "exercises/exercise-3/index.html#zusammenfassung",
-    "title": "Übung 3: Eigenen Agenten erstellen",
+    "title": "Übung 1",
     "section": " Zusammenfassung",
     "text": "Zusammenfassung\n\n\n\n\n\n\n Inhalt der Präsentation\n\n\n\n\n\n\n1. KI als Superkraft\n\nErweiterte Möglichkeiten:\n\nNutzung vielfältiger Medien\nIndividualisiertes Lernen und flexible Unterrichtsmethoden\nPraxisorientierter und kompetenzbasierter Unterricht\n\n\n\nZentrale Botschaft:\nKI ist eine “Superkraft”, die neue Lehrmöglichkeiten eröffnet.\n\n\n\n2. KI verstehen, um sie zu lehren\n\nLernen als Voraussetzung:\n\nEffektiver KI-Einsatz im Unterricht beginnt mit einem eigenen Verständnis der Technik.\nChatbots als Schlüsseltechnologie für weiterführende KI-Anwendungen.\n\n\n\nPraktischer Einsatz:\n\nKI zur Unterrichtsvorbereitung nutzen und dabei selbst deren Anwendung erlernen.\n\n\n\n\n3. Der KI-Assistent—Chatbot im Klassenzimmer\n\nHauptvorteile:\n\nReduziert den Arbeitsaufwand durch Übernahme repetitiver Aufgaben.\nErmöglicht Fokussierung auf Didaktik und Fachkompetenz.\n\n\n\nWesentliche Voraussetzung:\n\nKlare, strukturierte Anweisungen sind entscheidend für den erfolgreichen Einsatz.\n\n\n\n\n4. Erstellung von Musterlösungen\n\nMerkmale guter Musterlösungen:\n\nKlarheit, Vollständigkeit und schrittweise Darstellung.\nEinsatz von Beispielen und Grafiken zur Veranschaulichung.\n\n\n\nBeispiel:\n\nDetaillierte, strukturierte Lösungen (z.B. LaTeX) für Übungsaufgaben erstellen.\n\n\n\n\n5. Gestaltung von Multiple-Choice-Quizzen\n\nRichtlinien:\n\nFragen sollen fair sein, kritisches Denken fördern und Raterei vermeiden.\n\n\n\nZu beachten:\n\nAnleitungen zur Erstellung von MC Fragen konsultieren.\n\n\n\n\n6. Verbesserung von Feedback mit KI\n\nEffektives Feedback:\n\nBeginnt positiv und enthält konstruktive, umsetzbare Vorschläge.\nFördert den Dialog und unterstützt Studierende zielgerichtet.\n\n\n\nPraxisübung:\n\nErstellung von KI-gestütztem Feedback für verschiedene Lernsituationen.\n\n\n\n\n7. KI macht Lehrkräfte effektiver\n\nUnterstützungsbereiche:\n\nPlanung von Unterricht und Skripterstellung.\nErstellung von Quizzen und Umfragen.\nEinbindung aktueller Themen, Recherche, Projektideen und Bewertung von Abgaben.\n\n\n\n\n8. Neue Denkweisen: System 0, 1 und 2\n\nKognitive Ansätze:\n\nSystem 2: Langsam und analytisch.\nSystem 1: Schnell und intuitiv.\nSystem 0: Auslagerung der Kognition durch KI.\n\n\n\nChancen & Risiken:\n\nChancen: Schnelleres Denken, Zugriff auf neues Wissen, fundiertere Entscheidungen.\nRisiken: Verstärkung von Vorurteilen, Kompetenzverlust (Deskilling) und blindes Vertrauen in die Technik.",
     "crumbs": [
       "Übungen",
-      "Übung 3: Eigenen Agenten erstellen"
+      "Übung 1"
     ]
   },
   {
@@ -489,7 +489,7 @@
     "href": "exercises/exercise-3/index.html#aufgabe",
     "title": "Übung 3: Eigenen Agenten erstellen",
     "section": "",
-    "text": "Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.\n\n\n\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?\n\n\n\n\n\n\nSokratischer Tutor\n\n\n\n\n\nKonzept vollständig begreifen\n\nVerständis durch Fragen & Diskussion\nDeckt Widersprüche & Fehler auf\nUnterstützt erlangen von Wissen\n\n\n\n\n\n\n\n\n\n\nFeynman Tutor\n\n\n\n\n\nEin neues Konzept schnell verstehen:\n\nEinfache Erklärung schreiben\nWissenslücken identifizieren\nWissenslücken füllen\nErklärung erweitern & vereinfachen\n\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\n\nVerwenden Sie entweder Copilot oder HuggingChat um Ihren Agenten zu erstellen.\nSie können mit den Prompt-Templates aus der Chatbot Agenten Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.",
+    "text": "Beispiel: Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.\n\n\n\n\n\n\nSokratischer Tutor\n\n\n\n\n\nKonzept vollständig begreifen\n\nVerständis durch Fragen & Diskussion\nDeckt Widersprüche & Fehler auf\nUnterstützt erlangen von Wissen\n\n\n\n\n\n\n\n\n\n\nFeynman Tutor\n\n\n\n\n\nEin neues Konzept schnell verstehen:\n\nEinfache Erklärung schreiben\nWissenslücken identifizieren\nWissenslücken füllen\nErklärung erweitern & vereinfachen\n\n\n\n\n\n\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\n\nVerwenden Sie entweder Copilot oder HuggingChat um Ihren Agenten zu erstellen.\nSie können mit den Prompt-Templates aus der Chatbot Agenten Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.",
     "crumbs": [
       "Übungen",
       "Übung 3: Eigenen Agenten erstellen"
