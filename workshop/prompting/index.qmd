@@ -1,5 +1,5 @@
 ---
-title: "Prompting"
+title: "Effective Prompting Strategies in Education"
 description: |
   Basic prompting techniques.
 # date: last-modified
@@ -27,107 +27,178 @@ format:
         callout-icon: false
 ---
 
-::: {.callout-tip}
-#TODO: use markdown formatting
-#TODO: bonus tip: think first: state the answer, then explain your reasoning vs explain your reasoning, then state the answer
-:::
-
-# Effective Prompting Strategies for Large Language Models in Higher Education
 
 ## Overview
-Large Language Models (LLMs) like ChatGPT can greatly enhance higher education by providing explanations, examples, and instant feedback. Effective prompting is critical, influencing whether the AI supports meaningful learning or merely provides superficial answers. Thoughtfully constructed prompts leverage cognitive science principles, promoting active student engagement and deeper understanding.
+Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. Employing effective prompting techniques is critical, however. This influences whether LLMs support meaningful learning or merely provide superficial answers. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.
 
 ## Key Principles for Educational Prompting
 
 ### 1. Retrieval Practice
 Encourage recall of learned information to strengthen memory.
-- **Example Prompt (Chemistry):**
-  - "Quiz me on three key points from our organic chemistry lecture on reaction kinetics."
+
+::: {.tutor-example}
+Quiz me on three key points from our organic chemistry lecture on reaction kinetics.
+:::
 
 ### 2. Scaffolding
 Break complex tasks into smaller steps to guide students gradually.
-- **Example Prompt:**
-  - "First, give the balanced equation for this reaction. Now, what are the initial concentrations?"
+
+::: {.tutor-example}
+First, give the balanced equation for this [chemical] reaction. Now, what are the initial concentrations?
+:::
 
 ### 3. Metacognition
 Promote self-reflection and justification of reasoning.
-- **Example Prompt:**
-  - "Explain why you chose this method for determining equilibrium. Are there assumptions you've made?"
+
+::: {.tutor-example}
+Explain why you chose this method for determining equilibrium. Are there assumptions you've made?
+:::
 
 ### 4. Cognitive Load Management
 Chunk information clearly to prevent overload.
-- **Example Prompt:**
-  - "Define entropy briefly. Next, explain how entropy differs from enthalpy."
+
+::: {.tutor-example}
+Define entropy briefly. Next, explain how entropy differs from enthalpy.
+:::
+
 
 ## Effective Prompting Techniques
 
 ### Set Clear Roles and Contexts
-Provide explicit roles to guide the AI’s responses.
-- **Example:**
-  - "You are an organic chemistry tutor helping a first-year student."
+Provide explicit roles to guide the LLM's responses.
+
+::: {.prompt-example}
+You are an organic chemistry tutor helping a first-year student.
+:::
 
 ### Specify Tasks and Formats Clearly
 Be specific to ensure precise responses.
-- **Example:**
-  - "Explain ionic bonding using a real-world analogy suitable for freshmen."
+
+::: {.prompt-example}
+Explain ionic bonding using a real-world analogy suitable for freshmen.
+:::
 
 ### Use Examples or Templates
-Demonstrate the desired output format.
-- **Example:**
-  - "Provide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example."
+Demonstrate the desired output.
+
+::: {.prompt-example}
+Provide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.
+:::
+
 
 ### Chain-of-Thought and Reasoning
-Ask AI to detail its reasoning or provide multiple approaches.
-- **Example:**
-  - "Step-by-step, explain how to identify the limiting reagent in this reaction."
+Ask the LLM to detail its reasoning or provide multiple approaches.
+
+::: {.prompt-example}
+Step-by-step, explain how to identify the limiting reagent in this reaction.
+:::
+
+:::{.callout-tip appearance="default"}
+## ✅
+Instruct the LLM to think first: "Explain your reasoning first, then state the answer."
+:::
+
+:::{.callout-warning appearance="default"}
+## ❌
+Instruct the LLM to give the answer first: "State the answer first, then explain your reasoning."
+:::
+
+
 
 ### Iterative Refinement
 Treat prompting as an interactive process, refining outputs through conversation.
-- **Example:**
-  - "Simplify the previous explanation and provide a metaphor."
+
+::: {.prompt-example}
+Simplify the previous explanation and provide a metaphor.
+:::
+
+
+### Use Markdown Formatting
+Use [Markdown](https://www.markdownguide.org/basic-syntax/) formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).
+
+::: {.callout-tip collapse="true"}
+## Basic Markdown Formatting
+```markdown
+# Heading level 1
+## Heading level 2
+### Heading level 3
+
+**Bold text**
+
+*Italic text*
+
+1. List item 1
+2. List item 2
+3. List item 3
+```
+
+Use delimiters (e.g. `---`, `"""`) to indicate different roles or parts of a prompt.
+
+::: 
 
 ## Example Teaching Activities
 
-- **Illustrative Analogies:**
-  - Prompt: "Create an everyday analogy to illustrate Le Châtelier’s principle."
+### Illustrative Analogies
 
-- **Practice Questions Generation:**
-  - Prompt: "Create three practice questions on acid-base titrations at varying difficulty levels."
+::: {.prompt-example}
+Create an everyday analogy to illustrate Le Châtelier’s principle.
+:::
 
-- **Lesson Planning:**
-  - Prompt: "Outline a 50-minute lesson plan on the ideal gas law with an interactive demonstration."
+### Practice Questions Generation
 
-- **Concept Explanation at Different Levels:**
-  - Prompt: "Explain chemical equilibrium in a sentence, then in a paragraph, and then provide a real-world example."
+::: {.prompt-example}
+Create three practice questions on acid-base titrations at varying difficulty levels.
+:::
 
-- **Interactive Problem Solving:**
-  - Prompt: "Guide me through solving a galvanic cell problem, providing hints without revealing the solution immediately."
+:::{.callout-warning}
+Note that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.
+:::
+
+
+### Lesson Planning
+
+::: {.prompt-example}
+Outline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.
+:::
+
+
+### Interactive Problem Solving
+
+::: {.prompt-example}
+Guide me through solving a galvanic cell problem, providing hints without revealing the solution immediately.
+:::
+
 
 ## Example Student Activities
 
-- **Clarifying Concepts:**
-  - Prompt: "Simplify and explain the concept of electrons behaving as waves."
+### Clarifying Concepts
 
-- **Creating Study Guides:**
-  - Prompt: "Summarize thermodynamics laws and generate two review questions for each."
+::: {.prompt-example}
+Simplify and explain the concept of electrons behaving as waves.
+:::
 
-- **Self-Explanation and Reflection:**
-  - Prompt: "Evaluate my explanation of buffer solutions and ask a clarifying follow-up question."
+### Creating Study Guides
 
-- **Error-Checking Practice:**
-  - Prompt: "Review my solution to this equilibrium problem, identify mistakes, and guide me in correcting them."
+::: {.prompt-example}
+Summarize thermodynamics laws and generate two review questions for each.
+:::
 
-- **Brainstorming Project Ideas:**
-  - Prompt: "Suggest three practical applications of electrochemistry suitable for a student project."
+### Self-Explanation and Reflection
 
-## Designing AI-Enhanced Assignments
-- Align prompts with clear learning objectives.
-- Model effective prompting skills for students.
-- Create assignments requiring iterative AI-student interaction.
-- Incorporate reflective components, prompting verification and analysis of AI outputs.
-- Clearly communicate guidelines for ethical AI usage.
-- Regularly iterate and seek student feedback to improve AI integration practices.
+::: {.prompt-example}
+Evaluate my explanation of buffer solutions and ask a clarifying follow-up question.
+:::
 
-## Conclusion
-Effective use of prompts transforms LLMs from passive information providers into active learning partners. By grounding prompt design in cognitive science and thoughtful instructional practice, educators can significantly enhance teaching and learning across disciplines.
+### Error-Checking Practice
+
+::: {.prompt-example}
+Review my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.
+:::
+
+### Brainstorming Project Ideas
+
+::: {.prompt-example}
+Suggest three practical applications of electrochemistry suitable for a student project.
+:::
+
 
