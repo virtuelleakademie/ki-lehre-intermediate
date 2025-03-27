@@ -29,7 +29,7 @@ format:
 
 
 ## Overview
-Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. Employing effective prompting techniques is critical, however. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.
+Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.
 
 ## Key Principles for Educational Prompting
 
