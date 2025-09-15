@@ -45,7 +45,3 @@ Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkung
 <br>
 <!-- ## QR Code -->
 {{< qrcode https://virtuelleakademie.github.io/ki-lehre-intermediate/ width=200 height=200 colorDark='#000000' >}}
-
-
-
-
