@@ -22,38 +22,15 @@ subtitle: "Cognitive effort isn't a bug---it’s the feature"
 
 Aber halt...
 
-:::{.fragment}
 🤔
-:::
 
 :::{.fragment}
 ### Sollten **Lernende** überhaupt produktiver sein?
 :::
 
 :::{.fragment}
-Was ist, wenn **Anstrengung** der Punkt ist, nicht das **Ergebnis**?
+Was ist, wenn **Anstrengung** beim Lernen wichtig ist als das **Ergebnis**?
 :::
-
-
-## Experten vs. Anfänger {.smaller}
-
-**Zwei verschiedene Betriebssysteme**
-
-| Dimension       | 🎯 **Experten**                                                 | 🗺️ **Anfänger**                                                              |
-| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **Sehen**       | • Bedeutungsvolle Muster (Chunks)                                | • Einzelne Teile                                                                |
-| **Verarbeiten** | • Automatische Prozeduren<br>• Vorwärtsverkettung<br>• Unbewusst | • Schritt-für-Schritt-Denken<br>• Rückwärtsverkettung<br>• Bewusste Anstrengung |
-| **Gedächtnis**  | • bedeutungsvolle Chunks<br>• Prozedural ("Ich weiss wie")       | • separate Fakten<br>• Deklarativ ("Ich weiss dass")                            |
-| **Neural**      | • Myelinisierte neuronale Bahnen<br>• Viele Stunden geübt        | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 |
-|                 |                                                                  |                                                                                 |
-
-
-
-::: {.callout-important}
-Experten haben die neuronale Architektur, die Anfänger erst entwickeln müssen
-:::
-
-
 
 
 ## Warum existieren Schulen?
@@ -63,7 +40,7 @@ Wir unterscheiden zwischen:
 
 ::::{.columns}
 :::{.column width="50%"}
-**Biologisch primärem Wissen**: 
+**Biologisch primärem Wissen**:
 
 - Wofür wir evolutionär angepasst sind
 - Lernen geschieht mühelos und automatisch
@@ -83,29 +60,148 @@ Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, w
 :::
 
 
+## Experten vs. Anfänger {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important}
+Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen.
+:::
+:::
+
+
+
+::: {.column width="50%"}
+![](../../assets/images/chess.png){width=30% fig-align="center"}
+:::
+
+::::
+
+
+**Zwei verschiedene Betriebssysteme**
+
+| Dimension       | **Anfänger**                                                              | **Experten**                                                 |
+| --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Sehen**       | • Einzelne Teile                                                                | • Bedeutungsvolle Muster                                |
+| **Verarbeiten** | • Schritt-für-Schritt-Denken<br>• Deliberativ<br>• Bewusste Anstrengung | • Automatische Prozeduren<br>• Intuitiv<br>• Unbewusst |
+| **Neural**      | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 | • Myelinisierte neuronale Bahnen<br>• Tausende Stunden geübt        |
+|                 |                                                                  |                                                                                 |
+
+
+## Cognitive Load Theory {.smaller}
+
+**Warum Anfänger anders lernen müssen als Experten**
+
+::::{.columns}
+:::{.column width="50%"}
+### Arbeitsgedächtnis
+
+- **Begrenzt**: Wenige Elemente gleichzeitig
+- **Flüchtig**: Sekunden bis Minuten
+- **Bottleneck**: Hier findet aktives Lernen statt
+- **Problem**: Schnell überlastet bei komplexen Aufgaben
+:::
+
+:::{.column width="50%"}
+### Langzeitgedächtnis
+
+- **Unbegrenzt**: Keine bekannte Obergrenze
+- **Dauerhaft**: Jahre bis lebenslang
+- **Organisiert**: Schemata und Chunks
+- **Lösung**: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht
+:::
+::::
+
+<br>
+
+::: {.callout-tip}
+**Kernprinzip**: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstrukturen)
+:::
+
+
+## Die drei Arten kognitiver Belastung {.smaller}
+
+| Art | Definition | Beispiel | Gestaltbar? |
+|-----|------------|----------|-------------|
+| **Intrinsisch** | Komplexität des Lernstoffs selbst | Quantenphysik hat höhere intrinsische Last als Addition | ❌ Nur durch Sequenzierung |
+| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | ✅ Durch gutes Design minimierbar |
+| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | ✅ Sollte maximiert werden |
+
+<br>
+
+::: {.callout-warning}
+**Das Lerndilemma**:
+
+- Gesamtlast darf Arbeitsgedächtnis nicht überfordern
+- Aber: Lernrelevanter _cognitive load_ ist essentiell für Expertise-Entwicklung
+- **Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen
+:::
+
+
+## CLT-Prinzipien für effektives Lernen {.smaller}
+
+| Prinzip | Für Anfänger | Für Fortgeschrittene | Implikation |
+|---------|--------------|----------------------|-------------|
+| **Worked Examples** | ✅ Reduziert kognitive Last durch Beispiele | ❌ Langweilt und hemmt | Scaffolding anpassen |
+| **Problem Solving** | ❌ Überfordert das Arbeitsgedächtnis | ✅ Fördert Schemabildung | Timing ist kritisch |
+| **Split-Attention** | Text + Bild integriert präsentieren | Weniger relevant | Klare Darstellung wählen  |
+
+<br>
+
+::: {.callout-important}
+### Der Expertise Reversal Effect
+
+Was Experten hilft, kann Anfängern schaden – und umgekehrt. Lernumgebungen müssen sich an das Niveau anpassen.
+:::
+
+**Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
+
+
+## CLT und KI: Cognitive Offloading {.smaller}
+
+**Das Lernparadox: KI optimiert für Produktion statt Lernen**
+
+| Kognitive Last | Ohne KI | Mit KI | Konsequenz |
+|--------|---------|--------|------------|
+| **Intrinsisch** | Bleibt konstant | Scheint reduziert | Komplexität wird versteckt, nicht bewältigt |
+| **Extrinsisch** | Variabel | ✅ Minimiert | Gut für Effizienz |
+| **Lernrelevant** | Wird aufgebracht | ❌ Eliminiert | Keine Schemabildung |
+
+## CLT und KI: Cognitive Offloading {.smaller}
+
+**Drei kritische Lernmechanismen werden ausgeschaltet:**
+
+| Mechanismus | Normal | Mit KI-Offloading |
+|-------------|--------|-------------------|
+| **Vorhersagefehler** | Lücke zwischen Erwartung & Realität = Lernsignal | Keine Erwartungen → kein Lernen |
+| **Gedächtniskonsolidierung** | Aktive Verarbeitung → Speicherung | Passive Konsumption → Vergessen |
+| **Prozedurale Entwicklung** | Tausende Wiederholungen → Automatismen | Überspringen → keine Expertise |
+
+::: {.callout-warning}
+**Die CLT-Perspektive**: Schwierigkeit ist kein Bug – sie ist das zentrale Feature für Expertise-Entwicklung
+:::
+
+
 ## Wie Expertise entwickelt wird {.smaller}
 
-
+**Von Fakten zu automatisierten Prozeduren**
 
 | Gedächtnissystem                | Beschreibung        | Eigenschaften                                                       | Beispiel                                                |
 | -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Declaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer und angstender Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
-| **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte "atomische" Gedankenschritte<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen, dass $x = 5$.               |
+| **Deklaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
+| **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte Prozesse<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen: $x = 5$               |
 
-
-**Die Entwicklung**: Fakten → Tausende Übungszyklen → Automatische Prozeduren → Expertise
-
-
-:::: {.columns}
-::: {.column width="40%"}
 <br>
 
-**Warum Anstrengung wichtig ist**: Üben stärkt die neuronalen Bahnen, die Expertise erzeugen
+:::: {.columns}
+::: {.column width="50%"}
+### Der Weg zur Expertise
+Deklarative Fakten → Tausende Übungszyklen → Prozedurale Automatismen
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 ![](../../assets/images/ACTR3.jpg)
-
 :::
 ::::
 
@@ -134,43 +230,6 @@ Abbildung von [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/act-r/
 
 **Merksatz:** "Cognitive effort isn't a bug---it’s the feature."
 
-
-## Das Problem der kognitiven Auslagerung {.smaller}
-
-Drei Wege, wie Lernen gestört wird:
-
-| Problem | Mechanismus | Konsequenz der Auslagerung an KI |
-|---------|-------------|-----------------------------------|
-| **Keine Vorhersagefehler** | Gehirn lernt aus Lücken zwischen "was ich erwarte" und "was passiert" | Eliminiert dies vollständig |
-| **Keine Gedächtnisbildung** | Information, die nicht aktiv verarbeitet wird, wird nicht gespeichert | Liefert Antworten ohne Verarbeitung |
-| **Keine prozedurale Entwicklung** | Expertise erfordert tausende "atomare Denkschritte" | Überspringt diesen Aufbauprozess |
-
-
-<br> <br>
-
-::: {.callout-warning}
-**Ergebnis**: Die Auslagerung kognitiver Prozesse (*cognitive offloading*) kann zu oberflächlicher Verarbeitung ohne tiefes Verständnis und Abhängigkeit von Tools führen.
-:::
-
-## Das LERN-Protokoll {.smaller}
-
-| | 🎯 Aktion | ⚡ Warum | 🚫 Nicht |
-|---|-----------|----------|----------|
-| **L**ass Schwierigkeit zu | Verwirrung aushalten | Anstrengung = neuronale Bahnen | Lösungen nachschlagen |
-| **E**rlaube Fehler | Erst raten, dann prüfen | Vorhersagefehler = Lernsignal | Fehler vermeiden |
-| **R**ufe aktiv ab | Ohne Notizen erklären | Generierung > Erkennung | Passiv lesen |
-| **N**utze Abstände | Nach Tagen wiederholen | Vergessen + Neulernen = Behalten | Massiert üben |
-
-:::{.callout-tip}
-## Die 85%-Regel
-Ziel: ~85% Erfolg (nicht 95%+ oder <70%)
-:::
-
-> **Jeder leichte Weg = eine verpasste Lernchance**
-
-::: {.attribution}
-Von [Claude](https://www.claude.ai) generiert.
-:::
 
 ## Bibliographie
 
