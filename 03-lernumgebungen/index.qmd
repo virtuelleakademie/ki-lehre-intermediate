@@ -2,14 +2,14 @@
 title: "KI-gestütztes Lerndesign"
 ---
 
-## {{< bi megaphone >}} Aktive Verarbeitung
+## Aktive Verarbeitung
 
 ::: {.active-processing}
 ## Copilot Agent für effektives Lernen entwickeln (60 Min)
 
 Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus "Make it Stick" für dein eigenes Lehrthema umsetzt.
 
-**Ziel**: Der Agent soll das Lernen **fördern**, nicht **ersetzen** - wissenschaftlich fundiert und praxisnah.
+**Ziel**: Der Agent soll das Lernen **fördern**, nicht **ersetzen**.
 
 **Format**: Think-Pair-Share
 :::
@@ -18,7 +18,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 ## Einführung: Die 8 Make it Stick Strategien (10 Min)
 
-### ✅ Die wissenschaftlich bewährten Lernstrategien:
+### Die wissenschaftlich bewährten Lernstrategien:
 
 | Strategie | Kern-Prinzip | Warum effektiv? |
 |-----------|--------------|-----------------|
@@ -57,25 +57,25 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 **Entwickle deinen Copilot Agent mit dem Agent-Design-Template:**
 
-#### 🎯 **Agent-Mission**
+#### **Agent-Mission**
 *Was ist das Hauptziel deines Agents?*
 
-#### 🔧 **Was der Agent TUT:**
+#### **Was der Agent TUT:**
 - Konkrete Funktion 1: ________________________
 - Konkrete Funktion 2: ________________________
 - Konkrete Funktion 3: ________________________
 
-#### 🧠 **Was der LERNENDE tut:**
+#### **Was der LERNENDE tut:**
 - Lernaktivität 1: ________________________
 - Lernaktivität 2: ________________________
 - Lernaktivität 3: ________________________
 
-#### ⚖️ **Lernrelevante Last Check:**
+#### **Lernrelevante Last Check:**
 - **Macht der Agent das Lernen besser oder nur einfacher?**
 - **Bleibt die gewünschte Schwierigkeit erhalten?**
 - **Fördert der Agent die gewählte Make-it-Stick-Strategie?**
 
-#### 📱 **Agent-Prototyp:**
+#### **Agent-Prototyp:**
 *Skizziere oder beschreibe, wie der Agent funktioniert (Flowchart, Storyboard, oder detaillierte Beschreibung)*
 
 ---

@@ -19,8 +19,8 @@ Jedes Beispiel zeigt:
 
 ### **Beispiel: Statistik-Tutor**
 
-**Lehrthema**: Inferenzstatistik (Hypothesentests)
-**Problem**: Studierende können Konzepte erkennen, aber nicht aktiv anwenden
+- **Lehrthema**: Inferenzstatistik (Hypothesentests)
+- **Problem**: Studierende können Konzepte erkennen, aber nicht aktiv anwenden
 
 **Agent macht:**
 
@@ -36,7 +36,7 @@ Jedes Beispiel zeigt:
 - Reflektieren über Fehlerquellen
 - Selbsteinschätzung vor Feedback
 
-**Warum es funktioniert**: Agent generiert die Übung, aber **Lernende müssen aktiv abrufen und denken**.
+**Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken.
 
 ---
 
@@ -44,8 +44,8 @@ Jedes Beispiel zeigt:
 
 ### **Beispiel: Anatomie-Coach**
 
-**Lehrthema**: Medizin - Anatomische Strukturen
-**Problem**: Bulimie-Lernen vor Prüfungen, schnelles Vergessen
+- **Lehrthema**: Medizin---Anatomische Strukturen
+- **Problem**: Bulimie-Lernen vor Prüfungen, schnelles Vergessen
 
 **Agent macht:**
 
@@ -59,9 +59,9 @@ Jedes Beispiel zeigt:
 - Anatomie aktiv benennen (ohne Hilfe)
 - Strukturen zeichnen und beschriften
 - Verbindungen zwischen Systemen erklären
-- Langzeit-Commitment zum regelmäßigen Üben
+- Langzeit-Commitment zum regelmässigen Üben
 
-**Warum es funktioniert**: Agent optimiert **wann** gelernt wird, aber **nicht was und wie**.
+**Warum es funktioniert**: Agent optimiert wann gelernt wird, aber nicht was und wie.
 
 ---
 
@@ -69,8 +69,8 @@ Jedes Beispiel zeigt:
 
 ### **Beispiel: Programmier-Mentor**
 
-**Lehrthema**: Algorithmen und Datenstrukturen
-**Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
+- **Lehrthema**: Algorithmen und Datenstrukturen
+- **Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
 
 **Agent macht:**
 
@@ -86,7 +86,7 @@ Jedes Beispiel zeigt:
 - Vergleichen und kontrastieren verschiedene Ansätze
 - Entwickeln "Problem-Pattern-Recognition"
 
-**Warum es funktioniert**: Agent **mixt** die Aufgaben, aber Lernende müssen **diskriminieren und wählen**.
+**Warum es funktioniert**: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen.
 
 ---
 
@@ -94,15 +94,14 @@ Jedes Beispiel zeigt:
 
 ### **Beispiel: Physik-Simulator**
 
-**Lehrthema**: Newtonsche Mechanik
-**Problem**: Können Formeln anwenden, aber nicht in neuen Kontexten
+- **Lehrthema**: Newtonsche Mechanik
+- **Problem**: Können Formeln anwenden, aber nicht in neuen Kontexten
 
 **Agent macht:**
 
 - Generiert vielfältige Anwendungsszenarien
 - Variiert Parameter, Kontexte, Darstellungsformen
 - Erstellt real-world Problemsituationen
-- Sammelt verschiedene Visualisierungen
 
 **Lernende tun:**
 
@@ -111,7 +110,7 @@ Jedes Beispiel zeigt:
 - Problem-Situationen selbst analysieren und modellieren
 - Transfer auf völlig neue Bereiche leisten
 
-**Warum es funktioniert**: Agent **variiert** die Kontexte, aber Lernende müssen **Prinzipien erkennen und anwenden**.
+**Warum es funktioniert**: Agent variiert die Kontexte, Lernende müssen Prinzipien erkennen und anwenden.
 
 ---
 
@@ -124,7 +123,7 @@ Jedes Beispiel zeigt:
 
 **Agent macht:**
 
-- Erstellt ambige, mehrdeutige Situationen
+- Erstellt mehrdeutige Situationen
 - Präsentiert widersprüchliche Evidenz
 - Generiert "Productive Struggle" Szenarien
 - Gibt delayed und minimales Feedback
@@ -136,32 +135,32 @@ Jedes Beispiel zeigt:
 - Biases in eigenen Denkprozessen entdecken
 - Komplexe, nuancierte Analysen entwickeln
 
-**Warum es funktioniert**: Agent **erzeugt** Struggle, aber Lernende müssen **durch die Schwierigkeit durcharbeiten**.
+**Warum es funktioniert**: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten.
 
 ---
 
 ## 6. Verstehen vs. Vertrautheit
 
-### **Beispiel: Wirtschafts-Sokrates**
+### **Beispiel: Erklärungs-Coach (Feynman-Technik)**
 
-**Lehrthema**: Makroökonomie (Geld- und Fiskalpolitik)
-**Problem**: Können Definitionen wiedergeben, aber nicht erklären
+- **Lehrthema**: Computernetzwerke (TCP/IP-Protokoll)
+- **Problem**: Können Fachbegriffe verwenden, aber nicht einfach erklären was passiert
 
 **Agent macht:**
 
-- Stellt Socratic Questions ("Warum denkst du das?")
-- Fordert Erklärungen in eigenen Worten
-- Deckt Verständnislücken durch gezielte Fragen auf
-- Überprüft konzeptuelles vs. oberflächliches Wissen
+- Fordert Erklärungen für 8-Jährige ("Erkläre TCP so, dass es ein Kind versteht")
+- Identifiziert verwendete Fachbegriffe und verlangt Übersetzung
+- Generiert Analogie-Aufgaben ("TCP ist wie...")
+- Testet Verständnis durch Vereinfachungs-Challenges
 
 **Lernende tun:**
 
-- Komplexe Konzepte in einfacher Sprache erklären
-- Annahmen und Begründungen explizit machen
-- Verbindungen zwischen Konzepten herstellen
-- "Teaching" Moments nutzen
+- Komplexe Konzepte ohne Jargon erklären
+- Eigene Analogien entwickeln und testen
+- Verständnislücken selbst entdecken beim Erklärungsversuch
+- Konzepte in verschiedenen Abstraktionsebenen darstellen
 
-**Warum es funktioniert**: Agent **fragt**, aber Lernende müssen **denken und erklären**.
+**Warum es funktioniert**: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust---die ultimative Verstehens-Prüfung.
 
 ---
 
@@ -169,8 +168,8 @@ Jedes Beispiel zeigt:
 
 ### **Beispiel: Schreibtrainer-Coach**
 
-**Lehrthema**: Akademisches Schreiben
-**Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
+- **Lehrthema**: Akademisches Schreiben
+- **Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
 
 **Agent macht:**
 
@@ -186,7 +185,7 @@ Jedes Beispiel zeigt:
 - Feedback in Überarbeitungen umsetzen
 - Metakognitive Awareness für Schreibprozess entwickeln
 
-**Warum es funktioniert**: Agent **analysiert und fragt**, aber Lernende müssen **reflektieren und verbessern**.
+**Warum es funktioniert**: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern.
 
 ---
 
@@ -194,8 +193,8 @@ Jedes Beispiel zeigt:
 
 ### **Beispiel: Case-Study-Generator**
 
-**Lehrthema**: Betriebswirtschaft - Strategisches Management
-**Problem**: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden
+- **Lehrthema**: Betriebswirtschaft - Strategisches Management
+- **Problem**: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden
 
 **Agent macht:**
 
@@ -211,38 +210,5 @@ Jedes Beispiel zeigt:
 - Multiple Perspektiven berücksichtigen
 - Langfristige Konsequenzen durchdenken
 
-**Warum es funktioniert**: Agent **erstellt** realistische Szenarien, aber Lernende müssen **anwenden und entscheiden**.
+**Warum es funktioniert**: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden.
 
----
-
-## Design-Patterns für effektive Agents
-
-### **Das "Fördern-nicht-Ersetzen" Prinzip:**
-
-| ✅ **Agent als Facilitator** | ❌ **Agent als Replacer** |
-|------------------------------|---------------------------|
-| Generiert Übungsaufgaben | Löst Aufgaben |
-| Stellt guiding Questions | Gibt direkte Antworten |
-| Variiert Kontexte | Standardisiert alles |
-| Analysiert Lernprozess | Übernimmt Denkprozess |
-| Gibt formatives Feedback | Macht summative Bewertung |
-
-### **Goldene Regeln:**
-
-1. **Agent macht**: Setup, Variation, Timing, Feedback
-2. **Lernende machen**: Denken, Anwenden, Reflektieren, Entscheiden
-3. **Schwierigkeit bleibt**: Kognitive Anstrengung wird gefördert, nicht eliminiert
-4. **Lernen wird sichtbar**: Progress tracking zeigt echten Kompetenzzuwachs
-
----
-
-## Inspiration für euer Design
-
-**Wählt eure Strategie und fragt euch:**
-
-- Wie kann ein Agent **diese spezifische Strategie** fördern?
-- Was ist das **Minimum** was der Agent tun muss?
-- Was ist das **Maximum** was beim Lernenden bleiben muss?
-- Wie wird **echter Lernfortschritt** messbar?
-
-**Remember**: Das Ziel ist nicht der perfekte Agent, sondern das Verständnis für **scientific learning design mit KI-Unterstützung**.

@@ -89,17 +89,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -109,6 +98,17 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 </style>
@@ -274,7 +274,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   </ul></li>
   <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</a>
   <ul class="collapse">
-  <li><a href="#beispiel-wirtschafts-sokrates" id="toc-beispiel-wirtschafts-sokrates" class="nav-link" data-scroll-target="#beispiel-wirtschafts-sokrates"><strong>Beispiel: Wirtschafts-Sokrates</strong></a></li>
+  <li><a href="#beispiel-erklärungs-coach-feynman-technik" id="toc-beispiel-erklärungs-coach-feynman-technik" class="nav-link" data-scroll-target="#beispiel-erklärungs-coach-feynman-technik"><strong>Beispiel: Erklärungs-Coach (Feynman-Technik)</strong></a></li>
   </ul></li>
   <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. Feedback &amp; Reflexion</a>
   <ul class="collapse">
@@ -284,12 +284,6 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   <ul class="collapse">
   <li><a href="#beispiel-case-study-generator" id="toc-beispiel-case-study-generator" class="nav-link" data-scroll-target="#beispiel-case-study-generator"><strong>Beispiel: Case-Study-Generator</strong></a></li>
   </ul></li>
-  <li><a href="#design-patterns-für-effektive-agents" id="toc-design-patterns-für-effektive-agents" class="nav-link" data-scroll-target="#design-patterns-für-effektive-agents">Design-Patterns für effektive Agents</a>
-  <ul class="collapse">
-  <li><a href="#das-fördern-nicht-ersetzen-prinzip" id="toc-das-fördern-nicht-ersetzen-prinzip" class="nav-link" data-scroll-target="#das-fördern-nicht-ersetzen-prinzip"><strong>Das “Fördern-nicht-Ersetzen” Prinzip:</strong></a></li>
-  <li><a href="#goldene-regeln" id="toc-goldene-regeln" class="nav-link" data-scroll-target="#goldene-regeln"><strong>Goldene Regeln:</strong></a></li>
-  </ul></li>
-  <li><a href="#inspiration-für-euer-design" id="toc-inspiration-für-euer-design" class="nav-link" data-scroll-target="#inspiration-für-euer-design">Inspiration für euer Design</a></li>
   </ul>
 </nav>
     </div>
@@ -331,7 +325,10 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <h2 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</h2>
 <section id="beispiel-statistik-tutor" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-statistik-tutor"><strong>Beispiel: Statistik-Tutor</strong></h3>
-<p><strong>Lehrthema</strong>: Inferenzstatistik (Hypothesentests) <strong>Problem</strong>: Studierende können Konzepte erkennen, aber nicht aktiv anwenden</p>
+<ul>
+<li><strong>Lehrthema</strong>: Inferenzstatistik (Hypothesentests)</li>
+<li><strong>Problem</strong>: Studierende können Konzepte erkennen, aber nicht aktiv anwenden</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Generiert personalisierte Übungsaufgaben</li>
@@ -346,7 +343,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Reflektieren über Fehlerquellen</li>
 <li>Selbsteinschätzung vor Feedback</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent generiert die Übung, aber <strong>Lernende müssen aktiv abrufen und denken</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken.</p>
 <hr>
 </section>
 </section>
@@ -354,7 +351,10 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <h2 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</h2>
 <section id="beispiel-anatomie-coach" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-anatomie-coach"><strong>Beispiel: Anatomie-Coach</strong></h3>
-<p><strong>Lehrthema</strong>: Medizin - Anatomische Strukturen <strong>Problem</strong>: Bulimie-Lernen vor Prüfungen, schnelles Vergessen</p>
+<ul>
+<li><strong>Lehrthema</strong>: Medizin—Anatomische Strukturen</li>
+<li><strong>Problem</strong>: Bulimie-Lernen vor Prüfungen, schnelles Vergessen</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Berechnet optimale Wiederholungsintervalle</li>
@@ -367,9 +367,9 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Anatomie aktiv benennen (ohne Hilfe)</li>
 <li>Strukturen zeichnen und beschriften</li>
 <li>Verbindungen zwischen Systemen erklären</li>
-<li>Langzeit-Commitment zum regelmäßigen Üben</li>
+<li>Langzeit-Commitment zum regelmässigen Üben</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent optimiert <strong>wann</strong> gelernt wird, aber <strong>nicht was und wie</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent optimiert wann gelernt wird, aber nicht was und wie.</p>
 <hr>
 </section>
 </section>
@@ -377,7 +377,10 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <h2 class="anchored" data-anchor-id="abwechslung-interleaving">3. Abwechslung (Interleaving)</h2>
 <section id="beispiel-programmier-mentor" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-programmier-mentor"><strong>Beispiel: Programmier-Mentor</strong></h3>
-<p><strong>Lehrthema</strong>: Algorithmen und Datenstrukturen <strong>Problem</strong>: Können isolierte Konzepte, aber nicht entscheiden wann welches</p>
+<ul>
+<li><strong>Lehrthema</strong>: Algorithmen und Datenstrukturen</li>
+<li><strong>Problem</strong>: Können isolierte Konzepte, aber nicht entscheiden wann welches</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Mischt verschiedene Problemtypen intelligent</li>
@@ -392,7 +395,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Vergleichen und kontrastieren verschiedene Ansätze</li>
 <li>Entwickeln “Problem-Pattern-Recognition”</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent <strong>mixt</strong> die Aufgaben, aber Lernende müssen <strong>diskriminieren und wählen</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen.</p>
 <hr>
 </section>
 </section>
@@ -400,13 +403,15 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <h2 class="anchored" data-anchor-id="variation">4. Variation</h2>
 <section id="beispiel-physik-simulator" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-physik-simulator"><strong>Beispiel: Physik-Simulator</strong></h3>
-<p><strong>Lehrthema</strong>: Newtonsche Mechanik <strong>Problem</strong>: Können Formeln anwenden, aber nicht in neuen Kontexten</p>
+<ul>
+<li><strong>Lehrthema</strong>: Newtonsche Mechanik</li>
+<li><strong>Problem</strong>: Können Formeln anwenden, aber nicht in neuen Kontexten</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Generiert vielfältige Anwendungsszenarien</li>
 <li>Variiert Parameter, Kontexte, Darstellungsformen</li>
 <li>Erstellt real-world Problemsituationen</li>
-<li>Sammelt verschiedene Visualisierungen</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
 <ul>
@@ -415,7 +420,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Problem-Situationen selbst analysieren und modellieren</li>
 <li>Transfer auf völlig neue Bereiche leisten</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent <strong>variiert</strong> die Kontexte, aber Lernende müssen <strong>Prinzipien erkennen und anwenden</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent variiert die Kontexte, Lernende müssen Prinzipien erkennen und anwenden.</p>
 <hr>
 </section>
 </section>
@@ -426,7 +431,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <p><strong>Lehrthema</strong>: Kognitive Verzerrungen und Biases <strong>Problem</strong>: Oberflächliches Verständnis, keine kritische Anwendung</p>
 <p><strong>Agent macht:</strong></p>
 <ul>
-<li>Erstellt ambige, mehrdeutige Situationen</li>
+<li>Erstellt mehrdeutige Situationen</li>
 <li>Präsentiert widersprüchliche Evidenz</li>
 <li>Generiert “Productive Struggle” Szenarien</li>
 <li>Gibt delayed und minimales Feedback</li>
@@ -438,30 +443,33 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Biases in eigenen Denkprozessen entdecken</li>
 <li>Komplexe, nuancierte Analysen entwickeln</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent <strong>erzeugt</strong> Struggle, aber Lernende müssen <strong>durch die Schwierigkeit durcharbeiten</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten.</p>
 <hr>
 </section>
 </section>
 <section id="verstehen-vs.-vertrautheit" class="level2">
 <h2 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</h2>
-<section id="beispiel-wirtschafts-sokrates" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-wirtschafts-sokrates"><strong>Beispiel: Wirtschafts-Sokrates</strong></h3>
-<p><strong>Lehrthema</strong>: Makroökonomie (Geld- und Fiskalpolitik) <strong>Problem</strong>: Können Definitionen wiedergeben, aber nicht erklären</p>
+<section id="beispiel-erklärungs-coach-feynman-technik" class="level3">
+<h3 class="anchored" data-anchor-id="beispiel-erklärungs-coach-feynman-technik"><strong>Beispiel: Erklärungs-Coach (Feynman-Technik)</strong></h3>
+<ul>
+<li><strong>Lehrthema</strong>: Computernetzwerke (TCP/IP-Protokoll)</li>
+<li><strong>Problem</strong>: Können Fachbegriffe verwenden, aber nicht einfach erklären was passiert</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
-<li>Stellt Socratic Questions (“Warum denkst du das?”)</li>
-<li>Fordert Erklärungen in eigenen Worten</li>
-<li>Deckt Verständnislücken durch gezielte Fragen auf</li>
-<li>Überprüft konzeptuelles vs.&nbsp;oberflächliches Wissen</li>
+<li>Fordert Erklärungen für 8-Jährige (“Erkläre TCP so, dass es ein Kind versteht”)</li>
+<li>Identifiziert verwendete Fachbegriffe und verlangt Übersetzung</li>
+<li>Generiert Analogie-Aufgaben (“TCP ist wie…”)</li>
+<li>Testet Verständnis durch Vereinfachungs-Challenges</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
 <ul>
-<li>Komplexe Konzepte in einfacher Sprache erklären</li>
-<li>Annahmen und Begründungen explizit machen</li>
-<li>Verbindungen zwischen Konzepten herstellen</li>
-<li>“Teaching” Moments nutzen</li>
+<li>Komplexe Konzepte ohne Jargon erklären</li>
+<li>Eigene Analogien entwickeln und testen</li>
+<li>Verständnislücken selbst entdecken beim Erklärungsversuch</li>
+<li>Konzepte in verschiedenen Abstraktionsebenen darstellen</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent <strong>fragt</strong>, aber Lernende müssen <strong>denken und erklären</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust—die ultimative Verstehens-Prüfung.</p>
 <hr>
 </section>
 </section>
@@ -469,7 +477,10 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <h2 class="anchored" data-anchor-id="feedback-reflexion">7. Feedback &amp; Reflexion</h2>
 <section id="beispiel-schreibtrainer-coach" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-schreibtrainer-coach"><strong>Beispiel: Schreibtrainer-Coach</strong></h3>
-<p><strong>Lehrthema</strong>: Akademisches Schreiben <strong>Problem</strong>: Wenig Bewusstsein für eigene Schreibprozesse und -qualität</p>
+<ul>
+<li><strong>Lehrthema</strong>: Akademisches Schreiben</li>
+<li><strong>Problem</strong>: Wenig Bewusstsein für eigene Schreibprozesse und -qualität</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Analysiert Schreibmuster und gibt spezifisches Feedback</li>
@@ -484,7 +495,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Feedback in Überarbeitungen umsetzen</li>
 <li>Metakognitive Awareness für Schreibprozess entwickeln</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent <strong>analysiert und fragt</strong>, aber Lernende müssen <strong>reflektieren und verbessern</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern.</p>
 <hr>
 </section>
 </section>
@@ -492,7 +503,10 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <h2 class="anchored" data-anchor-id="anwendung">8. Anwendung</h2>
 <section id="beispiel-case-study-generator" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-case-study-generator"><strong>Beispiel: Case-Study-Generator</strong></h3>
-<p><strong>Lehrthema</strong>: Betriebswirtschaft - Strategisches Management <strong>Problem</strong>: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden</p>
+<ul>
+<li><strong>Lehrthema</strong>: Betriebswirtschaft - Strategisches Management</li>
+<li><strong>Problem</strong>: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Erstellt realistische, komplexe Unternehmensszenarien</li>
@@ -507,68 +521,10 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <li>Multiple Perspektiven berücksichtigen</li>
 <li>Langfristige Konsequenzen durchdenken</li>
 </ul>
-<p><strong>Warum es funktioniert</strong>: Agent <strong>erstellt</strong> realistische Szenarien, aber Lernende müssen <strong>anwenden und entscheiden</strong>.</p>
-<hr>
-</section>
-</section>
-<section id="design-patterns-für-effektive-agents" class="level2">
-<h2 class="anchored" data-anchor-id="design-patterns-für-effektive-agents">Design-Patterns für effektive Agents</h2>
-<section id="das-fördern-nicht-ersetzen-prinzip" class="level3">
-<h3 class="anchored" data-anchor-id="das-fördern-nicht-ersetzen-prinzip"><strong>Das “Fördern-nicht-Ersetzen” Prinzip:</strong></h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>✅ <strong>Agent als Facilitator</strong></th>
-<th>❌ <strong>Agent als Replacer</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Generiert Übungsaufgaben</td>
-<td>Löst Aufgaben</td>
-</tr>
-<tr class="even">
-<td>Stellt guiding Questions</td>
-<td>Gibt direkte Antworten</td>
-</tr>
-<tr class="odd">
-<td>Variiert Kontexte</td>
-<td>Standardisiert alles</td>
-</tr>
-<tr class="even">
-<td>Analysiert Lernprozess</td>
-<td>Übernimmt Denkprozess</td>
-</tr>
-<tr class="odd">
-<td>Gibt formatives Feedback</td>
-<td>Macht summative Bewertung</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="goldene-regeln" class="level3">
-<h3 class="anchored" data-anchor-id="goldene-regeln"><strong>Goldene Regeln:</strong></h3>
-<ol type="1">
-<li><strong>Agent macht</strong>: Setup, Variation, Timing, Feedback</li>
-<li><strong>Lernende machen</strong>: Denken, Anwenden, Reflektieren, Entscheiden</li>
-<li><strong>Schwierigkeit bleibt</strong>: Kognitive Anstrengung wird gefördert, nicht eliminiert</li>
-<li><strong>Lernen wird sichtbar</strong>: Progress tracking zeigt echten Kompetenzzuwachs</li>
-</ol>
-<hr>
-</section>
-</section>
-<section id="inspiration-für-euer-design" class="level2">
-<h2 class="anchored" data-anchor-id="inspiration-für-euer-design">Inspiration für euer Design</h2>
-<p><strong>Wählt eure Strategie und fragt euch:</strong></p>
-<ul>
-<li>Wie kann ein Agent <strong>diese spezifische Strategie</strong> fördern?</li>
-<li>Was ist das <strong>Minimum</strong> was der Agent tun muss?</li>
-<li>Was ist das <strong>Maximum</strong> was beim Lernenden bleiben muss?</li>
-<li>Wie wird <strong>echter Lernfortschritt</strong> messbar?</li>
-</ul>
-<p><strong>Remember</strong>: Das Ziel ist nicht der perfekte Agent, sondern das Verständnis für <strong>scientific learning design mit KI-Unterstützung</strong>.</p>
+<p><strong>Warum es funktioniert</strong>: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
