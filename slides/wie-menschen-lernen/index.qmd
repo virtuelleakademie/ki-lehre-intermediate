@@ -22,16 +22,14 @@ subtitle: "Cognitive effort isn't a bug---it’s the feature"
 
 Aber halt...
 
-:::{.fragment}
 🤔
-:::
 
 :::{.fragment}
 ### Sollten **Lernende** überhaupt produktiver sein?
 :::
 
 :::{.fragment}
-Was ist, wenn **Anstrengung** der Punkt ist, nicht das **Ergebnis**?
+Was ist, wenn **Anstrengung** beim Lernen wichtig ist als das **Ergebnis**?
 :::
 
 
@@ -39,18 +37,18 @@ Was ist, wenn **Anstrengung** der Punkt ist, nicht das **Ergebnis**?
 
 **Zwei verschiedene Betriebssysteme**
 
-| Dimension       | 🎯 **Experten**                                                 | 🗺️ **Anfänger**                                                              |
-| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **Sehen**       | • Bedeutungsvolle Muster (Chunks)                                | • Einzelne Teile                                                                |
-| **Verarbeiten** | • Automatische Prozeduren<br>• Vorwärtsverkettung<br>• Unbewusst | • Schritt-für-Schritt-Denken<br>• Rückwärtsverkettung<br>• Bewusste Anstrengung |
-| **Gedächtnis**  | • bedeutungsvolle Chunks<br>• Prozedural ("Ich weiss wie")       | • separate Fakten<br>• Deklarativ ("Ich weiss dass")                            |
-| **Neural**      | • Myelinisierte neuronale Bahnen<br>• Viele Stunden geübt        | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 |
+| Dimension       | 🗺️ **Anfänger**                                                              | 🎯 **Experten**                                                 |
+| --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Sehen**       | • Einzelne Teile                                                                | • Bedeutungsvolle Muster (Chunks)                                |
+| **Verarbeiten** | • Schritt-für-Schritt-Denken<br>• Deliberativ<br>• Bewusste Anstrengung | • Automatische Prozeduren<br>• Intuitiv<br>• Unbewusst |
+| **Gedächtnis**  | • separate Fakten<br>• Deklarativ ("Ich weiss dass")                            | • bedeutungsvolle Chunks<br>• Prozedural ("Ich weiss wie")       |
+| **Neural**      | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 | • Myelinisierte neuronale Bahnen<br>• Viele Stunden geübt        |
 |                 |                                                                  |                                                                                 |
 
 
 
 ::: {.callout-important}
-Experten haben die neuronale Architektur, die Anfänger erst entwickeln müssen
+Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
 :::
 
 
