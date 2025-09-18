@@ -4,7 +4,7 @@ title: "Wie Menschen lernen"
 
 ## Die wissenschaftliche Basis für Agent-Design (20 Min)
 
-**Nach der KI-Grundlage folgt die Lernwissenschaft** - warum ist das wichtig für Agent-Design?
+**Nach der KI-Grundlage folgt die Lernpsychologie** - warum ist das wichtig für Agent-Design?
 
 ## {{< bi file-slides >}} Make it Stick: Die 8 bewährten Lernstrategien
 
