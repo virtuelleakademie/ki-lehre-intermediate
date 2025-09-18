@@ -1,0 +1,24 @@
+---
+title: "Wie Menschen lernen"
+---
+
+Diese Präsentation basiert auf den Erkenntnissen der kognitiven Psychologie und zeigt, wie Menschen lernen und welche Rolle kognitive Anstrengung dabei spielt.
+
+## {{< bi file-slides >}} Input: Vom Anfänger zum Experten
+
+{{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+
+
+## {{< bi megaphone >}} Aktive Verarbeitung
+
+::: {.active-processing}
+## Wie Menschen lernen? (20 Min)
+
+**Aufgabe**: Lese den Artikel zum Thema [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/)
+
+
+<!-- **Tipp**: Falls du Hilfe mit Fachbegriffen brauchst, verwende [Claude](https://claude.ai/) oder [ChatGPT](https://chatgpt.com/). -->
+:::
+

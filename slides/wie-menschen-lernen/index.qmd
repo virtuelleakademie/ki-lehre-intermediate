@@ -1,0 +1,178 @@
+ ---
+title: "Wie Menschen lernen"
+subtitle: "Cognitive effort isn't a bug---it’s the feature"
+---
+
+
+## KI kann uns produktiver machen {.smaller}
+
+- **Wichtige Erkenntnisse aus der Forschung**:
+  - @dellacquaNavigatingJaggedTechnological2023 erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.
+  - @toner-rodgersArtificialIntelligenceScientific2025 diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.
+  - @cuiEffectsGenerativeAI2024 analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.
+
+- **Erkenntnisse**:
+  - Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
+  - Unterstützung kreativer Arbeit ist möglich
+  - Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
+  - Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt
+
+
+## {.center}
+
+Aber halt...
+
+:::{.fragment}
+🤔
+:::
+
+:::{.fragment}
+### Sollten **Lernende** überhaupt produktiver sein?
+:::
+
+:::{.fragment}
+Was ist, wenn **Anstrengung** der Punkt ist, nicht das **Ergebnis**?
+:::
+
+
+## Experten vs. Anfänger {.smaller}
+
+**Zwei verschiedene Betriebssysteme**
+
+| Dimension       | 🎯 **Experten**                                                 | 🗺️ **Anfänger**                                                              |
+| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Sehen**       | • Bedeutungsvolle Muster (Chunks)                                | • Einzelne Teile                                                                |
+| **Verarbeiten** | • Automatische Prozeduren<br>• Vorwärtsverkettung<br>• Unbewusst | • Schritt-für-Schritt-Denken<br>• Rückwärtsverkettung<br>• Bewusste Anstrengung |
+| **Gedächtnis**  | • bedeutungsvolle Chunks<br>• Prozedural ("Ich weiss wie")       | • separate Fakten<br>• Deklarativ ("Ich weiss dass")                            |
+| **Neural**      | • Myelinisierte neuronale Bahnen<br>• Viele Stunden geübt        | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 |
+|                 |                                                                  |                                                                                 |
+
+
+
+::: {.callout-important}
+Experten haben die neuronale Architektur, die Anfänger erst entwickeln müssen
+:::
+
+
+
+
+## Warum existieren Schulen?
+
+
+Wir unterscheiden zwischen:
+
+::::{.columns}
+:::{.column width="50%"}
+**Biologisch primärem Wissen**: 
+
+- Wofür wir evolutionär angepasst sind
+- Lernen geschieht mühelos und automatisch
+- Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion
+:::
+:::{.column width=50%}
+**Biologisch sekundärem Wissen**:
+
+- Kulturelle Errungenschaften ohne evolutionäre Anpassung
+- Erfordert bewusste Anstrengung und Instruktion
+- Beispiele: Lesen, Schreiben, Mathematik, Programmieren
+:::
+::::
+
+::: {.callout-important}
+Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, während akademische Fähigkeiten explizite Anleitung und strukturiertes Üben erfordern.
+:::
+
+
+## Wie Expertise entwickelt wird {.smaller}
+
+
+
+| Gedächtnissystem                | Beschreibung        | Eigenschaften                                                       | Beispiel                                                |
+| -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
+| **Declaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer und angstender Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
+| **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte "atomische" Gedankenschritte<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen, dass $x = 5$.               |
+
+
+**Die Entwicklung**: Fakten → Tausende Übungszyklen → Automatische Prozeduren → Expertise
+
+
+:::: {.columns}
+::: {.column width="40%"}
+<br>
+
+**Warum Anstrengung wichtig ist**: Üben stärkt die neuronalen Bahnen, die Expertise erzeugen
+:::
+
+::: {.column width="60%"}
+![](../../assets/images/ACTR3.jpg)
+
+:::
+::::
+
+::: {.attribution}
+Abbildung von [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/act-r/)
+:::
+
+
+## Das Lernparadox: Gefühl ≠ Realität {.smaller}
+
+| Situation | **Wie es sich anfühlt** |  **Was tatsächlich passiert** | **Der Trugschluss** |
+|-----------|---------------------------|--------------------------------|----------------------|
+| **Beim Kämpfen mit einem Problem** | • **Frustration** 😣 <br>• "Ich kann das nicht"<br>• Langsamer Fortschritt<br>• Unsicherheit | • Neue neuronale Verbindungen entstehen<br>• Tiefes Verständnis bildet sich<br>• Langzeitgedächtnis wird aktiviert<br>• **Echtes Lernen** 🧠 | "Wenn es schwer ist, lerne ich nicht" ❌  |
+| **Beim Produzieren mit KI-Hilfe** | • **Erfolgsgefühl** 😊 <br>• "Ich bin produktiv"<br>• Schnelle Ergebnisse<br>• Selbstvertrauen | • Oberflächliche Verarbeitung<br>• Keine neuen Verbindungen<br>• Arbeitsgedächtnis nur kurz aktiv<br>• **Illusion des Lernens** 🃏| "Wenn ich etwas produziere, lerne ich" ❌  |
+
+. . .
+
+:::{.callout-warning}
+## Die gefährliche Umkehrung
+**Unser Gehirn belügt uns:** Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.
+
+**Die Wahrheit:** Echter Lernfortschritt fühlt sich wie Scheitern an.
+:::
+
+. . .
+
+**Merksatz:** "Cognitive effort isn't a bug---it’s the feature."
+
+
+## Das Problem der kognitiven Auslagerung {.smaller}
+
+Drei Wege, wie Lernen gestört wird:
+
+| Problem | Mechanismus | Konsequenz der Auslagerung an KI |
+|---------|-------------|-----------------------------------|
+| **Keine Vorhersagefehler** | Gehirn lernt aus Lücken zwischen "was ich erwarte" und "was passiert" | Eliminiert dies vollständig |
+| **Keine Gedächtnisbildung** | Information, die nicht aktiv verarbeitet wird, wird nicht gespeichert | Liefert Antworten ohne Verarbeitung |
+| **Keine prozedurale Entwicklung** | Expertise erfordert tausende "atomare Denkschritte" | Überspringt diesen Aufbauprozess |
+
+
+<br> <br>
+
+::: {.callout-warning}
+**Ergebnis**: Die Auslagerung kognitiver Prozesse (*cognitive offloading*) kann zu oberflächlicher Verarbeitung ohne tiefes Verständnis und Abhängigkeit von Tools führen.
+:::
+
+## Das LERN-Protokoll {.smaller}
+
+| | 🎯 Aktion | ⚡ Warum | 🚫 Nicht |
+|---|-----------|----------|----------|
+| **L**ass Schwierigkeit zu | Verwirrung aushalten | Anstrengung = neuronale Bahnen | Lösungen nachschlagen |
+| **E**rlaube Fehler | Erst raten, dann prüfen | Vorhersagefehler = Lernsignal | Fehler vermeiden |
+| **R**ufe aktiv ab | Ohne Notizen erklären | Generierung > Erkennung | Passiv lesen |
+| **N**utze Abstände | Nach Tagen wiederholen | Vergessen + Neulernen = Behalten | Massiert üben |
+
+:::{.callout-tip}
+## Die 85%-Regel
+Ziel: ~85% Erfolg (nicht 95%+ oder <70%)
+:::
+
+> **Jeder leichte Weg = eine verpasste Lernchance**
+
+::: {.attribution}
+Von [Claude](https://www.claude.ai) generiert.
+:::
+
+## Bibliographie
+
+::: {#refs}
+:::

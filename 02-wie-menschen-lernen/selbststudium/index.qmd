@@ -1,0 +1,19 @@
+---
+title: "Selbststudium"
+---
+1. Working memory
+2. cognitive load theory
+
+
+## {{< bi lightbulb >}} KI als Lernpartner
+
+
+
+::: {.callout-note}
+## Von Zetteln zu Prompts
+- [Von Zetteln zu Prompts](https://barbarageyer.substack.com/p/von-zetteln-zu-prompts) [@geyerZettelnPrompts2025]
+
+@geyerZettelnPrompts2025 zeigt in ihrem [Artikel](https://barbarageyer.substack.com/p/von-zetteln-zu-prompts), wie Large Language Models als intelligente Lernpartner eingesetzt werden können. Sie nutzt KI zur Unterstützung verschiedener evidenzbasierter Lernstrategien wie [Retrieval Practice](https://en.wikipedia.org/wiki/Testing_effect), [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) und [Elaboration](https://de.wikipedia.org/wiki/Elaboration_(Psychologie)). 
+
+Dabei hilft ihr die KI, flexibler zwischen Themen zu wechseln, tiefere Verbindungen zu schaffen und ihren individuellen Lernstil zu optimieren. Dieser Ansatz demonstriert, wie KI nicht als Ersatz für das Denken, sondern als Werkzeug zur Vertiefung und Personalisierung des Lernprozesses eingesetzt werden kann---ein wichtiger Aspekt für die didaktische Reflexion über den Einsatz von KI in der Lehre.
+:::

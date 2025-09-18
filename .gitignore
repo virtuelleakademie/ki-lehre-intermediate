@@ -1,3 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
 
 # Jupyter Notebook
@@ -17,8 +21,6 @@ ipython_config.py
 .DS_Store
 /env/
 *.code-workspace
-data/*
-notes/*
 
 # Quarto
 /.quarto/
@@ -26,9 +28,6 @@ pages/*_cache/
 pages/*_files/
 /notes/
 /_do-not-build/**
-
-# venv
-.venv/
 
 # Spelling
 /.cspell/
@@ -43,5 +42,4 @@ pages/config.yaml
 /assets/ppt/~*
 
 /.luarc.json
-
 
