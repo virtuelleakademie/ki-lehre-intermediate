@@ -7,11 +7,11 @@ title: "KI-gestütztes Lerndesign"
 ::: {.active-processing}
 ## Copilot Agent für effektives Lernen entwickeln (60 Min)
 
-Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus "Make it Stick" für dein eigenes Lehrthema umsetzt.
+Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bewährten Lernstrategien aus "Make it Stick" für dein eigenes Lehrthema umsetzt.
 
-**Ziel**: Der Agent soll das Lernen **fördern**, nicht **ersetzen**.
+**Ziel**: Durch Prompting einen Agent bauen, der das Lernen **fördert**, nicht **ersetzt** - und dabei die praktischen Herausforderungen erleben.
 
-**Format**: Think-Pair-Share
+**Format**: Think-Pair-Share mit Live-Testing und Padlet-Reflexion
 :::
 
 ---
@@ -41,7 +41,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 ---
 
-## THINK Phase: Individuell (25 Min)
+## THINK Phase: Agent erstellen (25 Min)
 
 ::: {.callout-note}
 ## Schritt 1: Strategie wählen (10 Min)
@@ -62,104 +62,102 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 :::
 
 ::: {.callout-note}
-## Schritt 2: Agent konzipieren (15 Min)
+## Schritt 2: Agent erstellen & testen (15 Min)
 
-**Entwickle deinen Copilot Agent mit dem Agent-Design-Template:**
+**Erstelle deinen funktionsfähigen Copilot Agent:**
 
-#### **Agent-Mission**
-*Was ist das Hauptziel deines Agents?*
+#### **Agent-Prompt entwickeln**
+Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 
-#### **Was der Agent TUT:**
+**Template-Struktur:**
 
-- Konkrete Funktion 1: ________________________
-- Konkrete Funktion 2: ________________________
-- Konkrete Funktion 3: ________________________
+- **Rolle & Mission**: "Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert"
+- **Was der Agent TUT**: Konkrete Funktionen und Verhaltensweisen
+- **Was der Agent NICHT tut**: Grenzen setzen (keine direkten Antworten geben, etc.)
+- **Interaktionsstil**: Wie soll der Agent mit Lernenden kommunizieren?
 
-#### **Was der LERNENDE tut:**
+#### **Live-Test durchführen**
 
-- Lernaktivität 1: ________________________
-- Lernaktivität 2: ________________________
-- Lernaktivität 3: ________________________
+- Teste deinen Agent mit einer typischen Lernsituation
+- Identifiziere Prompting-Herausforderungen
+- Verfeinere den Prompt basierend auf dem Test
 
 #### **Lernrelevante Last Check:**
 
-- **Macht der Agent das Lernen besser oder nur einfacher?**
-- **Bleibt die gewünschte Schwierigkeit erhalten?**
-- **Fördert der Agent die gewählte Make-it-Stick-Strategie?**
-
-#### **Agent-Prototyp:**
-Skizziere oder beschreibe, wie der Agent funktioniert.
+- Fördert der Agent wirklich die gewählte Strategie?
+- Bleibt die kognitive Anstrengung beim Lernenden?
+- Wo musst du den Prompt noch anpassen?
 :::
 
 ---
 
-## PAIR Phase: Zu zweit (20 Min)
+## PAIR Phase: Agents testen & Erfahrungen teilen (20 Min)
 
-### Partner finden (5 Min)
+### Partner finden (2 Min)
 
 - Suche dir einen Partner
 - Am besten jemand mit einer **anderen Strategie** oder **anderem Fachbereich**
 
-### Austausch & Feedback (15 Min)
+### Gegenseitiges Agent-Testing (10 Min)
 
 ::: {.callout-tip}
-## Runde 1: Vorstellen (8 Min)
-**Person A präsentiert (4 Min):**
+## Cross-Testing der Agents
+**Person A testet Agent von Person B (5 Min):**
 
-- Strategie und Lehrthema
-- Agent-Konzept
-- Wie fördert der Agent die Strategie?
+- Verwende den Agent für eine typische Lernsituation aus Person B's Fachbereich
+- Achte auf: Fördert der Agent wirklich die gewählte Strategie?
+- Notiere Prompting-Herausforderungen und Überraschungen
 
-**Person B präsentiert (4 Min):**
+**Person B testet Agent von Person A (5 Min):**
 
 - Gleiche Struktur
 :::
 
-::: {.callout-tip}
-## Runde 2: Feedback & Verfeinerung (7 Min)
+### Erfahrungen auf Padlet dokumentieren (8 Min)
 
-**Gebt euch gegenseitig konstruktives Feedback:**
+::: {.callout-important}
+## Padlet-Reflexion (via Moodle)
+**Teilt eure Erkenntnisse auf dem Kurs-Padlet:**
 
-**Leitfragen für Feedback:**
+**Dokumentiert:**
 
-- Ist klar, wie der Agent die gewählte Strategie fördert?
-- Bleibt genug "lernrelevante Last" beim Lernenden?
-- Wo könnte das Konzept noch verbessert werden?
-- Welche Aspekte sind besonders gelungen?
+- **Was funktioniert gut?** Welche Prompting-Strategien waren erfolgreich?
+- **Wo hakt es?** Welche Herausforderungen beim Agent-Design sind aufgetaucht?
+- **Überraschende Entdeckungen**: Was war anders als erwartet?
+- **Theorie vs. Praxis**: Wo klafft eine Lücke zwischen Konzept und Umsetzung?
 
-**Verfeinert eure Konzepte** basierend auf dem Feedback.
+**Lest auch die Beiträge der anderen** und ergänzt mit Kommentaren oder Reactions.
 :::
 
 ---
 
-## SHARE Phase: Plenum (15 Min)
+## SHARE Phase: Erkenntnisse aus der Praxis (15 Min)
 
-### Freiwillige Präsentationen (10 Min)
+### Padlet-Review & Patterns (8 Min)
 
-**3-4 Teilnehmer stellen vor (je 2-3 Min):**
+**Gemeinsame Auswertung der Padlet-Beiträge:**
 
-**Präsentations-Struktur:**
+- Welche **Prompting-Herausforderungen** tauchen wiederholt auf?
+- Wo war die **Theorie-Praxis-Lücke** am größten?
+- Welche **erfolgreichen Strategien** können wir identifizieren?
+- Was haben wir über **Agent-Verhalten vs. Agent-Intention** gelernt?
 
-1. **Strategie & Lehrthema** (30 Sek)
-2. **Agent-Konzept** (1,5 Min)
-3. **Wie fördert es die Strategie?** (30 Sek)
+### Synthese & Transfer (7 Min)
 
-### Reflexion & Synthese (5 Min)
+**Von der Praxis zur Anwendung:**
 
-**Gemeinsame Erkenntnisse:**
+- **Reality Check**: Was ist realistisch umsetzbar in der eigenen Lehre?
+- **Prompting-Learnings**: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?
+- **Make-it-Stick meets AI**: Wo funktioniert die Kombination gut, wo nicht?
 
-- Welche Strategien wurden am häufigsten gewählt?
-- Welche Patterns sehen wir beim Agent-Design?
-- Was haben wir über das Verhältnis KI ↔ Lernen gelernt?
+**Nächste Schritte:**
 
-**Transfer:**
-
-- Wie könnte ich das in meiner eigenen Lehre umsetzen?
-- Welche nächsten Schritte sind realistisch?
+- Wie könnt ihr das Gelernte in eurer Lehre einsetzen?
+- Welche Tools/Plattformen wollt ihr ausprobieren?
 
 ::: {.callout-tip}
 ## Wichtiger Reminder
-**Das Ziel war nicht, den perfekten Agent zu bauen**, sondern zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien **unterstützen** kann, ohne das Lernen zu **ersetzen**.
+**Das Ziel war nicht, den perfekten Agent zu bauen**, sondern durch praktisches Ausprobieren zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien **unterstützen** kann - und wo die Herausforderungen beim Prompting liegen.
 :::
 
 ---
