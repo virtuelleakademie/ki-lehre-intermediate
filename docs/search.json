@@ -162,7 +162,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "KI in der Lehre: Intermediate",
+    "title": "",
     "section": "",
     "text": "19. September 2025\n9:00–12:00 Uhr\nS112 Seminarraum, Hallerstrasse 8, 3012 Bern"
   },
@@ -176,7 +176,7 @@
   {
     "objectID": "index.html#website",
     "href": "index.html#website",
-    "title": "KI in der Lehre: Intermediate",
+    "title": "",
     "section": "Website",
     "text": "Website\n virtuelleakademie.github.io/ki-lehre-intermediate/"
   },
@@ -271,7 +271,7 @@
   {
     "objectID": "index.html#dozent",
     "href": "index.html#dozent",
-    "title": "KI in der Lehre: Intermediate",
+    "title": "",
     "section": "Dozent",
     "text": "Dozent\nDr. Andrew Ellis ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
   },
@@ -531,7 +531,7 @@
     "href": "01-ki-verstehen/index.html#weiterführende-kurse",
     "title": "KI verstehen",
     "section": " Weiterführende Kurse",
-    "text": "Weiterführende Kurse\n\nKI in der Lehre: Einsteiger\nKI in der Lehre: Intermediate\nKI in der Lehre: Advanced"
+    "text": "Weiterführende Kurse\n\nKI in der Lehre: Beginner\nKI in der Lehre: Intermediate\nKI in der Lehre: Advanced\nKI in der Lehre: Refresher"
   },
   {
     "objectID": "01-ki-verstehen/selbststudium/index.html",

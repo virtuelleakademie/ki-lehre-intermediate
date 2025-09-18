@@ -18,7 +18,7 @@ project:
     - slides/**/*.qmd
 
 website:
-  title: "KI in der Lehre: Intermediate"
+  # title: "KI in der Lehre: Intermediate"
   site-url: https://virtuelleakademie.github.io/ki-lehre-intermediate/
   # repo-url: https://github.com/virtuelleakademie/cas-hochschuldidaktik/
   # repo-actions: [edit, issue]
