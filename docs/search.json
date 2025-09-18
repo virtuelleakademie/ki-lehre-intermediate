@@ -359,7 +359,7 @@
     "section": "",
     "text": "Active-processingProduktive Anstrengung durch Design? (50 Min)\n\n\n\nEntwickelt in eurer Gruppe eine konkrete Lernaktivität, die:\n\nEin spezifisches Lernproblem löst\nErkenntnisse aus der Kognitionsforschung nutzt\nKI sinnvoll einbindet (ohne das Lernen zu ersetzen)\n\nOptional: Konsultiere den Artikel zum Thema Produktive Anstrengung durch Design",
     "crumbs": [
-      "3: Lernumgebung",
+      "3: KI-gestütztes Lerndesign",
       "Aktive Verarbeitung: Lernumgebung gestalten"
     ]
   },
@@ -370,7 +370,7 @@
     "section": "",
     "text": "Active-processingProduktive Anstrengung durch Design? (50 Min)\n\n\n\nEntwickelt in eurer Gruppe eine konkrete Lernaktivität, die:\n\nEin spezifisches Lernproblem löst\nErkenntnisse aus der Kognitionsforschung nutzt\nKI sinnvoll einbindet (ohne das Lernen zu ersetzen)\n\nOptional: Konsultiere den Artikel zum Thema Produktive Anstrengung durch Design",
     "crumbs": [
-      "3: Lernumgebung",
+      "3: KI-gestütztes Lerndesign",
       "Aktive Verarbeitung: Lernumgebung gestalten"
     ]
   },
@@ -381,7 +381,7 @@
     "section": "Phase 1: Gruppenbildung (5 Min)",
     "text": "Phase 1: Gruppenbildung (5 Min)\n\nWähle ein Thema von der Tafel, das dich interessiert\nStelle dich zu deinem Wunschthema\nBildet Gruppen von 3-4 Personen\nHolt Material und sucht euch einen Arbeitsplatz",
     "crumbs": [
-      "3: Lernumgebung",
+      "3: KI-gestütztes Lerndesign",
       "Aktive Verarbeitung: Lernumgebung gestalten"
     ]
   },
@@ -392,7 +392,7 @@
     "section": "Phase 2: Design-Entwicklung (20 Min)",
     "text": "Phase 2: Design-Entwicklung (20 Min)\n\nBearbeitet diese 4 Bereiche (je 5 Min):\n\n\nBereich 1: Das Problem\nWas genau können/verstehen Lernende NICHT?\n\nSei spezifisch!\nBeispiel: “Studierende können Korrelation und Kausalität nicht unterscheiden”\nNicht: “Statistik ist schwer”\n\n\n\nBereich 2: Die Wissenschaft\nWelches Prinzip wendet ihr an?\n\nProduktive Anstrengung (Struggle vor Success)\nVorhersagefehler (Erst raten, dann lernen)\nAktiver Abruf (Retrieval Practice)\nVerteiltes Lernen (Spacing)\nVerschränktes Üben (Interleaving)\n\n\n\nBereich 3: Die KI-Rolle\nVervollständigt:\n\nKI wird: ________________________________\nKI wird NICHT: __________________________\nLernende müssen selbst: _________________\n\n\n\nBereich 4: Der Erfolg\nWas können Lernende NACH eurer Intervention?\n\nKonkret und messbar\nBeispiel: “Können 5 Korrelation ≠ Kausalität Beispiele generieren”",
     "crumbs": [
-      "3: Lernumgebung",
+      "3: KI-gestütztes Lerndesign",
       "Aktive Verarbeitung: Lernumgebung gestalten"
     ]
   },
@@ -403,7 +403,7 @@
     "section": "Phase 3: Poster erstellen (10 Min)",
     "text": "Phase 3: Poster erstellen (10 Min)\n\nEuer Poster-Layout:\n┌──────────────────────────────────────┐\n│           TITEL                      │\n├──────────────────────────────────────┤\n│ DAS PROBLEM:                         │\n│ [Was können Lernende nicht?]         │\n│                                      │\n│ DIE LÖSUNG:                          │\n│ [Eure Lernaktivität]                 │\n├──────────────────────────────────────┤\n│ KOGNITIVES PRINZIP:                  │\n│ [z.B. Produktive Anstrengung]        │\n│                                      │\n│                                      │\n├──────────────────────────────────────┤\n│ KI MACHT:         │ LERNENDE TUN:    │\n│ • ____________    │ • ____________   │\n│ • ____________    │ • ____________   │\n│ • ____________    │ • ____________   │\n├──────────────────────────────────────┤\n│ ERFOLG MESSEN:                       │\n│ [Wie erkennt ihr, dass es wirkt?]    │\n└──────────────────────────────────────┘\nRegeln:\n\nAus 2 Meter Entfernung lesbar\nMehr Visualisierung, weniger Text",
     "crumbs": [
-      "3: Lernumgebung",
+      "3: KI-gestütztes Lerndesign",
       "Aktive Verarbeitung: Lernumgebung gestalten"
     ]
   },
@@ -414,7 +414,7 @@
     "section": "Phase 4: Speed-Dating Präsentationen (12 Min)",
     "text": "Phase 4: Speed-Dating Präsentationen (12 Min)\n\nAblauf “Stay & Stray”:\n\n1 Person bleibt beim Poster (Präsentierende)\nDie anderen Personen wandern zu anderen Postern (Lernende)\n\n\n\nPro Runde (4 Min):\n\n2 Min: Präsentierende erklären\n1 Min: Kurze Fragen\n1 Min: Besucher Feedback\nRotation!\n\nNach 3 Runden: Rollentausch!",
     "crumbs": [
-      "3: Lernumgebung",
+      "3: KI-gestütztes Lerndesign",
       "Aktive Verarbeitung: Lernumgebung gestalten"
     ]
   },
@@ -1427,7 +1427,7 @@
     "href": "slides/was-sind-agenten/index.html#was-sind-ai-agents",
     "title": "Was sind Agents?",
     "section": "Was sind AI Agents?",
-    "text": "Was sind AI Agents?\nLLM + Gedächtnis + Werkzeuge + Entscheidungsschleife\n\n\n🧠 Die Grundformel\nLLM-basierte Agenten = - LLM (GPT-4, Claude) für Reasoning - + Gedächtnis (Kurz- & Langzeit) - + Werkzeuge (APIs, Datenbanken, Code) - + Entscheidungsschleife (kontinuierlich)\n🔄 Der Agent-Zyklus\n\nWahrnehmung - Input/Umgebung\nPlanung - LLM überlegt Schritte\nHandlung - Tools/APIs verwenden\nFeedback - Ergebnisse bewerten\n\n\n🛠️ Technische Frameworks\n\nLangChain - Agent orchestration\nAutoGPT - Autonomous execution\nBabyAGI - Task decomposition\nCrewAI - Multi-agent systems\n\n🎯 Transformation\nVon zustandslosem Textgenerator zu autonomem, zielgerichtetem Problemlöser\n\n\n\n\nKernprinzip: Agents verwandeln passive Sprachmodelle in aktive, handelnde Systeme durch kontinuierliche Wahrnehmung-Planung-Handlung-Zyklen.\nDeine Formel: LLM-basierte Agenten = LLM + Gedächtnis + Werkzeuge + Entscheidungsschleife"
+    "text": "Was sind AI Agents?\nLLM + Gedächtnis + Werkzeuge + Entscheidungsschleife\n\n\nDie Grundformel\nLLM-basierte Agenten =\n\nLLM (GPT-5, Claude, …) für Reasoning\n+ Gedächtnis (Kurz- & Langzeit)\n+ Werkzeuge (APIs, Datenbanken, Code)\n+ Entscheidungsschleife (kontinuierlich)\n\n\nDer Agent-Zyklus\n\nWahrnehmung - Input/Umgebung\nPlanung - LLM überlegt Schritte\nHandlung - Tools/APIs verwenden\nFeedback - Ergebnisse bewerten\n\n\n\n\n\nAgents verwandeln passive Sprachmodelle in aktive, handelnde Systeme durch kontinuierliche Wahrnehmung-Planung-Handlung-Zyklen."
   },
   {
     "objectID": "slides/was-sind-agenten/index.html#von-chatbot-zu-agent-der-unterschied",

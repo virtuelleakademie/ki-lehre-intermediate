@@ -47,7 +47,7 @@ website:
         text: "2: Lernen"
       - icon: marker-tip
         href: 03-lernumgebungen/index.qmd
-        text: "3: Lernumgebung"
+        text: "3: KI-gestütztes Lerndesign"
 
     right:
       - icon: file-slides
