@@ -20,6 +20,8 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 ### Die wissenschaftlich bewährten Lernstrategien:
 
+{{< bi book >}} **Vertiefung**: [Die 8 Make it Stick Strategien im Detail](./handout-make-it-stick/)
+
 | Strategie | Kern-Prinzip | Warum effektiv? |
 |-----------|--------------|-----------------|
 | **1. Abrufpraxis** | Aktives Erinnern statt Wiederlesen | Stärkt neuronale Verbindungen |
@@ -32,28 +34,35 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 | **8. Anwendung** | Wissen in verschiedenen Kontexten | Transferfähigkeit |
 
 ::: {.callout-important}
-**Erinnerung**: Ihr habt als Vorbereitung ein **eigenes Lehrthema** mitgebracht - das ist euer Anwendungsbereich!
+**Erinnerung**: Ihr habt als Vorbereitung ein **eigenes Lehrthema** mitgebracht---das ist euer Anwendungsbereich!
+
+{{< bi lightbulb >}}**Inspiration**: [Agent-Beispiele für jede Strategie](./agent-beispiele/)
 :::
 
 ---
 
 ## THINK Phase: Individuell (25 Min)
 
-### Schritt 1: Strategie wählen (10 Min)
+::: {.callout-note}
+## Schritt 1: Strategie wählen (10 Min)
 
 **Aufgabe**: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.
 
 **Leitfragen:**
+
 - Welches spezifische Problem haben meine Lernenden?
 - Welche Strategie könnte dieses Problem am besten lösen?
 - Bei welcher Strategie sehe ich das größte Potenzial?
 
 **Notiere:**
+
 - **Gewählte Strategie**: ________________________
 - **Mein Lehrthema**: ________________________
 - **Das spezifische Problem**: ________________________
+:::
 
-### Schritt 2: Agent konzipieren (15 Min)
+::: {.callout-note}
+## Schritt 2: Agent konzipieren (15 Min)
 
 **Entwickle deinen Copilot Agent mit dem Agent-Design-Template:**
 
@@ -61,53 +70,65 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 *Was ist das Hauptziel deines Agents?*
 
 #### **Was der Agent TUT:**
+
 - Konkrete Funktion 1: ________________________
 - Konkrete Funktion 2: ________________________
 - Konkrete Funktion 3: ________________________
 
 #### **Was der LERNENDE tut:**
+
 - Lernaktivität 1: ________________________
 - Lernaktivität 2: ________________________
 - Lernaktivität 3: ________________________
 
 #### **Lernrelevante Last Check:**
+
 - **Macht der Agent das Lernen besser oder nur einfacher?**
 - **Bleibt die gewünschte Schwierigkeit erhalten?**
 - **Fördert der Agent die gewählte Make-it-Stick-Strategie?**
 
 #### **Agent-Prototyp:**
 *Skizziere oder beschreibe, wie der Agent funktioniert (Flowchart, Storyboard, oder detaillierte Beschreibung)*
+:::
 
 ---
 
 ## PAIR Phase: Zu zweit (20 Min)
 
 ### Partner finden (5 Min)
+
 - Suche dir einen Partner
 - Am besten jemand mit einer **anderen Strategie** oder **anderem Fachbereich**
 
 ### Austausch & Feedback (15 Min)
 
-#### Runde 1: Vorstellen (8 Min)
+::: {.callout-tip}
+## Runde 1: Vorstellen (8 Min)
 **Person A präsentiert (4 Min):**
+
 - Strategie und Lehrthema
 - Agent-Konzept
 - Wie fördert der Agent die Strategie?
 
 **Person B präsentiert (4 Min):**
-- Gleiche Struktur
 
-#### Runde 2: Feedback & Verfeinerung (7 Min)
+- Gleiche Struktur
+:::
+
+::: {.callout-tip}
+## Runde 2: Feedback & Verfeinerung (7 Min)
 
 **Gebt euch gegenseitig konstruktives Feedback:**
 
 **Leitfragen für Feedback:**
+
 - Ist klar, wie der Agent die gewählte Strategie fördert?
 - Bleibt genug "lernrelevante Last" beim Lernenden?
 - Wo könnte das Konzept noch verbessert werden?
 - Welche Aspekte sind besonders gelungen?
 
 **Verfeinert eure Konzepte** basierend auf dem Feedback.
+:::
 
 ---
 
@@ -118,6 +139,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 **3-4 Teilnehmer stellen vor (je 2-3 Min):**
 
 **Präsentations-Struktur:**
+
 1. **Strategie & Lehrthema** (30 Sek)
 2. **Agent-Konzept** (1,5 Min)
 3. **Wie fördert es die Strategie?** (30 Sek)
@@ -125,11 +147,13 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 ### Reflexion & Synthese (5 Min)
 
 **Gemeinsame Erkenntnisse:**
+
 - Welche Strategien wurden am häufigsten gewählt?
 - Welche Patterns sehen wir beim Agent-Design?
 - Was haben wir über das Verhältnis KI ↔ Lernen gelernt?
 
 **Transfer:**
+
 - Wie könnte ich das in meiner eigenen Lehre umsetzen?
 - Welche nächsten Schritte sind realistisch?
 
