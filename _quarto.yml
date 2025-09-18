@@ -103,8 +103,7 @@ website:
       contents:
         - 02-wie-menschen-lernen/index.qmd
         - 02-wie-menschen-lernen/kompetenz-erwerben/index.qmd
-        - 02-wie-menschen-lernen/aktive-verarbeitung/index.qmd
-        - 02-wie-menschen-lernen/selbststudium/index.qmd
+        # - 02-wie-menschen-lernen/selbststudium/index.qmd
 
     - title: "Teil 3: KI-gestütztes Lerndesign"
       style: "docked"
