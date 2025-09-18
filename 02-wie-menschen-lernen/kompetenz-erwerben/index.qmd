@@ -11,7 +11,7 @@ citation: true
 ---
 
 ## Zentrale Erkenntnisse
-
+    
 1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
 2. **Kognitive Anstrengung ist kein Fehler, sondern die Funktion**, die Lernen durch Vorhersagefehler ermöglicht
 3. **Offloading an KI umgeht genau die Anstrengungen**, die dauerhafte Fähigkeiten aufbauen
@@ -413,7 +413,7 @@ Das Auslagern kognitiver Prozesse an KI erzeugt eine gefährliche Illusion:
 
 Aktuelle Studien zeigen alarmierende Auswirkungen von KI-Nutzung auf das Lernen:
 
-- **68% weniger kritisches Denken** bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit [@leeImpactGenerativeAI2025]
+- **Weniger kritisches Denken** bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit [@leeImpactGenerativeAI2025]
 - **Nur oberflächliches Lernen** bei Programmierstudierenden mit ChatGPT [@yangEffectivenessChatGPTAssisting2025]
 - **Verminderte Problemlösefähigkeiten** bei Mathematiklernenden mit KI-Tools [@bastaniGenerativeAICan2024]
 - **„Die Fluency-Illusion“**: KI-Kompetenz wird mit eigenem Können verwechselt
@@ -433,15 +433,23 @@ Lernen endet nicht mit dem Üben:
 
 **Man kann Schlaf nicht herunterladen – genauso wenig wie Expertise!**
 
-### Das „Grokking“-Phänomen
+### Das "Grokking"-Phänomen
 
-Sogar maschinelle Lernmodelle zeigen dieses Muster:
+"Grokking" bedeutet _etwas intuitiv und vollständig verstehen_. Sogar maschinelle Lernmodelle zeigen dieses Muster:
 
 - Lange Plateauphase ohne sichtbaren Fortschritt
 - Plötzlicher Sprung zur Generalisierung
-- Früher als „Überanpassung“ missverstanden
+- Früher als "overfitting" missverstanden
 - Heute als tiefes Musterlernen erkannt
 
+ Grokking (im machinellen Lernen) zeigt:
+ 
+  - Nach perfektem Memorieren kann echtes Verstehen entstehen
+  - Manchmal braucht es viel mehr Trainingsschritte als bis zum
+  Memorieren
+  - Das Modell findet plötzlich die zugrundeliegende Regel statt
+  nur Beispiele auswendig zu lernen
+  
 ## Das Gedächtnisparadoxon
 
 ::: {.callout-warning}
