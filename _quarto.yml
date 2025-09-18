@@ -106,7 +106,7 @@ website:
         - 02-wie-menschen-lernen/aktive-verarbeitung/index.qmd
         - 02-wie-menschen-lernen/selbststudium/index.qmd
 
-    - title: "Teil 3: Lernumgebungen"
+    - title: "Teil 3: KI-gestütztes Lerndesign"
       style: "docked"
       search: true
       background: light
