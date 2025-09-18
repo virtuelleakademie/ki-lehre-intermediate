@@ -859,7 +859,7 @@
     "href": "slides/wie-menschen-lernen/index.html#experten-vs.-anfänger",
     "title": "Wie Menschen lernen",
     "section": "Experten vs. Anfänger",
-    "text": "Experten vs. Anfänger\nZwei verschiedene Betriebssysteme\n\n\n\n\n\n\n\n\nDimension\n🗺️ Anfänger\n🎯 Experten\n\n\n\n\nSehen\n• Einzelne Teile\n• Bedeutungsvolle Muster (Chunks)\n\n\nVerarbeiten\n• Schritt-für-Schritt-Denken• Deliberativ• Bewusste Anstrengung\n• Automatische Prozeduren• Intuitiv• Unbewusst\n\n\nGedächtnis\n• separate Fakten• Deklarativ (“Ich weiss dass”)\n• bedeutungsvolle Chunks• Prozedural (“Ich weiss wie”)\n\n\nNeural\n• Schwache Verbindungen• Bahnen noch im Aufbau\n• Myelinisierte neuronale Bahnen• Viele Stunden geübt\n\n\n\n\n\n\n\n\n\n\n\nExperten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen"
+    "text": "Experten vs. Anfänger\nZwei verschiedene Betriebssysteme\n\n\n\n\n\n\n\n\nDimension\nAnfänger\nExperten\n\n\n\n\nSehen\n• Einzelne Teile\n• Bedeutungsvolle Muster (Chunks)\n\n\nVerarbeiten\n• Schritt-für-Schritt-Denken• Deliberativ• Bewusste Anstrengung\n• Automatische Prozeduren• Intuitiv• Unbewusst\n\n\nGedächtnis\n• separate Fakten• Deklarativ (“Ich weiss dass”)\n• bedeutungsvolle Chunks• Prozedural (“Ich weiss wie”)\n\n\nNeural\n• Schwache Verbindungen• Bahnen noch im Aufbau\n• Myelinisierte neuronale Bahnen• Viele Stunden geübt\n\n\n\n\n\n\n\n\n\n\n\nExperten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
@@ -1358,5 +1358,40 @@
     "title": "Wie funktionieren Chatbots?",
     "section": "Custom GPTs",
     "text": "Custom GPTs"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#die-cognitive-load-theory",
+    "href": "slides/wie-menschen-lernen/index.html#die-cognitive-load-theory",
+    "title": "Wie Menschen lernen",
+    "section": "Die Cognitive Load Theory",
+    "text": "Die Cognitive Load Theory\nWarum Anfänger anders lernen müssen als Experten\n\n\n🧠 Arbeitsgedächtnis\n\nBegrenzt: 7±2 Elemente gleichzeitig\nFlüchtig: Sekunden bis Minuten\nBottleneck: Hier findet aktives Lernen statt\nProblem: Schnell überlastet bei komplexen Aufgaben\n\n\n📚 Langzeitgedächtnis\n\nUnbegrenzt: Keine bekannte Obergrenze\nDauerhaft: Jahre bis lebenslang\nOrganisiert: Schemata und Chunks\nLösung: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht\n\n\n\n\n\n\nKernprinzip: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#die-drei-arten-kognitiver-belastung",
+    "href": "slides/wie-menschen-lernen/index.html#die-drei-arten-kognitiver-belastung",
+    "title": "Wie Menschen lernen",
+    "section": "Die drei Arten kognitiver Belastung",
+    "text": "Die drei Arten kognitiver Belastung\n\n\n\n\n\n\n\n\n\nArt\nDefinition\nBeispiel\nGestaltbar?\n\n\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst\nQuantenphysik hat höhere intrinsische Last als Addition\n❌ Nur durch Sequenzierung\n\n\nExtrinsisch\nWie Material präsentiert wird\nText und Grafik getrennt vs. integriert\n✅ Durch gutes Design minimierbar\n\n\nLernrelevant\nMentaler Aufwand für Schemabildung\nVerbindungen herstellen, Muster erkennen\n✅ Sollte maximiert werden\n\n\n\n\n\n\n\nDas Lerndilemma:\n\nGesamtlast darf Arbeitsgedächtnis nicht überfordern\nAber: Lernrelevanter cognitive load ist essentiell für Expertise-Entwicklung\nLösung: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#clt-prinzipien-für-effektives-lernen",
+    "href": "slides/wie-menschen-lernen/index.html#clt-prinzipien-für-effektives-lernen",
+    "title": "Wie Menschen lernen",
+    "section": "CLT-Prinzipien für effektives Lernen",
+    "text": "CLT-Prinzipien für effektives Lernen\n\n\n\n\n\n\n\n\n\nPrinzip\nFür Anfänger\nFür Fortgeschrittene\nImplikation\n\n\n\n\nWorked Examples\n✅ Reduziert kognitive Last durch Beispiele\n❌ Langweilt und hemmt\nScaffolding anpassen\n\n\nProblem Solving\n❌ Überfordert das Arbeitsgedächtnis\n✅ Fördert Schemabildung\nTiming ist kritisch\n\n\nSplit-Attention\nText + Bild integriert präsentieren\nWeniger relevant\nKlare Darstellung wählen\n\n\n\n\n\n\n\nDer Expertise Reversal Effect\n\n\nWas Experten hilft, kann Anfängern schaden – und umgekehrt. Lernumgebungen müssen sich an das Niveau anpassen.\n\n\n\nPraktische Regel: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise."
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#clt-und-ki-das-lernparadox",
+    "href": "slides/wie-menschen-lernen/index.html#clt-und-ki-das-lernparadox",
+    "title": "Wie Menschen lernen",
+    "section": "CLT und KI: Das Lernparadox",
+    "text": "CLT und KI: Das Lernparadox\nWie KI-Tools die kognitive Last beeinflussen könnte:\n\n\n\n\n\n\n\n\n\nAspekt\nOhne KI\nMit KI\nKonsequenz für Lernen\n\n\n\n\nIntrinsisch\nBleibt konstant\nScheint reduziert\nKI macht Komplexes “einfach” → verhindert Auseinandersetzung\n\n\nExtrinsisch\nVariabel\nOft minimiert\n✅ Gut für Effizienz\n\n\nLernrelevant\nMuss aufgebracht werden\nWird eliminiert\n❌ Keine Schemabildung!\n\n\n\n\n\n\n\nDas zentrale Problem\n\n\nKI-Tools optimieren für Produktion (minimale kognitive Last) statt für Lernen (optimale lernrelevante Last).\nResultat: “Cognitive offloading” → Abhängigkeit statt Kompetenz\n\n\n\n\nDie CLT-Perspektive: Schwierigkeit ist kein Bug im Lernprozess – sie ist das zentrale Feature für Expertise-Entwicklung."
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#cognitive-load-theory",
+    "href": "slides/wie-menschen-lernen/index.html#cognitive-load-theory",
+    "title": "Wie Menschen lernen",
+    "section": "Cognitive Load Theory",
+    "text": "Cognitive Load Theory\nWarum Anfänger anders lernen müssen als Experten\n\n\nArbeitsgedächtnis\n\nBegrenzt: Wenige Elemente gleichzeitig\nFlüchtig: Sekunden bis Minuten\nBottleneck: Hier findet aktives Lernen statt\nProblem: Schnell überlastet bei komplexen Aufgaben\n\n\nLangzeitgedächtnis\n\nUnbegrenzt: Keine bekannte Obergrenze\nDauerhaft: Jahre bis lebenslang\nOrganisiert: Schemata und Chunks\nLösung: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht\n\n\n\n\n\n\nKernprinzip: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstruktur oder Denkschablone)"
   }
 ]

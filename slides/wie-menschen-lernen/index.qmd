@@ -37,7 +37,7 @@ Was ist, wenn **Anstrengung** beim Lernen wichtig ist als das **Ergebnis**?
 
 **Zwei verschiedene Betriebssysteme**
 
-| Dimension       | 🗺️ **Anfänger**                                                              | 🎯 **Experten**                                                 |
+| Dimension       | **Anfänger**                                                              | **Experten**                                                 |
 | --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | **Sehen**       | • Einzelne Teile                                                                | • Bedeutungsvolle Muster (Chunks)                                |
 | **Verarbeiten** | • Schritt-für-Schritt-Denken<br>• Deliberativ<br>• Bewusste Anstrengung | • Automatische Prozeduren<br>• Intuitiv<br>• Unbewusst |
@@ -52,6 +52,97 @@ Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
 :::
 
 
+## Cognitive Load Theory {.smaller}
+
+**Warum Anfänger anders lernen müssen als Experten**
+
+::::{.columns}
+:::{.column width="50%"}
+### Arbeitsgedächtnis
+
+- **Begrenzt**: Wenige Elemente gleichzeitig
+- **Flüchtig**: Sekunden bis Minuten
+- **Bottleneck**: Hier findet aktives Lernen statt
+- **Problem**: Schnell überlastet bei komplexen Aufgaben
+:::
+
+:::{.column width="50%"}
+### Langzeitgedächtnis
+
+- **Unbegrenzt**: Keine bekannte Obergrenze
+- **Dauerhaft**: Jahre bis lebenslang
+- **Organisiert**: Schemata und Chunks
+- **Lösung**: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht
+:::
+::::
+
+<br>
+
+::: {.callout-tip}
+**Kernprinzip**: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (_Wissensstruktur_ oder _Denkschablone_)
+:::
+
+
+## Die drei Arten kognitiver Belastung {.smaller}
+
+| Art | Definition | Beispiel | Gestaltbar? |
+|-----|------------|----------|-------------|
+| **Intrinsisch** | Komplexität des Lernstoffs selbst | Quantenphysik hat höhere intrinsische Last als Addition | ❌ Nur durch Sequenzierung |
+| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | ✅ Durch gutes Design minimierbar |
+| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | ✅ Sollte maximiert werden |
+
+<br>
+
+::: {.callout-warning}
+**Das Lerndilemma**:
+
+- Gesamtlast darf Arbeitsgedächtnis nicht überfordern
+- Aber: Lernrelevanter _cognitive load_ ist essentiell für Expertise-Entwicklung
+- **Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen
+:::
+
+
+## CLT-Prinzipien für effektives Lernen {.smaller}
+
+| Prinzip | Für Anfänger | Für Fortgeschrittene | Implikation |
+|---------|--------------|----------------------|-------------|
+| **Worked Examples** | ✅ Reduziert kognitive Last durch Beispiele | ❌ Langweilt und hemmt | Scaffolding anpassen |
+| **Problem Solving** | ❌ Überfordert das Arbeitsgedächtnis | ✅ Fördert Schemabildung | Timing ist kritisch |
+| **Split-Attention** | Text + Bild integriert präsentieren | Weniger relevant | Klare Darstellung wählen  |
+
+<br>
+
+::: {.callout-important}
+### Der Expertise Reversal Effect
+
+Was Experten hilft, kann Anfängern schaden – und umgekehrt. Lernumgebungen müssen sich an das Niveau anpassen.
+:::
+
+**Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
+
+
+## CLT und KI: Das Lernparadox {.smaller}
+
+**Wie KI-Tools die kognitive Last beeinflussen könnte:**
+
+| Aspekt | Ohne KI | Mit KI | Konsequenz für Lernen |
+|--------|---------|--------|------------------------|
+| **Intrinsisch** | Bleibt konstant | Scheint reduziert | KI macht Komplexes "einfach" → verhindert Auseinandersetzung |
+| **Extrinsisch** | Variabel | Oft minimiert | ✅ Gut für Effizienz |
+| **Lernrelevant** | Muss aufgebracht werden | Wird eliminiert | ❌ **Keine Schemabildung!** |
+
+<br>
+
+::: {.callout-warning}
+### Das zentrale Problem
+KI-Tools optimieren für **Produktion** (minimale kognitive Last) statt für **Lernen** (optimale lernrelevante Last).
+
+**Resultat**: "Cognitive offloading" → Abhängigkeit statt Kompetenz
+:::
+
+<br>
+
+**Die CLT-Perspektive**: Schwierigkeit ist kein Bug im Lernprozess – sie ist das zentrale Feature für Expertise-Entwicklung.
 
 
 ## Warum existieren Schulen?
