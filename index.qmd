@@ -22,11 +22,11 @@ about:
 ---
 
 
-{{< bi calendar-event >}} 27. März 2025
+{{< bi calendar-event >}} 19. September 2025
 
 {{< bi clock >}} 9:00–12:00 Uhr
 
-{{< bi map >}} Raum E103, Effingerstrasse 47, 3008 Bern
+{{< bi map >}} S112 Seminarraum, Hallerstrasse 8, 3012 Bern
 
 <br>
 
