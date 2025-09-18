@@ -19,29 +19,22 @@ title: Transfer & Abschluss
 - **Pilotversuch**: Wo teste ich meinen Agent zuerst?
 - **Erfolg messen**: Woran erkenne ich, dass es funktioniert?
 
-**Notiere dir:**
-```
-Meine Strategie: ____________________
-Mein erster Schritt: ________________
-Bis wann: __________________________
-```
+<!-- **Notiere dir:** -->
+<!-- ``` -->
+<!-- Meine Strategie: ____________________ -->
+<!-- Mein erster Schritt: ________________ -->
+<!-- Bis wann: __________________________ -->
+<!-- ``` -->
 
-### Schritt 2: Blitzlicht & Ressourcen (7 Min)
+### Schritt 2: Blitzlicht (7 Min)
 
-**Rundblitz (5 Min)**: Jeder teilt in 30 Sekunden:
-- **Eine Erkenntnis** aus heute
+**Jeder teilt in 30 Sekunden:**
+
+- **Eine Erkenntnis** aus dem heutigen Workshop
 - **Einen konkreten nächsten Schritt**
-
-**Ressourcen für zu Hause (2 Min):**
-- [Die 8 Make it Stick Strategien](../03-lernumgebungen/handout-make-it-stick/) - zum Mitnehmen
-- [Agent-Beispiele](../03-lernumgebungen/agent-beispiele/) - für Inspiration
-- [BFH Orientierungshilfe KI](../../resources/resources.qmd) - für Guidelines
 
 ::: {.callout-tip}
 ## Take-Away Message
-**Wissenschaftlich fundiertes Agent-Design** bedeutet: KI soll die bewährten Lernstrategien **fördern**, nicht **ersetzen**.
 
-**Eure Mission**: Macht das Lernen eurer Studierenden **besser**, nicht nur **einfacher**.
+**Wissenschaftlich fundierter KI Einsatz** bedeutet: KI-Tools sollen die bewährten Lernstrategien **fördern**, nicht **ersetzen**.
 :::
-
-**Vielen Dank & viel Erfolg bei der Umsetzung!** 🚀
