@@ -66,7 +66,7 @@ Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bew
 
 **Erstelle deinen funktionsfähigen Copilot Agent:**
 
-#### **Agent-Prompt entwickeln**
+#### Agent-Prompt entwickeln
 Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 
 **Template-Struktur:**
@@ -76,17 +76,18 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 - **Was der Agent NICHT tut**: Grenzen setzen (keine direkten Antworten geben, etc.)
 - **Interaktionsstil**: Wie soll der Agent mit Lernenden kommunizieren?
 
-#### **Live-Test durchführen**
+#### Testen
 
 - Teste deinen Agent mit einer typischen Lernsituation
 - Identifiziere Prompting-Herausforderungen
 - Verfeinere den Prompt basierend auf dem Test
 
-#### **Lernrelevante Last Check:**
+#### Qualitätskontrolle
 
-- Fördert der Agent wirklich die gewählte Strategie?
-- Bleibt die kognitive Anstrengung beim Lernenden?
-- Wo musst du den Prompt noch anpassen?
+- **Strategie**: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?
+- **Anstrengung**: Muss der Lernende noch selbst denken und arbeiten?
+- **Gefahr**: Wo nimmt der Agent dem Lernenden zu viel ab?
+- **Verbesserung**: Wo musst du den Prompt noch anpassen?
 :::
 
 ---
