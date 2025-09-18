@@ -44,6 +44,13 @@ Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen �
 :::
 
 
+
+
+## {{< bi file-slides >}} Was sind Agents?
+
+{{< revealjs file="../slides/was-sind-agenten/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
 ## {{< bi file-slides >}} Prompting Tipps
 
 {{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}

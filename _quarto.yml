@@ -44,10 +44,10 @@ website:
         text: "1: KI verstehen"
       - icon: person-gear
         href: 02-wie-menschen-lernen/index.qmd
-        text: "2: Kompetenzerwerb"
+        text: "2: Lernen"
       - icon: marker-tip
         href: 03-lernumgebungen/index.qmd
-        text: "3: Lernumgebungen"
+        text: "3: Lernumgebung"
 
     right:
       - icon: file-slides

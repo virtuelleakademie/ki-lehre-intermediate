@@ -13,7 +13,7 @@
   <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Andrew Ellis">
-  <title>index</title>
+  <title>Was sind Agents?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,7 +31,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8910c83ed40c291cdbba4a0e0b83eb6e.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -151,13 +170,16 @@
     background-image: none;
   }
   </style>
+<meta property="og:title" content="Was sind Agents?">
+<meta property="og:description" content="Von Tools zu autonomen Partnern">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">Was ist Künstliche Intelligenz?</h1>
+  <h1 class="title">Was sind Agents?</h1>
+  <p class="subtitle">Von Tools zu autonomen Partnern</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -169,185 +191,413 @@ Andrew Ellis
 
   <p class="date">19 September, 2025</p>
 </section>
-<section id="erster-schritt-eigene-ki-kompetenz-entwickeln" class="slide level2">
-<h2>Erster Schritt: Eigene KI-Kompetenz entwickeln</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<h3 id="warum-du-beginnen-solltest">Warum du beginnen solltest</h3>
-<p><img data-src="../../assets/images/funf-schritte-model.png"></p>
-<p><a href="https://barbarageyer.substack.com/p/ki-integration">Blog Post: KI integrieren</a></p>
-</div><div class="column" style="width:40%;">
-
-</div></div>
-<div class="attribution">
-<p>Grafik von <a href="https://barbarageyer.substack.com/p/ki-integration">Barbara Geyer</a></p>
-</div>
-</section>
-<section id="erster-schritt-eigene-ki-kompetenz-entwickeln-1" class="slide level2">
-<h2>Erster Schritt: Eigene KI-Kompetenz entwickeln</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<h3 id="warum-du-beginnen-solltest-1">Warum du beginnen solltest</h3>
-<p><img data-src="../../assets/images/funf-schritte-model.png"></p>
-<p><a href="https://barbarageyer.substack.com/p/ki-integration">Blog Post: KI integrieren</a></p>
-</div><div class="column" style="width:40%;">
-<p><strong>Kommerzielle Tools</strong></p>
-<ul>
-<li><a href="https://chatgpt.com/">ChatGPT</a></li>
-<li><a href="https://claude.ai/">Claude</a></li>
-<li><a href="https://copilot.microsoft.com/">Copilot</a></li>
-<li><a href="https://gemini.google.com/">Gemini</a></li>
-</ul>
-<p><strong>Lokale Sprachmodelle</strong></p>
-<ul>
-<li><a href="https://lmstudio.ai/">LM Studio</a></li>
-<li><a href="https://ollama.com/">Ollama</a></li>
-</ul>
-</div></div>
-<div class="attribution">
-<p>Grafik von <a href="https://barbarageyer.substack.com/p/ki-integration">Barbara Geyer</a></p>
-</div>
-</section>
-<section id="was-is-ki" class="slide level2">
-<h2>Was is KI?</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-
-</div><div class="column" style="width:70%;">
-<p><img data-src="../../assets/images/ai-diagram.svg"></p>
-</div></div>
-</section>
-<section id="symbolische-ki-maschinelles-lernen" class="slide level2 smaller">
-<h2>Symbolische KI / Maschinelles Lernen</h2>
+<section id="der-paradigmenwechsel-beginnt" class="slide level2 smaller">
+<h2>Der Paradigmenwechsel beginnt</h2>
+<p><strong>Von reaktiven Tools zu proaktiven Partnern</strong></p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Symbolische KI:</strong></p>
+<h3 id="traditional-chatbot">🤖 Traditional Chatbot</h3>
+<p><strong>Benutzer</strong>: “Plane mir eine Reise nach Paris”</p>
+<p><strong>Chatbot</strong>: - “Hier sind 5 Hotels in Paris…” - “Diese Flüge sind verfügbar…” - “Sehenswürdigkeiten: Eiffelturm…” - <strong>Du musst alles selbst buchen</strong></p>
+</div><div class="column" style="width:50%;">
+<h3 id="ai-agent">🚀 AI Agent</h3>
+<p><strong>Benutzer</strong>: “Plane mir eine Reise nach Paris”</p>
+<p><strong>Agent</strong>: - Checkt deinen Kalender - Bucht Flug &amp; Hotel - Erstellt Reiseroute - Sendet Bestätigungen - <strong>Erledigt die komplette Aufgabe</strong></p>
+</div></div>
+<div class="callout callout-important no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Der Unterschied</strong>: Ein Chatbot beantwortet die nächste Frage. Ein Agent arbeitet das Problem, bis der Job erledigt ist.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="was-sind-ai-agents" class="slide level2 smaller">
+<h2>Was sind AI Agents?</h2>
+<p><strong>LLM + Gedächtnis + Werkzeuge + Entscheidungsschleife</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="die-grundformel">🧠 Die Grundformel</h3>
+<p><strong>LLM-basierte Agenten</strong> = - <strong>LLM</strong> (GPT-4, Claude) für Reasoning - <strong>+ Gedächtnis</strong> (Kurz- &amp; Langzeit) - <strong>+ Werkzeuge</strong> (APIs, Datenbanken, Code) - <strong>+ Entscheidungsschleife</strong> (kontinuierlich)</p>
+<h3 id="der-agent-zyklus">🔄 Der Agent-Zyklus</h3>
+<ol type="1">
+<li><strong>Wahrnehmung</strong> - Input/Umgebung</li>
+<li><strong>Planung</strong> - LLM überlegt Schritte</li>
+<li><strong>Handlung</strong> - Tools/APIs verwenden</li>
+<li><strong>Feedback</strong> - Ergebnisse bewerten</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<h3 id="technische-frameworks">🛠️ Technische Frameworks</h3>
 <ul>
-<li>Explizite Regeln und Logik, programmiert von Menschen</li>
-<li>Basiert auf Wenn-Dann-Anweisungen und vordefiniertem Wissen</li>
-<li>Folgt klaren, erklärbaren Schritten</li>
-<li>Gut für Probleme mit eindeutigen Regeln</li>
-<li>Weniger anpassungsfähig an neue Situationen</li>
-<li>Kann schlecht mit Unsicherheit umgehen</li>
+<li><strong>LangChain</strong> - Agent orchestration</li>
+<li><strong>AutoGPT</strong> - Autonomous execution</li>
+<li><strong>BabyAGI</strong> - Task decomposition</li>
+<li><strong>CrewAI</strong> - Multi-agent systems</li>
+</ul>
+<h3 id="transformation">🎯 Transformation</h3>
+<p>Von <em>zustandslosem Textgenerator</em> zu <em>autonomem, zielgerichtetem Problemlöser</em></p>
+</div></div>
+<div class="callout callout-tip no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Kernprinzip</strong>: Agents verwandeln passive Sprachmodelle in aktive, handelnde Systeme durch kontinuierliche Wahrnehmung-Planung-Handlung-Zyklen.</p>
+<p><strong>Deine Formel</strong>: <em>LLM-basierte Agenten = LLM + Gedächtnis + Werkzeuge + Entscheidungsschleife</em></p>
+</div>
+</div>
+</div>
+</section>
+<section id="von-chatbot-zu-agent-der-unterschied" class="slide level2 smaller">
+<h2>Von Chatbot zu Agent: Der Unterschied</h2>
+<p><strong>Zwei verschiedene Paradigmen</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 34%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th><strong>Chatbot</strong></th>
+<th><strong>AI Agent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Verhalten</strong></td>
+<td>• Reaktiv: Antwortet nur auf Anfragen</td>
+<td>• Proaktiv: Arbeitet kontinuierlich zum Ziel</td>
+</tr>
+<tr class="even">
+<td><strong>Aufgaben</strong></td>
+<td>• Einzelne Antworten<br>• Session-basiert</td>
+<td>• Komplette Workflows<br>• End-to-End Execution</td>
+</tr>
+<tr class="odd">
+<td><strong>Gedächtnis</strong></td>
+<td>• Nur während Conversation<br>• Kein Lernen</td>
+<td>• Persistent über Zeit<br>• Lernt aus Interaktionen</td>
+</tr>
+<tr class="even">
+<td><strong>Tools</strong></td>
+<td>• Keine externen Integrationen</td>
+<td>• APIs, Datenbanken, Apps<br>• Real-time Integration</td>
+</tr>
+<tr class="odd">
+<td><strong>Planung</strong></td>
+<td>• Keine Strategieentwicklung</td>
+<td>• Multi-step Planning<br>• Selbstkorrektur</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-important no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Paradigmenwechsel</strong>: Von “Frage-Antwort” zu “Ziel-Ausführung”</p>
+</div>
+</div>
+</div>
+</section>
+<section id="typen-von-agents" class="slide level2 smaller">
+<h2>Typen von Agents</h2>
+<p><strong>Von persönlichen Assistenten bis zu autonomen Workflows</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="enterprise-agents">🏢 Enterprise Agents</h3>
+<p><strong>Microsoft Copilot Agents</strong> - Copilot for Sales - Copilot for Service - Copilot for Finance - Integration in Microsoft 365</p>
+<p><strong>GitHub Copilot</strong> - Code completion &amp; generation - Natural language → Code - Pull request automation - Test case generation</p>
+</div><div class="column" style="width:50%;">
+<h3 id="spezialisierte-agents">🤖 Spezialisierte Agents</h3>
+<p><strong>Persönliche Assistenz</strong> - E-Mail &amp; Kalender Management - Slack/Teams Integration</p>
+<p><strong>Forschungs-Agenten</strong> - Websuche &amp; Quellenprüfung - Zusammenfassung von Ergebnissen</p>
+<p><strong>Tutor-Agenten</strong> - Adaptive Lernbegleitung - Personalisierte Hinweise</p>
+<p><strong>Robotik-Agenten</strong> - LLM-gestützte Bewegungsplanung - Physische Aktionen</p>
+</div></div>
+<div class="callout callout-tip no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Trend</strong>: Von general-purpose Chatbots zu <strong>zielgerichteten Problemlösern</strong> in spezifischen Domänen</p>
+</div>
+</div>
+</div>
+</section>
+<section id="agent-capabilities-das-neue-paradigma" class="slide level2 smaller">
+<h2>Agent Capabilities: Das neue Paradigma</h2>
+<p><strong>Was Agents können, was Tools nicht können</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 31%">
+<col style="width: 18%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Capability</th>
+<th>Beschreibung</th>
+<th>Impact</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Autonomie</strong></td>
+<td>61% weniger menschliche Intervention</td>
+<td>Echte Automation</td>
+<td>Agent plant &amp; bucht komplette Geschäftsreise</td>
+</tr>
+<tr class="even">
+<td><strong>Tool Use</strong></td>
+<td>Real-time API Integration</td>
+<td>Workflow Orchestration</td>
+<td>Daten aus 5 Systemen kombinieren &amp; analysieren</td>
+</tr>
+<tr class="odd">
+<td><strong>Planning</strong></td>
+<td>Multi-step Strategieentwicklung</td>
+<td>Komplexe Problemlösung</td>
+<td>Marketing-Kampagne von Strategie bis Execution</td>
+</tr>
+<tr class="even">
+<td><strong>Memory</strong></td>
+<td>Persistent context &amp; learning</td>
+<td>Personalization at scale</td>
+<td>Lernt deine Präferenzen über Monate</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Quantified Impact:</strong> - <strong>Success Rate</strong>: 50% bei komplexen Tasks (vs.&nbsp;0% bei Traditional Tools) - <strong>Autonomy</strong>: 61% Reduktion manueller Schritte - <strong>Scale</strong>: 24/7 Verfügbarkeit ohne menschliche Aufsicht</p>
+<div class="callout callout-warning no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Reality Check</strong>: Agents sind mächtig, aber noch nicht perfekt (siehe Limitations)</p>
+</div>
+</div>
+</div>
+</section>
+<section id="agents-und-lernen-chancen-und-risiken" class="slide level2 smaller">
+<h2>Agents und Lernen: Chancen und Risiken</h2>
+<p><strong>Das Lernparadox kehrt zurück</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 33%">
+<col style="width: 28%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspekt</th>
+<th>🎯 <strong>Potenzial</strong></th>
+<th>⚠️ <strong>Risiko</strong></th>
+<th>Konsequenz</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Personalisierung</strong></td>
+<td>Adaptive Lernpfade für jeden</td>
+<td>Kognitive Faulheit</td>
+<td>Agents machen alles → keine Anstrengung</td>
+</tr>
+<tr class="even">
+<td><strong>Verfügbarkeit</strong></td>
+<td>24/7 Tutoring &amp; Support</td>
+<td>Über-Abhängigkeit</td>
+<td>Kann nicht mehr ohne Agent arbeiten</td>
+</tr>
+<tr class="odd">
+<td><strong>Skalierung</strong></td>
+<td>Qualitätslernen für alle</td>
+<td>Verlust menschlicher Verbindung</td>
+<td>Soziale Lernaspekte verschwinden</td>
+</tr>
+<tr class="even">
+<td><strong>Feedback</strong></td>
+<td>Real-time Assessment</td>
+<td>Oberflächliches Lernen</td>
+<td>Schnelle Korrekturen → keine Reflexion</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<div class="callout callout-warning no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Das Agent-Lernparadox</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Agents können perfekte Tutoren sein - oder perfekte Lernverhinderer</strong></p>
+<ul>
+<li><strong>Gut</strong>: Personalisierte Unterstützung beim Lernen</li>
+<li><strong>Schlecht</strong>: Agents lösen Aufgaben statt Lernende</li>
+</ul>
+</div>
+</div>
+</div>
+<p><strong>Die CLT-Perspektive</strong>: Agents müssen lernrelevante Last fördern, nicht eliminieren.</p>
+</section>
+<section id="current-limitations-2024" class="slide level2 smaller">
+<h2>Current Limitations (2024)</h2>
+<p><strong>Die Herausforderungen der Agentic AI</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 28%">
+<col style="width: 23%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Manifestation</th>
+<th>Konsequenz</th>
+<th>Technical Root</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Zuverlässigkeit</strong></td>
+<td>LLMs halluzinieren/inkonsistent</td>
+<td>Nur 50% Erfolg bei komplexen Tasks</td>
+<td>Probabilistische Natur von LLMs</td>
+</tr>
+<tr class="even">
+<td><strong>Kontrolle</strong></td>
+<td>Endlose Schleifen, unerwartete Aktionen</td>
+<td>Agenten werden unvorhersagbar</td>
+<td>Fehlende Feedback-Mechanismen</td>
+</tr>
+<tr class="odd">
+<td><strong>Kosten/Latenz</strong></td>
+<td>Mehrstufiges Denken teuer &amp; langsam</td>
+<td>Nicht skalierbar für alle Use Cases</td>
+<td>Iterative LLM-Aufrufe</td>
+</tr>
+<tr class="even">
+<td><strong>Evaluation</strong></td>
+<td>Erfolg schwer messbar über Tasks</td>
+<td>Deployment-Unsicherheit</td>
+<td>Komplexe Multi-Step-Workflows</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Die Realität aus deinen Notizen:</strong> - <strong>Hallucination</strong>: LLMs erfinden Fakten → Agents handeln auf falschen Annahmen - <strong>Endlose Loops</strong>: Agents können sich “festfahren” ohne Escape-Mechanismus - <strong>Tool Misuse</strong>: Falsche API-Calls → kaskadierende Fehler</p>
+<div class="callout callout-important no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Bottom Line</strong>: Agents sind <strong>erweiterbar und flexibel</strong>, aber <strong>Zuverlässigkeit</strong> bleibt die große Herausforderung</p>
+</div>
+</div>
+</div>
+</section>
+<section id="die-zukunft-von-copilot-zu-autopilot" class="slide level2 smaller">
+<h2>Die Zukunft: Von Copilot zu Autopilot</h2>
+<p><strong>The Agent Revolution is Just Beginning</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="market-trajectory">📈 Market Trajectory</h3>
+<p><strong>$52.6 Billion bis 2030</strong> - 45% CAGR growth - “Basic bots are out, autonomous agents are in” - Gartner: 15% autonome Entscheidungen bis 2028</p>
+<h3 id="architectural-shift">🏗️ Architectural Shift</h3>
+<ul>
+<li>Von LLM-centric zu “agentic AI mesh”</li>
+<li>Von Copilot (assisted) zu Autopilot (autonomous)</li>
+<li>Distributed, modular systems</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Machine Learning:</strong></p>
+<h3 id="evolution-path">🚀 Evolution Path</h3>
+<p><strong>2024</strong>: Agent-assisted workflows <strong>2025</strong>: Semi-autonomous task execution <strong>2026</strong>: Multi-agent collaboration <strong>2027</strong>: Autonomous decision-making <strong>2028</strong>: AI agents as digital colleagues</p>
+<h3 id="future-capabilities">🤖 Future Capabilities</h3>
 <ul>
-<li>Lernt automatisch statistische Muster und Beziehungen aus Daten</li>
-<li>Funktioniert wie eine “Black Box” - Entscheidungen schwerer zu erklären</li>
-<li>Kann sich durch Training an neue Situationen anpassen</li>
-<li>Gut für komplexe Muster und unklare Regeln</li>
+<li>Enhanced cognitive reasoning</li>
+<li>Natural human-AI collaboration</li>
+<li>Cross-enterprise integration</li>
 </ul>
 </div></div>
-</section>
-<section id="machine-learning" class="slide level2">
-<h2>Machine learning</h2>
-
-<img data-src="../../assets/images/neural-network.gif" class="r-stretch"></section>
-<section id="machine-learning-1" class="slide level2">
-<h2>Machine learning</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li>Supervised learning</li>
-<li>Unsupervised learning</li>
-<li>Reinforcement learning</li>
-</ul>
-</div><div class="column" style="width:70%;">
-
-</div></div>
-</section>
-<section id="machine-learning-2" class="slide level2">
-<h2>Machine learning</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li><strong>Supervised learning</strong></li>
-<li>Unsupervised learning</li>
-<li>Reinforcement learning</li>
-</ul>
-</div><div class="column" style="width:70%;">
-<p><img data-src="../../assets/images/supervised.gif"></p>
-</div></div>
-</section>
-<section id="machine-learning-3" class="slide level2">
-<h2>Machine learning</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li>Supervised learning</li>
-<li>Unsupervised learning</li>
-<li><strong>Reinforcement learning</strong></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<div class="r-stack">
-<p><img data-src="../../assets/images/control-1.gif" class="fragment" width="350" height="200"> <img data-src="../../assets/images/control-2.gif" class="fragment" width="350" height="200"></p>
+<div class="callout callout-tip no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Paradigm</strong>: Agents werden von Tools zu autonomen Partnern in human-AI collaboration</p>
 </div>
-</div></div>
-</section>
-<section id="klassifizierung" class="slide level2">
-<h2>Klassifizierung</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-
-</div><div class="column" style="width:70%;">
-<p><img data-src="../../assets/images/cats-vs-dogs.png"></p>
-</div></div>
-<div class="attribution">
-<p>Figure courtesy of <a href="https://medium.com/@gnabr/machine-learning-c28daf3cf60a">Branav Kumar Gnanamoorthy</a></p>
+</div>
 </div>
 </section>
-<section id="mit-symbolischer-ki" class="slide level2">
-<h2>Mit Symbolischer KI</h2>
-<p><br> <br></p>
-<div class="columns">
-<div class="column" style="width:60%;">
-<div class="r-fit-text">
-<pre><code>IF has_whiskers = true
-AND has_pointed_ears = true
-AND has_fur = true
-AND has_tail = true
-THEN is_cat = true</code></pre>
+<section id="das-agent-protokoll-für-lernende" class="slide level2 smaller">
+<h2>Das AGENT-Protokoll für Lernende</h2>
+<p><strong>Wie man verantwortlich mit Agents lernt</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 32%">
+<col style="width: 29%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>🎯 Aktion</th>
+<th>⚡ Warum</th>
+<th>🚫 Nicht</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A</strong>gents kritisch evaluieren</td>
+<td>Outputs hinterfragen</td>
+<td>50% Fehlerrate bei komplexen Tasks</td>
+<td>Blind vertrauen</td>
+</tr>
+<tr class="even">
+<td><strong>G</strong>renzen verstehen</td>
+<td>Limitations kennen</td>
+<td>Hallucination &amp; Planning Failures</td>
+<td>Als perfekt ansehen</td>
+</tr>
+<tr class="odd">
+<td><strong>E</strong>igene Fähigkeiten erhalten</td>
+<td>Selbst denken &amp; machen</td>
+<td>Cognitive Load Theory</td>
+<td>Alles delegieren</td>
+</tr>
+<tr class="even">
+<td><strong>N</strong>ie komplett outsourcen</td>
+<td>Human-in-the-loop</td>
+<td>Lernrelevante Last bewahren</td>
+<td>Totale Abhängigkeit</td>
+</tr>
+<tr class="odd">
+<td><strong>T</strong>ransparenz einfordern</td>
+<td>Nachvollziehbare Entscheidungen</td>
+<td>Governance &amp; Oversight</td>
+<td>Blackbox akzeptieren</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Die 50%-Regel</strong></p>
 </div>
-</div><div class="column" style="width:40%;">
-<p><img data-src="../../assets/images/cat.png"></p>
-</div></div>
-</section>
-<section id="mit-machine-learning" class="slide level2">
-<h2>Mit Machine learning</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<ul>
-<li>System lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.</li>
-<li>Kann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.</li>
-<li>Braucht keine expliziten Regeln.</li>
-</ul>
-</div><div class="column" style="width:60%;">
-<p><img data-src="../../assets/images/cat-features.png"></p>
-</div></div>
-</section>
-<section id="was-kann-ki" class="slide level2">
-<h2>Was kann KI?</h2>
-
-<img data-src="../../assets/images/objects.png" class="r-stretch"></section>
-<section id="was-kann-ki-1" class="slide level2">
-<h2>Was kann KI?</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><a href="https://alphafold.com/">AlphaFold</a> ist ein von <a href="https://deepmind.google/">Google DeepMind</a> entwickeltes KI-System, das die 3D-Struktur eines Proteins aus seiner Aminosäuresequenz vorhersagt.</p>
-</div><div class="column" style="width:60%;">
-<p><img data-src="../../assets/images/protein.png"></p>
-</div></div>
-<div class="attribution">
-<p>Quelle: <a href="https://alphafold.com/">AlphaFold</a></p>
+<div class="callout-content">
+<p>Agent für 50% der Arbeit, du für 50% des Denkens</p>
 </div>
+</div>
+</div>
+<blockquote>
+<p><strong>Jede delegierte Aufgabe = eine verpasste Lernchance (aber Agents können auch Lernen ermöglichen)</strong></p>
+</blockquote>
+<p><strong>Bottom Line</strong>: Agents sind mächtige Lernpartner - wenn richtig eingesetzt.</p>
 </section>
-<section id="was-kann-ki-2" class="slide level2">
-<h2>Was kann KI?</h2>
+<section id="bibliographie" class="slide level2 smaller scrollable">
+<h2>Bibliographie</h2>
+<div id="refs" role="list">
+
+</div>
 
 
-
-<img data-src="../../assets/images/ai-capabilities.png" class="r-stretch"></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../../../assets/bfh-logo.png" class="slide-logo"></p>
