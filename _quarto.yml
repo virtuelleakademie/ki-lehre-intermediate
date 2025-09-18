@@ -11,8 +11,11 @@ project:
   render:
     - index.qmd
     - workshop/**/*.qmd
-    - exercises/**/*.qmd
+    - 01-ki-verstehen/**/*.qmd
+    - 02-wie-menschen-lernen/**/*.qmd
+    - 03-lernumgebungen/**/*.qmd
     - resources/**/*.qmd
+    - slides/**/*.qmd
 
 website:
   title: "KI in der Lehre: Intermediate"
@@ -29,16 +32,22 @@ website:
   page-navigation: true
   back-to-top-navigation: true
 
+
   navbar:
     background: light
     left:
       - icon: card-list
         href: workshop/index.qmd
         text: Workshop
-
-      - icon: pencil
-        href: exercises/index.qmd
-        text: Übungen
+      - icon: motherboard
+        href: 01-ki-verstehen/index.qmd
+        text: "1: KI verstehen"
+      - icon: person-gear
+        href: 02-wie-menschen-lernen/index.qmd
+        text: "2: Kompetenzerwerb"
+      - icon: marker-tip
+        href: 03-lernumgebungen/index.qmd
+        text: "3: Lernumgebungen"
 
     right:
       - icon: file-slides
@@ -46,6 +55,8 @@ website:
         menu:
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
+          - text: "Begleitdokument: KI Policy (PDF)"
+            file: assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf
           - text: "Begleitdokument: Orientierungshilfe"
             file: resources/resources.qmd
           - text: "Begleitdokument: Orientierungshilfe (PDF)"
@@ -59,9 +70,9 @@ website:
       # - icon: github
       #   menu:
       #     - text: Source code
-      #       url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/
+      #       url:  https://github.com/virtuelleakademie/ki-lehre-intermediate/
       #     - text: Report an issue
-      #       url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/issues
+      #       url:  https://github.com/virtuelleakademie/ki-lehre-intermediate
 
   sidebar:
     - title: "Workshop"
@@ -70,43 +81,60 @@ website:
       background: light
       contents:
         - workshop/index.qmd
-        - workshop/umfrage/index.qmd
-        - workshop/wie-chatbots-denken/index.qmd
-        - workshop/chatbot-agenten/index.qmd
-        - workshop/prompting/index.qmd
+        - workshop/einstieg/index.qmd
+        # - 01-ki-verstehen/index.qmd
+        # - 02-wie-menschen-lernen/index.qmd
+        # - 03-lernumgebungen/index.qmd
+        - workshop/diskussion/index.qmd
 
-    - title: "Übungen"
+    # - title: "Teil 1: KI verstehen"
+    #   style: "docked"
+    #   search: true
+    #   background: light
+    #   contents:
+    #     - 01-ki-verstehen/index.qmd
+    #     # - 01-ki-verstehen/selbststudium/index.qmd
+
+
+    - title: "Teil 2: Wie Menschen lernen "
       style: "docked"
       search: true
       background: light
       contents:
-        - exercises/index.qmd
-        - exercises/exercise-1/index.qmd
-        - exercises/exercise-2/index.qmd
-        - exercises/exercise-3/index.qmd
-        - exercises/miro-board/index.qmd
+        - 02-wie-menschen-lernen/index.qmd
+        - 02-wie-menschen-lernen/kompetenz-erwerben/index.qmd
+        - 02-wie-menschen-lernen/aktive-verarbeitung/index.qmd
+        - 02-wie-menschen-lernen/selbststudium/index.qmd
+
+    - title: "Teil 3: Lernumgebungen"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - 03-lernumgebungen/index.qmd
+        - 03-lernumgebungen/produktive-anstrengung/index.qmd
 
 page-footer:
-  right:
+    right:
     - icon: github
       href: https://github.com/virtuelleakademie/ki-lehre-intermediate/
 
 format:
   html:
     theme:
-      light: [simplex]
+      light: simplex
     toc: true
     link-external-icon: true
     link-external-newwindow: true
     anchor-sections: true
     smooth-scroll: true
-    linkcolor: rebeccapurple
+    linkcolor: "#9A4665"
 
 comments:
   hypothesis:
     theme: clean
   # utterances:
-  # repo: virtuelleakademie/promptly-literate
+    # repo: virtuelleakademie/ki-lehre-intermediate
 
 execute:
   cache: true
@@ -123,137 +151,137 @@ filters:
   - custom-callout
 
 custom-callout:
-  # todo:
-  #   icon-symbol: "📝"
-  #   collapse: true
-  #   color: "pink"
+  active-processing:
+    icon-symbol: "📝"
+    collapse: false
+    color: "#9A4665"
 
   # thumbs-up:
   #   title: "Great job!"
   #   icon-symbol: "👍🏼"
   #   color: "steelblue"
 
-  # Activity Types
-  individual:
-    title: "Individual Work"
-    icon-symbol: "💻"
-    color: "steelblue"
-    collapse: false
 
-  pair:
-    title: "Pair Work"
-    icon-symbol: "👥"
-    color: "forestgreen"
-    collapse: false
+  # # Activity Types
+  # individual:
+  #   title: "Individual Work"
+  #   icon-symbol: "💻"
+  #   color: "steelblue"
+  #   collapse: false
 
-  group:
-    title: "Group Work"
-    icon-symbol: "👥"
-    color: "purple"
-    collapse: false
+  # pair:
+  #   title: "Pair Work"
+  #   icon-symbol: "👥"
+  #   color: "forestgreen"
+  #   collapse: false
 
-  screens-down:
-    title: "Screens Down"
-    icon-symbol: "🔽"
-    color: "orange"
-    collapse: false
+  # group:
+  #   title: "Group Work"
+  #   icon-symbol: "👥"
+  #   color: "purple"
+  #   collapse: false
 
-  screens-up:
-    title: "Screens Up"
-    icon-symbol: "🔼"
-    color: "green"
-    collapse: false
+  # screens-down:
+  #   title: "Screens Down"
+  #   icon-symbol: "🔽"
+  #   color: "orange"
+  #   collapse: false
 
-  # Learning Process
-  try:
-    title: "Try It"
-    icon-symbol: "🔄"
-    color: "blue"
-    collapse: false
+  # screens-up:
+  #   title: "Screens Up"
+  #   icon-symbol: "🔼"
+  #   color: "green"
+  #   collapse: false
 
-  reflect:
-    title: "Reflection"
-    icon-symbol: "💭"
-    color: "purple"
-    collapse: false
+  # # Learning Process
+  # try:
+  #   title: "Try It"
+  #   icon-symbol: "🔄"
+  #   color: "blue"
+  #   collapse: false
 
-  feedback:
-    title: "Feedback"
-    icon-symbol: "📝"
-    color: "teal"
-    collapse: true
+  # reflect:
+  #   title: "Reflection"
+  #   icon-symbol: "💭"
+  #   color: "purple"
+  #   collapse: false
 
-  caution:
-    title: "Watch Out"
-    icon-symbol: "⚠️"
-    color: "orange"
-    collapse: true
+  # feedback:
+  #   title: "Feedback"
+  #   icon-symbol: "📝"
+  #   color: "teal"
+  #   collapse: true
 
-  pro-tip:
-    title: "Pro Tip"
-    icon-symbol: "💡"
-    color: "gold"
-    collapse: true
+  # caution:
+  #   title: "Watch Out"
+  #   icon-symbol: "⚠️"
+  #   color: "orange"
+  #   collapse: true
 
-  # Technical Elements
-  prompt-example:
-    title: "Example Prompt:"
-    icon-symbol: "👩🏼‍🔧"
-    color: "steelblue"
-    collapse: false
+  # pro-tip:
+  #   title: "Pro Tip"
+  #   icon-symbol: "💡"
+  #   color: "gold"
+  #   collapse: true
 
-  tutor-example:
-    title: "Tutor:"
-    icon-symbol: "📄"
-    color: "purple"
-    collapse: false
+  # # Technical Elements
+  # prompt-example:
+  #   title: "Example Prompt"
+  #   icon-symbol: "👩🏼‍🔧"
+  #   color: "steelblue"
+  #   collapse: false
 
-  prompt-template:
-    title: "Prompt Template"
-    icon-symbol: "📋"
-    color: "indigo"
-    collapse: true
+  # output-example:
+  #   title: "Output Example"
+  #   icon-symbol: "📄"
+  #   color: "purple"
+  #   collapse: true
 
-  testing:
-    title: "Test Your Prompt"
-    icon-symbol: "🧪"
-    color: "green"
-    collapse: false
+  # prompt-template:
+  #   title: "Prompt Template"
+  #   icon-symbol: "📋"
+  #   color: "indigo"
+  #   collapse: true
 
-  export:
-    title: "Export"
-    icon-symbol: "📤"
-    color: "brown"
-    collapse: true
+  # testing:
+  #   title: "Test Your Prompt"
+  #   icon-symbol: "🧪"
+  #   color: "green"
+  #   collapse: false
 
-  # Workshop Flow
-  setup:
-    title: "Setup"
-    icon-symbol: "⚙️"
-    color: "gray"
-    collapse: true
+  # export:
+  #   title: "Export"
+  #   icon-symbol: "📤"
+  #   color: "brown"
+  #   collapse: true
 
-  timing:
-    title: "Time Check"
-    icon-symbol: "⏱️"
-    color: "red"
-    collapse: false
+  # # Workshop Flow
+  # setup:
+  #   title: "Setup"
+  #   icon-symbol: "⚙️"
+  #   color: "gray"
+  #   collapse: true
 
-  break:
-    title: "Break Time"
-    icon-symbol: "☕"
-    color: "yellow"
-    collapse: false
+  # timing:
+  #   title: "Time Check"
+  #   icon-symbol: "⏱️"
+  #   color: "red"
+  #   collapse: false
 
-  checkpoint:
-    title: "Checkpoint"
-    icon-symbol: "🎯"
-    color: "purple"
-    collapse: false
+  # break:
+  #   title: "Break Time"
+  #   icon-symbol: "☕"
+  #   color: "yellow"
+  #   collapse: false
 
-  schedule:
-    title: "Schedule"
-    icon-symbol: "⏰︎"
-    color: "steelblue"
-    collapse: false
+  # checkpoint:
+  #   title: "Checkpoint"
+  #   icon-symbol: "🎯"
+  #   color: "purple"
+  #   collapse: false
 
+  # schedule:
+  #   title: "Schedule"
+  #   icon-symbol: "⏰︎"
+  #   color: "steelblue"
+  #   collapse: false

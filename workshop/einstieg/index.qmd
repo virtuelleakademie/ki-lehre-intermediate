@@ -1,0 +1,17 @@
+---
+title:  Begrüssungsaufgabe
+---
+
+Stelle dich kurz vor:
+
+1. **Name**
+
+2. **Institut & Lehrfächer**
+
+3. **Subjektives Erfahrungslevel mit KI (Skala von 0-10)**
+
+4. **Beschreibe kurz: Welche KI-Tools hast du schon genutzt und wofür?** (2-3 Sätze)
+
+5. **Kannst du dich an einen Moment erinnern, in dem du das Gefühl hattest, etwas wirklich verstanden zu haben? Was hat dazu geführt?** (2-3 Sätze)
+
+6. **Was erwartest du von diesem Kurs?** (2-3 Sätze)

@@ -2,9 +2,19 @@
 title: "Ablauf"
 ---
 
-| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
-|-------|--------|
-| [Auswertung der Umfrage](umfrage/index.qmd) | 10 min |
-| [Input: Wie Chatbots denken](wie-chatbots-denken/index.qmd) | 25 min |
-| [Input: Chatbot Agenten](chatbot-agenten/index.qmd) | 25 min |
-| [Effective Prompting Strategies](prompting/index.qmd) | Zum Selbststudium |
+<!-- ## Einstieg -->
+| {{< bi collection-fill >}} Thema                                                             | {{< bi clock-fill >}} Dauer |
+| -------------------------------------------------------------------------------------------- | --------------------------- |
+| {{< bi collection-play >}} Einstieg                                                          |                             |
+| [Begrüssungsaufgabe](einstieg/index.qmd)                                                     | 10 min                      |
+| {{< bi collection-play >}} Teil 1                                                            |                             |
+| [Input: KI verstehen](../01-ki-verstehen/index.qmd)                                          | 45 min                      |
+| {{< bi collection-play >}} Teil 2                                                            |                             |
+| [Input: Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd)                            | 10 min                      |
+| [Selbststudium: Wie Menschen lernen](../02-wie-menschen-lernen/kompetenz-erwerben/index.qmd) | 20 min                      |
+| [Aktive Verarbeitung: Reflexion](../02-wie-menschen-lernen/aktive-verarbeitung/index.qmd)    | 15 min                      |
+| {{< bi pause-circle >}} Pause                                                                |                             |
+| {{< bi collection-play >}} Teil 3                                                            |                             |
+| [Aktive Verarbeitung: Lernumgebungen gestalten](../03-lernumgebungen/index.qmd)              | 50 min                      |
+| {{< bi collection-play >}} Diskussion                                                        |                             |
+| [Offene Diskussion](diskussion/index.qmd)                                                    | 30 min                      |
