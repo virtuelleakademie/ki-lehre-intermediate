@@ -1602,7 +1602,7 @@
     "href": "03-lernumgebungen/handout-make-it-stick/index.html#die-8-bewährten-lernstrategien",
     "title": "Die 8 Make it Stick Strategien",
     "section": "Die 8 bewährten Lernstrategien",
-    "text": "Die 8 bewährten Lernstrategien\n\n1. Abrufpraxis (Retrieval Practice)\nPrinzip: Aktives Erinnern statt passives Wiederlesen\nWarum effektiv?\n\nJeder Abruf stärkt die neuronalen Verbindungen\n“Testing Effect”: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren\n\nPraktische Umsetzung:\n\nSelbsttests, Karteikarten, Übungsfragen\nOhne Notizen erklären können\nFrequent low-stakes quizzes\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nQuiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition\n\n\n\n\n2. Verteiltes Lernen (Spacing)\nPrinzip: Über Zeit verteilen statt Pauken\nWarum effektiv?\n\nGrössere Anstrengung nach Vergessen als Lernhilfe\nGegen die Intuition: Schwieriger → Besser für Langzeitretention (Konsolidierung)\n\nPraktische Umsetzung:\n\nWarten bis Vergessen eingesetzt hat, dann wiederholen\nVerteilte Übung über Wochen/Monate\nSpaced Repetition Systeme (z.B. Anki)\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nIntelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen\n\n\n\n\n3. Abwechslung (Interleaving)\nPrinzip: Verschiedene Aufgaben/Themen mischen statt blockweise üben\nWarum effektiv?\n\nTrainiert flexible Anwendung\nErhöht Anstrengung → Besserer Transfer zwischen Konzepten\n\nPraktische Umsetzung:\n\nVerschiedene Aufgabentypen mischen\nBeispiel Mathe: Addition, Multiplikation, Brüche durchmischen\nNicht alle gleichen Aufgaben hintereinander\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nIntelligente Aufgabenmischung, Adaptive Sequenzierung\n\n\n\n\n4. Variation\nPrinzip: In unterschiedlichen Kontexten üben\nWarum effektiv?\n\nFördert Transfer auf neue Situationen\nMacht Wissen weniger abhängig vom ursprünglichen Lernkontext\n\nPraktische Umsetzung:\n\nVerschiedene Beispiele, Umgebungen, Anwendungen\nGleiche Konzepte in unterschiedlichen Situationen\nVielfältige Übungsformate\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nKontextvariation generieren, Neue Anwendungsszenarien erstellen\n\n\n\n\n5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)\nPrinzip: Fehler, Anstrengung und Herausforderungen nutzen\nWarum effektiv?\n\nVertieft Verständnis durch kognitive Anstrengung\nKurzfristig schwieriger, langfristig mehr Retention\n\nPraktische Umsetzung:\n\nTests ohne Ankündigung\nVariation in der Übung\nForcing functions1 die zum Nachdenken zwingen\nErst raten, dann lernen\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nAdaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern2\n\n\n\n\n6. Verstehen vs. Vertrautheit\nPrinzip: In eigenen Worten erklären = echtes Verständnis\nWarum effektiv?\n\nUnterscheidet echtes Wissen von Fluency-Illusion\nZwingt zu aktiver Verarbeitung und Verknüpfung\n\nPraktische Umsetzung:\n\nErklären, als ob man es jemand anderem beibringt\nVerbindungen zu Vorwissen herstellen\nSelbst Antworten generieren vor dem Lernen der Lösung\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nSocratic Questioning, Erklärungen bewerten, Verständnis testen\n\n\n\n\n7. Feedback & Reflexion\nPrinzip: Korrektur und bewusstes Nachdenken\nWarum effektiv?\n\nKorrektes Feedback sorgt dafür, dass richtige Informationen verankert werden\nReflexion fördert Metakognition und Selbstregulation\n\nPraktische Umsetzung:\n\nNach Lernsitzung fragen: “Was habe ich gelernt?”\nÜber Lernprozess und -strategien reflektieren\nRegelmäßiges, konstruktives Feedback holen\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nPersonalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking\n\n\n\n\n8. Anwendung\nPrinzip: Wissen in verschiedenen Kontexten einsetzen\nWarum effektiv?\n\nEntwickelt Transferfähigkeit\nMacht abstraktes Wissen konkret anwendbar\n\nPraktische Umsetzung:\n\nReal-world Probleme lösen\nWissen in neuen Situationen anwenden\nVon Theorie zur Praxis\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nRealitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching",
+    "text": "Die 8 bewährten Lernstrategien\n\n1. Abrufpraxis (Retrieval Practice)\nPrinzip: Aktives Erinnern statt passives Wiederlesen\nWarum effektiv?\n\nJeder Abruf stärkt die neuronalen Verbindungen\n“Testing Effect”: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren\n\nPraktische Umsetzung:\n\nSelbsttests, Karteikarten, Übungsfragen\nOhne Notizen erklären können\nFrequent low-stakes quizzes\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nQuiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition\n\n\n\n\n2. Verteiltes Lernen (Spacing)\nPrinzip: Über Zeit verteilen statt Pauken\nWarum effektiv?\n\nGrössere Anstrengung nach Vergessen als Lernhilfe\nGegen die Intuition: Schwieriger → Besser für Langzeitretention (Konsolidierung)\n\nPraktische Umsetzung:\n\nWarten bis Vergessen eingesetzt hat, dann wiederholen\nVerteilte Übung über Wochen/Monate\nSpaced Repetition Systeme (z.B. Anki)\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nIntelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen\n\n\n\n\n3. Abwechslung (Interleaving)\nPrinzip: Verschiedene Aufgaben/Themen mischen statt blockweise üben\nWarum effektiv?\n\nTrainiert flexible Anwendung\nErhöht Anstrengung → Besserer Transfer zwischen Konzepten\n\nPraktische Umsetzung:\n\nVerschiedene Aufgabentypen mischen\nBeispiel Mathe: Addition, Multiplikation, Brüche durchmischen\nNicht alle gleichen Aufgaben hintereinander\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nIntelligente Aufgabenmischung, Adaptive Sequenzierung\n\n\n\n\n4. Variation\nPrinzip: In unterschiedlichen Kontexten üben\nWarum effektiv?\n\nFördert Transfer auf neue Situationen\nMacht Wissen weniger abhängig vom ursprünglichen Lernkontext\n\nPraktische Umsetzung:\n\nVerschiedene Beispiele, Umgebungen, Anwendungen\nGleiche Konzepte in unterschiedlichen Situationen\nVielfältige Übungsformate\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nKontextvariation generieren, Neue Anwendungsszenarien erstellen\n\n\n\n\n5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)\nPrinzip: Fehler, Anstrengung und Herausforderungen nutzen\nWarum effektiv?\n\nVertieft Verständnis durch kognitive Anstrengung\nKurzfristig schwieriger, langfristig mehr Retention\n\nPraktische Umsetzung:\n\nTests ohne Ankündigung\nVariation in der Übung\nForcing functions1 die zum Nachdenken zwingen\nErst raten, dann lernen\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nAdaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern2\n\n\n\n\n6. Verstehen vs. Vertrautheit\nPrinzip: In eigenen Worten erklären = echtes Verständnis\nWarum effektiv?\n\nUnterscheidet echtes Wissen von Fluency-Illusion\nZwingt zu aktiver Verarbeitung und Verknüpfung\n\nPraktische Umsetzung:\n\nErklären, als ob man es jemand anderem beibringt\nVerbindungen zu Vorwissen herstellen\nSelbst Antworten generieren vor dem Lernen der Lösung\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nFeynman-Technik3, Erklärungen bewerten, Verständnis testen\n\n\n\n\n7. Feedback & Reflexion\nPrinzip: Korrektur und bewusstes Nachdenken\nWarum effektiv?\n\nKorrektes Feedback sorgt dafür, dass richtige Informationen verankert werden\nReflexion fördert Metakognition und Selbstregulation\n\nPraktische Umsetzung:\n\nNach Lernsitzung fragen: “Was habe ich gelernt?”\nÜber Lernprozess und -strategien reflektieren\nRegelmässiges, konstruktives Feedback holen\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nPersonalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking\n\n\n\n\n8. Anwendung\nPrinzip: Wissen in verschiedenen Kontexten einsetzen\nWarum effektiv?\n\nEntwickelt Transferfähigkeit\nMacht abstraktes Wissen konkret anwendbar\n\nPraktische Umsetzung:\n\nReal-world Probleme lösen\nWissen in neuen Situationen anwenden\nVon Theorie zur Praxis\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nRealitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Die 8 Make it Stick Strategien"
@@ -1646,7 +1646,7 @@
     "href": "03-lernumgebungen/agent-beispiele/index.html",
     "title": "Agent-Beispiele für die 8 Strategien",
     "section": "",
-    "text": "Jedes Beispiel zeigt: - Lehrthema & Problem - Gewählte Make-it-Stick-Strategie - Agent-Design (Was tut der Agent?) - Lernende-Aktivität (Was bleibt beim Lernenden?) - Warum es funktioniert",
+    "text": "Jedes Beispiel zeigt:\n\nLehrthema & Problem\nGewählte Make-it-Stick-Strategie\nAgent-Design (Was tut der Agent?)\nLernende-Aktivität (Was bleibt beim Lernenden?)\nWarum es funktioniert",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1657,7 +1657,7 @@
     "href": "03-lernumgebungen/agent-beispiele/index.html#wie-diese-beispiele-nutzen",
     "title": "Agent-Beispiele für die 8 Strategien",
     "section": "",
-    "text": "Jedes Beispiel zeigt: - Lehrthema & Problem - Gewählte Make-it-Stick-Strategie - Agent-Design (Was tut der Agent?) - Lernende-Aktivität (Was bleibt beim Lernenden?) - Warum es funktioniert",
+    "text": "Jedes Beispiel zeigt:\n\nLehrthema & Problem\nGewählte Make-it-Stick-Strategie\nAgent-Design (Was tut der Agent?)\nLernende-Aktivität (Was bleibt beim Lernenden?)\nWarum es funktioniert",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1667,8 +1667,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#abrufpraxis-retrieval-practice",
     "href": "03-lernumgebungen/agent-beispiele/index.html#abrufpraxis-retrieval-practice",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "1. 🔄 Abrufpraxis (Retrieval Practice)",
-    "text": "1. 🔄 Abrufpraxis (Retrieval Practice)\n\nBeispiel: Statistik-Tutor\nLehrthema: Inferenzstatistik (Hypothesentests) Problem: Studierende können Konzepte erkennen, aber nicht aktiv anwenden\nAgent macht: - Generiert personalisierte Übungsaufgaben - Analysiert Fehlermuster und passt Schwierigkeit an - Erstellt adaptive Quizzes ohne Mehrfachwahl - Tracking von Abruf-Erfolg über Zeit\nLernende tun: - Lösen Aufgaben ohne Nachschlagen - Erklären ihre Lösungswege - Reflektieren über Fehlerquellen - Selbsteinschätzung vor Feedback\nWarum es funktioniert: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken.",
+    "section": "1. Abrufpraxis (Retrieval Practice)",
+    "text": "1. Abrufpraxis (Retrieval Practice)\n\nBeispiel: Statistik-Tutor\nLehrthema: Inferenzstatistik (Hypothesentests) Problem: Studierende können Konzepte erkennen, aber nicht aktiv anwenden\nAgent macht:\n\nGeneriert personalisierte Übungsaufgaben\nAnalysiert Fehlermuster und passt Schwierigkeit an\nErstellt adaptive Quizzes ohne Mehrfachwahl\nTracking von Abruf-Erfolg über Zeit\n\nLernende tun:\n\nLösen Aufgaben ohne Nachschlagen\nErklären ihre Lösungswege\nReflektieren über Fehlerquellen\nSelbsteinschätzung vor Feedback\n\nWarum es funktioniert: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1678,8 +1678,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#verteiltes-lernen-spacing",
     "href": "03-lernumgebungen/agent-beispiele/index.html#verteiltes-lernen-spacing",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "2. ⏰ Verteiltes Lernen (Spacing)",
-    "text": "2. ⏰ Verteiltes Lernen (Spacing)\n\nBeispiel: Anatomie-Coach\nLehrthema: Medizin - Anatomische Strukturen Problem: Bulimie-Lernen vor Prüfungen, schnelles Vergessen\nAgent macht: - Berechnet optimale Wiederholungsintervalle - Sendet personalisierte Erinnerungen - Passt Timing basierend auf individuellem Vergessen an - Visualisiert Lernfortschritt über Zeit\nLernende tun: - Anatomie aktiv benennen (ohne Hilfe) - Strukturen zeichnen und beschriften - Verbindungen zwischen Systemen erklären - Langzeit-Commitment zum regelmäßigen Üben\nWarum es funktioniert: Agent optimiert wann gelernt wird, aber nicht was und wie.",
+    "section": "2. Verteiltes Lernen (Spacing)",
+    "text": "2. Verteiltes Lernen (Spacing)\n\nBeispiel: Anatomie-Coach\nLehrthema: Medizin - Anatomische Strukturen Problem: Bulimie-Lernen vor Prüfungen, schnelles Vergessen\nAgent macht:\n\nBerechnet optimale Wiederholungsintervalle\nSendet personalisierte Erinnerungen\nPasst Timing basierend auf individuellem Vergessen an\nVisualisiert Lernfortschritt über Zeit\n\nLernende tun:\n\nAnatomie aktiv benennen (ohne Hilfe)\nStrukturen zeichnen und beschriften\nVerbindungen zwischen Systemen erklären\nLangzeit-Commitment zum regelmäßigen Üben\n\nWarum es funktioniert: Agent optimiert wann gelernt wird, aber nicht was und wie.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1689,8 +1689,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#abwechslung-interleaving",
     "href": "03-lernumgebungen/agent-beispiele/index.html#abwechslung-interleaving",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "3. 🔀 Abwechslung (Interleaving)",
-    "text": "3. 🔀 Abwechslung (Interleaving)\n\nBeispiel: Programmier-Mentor\nLehrthema: Algorithmen und Datenstrukturen Problem: Können isolierte Konzepte, aber nicht entscheiden wann welches\nAgent macht: - Mischt verschiedene Problemtypen intelligent - Erstellt “Mixed Practice” Sessions - Vermeidet predictable Patterns - Analysiert welche Kombinationen am besten funktionieren\nLernende tun: - Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird - Implementieren ohne vorherige Ankündigung des Typs - Vergleichen und kontrastieren verschiedene Ansätze - Entwickeln “Problem-Pattern-Recognition”\nWarum es funktioniert: Agent mixt die Aufgaben, aber Lernende müssen diskriminieren und wählen.",
+    "section": "3. Abwechslung (Interleaving)",
+    "text": "3. Abwechslung (Interleaving)\n\nBeispiel: Programmier-Mentor\nLehrthema: Algorithmen und Datenstrukturen Problem: Können isolierte Konzepte, aber nicht entscheiden wann welches\nAgent macht:\n\nMischt verschiedene Problemtypen intelligent\nErstellt “Mixed Practice” Sessions\nVermeidet predictable Patterns\nAnalysiert welche Kombinationen am besten funktionieren\n\nLernende tun:\n\nIdentifizieren welcher Algorithmus/welche Datenstruktur benötigt wird\nImplementieren ohne vorherige Ankündigung des Typs\nVergleichen und kontrastieren verschiedene Ansätze\nEntwickeln “Problem-Pattern-Recognition”\n\nWarum es funktioniert: Agent mixt die Aufgaben, aber Lernende müssen diskriminieren und wählen.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1700,8 +1700,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#variation",
     "href": "03-lernumgebungen/agent-beispiele/index.html#variation",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "4. 🎭 Variation",
-    "text": "4. 🎭 Variation\n\nBeispiel: Physik-Simulator\nLehrthema: Newtonsche Mechanik Problem: Können Formeln anwenden, aber nicht in neuen Kontexten\nAgent macht: - Generiert vielfältige Anwendungsszenarien - Variiert Parameter, Kontexte, Darstellungsformen - Erstellt real-world Problemsituationen - Sammelt verschiedene Visualisierungen\nLernende tun: - Physikalische Prinzipien in verschiedenen Situationen erkennen - Von abstrakten Formeln zu konkreten Anwendungen - Problem-Situationen selbst analysieren und modellieren - Transfer auf völlig neue Bereiche leisten\nWarum es funktioniert: Agent variiert die Kontexte, aber Lernende müssen Prinzipien erkennen und anwenden.",
+    "section": "4. Variation",
+    "text": "4. Variation\n\nBeispiel: Physik-Simulator\nLehrthema: Newtonsche Mechanik Problem: Können Formeln anwenden, aber nicht in neuen Kontexten\nAgent macht:\n\nGeneriert vielfältige Anwendungsszenarien\nVariiert Parameter, Kontexte, Darstellungsformen\nErstellt real-world Problemsituationen\nSammelt verschiedene Visualisierungen\n\nLernende tun:\n\nPhysikalische Prinzipien in verschiedenen Situationen erkennen\nVon abstrakten Formeln zu konkreten Anwendungen\nProblem-Situationen selbst analysieren und modellieren\nTransfer auf völlig neue Bereiche leisten\n\nWarum es funktioniert: Agent variiert die Kontexte, aber Lernende müssen Prinzipien erkennen und anwenden.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1711,8 +1711,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#wünschenswerte-schwierigkeiten",
     "href": "03-lernumgebungen/agent-beispiele/index.html#wünschenswerte-schwierigkeiten",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "5. ⚡ Wünschenswerte Schwierigkeiten",
-    "text": "5. ⚡ Wünschenswerte Schwierigkeiten\n\nBeispiel: Sozialpsychologie-Challenger\nLehrthema: Kognitive Verzerrungen und Biases Problem: Oberflächliches Verständnis, keine kritische Anwendung\nAgent macht: - Erstellt ambige, mehrdeutige Situationen - Präsentiert widersprüchliche Evidenz - Generiert “Productive Struggle” Szenarien - Gibt delayed und minimales Feedback\nLernende tun: - Erst eigene Hypothesen aufstellen - Mit Unsicherheit und Ambiguität umgehen - Biases in eigenen Denkprozessen entdecken - Komplexe, nuancierte Analysen entwickeln\nWarum es funktioniert: Agent erzeugt Struggle, aber Lernende müssen durch die Schwierigkeit durcharbeiten.",
+    "section": "5. Wünschenswerte Schwierigkeiten",
+    "text": "5. Wünschenswerte Schwierigkeiten\n\nBeispiel: Sozialpsychologie-Challenger\nLehrthema: Kognitive Verzerrungen und Biases Problem: Oberflächliches Verständnis, keine kritische Anwendung\nAgent macht:\n\nErstellt ambige, mehrdeutige Situationen\nPräsentiert widersprüchliche Evidenz\nGeneriert “Productive Struggle” Szenarien\nGibt delayed und minimales Feedback\n\nLernende tun:\n\nErst eigene Hypothesen aufstellen\nMit Unsicherheit und Ambiguität umgehen\nBiases in eigenen Denkprozessen entdecken\nKomplexe, nuancierte Analysen entwickeln\n\nWarum es funktioniert: Agent erzeugt Struggle, aber Lernende müssen durch die Schwierigkeit durcharbeiten.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1722,8 +1722,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#verstehen-vs.-vertrautheit",
     "href": "03-lernumgebungen/agent-beispiele/index.html#verstehen-vs.-vertrautheit",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "6. 💭 Verstehen vs. Vertrautheit",
-    "text": "6. 💭 Verstehen vs. Vertrautheit\n\nBeispiel: Wirtschafts-Sokrates\nLehrthema: Makroökonomie (Geld- und Fiskalpolitik) Problem: Können Definitionen wiedergeben, aber nicht erklären\nAgent macht: - Stellt Socratic Questions (“Warum denkst du das?”) - Fordert Erklärungen in eigenen Worten - Deckt Verständnislücken durch gezielte Fragen auf - Überprüft konzeptuelles vs. oberflächliches Wissen\nLernende tun: - Komplexe Konzepte in einfacher Sprache erklären - Annahmen und Begründungen explizit machen - Verbindungen zwischen Konzepten herstellen - “Teaching” Moments nutzen\nWarum es funktioniert: Agent fragt, aber Lernende müssen denken und erklären.",
+    "section": "6. Verstehen vs. Vertrautheit",
+    "text": "6. Verstehen vs. Vertrautheit\n\nBeispiel: Wirtschafts-Sokrates\nLehrthema: Makroökonomie (Geld- und Fiskalpolitik) Problem: Können Definitionen wiedergeben, aber nicht erklären\nAgent macht:\n\nStellt Socratic Questions (“Warum denkst du das?”)\nFordert Erklärungen in eigenen Worten\nDeckt Verständnislücken durch gezielte Fragen auf\nÜberprüft konzeptuelles vs. oberflächliches Wissen\n\nLernende tun:\n\nKomplexe Konzepte in einfacher Sprache erklären\nAnnahmen und Begründungen explizit machen\nVerbindungen zwischen Konzepten herstellen\n“Teaching” Moments nutzen\n\nWarum es funktioniert: Agent fragt, aber Lernende müssen denken und erklären.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1733,8 +1733,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#feedback-reflexion",
     "href": "03-lernumgebungen/agent-beispiele/index.html#feedback-reflexion",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "7. 🔍 Feedback & Reflexion",
-    "text": "7. 🔍 Feedback & Reflexion\n\nBeispiel: Schreibtrainer-Coach\nLehrthema: Akademisches Schreiben Problem: Wenig Bewusstsein für eigene Schreibprozesse und -qualität\nAgent macht: - Analysiert Schreibmuster und gibt spezifisches Feedback - Stellt Reflexionsfragen zum Schreibprozess - Tracked Fortschritt in verschiedenen Dimensionen - Gibt formatives (nicht summatives) Feedback\nLernende tun: - Eigene Texte kritisch evaluieren - Schreibstrategien bewusst reflektieren - Feedback in Überarbeitungen umsetzen - Metakognitive Awareness für Schreibprozess entwickeln\nWarum es funktioniert: Agent analysiert und fragt, aber Lernende müssen reflektieren und verbessern.",
+    "section": "7. Feedback & Reflexion",
+    "text": "7. Feedback & Reflexion\n\nBeispiel: Schreibtrainer-Coach\nLehrthema: Akademisches Schreiben Problem: Wenig Bewusstsein für eigene Schreibprozesse und -qualität\nAgent macht:\n\nAnalysiert Schreibmuster und gibt spezifisches Feedback\nStellt Reflexionsfragen zum Schreibprozess\nTracked Fortschritt in verschiedenen Dimensionen\nGibt formatives (nicht summatives) Feedback\n\nLernende tun:\n\nEigene Texte kritisch evaluieren\nSchreibstrategien bewusst reflektieren\nFeedback in Überarbeitungen umsetzen\nMetakognitive Awareness für Schreibprozess entwickeln\n\nWarum es funktioniert: Agent analysiert und fragt, aber Lernende müssen reflektieren und verbessern.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1744,8 +1744,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#anwendung",
     "href": "03-lernumgebungen/agent-beispiele/index.html#anwendung",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "8. 🌐 Anwendung",
-    "text": "8. 🌐 Anwendung\n\nBeispiel: Case-Study-Generator\nLehrthema: Betriebswirtschaft - Strategisches Management Problem: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden\nAgent macht: - Erstellt realistische, komplexe Unternehmensszenarien - Simuliert Stakeholder-Perspektiven - Generiert “What-if” Szenarien - Sammelt aktuelle Business Cases\nLernende tun: - Theoretische Frameworks auf reale Probleme anwenden - Strategische Entscheidungen treffen und begründen - Multiple Perspektiven berücksichtigen - Langfristige Konsequenzen durchdenken\nWarum es funktioniert: Agent erstellt realistische Szenarien, aber Lernende müssen anwenden und entscheiden.",
+    "section": "8. Anwendung",
+    "text": "8. Anwendung\n\nBeispiel: Case-Study-Generator\nLehrthema: Betriebswirtschaft - Strategisches Management Problem: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden\nAgent macht:\n\nErstellt realistische, komplexe Unternehmensszenarien\nSimuliert Stakeholder-Perspektiven\nGeneriert “What-if” Szenarien\nSammelt aktuelle Business Cases\n\nLernende tun:\n\nTheoretische Frameworks auf reale Probleme anwenden\nStrategische Entscheidungen treffen und begründen\nMultiple Perspektiven berücksichtigen\nLangfristige Konsequenzen durchdenken\n\nWarum es funktioniert: Agent erstellt realistische Szenarien, aber Lernende müssen anwenden und entscheiden.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1755,8 +1755,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#design-patterns-für-effektive-agents",
     "href": "03-lernumgebungen/agent-beispiele/index.html#design-patterns-für-effektive-agents",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "🔧 Design-Patterns für effektive Agents",
-    "text": "🔧 Design-Patterns für effektive Agents\n\nDas “Fördern-nicht-Ersetzen” Prinzip:\n\n\n\n✅ Agent als Facilitator\n❌ Agent als Replacer\n\n\n\n\nGeneriert Übungsaufgaben\nLöst Aufgaben\n\n\nStellt guiding Questions\nGibt direkte Antworten\n\n\nVariiert Kontexte\nStandardisiert alles\n\n\nAnalysiert Lernprozess\nÜbernimmt Denkprozess\n\n\nGibt formatives Feedback\nMacht summative Bewertung\n\n\n\n\n\nGoldene Regeln:\n\nAgent macht: Setup, Variation, Timing, Feedback\nLernende machen: Denken, Anwenden, Reflektieren, Entscheiden\nSchwierigkeit bleibt: Kognitive Anstrengung wird gefördert, nicht eliminiert\nLernen wird sichtbar: Progress tracking zeigt echten Kompetenzzuwachs",
+    "section": "Design-Patterns für effektive Agents",
+    "text": "Design-Patterns für effektive Agents\n\nDas “Fördern-nicht-Ersetzen” Prinzip:\n\n\n\n✅ Agent als Facilitator\n❌ Agent als Replacer\n\n\n\n\nGeneriert Übungsaufgaben\nLöst Aufgaben\n\n\nStellt guiding Questions\nGibt direkte Antworten\n\n\nVariiert Kontexte\nStandardisiert alles\n\n\nAnalysiert Lernprozess\nÜbernimmt Denkprozess\n\n\nGibt formatives Feedback\nMacht summative Bewertung\n\n\n\n\n\nGoldene Regeln:\n\nAgent macht: Setup, Variation, Timing, Feedback\nLernende machen: Denken, Anwenden, Reflektieren, Entscheiden\nSchwierigkeit bleibt: Kognitive Anstrengung wird gefördert, nicht eliminiert\nLernen wird sichtbar: Progress tracking zeigt echten Kompetenzzuwachs",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1766,8 +1766,8 @@
     "objectID": "03-lernumgebungen/agent-beispiele/index.html#inspiration-für-euer-design",
     "href": "03-lernumgebungen/agent-beispiele/index.html#inspiration-für-euer-design",
     "title": "Agent-Beispiele für die 8 Strategien",
-    "section": "💡 Inspiration für euer Design",
-    "text": "💡 Inspiration für euer Design\nWählt eure Strategie und fragt euch: - Wie kann ein Agent diese spezifische Strategie fördern? - Was ist das Minimum was der Agent tun muss? - Was ist das Maximum was beim Lernenden bleiben muss? - Wie wird echter Lernfortschritt messbar?\nRemember: Das Ziel ist nicht der perfekte Agent, sondern das Verständnis für scientific learning design mit KI-Unterstützung.",
+    "section": "Inspiration für euer Design",
+    "text": "Inspiration für euer Design\nWählt eure Strategie und fragt euch:\n\nWie kann ein Agent diese spezifische Strategie fördern?\nWas ist das Minimum was der Agent tun muss?\nWas ist das Maximum was beim Lernenden bleiben muss?\nWie wird echter Lernfortschritt messbar?\n\nRemember: Das Ziel ist nicht der perfekte Agent, sondern das Verständnis für scientific learning design mit KI-Unterstützung.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
@@ -1987,10 +1987,21 @@
     "href": "03-lernumgebungen/handout-make-it-stick/index.html#footnotes",
     "title": "Die 8 Make it Stick Strategien",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nForcing Functions sind Design-Entscheidungen oder Einschränkungen, die bestimmte Verhaltensweisen erzwingen und unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.↩︎\nProductive Struggle implementiert mehrere der 8 Strategien gleichzeitig: Retrieval Practice, Elaboration, Generation, Reflection.↩︎",
+    "text": "Footnotes\n\n\nForcing Functions sind Design-Entscheidungen oder Einschränkungen, die bestimmte Verhaltensweisen erzwingen und unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.↩︎\nProductive Struggle implementiert mehrere der 8 Strategien gleichzeitig: Retrieval Practice, Elaboration, Generation, Reflection.↩︎\nEine Methode zum Test des eigenen Verständnisses, benannt nach dem Physiker Richard Feynman. Die Technik hat vier Schritte: (1) Wähle ein Konzept, (2) Erkläre es in einfachster Sprache, als würdest du es einem Kind beibringen, (3) Identifiziere Lücken und kehre zum Quellmaterial zurück, (4) Vereinfache und verwende Analogien. Der Kern: Wenn du etwas nicht einfach erklären kannst, verstehst du es nicht wirklich. Die Technik funktioniert als Forcing Function—sie zwingt zur Übersetzung von Fachwissen in Alltagssprache und deckt dabei Verständnislücken schonungslos auf.↩︎",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Die 8 Make it Stick Strategien"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/produktive-anstrengung/index.html#die-lernumgebungs-perspektive",
+    "href": "03-lernumgebungen/produktive-anstrengung/index.html#die-lernumgebungs-perspektive",
+    "title": "Produktive Anstrengung durch Design",
+    "section": "Die Lernumgebungs-Perspektive",
+    "text": "Die Lernumgebungs-Perspektive\nDas Ziel ist nicht, den “Struggle” zu beseitigen, sondern Lernumgebungen so zu gestalten, dass produktives “Struggling” der lohnendste und unterstützte Weg zum gewünschten Ergebnis ist: den Aufbau von tiefem Verständnis und Expertise.",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "Produktive Anstrengung durch Design"
     ]
   }
 ]

@@ -130,9 +130,20 @@ Adaptive Schwierigkeit, Challenge-Generierung, "Productive Struggle" fördern[^2
 - Selbst Antworten generieren vor dem Lernen der Lösung
 
 ::: {.agent-potential}
-Socratic Questioning, Erklärungen bewerten, Verständnis testen
+Feynman-Technik[^3], Erklärungen bewerten, Verständnis testen
 :::
 
+[^3]: Eine Methode zum Test des eigenen
+  Verständnisses, benannt nach dem Physiker Richard Feynman. Die
+  Technik hat vier Schritte: (1) Wähle ein Konzept, (2) Erkläre
+  es in einfachster Sprache, als würdest du es einem Kind
+  beibringen, (3) Identifiziere Lücken und kehre zum
+  Quellmaterial zurück, (4) Vereinfache und verwende Analogien.
+  Der Kern: Wenn du etwas nicht einfach erklären kannst,
+  verstehst du es nicht wirklich. Die Technik funktioniert als
+  *Forcing Function*---sie zwingt zur Übersetzung von Fachwissen
+  in Alltagssprache und deckt dabei Verständnislücken
+  schonungslos auf.
 
 ### 7. Feedback & Reflexion
 
@@ -147,7 +158,7 @@ Socratic Questioning, Erklärungen bewerten, Verständnis testen
 
 - Nach Lernsitzung fragen: "Was habe ich gelernt?"
 - Über Lernprozess und -strategien reflektieren
-- Regelmäßiges, konstruktives Feedback holen
+- Regelmässiges, konstruktives Feedback holen
 
 ::: {.agent-potential}
 Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking

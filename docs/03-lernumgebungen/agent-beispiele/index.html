@@ -100,11 +100,22 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 </style>
 
 
 <meta property="og:title" content="Agent-Beispiele für die 8 Strategien">
-<meta property="og:description" content="Inspiration für euer Agent-Design">
+<meta property="og:description" content="">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -240,45 +251,45 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#wie-diese-beispiele-nutzen" id="toc-wie-diese-beispiele-nutzen" class="nav-link active" data-scroll-target="#wie-diese-beispiele-nutzen">🎯 Wie diese Beispiele nutzen</a></li>
-  <li><a href="#abrufpraxis-retrieval-practice" id="toc-abrufpraxis-retrieval-practice" class="nav-link" data-scroll-target="#abrufpraxis-retrieval-practice">1. 🔄 Abrufpraxis (Retrieval Practice)</a>
+  <li><a href="#wie-diese-beispiele-nutzen" id="toc-wie-diese-beispiele-nutzen" class="nav-link active" data-scroll-target="#wie-diese-beispiele-nutzen">Wie diese Beispiele nutzen</a></li>
+  <li><a href="#abrufpraxis-retrieval-practice" id="toc-abrufpraxis-retrieval-practice" class="nav-link" data-scroll-target="#abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</a>
   <ul class="collapse">
   <li><a href="#beispiel-statistik-tutor" id="toc-beispiel-statistik-tutor" class="nav-link" data-scroll-target="#beispiel-statistik-tutor"><strong>Beispiel: Statistik-Tutor</strong></a></li>
   </ul></li>
-  <li><a href="#verteiltes-lernen-spacing" id="toc-verteiltes-lernen-spacing" class="nav-link" data-scroll-target="#verteiltes-lernen-spacing">2. ⏰ Verteiltes Lernen (Spacing)</a>
+  <li><a href="#verteiltes-lernen-spacing" id="toc-verteiltes-lernen-spacing" class="nav-link" data-scroll-target="#verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</a>
   <ul class="collapse">
   <li><a href="#beispiel-anatomie-coach" id="toc-beispiel-anatomie-coach" class="nav-link" data-scroll-target="#beispiel-anatomie-coach"><strong>Beispiel: Anatomie-Coach</strong></a></li>
   </ul></li>
-  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">3. 🔀 Abwechslung (Interleaving)</a>
+  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">3. Abwechslung (Interleaving)</a>
   <ul class="collapse">
   <li><a href="#beispiel-programmier-mentor" id="toc-beispiel-programmier-mentor" class="nav-link" data-scroll-target="#beispiel-programmier-mentor"><strong>Beispiel: Programmier-Mentor</strong></a></li>
   </ul></li>
-  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">4. 🎭 Variation</a>
+  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">4. Variation</a>
   <ul class="collapse">
   <li><a href="#beispiel-physik-simulator" id="toc-beispiel-physik-simulator" class="nav-link" data-scroll-target="#beispiel-physik-simulator"><strong>Beispiel: Physik-Simulator</strong></a></li>
   </ul></li>
-  <li><a href="#wünschenswerte-schwierigkeiten" id="toc-wünschenswerte-schwierigkeiten" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten">5. ⚡ Wünschenswerte Schwierigkeiten</a>
+  <li><a href="#wünschenswerte-schwierigkeiten" id="toc-wünschenswerte-schwierigkeiten" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten">5. Wünschenswerte Schwierigkeiten</a>
   <ul class="collapse">
   <li><a href="#beispiel-sozialpsychologie-challenger" id="toc-beispiel-sozialpsychologie-challenger" class="nav-link" data-scroll-target="#beispiel-sozialpsychologie-challenger"><strong>Beispiel: Sozialpsychologie-Challenger</strong></a></li>
   </ul></li>
-  <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. 💭 Verstehen vs.&nbsp;Vertrautheit</a>
+  <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</a>
   <ul class="collapse">
   <li><a href="#beispiel-wirtschafts-sokrates" id="toc-beispiel-wirtschafts-sokrates" class="nav-link" data-scroll-target="#beispiel-wirtschafts-sokrates"><strong>Beispiel: Wirtschafts-Sokrates</strong></a></li>
   </ul></li>
-  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. 🔍 Feedback &amp; Reflexion</a>
+  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. Feedback &amp; Reflexion</a>
   <ul class="collapse">
   <li><a href="#beispiel-schreibtrainer-coach" id="toc-beispiel-schreibtrainer-coach" class="nav-link" data-scroll-target="#beispiel-schreibtrainer-coach"><strong>Beispiel: Schreibtrainer-Coach</strong></a></li>
   </ul></li>
-  <li><a href="#anwendung" id="toc-anwendung" class="nav-link" data-scroll-target="#anwendung">8. 🌐 Anwendung</a>
+  <li><a href="#anwendung" id="toc-anwendung" class="nav-link" data-scroll-target="#anwendung">8. Anwendung</a>
   <ul class="collapse">
   <li><a href="#beispiel-case-study-generator" id="toc-beispiel-case-study-generator" class="nav-link" data-scroll-target="#beispiel-case-study-generator"><strong>Beispiel: Case-Study-Generator</strong></a></li>
   </ul></li>
-  <li><a href="#design-patterns-für-effektive-agents" id="toc-design-patterns-für-effektive-agents" class="nav-link" data-scroll-target="#design-patterns-für-effektive-agents">🔧 Design-Patterns für effektive Agents</a>
+  <li><a href="#design-patterns-für-effektive-agents" id="toc-design-patterns-für-effektive-agents" class="nav-link" data-scroll-target="#design-patterns-für-effektive-agents">Design-Patterns für effektive Agents</a>
   <ul class="collapse">
   <li><a href="#das-fördern-nicht-ersetzen-prinzip" id="toc-das-fördern-nicht-ersetzen-prinzip" class="nav-link" data-scroll-target="#das-fördern-nicht-ersetzen-prinzip"><strong>Das “Fördern-nicht-Ersetzen” Prinzip:</strong></a></li>
   <li><a href="#goldene-regeln" id="toc-goldene-regeln" class="nav-link" data-scroll-target="#goldene-regeln"><strong>Goldene Regeln:</strong></a></li>
   </ul></li>
-  <li><a href="#inspiration-für-euer-design" id="toc-inspiration-für-euer-design" class="nav-link" data-scroll-target="#inspiration-für-euer-design">💡 Inspiration für euer Design</a></li>
+  <li><a href="#inspiration-für-euer-design" id="toc-inspiration-für-euer-design" class="nav-link" data-scroll-target="#inspiration-für-euer-design">Inspiration für euer Design</a></li>
   </ul>
 </nav>
     </div>
@@ -288,7 +299,6 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Agent-Beispiele für die 8 Strategien</h1>
-<p class="subtitle lead">Inspiration für euer Agent-Design</p>
 </div>
 
 
@@ -306,100 +316,203 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 
 
 <section id="wie-diese-beispiele-nutzen" class="level2">
-<h2 class="anchored" data-anchor-id="wie-diese-beispiele-nutzen">🎯 Wie diese Beispiele nutzen</h2>
-<p>Jedes Beispiel zeigt: - <strong>Lehrthema &amp; Problem</strong> - <strong>Gewählte Make-it-Stick-Strategie</strong> - <strong>Agent-Design</strong> (Was tut der Agent?) - <strong>Lernende-Aktivität</strong> (Was bleibt beim Lernenden?) - <strong>Warum es funktioniert</strong></p>
+<h2 class="anchored" data-anchor-id="wie-diese-beispiele-nutzen">Wie diese Beispiele nutzen</h2>
+<p>Jedes Beispiel zeigt:</p>
+<ul>
+<li><strong>Lehrthema &amp; Problem</strong></li>
+<li><strong>Gewählte Make-it-Stick-Strategie</strong></li>
+<li><strong>Agent-Design</strong> (Was tut der Agent?)</li>
+<li><strong>Lernende-Aktivität</strong> (Was bleibt beim Lernenden?)</li>
+<li><strong>Warum es funktioniert</strong></li>
+</ul>
 <hr>
 </section>
 <section id="abrufpraxis-retrieval-practice" class="level2">
-<h2 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. 🔄 Abrufpraxis (Retrieval Practice)</h2>
+<h2 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</h2>
 <section id="beispiel-statistik-tutor" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-statistik-tutor"><strong>Beispiel: Statistik-Tutor</strong></h3>
 <p><strong>Lehrthema</strong>: Inferenzstatistik (Hypothesentests) <strong>Problem</strong>: Studierende können Konzepte erkennen, aber nicht aktiv anwenden</p>
-<p><strong>Agent macht:</strong> - Generiert personalisierte Übungsaufgaben - Analysiert Fehlermuster und passt Schwierigkeit an - Erstellt adaptive Quizzes ohne Mehrfachwahl - Tracking von Abruf-Erfolg über Zeit</p>
-<p><strong>Lernende tun:</strong> - Lösen Aufgaben <strong>ohne</strong> Nachschlagen - Erklären ihre Lösungswege - Reflektieren über Fehlerquellen - Selbsteinschätzung vor Feedback</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Generiert personalisierte Übungsaufgaben</li>
+<li>Analysiert Fehlermuster und passt Schwierigkeit an</li>
+<li>Erstellt adaptive Quizzes ohne Mehrfachwahl</li>
+<li>Tracking von Abruf-Erfolg über Zeit</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Lösen Aufgaben <strong>ohne</strong> Nachschlagen</li>
+<li>Erklären ihre Lösungswege</li>
+<li>Reflektieren über Fehlerquellen</li>
+<li>Selbsteinschätzung vor Feedback</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent generiert die Übung, aber <strong>Lernende müssen aktiv abrufen und denken</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="verteiltes-lernen-spacing" class="level2">
-<h2 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. ⏰ Verteiltes Lernen (Spacing)</h2>
+<h2 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</h2>
 <section id="beispiel-anatomie-coach" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-anatomie-coach"><strong>Beispiel: Anatomie-Coach</strong></h3>
 <p><strong>Lehrthema</strong>: Medizin - Anatomische Strukturen <strong>Problem</strong>: Bulimie-Lernen vor Prüfungen, schnelles Vergessen</p>
-<p><strong>Agent macht:</strong> - Berechnet optimale Wiederholungsintervalle - Sendet personalisierte Erinnerungen - Passt Timing basierend auf individuellem Vergessen an - Visualisiert Lernfortschritt über Zeit</p>
-<p><strong>Lernende tun:</strong> - Anatomie aktiv benennen (ohne Hilfe) - Strukturen zeichnen und beschriften - Verbindungen zwischen Systemen erklären - Langzeit-Commitment zum regelmäßigen Üben</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Berechnet optimale Wiederholungsintervalle</li>
+<li>Sendet personalisierte Erinnerungen</li>
+<li>Passt Timing basierend auf individuellem Vergessen an</li>
+<li>Visualisiert Lernfortschritt über Zeit</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Anatomie aktiv benennen (ohne Hilfe)</li>
+<li>Strukturen zeichnen und beschriften</li>
+<li>Verbindungen zwischen Systemen erklären</li>
+<li>Langzeit-Commitment zum regelmäßigen Üben</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent optimiert <strong>wann</strong> gelernt wird, aber <strong>nicht was und wie</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="abwechslung-interleaving" class="level2">
-<h2 class="anchored" data-anchor-id="abwechslung-interleaving">3. 🔀 Abwechslung (Interleaving)</h2>
+<h2 class="anchored" data-anchor-id="abwechslung-interleaving">3. Abwechslung (Interleaving)</h2>
 <section id="beispiel-programmier-mentor" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-programmier-mentor"><strong>Beispiel: Programmier-Mentor</strong></h3>
 <p><strong>Lehrthema</strong>: Algorithmen und Datenstrukturen <strong>Problem</strong>: Können isolierte Konzepte, aber nicht entscheiden wann welches</p>
-<p><strong>Agent macht:</strong> - Mischt verschiedene Problemtypen intelligent - Erstellt “Mixed Practice” Sessions - Vermeidet predictable Patterns - Analysiert welche Kombinationen am besten funktionieren</p>
-<p><strong>Lernende tun:</strong> - Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird - Implementieren ohne vorherige Ankündigung des Typs - Vergleichen und kontrastieren verschiedene Ansätze - Entwickeln “Problem-Pattern-Recognition”</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Mischt verschiedene Problemtypen intelligent</li>
+<li>Erstellt “Mixed Practice” Sessions</li>
+<li>Vermeidet predictable Patterns</li>
+<li>Analysiert welche Kombinationen am besten funktionieren</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird</li>
+<li>Implementieren ohne vorherige Ankündigung des Typs</li>
+<li>Vergleichen und kontrastieren verschiedene Ansätze</li>
+<li>Entwickeln “Problem-Pattern-Recognition”</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent <strong>mixt</strong> die Aufgaben, aber Lernende müssen <strong>diskriminieren und wählen</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="variation" class="level2">
-<h2 class="anchored" data-anchor-id="variation">4. 🎭 Variation</h2>
+<h2 class="anchored" data-anchor-id="variation">4. Variation</h2>
 <section id="beispiel-physik-simulator" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-physik-simulator"><strong>Beispiel: Physik-Simulator</strong></h3>
 <p><strong>Lehrthema</strong>: Newtonsche Mechanik <strong>Problem</strong>: Können Formeln anwenden, aber nicht in neuen Kontexten</p>
-<p><strong>Agent macht:</strong> - Generiert vielfältige Anwendungsszenarien - Variiert Parameter, Kontexte, Darstellungsformen - Erstellt real-world Problemsituationen - Sammelt verschiedene Visualisierungen</p>
-<p><strong>Lernende tun:</strong> - Physikalische Prinzipien in verschiedenen Situationen erkennen - Von abstrakten Formeln zu konkreten Anwendungen - Problem-Situationen selbst analysieren und modellieren - Transfer auf völlig neue Bereiche leisten</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Generiert vielfältige Anwendungsszenarien</li>
+<li>Variiert Parameter, Kontexte, Darstellungsformen</li>
+<li>Erstellt real-world Problemsituationen</li>
+<li>Sammelt verschiedene Visualisierungen</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Physikalische Prinzipien in verschiedenen Situationen erkennen</li>
+<li>Von abstrakten Formeln zu konkreten Anwendungen</li>
+<li>Problem-Situationen selbst analysieren und modellieren</li>
+<li>Transfer auf völlig neue Bereiche leisten</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent <strong>variiert</strong> die Kontexte, aber Lernende müssen <strong>Prinzipien erkennen und anwenden</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="wünschenswerte-schwierigkeiten" class="level2">
-<h2 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten">5. ⚡ Wünschenswerte Schwierigkeiten</h2>
+<h2 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten">5. Wünschenswerte Schwierigkeiten</h2>
 <section id="beispiel-sozialpsychologie-challenger" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-sozialpsychologie-challenger"><strong>Beispiel: Sozialpsychologie-Challenger</strong></h3>
 <p><strong>Lehrthema</strong>: Kognitive Verzerrungen und Biases <strong>Problem</strong>: Oberflächliches Verständnis, keine kritische Anwendung</p>
-<p><strong>Agent macht:</strong> - Erstellt ambige, mehrdeutige Situationen - Präsentiert widersprüchliche Evidenz - Generiert “Productive Struggle” Szenarien - Gibt delayed und minimales Feedback</p>
-<p><strong>Lernende tun:</strong> - Erst eigene Hypothesen aufstellen - Mit Unsicherheit und Ambiguität umgehen - Biases in eigenen Denkprozessen entdecken - Komplexe, nuancierte Analysen entwickeln</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Erstellt ambige, mehrdeutige Situationen</li>
+<li>Präsentiert widersprüchliche Evidenz</li>
+<li>Generiert “Productive Struggle” Szenarien</li>
+<li>Gibt delayed und minimales Feedback</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Erst eigene Hypothesen aufstellen</li>
+<li>Mit Unsicherheit und Ambiguität umgehen</li>
+<li>Biases in eigenen Denkprozessen entdecken</li>
+<li>Komplexe, nuancierte Analysen entwickeln</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent <strong>erzeugt</strong> Struggle, aber Lernende müssen <strong>durch die Schwierigkeit durcharbeiten</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="verstehen-vs.-vertrautheit" class="level2">
-<h2 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. 💭 Verstehen vs.&nbsp;Vertrautheit</h2>
+<h2 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</h2>
 <section id="beispiel-wirtschafts-sokrates" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-wirtschafts-sokrates"><strong>Beispiel: Wirtschafts-Sokrates</strong></h3>
 <p><strong>Lehrthema</strong>: Makroökonomie (Geld- und Fiskalpolitik) <strong>Problem</strong>: Können Definitionen wiedergeben, aber nicht erklären</p>
-<p><strong>Agent macht:</strong> - Stellt Socratic Questions (“Warum denkst du das?”) - Fordert Erklärungen in eigenen Worten - Deckt Verständnislücken durch gezielte Fragen auf - Überprüft konzeptuelles vs.&nbsp;oberflächliches Wissen</p>
-<p><strong>Lernende tun:</strong> - Komplexe Konzepte in einfacher Sprache erklären - Annahmen und Begründungen explizit machen - Verbindungen zwischen Konzepten herstellen - “Teaching” Moments nutzen</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Stellt Socratic Questions (“Warum denkst du das?”)</li>
+<li>Fordert Erklärungen in eigenen Worten</li>
+<li>Deckt Verständnislücken durch gezielte Fragen auf</li>
+<li>Überprüft konzeptuelles vs.&nbsp;oberflächliches Wissen</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Komplexe Konzepte in einfacher Sprache erklären</li>
+<li>Annahmen und Begründungen explizit machen</li>
+<li>Verbindungen zwischen Konzepten herstellen</li>
+<li>“Teaching” Moments nutzen</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent <strong>fragt</strong>, aber Lernende müssen <strong>denken und erklären</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="feedback-reflexion" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-reflexion">7. 🔍 Feedback &amp; Reflexion</h2>
+<h2 class="anchored" data-anchor-id="feedback-reflexion">7. Feedback &amp; Reflexion</h2>
 <section id="beispiel-schreibtrainer-coach" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-schreibtrainer-coach"><strong>Beispiel: Schreibtrainer-Coach</strong></h3>
 <p><strong>Lehrthema</strong>: Akademisches Schreiben <strong>Problem</strong>: Wenig Bewusstsein für eigene Schreibprozesse und -qualität</p>
-<p><strong>Agent macht:</strong> - Analysiert Schreibmuster und gibt spezifisches Feedback - Stellt Reflexionsfragen zum Schreibprozess - Tracked Fortschritt in verschiedenen Dimensionen - Gibt formatives (nicht summatives) Feedback</p>
-<p><strong>Lernende tun:</strong> - Eigene Texte kritisch evaluieren - Schreibstrategien bewusst reflektieren - Feedback in Überarbeitungen umsetzen - Metakognitive Awareness für Schreibprozess entwickeln</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Analysiert Schreibmuster und gibt spezifisches Feedback</li>
+<li>Stellt Reflexionsfragen zum Schreibprozess</li>
+<li>Tracked Fortschritt in verschiedenen Dimensionen</li>
+<li>Gibt formatives (nicht summatives) Feedback</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Eigene Texte kritisch evaluieren</li>
+<li>Schreibstrategien bewusst reflektieren</li>
+<li>Feedback in Überarbeitungen umsetzen</li>
+<li>Metakognitive Awareness für Schreibprozess entwickeln</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent <strong>analysiert und fragt</strong>, aber Lernende müssen <strong>reflektieren und verbessern</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="anwendung" class="level2">
-<h2 class="anchored" data-anchor-id="anwendung">8. 🌐 Anwendung</h2>
+<h2 class="anchored" data-anchor-id="anwendung">8. Anwendung</h2>
 <section id="beispiel-case-study-generator" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-case-study-generator"><strong>Beispiel: Case-Study-Generator</strong></h3>
 <p><strong>Lehrthema</strong>: Betriebswirtschaft - Strategisches Management <strong>Problem</strong>: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden</p>
-<p><strong>Agent macht:</strong> - Erstellt realistische, komplexe Unternehmensszenarien - Simuliert Stakeholder-Perspektiven - Generiert “What-if” Szenarien - Sammelt aktuelle Business Cases</p>
-<p><strong>Lernende tun:</strong> - Theoretische Frameworks auf reale Probleme anwenden - Strategische Entscheidungen treffen und begründen - Multiple Perspektiven berücksichtigen - Langfristige Konsequenzen durchdenken</p>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Erstellt realistische, komplexe Unternehmensszenarien</li>
+<li>Simuliert Stakeholder-Perspektiven</li>
+<li>Generiert “What-if” Szenarien</li>
+<li>Sammelt aktuelle Business Cases</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Theoretische Frameworks auf reale Probleme anwenden</li>
+<li>Strategische Entscheidungen treffen und begründen</li>
+<li>Multiple Perspektiven berücksichtigen</li>
+<li>Langfristige Konsequenzen durchdenken</li>
+</ul>
 <p><strong>Warum es funktioniert</strong>: Agent <strong>erstellt</strong> realistische Szenarien, aber Lernende müssen <strong>anwenden und entscheiden</strong>.</p>
 <hr>
 </section>
 </section>
 <section id="design-patterns-für-effektive-agents" class="level2">
-<h2 class="anchored" data-anchor-id="design-patterns-für-effektive-agents">🔧 Design-Patterns für effektive Agents</h2>
+<h2 class="anchored" data-anchor-id="design-patterns-für-effektive-agents">Design-Patterns für effektive Agents</h2>
 <section id="das-fördern-nicht-ersetzen-prinzip" class="level3">
 <h3 class="anchored" data-anchor-id="das-fördern-nicht-ersetzen-prinzip"><strong>Das “Fördern-nicht-Ersetzen” Prinzip:</strong></h3>
 <table class="caption-top table">
@@ -445,8 +558,14 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </section>
 </section>
 <section id="inspiration-für-euer-design" class="level2">
-<h2 class="anchored" data-anchor-id="inspiration-für-euer-design">💡 Inspiration für euer Design</h2>
-<p><strong>Wählt eure Strategie und fragt euch:</strong> - Wie kann ein Agent <strong>diese spezifische Strategie</strong> fördern? - Was ist das <strong>Minimum</strong> was der Agent tun muss? - Was ist das <strong>Maximum</strong> was beim Lernenden bleiben muss? - Wie wird <strong>echter Lernfortschritt</strong> messbar?</p>
+<h2 class="anchored" data-anchor-id="inspiration-für-euer-design">Inspiration für euer Design</h2>
+<p><strong>Wählt eure Strategie und fragt euch:</strong></p>
+<ul>
+<li>Wie kann ein Agent <strong>diese spezifische Strategie</strong> fördern?</li>
+<li>Was ist das <strong>Minimum</strong> was der Agent tun muss?</li>
+<li>Was ist das <strong>Maximum</strong> was beim Lernenden bleiben muss?</li>
+<li>Wie wird <strong>echter Lernfortschritt</strong> messbar?</li>
+</ul>
 <p><strong>Remember</strong>: Das Ziel ist nicht der perfekte Agent, sondern das Verständnis für <strong>scientific learning design mit KI-Unterstützung</strong>.</p>
 
 

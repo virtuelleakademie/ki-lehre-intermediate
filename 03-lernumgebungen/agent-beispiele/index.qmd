@@ -1,11 +1,12 @@
 ---
 title: "Agent-Beispiele für die 8 Strategien"
-subtitle: "Inspiration für euer Agent-Design"
 ---
 
-## 🎯 Wie diese Beispiele nutzen
+## Wie diese Beispiele nutzen
 
 Jedes Beispiel zeigt:
+
+
 - **Lehrthema & Problem**
 - **Gewählte Make-it-Stick-Strategie**
 - **Agent-Design** (Was tut der Agent?)
@@ -14,7 +15,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 1. 🔄 Abrufpraxis (Retrieval Practice)
+## 1. Abrufpraxis (Retrieval Practice)
 
 ### **Beispiel: Statistik-Tutor**
 
@@ -22,12 +23,14 @@ Jedes Beispiel zeigt:
 **Problem**: Studierende können Konzepte erkennen, aber nicht aktiv anwenden
 
 **Agent macht:**
+
 - Generiert personalisierte Übungsaufgaben
 - Analysiert Fehlermuster und passt Schwierigkeit an
 - Erstellt adaptive Quizzes ohne Mehrfachwahl
 - Tracking von Abruf-Erfolg über Zeit
 
 **Lernende tun:**
+
 - Lösen Aufgaben **ohne** Nachschlagen
 - Erklären ihre Lösungswege
 - Reflektieren über Fehlerquellen
@@ -37,7 +40,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 2. ⏰ Verteiltes Lernen (Spacing)
+## 2. Verteiltes Lernen (Spacing)
 
 ### **Beispiel: Anatomie-Coach**
 
@@ -45,12 +48,14 @@ Jedes Beispiel zeigt:
 **Problem**: Bulimie-Lernen vor Prüfungen, schnelles Vergessen
 
 **Agent macht:**
+
 - Berechnet optimale Wiederholungsintervalle
 - Sendet personalisierte Erinnerungen
 - Passt Timing basierend auf individuellem Vergessen an
 - Visualisiert Lernfortschritt über Zeit
 
 **Lernende tun:**
+
 - Anatomie aktiv benennen (ohne Hilfe)
 - Strukturen zeichnen und beschriften
 - Verbindungen zwischen Systemen erklären
@@ -60,7 +65,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 3. 🔀 Abwechslung (Interleaving)
+## 3. Abwechslung (Interleaving)
 
 ### **Beispiel: Programmier-Mentor**
 
@@ -68,12 +73,14 @@ Jedes Beispiel zeigt:
 **Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
 
 **Agent macht:**
+
 - Mischt verschiedene Problemtypen intelligent
 - Erstellt "Mixed Practice" Sessions
 - Vermeidet predictable Patterns
 - Analysiert welche Kombinationen am besten funktionieren
 
 **Lernende tun:**
+
 - Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird
 - Implementieren ohne vorherige Ankündigung des Typs
 - Vergleichen und kontrastieren verschiedene Ansätze
@@ -83,7 +90,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 4. 🎭 Variation
+## 4. Variation
 
 ### **Beispiel: Physik-Simulator**
 
@@ -91,12 +98,14 @@ Jedes Beispiel zeigt:
 **Problem**: Können Formeln anwenden, aber nicht in neuen Kontexten
 
 **Agent macht:**
+
 - Generiert vielfältige Anwendungsszenarien
 - Variiert Parameter, Kontexte, Darstellungsformen
 - Erstellt real-world Problemsituationen
 - Sammelt verschiedene Visualisierungen
 
 **Lernende tun:**
+
 - Physikalische Prinzipien in verschiedenen Situationen erkennen
 - Von abstrakten Formeln zu konkreten Anwendungen
 - Problem-Situationen selbst analysieren und modellieren
@@ -106,7 +115,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 5. ⚡ Wünschenswerte Schwierigkeiten
+## 5. Wünschenswerte Schwierigkeiten
 
 ### **Beispiel: Sozialpsychologie-Challenger**
 
@@ -114,12 +123,14 @@ Jedes Beispiel zeigt:
 **Problem**: Oberflächliches Verständnis, keine kritische Anwendung
 
 **Agent macht:**
+
 - Erstellt ambige, mehrdeutige Situationen
 - Präsentiert widersprüchliche Evidenz
 - Generiert "Productive Struggle" Szenarien
 - Gibt delayed und minimales Feedback
 
 **Lernende tun:**
+
 - Erst eigene Hypothesen aufstellen
 - Mit Unsicherheit und Ambiguität umgehen
 - Biases in eigenen Denkprozessen entdecken
@@ -129,7 +140,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 6. 💭 Verstehen vs. Vertrautheit
+## 6. Verstehen vs. Vertrautheit
 
 ### **Beispiel: Wirtschafts-Sokrates**
 
@@ -137,12 +148,14 @@ Jedes Beispiel zeigt:
 **Problem**: Können Definitionen wiedergeben, aber nicht erklären
 
 **Agent macht:**
+
 - Stellt Socratic Questions ("Warum denkst du das?")
 - Fordert Erklärungen in eigenen Worten
 - Deckt Verständnislücken durch gezielte Fragen auf
 - Überprüft konzeptuelles vs. oberflächliches Wissen
 
 **Lernende tun:**
+
 - Komplexe Konzepte in einfacher Sprache erklären
 - Annahmen und Begründungen explizit machen
 - Verbindungen zwischen Konzepten herstellen
@@ -152,7 +165,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 7. 🔍 Feedback & Reflexion
+## 7. Feedback & Reflexion
 
 ### **Beispiel: Schreibtrainer-Coach**
 
@@ -160,12 +173,14 @@ Jedes Beispiel zeigt:
 **Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
 
 **Agent macht:**
+
 - Analysiert Schreibmuster und gibt spezifisches Feedback
 - Stellt Reflexionsfragen zum Schreibprozess
 - Tracked Fortschritt in verschiedenen Dimensionen
 - Gibt formatives (nicht summatives) Feedback
 
 **Lernende tun:**
+
 - Eigene Texte kritisch evaluieren
 - Schreibstrategien bewusst reflektieren
 - Feedback in Überarbeitungen umsetzen
@@ -175,7 +190,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 8. 🌐 Anwendung
+## 8. Anwendung
 
 ### **Beispiel: Case-Study-Generator**
 
@@ -183,12 +198,14 @@ Jedes Beispiel zeigt:
 **Problem**: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden
 
 **Agent macht:**
+
 - Erstellt realistische, komplexe Unternehmensszenarien
 - Simuliert Stakeholder-Perspektiven
 - Generiert "What-if" Szenarien
 - Sammelt aktuelle Business Cases
 
 **Lernende tun:**
+
 - Theoretische Frameworks auf reale Probleme anwenden
 - Strategische Entscheidungen treffen und begründen
 - Multiple Perspektiven berücksichtigen
@@ -198,7 +215,7 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 🔧 Design-Patterns für effektive Agents
+## Design-Patterns für effektive Agents
 
 ### **Das "Fördern-nicht-Ersetzen" Prinzip:**
 
@@ -211,6 +228,7 @@ Jedes Beispiel zeigt:
 | Gibt formatives Feedback | Macht summative Bewertung |
 
 ### **Goldene Regeln:**
+
 1. **Agent macht**: Setup, Variation, Timing, Feedback
 2. **Lernende machen**: Denken, Anwenden, Reflektieren, Entscheiden
 3. **Schwierigkeit bleibt**: Kognitive Anstrengung wird gefördert, nicht eliminiert
@@ -218,9 +236,10 @@ Jedes Beispiel zeigt:
 
 ---
 
-## 💡 Inspiration für euer Design
+## Inspiration für euer Design
 
 **Wählt eure Strategie und fragt euch:**
+
 - Wie kann ein Agent **diese spezifische Strategie** fördern?
 - Was ist das **Minimum** was der Agent tun muss?
 - Was ist das **Maximum** was beim Lernenden bleiben muss?
