@@ -33,23 +33,60 @@ Was ist, wenn **Anstrengung** beim Lernen wichtig ist als das **Ergebnis**?
 :::
 
 
+## Warum existieren Schulen?
+
+
+Wir unterscheiden zwischen:
+
+::::{.columns}
+:::{.column width="50%"}
+**Biologisch primärem Wissen**:
+
+- Wofür wir evolutionär angepasst sind
+- Lernen geschieht mühelos und automatisch
+- Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion
+:::
+:::{.column width=50%}
+**Biologisch sekundärem Wissen**:
+
+- Kulturelle Errungenschaften ohne evolutionäre Anpassung
+- Erfordert bewusste Anstrengung und Instruktion
+- Beispiele: Lesen, Schreiben, Mathematik, Programmieren
+:::
+::::
+
+::: {.callout-important}
+Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, während akademische Fähigkeiten explizite Anleitung und strukturiertes Üben erfordern.
+:::
+
+
 ## Experten vs. Anfänger {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important}
+Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen.
+:::
+:::
+
+
+
+::: {.column width="50%"}
+![](../../assets/images/chess.png){width=30% fig-align="center"}
+:::
+
+::::
+
 
 **Zwei verschiedene Betriebssysteme**
 
 | Dimension       | **Anfänger**                                                              | **Experten**                                                 |
 | --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Sehen**       | • Einzelne Teile                                                                | • Bedeutungsvolle Muster (Chunks)                                |
+| **Sehen**       | • Einzelne Teile                                                                | • Bedeutungsvolle Muster                                |
 | **Verarbeiten** | • Schritt-für-Schritt-Denken<br>• Deliberativ<br>• Bewusste Anstrengung | • Automatische Prozeduren<br>• Intuitiv<br>• Unbewusst |
-| **Gedächtnis**  | • separate Fakten<br>• Deklarativ ("Ich weiss dass")                            | • bedeutungsvolle Chunks<br>• Prozedural ("Ich weiss wie")       |
-| **Neural**      | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 | • Myelinisierte neuronale Bahnen<br>• Viele Stunden geübt        |
+| **Neural**      | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 | • Myelinisierte neuronale Bahnen<br>• Tausende Stunden geübt        |
 |                 |                                                                  |                                                                                 |
-
-
-
-::: {.callout-important}
-Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
-:::
 
 
 ## Cognitive Load Theory {.smaller}
@@ -79,7 +116,7 @@ Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
 <br>
 
 ::: {.callout-tip}
-**Kernprinzip**: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (_Wissensstruktur_ oder _Denkschablone_)
+**Kernprinzip**: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstrukturen)
 :::
 
 
@@ -121,82 +158,50 @@ Was Experten hilft, kann Anfängern schaden – und umgekehrt. Lernumgebungen m�
 **Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
 
 
-## CLT und KI: Das Lernparadox {.smaller}
+## CLT und KI: Cognitive Offloading {.smaller}
 
-**Wie KI-Tools die kognitive Last beeinflussen könnte:**
+**Das Lernparadox: KI optimiert für Produktion statt Lernen**
 
-| Aspekt | Ohne KI | Mit KI | Konsequenz für Lernen |
-|--------|---------|--------|------------------------|
-| **Intrinsisch** | Bleibt konstant | Scheint reduziert | KI macht Komplexes "einfach" → verhindert Auseinandersetzung |
-| **Extrinsisch** | Variabel | Oft minimiert | ✅ Gut für Effizienz |
-| **Lernrelevant** | Muss aufgebracht werden | Wird eliminiert | ❌ **Keine Schemabildung!** |
+| Kognitive Last | Ohne KI | Mit KI | Konsequenz |
+|--------|---------|--------|------------|
+| **Intrinsisch** | Bleibt konstant | Scheint reduziert | Komplexität wird versteckt, nicht bewältigt |
+| **Extrinsisch** | Variabel | ✅ Minimiert | Gut für Effizienz |
+| **Lernrelevant** | Wird aufgebracht | ❌ Eliminiert | Keine Schemabildung |
 
-<br>
+## CLT und KI: Cognitive Offloading {.smaller}
+
+**Drei kritische Lernmechanismen werden ausgeschaltet:**
+
+| Mechanismus | Normal | Mit KI-Offloading |
+|-------------|--------|-------------------|
+| **Vorhersagefehler** | Lücke zwischen Erwartung & Realität = Lernsignal | Keine Erwartungen → kein Lernen |
+| **Gedächtniskonsolidierung** | Aktive Verarbeitung → Speicherung | Passive Konsumption → Vergessen |
+| **Prozedurale Entwicklung** | Tausende Wiederholungen → Automatismen | Überspringen → keine Expertise |
 
 ::: {.callout-warning}
-### Das zentrale Problem
-KI-Tools optimieren für **Produktion** (minimale kognitive Last) statt für **Lernen** (optimale lernrelevante Last).
-
-**Resultat**: "Cognitive offloading" → Abhängigkeit statt Kompetenz
-:::
-
-<br>
-
-**Die CLT-Perspektive**: Schwierigkeit ist kein Bug im Lernprozess – sie ist das zentrale Feature für Expertise-Entwicklung.
-
-
-## Warum existieren Schulen?
-
-
-Wir unterscheiden zwischen:
-
-::::{.columns}
-:::{.column width="50%"}
-**Biologisch primärem Wissen**: 
-
-- Wofür wir evolutionär angepasst sind
-- Lernen geschieht mühelos und automatisch
-- Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion
-:::
-:::{.column width=50%}
-**Biologisch sekundärem Wissen**:
-
-- Kulturelle Errungenschaften ohne evolutionäre Anpassung
-- Erfordert bewusste Anstrengung und Instruktion
-- Beispiele: Lesen, Schreiben, Mathematik, Programmieren
-:::
-::::
-
-::: {.callout-important}
-Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, während akademische Fähigkeiten explizite Anleitung und strukturiertes Üben erfordern.
+**Die CLT-Perspektive**: Schwierigkeit ist kein Bug – sie ist das zentrale Feature für Expertise-Entwicklung
 :::
 
 
 ## Wie Expertise entwickelt wird {.smaller}
 
+**Von Fakten zu automatisierten Prozeduren**
 
 | Gedächtnissystem                | Beschreibung        | Eigenschaften                                                       | Beispiel                                                |
 | -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Declaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer und angstender Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
-| **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte "atomische" Gedankenschritte<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen, dass $x = 5$.               |
-
-
-<br>
-
- Fakten → Tausende Übungszyklen → Automatische Prozeduren → Expertise
+| **Deklaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
+| **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte Prozesse<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen: $x = 5$               |
 
 <br>
-
 
 :::: {.columns}
-::: {.column width="40%"}
-
-**Warum Anstrengung wichtig ist**: Üben (wird oft als **angstengend** empfunden) stärkt die neuronalen Bahnen, welche Expertise erzeugen
+::: {.column width="50%"}
+### Der Weg zur Expertise
+Deklarative Fakten → Tausende Übungszyklen → Prozedurale Automatismen
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 ![](../../assets/images/ACTR3.jpg)
-
 :::
 ::::
 
@@ -225,43 +230,6 @@ Abbildung von [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/act-r/
 
 **Merksatz:** "Cognitive effort isn't a bug---it’s the feature."
 
-
-## Das Problem der kognitiven Auslagerung {.smaller}
-
-Drei Wege, wie Lernen gestört wird:
-
-| Problem | Mechanismus | Konsequenz der Auslagerung an KI |
-|---------|-------------|-----------------------------------|
-| **Keine Vorhersagefehler** | Gehirn lernt aus Lücken zwischen "was ich erwarte" und "was passiert" | Eliminiert dies vollständig |
-| **Keine Gedächtnisbildung** | Information, die nicht aktiv verarbeitet wird, wird nicht gespeichert | Liefert Antworten ohne Verarbeitung |
-| **Keine prozedurale Entwicklung** | Expertise erfordert tausende "atomare Denkschritte" | Überspringt diesen Aufbauprozess |
-
-
-<br> <br>
-
-::: {.callout-warning}
-**Ergebnis**: Die Auslagerung kognitiver Prozesse (*cognitive offloading*) kann zu oberflächlicher Verarbeitung ohne tiefes Verständnis und Abhängigkeit von Tools führen.
-:::
-
-## Das LERN-Protokoll {.smaller}
-
-| | 🎯 Aktion | ⚡ Warum | 🚫 Nicht |
-|---|-----------|----------|----------|
-| **L**ass Schwierigkeit zu | Verwirrung aushalten | Anstrengung = neuronale Bahnen | Lösungen nachschlagen |
-| **E**rlaube Fehler | Erst raten, dann prüfen | Vorhersagefehler = Lernsignal | Fehler vermeiden |
-| **R**ufe aktiv ab | Ohne Notizen erklären | Generierung > Erkennung | Passiv lesen |
-| **N**utze Abstände | Nach Tagen wiederholen | Vergessen + Neulernen = Behalten | Massiert üben |
-
-:::{.callout-tip}
-## Die 85%-Regel
-Ziel: ~85% Erfolg (nicht 95%+ oder <70%)
-:::
-
-> **Jeder leichte Weg = eine verpasste Lernchance**
-
-::: {.attribution}
-Von [Claude](https://www.claude.ai) generiert.
-:::
 
 ## Bibliographie
 

@@ -859,7 +859,7 @@
     "href": "slides/wie-menschen-lernen/index.html#experten-vs.-anfänger",
     "title": "Wie Menschen lernen",
     "section": "Experten vs. Anfänger",
-    "text": "Experten vs. Anfänger\nZwei verschiedene Betriebssysteme\n\n\n\n\n\n\n\n\nDimension\nAnfänger\nExperten\n\n\n\n\nSehen\n• Einzelne Teile\n• Bedeutungsvolle Muster (Chunks)\n\n\nVerarbeiten\n• Schritt-für-Schritt-Denken• Deliberativ• Bewusste Anstrengung\n• Automatische Prozeduren• Intuitiv• Unbewusst\n\n\nGedächtnis\n• separate Fakten• Deklarativ (“Ich weiss dass”)\n• bedeutungsvolle Chunks• Prozedural (“Ich weiss wie”)\n\n\nNeural\n• Schwache Verbindungen• Bahnen noch im Aufbau\n• Myelinisierte neuronale Bahnen• Viele Stunden geübt\n\n\n\n\n\n\n\n\n\n\n\nExperten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen"
+    "text": "Experten vs. Anfänger\n\n\n\n\n\nExperten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen.\n\n\n\n\n\n\n\n\n\n\nZwei verschiedene Betriebssysteme\n\n\n\n\n\n\n\n\nDimension\nAnfänger\nExperten\n\n\n\n\nSehen\n• Einzelne Teile\n• Bedeutungsvolle Muster\n\n\nVerarbeiten\n• Schritt-für-Schritt-Denken• Deliberativ• Bewusste Anstrengung\n• Automatische Prozeduren• Intuitiv• Unbewusst\n\n\nNeural\n• Schwache Verbindungen• Bahnen noch im Aufbau\n• Myelinisierte neuronale Bahnen• Tausende Stunden geübt"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
@@ -873,7 +873,7 @@
     "href": "slides/wie-menschen-lernen/index.html#wie-expertise-entwickelt-wird",
     "title": "Wie Menschen lernen",
     "section": "Wie Expertise entwickelt wird",
-    "text": "Wie Expertise entwickelt wird\n\n\n\n\n\n\n\n\n\nGedächtnissystem\nBeschreibung\nEigenschaften\nBeispiel\n\n\n\n\nDeclaratives Gedächtnis\n“Wissen dass”\n• Fakten, Regeln • Bewusst, langsamer und angstender Abruf\n“Um \\(3x + 5 = 20\\) zu lösen, \\(5\\) von beiden Seiten subtrahieren.”\n\n\nProzedurales Gedächtnis\n“Wissen wie”\n• Automatisierte “atomische” Gedankenschritte• Schnelle, mühelose Ausführung\n\\(3x + 5 = 20\\) sehen → direkt wissen, dass \\(x = 5\\).\n\n\n\n\nFakten → Tausende Übungszyklen → Automatische Prozeduren → Expertise\n\n\n\nWarum Anstrengung wichtig ist: Üben (wird oft als angstengend empfunden) stärkt die neuronalen Bahnen, welche Expertise erzeugen\n\n\n\n\nAbbildung von Scott H Young"
+    "text": "Wie Expertise entwickelt wird\nVon Fakten zu automatisierten Prozeduren\n\n\n\n\n\n\n\n\n\nGedächtnissystem\nBeschreibung\nEigenschaften\nBeispiel\n\n\n\n\nDeklaratives Gedächtnis\n“Wissen dass”\n• Fakten, Regeln • Bewusst, langsamer Abruf\n“Um \\(3x + 5 = 20\\) zu lösen, \\(5\\) von beiden Seiten subtrahieren.”\n\n\nProzedurales Gedächtnis\n“Wissen wie”\n• Automatisierte Prozesse• Schnelle, mühelose Ausführung\n\\(3x + 5 = 20\\) sehen → direkt wissen: \\(x = 5\\)\n\n\n\n\n\n\nDer Weg zur Expertise\nDeklarative Fakten → Tausende Übungszyklen → Prozedurale Automatismen\n\n\n\n\nAbbildung von Scott H Young"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#das-lernparadox-gefühl-realität",
@@ -1392,6 +1392,20 @@
     "href": "slides/wie-menschen-lernen/index.html#cognitive-load-theory",
     "title": "Wie Menschen lernen",
     "section": "Cognitive Load Theory",
-    "text": "Cognitive Load Theory\nWarum Anfänger anders lernen müssen als Experten\n\n\nArbeitsgedächtnis\n\nBegrenzt: Wenige Elemente gleichzeitig\nFlüchtig: Sekunden bis Minuten\nBottleneck: Hier findet aktives Lernen statt\nProblem: Schnell überlastet bei komplexen Aufgaben\n\n\nLangzeitgedächtnis\n\nUnbegrenzt: Keine bekannte Obergrenze\nDauerhaft: Jahre bis lebenslang\nOrganisiert: Schemata und Chunks\nLösung: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht\n\n\n\n\n\n\nKernprinzip: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstruktur oder Denkschablone)"
+    "text": "Cognitive Load Theory\nWarum Anfänger anders lernen müssen als Experten\n\n\nArbeitsgedächtnis\n\nBegrenzt: Wenige Elemente gleichzeitig\nFlüchtig: Sekunden bis Minuten\nBottleneck: Hier findet aktives Lernen statt\nProblem: Schnell überlastet bei komplexen Aufgaben\n\n\nLangzeitgedächtnis\n\nUnbegrenzt: Keine bekannte Obergrenze\nDauerhaft: Jahre bis lebenslang\nOrganisiert: Schemata und Chunks\nLösung: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht\n\n\n\n\n\n\nKernprinzip: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstrukturen)"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading",
+    "href": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading",
+    "title": "Wie Menschen lernen",
+    "section": "CLT und KI: Cognitive Offloading",
+    "text": "CLT und KI: Cognitive Offloading\nDas Lernparadox: KI optimiert für Produktion statt Lernen\n\n\n\n\n\n\n\n\n\nKognitive Last\nOhne KI\nMit KI\nKonsequenz\n\n\n\n\nIntrinsisch\nBleibt konstant\nScheint reduziert\nKomplexität wird versteckt, nicht bewältigt\n\n\nExtrinsisch\nVariabel\n✅ Minimiert\nGut für Effizienz\n\n\nLernrelevant\nWird aufgebracht\n❌ Eliminiert\nKeine Schemabildung"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading-1",
+    "href": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading-1",
+    "title": "Wie Menschen lernen",
+    "section": "CLT und KI: Cognitive Offloading",
+    "text": "CLT und KI: Cognitive Offloading\nDrei kritische Lernmechanismen werden ausgeschaltet:\n\n\n\n\n\n\n\n\nMechanismus\nNormal\nMit KI-Offloading\n\n\n\n\nVorhersagefehler\nLücke zwischen Erwartung & Realität = Lernsignal\nKeine Erwartungen → kein Lernen\n\n\nGedächtniskonsolidierung\nAktive Verarbeitung → Speicherung\nPassive Konsumption → Vergessen\n\n\nProzedurale Entwicklung\nTausende Wiederholungen → Automatismen\nÜberspringen → keine Expertise\n\n\n\n\n\n\nDie CLT-Perspektive: Schwierigkeit ist kein Bug – sie ist das zentrale Feature für Expertise-Entwicklung"
   }
 ]
