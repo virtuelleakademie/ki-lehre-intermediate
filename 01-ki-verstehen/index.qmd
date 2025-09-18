@@ -8,11 +8,12 @@ Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen �
 
 
 
-
 ## {{< bi file-slides >}} Was ist Künstliche Intelligenz
 
+::: {.callout-note appearance="minimal" collapse=true}
+## Optional
 {{< revealjs file="../slides/was-ist-ki/index.html" class="ratio ratio-16x9" >}}
-
+:::
 
 
 ## {{< bi file-slides >}} Wie funktionieren Chatbots?
@@ -22,7 +23,7 @@ Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen �
 
 ## {{< bi megaphone >}} Aktive Verarbeitung
 
-::: {.active-processing}
+::: {.active-processing collapse=true}
 ## Wie funktionieren LLMs? (5 Min)
 
 **Aufgabe:** Erkläre deinem Nachbarn in eigenen Worten:
@@ -51,16 +52,19 @@ Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen �
 {{< revealjs file="../slides/was-sind-agenten/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
-## {{< bi file-slides >}} Prompting Tipps
-
-{{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
-
 
 ## {{< bi file-slides >}} Möglichkeiten und Grenzen
 
 {{< revealjs file="../slides/möglichkeiten-grenzen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
+## {{< bi file-slides >}} Prompting Tipps
+
+::: {.callout-note appearance="minimal" collapse=true}
+## Optional
+
+{{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
+:::
 
 
 ## {{< bi book>}} Weiterführende Kurse
