@@ -99,19 +99,25 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 - Suche dir einen Partner
 - Am besten jemand mit einer **anderen Strategie** oder **anderem Fachbereich**
 
-### Gegenseitiges Agent-Testing (10 Min)
+### Agents teilen (3 Min)
+
+**Demo**: Wie ihr eure Copilot Agents miteinander teilt (wird demonstriert)
+
+### Gegenseitiges Agent-Testing (7 Min)
 
 ::: {.callout-tip}
-## Cross-Testing der Agents
-**Person A testet Agent von Person B (5 Min):**
+## Cross-Testing der Agents (parallel)
+**Beide Partner testen gleichzeitig (7 Min):**
 
-- Verwende den Agent für eine typische Lernsituation aus Person B's Fachbereich
-- Achte auf: Fördert der Agent wirklich die gewählte Strategie?
-- Notiere Prompting-Herausforderungen und Überraschungen
+- **Person A** testet Agent von Person B
+- **Person B** testet Agent von Person A
+- **Parallel arbeiten** - jeder fokussiert auf den anderen Agent
 
-**Person B testet Agent von Person A (5 Min):**
+**Worauf achten:**
 
-- Gleiche Struktur
+- Verwende den Agent für eine typische Lernsituation aus dem Fachbereich deines Partners
+- Fördert der Agent wirklich die gewählte Strategie?
+- Notiere Herausforderungen und Überraschungen
 :::
 
 ### Erfahrungen auf Padlet dokumentieren (8 Min)
@@ -148,13 +154,12 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 **Von der Praxis zur Anwendung:**
 
 - **Reality Check**: Was ist realistisch umsetzbar in der eigenen Lehre?
-- **Prompting-Learnings**: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?
-- **Make-it-Stick meets AI**: Wo funktioniert die Kombination gut, wo nicht?
+- **Prompting**: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?
+- **Make-it-Stick und KI**: Wo funktioniert die Kombination gut, wo nicht?
 
 **Nächste Schritte:**
 
 - Wie könnt ihr das Gelernte in eurer Lehre einsetzen?
-- Welche Tools/Plattformen wollt ihr ausprobieren?
 
 ::: {.callout-tip}
 ## Wichtiger Reminder
