@@ -1,0 +1,229 @@
+---
+title: "Agent-Beispiele für die 8 Strategien"
+subtitle: "Inspiration für euer Agent-Design"
+---
+
+## 🎯 Wie diese Beispiele nutzen
+
+Jedes Beispiel zeigt:
+- **Lehrthema & Problem**
+- **Gewählte Make-it-Stick-Strategie**
+- **Agent-Design** (Was tut der Agent?)
+- **Lernende-Aktivität** (Was bleibt beim Lernenden?)
+- **Warum es funktioniert**
+
+---
+
+## 1. 🔄 Abrufpraxis (Retrieval Practice)
+
+### **Beispiel: Statistik-Tutor**
+
+**Lehrthema**: Inferenzstatistik (Hypothesentests)
+**Problem**: Studierende können Konzepte erkennen, aber nicht aktiv anwenden
+
+**Agent macht:**
+- Generiert personalisierte Übungsaufgaben
+- Analysiert Fehlermuster und passt Schwierigkeit an
+- Erstellt adaptive Quizzes ohne Mehrfachwahl
+- Tracking von Abruf-Erfolg über Zeit
+
+**Lernende tun:**
+- Lösen Aufgaben **ohne** Nachschlagen
+- Erklären ihre Lösungswege
+- Reflektieren über Fehlerquellen
+- Selbsteinschätzung vor Feedback
+
+**Warum es funktioniert**: Agent generiert die Übung, aber **Lernende müssen aktiv abrufen und denken**.
+
+---
+
+## 2. ⏰ Verteiltes Lernen (Spacing)
+
+### **Beispiel: Anatomie-Coach**
+
+**Lehrthema**: Medizin - Anatomische Strukturen
+**Problem**: Bulimie-Lernen vor Prüfungen, schnelles Vergessen
+
+**Agent macht:**
+- Berechnet optimale Wiederholungsintervalle
+- Sendet personalisierte Erinnerungen
+- Passt Timing basierend auf individuellem Vergessen an
+- Visualisiert Lernfortschritt über Zeit
+
+**Lernende tun:**
+- Anatomie aktiv benennen (ohne Hilfe)
+- Strukturen zeichnen und beschriften
+- Verbindungen zwischen Systemen erklären
+- Langzeit-Commitment zum regelmäßigen Üben
+
+**Warum es funktioniert**: Agent optimiert **wann** gelernt wird, aber **nicht was und wie**.
+
+---
+
+## 3. 🔀 Abwechslung (Interleaving)
+
+### **Beispiel: Programmier-Mentor**
+
+**Lehrthema**: Algorithmen und Datenstrukturen
+**Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
+
+**Agent macht:**
+- Mischt verschiedene Problemtypen intelligent
+- Erstellt "Mixed Practice" Sessions
+- Vermeidet predictable Patterns
+- Analysiert welche Kombinationen am besten funktionieren
+
+**Lernende tun:**
+- Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird
+- Implementieren ohne vorherige Ankündigung des Typs
+- Vergleichen und kontrastieren verschiedene Ansätze
+- Entwickeln "Problem-Pattern-Recognition"
+
+**Warum es funktioniert**: Agent **mixt** die Aufgaben, aber Lernende müssen **diskriminieren und wählen**.
+
+---
+
+## 4. 🎭 Variation
+
+### **Beispiel: Physik-Simulator**
+
+**Lehrthema**: Newtonsche Mechanik
+**Problem**: Können Formeln anwenden, aber nicht in neuen Kontexten
+
+**Agent macht:**
+- Generiert vielfältige Anwendungsszenarien
+- Variiert Parameter, Kontexte, Darstellungsformen
+- Erstellt real-world Problemsituationen
+- Sammelt verschiedene Visualisierungen
+
+**Lernende tun:**
+- Physikalische Prinzipien in verschiedenen Situationen erkennen
+- Von abstrakten Formeln zu konkreten Anwendungen
+- Problem-Situationen selbst analysieren und modellieren
+- Transfer auf völlig neue Bereiche leisten
+
+**Warum es funktioniert**: Agent **variiert** die Kontexte, aber Lernende müssen **Prinzipien erkennen und anwenden**.
+
+---
+
+## 5. ⚡ Wünschenswerte Schwierigkeiten
+
+### **Beispiel: Sozialpsychologie-Challenger**
+
+**Lehrthema**: Kognitive Verzerrungen und Biases
+**Problem**: Oberflächliches Verständnis, keine kritische Anwendung
+
+**Agent macht:**
+- Erstellt ambige, mehrdeutige Situationen
+- Präsentiert widersprüchliche Evidenz
+- Generiert "Productive Struggle" Szenarien
+- Gibt delayed und minimales Feedback
+
+**Lernende tun:**
+- Erst eigene Hypothesen aufstellen
+- Mit Unsicherheit und Ambiguität umgehen
+- Biases in eigenen Denkprozessen entdecken
+- Komplexe, nuancierte Analysen entwickeln
+
+**Warum es funktioniert**: Agent **erzeugt** Struggle, aber Lernende müssen **durch die Schwierigkeit durcharbeiten**.
+
+---
+
+## 6. 💭 Verstehen vs. Vertrautheit
+
+### **Beispiel: Wirtschafts-Sokrates**
+
+**Lehrthema**: Makroökonomie (Geld- und Fiskalpolitik)
+**Problem**: Können Definitionen wiedergeben, aber nicht erklären
+
+**Agent macht:**
+- Stellt Socratic Questions ("Warum denkst du das?")
+- Fordert Erklärungen in eigenen Worten
+- Deckt Verständnislücken durch gezielte Fragen auf
+- Überprüft konzeptuelles vs. oberflächliches Wissen
+
+**Lernende tun:**
+- Komplexe Konzepte in einfacher Sprache erklären
+- Annahmen und Begründungen explizit machen
+- Verbindungen zwischen Konzepten herstellen
+- "Teaching" Moments nutzen
+
+**Warum es funktioniert**: Agent **fragt**, aber Lernende müssen **denken und erklären**.
+
+---
+
+## 7. 🔍 Feedback & Reflexion
+
+### **Beispiel: Schreibtrainer-Coach**
+
+**Lehrthema**: Akademisches Schreiben
+**Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
+
+**Agent macht:**
+- Analysiert Schreibmuster und gibt spezifisches Feedback
+- Stellt Reflexionsfragen zum Schreibprozess
+- Tracked Fortschritt in verschiedenen Dimensionen
+- Gibt formatives (nicht summatives) Feedback
+
+**Lernende tun:**
+- Eigene Texte kritisch evaluieren
+- Schreibstrategien bewusst reflektieren
+- Feedback in Überarbeitungen umsetzen
+- Metakognitive Awareness für Schreibprozess entwickeln
+
+**Warum es funktioniert**: Agent **analysiert und fragt**, aber Lernende müssen **reflektieren und verbessern**.
+
+---
+
+## 8. 🌐 Anwendung
+
+### **Beispiel: Case-Study-Generator**
+
+**Lehrthema**: Betriebswirtschaft - Strategisches Management
+**Problem**: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden
+
+**Agent macht:**
+- Erstellt realistische, komplexe Unternehmensszenarien
+- Simuliert Stakeholder-Perspektiven
+- Generiert "What-if" Szenarien
+- Sammelt aktuelle Business Cases
+
+**Lernende tun:**
+- Theoretische Frameworks auf reale Probleme anwenden
+- Strategische Entscheidungen treffen und begründen
+- Multiple Perspektiven berücksichtigen
+- Langfristige Konsequenzen durchdenken
+
+**Warum es funktioniert**: Agent **erstellt** realistische Szenarien, aber Lernende müssen **anwenden und entscheiden**.
+
+---
+
+## 🔧 Design-Patterns für effektive Agents
+
+### **Das "Fördern-nicht-Ersetzen" Prinzip:**
+
+| ✅ **Agent als Facilitator** | ❌ **Agent als Replacer** |
+|------------------------------|---------------------------|
+| Generiert Übungsaufgaben | Löst Aufgaben |
+| Stellt guiding Questions | Gibt direkte Antworten |
+| Variiert Kontexte | Standardisiert alles |
+| Analysiert Lernprozess | Übernimmt Denkprozess |
+| Gibt formatives Feedback | Macht summative Bewertung |
+
+### **Goldene Regeln:**
+1. **Agent macht**: Setup, Variation, Timing, Feedback
+2. **Lernende machen**: Denken, Anwenden, Reflektieren, Entscheiden
+3. **Schwierigkeit bleibt**: Kognitive Anstrengung wird gefördert, nicht eliminiert
+4. **Lernen wird sichtbar**: Progress tracking zeigt echten Kompetenzzuwachs
+
+---
+
+## 💡 Inspiration für euer Design
+
+**Wählt eure Strategie und fragt euch:**
+- Wie kann ein Agent **diese spezifische Strategie** fördern?
+- Was ist das **Minimum** was der Agent tun muss?
+- Was ist das **Maximum** was beim Lernenden bleiben muss?
+- Wie wird **echter Lernfortschritt** messbar?
+
+**Remember**: Das Ziel ist nicht der perfekte Agent, sondern das Verständnis für **scientific learning design mit KI-Unterstützung**.

@@ -112,6 +112,8 @@ website:
       background: light
       contents:
         - 03-lernumgebungen/index.qmd
+        - 03-lernumgebungen/handout-make-it-stick/index.qmd
+        - 03-lernumgebungen/agent-beispiele/index.qmd
         - 03-lernumgebungen/produktive-anstrengung/index.qmd
 
 page-footer:
