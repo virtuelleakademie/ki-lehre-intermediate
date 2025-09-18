@@ -445,7 +445,7 @@
     "href": "02-wie-menschen-lernen/index.html",
     "title": "Wie Menschen lernen",
     "section": "",
-    "text": "Nach der KI-Grundlage folgt die Lernpsychologie - warum ist das wichtig für Agent-Design?",
+    "text": "Warum Anstrengung beim Lernen kein Bug ist—sondern das Feature.",
     "crumbs": [
       "2: Lernen",
       "Wie Menschen lernen"
@@ -1876,8 +1876,8 @@
     "objectID": "02-wie-menschen-lernen/index.html#vertiefende-ressourcen",
     "href": "02-wie-menschen-lernen/index.html#vertiefende-ressourcen",
     "title": "Wie Menschen lernen",
-    "section": "📚 Vertiefende Ressourcen",
-    "text": "📚 Vertiefende Ressourcen\n\nDie 8 Make it Stick Strategien im Detail\nAgent-Beispiele für jede Strategie\n\n\nFür das Selbststudium:\n\nWie man Kompetenzen erwirbt - Wissenschaftliche Grundlagen der Expertise-Entwicklung",
+    "section": "Vertiefende Ressourcen",
+    "text": "Vertiefende Ressourcen\n\nDie 8 Make it Stick Strategien im Detail\nAgent-Beispiele für jede Strategie\n\n\nFür das Selbststudium:\n\nWie man Kompetenzen erwirbt - Wissenschaftliche Grundlagen der Expertise-Entwicklung",
     "crumbs": [
       "2: Lernen",
       "Wie Menschen lernen"
@@ -1925,6 +1925,50 @@
     "crumbs": [
       "Workshop",
       "Transfer & Abschluss"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#vom-wissen-zum-können-wie-kognitive-anstrengung-expertise-entwickelt",
+    "href": "02-wie-menschen-lernen/index.html#vom-wissen-zum-können-wie-kognitive-anstrengung-expertise-entwickelt",
+    "title": "Wie Menschen lernen",
+    "section": " Vom Wissen zum Können: Wie kognitive Anstrengung Expertise entwickelt",
+    "text": "Vom Wissen zum Können: Wie kognitive Anstrengung Expertise entwickelt\n    View slides in full screen",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#lernpsychologie-trifft-ki-20-min",
+    "href": "02-wie-menschen-lernen/index.html#lernpsychologie-trifft-ki-20-min",
+    "title": "Wie Menschen lernen",
+    "section": "",
+    "text": "Warum Anstrengung beim Lernen kein Bug ist—sondern das Feature.",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#die-zentrale-erkenntnis",
+    "href": "02-wie-menschen-lernen/index.html#die-zentrale-erkenntnis",
+    "title": "Wie Menschen lernen",
+    "section": "Die zentrale Erkenntnis",
+    "text": "Die zentrale Erkenntnis\nDas Lernparadox verstehen:\n\nProduktivität ≠ Lernen: KI macht uns produktiver, aber verhindert oft echtes Lernen\nCognitive Load ist essentiell: Ohne kognitive Anstrengung keine Expertise-Entwicklung\nGefühl ≠ Realität: Was sich wie Lernen anfühlt, ist oft das Gegenteil\n\nUnsere Aufgabe: Lernumgebungen mit KI gestalten, die gezielt lernrelevante kognitive Last fördern—z.B. durch die 8 Strategien aus Make-it-Stick (Brown, III, and McDaniel, n.d.).\n\n\n\n\n\n\nTipÜberleitung zur Praxis\n\n\n\nJetzt seid ihr dran: Entwickelt einen Agent, der wissenschaftlich fundiert eine der 8 Strategien für euer Lehrthema umsetzt.",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht",
+    "href": "02-wie-menschen-lernen/index.html#vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht",
+    "title": "Wie Menschen lernen",
+    "section": " Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht",
+    "text": "Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht\n    View slides in full screen",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
     ]
   }
 ]
