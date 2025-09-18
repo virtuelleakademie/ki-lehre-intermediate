@@ -84,21 +84,23 @@ Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, w
 ## Wie Expertise entwickelt wird {.smaller}
 
 
-
 | Gedächtnissystem                | Beschreibung        | Eigenschaften                                                       | Beispiel                                                |
 | -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
 | **Declaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer und angstender Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
 | **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte "atomische" Gedankenschritte<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen, dass $x = 5$.               |
 
 
-**Die Entwicklung**: Fakten → Tausende Übungszyklen → Automatische Prozeduren → Expertise
+<br>
+
+ Fakten → Tausende Übungszyklen → Automatische Prozeduren → Expertise
+
+<br>
 
 
 :::: {.columns}
 ::: {.column width="40%"}
-<br>
 
-**Warum Anstrengung wichtig ist**: Üben stärkt die neuronalen Bahnen, die Expertise erzeugen
+**Warum Anstrengung wichtig ist**: Üben (wird oft als **angstengend** empfunden) stärkt die neuronalen Bahnen, welche Expertise erzeugen
 :::
 
 ::: {.column width="60%"}
