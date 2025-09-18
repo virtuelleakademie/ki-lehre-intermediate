@@ -2,19 +2,48 @@
 title: "Ablauf"
 ---
 
-<!-- ## Einstieg -->
-| {{< bi collection-fill >}} Thema                                                             | {{< bi clock-fill >}} Dauer |
-| -------------------------------------------------------------------------------------------- | --------------------------- |
-| {{< bi collection-play >}} Einstieg                                                          |                             |
-| [Begrüssungsaufgabe](einstieg/index.qmd)                                                     | 10 min                      |
-| {{< bi collection-play >}} Teil 1                                                            |                             |
-| [Input: KI verstehen](../01-ki-verstehen/index.qmd)                                          | 45 min                      |
-| {{< bi collection-play >}} Teil 2                                                            |                             |
-| [Input: Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd)                            | 10 min                      |
-| [Selbststudium: Wie Menschen lernen](../02-wie-menschen-lernen/kompetenz-erwerben/index.qmd) | 20 min                      |
-| [Aktive Verarbeitung: Reflexion](../02-wie-menschen-lernen/aktive-verarbeitung/index.qmd)    | 15 min                      |
-| {{< bi pause-circle >}} Pause                                                                |                             |
-| {{< bi collection-play >}} Teil 3                                                            |                             |
-| [Aktive Verarbeitung: Lernumgebungen gestalten](../03-lernumgebungen/index.qmd)              | 50 min                      |
-| {{< bi collection-play >}} Diskussion                                                        |                             |
-| [Offene Diskussion](diskussion/index.qmd)                                                    | 30 min                      |
+## Workshop-Ablauf: KI in der Lehre - Intermediate (3 Stunden)
+
+| {{< bi clock-fill >}} Zeit | {{< bi collection-fill >}} Thema | {{< bi hourglass-split >}} Dauer |
+| --------------------------- | --------------------------------- | -------------------------------- |
+| **09:00 - 09:10** | {{< bi collection-play >}} **Einstieg** | |
+| | [Aktivierende Begrüssung](einstieg/index.qmd) | 10 min |
+| **09:10 - 10:10** | {{< bi collection-play >}} **Teil 1: KI verstehen** | |
+| | [Hauptpräsentation: KI & Agents](../01-ki-verstehen/index.qmd) | 60 min |
+| **10:10 - 10:25** | {{< bi cup-hot-fill >}} **Kaffeepause** | |
+| | ☕ Pause & Networking | 15 min |
+| **10:25 - 10:45** | {{< bi collection-play >}} **Teil 2: Lernen verstehen** | |
+| | [Make it Stick: Die 8 Strategien](../02-wie-menschen-lernen/index.qmd) | 20 min |
+| **10:45 - 11:45** | {{< bi collection-play >}} **Teil 3: KI-gestütztes Lerndesign** | |
+| | [Think-Pair-Share: Agent-Design](../03-lernumgebungen/index.qmd) | 60 min |
+| **11:45 - 12:00** | {{< bi collection-play >}} **Transfer & Abschluss** | |
+| | [Umsetzung & nächste Schritte](diskussion/index.qmd) | 15 min |
+
+---
+
+## 🎯 Lernziele
+
+Am Ende des Workshops können die Teilnehmer:
+
+1. **KI verstehen**: Unterschied zwischen Tools und Agents erkennen
+2. **Lernen verstehen**: Die 8 wissenschaftlich bewährten Lernstrategien anwenden
+3. **Praxis umsetzen**: Einen Copilot Agent für ihr eigenes Lehrthema konzipieren
+4. **Transfer leisten**: Konkrete nächste Schritte für die eigene Lehre formulieren
+
+---
+
+## 📋 Vorbereitung
+
+**Bringt mit:**
+- Ein **eigenes Lehrthema** mit dem ihr arbeiten möchtet
+- **Laptop/Tablet** für praktische Übungen
+- **Offenheit** für wissenschaftlich fundiertes Lerndesign
+
+---
+
+## 🔄 Methodenmix
+
+- **Präsentation**: Fundierte KI-Grundlagen (60 Min)
+- **Think-Pair-Share**: Wissenschaftlich basiertes Agent-Design
+- **Hands-on**: Praktische Erprobung mit eigenen Lehrthemen
+- **Reflexion**: Transfer in die eigene Lehrpraxis

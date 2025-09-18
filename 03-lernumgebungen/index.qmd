@@ -5,7 +5,7 @@ title: "KI-gestütztes Lerndesign"
 ## {{< bi megaphone >}} Aktive Verarbeitung
 
 ::: {.active-processing}
-## Copilot Agent für effektives Lernen entwickeln (90 Min)
+## Copilot Agent für effektives Lernen entwickeln (60 Min)
 
 Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus "Make it Stick" für dein eigenes Lehrthema umsetzt.
 
@@ -37,7 +37,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 ---
 
-## THINK Phase: Individuell (35 Min)
+## THINK Phase: Individuell (25 Min)
 
 ### Schritt 1: Strategie wählen (10 Min)
 
@@ -53,7 +53,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 - **Mein Lehrthema**: ________________________
 - **Das spezifische Problem**: ________________________
 
-### Schritt 2: Agent konzipieren (25 Min)
+### Schritt 2: Agent konzipieren (15 Min)
 
 **Entwickle deinen Copilot Agent mit dem Agent-Design-Template:**
 
@@ -80,24 +80,24 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 ---
 
-## PAIR Phase: Zu zweit (25 Min)
+## PAIR Phase: Zu zweit (20 Min)
 
 ### Partner finden (5 Min)
 - Suche dir einen Partner
 - Am besten jemand mit einer **anderen Strategie** oder **anderem Fachbereich**
 
-### Austausch & Feedback (20 Min)
+### Austausch & Feedback (15 Min)
 
-#### Runde 1: Vorstellen (10 Min)
-**Person A präsentiert (5 Min):**
+#### Runde 1: Vorstellen (8 Min)
+**Person A präsentiert (4 Min):**
 - Strategie und Lehrthema
 - Agent-Konzept
 - Wie fördert der Agent die Strategie?
 
-**Person B präsentiert (5 Min):**
+**Person B präsentiert (4 Min):**
 - Gleiche Struktur
 
-#### Runde 2: Feedback & Verfeinerung (10 Min)
+#### Runde 2: Feedback & Verfeinerung (7 Min)
 
 **Gebt euch gegenseitig konstruktives Feedback:**
 
@@ -111,15 +111,15 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 ---
 
-## SHARE Phase: Plenum (20 Min)
+## SHARE Phase: Plenum (15 Min)
 
-### Freiwillige Präsentationen (15 Min)
+### Freiwillige Präsentationen (10 Min)
 
-**5 Teilnehmer stellen vor (je 3 Min):**
+**3-4 Teilnehmer stellen vor (je 2-3 Min):**
 
 **Präsentations-Struktur:**
 1. **Strategie & Lehrthema** (30 Sek)
-2. **Agent-Konzept** (2 Min)
+2. **Agent-Konzept** (1,5 Min)
 3. **Wie fördert es die Strategie?** (30 Sek)
 
 ### Reflexion & Synthese (5 Min)

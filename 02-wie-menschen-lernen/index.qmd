@@ -2,23 +2,34 @@
 title: "Wie Menschen lernen"
 ---
 
-Diese Präsentation basiert auf den Erkenntnissen der kognitiven Psychologie und zeigt, wie Menschen lernen und welche Rolle kognitive Anstrengung dabei spielt.
+## Die wissenschaftliche Basis für Agent-Design (20 Min)
 
-## {{< bi file-slides >}} Input: Vom Anfänger zum Experten
+**Nach der KI-Grundlage folgt die Lernwissenschaft** - warum ist das wichtig für Agent-Design?
+
+## {{< bi file-slides >}} Make it Stick: Die 8 bewährten Lernstrategien
 
 {{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
+## 🔗 Die Verbindung
 
+**Warum KI + Lernen eine Herausforderung ist:**
 
+- **KI optimiert** für Produktivität (minimale kognitive Last)
+- **Lernen braucht** kognitive Anstrengung (lernrelevante Last)
+- **Das Paradox**: Was effizient ist, ist oft schlecht fürs Lernen
 
-## {{< bi megaphone >}} Aktive Verarbeitung
+**Unsere Aufgabe**: Agents entwickeln, die die **8 Make-it-Stick-Strategien fördern**, statt sie zu umgehen.
 
-::: {.active-processing}
-## Wie Menschen lernen? (20 Min)
-
-**Aufgabe**: Lese den Artikel zum Thema [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/)
-
-
-<!-- **Tipp**: Falls du Hilfe mit Fachbegriffen brauchst, verwende [Claude](https://claude.ai/) oder [ChatGPT](https://chatgpt.com/). -->
+::: {.callout-tip}
+## Überleitung zur Praxis
+**Jetzt seid ihr dran**: Entwickelt einen Agent, der **wissenschaftlich fundiert** eine der 8 Strategien für euer Lehrthema umsetzt.
 :::
+
+---
+
+## 📚 Vertiefende Ressourcen
+
+- [Die 8 Make it Stick Strategien im Detail](../03-lernumgebungen/handout-make-it-stick/)
+- [Artikel: Wie man Kompetenzen erwirbt](./kompetenz-erwerben/)
+- [Agent-Beispiele für jede Strategie](../03-lernumgebungen/agent-beispiele/)
 

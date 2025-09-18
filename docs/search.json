@@ -185,7 +185,7 @@
     "href": "workshop/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\n Einstieg\n\n\n\nBegrüssungsaufgabe\n10 min\n\n\n Teil 1\n\n\n\nInput: KI verstehen\n45 min\n\n\n Teil 2\n\n\n\nInput: Wie Menschen lernen\n10 min\n\n\nSelbststudium: Wie Menschen lernen\n20 min\n\n\nAktive Verarbeitung: Reflexion\n15 min\n\n\n Pause\n\n\n\n Teil 3\n\n\n\nAktive Verarbeitung: Lernumgebungen gestalten\n50 min\n\n\n Diskussion\n\n\n\nOffene Diskussion\n30 min\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:10\n Teil 1: KI verstehen\n\n\n\n\nHauptpräsentation: KI & Agents\n60 min\n\n\n10:10 - 10:25\n Kaffeepause\n\n\n\n\n☕ Pause & Networking\n15 min\n\n\n10:25 - 10:45\n Teil 2: Lernen verstehen\n\n\n\n\nMake it Stick: Die 8 Strategien\n20 min\n\n\n10:45 - 11:45\n Teil 3: KI-gestütztes Lerndesign\n\n\n\n\nThink-Pair-Share: Agent-Design\n60 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -357,7 +357,7 @@
     "href": "03-lernumgebungen/index.html",
     "title": "KI-gestütztes Lerndesign",
     "section": "",
-    "text": "Active-processingCopilot Agent für effektives Lernen entwickeln (90 Min)\n\n\n\nEntwickle einen Copilot Agent, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.\nZiel: Der Agent soll das Lernen fördern, nicht ersetzen - wissenschaftlich fundiert und praxisnah.\nFormat: Think-Pair-Share",
+    "text": "Active-processingCopilot Agent für effektives Lernen entwickeln (60 Min)\n\n\n\nEntwickle einen Copilot Agent, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.\nZiel: Der Agent soll das Lernen fördern, nicht ersetzen - wissenschaftlich fundiert und praxisnah.\nFormat: Think-Pair-Share",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"
@@ -368,7 +368,7 @@
     "href": "03-lernumgebungen/index.html#aktive-verarbeitung",
     "title": "KI-gestütztes Lerndesign",
     "section": "",
-    "text": "Active-processingCopilot Agent für effektives Lernen entwickeln (90 Min)\n\n\n\nEntwickle einen Copilot Agent, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.\nZiel: Der Agent soll das Lernen fördern, nicht ersetzen - wissenschaftlich fundiert und praxisnah.\nFormat: Think-Pair-Share",
+    "text": "Active-processingCopilot Agent für effektives Lernen entwickeln (60 Min)\n\n\n\nEntwickle einen Copilot Agent, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.\nZiel: Der Agent soll das Lernen fördern, nicht ersetzen - wissenschaftlich fundiert und praxisnah.\nFormat: Think-Pair-Share",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"
@@ -445,7 +445,7 @@
     "href": "02-wie-menschen-lernen/index.html",
     "title": "Wie Menschen lernen",
     "section": "",
-    "text": "Diese Präsentation basiert auf den Erkenntnissen der kognitiven Psychologie und zeigt, wie Menschen lernen und welche Rolle kognitive Anstrengung dabei spielt.",
+    "text": "Nach der KI-Grundlage folgt die Lernwissenschaft - warum ist das wichtig für Agent-Design?",
     "crumbs": [
       "2: Lernen",
       "Wie Menschen lernen"
@@ -1088,23 +1088,23 @@
   {
     "objectID": "workshop/einstieg/index.html",
     "href": "workshop/einstieg/index.html",
-    "title": "Begrüssungsaufgabe",
+    "title": "Aktivierende Begrüssung",
     "section": "",
-    "text": "Stelle dich kurz vor:\n\nName\nInstitut & Lehrfächer\nSubjektives Erfahrungslevel mit KI (Skala von 0-10)\nBeschreibe kurz: Welche KI-Tools hast du schon genutzt und wofür? (2-3 Sätze)\nKannst du dich an einen Moment erinnern, in dem du das Gefühl hattest, etwas wirklich verstanden zu haben? Was hat dazu geführt? (2-3 Sätze)\nWas erwartest du von diesem Kurs? (2-3 Sätze)\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Stelle dich kurz vor:\n\nName & Institut\nKI-Erfahrung (Skala 0-10)\nLehrthema das du heute mitgebracht hast",
     "crumbs": [
       "Workshop",
-      "Begrüssungsaufgabe"
+      "Aktivierende Begrüssung"
     ]
   },
   {
     "objectID": "workshop/diskussion/index.html",
     "href": "workshop/diskussion/index.html",
-    "title": "Offene Diskussion",
+    "title": "Transfer & Abschluss",
     "section": "",
-    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teile deine Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die du aus diesem Workshop mitgenommen hast?\nGab es Aspekte, die dir besonders schwierig oder verwirrend erschienen sind?\nWie planst du, das Gelernte in deiner Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würdest du gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf deine Beiträge und eine interessante Diskussion!\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Entwickle deinen konkreten nächsten Schritt:\n\n\n\nWelche Make-it-Stick-Strategie will ich als erstes umsetzen?\nWelches Agent-Konzept ist realistisch für meine Lehre?\nWas ist mein konkreter erster Schritt in den nächsten 2 Wochen?\n\n\n\n\n\nTool-Wahl: GPT, Copilot, oder andere KI-Tools?\nPilotversuch: Wo teste ich meinen Agent zuerst?\nErfolg messen: Woran erkenne ich, dass es funktioniert?\n\nNotiere dir:\nMeine Strategie: ____________________\nMein erster Schritt: ________________\nBis wann: __________________________\n\n\n\n\nRundblitz (5 Min): Jeder teilt in 30 Sekunden: - Eine Erkenntnis aus heute - Einen konkreten nächsten Schritt\nRessourcen für zu Hause (2 Min): - Die 8 Make it Stick Strategien - zum Mitnehmen - Agent-Beispiele - für Inspiration - BFH Orientierungshilfe KI - für Guidelines\n\n\n\n\n\n\nTipTake-Away Message\n\n\n\nWissenschaftlich fundiertes Agent-Design bedeutet: KI soll die bewährten Lernstrategien fördern, nicht ersetzen.\nEure Mission: Macht das Lernen eurer Studierenden besser, nicht nur einfacher.\n\n\nVielen Dank & viel Erfolg bei der Umsetzung! 🚀",
     "crumbs": [
       "Workshop",
-      "Offene Diskussion"
+      "Transfer & Abschluss"
     ]
   },
   {
@@ -1771,6 +1771,160 @@
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Agent-Beispiele für die 8 Strategien"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#workshop-ablauf-ki-in-der-lehre---intermediate-3-stunden",
+    "href": "workshop/index.html#workshop-ablauf-ki-in-der-lehre---intermediate-3-stunden",
+    "title": "Ablauf",
+    "section": "",
+    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:10\n Teil 1: KI verstehen\n\n\n\n\nHauptpräsentation: KI & Agents\n60 min\n\n\n10:10 - 10:25\n Kaffeepause\n\n\n\n\n☕ Pause & Networking\n15 min\n\n\n10:25 - 10:45\n Teil 2: Lernen verstehen\n\n\n\n\nMake it Stick: Die 8 Strategien\n20 min\n\n\n10:45 - 11:45\n Teil 3: KI-gestütztes Lerndesign\n\n\n\n\nThink-Pair-Share: Agent-Design\n60 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#lernziele",
+    "href": "workshop/index.html#lernziele",
+    "title": "Ablauf",
+    "section": "🎯 Lernziele",
+    "text": "🎯 Lernziele\nAm Ende des Workshops können die Teilnehmer:\n\nKI verstehen: Unterschied zwischen Tools und Agents erkennen\nLernen verstehen: Die 8 wissenschaftlich bewährten Lernstrategien anwenden\nPraxis umsetzen: Einen Copilot Agent für ihr eigenes Lehrthema konzipieren\nTransfer leisten: Konkrete nächste Schritte für die eigene Lehre formulieren",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#vorbereitung",
+    "href": "workshop/index.html#vorbereitung",
+    "title": "Ablauf",
+    "section": "📋 Vorbereitung",
+    "text": "📋 Vorbereitung\nBringt mit: - Ein eigenes Lehrthema mit dem ihr arbeiten möchtet - Laptop/Tablet für praktische Übungen - Offenheit für wissenschaftlich fundiertes Lerndesign",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#methodenmix",
+    "href": "workshop/index.html#methodenmix",
+    "title": "Ablauf",
+    "section": "🔄 Methodenmix",
+    "text": "🔄 Methodenmix\n\nPräsentation: Fundierte KI-Grundlagen (60 Min)\nThink-Pair-Share: Wissenschaftlich basiertes Agent-Design\nHands-on: Praktische Erprobung mit eigenen Lehrthemen\nReflexion: Transfer in die eigene Lehrpraxis",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/einstieg/index.html#kurze-vorstellungsrunde-5-min",
+    "href": "workshop/einstieg/index.html#kurze-vorstellungsrunde-5-min",
+    "title": "Aktivierende Begrüssung",
+    "section": "",
+    "text": "Stelle dich kurz vor:\n\nName & Institut\nKI-Erfahrung (Skala 0-10)\nLehrthema das du heute mitgebracht hast",
+    "crumbs": [
+      "Workshop",
+      "Aktivierende Begrüssung"
+    ]
+  },
+  {
+    "objectID": "workshop/einstieg/index.html#heute-entwickeln-wir-gemeinsam-5-min",
+    "href": "workshop/einstieg/index.html#heute-entwickeln-wir-gemeinsam-5-min",
+    "title": "Aktivierende Begrüssung",
+    "section": "🎯 Heute entwickeln wir gemeinsam (5 Min)",
+    "text": "🎯 Heute entwickeln wir gemeinsam (5 Min)\nUnser Ziel: Jeder entwickelt einen wissenschaftlich fundierten Copilot Agent für sein eigenes Lehrthema.\n\nWas ihr mitgebracht habt:\n\nEuer spezifisches Lehrthema (aus der Vorbereitung)\nKonkrete Lernprobleme eurer Studierenden\nErste Ideen für KI-Unterstützung\n\n\n\nWas ihr heute lernt:\n\nUnterschied zwischen Tools und Agents\n8 wissenschaftlich bewährte Lernstrategien\nPraktisches Agent-Design mit Think-Pair-Share\nKonkrete Umsetzung für eure Lehre\n\n\n\n\n\n\n\nTipQuick Check\n\n\n\nSammlung am Whiteboard: Welche Lehrthemen habt ihr mitgebracht?\nZweck: Überblick + Inspiration für spätere Partner-Findung\n\n\nLet’s start! 🚀",
+    "crumbs": [
+      "Workshop",
+      "Aktivierende Begrüssung"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#die-wissenschaftliche-basis-für-agent-design-20-min",
+    "href": "02-wie-menschen-lernen/index.html#die-wissenschaftliche-basis-für-agent-design-20-min",
+    "title": "Wie Menschen lernen",
+    "section": "",
+    "text": "Nach der KI-Grundlage folgt die Lernwissenschaft - warum ist das wichtig für Agent-Design?",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#make-it-stick-die-8-bewährten-lernstrategien",
+    "href": "02-wie-menschen-lernen/index.html#make-it-stick-die-8-bewährten-lernstrategien",
+    "title": "Wie Menschen lernen",
+    "section": " Make it Stick: Die 8 bewährten Lernstrategien",
+    "text": "Make it Stick: Die 8 bewährten Lernstrategien\n    View slides in full screen",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#die-verbindung",
+    "href": "02-wie-menschen-lernen/index.html#die-verbindung",
+    "title": "Wie Menschen lernen",
+    "section": "🔗 Die Verbindung",
+    "text": "🔗 Die Verbindung\nWarum KI + Lernen eine Herausforderung ist:\n\nKI optimiert für Produktivität (minimale kognitive Last)\nLernen braucht kognitive Anstrengung (lernrelevante Last)\nDas Paradox: Was effizient ist, ist oft schlecht fürs Lernen\n\nUnsere Aufgabe: Agents entwickeln, die die 8 Make-it-Stick-Strategien fördern, statt sie zu umgehen.\n\n\n\n\n\n\nTipÜberleitung zur Praxis\n\n\n\nJetzt seid ihr dran: Entwickelt einen Agent, der wissenschaftlich fundiert eine der 8 Strategien für euer Lehrthema umsetzt.",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#vertiefende-ressourcen",
+    "href": "02-wie-menschen-lernen/index.html#vertiefende-ressourcen",
+    "title": "Wie Menschen lernen",
+    "section": "📚 Vertiefende Ressourcen",
+    "text": "📚 Vertiefende Ressourcen\n\nDie 8 Make it Stick Strategien im Detail\nArtikel: Wie man Kompetenzen erwirbt\nAgent-Beispiele für jede Strategie",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#think-phase-individuell-25-min",
+    "href": "03-lernumgebungen/index.html#think-phase-individuell-25-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "THINK Phase: Individuell (25 Min)",
+    "text": "THINK Phase: Individuell (25 Min)\n\nSchritt 1: Strategie wählen (10 Min)\nAufgabe: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.\nLeitfragen: - Welches spezifische Problem haben meine Lernenden? - Welche Strategie könnte dieses Problem am besten lösen? - Bei welcher Strategie sehe ich das größte Potenzial?\nNotiere: - Gewählte Strategie: ________________________ - Mein Lehrthema: ________________________ - Das spezifische Problem: ________________________\n\n\nSchritt 2: Agent konzipieren (15 Min)\nEntwickle deinen Copilot Agent mit dem Agent-Design-Template:\n\n🎯 Agent-Mission\nWas ist das Hauptziel deines Agents?\n\n\n🔧 Was der Agent TUT:\n\nKonkrete Funktion 1: ________________________\nKonkrete Funktion 2: ________________________\nKonkrete Funktion 3: ________________________\n\n\n\n🧠 Was der LERNENDE tut:\n\nLernaktivität 1: ________________________\nLernaktivität 2: ________________________\nLernaktivität 3: ________________________\n\n\n\n⚖️ Lernrelevante Last Check:\n\nMacht der Agent das Lernen besser oder nur einfacher?\nBleibt die gewünschte Schwierigkeit erhalten?\nFördert der Agent die gewählte Make-it-Stick-Strategie?\n\n\n\n📱 Agent-Prototyp:\nSkizziere oder beschreibe, wie der Agent funktioniert (Flowchart, Storyboard, oder detaillierte Beschreibung)",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#pair-phase-zu-zweit-20-min",
+    "href": "03-lernumgebungen/index.html#pair-phase-zu-zweit-20-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "PAIR Phase: Zu zweit (20 Min)",
+    "text": "PAIR Phase: Zu zweit (20 Min)\n\nPartner finden (5 Min)\n\nSuche dir einen Partner\nAm besten jemand mit einer anderen Strategie oder anderem Fachbereich\n\n\n\nAustausch & Feedback (15 Min)\n\nRunde 1: Vorstellen (8 Min)\nPerson A präsentiert (4 Min): - Strategie und Lehrthema - Agent-Konzept - Wie fördert der Agent die Strategie?\nPerson B präsentiert (4 Min): - Gleiche Struktur\n\n\nRunde 2: Feedback & Verfeinerung (7 Min)\nGebt euch gegenseitig konstruktives Feedback:\nLeitfragen für Feedback: - Ist klar, wie der Agent die gewählte Strategie fördert? - Bleibt genug “lernrelevante Last” beim Lernenden? - Wo könnte das Konzept noch verbessert werden? - Welche Aspekte sind besonders gelungen?\nVerfeinert eure Konzepte basierend auf dem Feedback.",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#share-phase-plenum-15-min",
+    "href": "03-lernumgebungen/index.html#share-phase-plenum-15-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "SHARE Phase: Plenum (15 Min)",
+    "text": "SHARE Phase: Plenum (15 Min)\n\nFreiwillige Präsentationen (10 Min)\n3-4 Teilnehmer stellen vor (je 2-3 Min):\nPräsentations-Struktur: 1. Strategie & Lehrthema (30 Sek) 2. Agent-Konzept (1,5 Min) 3. Wie fördert es die Strategie? (30 Sek)\n\n\nReflexion & Synthese (5 Min)\nGemeinsame Erkenntnisse: - Welche Strategien wurden am häufigsten gewählt? - Welche Patterns sehen wir beim Agent-Design? - Was haben wir über das Verhältnis KI ↔︎ Lernen gelernt?\nTransfer: - Wie könnte ich das in meiner eigenen Lehre umsetzen? - Welche nächsten Schritte sind realistisch?\n\n\n\n\n\n\nTipWichtiger Reminder\n\n\n\nDas Ziel war nicht, den perfekten Agent zu bauen, sondern zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien unterstützen kann, ohne das Lernen zu ersetzen.",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "workshop/diskussion/index.html#von-der-idee-zur-umsetzung-15-min",
+    "href": "workshop/diskussion/index.html#von-der-idee-zur-umsetzung-15-min",
+    "title": "Transfer & Abschluss",
+    "section": "",
+    "text": "Entwickle deinen konkreten nächsten Schritt:\n\n\n\nWelche Make-it-Stick-Strategie will ich als erstes umsetzen?\nWelches Agent-Konzept ist realistisch für meine Lehre?\nWas ist mein konkreter erster Schritt in den nächsten 2 Wochen?\n\n\n\n\n\nTool-Wahl: GPT, Copilot, oder andere KI-Tools?\nPilotversuch: Wo teste ich meinen Agent zuerst?\nErfolg messen: Woran erkenne ich, dass es funktioniert?\n\nNotiere dir:\nMeine Strategie: ____________________\nMein erster Schritt: ________________\nBis wann: __________________________\n\n\n\n\nRundblitz (5 Min): Jeder teilt in 30 Sekunden: - Eine Erkenntnis aus heute - Einen konkreten nächsten Schritt\nRessourcen für zu Hause (2 Min): - Die 8 Make it Stick Strategien - zum Mitnehmen - Agent-Beispiele - für Inspiration - BFH Orientierungshilfe KI - für Guidelines\n\n\n\n\n\n\nTipTake-Away Message\n\n\n\nWissenschaftlich fundiertes Agent-Design bedeutet: KI soll die bewährten Lernstrategien fördern, nicht ersetzen.\nEure Mission: Macht das Lernen eurer Studierenden besser, nicht nur einfacher.\n\n\nVielen Dank & viel Erfolg bei der Umsetzung! 🚀",
+    "crumbs": [
+      "Workshop",
+      "Transfer & Abschluss"
     ]
   }
 ]
