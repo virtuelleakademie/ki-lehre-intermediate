@@ -1,154 +1,177 @@
 ---
 title: "Die 8 Make it Stick Strategien"
-subtitle: "Handout für Workshop-Teilnehmer"
+# subtitle: "Handout für Workshop-Teilnehmer"
 ---
 
-## 🧠 Kernprinzip
+## Kernprinzip
 
-**Effortful Learning ist effektiver** - Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen.
+**Effortful Learning ist effektiver**---Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
 
----
 
 ## Die 8 bewährten Lernstrategien
 
-### 1. 🔄 **Abrufpraxis (Retrieval Practice)**
+### 1. Abrufpraxis (Retrieval Practice)
 
 **Prinzip**: Aktives Erinnern statt passives Wiederlesen
 
 **Warum effektiv?**
+
 - Jeder Abruf stärkt die neuronalen Verbindungen
 - **"Testing Effect"**: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren
 
 **Praktische Umsetzung:**
+
 - Selbsttests, Karteikarten, Übungsfragen
 - Ohne Notizen erklären können
 - Frequent low-stakes quizzes
 
-**Agent-Potential**: Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition
+::: {.agent-potential}
+Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition
+:::
 
----
-
-### 2. ⏰ **Verteiltes Lernen (Spacing)**
+### 2. Verteiltes Lernen (Spacing)
 
 **Prinzip**: Über Zeit verteilen statt Pauken
 
 **Warum effektiv?**
-- Nutzt Vergessen als Lernhilfe
-- Gegen die Intuition: Schwieriger → Besser für Langzeitretention
+
+- Grössere Anstrengung nach Vergessen als Lernhilfe
+- Gegen die Intuition: Schwieriger → Besser für Langzeitretention (Konsolidierung)
 
 **Praktische Umsetzung:**
-- Warten bis etwas Vergessen eingesetzt hat, dann wiederholen
+
+- Warten bis Vergessen eingesetzt hat, dann wiederholen
 - Verteilte Übung über Wochen/Monate
-- Spaced Repetition Systeme
+- Spaced Repetition Systeme (z.B. [Anki](https://apps.ankiweb.net/))
 
-**Agent-Potential**: Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen
+::: {.agent-potential}
+Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen
+:::
 
----
-
-### 3. 🔀 **Abwechslung (Interleaving)**
+### 3. Abwechslung (Interleaving)
 
 **Prinzip**: Verschiedene Aufgaben/Themen mischen statt blockweise üben
 
 **Warum effektiv?**
+
 - Trainiert flexible Anwendung
 - Erhöht Anstrengung → Besserer Transfer zwischen Konzepten
 
 **Praktische Umsetzung:**
+
 - Verschiedene Aufgabentypen mischen
 - Beispiel Mathe: Addition, Multiplikation, Brüche durchmischen
 - Nicht alle gleichen Aufgaben hintereinander
 
-**Agent-Potential**: Intelligente Aufgabenmischung, Adaptive Sequenzierung
+::: {.agent-potential}
+Intelligente Aufgabenmischung, Adaptive Sequenzierung
+:::
 
----
 
-### 4. 🎭 **Variation**
+### 4. Variation
 
 **Prinzip**: In unterschiedlichen Kontexten üben
 
 **Warum effektiv?**
+
 - Fördert Transfer auf neue Situationen
 - Macht Wissen weniger abhängig vom ursprünglichen Lernkontext
 
 **Praktische Umsetzung:**
+
 - Verschiedene Beispiele, Umgebungen, Anwendungen
 - Gleiche Konzepte in unterschiedlichen Situationen
 - Vielfältige Übungsformate
 
-**Agent-Potential**: Kontextvariation generieren, Neue Anwendungsszenarien erstellen
+::: {.agent-potential}
+Kontextvariation generieren, Neue Anwendungsszenarien erstellen
+:::
 
----
-
-### 5. ⚡ **Wünschenswerte Schwierigkeiten (Desirable Difficulties)**
+### 5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)
 
 **Prinzip**: Fehler, Anstrengung und Herausforderungen nutzen
 
 **Warum effektiv?**
+
 - Vertieft Verständnis durch kognitive Anstrengung
 - Kurzfristig schwieriger, langfristig mehr Retention
 
 **Praktische Umsetzung:**
+
 - Tests ohne Ankündigung
 - Variation in der Übung
-- Forcing functions die zum Nachdenken zwingen
+- _Forcing functions_[^1] die zum Nachdenken zwingen
 - Erst raten, dann lernen
 
-**Agent-Potential**: Adaptive Schwierigkeit, Challenge-Generierung, "Productive Struggle" fördern
+::: {.agent-potential}
+Adaptive Schwierigkeit, Challenge-Generierung, "Productive Struggle" fördern
+:::
 
----
+[^1]: Forcing Functions sind Design-Entscheidungen oder
+  Einschränkungen, die bestimmte Verhaltensweisen erzwingen und
+  unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.
 
-### 6. 💭 **Verstehen vs. Vertrautheit**
+### 6. Verstehen vs. Vertrautheit
 
 **Prinzip**: In eigenen Worten erklären = echtes Verständnis
 
 **Warum effektiv?**
+
 - Unterscheidet echtes Wissen von **Fluency-Illusion**
 - Zwingt zu aktiver Verarbeitung und Verknüpfung
 
 **Praktische Umsetzung:**
+
 - Erklären, als ob man es jemand anderem beibringt
 - Verbindungen zu Vorwissen herstellen
 - Selbst Antworten generieren vor dem Lernen der Lösung
 
-**Agent-Potential**: Socratic Questioning, Erklärungen bewerten, Verständnis testen
+::: {.agent-potential}
+Socratic Questioning, Erklärungen bewerten, Verständnis testen
+:::
 
----
 
-### 7. 🔍 **Feedback & Reflexion**
+### 7. Feedback & Reflexion
 
 **Prinzip**: Korrektur und bewusstes Nachdenken
 
 **Warum effektiv?**
+
 - **Korrektes Feedback** sorgt dafür, dass richtige Informationen verankert werden
 - **Reflexion** fördert Metakognition und Selbstregulation
 
 **Praktische Umsetzung:**
+
 - Nach Lernsitzung fragen: "Was habe ich gelernt?"
 - Über Lernprozess und -strategien reflektieren
 - Regelmäßiges, konstruktives Feedback holen
 
-**Agent-Potential**: Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking
+::: {.agent-potential}
+Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking
+:::
 
----
 
-### 8. 🌐 **Anwendung**
+### 8. Anwendung
 
 **Prinzip**: Wissen in verschiedenen Kontexten einsetzen
 
 **Warum effektiv?**
+
 - Entwickelt Transferfähigkeit
 - Macht abstraktes Wissen konkret anwendbar
 
 **Praktische Umsetzung:**
+
 - Real-world Probleme lösen
 - Wissen in neuen Situationen anwenden
 - Von Theorie zur Praxis
 
-**Agent-Potential**: Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching
+::: {.agent-potential}
+Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching
+:::
 
----
 
-## 🚀 Agent-Design Prinzipien
+## KI-Tool Design Prinzipien
 
 ### ✅ **Gute KI-Unterstützung:**
 - **Fördert** die 8 Strategien
@@ -164,16 +187,10 @@ subtitle: "Handout für Workshop-Teilnehmer"
 
 ---
 
-## 💡 Leitfragen für Agent-Entwicklung
+## Leitfragen für Agent-Entwicklung
 
 1. **Welche der 8 Strategien wird gefördert?**
 2. **Was tut der Agent? Was tut der Lernende?**
 3. **Bleibt die gewünschte Schwierigkeit erhalten?**
 4. **Macht der Agent das Lernen besser oder nur einfacher?**
 5. **Wie wird echter Lernfortschritt messbar?**
-
----
-
-## 📚 Quelle
-
-Brown, P. C., Roediger, H. L., & McDaniel, M. A. (2014). *Make it stick: The science of successful learning*. Harvard University Press.

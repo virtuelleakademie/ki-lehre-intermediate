@@ -1580,7 +1580,7 @@
     "href": "03-lernumgebungen/handout-make-it-stick/index.html",
     "title": "Die 8 Make it Stick Strategien",
     "section": "",
-    "text": "Effortful Learning ist effektiver - Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen.",
+    "text": "Effortful Learning ist effektiver—Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen (Brown, III, and McDaniel 2014).",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Die 8 Make it Stick Strategien"
@@ -1591,7 +1591,7 @@
     "href": "03-lernumgebungen/handout-make-it-stick/index.html#kernprinzip",
     "title": "Die 8 Make it Stick Strategien",
     "section": "",
-    "text": "Effortful Learning ist effektiver - Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen.",
+    "text": "Effortful Learning ist effektiver—Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen (Brown, III, and McDaniel 2014).",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Die 8 Make it Stick Strategien"
@@ -1602,7 +1602,7 @@
     "href": "03-lernumgebungen/handout-make-it-stick/index.html#die-8-bewährten-lernstrategien",
     "title": "Die 8 Make it Stick Strategien",
     "section": "Die 8 bewährten Lernstrategien",
-    "text": "Die 8 bewährten Lernstrategien\n\n1. 🔄 Abrufpraxis (Retrieval Practice)\nPrinzip: Aktives Erinnern statt passives Wiederlesen\nWarum effektiv? - Jeder Abruf stärkt die neuronalen Verbindungen - “Testing Effect”: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren\nPraktische Umsetzung: - Selbsttests, Karteikarten, Übungsfragen - Ohne Notizen erklären können - Frequent low-stakes quizzes\nAgent-Potential: Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition\n\n\n\n2. ⏰ Verteiltes Lernen (Spacing)\nPrinzip: Über Zeit verteilen statt Pauken\nWarum effektiv? - Nutzt Vergessen als Lernhilfe - Gegen die Intuition: Schwieriger → Besser für Langzeitretention\nPraktische Umsetzung: - Warten bis etwas Vergessen eingesetzt hat, dann wiederholen - Verteilte Übung über Wochen/Monate - Spaced Repetition Systeme\nAgent-Potential: Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen\n\n\n\n3. 🔀 Abwechslung (Interleaving)\nPrinzip: Verschiedene Aufgaben/Themen mischen statt blockweise üben\nWarum effektiv? - Trainiert flexible Anwendung - Erhöht Anstrengung → Besserer Transfer zwischen Konzepten\nPraktische Umsetzung: - Verschiedene Aufgabentypen mischen - Beispiel Mathe: Addition, Multiplikation, Brüche durchmischen - Nicht alle gleichen Aufgaben hintereinander\nAgent-Potential: Intelligente Aufgabenmischung, Adaptive Sequenzierung\n\n\n\n4. 🎭 Variation\nPrinzip: In unterschiedlichen Kontexten üben\nWarum effektiv? - Fördert Transfer auf neue Situationen - Macht Wissen weniger abhängig vom ursprünglichen Lernkontext\nPraktische Umsetzung: - Verschiedene Beispiele, Umgebungen, Anwendungen - Gleiche Konzepte in unterschiedlichen Situationen - Vielfältige Übungsformate\nAgent-Potential: Kontextvariation generieren, Neue Anwendungsszenarien erstellen\n\n\n\n5. ⚡ Wünschenswerte Schwierigkeiten (Desirable Difficulties)\nPrinzip: Fehler, Anstrengung und Herausforderungen nutzen\nWarum effektiv? - Vertieft Verständnis durch kognitive Anstrengung - Kurzfristig schwieriger, langfristig mehr Retention\nPraktische Umsetzung: - Tests ohne Ankündigung - Variation in der Übung - Forcing functions die zum Nachdenken zwingen - Erst raten, dann lernen\nAgent-Potential: Adaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern\n\n\n\n6. 💭 Verstehen vs. Vertrautheit\nPrinzip: In eigenen Worten erklären = echtes Verständnis\nWarum effektiv? - Unterscheidet echtes Wissen von Fluency-Illusion - Zwingt zu aktiver Verarbeitung und Verknüpfung\nPraktische Umsetzung: - Erklären, als ob man es jemand anderem beibringt - Verbindungen zu Vorwissen herstellen - Selbst Antworten generieren vor dem Lernen der Lösung\nAgent-Potential: Socratic Questioning, Erklärungen bewerten, Verständnis testen\n\n\n\n7. 🔍 Feedback & Reflexion\nPrinzip: Korrektur und bewusstes Nachdenken\nWarum effektiv? - Korrektes Feedback sorgt dafür, dass richtige Informationen verankert werden - Reflexion fördert Metakognition und Selbstregulation\nPraktische Umsetzung: - Nach Lernsitzung fragen: “Was habe ich gelernt?” - Über Lernprozess und -strategien reflektieren - Regelmäßiges, konstruktives Feedback holen\nAgent-Potential: Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking\n\n\n\n8. 🌐 Anwendung\nPrinzip: Wissen in verschiedenen Kontexten einsetzen\nWarum effektiv? - Entwickelt Transferfähigkeit - Macht abstraktes Wissen konkret anwendbar\nPraktische Umsetzung: - Real-world Probleme lösen - Wissen in neuen Situationen anwenden - Von Theorie zur Praxis\nAgent-Potential: Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching",
+    "text": "Die 8 bewährten Lernstrategien\n\n1. Abrufpraxis (Retrieval Practice)\nPrinzip: Aktives Erinnern statt passives Wiederlesen\nWarum effektiv?\n\nJeder Abruf stärkt die neuronalen Verbindungen\n“Testing Effect”: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren\n\nPraktische Umsetzung:\n\nSelbsttests, Karteikarten, Übungsfragen\nOhne Notizen erklären können\nFrequent low-stakes quizzes\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nQuiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition\n\n\n\n\n2. Verteiltes Lernen (Spacing)\nPrinzip: Über Zeit verteilen statt Pauken\nWarum effektiv?\n\nGrössere Anstrengung nach Vergessen als Lernhilfe\nGegen die Intuition: Schwieriger → Besser für Langzeitretention (Konsolidierung)\n\nPraktische Umsetzung:\n\nWarten bis Vergessen eingesetzt hat, dann wiederholen\nVerteilte Übung über Wochen/Monate\nSpaced Repetition Systeme (z.B. Anki)\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nIntelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen\n\n\n\n\n3. Abwechslung (Interleaving)\nPrinzip: Verschiedene Aufgaben/Themen mischen statt blockweise üben\nWarum effektiv?\n\nTrainiert flexible Anwendung\nErhöht Anstrengung → Besserer Transfer zwischen Konzepten\n\nPraktische Umsetzung:\n\nVerschiedene Aufgabentypen mischen\nBeispiel Mathe: Addition, Multiplikation, Brüche durchmischen\nNicht alle gleichen Aufgaben hintereinander\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nIntelligente Aufgabenmischung, Adaptive Sequenzierung\n\n\n\n\n4. Variation\nPrinzip: In unterschiedlichen Kontexten üben\nWarum effektiv?\n\nFördert Transfer auf neue Situationen\nMacht Wissen weniger abhängig vom ursprünglichen Lernkontext\n\nPraktische Umsetzung:\n\nVerschiedene Beispiele, Umgebungen, Anwendungen\nGleiche Konzepte in unterschiedlichen Situationen\nVielfältige Übungsformate\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nKontextvariation generieren, Neue Anwendungsszenarien erstellen\n\n\n\n\n5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)\nPrinzip: Fehler, Anstrengung und Herausforderungen nutzen\nWarum effektiv?\n\nVertieft Verständnis durch kognitive Anstrengung\nKurzfristig schwieriger, langfristig mehr Retention\n\nPraktische Umsetzung:\n\nTests ohne Ankündigung\nVariation in der Übung\nForcing functions1 die zum Nachdenken zwingen\nErst raten, dann lernen\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nAdaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern\n\n\n\n\n6. Verstehen vs. Vertrautheit\nPrinzip: In eigenen Worten erklären = echtes Verständnis\nWarum effektiv?\n\nUnterscheidet echtes Wissen von Fluency-Illusion\nZwingt zu aktiver Verarbeitung und Verknüpfung\n\nPraktische Umsetzung:\n\nErklären, als ob man es jemand anderem beibringt\nVerbindungen zu Vorwissen herstellen\nSelbst Antworten generieren vor dem Lernen der Lösung\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nSocratic Questioning, Erklärungen bewerten, Verständnis testen\n\n\n\n\n7. Feedback & Reflexion\nPrinzip: Korrektur und bewusstes Nachdenken\nWarum effektiv?\n\nKorrektes Feedback sorgt dafür, dass richtige Informationen verankert werden\nReflexion fördert Metakognition und Selbstregulation\n\nPraktische Umsetzung:\n\nNach Lernsitzung fragen: “Was habe ich gelernt?”\nÜber Lernprozess und -strategien reflektieren\nRegelmäßiges, konstruktives Feedback holen\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nPersonalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking\n\n\n\n\n8. Anwendung\nPrinzip: Wissen in verschiedenen Kontexten einsetzen\nWarum effektiv?\n\nEntwickelt Transferfähigkeit\nMacht abstraktes Wissen konkret anwendbar\n\nPraktische Umsetzung:\n\nReal-world Probleme lösen\nWissen in neuen Situationen anwenden\nVon Theorie zur Praxis\n\n\n\n\n\n\n\nAgent-potentialAgent-Potential\n\n\n\nRealitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Die 8 Make it Stick Strategien"
@@ -1623,8 +1623,8 @@
     "objectID": "03-lernumgebungen/handout-make-it-stick/index.html#leitfragen-für-agent-entwicklung",
     "href": "03-lernumgebungen/handout-make-it-stick/index.html#leitfragen-für-agent-entwicklung",
     "title": "Die 8 Make it Stick Strategien",
-    "section": "💡 Leitfragen für Agent-Entwicklung",
-    "text": "💡 Leitfragen für Agent-Entwicklung\n\nWelche der 8 Strategien wird gefördert?\nWas tut der Agent? Was tut der Lernende?\nBleibt die gewünschte Schwierigkeit erhalten?\nMacht der Agent das Lernen besser oder nur einfacher?\nWie wird echter Lernfortschritt messbar?",
+    "section": "Leitfragen für Agent-Entwicklung",
+    "text": "Leitfragen für Agent-Entwicklung\n\nWelche der 8 Strategien wird gefördert?\nWas tut der Agent? Was tut der Lernende?\nBleibt die gewünschte Schwierigkeit erhalten?\nMacht der Agent das Lernen besser oder nur einfacher?\nWie wird echter Lernfortschritt messbar?",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "Die 8 Make it Stick Strategien"
@@ -1969,6 +1969,28 @@
     "crumbs": [
       "2: Lernen",
       "Wie Menschen lernen"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/handout-make-it-stick/index.html#ki-tool-design-prinzipien",
+    "href": "03-lernumgebungen/handout-make-it-stick/index.html#ki-tool-design-prinzipien",
+    "title": "Die 8 Make it Stick Strategien",
+    "section": "KI-Tool Design Prinzipien",
+    "text": "KI-Tool Design Prinzipien\n\n✅ Gute KI-Unterstützung:\n\nFördert die 8 Strategien\nErhält lernrelevante Anstrengung\nUnterstützt ohne zu ersetzen\nPersonalisiert den Lernprozess\n\n\n\n❌ Problematische KI-Nutzung:\n\nEliminiert kognitive Anstrengung\nÜbernimmt das Denken\nErzeugt Illusion of Knowing\nMacht Lernen nur einfacher, nicht besser",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "Die 8 Make it Stick Strategien"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/handout-make-it-stick/index.html#footnotes",
+    "href": "03-lernumgebungen/handout-make-it-stick/index.html#footnotes",
+    "title": "Die 8 Make it Stick Strategien",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nForcing Functions sind Design-Entscheidungen oder Einschränkungen, die bestimmte Verhaltensweisen erzwingen und unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.↩︎",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "Die 8 Make it Stick Strategien"
     ]
   }
 ]

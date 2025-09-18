@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -100,11 +120,22 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 </style>
 
 
 <meta property="og:title" content="Die 8 Make it Stick Strategien">
-<meta property="og:description" content="Handout für Workshop-Teilnehmer">
+<meta property="og:description" content="">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -240,25 +271,24 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#kernprinzip" id="toc-kernprinzip" class="nav-link active" data-scroll-target="#kernprinzip">🧠 Kernprinzip</a></li>
+  <li><a href="#kernprinzip" id="toc-kernprinzip" class="nav-link active" data-scroll-target="#kernprinzip">Kernprinzip</a></li>
   <li><a href="#die-8-bewährten-lernstrategien" id="toc-die-8-bewährten-lernstrategien" class="nav-link" data-scroll-target="#die-8-bewährten-lernstrategien">Die 8 bewährten Lernstrategien</a>
   <ul class="collapse">
-  <li><a href="#abrufpraxis-retrieval-practice" id="toc-abrufpraxis-retrieval-practice" class="nav-link" data-scroll-target="#abrufpraxis-retrieval-practice">1. 🔄 <strong>Abrufpraxis (Retrieval Practice)</strong></a></li>
-  <li><a href="#verteiltes-lernen-spacing" id="toc-verteiltes-lernen-spacing" class="nav-link" data-scroll-target="#verteiltes-lernen-spacing">2. ⏰ <strong>Verteiltes Lernen (Spacing)</strong></a></li>
-  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">3. 🔀 <strong>Abwechslung (Interleaving)</strong></a></li>
-  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">4. 🎭 <strong>Variation</strong></a></li>
-  <li><a href="#wünschenswerte-schwierigkeiten-desirable-difficulties" id="toc-wünschenswerte-schwierigkeiten-desirable-difficulties" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten-desirable-difficulties">5. ⚡ <strong>Wünschenswerte Schwierigkeiten (Desirable Difficulties)</strong></a></li>
-  <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. 💭 <strong>Verstehen vs.&nbsp;Vertrautheit</strong></a></li>
-  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. 🔍 <strong>Feedback &amp; Reflexion</strong></a></li>
-  <li><a href="#anwendung" id="toc-anwendung" class="nav-link" data-scroll-target="#anwendung">8. 🌐 <strong>Anwendung</strong></a></li>
+  <li><a href="#abrufpraxis-retrieval-practice" id="toc-abrufpraxis-retrieval-practice" class="nav-link" data-scroll-target="#abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</a></li>
+  <li><a href="#verteiltes-lernen-spacing" id="toc-verteiltes-lernen-spacing" class="nav-link" data-scroll-target="#verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</a></li>
+  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">3. Abwechslung (Interleaving)</a></li>
+  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">4. Variation</a></li>
+  <li><a href="#wünschenswerte-schwierigkeiten-desirable-difficulties" id="toc-wünschenswerte-schwierigkeiten-desirable-difficulties" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten-desirable-difficulties">5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)</a></li>
+  <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</a></li>
+  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. Feedback &amp; Reflexion</a></li>
+  <li><a href="#anwendung" id="toc-anwendung" class="nav-link" data-scroll-target="#anwendung">8. Anwendung</a></li>
   </ul></li>
-  <li><a href="#agent-design-prinzipien" id="toc-agent-design-prinzipien" class="nav-link" data-scroll-target="#agent-design-prinzipien">🚀 Agent-Design Prinzipien</a>
+  <li><a href="#ki-tool-design-prinzipien" id="toc-ki-tool-design-prinzipien" class="nav-link" data-scroll-target="#ki-tool-design-prinzipien">KI-Tool Design Prinzipien</a>
   <ul class="collapse">
   <li><a href="#gute-ki-unterstützung" id="toc-gute-ki-unterstützung" class="nav-link" data-scroll-target="#gute-ki-unterstützung">✅ <strong>Gute KI-Unterstützung:</strong></a></li>
   <li><a href="#problematische-ki-nutzung" id="toc-problematische-ki-nutzung" class="nav-link" data-scroll-target="#problematische-ki-nutzung">❌ <strong>Problematische KI-Nutzung:</strong></a></li>
   </ul></li>
-  <li><a href="#leitfragen-für-agent-entwicklung" id="toc-leitfragen-für-agent-entwicklung" class="nav-link" data-scroll-target="#leitfragen-für-agent-entwicklung">💡 Leitfragen für Agent-Entwicklung</a></li>
-  <li><a href="#quelle" id="toc-quelle" class="nav-link" data-scroll-target="#quelle">📚 Quelle</a></li>
+  <li><a href="#leitfragen-für-agent-entwicklung" id="toc-leitfragen-für-agent-entwicklung" class="nav-link" data-scroll-target="#leitfragen-für-agent-entwicklung">Leitfragen für Agent-Entwicklung</a></li>
   </ul>
 </nav>
     </div>
@@ -268,7 +298,6 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Die 8 Make it Stick Strategien</h1>
-<p class="subtitle lead">Handout für Workshop-Teilnehmer</p>
 </div>
 
 
@@ -286,79 +315,239 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 
 
 <section id="kernprinzip" class="level2">
-<h2 class="anchored" data-anchor-id="kernprinzip">🧠 Kernprinzip</h2>
-<p><strong>Effortful Learning ist effektiver</strong> - Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen.</p>
-<hr>
+<h2 class="anchored" data-anchor-id="kernprinzip">Kernprinzip</h2>
+<p><strong>Effortful Learning ist effektiver</strong>—Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen <span class="citation" data-cites="brownMakeItStick2014">(<a href="#ref-brownMakeItStick2014" role="doc-biblioref">Brown, III, and McDaniel 2014</a>)</span>.</p>
 </section>
 <section id="die-8-bewährten-lernstrategien" class="level2">
 <h2 class="anchored" data-anchor-id="die-8-bewährten-lernstrategien">Die 8 bewährten Lernstrategien</h2>
 <section id="abrufpraxis-retrieval-practice" class="level3">
-<h3 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. 🔄 <strong>Abrufpraxis (Retrieval Practice)</strong></h3>
+<h3 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</h3>
 <p><strong>Prinzip</strong>: Aktives Erinnern statt passives Wiederlesen</p>
-<p><strong>Warum effektiv?</strong> - Jeder Abruf stärkt die neuronalen Verbindungen - <strong>“Testing Effect”</strong>: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren</p>
-<p><strong>Praktische Umsetzung:</strong> - Selbsttests, Karteikarten, Übungsfragen - Ohne Notizen erklären können - Frequent low-stakes quizzes</p>
-<p><strong>Agent-Potential</strong>: Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Jeder Abruf stärkt die neuronalen Verbindungen</li>
+<li><strong>“Testing Effect”</strong>: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Selbsttests, Karteikarten, Übungsfragen</li>
+<li>Ohne Notizen erklären können</li>
+<li>Frequent low-stakes quizzes</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition</p>
+</div>
+</div>
 </section>
 <section id="verteiltes-lernen-spacing" class="level3">
-<h3 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. ⏰ <strong>Verteiltes Lernen (Spacing)</strong></h3>
+<h3 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</h3>
 <p><strong>Prinzip</strong>: Über Zeit verteilen statt Pauken</p>
-<p><strong>Warum effektiv?</strong> - Nutzt Vergessen als Lernhilfe - Gegen die Intuition: Schwieriger → Besser für Langzeitretention</p>
-<p><strong>Praktische Umsetzung:</strong> - Warten bis etwas Vergessen eingesetzt hat, dann wiederholen - Verteilte Übung über Wochen/Monate - Spaced Repetition Systeme</p>
-<p><strong>Agent-Potential</strong>: Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Grössere Anstrengung nach Vergessen als Lernhilfe</li>
+<li>Gegen die Intuition: Schwieriger → Besser für Langzeitretention (Konsolidierung)</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Warten bis Vergessen eingesetzt hat, dann wiederholen</li>
+<li>Verteilte Übung über Wochen/Monate</li>
+<li>Spaced Repetition Systeme (z.B. <a href="https://apps.ankiweb.net/">Anki</a>)</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen</p>
+</div>
+</div>
 </section>
 <section id="abwechslung-interleaving" class="level3">
-<h3 class="anchored" data-anchor-id="abwechslung-interleaving">3. 🔀 <strong>Abwechslung (Interleaving)</strong></h3>
+<h3 class="anchored" data-anchor-id="abwechslung-interleaving">3. Abwechslung (Interleaving)</h3>
 <p><strong>Prinzip</strong>: Verschiedene Aufgaben/Themen mischen statt blockweise üben</p>
-<p><strong>Warum effektiv?</strong> - Trainiert flexible Anwendung - Erhöht Anstrengung → Besserer Transfer zwischen Konzepten</p>
-<p><strong>Praktische Umsetzung:</strong> - Verschiedene Aufgabentypen mischen - Beispiel Mathe: Addition, Multiplikation, Brüche durchmischen - Nicht alle gleichen Aufgaben hintereinander</p>
-<p><strong>Agent-Potential</strong>: Intelligente Aufgabenmischung, Adaptive Sequenzierung</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Trainiert flexible Anwendung</li>
+<li>Erhöht Anstrengung → Besserer Transfer zwischen Konzepten</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Verschiedene Aufgabentypen mischen</li>
+<li>Beispiel Mathe: Addition, Multiplikation, Brüche durchmischen</li>
+<li>Nicht alle gleichen Aufgaben hintereinander</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Intelligente Aufgabenmischung, Adaptive Sequenzierung</p>
+</div>
+</div>
 </section>
 <section id="variation" class="level3">
-<h3 class="anchored" data-anchor-id="variation">4. 🎭 <strong>Variation</strong></h3>
+<h3 class="anchored" data-anchor-id="variation">4. Variation</h3>
 <p><strong>Prinzip</strong>: In unterschiedlichen Kontexten üben</p>
-<p><strong>Warum effektiv?</strong> - Fördert Transfer auf neue Situationen - Macht Wissen weniger abhängig vom ursprünglichen Lernkontext</p>
-<p><strong>Praktische Umsetzung:</strong> - Verschiedene Beispiele, Umgebungen, Anwendungen - Gleiche Konzepte in unterschiedlichen Situationen - Vielfältige Übungsformate</p>
-<p><strong>Agent-Potential</strong>: Kontextvariation generieren, Neue Anwendungsszenarien erstellen</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Fördert Transfer auf neue Situationen</li>
+<li>Macht Wissen weniger abhängig vom ursprünglichen Lernkontext</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Verschiedene Beispiele, Umgebungen, Anwendungen</li>
+<li>Gleiche Konzepte in unterschiedlichen Situationen</li>
+<li>Vielfältige Übungsformate</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kontextvariation generieren, Neue Anwendungsszenarien erstellen</p>
+</div>
+</div>
 </section>
 <section id="wünschenswerte-schwierigkeiten-desirable-difficulties" class="level3">
-<h3 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-desirable-difficulties">5. ⚡ <strong>Wünschenswerte Schwierigkeiten (Desirable Difficulties)</strong></h3>
+<h3 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-desirable-difficulties">5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)</h3>
 <p><strong>Prinzip</strong>: Fehler, Anstrengung und Herausforderungen nutzen</p>
-<p><strong>Warum effektiv?</strong> - Vertieft Verständnis durch kognitive Anstrengung - Kurzfristig schwieriger, langfristig mehr Retention</p>
-<p><strong>Praktische Umsetzung:</strong> - Tests ohne Ankündigung - Variation in der Übung - Forcing functions die zum Nachdenken zwingen - Erst raten, dann lernen</p>
-<p><strong>Agent-Potential</strong>: Adaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Vertieft Verständnis durch kognitive Anstrengung</li>
+<li>Kurzfristig schwieriger, langfristig mehr Retention</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Tests ohne Ankündigung</li>
+<li>Variation in der Übung</li>
+<li><em>Forcing functions</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> die zum Nachdenken zwingen</li>
+<li>Erst raten, dann lernen</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Adaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern</p>
+</div>
+</div>
 </section>
 <section id="verstehen-vs.-vertrautheit" class="level3">
-<h3 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. 💭 <strong>Verstehen vs.&nbsp;Vertrautheit</strong></h3>
+<h3 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</h3>
 <p><strong>Prinzip</strong>: In eigenen Worten erklären = echtes Verständnis</p>
-<p><strong>Warum effektiv?</strong> - Unterscheidet echtes Wissen von <strong>Fluency-Illusion</strong> - Zwingt zu aktiver Verarbeitung und Verknüpfung</p>
-<p><strong>Praktische Umsetzung:</strong> - Erklären, als ob man es jemand anderem beibringt - Verbindungen zu Vorwissen herstellen - Selbst Antworten generieren vor dem Lernen der Lösung</p>
-<p><strong>Agent-Potential</strong>: Socratic Questioning, Erklärungen bewerten, Verständnis testen</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Unterscheidet echtes Wissen von <strong>Fluency-Illusion</strong></li>
+<li>Zwingt zu aktiver Verarbeitung und Verknüpfung</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Erklären, als ob man es jemand anderem beibringt</li>
+<li>Verbindungen zu Vorwissen herstellen</li>
+<li>Selbst Antworten generieren vor dem Lernen der Lösung</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Socratic Questioning, Erklärungen bewerten, Verständnis testen</p>
+</div>
+</div>
 </section>
 <section id="feedback-reflexion" class="level3">
-<h3 class="anchored" data-anchor-id="feedback-reflexion">7. 🔍 <strong>Feedback &amp; Reflexion</strong></h3>
+<h3 class="anchored" data-anchor-id="feedback-reflexion">7. Feedback &amp; Reflexion</h3>
 <p><strong>Prinzip</strong>: Korrektur und bewusstes Nachdenken</p>
-<p><strong>Warum effektiv?</strong> - <strong>Korrektes Feedback</strong> sorgt dafür, dass richtige Informationen verankert werden - <strong>Reflexion</strong> fördert Metakognition und Selbstregulation</p>
-<p><strong>Praktische Umsetzung:</strong> - Nach Lernsitzung fragen: “Was habe ich gelernt?” - Über Lernprozess und -strategien reflektieren - Regelmäßiges, konstruktives Feedback holen</p>
-<p><strong>Agent-Potential</strong>: Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li><strong>Korrektes Feedback</strong> sorgt dafür, dass richtige Informationen verankert werden</li>
+<li><strong>Reflexion</strong> fördert Metakognition und Selbstregulation</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Nach Lernsitzung fragen: “Was habe ich gelernt?”</li>
+<li>Über Lernprozess und -strategien reflektieren</li>
+<li>Regelmäßiges, konstruktives Feedback holen</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking</p>
+</div>
+</div>
 </section>
 <section id="anwendung" class="level3">
-<h3 class="anchored" data-anchor-id="anwendung">8. 🌐 <strong>Anwendung</strong></h3>
+<h3 class="anchored" data-anchor-id="anwendung">8. Anwendung</h3>
 <p><strong>Prinzip</strong>: Wissen in verschiedenen Kontexten einsetzen</p>
-<p><strong>Warum effektiv?</strong> - Entwickelt Transferfähigkeit - Macht abstraktes Wissen konkret anwendbar</p>
-<p><strong>Praktische Umsetzung:</strong> - Real-world Probleme lösen - Wissen in neuen Situationen anwenden - Von Theorie zur Praxis</p>
-<p><strong>Agent-Potential</strong>: Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching</p>
-<hr>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Entwickelt Transferfähigkeit</li>
+<li>Macht abstraktes Wissen konkret anwendbar</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Real-world Probleme lösen</li>
+<li>Wissen in neuen Situationen anwenden</li>
+<li>Von Theorie zur Praxis</li>
+</ul>
+<div class="callout callout-style-simple callout-agent-potential no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching</p>
+</div>
+</div>
 </section>
 </section>
-<section id="agent-design-prinzipien" class="level2">
-<h2 class="anchored" data-anchor-id="agent-design-prinzipien">🚀 Agent-Design Prinzipien</h2>
+<section id="ki-tool-design-prinzipien" class="level2">
+<h2 class="anchored" data-anchor-id="ki-tool-design-prinzipien">KI-Tool Design Prinzipien</h2>
 <section id="gute-ki-unterstützung" class="level3">
 <h3 class="anchored" data-anchor-id="gute-ki-unterstützung">✅ <strong>Gute KI-Unterstützung:</strong></h3>
 <ul>
@@ -380,7 +569,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </section>
 </section>
 <section id="leitfragen-für-agent-entwicklung" class="level2">
-<h2 class="anchored" data-anchor-id="leitfragen-für-agent-entwicklung">💡 Leitfragen für Agent-Entwicklung</h2>
+<h2 class="anchored" data-anchor-id="leitfragen-für-agent-entwicklung">Leitfragen für Agent-Entwicklung</h2>
 <ol type="1">
 <li><strong>Welche der 8 Strategien wird gefördert?</strong></li>
 <li><strong>Was tut der Agent? Was tut der Lernende?</strong></li>
@@ -388,16 +577,22 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li><strong>Macht der Agent das Lernen besser oder nur einfacher?</strong></li>
 <li><strong>Wie wird echter Lernfortschritt messbar?</strong></li>
 </ol>
-<hr>
-</section>
-<section id="quelle" class="level2">
-<h2 class="anchored" data-anchor-id="quelle">📚 Quelle</h2>
-<p>Brown, P. C., Roediger, H. L., &amp; McDaniel, M. A. (2014). <em>Make it stick: The science of successful learning</em>. Harvard University Press.</p>
+
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-brownMakeItStick2014" class="csl-entry" role="listitem">
+Brown, Peter C., Henry L. Roediger III, and Mark A. McDaniel. 2014. <em>Make <span>It Stick</span>: <span>The Science</span> of <span>Successful Learning</span></em>. Cambridge, Massachusetts: Belknap Press: An Imprint of Harvard University Press.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Forcing Functions sind Design-Entscheidungen oder Einschränkungen, die bestimmte Verhaltensweisen erzwingen und unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -156,6 +156,12 @@ custom-callout:
     collapse: false
     color: "#9A4665"
 
+  agent-potential:
+    title: "Agent-Potential"
+    icon-symbol: "🤖"
+    collapse: false
+    color: "#9A4665"
+
   # thumbs-up:
   #   title: "Great job!"
   #   icon-symbol: "👍🏼"
