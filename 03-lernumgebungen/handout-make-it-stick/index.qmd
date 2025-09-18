@@ -104,13 +104,16 @@ Kontextvariation generieren, Neue Anwendungsszenarien erstellen
 - Erst raten, dann lernen
 
 ::: {.agent-potential}
-Adaptive Schwierigkeit, Challenge-Generierung, "Productive Struggle" fördern
+Adaptive Schwierigkeit, Challenge-Generierung, "Productive Struggle" fördern[^2]
 :::
 
 [^1]: Forcing Functions sind Design-Entscheidungen oder
   Einschränkungen, die bestimmte Verhaltensweisen erzwingen und
   unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.
 
+[^2]: Productive Struggle implementiert mehrere der 8 Strategien
+  gleichzeitig: Retrieval Practice, Elaboration, Generation, Reflection.
+  
 ### 6. Verstehen vs. Vertrautheit
 
 **Prinzip**: In eigenen Worten erklären = echtes Verständnis
