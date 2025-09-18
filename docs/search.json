@@ -185,7 +185,7 @@
     "href": "workshop/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:10\n Teil 1: KI verstehen\n\n\n\n\nHauptpräsentation: KI & Agents\n60 min\n\n\n10:10 - 10:25\n Kaffeepause\n\n\n\n\n☕ Pause & Networking\n15 min\n\n\n10:25 - 10:45\n Teil 2: Lernen verstehen\n\n\n\n\nMake it Stick: Die 8 Strategien\n20 min\n\n\n10:45 - 11:45\n Teil 3: KI-gestütztes Lerndesign\n\n\n\n\nThink-Pair-Share: Agent-Design\n60 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
+    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:10\n Teil 1: KI verstehen\n\n\n\n\nHauptpräsentation: KI & Agents\n60 min\n\n\n10:10 - 10:25\n Pause\n\n\n\n\nKaffee\n15 min\n\n\n10:25 - 10:45\n Teil 2: Lernen verstehen\n\n\n\n\nWie Menschen lernen\n20 min\n\n\n10:45 - 11:45\n Teil 3: KI-gestütztes Lerndesign\n\n\n\n\nThink-Pair-Share: Agent-Design\n60 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -1088,12 +1088,12 @@
   {
     "objectID": "workshop/einstieg/index.html",
     "href": "workshop/einstieg/index.html",
-    "title": "Aktivierende Begrüssung",
+    "title": "Aktivierende Einstieg",
     "section": "",
     "text": "Stelle dich kurz vor:\n\nName & Institut\nKI-Erfahrung (Skala 0-10)\nLehrthema das du heute mitgebracht hast",
     "crumbs": [
       "Workshop",
-      "Aktivierende Begrüssung"
+      "Aktivierende Einstieg"
     ]
   },
   {
@@ -1101,7 +1101,7 @@
     "href": "workshop/diskussion/index.html",
     "title": "Transfer & Abschluss",
     "section": "",
-    "text": "Entwickle deinen konkreten nächsten Schritt:\n\n\n\nWelche Make-it-Stick-Strategie will ich als erstes umsetzen?\nWelches Agent-Konzept ist realistisch für meine Lehre?\nWas ist mein konkreter erster Schritt in den nächsten 2 Wochen?\n\n\n\n\n\nTool-Wahl: GPT, Copilot, oder andere KI-Tools?\nPilotversuch: Wo teste ich meinen Agent zuerst?\nErfolg messen: Woran erkenne ich, dass es funktioniert?\n\nNotiere dir:\nMeine Strategie: ____________________\nMein erster Schritt: ________________\nBis wann: __________________________\n\n\n\n\nRundblitz (5 Min): Jeder teilt in 30 Sekunden: - Eine Erkenntnis aus heute - Einen konkreten nächsten Schritt\nRessourcen für zu Hause (2 Min): - Die 8 Make it Stick Strategien - zum Mitnehmen - Agent-Beispiele - für Inspiration - BFH Orientierungshilfe KI - für Guidelines\n\n\n\n\n\n\nTipTake-Away Message\n\n\n\nWissenschaftlich fundiertes Agent-Design bedeutet: KI soll die bewährten Lernstrategien fördern, nicht ersetzen.\nEure Mission: Macht das Lernen eurer Studierenden besser, nicht nur einfacher.\n\n\nVielen Dank & viel Erfolg bei der Umsetzung! 🚀",
+    "text": "Entwickle deinen konkreten nächsten Schritt:\n\n\n\nWelche Make-it-Stick-Strategie will ich als erstes umsetzen?\nWelches Agent-Konzept ist realistisch für meine Lehre?\nWas ist mein konkreter erster Schritt?\n\n\n\n\n\nTool-Wahl: GPT, Copilot, oder andere KI-Tools?\nPilotversuch: Wo teste ich meinen Agent zuerst?\nErfolg messen: Woran erkenne ich, dass es funktioniert?\n\nNotiere dir:\nMeine Strategie: ____________________\nMein erster Schritt: ________________\nBis wann: __________________________\n\n\n\n\nRundblitz (5 Min): Jeder teilt in 30 Sekunden: - Eine Erkenntnis aus heute - Einen konkreten nächsten Schritt\nRessourcen für zu Hause (2 Min): - Die 8 Make it Stick Strategien - zum Mitnehmen - Agent-Beispiele - für Inspiration - BFH Orientierungshilfe KI - für Guidelines\n\n\n\n\n\n\nTipTake-Away Message\n\n\n\nWissenschaftlich fundiertes Agent-Design bedeutet: KI soll die bewährten Lernstrategien fördern, nicht ersetzen.\nEure Mission: Macht das Lernen eurer Studierenden besser, nicht nur einfacher.\n\n\nVielen Dank & viel Erfolg bei der Umsetzung! 🚀",
     "crumbs": [
       "Workshop",
       "Transfer & Abschluss"
@@ -1778,7 +1778,7 @@
     "href": "workshop/index.html#workshop-ablauf-ki-in-der-lehre---intermediate-3-stunden",
     "title": "Ablauf",
     "section": "",
-    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:10\n Teil 1: KI verstehen\n\n\n\n\nHauptpräsentation: KI & Agents\n60 min\n\n\n10:10 - 10:25\n Kaffeepause\n\n\n\n\n☕ Pause & Networking\n15 min\n\n\n10:25 - 10:45\n Teil 2: Lernen verstehen\n\n\n\n\nMake it Stick: Die 8 Strategien\n20 min\n\n\n10:45 - 11:45\n Teil 3: KI-gestütztes Lerndesign\n\n\n\n\nThink-Pair-Share: Agent-Design\n60 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
+    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:10\n Teil 1: KI verstehen\n\n\n\n\nHauptpräsentation: KI & Agents\n60 min\n\n\n10:10 - 10:25\n Pause\n\n\n\n\nKaffee\n15 min\n\n\n10:25 - 10:45\n Teil 2: Lernen verstehen\n\n\n\n\nWie Menschen lernen\n20 min\n\n\n10:45 - 11:45\n Teil 3: KI-gestütztes Lerndesign\n\n\n\n\nThink-Pair-Share: Agent-Design\n60 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -1788,8 +1788,8 @@
     "objectID": "workshop/index.html#lernziele",
     "href": "workshop/index.html#lernziele",
     "title": "Ablauf",
-    "section": "🎯 Lernziele",
-    "text": "🎯 Lernziele\nAm Ende des Workshops können die Teilnehmer:\n\nKI verstehen: Unterschied zwischen Tools und Agents erkennen\nLernen verstehen: Die 8 wissenschaftlich bewährten Lernstrategien anwenden\nPraxis umsetzen: Einen Copilot Agent für ihr eigenes Lehrthema konzipieren\nTransfer leisten: Konkrete nächste Schritte für die eigene Lehre formulieren",
+    "section": "Lernziele",
+    "text": "Lernziele\nAm Ende des Workshops können die Teilnehmer:\n\nKI verstehen: Unterschied zwischen Tools und Agents erkennen\nLernen verstehen: Wissenschaftlich etablierte Lernstrategien anwenden\nPraxis umsetzen: Einen Copilot Agent für ihr eigenes Lehrthema konzipieren\nTransfer leisten: Konkrete nächste Schritte für die eigene Lehre formulieren",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -1799,8 +1799,8 @@
     "objectID": "workshop/index.html#vorbereitung",
     "href": "workshop/index.html#vorbereitung",
     "title": "Ablauf",
-    "section": "📋 Vorbereitung",
-    "text": "📋 Vorbereitung\nBringt mit: - Ein eigenes Lehrthema mit dem ihr arbeiten möchtet - Laptop/Tablet für praktische Übungen - Offenheit für wissenschaftlich fundiertes Lerndesign",
+    "section": "Vorbereitung",
+    "text": "Vorbereitung\n\nInhaltliche Vorbereitung (10 Min.)\nWähle ein Thema aus deiner Lehre, das du im Workshop bearbeiten möchtest (z.B. ein schwieriges Konzept, ein Prüfungsthema, ein häufiges Verständnisproblem). Überlege dir dazu:\n\nWelche Hürden haben mein Studierende beim Lernen?\nWie könnten KI-Tools dabei helfen?\n\n\n\nLektüre und Reflexion (15 Min.)\nLies diesen Blog Post von Barbara Geyer zum Thema Künstliche Intelligenz und Lernstrategien. Notiere dir:\n\nWelche der Strategien sind für deine Lehre spannend?\nWie wirken die gezeigten Prompting-Ansätze auf dich?\nWas würdest du verbessern oder anders formulieren?",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -1820,23 +1820,23 @@
   {
     "objectID": "workshop/einstieg/index.html#kurze-vorstellungsrunde-5-min",
     "href": "workshop/einstieg/index.html#kurze-vorstellungsrunde-5-min",
-    "title": "Aktivierende Begrüssung",
+    "title": "Aktivierende Einstieg",
     "section": "",
     "text": "Stelle dich kurz vor:\n\nName & Institut\nKI-Erfahrung (Skala 0-10)\nLehrthema das du heute mitgebracht hast",
     "crumbs": [
       "Workshop",
-      "Aktivierende Begrüssung"
+      "Aktivierende Einstieg"
     ]
   },
   {
     "objectID": "workshop/einstieg/index.html#heute-entwickeln-wir-gemeinsam-5-min",
     "href": "workshop/einstieg/index.html#heute-entwickeln-wir-gemeinsam-5-min",
-    "title": "Aktivierende Begrüssung",
-    "section": "🎯 Heute entwickeln wir gemeinsam (5 Min)",
-    "text": "🎯 Heute entwickeln wir gemeinsam (5 Min)\nUnser Ziel: Jeder entwickelt einen wissenschaftlich fundierten Copilot Agent für sein eigenes Lehrthema.\n\nWas ihr mitgebracht habt:\n\nEuer spezifisches Lehrthema (aus der Vorbereitung)\nKonkrete Lernprobleme eurer Studierenden\nErste Ideen für KI-Unterstützung\n\n\n\nWas ihr heute lernt:\n\nUnterschied zwischen Tools und Agents\n8 wissenschaftlich bewährte Lernstrategien\nPraktisches Agent-Design mit Think-Pair-Share\nKonkrete Umsetzung für eure Lehre\n\n\n\n\n\n\n\nTipQuick Check\n\n\n\nSammlung am Whiteboard: Welche Lehrthemen habt ihr mitgebracht?\nZweck: Überblick + Inspiration für spätere Partner-Findung\n\n\nLet’s start! 🚀",
+    "title": "Aktivierende Einstieg",
+    "section": "Heute entwickeln wir gemeinsam (5 Min)",
+    "text": "Heute entwickeln wir gemeinsam (5 Min)\nUnser Ziel: Jeder entwickelt einen wissenschaftlich fundierten Copilot Agent für sein eigenes Lehrthema.\n\nWas ihr mitgebracht habt:\n\nEuer spezifisches Lehrthema (aus der Vorbereitung)\nKonkrete Lernprobleme eurer Studierenden\nErste Ideen für KI-Unterstützung\n\n\n\nWas ihr heute lernt:\n\nUnterschied zwischen Tools und Agents\n8 wissenschaftlich bewährte Lernstrategien\nPraktisches Agent-Design mit Think-Pair-Share\nKonkrete Umsetzung für eure Lehre",
     "crumbs": [
       "Workshop",
-      "Aktivierende Begrüssung"
+      "Aktivierende Einstieg"
     ]
   },
   {
@@ -1921,7 +1921,7 @@
     "href": "workshop/diskussion/index.html#von-der-idee-zur-umsetzung-15-min",
     "title": "Transfer & Abschluss",
     "section": "",
-    "text": "Entwickle deinen konkreten nächsten Schritt:\n\n\n\nWelche Make-it-Stick-Strategie will ich als erstes umsetzen?\nWelches Agent-Konzept ist realistisch für meine Lehre?\nWas ist mein konkreter erster Schritt in den nächsten 2 Wochen?\n\n\n\n\n\nTool-Wahl: GPT, Copilot, oder andere KI-Tools?\nPilotversuch: Wo teste ich meinen Agent zuerst?\nErfolg messen: Woran erkenne ich, dass es funktioniert?\n\nNotiere dir:\nMeine Strategie: ____________________\nMein erster Schritt: ________________\nBis wann: __________________________\n\n\n\n\nRundblitz (5 Min): Jeder teilt in 30 Sekunden: - Eine Erkenntnis aus heute - Einen konkreten nächsten Schritt\nRessourcen für zu Hause (2 Min): - Die 8 Make it Stick Strategien - zum Mitnehmen - Agent-Beispiele - für Inspiration - BFH Orientierungshilfe KI - für Guidelines\n\n\n\n\n\n\nTipTake-Away Message\n\n\n\nWissenschaftlich fundiertes Agent-Design bedeutet: KI soll die bewährten Lernstrategien fördern, nicht ersetzen.\nEure Mission: Macht das Lernen eurer Studierenden besser, nicht nur einfacher.\n\n\nVielen Dank & viel Erfolg bei der Umsetzung! 🚀",
+    "text": "Entwickle deinen konkreten nächsten Schritt:\n\n\n\nWelche Make-it-Stick-Strategie will ich als erstes umsetzen?\nWelches Agent-Konzept ist realistisch für meine Lehre?\nWas ist mein konkreter erster Schritt?\n\n\n\n\n\nTool-Wahl: GPT, Copilot, oder andere KI-Tools?\nPilotversuch: Wo teste ich meinen Agent zuerst?\nErfolg messen: Woran erkenne ich, dass es funktioniert?\n\nNotiere dir:\nMeine Strategie: ____________________\nMein erster Schritt: ________________\nBis wann: __________________________\n\n\n\n\nRundblitz (5 Min): Jeder teilt in 30 Sekunden: - Eine Erkenntnis aus heute - Einen konkreten nächsten Schritt\nRessourcen für zu Hause (2 Min): - Die 8 Make it Stick Strategien - zum Mitnehmen - Agent-Beispiele - für Inspiration - BFH Orientierungshilfe KI - für Guidelines\n\n\n\n\n\n\nTipTake-Away Message\n\n\n\nWissenschaftlich fundiertes Agent-Design bedeutet: KI soll die bewährten Lernstrategien fördern, nicht ersetzen.\nEure Mission: Macht das Lernen eurer Studierenden besser, nicht nur einfacher.\n\n\nVielen Dank & viel Erfolg bei der Umsetzung! 🚀",
     "crumbs": [
       "Workshop",
       "Transfer & Abschluss"

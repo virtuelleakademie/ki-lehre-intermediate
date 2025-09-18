@@ -1,8 +1,8 @@
 ---
-title: Aktivierende Begrüssung
+title: Aktivierende Einstieg
 ---
 
-## 👋 Kurze Vorstellungsrunde (5 Min)
+## Kurze Vorstellungsrunde (5 Min)
 
 **Stelle dich kurz vor:**
 
@@ -10,9 +10,8 @@ title: Aktivierende Begrüssung
 2. **KI-Erfahrung** (Skala 0-10)
 3. **Lehrthema** das du heute mitgebracht hast
 
----
 
-## 🎯 Heute entwickeln wir gemeinsam (5 Min)
+## Heute entwickeln wir gemeinsam (5 Min)
 
 **Unser Ziel**: Jeder entwickelt einen **wissenschaftlich fundierten Copilot Agent** für sein eigenes Lehrthema.
 
@@ -27,11 +26,3 @@ title: Aktivierende Begrüssung
 - **Praktisches Agent-Design** mit Think-Pair-Share
 - **Konkrete Umsetzung** für eure Lehre
 
-::: {.callout-tip}
-## Quick Check
-**Sammlung am Whiteboard**: Welche Lehrthemen habt ihr mitgebracht?
-
-*Zweck: Überblick + Inspiration für spätere Partner-Findung*
-:::
-
-**Let's start!** 🚀
