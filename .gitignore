@@ -43,3 +43,5 @@ pages/config.yaml
 
 /.luarc.json
 
+
+**/*.quarto_ipynb

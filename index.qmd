@@ -1,5 +1,5 @@
 ---
-# title: "KI in der Lehre"
+# title: "KI in der Lehre: Intermediate"
 format:
   html:
     toc: false
@@ -30,18 +30,10 @@ about:
 
 <br>
 
-## Dozenten
+## Dozent
 
-<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
-
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
 
 ## Website
 
 {{< bi link >}} [virtuelleakademie.github.io/ki-lehre-intermediate/](https://virtuelleakademie.github.io/ki-lehre-intermediate/)
-
-<br>
-<!-- ## QR Code -->
-{{< qrcode https://virtuelleakademie.github.io/ki-lehre-intermediate/ width=200 height=200 colorDark='#000000' >}}
