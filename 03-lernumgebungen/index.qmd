@@ -52,7 +52,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 
 - Welches spezifische Problem haben meine Lernenden?
 - Welche Strategie könnte dieses Problem am besten lösen?
-- Bei welcher Strategie sehe ich das größte Potenzial?
+- Bei welcher Strategie sehe ich das grösste Potenzial?
 
 **Notiere:**
 
@@ -88,7 +88,7 @@ Entwickle einen **Copilot Agent**, der eine der 8 bewährten Lernstrategien aus 
 - **Fördert der Agent die gewählte Make-it-Stick-Strategie?**
 
 #### **Agent-Prototyp:**
-*Skizziere oder beschreibe, wie der Agent funktioniert (Flowchart, Storyboard, oder detaillierte Beschreibung)*
+Skizziere oder beschreibe, wie der Agent funktioniert.
 :::
 
 ---
