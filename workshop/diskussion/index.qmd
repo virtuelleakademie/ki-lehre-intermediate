@@ -1,18 +1,40 @@
 ---
-title: Offene Diskussion
+title: Transfer & Abschluss
 ---
 
+## Von der Idee zur Umsetzung (15 Min)
 
-Jetzt möchten wir eine offene Diskussion führen. Bitte teile deine Gedanken zu folgenden Fragen:
+### Schritt 1: Persönlicher Umsetzungsplan (8 Min)
 
-1. **Was war die wichtigste Erkenntnis, die du aus diesem Workshop mitgenommen hast?**
+**Entwickle deinen konkreten nächsten Schritt:**
 
-2. **Gab es Aspekte, die dir besonders schwierig oder verwirrend erschienen sind?**
+#### **Was nehme ich mit?**
 
-3. **Wie planst du, das Gelernte in deiner Praxis oder Lehre anzuwenden?**
+- Welche **Make-it-Stick-Strategie** will ich als erstes umsetzen?
+- Welches **Agent-Konzept** ist realistisch für meine Lehre?
+- Was ist mein **konkreter erster Schritt**?
 
-4. **Welche Themen oder Fragestellungen würdest du gerne in zukünftigen Workshops vertiefen?**
+#### **Wie setze ich das um?**
+- **Tool-Wahl**: GPT, Copilot, oder andere KI-Tools?
+- **Pilotversuch**: Wo teste ich meinen Agent zuerst?
+- **Erfolg messen**: Woran erkenne ich, dass es funktioniert?
 
-5. **Gibt es weitere Fragen oder Anmerkungen?**
+<!-- **Notiere dir:** -->
+<!-- ``` -->
+<!-- Meine Strategie: ____________________ -->
+<!-- Mein erster Schritt: ________________ -->
+<!-- Bis wann: __________________________ -->
+<!-- ``` -->
 
-Wir freuen uns auf deine Beiträge und eine interessante Diskussion!
+### Schritt 2: Blitzlicht (7 Min)
+
+**Jeder teilt in 30 Sekunden:**
+
+- **Eine Erkenntnis** aus dem heutigen Workshop
+- **Einen konkreten nächsten Schritt**
+
+::: {.callout-tip}
+## Take-Away Message
+
+**Wissenschaftlich fundierter KI Einsatz** bedeutet: KI-Tools sollen die bewährten Lernstrategien **fördern**, nicht **ersetzen**.
+:::

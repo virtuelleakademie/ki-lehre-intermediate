@@ -103,15 +103,15 @@ website:
       contents:
         - 02-wie-menschen-lernen/index.qmd
         - 02-wie-menschen-lernen/kompetenz-erwerben/index.qmd
-        - 02-wie-menschen-lernen/aktive-verarbeitung/index.qmd
-        - 02-wie-menschen-lernen/selbststudium/index.qmd
 
-    - title: "Teil 3: Lernumgebungen"
+    - title: "Teil 3: KI-gestütztes Lerndesign"
       style: "docked"
       search: true
       background: light
       contents:
         - 03-lernumgebungen/index.qmd
+        - 03-lernumgebungen/handout-make-it-stick/index.qmd
+        - 03-lernumgebungen/agent-beispiele/index.qmd
         - 03-lernumgebungen/produktive-anstrengung/index.qmd
 
 page-footer:
@@ -153,6 +153,12 @@ filters:
 custom-callout:
   active-processing:
     icon-symbol: "📝"
+    collapse: false
+    color: "#9A4665"
+
+  agent-potential:
+    title: "Agent-Potential"
+    icon-symbol: "🤖"
     collapse: false
     color: "#9A4665"
 

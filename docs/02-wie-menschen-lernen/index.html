@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -149,7 +169,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   <li class="nav-item">
     <a class="nav-link" href="../03-lernumgebungen/index.html"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">3: Lernumgebungen</span></a>
+<span class="menu-text">3: KI-gestütztes Lerndesign</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -226,18 +246,6 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
  <span class="menu-text">Wie man Kompetenzen erwirbt</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../02-wie-menschen-lernen/aktive-verarbeitung/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Aktive Verarbeitung</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../02-wie-menschen-lernen/selbststudium/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Selbststudium</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -248,8 +256,13 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#input-vom-anfänger-zum-experten" id="toc-input-vom-anfänger-zum-experten" class="nav-link active" data-scroll-target="#input-vom-anfänger-zum-experten"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Input: Vom Anfänger zum Experten</a></li>
-  <li><a href="#aktive-verarbeitung" id="toc-aktive-verarbeitung" class="nav-link" data-scroll-target="#aktive-verarbeitung"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Aktive Verarbeitung</a></li>
+  <li><a href="#lernpsychologie-trifft-ki-20-min" id="toc-lernpsychologie-trifft-ki-20-min" class="nav-link active" data-scroll-target="#lernpsychologie-trifft-ki-20-min">Lernpsychologie trifft KI (20 Min)</a></li>
+  <li><a href="#vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht" id="toc-vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht" class="nav-link" data-scroll-target="#vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht</a></li>
+  <li><a href="#die-zentrale-erkenntnis" id="toc-die-zentrale-erkenntnis" class="nav-link" data-scroll-target="#die-zentrale-erkenntnis">Die zentrale Erkenntnis</a></li>
+  <li><a href="#vertiefende-ressourcen" id="toc-vertiefende-ressourcen" class="nav-link" data-scroll-target="#vertiefende-ressourcen">Vertiefende Ressourcen</a>
+  <ul class="collapse">
+  <li><a href="#für-das-selbststudium" id="toc-für-das-selbststudium" class="nav-link" data-scroll-target="#für-das-selbststudium">Für das Selbststudium:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -275,36 +288,64 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </header>
 
 
-<p>Diese Präsentation basiert auf den Erkenntnissen der kognitiven Psychologie und zeigt, wie Menschen lernen und welche Rolle kognitive Anstrengung dabei spielt.</p>
-<section id="input-vom-anfänger-zum-experten" class="level2">
-<h2 class="anchored" data-anchor-id="input-vom-anfänger-zum-experten"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Input: Vom Anfänger zum Experten</h2>
+<section id="lernpsychologie-trifft-ki-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="lernpsychologie-trifft-ki-20-min">Lernpsychologie trifft KI (20 Min)</h2>
+<p>Warum Anstrengung beim Lernen kein Bug ist—sondern das Feature.</p>
+</section>
+<section id="vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht" class="level2">
+<h2 class="anchored" data-anchor-id="vom-wissen-zum-können-wie-durch-kognitive-anstrengung-expertise-entsteht"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht</h2>
     <p><a href="../slides/wie-menschen-lernen/index.html" target="_blank">View slides in full screen</a></p>
        <div class="ratio ratio-16x9">
       <iframe class="slide-deck" src="../slides/wie-menschen-lernen/index.html" height="500px"></iframe>
     </div>
   
 </section>
-<section id="aktive-verarbeitung" class="level2">
-<h2 class="anchored" data-anchor-id="aktive-verarbeitung"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Aktive Verarbeitung</h2>
-<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
+<section id="die-zentrale-erkenntnis" class="level2">
+<h2 class="anchored" data-anchor-id="die-zentrale-erkenntnis">Die zentrale Erkenntnis</h2>
+<p><strong>Das Lernparadox verstehen:</strong></p>
+<ul>
+<li><strong>Produktivität ≠ Lernen</strong>: KI macht uns produktiver, aber verhindert oft echtes Lernen</li>
+<li><strong>Cognitive Load ist essentiell</strong>: Ohne kognitive Anstrengung keine Expertise-Entwicklung</li>
+<li><strong>Gefühl ≠ Realität</strong>: Was sich wie Lernen anfühlt, ist oft das Gegenteil</li>
+</ul>
+<p><strong>Unsere Aufgabe</strong>: Lernumgebungen mit KI gestalten, die gezielt <strong>lernrelevante kognitive Last</strong> fördern—z.B. durch die 8 Strategien aus Make-it-Stick <span class="citation" data-cites="brownMakeItStick">(<a href="#ref-brownMakeItStick" role="doc-biblioref">Brown, III, and McDaniel, n.d.</a>)</span>.</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Wie Menschen lernen? (20 Min)
+<span class="screen-reader-only">Tip</span>Überleitung zur Praxis
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Aufgabe</strong>: Lese den Artikel zum Thema <a href="./kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a></p>
-<!-- **Tipp**: Falls du Hilfe mit Fachbegriffen brauchst, verwende [Claude](https://claude.ai/) oder [ChatGPT](https://chatgpt.com/). -->
+<p><strong>Jetzt seid ihr dran</strong>: Entwickelt einen Agent, der wissenschaftlich fundiert eine der 8 Strategien für euer Lehrthema umsetzt.</p>
 </div>
 </div>
+<hr>
+</section>
+<section id="vertiefende-ressourcen" class="level2">
+<h2 class="anchored" data-anchor-id="vertiefende-ressourcen">Vertiefende Ressourcen</h2>
+<ul>
+<li><a href="../03-lernumgebungen/handout-make-it-stick/">Die 8 Make it Stick Strategien im Detail</a></li>
+<li><a href="../03-lernumgebungen/agent-beispiele/">Agent-Beispiele für jede Strategie</a></li>
+</ul>
+<section id="für-das-selbststudium" class="level3">
+<h3 class="anchored" data-anchor-id="für-das-selbststudium">Für das Selbststudium:</h3>
+<ul>
+<li><a href="./kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a> - Wissenschaftliche Grundlagen der Expertise-Entwicklung</li>
+</ul>
+
 
 
 </section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-brownMakeItStick" class="csl-entry" role="listitem">
+Brown, Peter C., Henry L. Roediger III, and Mark A. McDaniel. n.d. <em>Make <span>It Stick</span>: <span>The Science</span> of <span>Successful Learning</span></em>. Belknap Press.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

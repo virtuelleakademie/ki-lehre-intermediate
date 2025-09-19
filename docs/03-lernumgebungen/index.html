@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Aktive Verarbeitung: Lernumgebung gestalten</title>
+<title>KI-gestütztes Lerndesign</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../03-lernumgebungen/produktive-anstrengung/index.html" rel="next">
+<link href="../03-lernumgebungen/handout-make-it-stick/index.html" rel="next">
 <link href="..//assets/robot.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -100,10 +100,21 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 </style>
 
 
-<meta property="og:title" content="Aktive Verarbeitung: Lernumgebung gestalten">
+<meta property="og:title" content="KI-gestütztes Lerndesign">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -181,7 +192,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-lernumgebungen/index.html">Aktive Verarbeitung: Lernumgebung gestalten</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-lernumgebungen/index.html">KI-gestütztes Lerndesign</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -208,7 +219,19 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../03-lernumgebungen/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Aktive Verarbeitung: Lernumgebung gestalten</span></a>
+ <span class="menu-text">KI-gestütztes Lerndesign</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-lernumgebungen/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die 8 Make it Stick Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-lernumgebungen/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -227,24 +250,29 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#aktive-verarbeitung" id="toc-aktive-verarbeitung" class="nav-link active" data-scroll-target="#aktive-verarbeitung"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Aktive Verarbeitung</a></li>
-  <li><a href="#phase-1-gruppenbildung-5-min" id="toc-phase-1-gruppenbildung-5-min" class="nav-link" data-scroll-target="#phase-1-gruppenbildung-5-min">Phase 1: Gruppenbildung (5 Min)</a></li>
-  <li><a href="#phase-2-design-entwicklung-20-min" id="toc-phase-2-design-entwicklung-20-min" class="nav-link" data-scroll-target="#phase-2-design-entwicklung-20-min">Phase 2: Design-Entwicklung (20 Min)</a>
+  <li><a href="#aktive-verarbeitung" id="toc-aktive-verarbeitung" class="nav-link active" data-scroll-target="#aktive-verarbeitung">Aktive Verarbeitung</a></li>
+  <li><a href="#einführung-die-8-make-it-stick-strategien-10-min" id="toc-einführung-die-8-make-it-stick-strategien-10-min" class="nav-link" data-scroll-target="#einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</a>
   <ul class="collapse">
-  <li><a href="#bearbeitet-diese-4-bereiche-je-5-min" id="toc-bearbeitet-diese-4-bereiche-je-5-min" class="nav-link" data-scroll-target="#bearbeitet-diese-4-bereiche-je-5-min">Bearbeitet diese 4 Bereiche (je 5 Min):</a></li>
-  <li><a href="#bereich-1-das-problem" id="toc-bereich-1-das-problem" class="nav-link" data-scroll-target="#bereich-1-das-problem"><strong>Bereich 1: Das Problem</strong></a></li>
-  <li><a href="#bereich-2-die-wissenschaft" id="toc-bereich-2-die-wissenschaft" class="nav-link" data-scroll-target="#bereich-2-die-wissenschaft"><strong>Bereich 2: Die Wissenschaft</strong></a></li>
-  <li><a href="#bereich-3-die-ki-rolle" id="toc-bereich-3-die-ki-rolle" class="nav-link" data-scroll-target="#bereich-3-die-ki-rolle"><strong>Bereich 3: Die KI-Rolle</strong></a></li>
-  <li><a href="#bereich-4-der-erfolg" id="toc-bereich-4-der-erfolg" class="nav-link" data-scroll-target="#bereich-4-der-erfolg"><strong>Bereich 4: Der Erfolg</strong></a></li>
+  <li><a href="#die-wissenschaftlich-bewährten-lernstrategien" id="toc-die-wissenschaftlich-bewährten-lernstrategien" class="nav-link" data-scroll-target="#die-wissenschaftlich-bewährten-lernstrategien">Die wissenschaftlich bewährten Lernstrategien:</a></li>
   </ul></li>
-  <li><a href="#phase-3-poster-erstellen-10-min" id="toc-phase-3-poster-erstellen-10-min" class="nav-link" data-scroll-target="#phase-3-poster-erstellen-10-min">Phase 3: Poster erstellen (10 Min)</a>
+  <li><a href="#think-phase-agent-erstellen-25-min" id="toc-think-phase-agent-erstellen-25-min" class="nav-link" data-scroll-target="#think-phase-agent-erstellen-25-min">THINK Phase: Agent erstellen (25 Min)</a></li>
+  <li><a href="#pair-phase-agents-testen-erfahrungen-teilen-20-min" id="toc-pair-phase-agents-testen-erfahrungen-teilen-20-min" class="nav-link" data-scroll-target="#pair-phase-agents-testen-erfahrungen-teilen-20-min">PAIR Phase: Agents testen &amp; Erfahrungen teilen (20 Min)</a>
   <ul class="collapse">
-  <li><a href="#euer-poster-layout" id="toc-euer-poster-layout" class="nav-link" data-scroll-target="#euer-poster-layout">Euer Poster-Layout:</a></li>
+  <li><a href="#partner-finden-2-min" id="toc-partner-finden-2-min" class="nav-link" data-scroll-target="#partner-finden-2-min">Partner finden (2 Min)</a></li>
+  <li><a href="#agents-teilen-3-min" id="toc-agents-teilen-3-min" class="nav-link" data-scroll-target="#agents-teilen-3-min">Agents teilen (3 Min)</a></li>
+  <li><a href="#gegenseitiges-agent-testing-7-min" id="toc-gegenseitiges-agent-testing-7-min" class="nav-link" data-scroll-target="#gegenseitiges-agent-testing-7-min">Gegenseitiges Agent-Testing (7 Min)</a></li>
+  <li><a href="#erfahrungen-auf-padlet-dokumentieren-8-min" id="toc-erfahrungen-auf-padlet-dokumentieren-8-min" class="nav-link" data-scroll-target="#erfahrungen-auf-padlet-dokumentieren-8-min">Erfahrungen auf Padlet dokumentieren (8 Min)</a></li>
   </ul></li>
-  <li><a href="#phase-4-speed-dating-präsentationen-12-min" id="toc-phase-4-speed-dating-präsentationen-12-min" class="nav-link" data-scroll-target="#phase-4-speed-dating-präsentationen-12-min">Phase 4: Speed-Dating Präsentationen (12 Min)</a>
+  <li><a href="#share-phase-erkenntnisse-aus-der-praxis-15-min" id="toc-share-phase-erkenntnisse-aus-der-praxis-15-min" class="nav-link" data-scroll-target="#share-phase-erkenntnisse-aus-der-praxis-15-min">SHARE Phase: Erkenntnisse aus der Praxis (15 Min)</a>
   <ul class="collapse">
-  <li><a href="#ablauf-stay-stray" id="toc-ablauf-stay-stray" class="nav-link" data-scroll-target="#ablauf-stay-stray">Ablauf “Stay &amp; Stray”:</a></li>
-  <li><a href="#pro-runde-4-min" id="toc-pro-runde-4-min" class="nav-link" data-scroll-target="#pro-runde-4-min">Pro Runde (4 Min):</a></li>
+  <li><a href="#padlet-review-patterns-8-min" id="toc-padlet-review-patterns-8-min" class="nav-link" data-scroll-target="#padlet-review-patterns-8-min">Padlet-Review &amp; Patterns (8 Min)</a></li>
+  <li><a href="#synthese-transfer-7-min" id="toc-synthese-transfer-7-min" class="nav-link" data-scroll-target="#synthese-transfer-7-min">Synthese &amp; Transfer (7 Min)</a></li>
+  </ul></li>
+  <li><a href="#ressourcen" id="toc-ressourcen" class="nav-link" data-scroll-target="#ressourcen">Ressourcen</a>
+  <ul class="collapse">
+  <li><a href="#handout-die-8-make-it-stick-strategien" id="toc-handout-die-8-make-it-stick-strategien" class="nav-link" data-scroll-target="#handout-die-8-make-it-stick-strategien">Handout: Die 8 Make it Stick Strategien</a></li>
+  <li><a href="#vertiefung-produktive-anstrengung-durch-design" id="toc-vertiefung-produktive-anstrengung-durch-design" class="nav-link" data-scroll-target="#vertiefung-produktive-anstrengung-durch-design">Vertiefung: Produktive Anstrengung durch Design</a></li>
+  <li><a href="#beispiele-agent-beispiele-für-jede-strategie" id="toc-beispiele-agent-beispiele-für-jede-strategie" class="nav-link" data-scroll-target="#beispiele-agent-beispiele-für-jede-strategie">Beispiele: Agent-Beispiele für jede Strategie</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -254,7 +282,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Aktive Verarbeitung: Lernumgebung gestalten</h1>
+<h1 class="title">KI-gestütztes Lerndesign</h1>
 </div>
 
 
@@ -272,133 +300,285 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 
 
 <section id="aktive-verarbeitung" class="level2">
-<h2 class="anchored" data-anchor-id="aktive-verarbeitung"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Aktive Verarbeitung</h2>
+<h2 class="anchored" data-anchor-id="aktive-verarbeitung">Aktive Verarbeitung</h2>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Produktive Anstrengung durch Design? (50 Min)
+<span class="screen-reader-only">Active-processing</span>Copilot Agent für effektives Lernen entwickeln (60 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Entwickelt in eurer Gruppe eine konkrete Lernaktivität, die:</p>
+<p>Erstelle und teste einen <strong>funktionsfähigen Copilot Agent</strong>, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.</p>
+<p><strong>Ziel</strong>: Durch Prompting einen Agent bauen, der das Lernen <strong>fördert</strong>, nicht <strong>ersetzt</strong> - und dabei die praktischen Herausforderungen erleben.</p>
+<p><strong>Format</strong>: Think-Pair-Share mit Live-Testing und Padlet-Reflexion</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="einführung-die-8-make-it-stick-strategien-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</h2>
+<section id="die-wissenschaftlich-bewährten-lernstrategien" class="level3">
+<h3 class="anchored" data-anchor-id="die-wissenschaftlich-bewährten-lernstrategien">Die wissenschaftlich bewährten Lernstrategien:</h3>
+<p><i class="bi-book " style="" role="img" aria-hidden="true"></i> <strong>Vertiefung</strong>: <a href="./handout-make-it-stick/">Die 8 Make it Stick Strategien im Detail</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 33%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strategie</th>
+<th>Kern-Prinzip</th>
+<th>Warum effektiv?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1. Abrufpraxis</strong></td>
+<td>Aktives Erinnern statt Wiederlesen</td>
+<td>Stärkt neuronale Verbindungen</td>
+</tr>
+<tr class="even">
+<td><strong>2. Verteiltes Lernen</strong></td>
+<td>Über Zeit verteilen statt Pauken</td>
+<td>Nutzt Vergessen als Lernhilfe</td>
+</tr>
+<tr class="odd">
+<td><strong>3. Abwechslung</strong></td>
+<td>Verschiedene Aufgaben/Themen mischen</td>
+<td>Trainiert flexible Anwendung</td>
+</tr>
+<tr class="even">
+<td><strong>4. Variation</strong></td>
+<td>In unterschiedlichen Kontexten üben</td>
+<td>Fördert Transfer</td>
+</tr>
+<tr class="odd">
+<td><strong>5. Wünschenswerte Schwierigkeiten</strong></td>
+<td>Fehler und Anstrengung nutzen</td>
+<td>Vertieft Verständnis</td>
+</tr>
+<tr class="even">
+<td><strong>6. Verstehen vs.&nbsp;Vertrautheit</strong></td>
+<td>In eigenen Worten erklären</td>
+<td>Echtes vs.&nbsp;oberflächliches Wissen</td>
+</tr>
+<tr class="odd">
+<td><strong>7. Feedback &amp; Reflexion</strong></td>
+<td>Korrektur und bewusstes Nachdenken</td>
+<td>Selbstregulation</td>
+</tr>
+<tr class="even">
+<td><strong>8. Anwendung</strong></td>
+<td>Wissen in verschiedenen Kontexten</td>
+<td>Transferfähigkeit</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-simple callout-important no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Erinnerung</strong>: Ihr habt als Vorbereitung ein <strong>eigenes Lehrthema</strong> mitgebracht—das ist euer Anwendungsbereich!</p>
+<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i><strong>Inspiration</strong>: <a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="think-phase-agent-erstellen-25-min" class="level2">
+<h2 class="anchored" data-anchor-id="think-phase-agent-erstellen-25-min">THINK Phase: Agent erstellen (25 Min)</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Schritt 1: Strategie wählen (10 Min)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Aufgabe</strong>: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.</p>
+<p><strong>Leitfragen:</strong></p>
 <ul>
-<li>Ein spezifisches Lernproblem löst</li>
-<li>Erkenntnisse aus der Kognitionsforschung nutzt</li>
-<li>KI sinnvoll einbindet (ohne das Lernen zu ersetzen)</li>
+<li>Welches spezifische Problem haben meine Lernenden?</li>
+<li>Welche Strategie könnte dieses Problem am besten lösen?</li>
+<li>Bei welcher Strategie sehe ich das grösste Potenzial?</li>
 </ul>
-<p><strong>Optional</strong>: Konsultiere den Artikel zum Thema <a href="./produktive-anstrengung/">Produktive Anstrengung durch Design</a></p>
+<p><strong>Notiere:</strong></p>
+<ul>
+<li><strong>Gewählte Strategie</strong>: ________________________</li>
+<li><strong>Mein Lehrthema</strong>: ________________________</li>
+<li><strong>Das spezifische Problem</strong>: ________________________</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Schritt 2: Agent erstellen &amp; testen (15 Min)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Erstelle deinen funktionsfähigen Copilot Agent:</strong></p>
+<section id="agent-prompt-entwickeln" class="level4">
+<h4 class="anchored" data-anchor-id="agent-prompt-entwickeln">Agent-Prompt entwickeln</h4>
+<p>Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:</p>
+<p><strong>Template-Struktur:</strong></p>
+<ul>
+<li><strong>Rolle &amp; Mission</strong>: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert”</li>
+<li><strong>Was der Agent TUT</strong>: Konkrete Funktionen und Verhaltensweisen</li>
+<li><strong>Was der Agent NICHT tut</strong>: Grenzen setzen (keine direkten Antworten geben, etc.)</li>
+<li><strong>Interaktionsstil</strong>: Wie soll der Agent mit Lernenden kommunizieren?</li>
+</ul>
+</section>
+<section id="testen" class="level4">
+<h4 class="anchored" data-anchor-id="testen">Testen</h4>
+<ul>
+<li>Teste deinen Agent mit einer typischen Lernsituation</li>
+<li>Identifiziere Prompting-Herausforderungen</li>
+<li>Verfeinere den Prompt basierend auf dem Test</li>
+</ul>
+</section>
+<section id="qualitätskontrolle" class="level4">
+<h4 class="anchored" data-anchor-id="qualitätskontrolle">Qualitätskontrolle</h4>
+<ul>
+<li><strong>Strategie</strong>: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?</li>
+<li><strong>Anstrengung</strong>: Muss der Lernende noch selbst denken und arbeiten?</li>
+<li><strong>Gefahr</strong>: Wo nimmt der Agent dem Lernenden zu viel ab?</li>
+<li><strong>Verbesserung</strong>: Wo musst du den Prompt noch anpassen?</li>
+</ul>
+</section>
+</div>
+</div>
+<hr>
+</section>
+<section id="pair-phase-agents-testen-erfahrungen-teilen-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="pair-phase-agents-testen-erfahrungen-teilen-20-min">PAIR Phase: Agents testen &amp; Erfahrungen teilen (20 Min)</h2>
+<section id="partner-finden-2-min" class="level3">
+<h3 class="anchored" data-anchor-id="partner-finden-2-min">Partner finden (2 Min)</h3>
+<ul>
+<li>Suche dir einen Partner</li>
+<li>Am besten jemand mit einer <strong>anderen Strategie</strong> oder <strong>anderem Fachbereich</strong></li>
+</ul>
+</section>
+<section id="agents-teilen-3-min" class="level3">
+<h3 class="anchored" data-anchor-id="agents-teilen-3-min">Agents teilen (3 Min)</h3>
+<p><strong>Demo</strong>: Wie ihr eure Copilot Agents miteinander teilt (wird demonstriert)</p>
+</section>
+<section id="gegenseitiges-agent-testing-7-min" class="level3">
+<h3 class="anchored" data-anchor-id="gegenseitiges-agent-testing-7-min">Gegenseitiges Agent-Testing (7 Min)</h3>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Cross-Testing der Agents (parallel)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beide Partner testen gleichzeitig (7 Min):</strong></p>
+<ul>
+<li><strong>Person A</strong> testet Agent von Person B</li>
+<li><strong>Person B</strong> testet Agent von Person A</li>
+<li><strong>Parallel arbeiten</strong> - jeder fokussiert auf den anderen Agent</li>
+</ul>
+<p><strong>Worauf achten:</strong></p>
+<ul>
+<li>Verwende den Agent für eine typische Lernsituation aus dem Fachbereich deines Partners</li>
+<li>Fördert der Agent wirklich die gewählte Strategie?</li>
+<li>Notiere Herausforderungen und Überraschungen</li>
+</ul>
 </div>
 </div>
 </section>
-<section id="phase-1-gruppenbildung-5-min" class="level2">
-<h2 class="anchored" data-anchor-id="phase-1-gruppenbildung-5-min">Phase 1: Gruppenbildung (5 Min)</h2>
-<ol type="1">
-<li><strong>Wähle ein Thema</strong> von der Tafel, das dich interessiert</li>
-<li><strong>Stelle dich</strong> zu deinem Wunschthema</li>
-<li><strong>Bildet Gruppen</strong> von 3-4 Personen</li>
-<li><strong>Holt Material</strong> und sucht euch einen Arbeitsplatz</li>
-</ol>
-<hr>
-</section>
-<section id="phase-2-design-entwicklung-20-min" class="level2">
-<h2 class="anchored" data-anchor-id="phase-2-design-entwicklung-20-min">Phase 2: Design-Entwicklung (20 Min)</h2>
-<section id="bearbeitet-diese-4-bereiche-je-5-min" class="level3">
-<h3 class="anchored" data-anchor-id="bearbeitet-diese-4-bereiche-je-5-min">Bearbeitet diese 4 Bereiche (je 5 Min):</h3>
-</section>
-<section id="bereich-1-das-problem" class="level3">
-<h3 class="anchored" data-anchor-id="bereich-1-das-problem"><strong>Bereich 1: Das Problem</strong></h3>
-<p><em>Was genau können/verstehen Lernende NICHT?</em></p>
+<section id="erfahrungen-auf-padlet-dokumentieren-8-min" class="level3">
+<h3 class="anchored" data-anchor-id="erfahrungen-auf-padlet-dokumentieren-8-min">Erfahrungen auf Padlet dokumentieren (8 Min)</h3>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Padlet-Reflexion (via Moodle)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Teilt eure Erkenntnisse auf dem Kurs-Padlet:</strong></p>
+<p><strong>Dokumentiert:</strong></p>
 <ul>
-<li>Sei spezifisch!</li>
-<li>Beispiel: “Studierende können Korrelation und Kausalität nicht unterscheiden”</li>
-<li>Nicht: “Statistik ist schwer”</li>
+<li><strong>Was funktioniert gut?</strong> Welche Prompting-Strategien waren erfolgreich?</li>
+<li><strong>Wo hakt es?</strong> Welche Herausforderungen beim Agent-Design sind aufgetaucht?</li>
+<li><strong>Überraschende Entdeckungen</strong>: Was war anders als erwartet?</li>
+<li><strong>Theorie vs.&nbsp;Praxis</strong>: Wo klafft eine Lücke zwischen Konzept und Umsetzung?</li>
 </ul>
-</section>
-<section id="bereich-2-die-wissenschaft" class="level3">
-<h3 class="anchored" data-anchor-id="bereich-2-die-wissenschaft"><strong>Bereich 2: Die Wissenschaft</strong></h3>
-<p><em>Welches Prinzip wendet ihr an?</em></p>
-<ul class="task-list">
-<li><label><input type="checkbox"><strong>Produktive Anstrengung</strong> (Struggle vor Success)</label></li>
-<li><label><input type="checkbox"><strong>Vorhersagefehler</strong> (Erst raten, dann lernen)</label></li>
-<li><label><input type="checkbox"><strong>Aktiver Abruf</strong> (Retrieval Practice)</label></li>
-<li><label><input type="checkbox"><strong>Verteiltes Lernen</strong> (Spacing)</label></li>
-<li><label><input type="checkbox"><strong>Verschränktes Üben</strong> (Interleaving)</label></li>
-</ul>
-</section>
-<section id="bereich-3-die-ki-rolle" class="level3">
-<h3 class="anchored" data-anchor-id="bereich-3-die-ki-rolle"><strong>Bereich 3: Die KI-Rolle</strong></h3>
-<p>Vervollständigt:</p>
-<ul>
-<li><strong>KI wird:</strong> ________________________________</li>
-<li><strong>KI wird NICHT:</strong> __________________________</li>
-<li><strong>Lernende müssen selbst:</strong> _________________</li>
-</ul>
-</section>
-<section id="bereich-4-der-erfolg" class="level3">
-<h3 class="anchored" data-anchor-id="bereich-4-der-erfolg"><strong>Bereich 4: Der Erfolg</strong></h3>
-<p><em>Was können Lernende NACH eurer Intervention?</em></p>
-<ul>
-<li>Konkret und messbar</li>
-<li>Beispiel: “Können 5 Korrelation ≠ Kausalität Beispiele generieren”</li>
-</ul>
+<p><strong>Lest auch die Beiträge der anderen</strong> und ergänzt mit Kommentaren oder Reactions.</p>
+</div>
+</div>
 <hr>
 </section>
 </section>
-<section id="phase-3-poster-erstellen-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="phase-3-poster-erstellen-10-min">Phase 3: Poster erstellen (10 Min)</h2>
-<section id="euer-poster-layout" class="level3">
-<h3 class="anchored" data-anchor-id="euer-poster-layout">Euer Poster-Layout:</h3>
-<pre><code>┌──────────────────────────────────────┐
-│           TITEL                      │
-├──────────────────────────────────────┤
-│ DAS PROBLEM:                         │
-│ [Was können Lernende nicht?]         │
-│                                      │
-│ DIE LÖSUNG:                          │
-│ [Eure Lernaktivität]                 │
-├──────────────────────────────────────┤
-│ KOGNITIVES PRINZIP:                  │
-│ [z.B. Produktive Anstrengung]        │
-│                                      │
-│                                      │
-├──────────────────────────────────────┤
-│ KI MACHT:         │ LERNENDE TUN:    │
-│ • ____________    │ • ____________   │
-│ • ____________    │ • ____________   │
-│ • ____________    │ • ____________   │
-├──────────────────────────────────────┤
-│ ERFOLG MESSEN:                       │
-│ [Wie erkennt ihr, dass es wirkt?]    │
-└──────────────────────────────────────┘</code></pre>
-<p><strong>Regeln:</strong></p>
+<section id="share-phase-erkenntnisse-aus-der-praxis-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="share-phase-erkenntnisse-aus-der-praxis-15-min">SHARE Phase: Erkenntnisse aus der Praxis (15 Min)</h2>
+<section id="padlet-review-patterns-8-min" class="level3">
+<h3 class="anchored" data-anchor-id="padlet-review-patterns-8-min">Padlet-Review &amp; Patterns (8 Min)</h3>
+<p><strong>Gemeinsame Auswertung der Padlet-Beiträge:</strong></p>
 <ul>
-<li>Aus 2 Meter Entfernung lesbar</li>
-<li>Mehr Visualisierung, weniger Text</li>
+<li>Welche <strong>Prompting-Herausforderungen</strong> tauchen wiederholt auf?</li>
+<li>Wo war die <strong>Theorie-Praxis-Lücke</strong> am größten?</li>
+<li>Welche <strong>erfolgreichen Strategien</strong> können wir identifizieren?</li>
+<li>Was haben wir über <strong>Agent-Verhalten vs.&nbsp;Agent-Intention</strong> gelernt?</li>
 </ul>
+</section>
+<section id="synthese-transfer-7-min" class="level3">
+<h3 class="anchored" data-anchor-id="synthese-transfer-7-min">Synthese &amp; Transfer (7 Min)</h3>
+<p><strong>Von der Praxis zur Anwendung:</strong></p>
+<ul>
+<li><strong>Reality Check</strong>: Was ist realistisch umsetzbar in der eigenen Lehre?</li>
+<li><strong>Prompting</strong>: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?</li>
+<li><strong>Make-it-Stick und KI</strong>: Wo funktioniert die Kombination gut, wo nicht?</li>
+</ul>
+<p><strong>Nächste Schritte:</strong></p>
+<ul>
+<li>Wie könnt ihr das Gelernte in eurer Lehre einsetzen?</li>
+</ul>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Wichtiger Reminder
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Das Ziel war nicht, den perfekten Agent zu bauen</strong>, sondern durch praktisches Ausprobieren zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien <strong>unterstützen</strong> kann - und wo die Herausforderungen beim Prompting liegen.</p>
+</div>
+</div>
 <hr>
 </section>
 </section>
-<section id="phase-4-speed-dating-präsentationen-12-min" class="level2">
-<h2 class="anchored" data-anchor-id="phase-4-speed-dating-präsentationen-12-min">Phase 4: Speed-Dating Präsentationen (12 Min)</h2>
-<section id="ablauf-stay-stray" class="level3">
-<h3 class="anchored" data-anchor-id="ablauf-stay-stray">Ablauf “Stay &amp; Stray”:</h3>
-<ul>
-<li><strong>1 Person bleibt</strong> beim Poster (Präsentierende)</li>
-<li><strong>Die anderen Personen wandern</strong> zu anderen Postern (Lernende)</li>
-</ul>
+<section id="ressourcen" class="level2">
+<h2 class="anchored" data-anchor-id="ressourcen">Ressourcen</h2>
+<section id="handout-die-8-make-it-stick-strategien" class="level3">
+<h3 class="anchored" data-anchor-id="handout-die-8-make-it-stick-strategien">Handout: <a href="./handout-make-it-stick/">Die 8 Make it Stick Strategien</a></h3>
 </section>
-<section id="pro-runde-4-min" class="level3">
-<h3 class="anchored" data-anchor-id="pro-runde-4-min">Pro Runde (4 Min):</h3>
-<ol type="1">
-<li><strong>2 Min:</strong> Präsentierende erklären</li>
-<li><strong>1 Min:</strong> Kurze Fragen</li>
-<li><strong>1 Min:</strong> Besucher Feedback</li>
-<li><strong>Rotation!</strong></li>
-</ol>
-<p><strong>Nach 3 Runden:</strong> Rollentausch!</p>
+<section id="vertiefung-produktive-anstrengung-durch-design" class="level3">
+<h3 class="anchored" data-anchor-id="vertiefung-produktive-anstrengung-durch-design">Vertiefung: <a href="./produktive-anstrengung/">Produktive Anstrengung durch Design</a></h3>
+</section>
+<section id="beispiele-agent-beispiele-für-jede-strategie" class="level3">
+<h3 class="anchored" data-anchor-id="beispiele-agent-beispiele-für-jede-strategie">Beispiele: <a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></h3>
 
 
 </section>
@@ -816,8 +996,8 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../03-lernumgebungen/produktive-anstrengung/index.html" class="pagination-link" aria-label="Produktive Anstrengung durch Design">
-        <span class="nav-page-text">Produktive Anstrengung durch Design</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../03-lernumgebungen/handout-make-it-stick/index.html" class="pagination-link" aria-label="Die 8 Make it Stick Strategien">
+        <span class="nav-page-text">Die 8 Make it Stick Strategien</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

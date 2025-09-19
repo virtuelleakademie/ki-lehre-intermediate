@@ -1,17 +1,28 @@
 ---
-title:  Begrüssungsaufgabe
+title: Aktivierende Einstieg
 ---
 
-Stelle dich kurz vor:
+## Kurze Vorstellungsrunde (5 Min)
 
-1. **Name**
+**Stelle dich kurz vor:**
 
-2. **Institut & Lehrfächer**
+1. **Name & Institut**
+2. **KI-Erfahrung** (Skala 0-10)
+3. **Lehrthema** das du heute mitgebracht hast
 
-3. **Subjektives Erfahrungslevel mit KI (Skala von 0-10)**
 
-4. **Beschreibe kurz: Welche KI-Tools hast du schon genutzt und wofür?** (2-3 Sätze)
+## Heute entwickeln wir gemeinsam (5 Min)
 
-5. **Kannst du dich an einen Moment erinnern, in dem du das Gefühl hattest, etwas wirklich verstanden zu haben? Was hat dazu geführt?** (2-3 Sätze)
+**Unser Ziel**: Jeder entwickelt einen **wissenschaftlich fundierten Copilot Agent** für sein eigenes Lehrthema.
 
-6. **Was erwartest du von diesem Kurs?** (2-3 Sätze)
+### **Was ihr mitgebracht habt:**
+- **Euer spezifisches Lehrthema** (aus der Vorbereitung)
+- **Konkrete Lernprobleme** eurer Studierenden
+- **Erste Ideen** für KI-Unterstützung
+
+### **Was ihr heute lernt:**
+- **Unterschied** zwischen Tools und Agents
+- **8 wissenschaftlich bewährte** Lernstrategien
+- **Praktisches Agent-Design** mit Think-Pair-Share
+- **Konkrete Umsetzung** für eure Lehre
+

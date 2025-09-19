@@ -1,119 +1,177 @@
 ---
-title: "Aktive Verarbeitung: Lernumgebung gestalten"
+title: "KI-gestütztes Lerndesign"
 ---
 
-
-## {{< bi megaphone >}} Aktive Verarbeitung
+## Aktive Verarbeitung
 
 ::: {.active-processing}
-## Produktive Anstrengung durch Design? (50 Min)
+## Copilot Agent für effektives Lernen entwickeln (60 Min)
 
+Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bewährten Lernstrategien aus "Make it Stick" für dein eigenes Lehrthema umsetzt.
 
-Entwickelt in eurer Gruppe eine konkrete Lernaktivität, die:
+**Ziel**: Durch Prompting einen Agent bauen, der das Lernen **fördert**, nicht **ersetzt** - und dabei die praktischen Herausforderungen erleben.
 
-- Ein spezifisches Lernproblem löst
-- Erkenntnisse aus der Kognitionsforschung nutzt
-- KI sinnvoll einbindet (ohne das Lernen zu ersetzen)
-
-
-
-
-**Optional**: Konsultiere den Artikel zum Thema [Produktive Anstrengung durch Design](./produktive-anstrengung/)
+**Format**: Think-Pair-Share mit Live-Testing und Padlet-Reflexion
 :::
 
-## Phase 1: Gruppenbildung (5 Min)
+---
 
-1. **Wähle ein Thema** von der Tafel, das dich interessiert
-2. **Stelle dich** zu deinem Wunschthema
-3. **Bildet Gruppen** von 3-4 Personen
-4. **Holt Material** und sucht euch einen Arbeitsplatz
+## Einführung: Die 8 Make it Stick Strategien (10 Min)
+
+### Die wissenschaftlich bewährten Lernstrategien:
+
+{{< bi book >}} **Vertiefung**: [Die 8 Make it Stick Strategien im Detail](./handout-make-it-stick/)
+
+| Strategie | Kern-Prinzip | Warum effektiv? |
+|-----------|--------------|-----------------|
+| **1. Abrufpraxis** | Aktives Erinnern statt Wiederlesen | Stärkt neuronale Verbindungen |
+| **2. Verteiltes Lernen** | Über Zeit verteilen statt Pauken | Nutzt Vergessen als Lernhilfe |
+| **3. Abwechslung** | Verschiedene Aufgaben/Themen mischen | Trainiert flexible Anwendung |
+| **4. Variation** | In unterschiedlichen Kontexten üben | Fördert Transfer |
+| **5. Wünschenswerte Schwierigkeiten** | Fehler und Anstrengung nutzen | Vertieft Verständnis |
+| **6. Verstehen vs. Vertrautheit** | In eigenen Worten erklären | Echtes vs. oberflächliches Wissen |
+| **7. Feedback & Reflexion** | Korrektur und bewusstes Nachdenken | Selbstregulation |
+| **8. Anwendung** | Wissen in verschiedenen Kontexten | Transferfähigkeit |
+
+::: {.callout-important}
+**Erinnerung**: Ihr habt als Vorbereitung ein **eigenes Lehrthema** mitgebracht---das ist euer Anwendungsbereich!
+
+{{< bi lightbulb >}}**Inspiration**: [Agent-Beispiele für jede Strategie](./agent-beispiele/)
+:::
 
 ---
 
-## Phase 2: Design-Entwicklung (20 Min)
+## THINK Phase: Agent erstellen (25 Min)
 
-### Bearbeitet diese 4 Bereiche (je 5 Min):
+::: {.callout-note}
+## Schritt 1: Strategie wählen (10 Min)
 
-### **Bereich 1: Das Problem**
-*Was genau können/verstehen Lernende NICHT?*
+**Aufgabe**: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.
 
-- Sei spezifisch!
-- Beispiel: "Studierende können Korrelation und Kausalität nicht unterscheiden"
-- Nicht: "Statistik ist schwer"
+**Leitfragen:**
 
-### **Bereich 2: Die Wissenschaft**
-*Welches Prinzip wendet ihr an?*
+- Welches spezifische Problem haben meine Lernenden?
+- Welche Strategie könnte dieses Problem am besten lösen?
+- Bei welcher Strategie sehe ich das grösste Potenzial?
 
-- [ ] **Produktive Anstrengung** (Struggle vor Success)
-- [ ] **Vorhersagefehler** (Erst raten, dann lernen)
-- [ ] **Aktiver Abruf** (Retrieval Practice)
-- [ ] **Verteiltes Lernen** (Spacing)
-- [ ] **Verschränktes Üben** (Interleaving)
+**Notiere:**
 
-### **Bereich 3: Die KI-Rolle**
+- **Gewählte Strategie**: ________________________
+- **Mein Lehrthema**: ________________________
+- **Das spezifische Problem**: ________________________
+:::
 
-Vervollständigt:
+::: {.callout-note}
+## Schritt 2: Agent erstellen & testen (15 Min)
 
-- **KI wird:** ________________________________
-- **KI wird NICHT:** __________________________
-- **Lernende müssen selbst:** _________________
+**Erstelle deinen funktionsfähigen Copilot Agent:**
 
-### **Bereich 4: Der Erfolg**
-*Was können Lernende NACH eurer Intervention?*
+#### Agent-Prompt entwickeln
+Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 
-- Konkret und messbar
-- Beispiel: "Können 5 Korrelation ≠ Kausalität Beispiele generieren"
+**Template-Struktur:**
 
----
+- **Rolle & Mission**: "Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert"
+- **Was der Agent TUT**: Konkrete Funktionen und Verhaltensweisen
+- **Was der Agent NICHT tut**: Grenzen setzen (keine direkten Antworten geben, etc.)
+- **Interaktionsstil**: Wie soll der Agent mit Lernenden kommunizieren?
 
-## Phase 3: Poster erstellen (10 Min)
+#### Testen
 
-### Euer Poster-Layout:
+- Teste deinen Agent mit einer typischen Lernsituation
+- Identifiziere Prompting-Herausforderungen
+- Verfeinere den Prompt basierend auf dem Test
 
-```
-┌──────────────────────────────────────┐
-│           TITEL                      │
-├──────────────────────────────────────┤
-│ DAS PROBLEM:                         │
-│ [Was können Lernende nicht?]         │
-│                                      │
-│ DIE LÖSUNG:                          │
-│ [Eure Lernaktivität]                 │
-├──────────────────────────────────────┤
-│ KOGNITIVES PRINZIP:                  │
-│ [z.B. Produktive Anstrengung]        │
-│                                      │
-│                                      │
-├──────────────────────────────────────┤
-│ KI MACHT:         │ LERNENDE TUN:    │
-│ • ____________    │ • ____________   │
-│ • ____________    │ • ____________   │
-│ • ____________    │ • ____________   │
-├──────────────────────────────────────┤
-│ ERFOLG MESSEN:                       │
-│ [Wie erkennt ihr, dass es wirkt?]    │
-└──────────────────────────────────────┘
-```
+#### Qualitätskontrolle
 
-**Regeln:**
-
-- Aus 2 Meter Entfernung lesbar
-- Mehr Visualisierung, weniger Text
+- **Strategie**: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?
+- **Anstrengung**: Muss der Lernende noch selbst denken und arbeiten?
+- **Gefahr**: Wo nimmt der Agent dem Lernenden zu viel ab?
+- **Verbesserung**: Wo musst du den Prompt noch anpassen?
+:::
 
 ---
 
-## Phase 4: Speed-Dating Präsentationen (12 Min)
+## PAIR Phase: Agents testen & Erfahrungen teilen (20 Min)
 
-### Ablauf "Stay & Stray":
+### Partner finden (2 Min)
 
-- **1 Person bleibt** beim Poster (Präsentierende)
-- **Die anderen Personen wandern** zu anderen Postern (Lernende)
+- Suche dir einen Partner
+- Am besten jemand mit einer **anderen Strategie** oder **anderem Fachbereich**
 
-### Pro Runde (4 Min):
-1. **2 Min:** Präsentierende erklären
-2. **1 Min:** Kurze Fragen
-3. **1 Min:** Besucher Feedback
-4. **Rotation!**
+### Agents teilen (3 Min)
 
+**Demo**: Wie ihr eure Copilot Agents miteinander teilt (wird demonstriert)
 
-**Nach 3 Runden:** Rollentausch!
+### Gegenseitiges Agent-Testing (7 Min)
+
+::: {.callout-tip}
+## Cross-Testing der Agents (parallel)
+**Beide Partner testen gleichzeitig (7 Min):**
+
+- **Person A** testet Agent von Person B
+- **Person B** testet Agent von Person A
+- **Parallel arbeiten** - jeder fokussiert auf den anderen Agent
+
+**Worauf achten:**
+
+- Verwende den Agent für eine typische Lernsituation aus dem Fachbereich deines Partners
+- Fördert der Agent wirklich die gewählte Strategie?
+- Notiere Herausforderungen und Überraschungen
+:::
+
+### Erfahrungen auf Padlet dokumentieren (8 Min)
+
+::: {.callout-important}
+## Padlet-Reflexion (via Moodle)
+**Teilt eure Erkenntnisse auf dem Kurs-Padlet:**
+
+**Dokumentiert:**
+
+- **Was funktioniert gut?** Welche Prompting-Strategien waren erfolgreich?
+- **Wo hakt es?** Welche Herausforderungen beim Agent-Design sind aufgetaucht?
+- **Überraschende Entdeckungen**: Was war anders als erwartet?
+- **Theorie vs. Praxis**: Wo klafft eine Lücke zwischen Konzept und Umsetzung?
+
+**Lest auch die Beiträge der anderen** und ergänzt mit Kommentaren oder Reactions.
+:::
+
+---
+
+## SHARE Phase: Erkenntnisse aus der Praxis (15 Min)
+
+### Padlet-Review & Patterns (8 Min)
+
+**Gemeinsame Auswertung der Padlet-Beiträge:**
+
+- Welche **Prompting-Herausforderungen** tauchen wiederholt auf?
+- Wo war die **Theorie-Praxis-Lücke** am größten?
+- Welche **erfolgreichen Strategien** können wir identifizieren?
+- Was haben wir über **Agent-Verhalten vs. Agent-Intention** gelernt?
+
+### Synthese & Transfer (7 Min)
+
+**Von der Praxis zur Anwendung:**
+
+- **Reality Check**: Was ist realistisch umsetzbar in der eigenen Lehre?
+- **Prompting**: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?
+- **Make-it-Stick und KI**: Wo funktioniert die Kombination gut, wo nicht?
+
+**Nächste Schritte:**
+
+- Wie könnt ihr das Gelernte in eurer Lehre einsetzen?
+
+::: {.callout-tip}
+## Wichtiger Reminder
+**Das Ziel war nicht, den perfekten Agent zu bauen**, sondern durch praktisches Ausprobieren zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien **unterstützen** kann - und wo die Herausforderungen beim Prompting liegen.
+:::
+
+---
+
+## Ressourcen
+
+### Handout: [Die 8 Make it Stick Strategien](./handout-make-it-stick/)
+
+### Vertiefung: [Produktive Anstrengung durch Design](./produktive-anstrengung/)
+
+### Beispiele: [Agent-Beispiele für jede Strategie](./agent-beispiele/)
