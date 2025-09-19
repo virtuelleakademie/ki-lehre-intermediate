@@ -14,7 +14,6 @@ Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bew
 **Format**: Think-Pair-Share mit Live-Testing und Padlet-Reflexion
 :::
 
----
 
 ## Einführung: Die 8 Make it Stick Strategien (10 Min)
 
@@ -39,12 +38,11 @@ Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bew
 {{< bi lightbulb >}}**Inspiration**: [Agent-Beispiele für jede Strategie](./agent-beispiele/)
 :::
 
----
 
 ## THINK Phase: Agent erstellen (25 Min)
 
-::: {.callout-note}
-## Schritt 1: Strategie wählen (10 Min)
+::: {{.active-processing}
+## Schritt 1: Strategie wählen (5 Min)
 
 **Aufgabe**: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.
 
@@ -61,8 +59,8 @@ Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bew
 - **Das spezifische Problem**: ________________________
 :::
 
-::: {.callout-note}
-## Schritt 2: Agent erstellen & testen (15 Min)
+::: {{.active-processing}
+## Schritt 2: Agent erstellen & testen (20 Min)
 
 **Erstelle deinen funktionsfähigen Copilot Agent:**
 
@@ -90,7 +88,6 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 - **Verbesserung**: Wo musst du den Prompt noch anpassen?
 :::
 
----
 
 ## PAIR Phase: Agents testen & Erfahrungen teilen (20 Min)
 
@@ -105,7 +102,7 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 
 ### Gegenseitiges Agent-Testing (7 Min)
 
-::: {.callout-tip}
+::: {.active-processing}
 ## Cross-Testing der Agents (parallel)
 **Beide Partner testen gleichzeitig (7 Min):**
 
@@ -122,7 +119,7 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 
 ### Erfahrungen auf Padlet dokumentieren (8 Min)
 
-::: {.callout-important}
+::: {.active-processing}
 ## Padlet-Reflexion (via Moodle)
 **Teilt eure Erkenntnisse auf dem Kurs-Padlet:**
 
@@ -136,7 +133,6 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 **Lest auch die Beiträge der anderen** und ergänzt mit Kommentaren oder Reactions.
 :::
 
----
 
 ## SHARE Phase: Erkenntnisse aus der Praxis (15 Min)
 
@@ -161,17 +157,20 @@ Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:
 
 - Wie könnt ihr das Gelernte in eurer Lehre einsetzen?
 
-::: {.callout-tip}
+::: {.pro-tip collapse=false}
 ## Wichtiger Reminder
-**Das Ziel war nicht, den perfekten Agent zu bauen**, sondern durch praktisches Ausprobieren zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien **unterstützen** kann - und wo die Herausforderungen beim Prompting liegen.
+Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch praktisches Ausprobieren zu verstehen, wie KI die bewährten Lernstrategien **unterstützen** kann, und wo die Herausforderungen beim Prompting liegen.
 :::
 
----
 
 ## Ressourcen
 
-### Handout: [Die 8 Make it Stick Strategien](./handout-make-it-stick/)
+### Handout
 
-### Vertiefung: [Produktive Anstrengung durch Design](./produktive-anstrengung/)
+[Die 8 Make it Stick Strategien](./handout-make-it-stick/)
 
-### Beispiele: [Agent-Beispiele für jede Strategie](./agent-beispiele/)
+### Vertiefung
+[Produktive Anstrengung durch Design](./produktive-anstrengung/)
+
+### Beispiele
+[Agent-Beispiele für jede Strategie](./agent-beispiele/)

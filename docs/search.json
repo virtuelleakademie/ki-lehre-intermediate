@@ -1569,7 +1569,7 @@
     "href": "03-lernumgebungen/index.html#ressourcen",
     "title": "KI-gestütztes Lerndesign",
     "section": "Ressourcen",
-    "text": "Ressourcen\n\nHandout: Die 8 Make it Stick Strategien\n\n\nVertiefung: Produktive Anstrengung durch Design\n\n\nBeispiele: Agent-Beispiele für jede Strategie",
+    "text": "Ressourcen\n\nHandout\nDie 8 Make it Stick Strategien\n\n\nVertiefung\nProduktive Anstrengung durch Design\n\n\nBeispiele\nAgent-Beispiele für jede Strategie",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"
@@ -2009,7 +2009,7 @@
     "href": "03-lernumgebungen/index.html#think-phase-agent-erstellen-25-min",
     "title": "KI-gestütztes Lerndesign",
     "section": "THINK Phase: Agent erstellen (25 Min)",
-    "text": "THINK Phase: Agent erstellen (25 Min)\n\n\n\n\n\n\nNoteSchritt 1: Strategie wählen (10 Min)\n\n\n\nAufgabe: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.\nLeitfragen:\n\nWelches spezifische Problem haben meine Lernenden?\nWelche Strategie könnte dieses Problem am besten lösen?\nBei welcher Strategie sehe ich das grösste Potenzial?\n\nNotiere:\n\nGewählte Strategie: ________________________\nMein Lehrthema: ________________________\nDas spezifische Problem: ________________________\n\n\n\n\n\n\n\n\n\nNoteSchritt 2: Agent erstellen & testen (15 Min)\n\n\n\nErstelle deinen funktionsfähigen Copilot Agent:\n\nAgent-Prompt entwickeln\nVerwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:\nTemplate-Struktur:\n\nRolle & Mission: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert”\nWas der Agent TUT: Konkrete Funktionen und Verhaltensweisen\nWas der Agent NICHT tut: Grenzen setzen (keine direkten Antworten geben, etc.)\nInteraktionsstil: Wie soll der Agent mit Lernenden kommunizieren?\n\n\n\nTesten\n\nTeste deinen Agent mit einer typischen Lernsituation\nIdentifiziere Prompting-Herausforderungen\nVerfeinere den Prompt basierend auf dem Test\n\n\n\nQualitätskontrolle\n\nStrategie: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?\nAnstrengung: Muss der Lernende noch selbst denken und arbeiten?\nGefahr: Wo nimmt der Agent dem Lernenden zu viel ab?\nVerbesserung: Wo musst du den Prompt noch anpassen?",
+    "text": "THINK Phase: Agent erstellen (25 Min)",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"
@@ -2020,7 +2020,7 @@
     "href": "03-lernumgebungen/index.html#pair-phase-agents-testen-erfahrungen-teilen-20-min",
     "title": "KI-gestütztes Lerndesign",
     "section": "PAIR Phase: Agents testen & Erfahrungen teilen (20 Min)",
-    "text": "PAIR Phase: Agents testen & Erfahrungen teilen (20 Min)\n\nPartner finden (2 Min)\n\nSuche dir einen Partner\nAm besten jemand mit einer anderen Strategie oder anderem Fachbereich\n\n\n\nAgents teilen (3 Min)\nDemo: Wie ihr eure Copilot Agents miteinander teilt (wird demonstriert)\n\n\nGegenseitiges Agent-Testing (7 Min)\n\n\n\n\n\n\nTipCross-Testing der Agents (parallel)\n\n\n\nBeide Partner testen gleichzeitig (7 Min):\n\nPerson A testet Agent von Person B\nPerson B testet Agent von Person A\nParallel arbeiten - jeder fokussiert auf den anderen Agent\n\nWorauf achten:\n\nVerwende den Agent für eine typische Lernsituation aus dem Fachbereich deines Partners\nFördert der Agent wirklich die gewählte Strategie?\nNotiere Herausforderungen und Überraschungen\n\n\n\n\n\nErfahrungen auf Padlet dokumentieren (8 Min)\n\n\n\n\n\n\nImportantPadlet-Reflexion (via Moodle)\n\n\n\nTeilt eure Erkenntnisse auf dem Kurs-Padlet:\nDokumentiert:\n\nWas funktioniert gut? Welche Prompting-Strategien waren erfolgreich?\nWo hakt es? Welche Herausforderungen beim Agent-Design sind aufgetaucht?\nÜberraschende Entdeckungen: Was war anders als erwartet?\nTheorie vs. Praxis: Wo klafft eine Lücke zwischen Konzept und Umsetzung?\n\nLest auch die Beiträge der anderen und ergänzt mit Kommentaren oder Reactions.",
+    "text": "PAIR Phase: Agents testen & Erfahrungen teilen (20 Min)\n\nPartner finden (2 Min)\n\nSuche dir einen Partner\nAm besten jemand mit einer anderen Strategie oder anderem Fachbereich\n\n\n\nAgents teilen (3 Min)\nDemo: Wie ihr eure Copilot Agents miteinander teilt (wird demonstriert)\n\n\nGegenseitiges Agent-Testing (7 Min)\n\n\n\n\n\n\nActive-processingCross-Testing der Agents (parallel)\n\n\n\nBeide Partner testen gleichzeitig (7 Min):\n\nPerson A testet Agent von Person B\nPerson B testet Agent von Person A\nParallel arbeiten - jeder fokussiert auf den anderen Agent\n\nWorauf achten:\n\nVerwende den Agent für eine typische Lernsituation aus dem Fachbereich deines Partners\nFördert der Agent wirklich die gewählte Strategie?\nNotiere Herausforderungen und Überraschungen\n\n\n\n\n\nErfahrungen auf Padlet dokumentieren (8 Min)\n\n\n\n\n\n\nActive-processingPadlet-Reflexion (via Moodle)\n\n\n\nTeilt eure Erkenntnisse auf dem Kurs-Padlet:\nDokumentiert:\n\nWas funktioniert gut? Welche Prompting-Strategien waren erfolgreich?\nWo hakt es? Welche Herausforderungen beim Agent-Design sind aufgetaucht?\nÜberraschende Entdeckungen: Was war anders als erwartet?\nTheorie vs. Praxis: Wo klafft eine Lücke zwischen Konzept und Umsetzung?\n\nLest auch die Beiträge der anderen und ergänzt mit Kommentaren oder Reactions.",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"
@@ -2031,7 +2031,51 @@
     "href": "03-lernumgebungen/index.html#share-phase-erkenntnisse-aus-der-praxis-15-min",
     "title": "KI-gestütztes Lerndesign",
     "section": "SHARE Phase: Erkenntnisse aus der Praxis (15 Min)",
-    "text": "SHARE Phase: Erkenntnisse aus der Praxis (15 Min)\n\nPadlet-Review & Patterns (8 Min)\nGemeinsame Auswertung der Padlet-Beiträge:\n\nWelche Prompting-Herausforderungen tauchen wiederholt auf?\nWo war die Theorie-Praxis-Lücke am größten?\nWelche erfolgreichen Strategien können wir identifizieren?\nWas haben wir über Agent-Verhalten vs. Agent-Intention gelernt?\n\n\n\nSynthese & Transfer (7 Min)\nVon der Praxis zur Anwendung:\n\nReality Check: Was ist realistisch umsetzbar in der eigenen Lehre?\nPrompting: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?\nMake-it-Stick und KI: Wo funktioniert die Kombination gut, wo nicht?\n\nNächste Schritte:\n\nWie könnt ihr das Gelernte in eurer Lehre einsetzen?\n\n\n\n\n\n\n\nTipWichtiger Reminder\n\n\n\nDas Ziel war nicht, den perfekten Agent zu bauen, sondern durch praktisches Ausprobieren zu verstehen, wie KI die wissenschaftlich bewährten Lernstrategien unterstützen kann - und wo die Herausforderungen beim Prompting liegen.",
+    "text": "SHARE Phase: Erkenntnisse aus der Praxis (15 Min)\n\nPadlet-Review & Patterns (8 Min)\nGemeinsame Auswertung der Padlet-Beiträge:\n\nWelche Prompting-Herausforderungen tauchen wiederholt auf?\nWo war die Theorie-Praxis-Lücke am größten?\nWelche erfolgreichen Strategien können wir identifizieren?\nWas haben wir über Agent-Verhalten vs. Agent-Intention gelernt?\n\n\n\nSynthese & Transfer (7 Min)\nVon der Praxis zur Anwendung:\n\nReality Check: Was ist realistisch umsetzbar in der eigenen Lehre?\nPrompting: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?\nMake-it-Stick und KI: Wo funktioniert die Kombination gut, wo nicht?\n\nNächste Schritte:\n\nWie könnt ihr das Gelernte in eurer Lehre einsetzen?\n\n\n\n\n\n\n\nPro-tipWichtiger Reminder\n\n\n\n\n\nDas Ziel war nicht, den perfekten Agent zu bauen, sondern durch praktisches Ausprobieren zu verstehen, wie KI die bewährten Lernstrategien unterstützen kann, und wo die Herausforderungen beim Prompting liegen.",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#schritt-1-strategie-wählen-10-min",
+    "href": "03-lernumgebungen/index.html#schritt-1-strategie-wählen-10-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "Schritt 1: Strategie wählen (10 Min)",
+    "text": "Schritt 1: Strategie wählen (10 Min)\nAufgabe: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.\nLeitfragen:\n\nWelches spezifische Problem haben meine Lernenden?\nWelche Strategie könnte dieses Problem am besten lösen?\nBei welcher Strategie sehe ich das grösste Potenzial?\n\nNotiere:\n\nGewählte Strategie: ________________________\nMein Lehrthema: ________________________\nDas spezifische Problem: ________________________",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#schritt-2-agent-erstellen-testen-15-min",
+    "href": "03-lernumgebungen/index.html#schritt-2-agent-erstellen-testen-15-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "Schritt 2: Agent erstellen & testen (15 Min)",
+    "text": "Schritt 2: Agent erstellen & testen (15 Min)\nErstelle deinen funktionsfähigen Copilot Agent:\n\nAgent-Prompt entwickeln\nVerwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:\nTemplate-Struktur:\n\nRolle & Mission: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert”\nWas der Agent TUT: Konkrete Funktionen und Verhaltensweisen\nWas der Agent NICHT tut: Grenzen setzen (keine direkten Antworten geben, etc.)\nInteraktionsstil: Wie soll der Agent mit Lernenden kommunizieren?\n\n\n\nTesten\n\nTeste deinen Agent mit einer typischen Lernsituation\nIdentifiziere Prompting-Herausforderungen\nVerfeinere den Prompt basierend auf dem Test\n\n\n\nQualitätskontrolle\n\nStrategie: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?\nAnstrengung: Muss der Lernende noch selbst denken und arbeiten?\nGefahr: Wo nimmt der Agent dem Lernenden zu viel ab?\nVerbesserung: Wo musst du den Prompt noch anpassen?",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#schritt-1-strategie-wählen-5-min",
+    "href": "03-lernumgebungen/index.html#schritt-1-strategie-wählen-5-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "Schritt 1: Strategie wählen (5 Min)",
+    "text": "Schritt 1: Strategie wählen (5 Min)\nAufgabe: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.\nLeitfragen:\n\nWelches spezifische Problem haben meine Lernenden?\nWelche Strategie könnte dieses Problem am besten lösen?\nBei welcher Strategie sehe ich das grösste Potenzial?\n\nNotiere:\n\nGewählte Strategie: ________________________\nMein Lehrthema: ________________________\nDas spezifische Problem: ________________________",
+    "crumbs": [
+      "3: KI-gestütztes Lerndesign",
+      "KI-gestütztes Lerndesign"
+    ]
+  },
+  {
+    "objectID": "03-lernumgebungen/index.html#schritt-2-agent-erstellen-testen-20-min",
+    "href": "03-lernumgebungen/index.html#schritt-2-agent-erstellen-testen-20-min",
+    "title": "KI-gestütztes Lerndesign",
+    "section": "Schritt 2: Agent erstellen & testen (20 Min)",
+    "text": "Schritt 2: Agent erstellen & testen (20 Min)\nErstelle deinen funktionsfähigen Copilot Agent:\n\nAgent-Prompt entwickeln\nVerwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:\nTemplate-Struktur:\n\nRolle & Mission: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert”\nWas der Agent TUT: Konkrete Funktionen und Verhaltensweisen\nWas der Agent NICHT tut: Grenzen setzen (keine direkten Antworten geben, etc.)\nInteraktionsstil: Wie soll der Agent mit Lernenden kommunizieren?\n\n\n\nTesten\n\nTeste deinen Agent mit einer typischen Lernsituation\nIdentifiziere Prompting-Herausforderungen\nVerfeinere den Prompt basierend auf dem Test\n\n\n\nQualitätskontrolle\n\nStrategie: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?\nAnstrengung: Muss der Lernende noch selbst denken und arbeiten?\nGefahr: Wo nimmt der Agent dem Lernenden zu viel ab?\nVerbesserung: Wo musst du den Prompt noch anpassen?",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"

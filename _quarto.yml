@@ -168,24 +168,24 @@ custom-callout:
   #   color: "steelblue"
 
 
-  # # Activity Types
-  # individual:
-  #   title: "Individual Work"
-  #   icon-symbol: "💻"
-  #   color: "steelblue"
-  #   collapse: false
+  # Activity Types
+  individual:
+    title: "Individual Work"
+    icon-symbol: "💻"
+    color: "steelblue"
+    collapse: false
 
-  # pair:
-  #   title: "Pair Work"
-  #   icon-symbol: "👥"
-  #   color: "forestgreen"
-  #   collapse: false
+  pair:
+    title: "Pair Work"
+    icon-symbol: "👥"
+    color: "forestgreen"
+    collapse: false
 
-  # group:
-  #   title: "Group Work"
-  #   icon-symbol: "👥"
-  #   color: "purple"
-  #   collapse: false
+  group:
+    title: "Group Work"
+    icon-symbol: "👥"
+    color: "purple"
+    collapse: false
 
   # screens-down:
   #   title: "Screens Down"
@@ -206,11 +206,11 @@ custom-callout:
   #   color: "blue"
   #   collapse: false
 
-  # reflect:
-  #   title: "Reflection"
-  #   icon-symbol: "💭"
-  #   color: "purple"
-  #   collapse: false
+  reflect:
+    title: "Reflection"
+    icon-symbol: "💭"
+    color: "purple"
+    collapse: false
 
   # feedback:
   #   title: "Feedback"
@@ -224,11 +224,11 @@ custom-callout:
   #   color: "orange"
   #   collapse: true
 
-  # pro-tip:
-  #   title: "Pro Tip"
-  #   icon-symbol: "💡"
-  #   color: "gold"
-  #   collapse: true
+  pro-tip:
+    title: "Pro Tip"
+    icon-symbol: "💡"
+    color: "gold"
+    collapse: true
 
   # # Technical Elements
   # prompt-example:
