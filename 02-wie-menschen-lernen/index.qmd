@@ -18,7 +18,7 @@ Warum Anstrengung beim Lernen kein Bug ist---sondern das Feature.
 - **Cognitive Load ist essentiell**: Ohne kognitive Anstrengung keine Expertise-Entwicklung
 - **Gefühl ≠ Realität**: Was sich wie Lernen anfühlt, ist oft das Gegenteil
 
-**Unsere Aufgabe**: Lernumgebungen mit KI gestalten, die gezielt **lernrelevante kognitive Last** fördern---z.B. durch die 8 Strategien aus Make-it-Stick [@brownMakeItStick].
+**Unsere Aufgabe**: Lernumgebungen mit KI gestalten, die gezielt **lernrelevante kognitive Last** fördern---z.B. durch die 8 Strategien aus Make-it-Stick [@brownMakeItStick2014].
 
 ::: {.callout-tip}
 ## Überleitung zur Praxis
