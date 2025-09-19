@@ -2,7 +2,7 @@
 title: "Ablauf"
 ---
 
-## Workshop-Ablauf: KI in der Lehre - Intermediate (3 Stunden)
+## Workshop-Ablauf: KI in der Lehre: Intermediate (3 Stunden)
 
 | {{< bi clock-fill >}} Zeit | {{< bi collection-fill >}} Thema                                       | {{< bi hourglass-split >}} Dauer |
 |----------------------------|------------------------------------------------------------------------|----------------------------------|
