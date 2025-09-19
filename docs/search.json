@@ -970,22 +970,11 @@
     ]
   },
   {
-    "objectID": "03-lernumgebungen/index.html#aktive-verarbeitung",
-    "href": "03-lernumgebungen/index.html#aktive-verarbeitung",
-    "title": "KI-gestütztes Lerndesign",
-    "section": "",
-    "text": "Active-processingCopilot Agent für effektives Lernen entwickeln (60 Min)\n\n\n\nErstelle und teste einen funktionsfähigen Copilot Agent, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.\nZiel: Durch Prompting einen Agent bauen, der das Lernen fördert, nicht ersetzt - und dabei die praktischen Herausforderungen erleben.\nFormat: Think-Pair-Share mit Live-Testing und Padlet-Reflexion",
-    "crumbs": [
-      "3: KI-gestütztes Lerndesign",
-      "KI-gestütztes Lerndesign"
-    ]
-  },
-  {
     "objectID": "03-lernumgebungen/index.html#einführung-die-8-make-it-stick-strategien-10-min",
     "href": "03-lernumgebungen/index.html#einführung-die-8-make-it-stick-strategien-10-min",
     "title": "KI-gestütztes Lerndesign",
     "section": "Einführung: Die 8 Make it Stick Strategien (10 Min)",
-    "text": "Einführung: Die 8 Make it Stick Strategien (10 Min)\n\nDie wissenschaftlich bewährten Lernstrategien:\n Vertiefung: Die 8 Make it Stick Strategien im Detail\n\n\n\n\n\n\n\n\nStrategie\nKern-Prinzip\nWarum effektiv?\n\n\n\n\n1. Abrufpraxis\nAktives Erinnern statt Wiederlesen\nStärkt neuronale Verbindungen\n\n\n2. Verteiltes Lernen\nÜber Zeit verteilen statt Pauken\nNutzt Vergessen als Lernhilfe\n\n\n3. Abwechslung\nVerschiedene Aufgaben/Themen mischen\nTrainiert flexible Anwendung\n\n\n4. Variation\nIn unterschiedlichen Kontexten üben\nFördert Transfer\n\n\n5. Wünschenswerte Schwierigkeiten\nFehler und Anstrengung nutzen\nVertieft Verständnis\n\n\n6. Verstehen vs. Vertrautheit\nIn eigenen Worten erklären\nEchtes vs. oberflächliches Wissen\n\n\n7. Feedback & Reflexion\nKorrektur und bewusstes Nachdenken\nSelbstregulation\n\n\n8. Anwendung\nWissen in verschiedenen Kontexten\nTransferfähigkeit\n\n\n\n\n\n\n\n\n\nErinnerung: Ihr habt als Vorbereitung ein eigenes Lehrthema mitgebracht—das ist euer Anwendungsbereich!\nInspiration: Agent-Beispiele für jede Strategie",
+    "text": "Einführung: Die 8 Make it Stick Strategien (10 Min)\n\nDie wissenschaftlich bewährten Lernstrategien:\n Vertiefung: Die 8 Make it Stick Strategien im Detail\n\n\n\n\n\n\n\n\nStrategie\nKern-Prinzip\nWarum effektiv?\n\n\n\n\n1. Abrufpraxis\nAktives Erinnern statt Wiederlesen\nStärkt neuronale Verbindungen\n\n\n2. Verteiltes Lernen\nÜber Zeit verteilen statt Pauken\nNutzt Vergessen als Lernhilfe\n\n\n3. Abwechslung\nVerschiedene Aufgaben/Themen mischen\nTrainiert flexible Anwendung\n\n\n4. Variation\nIn unterschiedlichen Kontexten üben\nFördert Transfer\n\n\n5. Wünschenswerte Schwierigkeiten\nFehler und Anstrengung nutzen\nVertieft Verständnis\n\n\n6. Verstehen vs. Vertrautheit\nIn eigenen Worten erklären\nEchtes vs. oberflächliches Wissen\n\n\n7. Feedback & Reflexion\nKorrektur und bewusstes Nachdenken\nSelbstregulation\n\n\n8. Anwendung\nWissen in verschiedenen Kontexten\nTransferfähigkeit\n\n\n\n\n\n\n\n\n\nActive-processingErinnerung\n\n\n\nIhr habt als Vorbereitung ein eigenes Lehrthema mitgebracht—das ist euer Anwendungsbereich!\nInspiration: Agent-Beispiele für jede Strategie",
     "crumbs": [
       "3: KI-gestütztes Lerndesign",
       "KI-gestütztes Lerndesign"
@@ -1137,14 +1126,14 @@
   {
     "objectID": "resources/resources.html",
     "href": "resources/resources.html",
-    "title": "",
+    "title": "KI in der Lehre: Intermediate",
     "section": "",
     "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
   },
   {
     "objectID": "resources/resources.html#ki-orientierungshilfe-der-bfh",
     "href": "resources/resources.html#ki-orientierungshilfe-der-bfh",
-    "title": "",
+    "title": "KI in der Lehre: Intermediate",
     "section": "",
     "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
   },

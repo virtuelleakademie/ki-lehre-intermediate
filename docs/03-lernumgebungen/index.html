@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KI-gestütztes Lerndesign</title>
+<title>KI-gestütztes Lerndesign – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,26 +89,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-active-processing.callout {
@@ -122,15 +111,26 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -144,33 +144,34 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: purple;
+div.callout-individual.callout {
+  border-left-color: steelblue;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 </style>
 
 
-<meta property="og:title" content="KI-gestütztes Lerndesign">
+<meta property="og:title" content="KI-gestütztes Lerndesign – KI in der Lehre: Intermediate">
 <meta property="og:description" content="">
+<meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -181,6 +182,9 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -306,8 +310,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#aktive-verarbeitung" id="toc-aktive-verarbeitung" class="nav-link active" data-scroll-target="#aktive-verarbeitung">Aktive Verarbeitung</a></li>
-  <li><a href="#einführung-die-8-make-it-stick-strategien-10-min" id="toc-einführung-die-8-make-it-stick-strategien-10-min" class="nav-link" data-scroll-target="#einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</a>
+  <li><a href="#einführung-die-8-make-it-stick-strategien-10-min" id="toc-einführung-die-8-make-it-stick-strategien-10-min" class="nav-link active" data-scroll-target="#einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</a>
   <ul class="collapse">
   <li><a href="#die-wissenschaftlich-bewährten-lernstrategien" id="toc-die-wissenschaftlich-bewährten-lernstrategien" class="nav-link" data-scroll-target="#die-wissenschaftlich-bewährten-lernstrategien">Die wissenschaftlich bewährten Lernstrategien:</a></li>
   </ul></li>
@@ -357,12 +360,11 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </header>
 
 
-<section id="aktive-verarbeitung" class="level2">
-<h2 class="anchored" data-anchor-id="aktive-verarbeitung">Aktive Verarbeitung</h2>
-<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
+<!-- ## Aktive Verarbeitung -->
+<div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Active-processing</span>Copilot Agent für effektives Lernen entwickeln (60 Min)
@@ -374,7 +376,6 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <p><strong>Format</strong>: Think-Pair-Share mit Live-Testing und Padlet-Reflexion</p>
 </div>
 </div>
-</section>
 <section id="einführung-die-8-make-it-stick-strategien-10-min" class="level2">
 <h2 class="anchored" data-anchor-id="einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</h2>
 <section id="die-wissenschaftlich-bewährten-lernstrategien" class="level3">
@@ -436,15 +437,18 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p><strong>Erinnerung</strong>: Ihr habt als Vorbereitung ein <strong>eigenes Lehrthema</strong> mitgebracht—das ist euer Anwendungsbereich!</p>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Erinnerung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ihr habt als Vorbereitung ein <strong>eigenes Lehrthema</strong> mitgebracht—das ist euer Anwendungsbereich!</p>
 <p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i><strong>Inspiration</strong>: <a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></p>
-</div>
 </div>
 </div>
 </section>
@@ -515,10 +519,10 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </section>
 <section id="gegenseitiges-agent-testing-7-min" class="level3">
 <h3 class="anchored" data-anchor-id="gegenseitiges-agent-testing-7-min">Gegenseitiges Agent-Testing (7 Min)</h3>
-<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
+<div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Active-processing</span>Cross-Testing der Agents (parallel)
@@ -542,10 +546,10 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </section>
 <section id="erfahrungen-auf-padlet-dokumentieren-8-min" class="level3">
 <h3 class="anchored" data-anchor-id="erfahrungen-auf-padlet-dokumentieren-8-min">Erfahrungen auf Padlet dokumentieren (8 Min)</h3>
-<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
+<div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Active-processing</span>Padlet-Reflexion (via Moodle)
@@ -589,17 +593,17 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <ul>
 <li>Wie könnt ihr das Gelernte in eurer Lehre einsetzen?</li>
 </ul>
-<div class="callout callout-style-simple callout-pro-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Pro-tip</span>Wichtiger Reminder
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch praktisches Ausprobieren zu verstehen, wie KI die bewährten Lernstrategien <strong>unterstützen</strong> kann, und wo die Herausforderungen beim Prompting liegen.</p>
 </div>

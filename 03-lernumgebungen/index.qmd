@@ -2,7 +2,7 @@
 title: "KI-gestütztes Lerndesign"
 ---
 
-## Aktive Verarbeitung
+<!-- ## Aktive Verarbeitung -->
 
 ::: {.active-processing}
 ## Copilot Agent für effektives Lernen entwickeln (60 Min)
@@ -32,8 +32,9 @@ Erstelle und teste einen **funktionsfähigen Copilot Agent**, der eine der 8 bew
 | **7. Feedback & Reflexion** | Korrektur und bewusstes Nachdenken | Selbstregulation |
 | **8. Anwendung** | Wissen in verschiedenen Kontexten | Transferfähigkeit |
 
-::: {.callout-important}
-**Erinnerung**: Ihr habt als Vorbereitung ein **eigenes Lehrthema** mitgebracht---das ist euer Anwendungsbereich!
+::: {.active-processing}
+## Erinnerung
+Ihr habt als Vorbereitung ein **eigenes Lehrthema** mitgebracht---das ist euer Anwendungsbereich!
 
 {{< bi lightbulb >}}**Inspiration**: [Agent-Beispiele für jede Strategie](./agent-beispiele/)
 :::

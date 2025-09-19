@@ -13,7 +13,7 @@
   <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Andrew Ellis">
-  <title>Was sind Agents?</title>
+  <title>KI in der Lehre: Intermediate – Was sind Agents?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -139,15 +139,15 @@
     }
   </style>
   <style>
-  div.callout-active-processing.callout {
+  div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
+  div.callout-agent-potential.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
     background-image: none;
   }
   div.callout-individual.callout {
@@ -161,37 +161,15 @@
     content: '💻';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-agent-potential.callout {
+  div.callout-active-processing.callout {
     border-left-color: #9A4665;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
+  div.callout-active-processing.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-pro-tip.callout {
@@ -216,9 +194,32 @@
     content: '💭';
     background-image: none;
   }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-group.callout {
+    border-left-color: purple;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
   </style>
-<meta property="og:title" content="Was sind Agents?">
+<meta property="og:title" content="Was sind Agents? – KI in der Lehre: Intermediate">
 <meta property="og:description" content="Von Tools zu autonomen Partnern">
+<meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 <body class="quarto-light">
   <div class="reveal">

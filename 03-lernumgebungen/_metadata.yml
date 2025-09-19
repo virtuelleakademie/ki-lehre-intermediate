@@ -14,13 +14,13 @@ format:
         toc: true
         code-fold: false
         code-link: true
-        callout-appearance: minimal
+        # callout-appearance: minimal
         callout-icon: true
 # editor:
 #   markdown:
 #     wrap: 72
 # code:
-#   tidy: true
+#   tidy: trueqq
 #   tidy_opts:
 #     width.cutoff: 80
 # filters:
