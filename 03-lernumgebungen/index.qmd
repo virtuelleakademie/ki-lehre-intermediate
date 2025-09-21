@@ -1,5 +1,7 @@
 ---
 title: "KI-gestütztes Lerndesign"
+# filters:
+  # - linkate
 ---
 
 <!-- ## Aktive Verarbeitung -->

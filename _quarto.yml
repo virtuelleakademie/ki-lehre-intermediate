@@ -149,6 +149,7 @@ revealjs-plugins:
 filters:
   - timer
   - custom-callout
+  # - linkate
 
 custom-callout:
   active-processing:
