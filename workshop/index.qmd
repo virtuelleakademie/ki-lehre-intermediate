@@ -8,39 +8,44 @@ title: "Ablauf"
 |----------------------------|------------------------------------------------------------------------|----------------------------------|
 | **09:00 - 09:10**          | {{< bi collection-play >}} **Einstieg**                                |                                  |
 |                            | [Aktivierende Begrüssung](einstieg/index.qmd)                          | 10 min                           |
-| **09:10 - 10:10**          | {{< bi collection-play >}} **Teil 1: KI verstehen**                    |                                  |
-|                            | [Hauptpräsentation: KI & Agents](../01-ki-verstehen/index.qmd)         | 60 min                           |
-| **10:10 - 10:25**          | {{< bi cup-hot-fill >}} **Pause**                                |                                  |
-|                            | Kaffee                                                  | 15 min                           |
-| **10:25 - 10:45**          | {{< bi collection-play >}} **Teil 2: Lernen verstehen**                |                                  |
-|                            | [Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd) | 20 min                           |
-| **10:45 - 11:45**          | {{< bi collection-play >}} **Teil 3: KI-gestütztes Lerndesign**        |                                  |
-|                            | [Think-Pair-Share: Agent-Design](../03-lernumgebungen/index.qmd)       | 60 min                           |
+| **09:10 - 10:00**          | {{< bi collection-play >}} **Teil 1: Lernen verstehen**                |                                  |
+|                            | [Wie Menschen lernen](../01-lernen-verstehen/index.qmd)                 | 50 min                           |
+| **10:00 - 10:15**          | {{< bi cup-hot-fill >}} **Pause**                                      |                                  |
+|                            | Kaffee                                                                  | 15 min                           |
+| **10:15 - 10:20**          | {{< bi collection-play >}} **Retrieval Activation**                    |                                  |
+|                            | Abrufpraxis: 3 Konzepte ohne Notizen                                   | 5 min                            |
+| **10:20 - 10:50**          | {{< bi collection-play >}} **Teil 2: KI & Lernen**                     |                                  |
+|                            | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 30 min                           |
+| **10:50 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
+|                            | [Aufgaben analysieren & Agent gestalten](../03-praxis/index.qmd)        | 55 min                           |
 | **11:45 - 12:00**          | {{< bi collection-play >}} **Transfer & Abschluss**                    |                                  |
 |                            | [Umsetzung & nächste Schritte](diskussion/index.qmd)                   | 15 min                           |
 
 
 ## Lernziele
 
-Am Ende des Workshops können die Teilnehmer:
+Am Ende des Workshops können die Teilnehmer:innen:
 
-1. **KI verstehen**: Unterschied zwischen Tools und Agents erkennen
-2. **Lernen verstehen**: Wissenschaftlich etablierte Lernstrategien anwenden
-3. **Praxis umsetzen**: Einen Copilot Agent für ihr eigenes Lehrthema konzipieren
-4. **Transfer leisten**: Konkrete nächste Schritte für die eigene Lehre formulieren
+1. **Lernen verstehen**: Erklären, warum kognitive Anstrengung der Mechanismus für Expertise-Entwicklung ist
+2. **KI einordnen**: Unterscheiden, wann KI-Nutzung Lernen unterstützt (Offloading) und wann sie es verhindert (Outsourcing)
+3. **Aufgaben analysieren**: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen
+4. **Praxis umsetzen**: Einen KI-Agent gestalten, der produktive Anstrengung fördert statt ersetzt
 
 
 ## Vorbereitung
 
 ### Inhaltliche Vorbereitung (10 Min.)
 
-Wähle ein Thema aus deiner Lehre, das du im Workshop bearbeiten möchtest (z.B. ein schwieriges Konzept, ein Prüfungsthema, ein häufiges Verständnisproblem). 
+**Bringe eine eigene Aufgabe oder Prüfung mit**, die du im Workshop analysieren und überarbeiten möchtest (z.B. eine Hausaufgabe, eine Seminararbeit, eine Übungsaufgabe).
+
 Überlege dir dazu:
 
-- Welche Hürden haben mein Studierende beim Lernen? 
-- Wie könnten KI-Tools dabei helfen?
+- Welche Hürden haben meine Studierenden beim Lernen?
+- Wo könnten Studierende KI-Tools einsetzen --- hilfreich oder problematisch?
+- Was sollen die Studierenden *wirklich können* nach dieser Aufgabe?
 
 ### Lektüre und Reflexion (15 Min.)
+
 Lies diesen [Blog Post](https://barbarageyer.substack.com/p/von-zetteln-zu-prompts) von Barbara Geyer zum Thema Künstliche Intelligenz und Lernstrategien.
 Notiere dir:
 
