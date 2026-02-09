@@ -1,37 +1,103 @@
 ---
-title: "Wie Menschen lernen"
+title: "KI & Lernen"
 ---
 
-## Lernpsychologie trifft KI (20 Min)
+Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen --- und wann verhindert sie es?
 
-Warum Anstrengung beim Lernen kein Bug ist---sondern das Feature.
+::: {.active-processing}
+### Retrieval Activation (5 Min)
 
-## {{< bi file-slides >}} Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht
+Bevor wir weitergehen: **Schreibe 3 zentrale Konzepte aus Teil 1 auf --- ohne Notizen.**
 
-{{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
+Was fällt dir ein? Was musst du nachschlagen?
 
-## Die zentrale Erkenntnis
+*Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung.*
+:::
 
-**Das Lernparadox verstehen:**
 
-- **Produktivität ≠ Lernen**: KI macht uns produktiver, aber verhindert oft echtes Lernen
-- **Cognitive Load ist essentiell**: Ohne kognitive Anstrengung keine Expertise-Entwicklung
-- **Gefühl ≠ Realität**: Was sich wie Lernen anfühlt, ist oft das Gegenteil
+## {{< bi file-slides >}} Was bedeutet das für KI?
 
-**Unsere Aufgabe**: Lernumgebungen mit KI gestalten, die gezielt **lernrelevante kognitive Last** fördern---z.B. durch die 8 Strategien aus Make-it-Stick [@brownMakeItStick2014].
+{{< revealjs file="../slides/ki-und-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+## Offloading vs. Outsourcing
+
+Die entscheidende Unterscheidung --- **kategorial, nicht graduell:**
+
+| | Cognitive Offloading | Cognitive Outsourcing |
+|---|---|---|
+| **Definition** | Tool reduziert Arbeitsgedächtnis-Last, *während* die Person denkt | Tool *übernimmt* das Denken |
+| **Beispiel** | Taschenrechner bei Problemlösung | KI schreibt den Aufsatz |
+| **Lernrelevante Last** | Bleibt erhalten | **Wird eliminiert** |
+| **Expertise-Entwicklung** | Wird unterstützt | **Wird verhindert** |
+
+> **Outsourcing eliminiert germane load --- das ist keine Nebenwirkung, das ist der Mechanismus.**
+
+Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht "Dürfen Studierende KI nutzen?" sondern "Wird das Denken ausgelagert oder nur unterstützt?"
+
+
+## Das Evaluationsparadox
+
+Ein verbreiteter Vorschlag: *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
+
+Das Problem: **Um KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.**
+
+- Expert:innen haben unabhängige Bewertungskriterien --- sie erkennen Fehler sofort
+- Anfänger:innen fehlen diese Kriterien --- "kritische Bewertung" wird zu oberflächlichem Prüfen
+- **Kompetente Nutzung setzt Kompetenz voraus**
+
+Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.
+
+
+## Lernen ≠ Leisten
+
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben.
+
+### Cargo Cult Scholarship
+
+Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit --- Hedging, Zitationen, Fachvokabular --- ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht.
+
+### "The Beach, Not the Ant"
+
+> Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
+
+Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"* sondern **"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
+
+### Die Equity-Dimension
+
+Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
+
+- Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen
+- Schwächere Studierende werden am meisten geschädigt --- ihnen fehlt genau die Grundlage, die eine kritische Nutzung erfordern würde
+- KI-Policy ist nicht nur eine Frage der akademischen Integrität --- es ist eine **pädagogische Gerechtigkeitsfrage**
+
+
+## Das 5-Fragen-Framework
+
+Ein praktisches Werkzeug für die Aufgabengestaltung:
+
+| Frage | Wenn ja... |
+|-------|-----------|
+| 1. Geht es primär ums **Lernen**? | → Outsourcing verhindern |
+| 2. Werden noch **Grundlagen** aufgebaut? | → Interne Verarbeitung verlangen |
+| 3. Muss **internes Wissen** nachgewiesen werden? | → Outsourcing unmöglich machen |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | → Aufgabe umgestalten |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | → KI für die Prüfphase nutzen |
 
 ::: {.callout-tip}
-## Überleitung zur Praxis
-**Jetzt seid ihr dran**: Entwickelt einen Agent, der wissenschaftlich fundiert eine der 8 Strategien für euer Lehrthema umsetzt.
+### Überleitung zur Praxis
+
+**Jetzt seid ihr dran**: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an --- und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*.
 :::
+
+→ [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)
+
 
 ---
 
 ## Vertiefende Ressourcen
 
-- [Die 8 Make it Stick Strategien im Detail](../03-lernumgebungen/handout-make-it-stick/)
-- [Agent-Beispiele für jede Strategie](../03-lernumgebungen/agent-beispiele/)
+### Für das Selbststudium
 
-### Für das Selbststudium:
-- [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/) - Wissenschaftliche Grundlagen der Expertise-Entwicklung
-
+- [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/) --- Wissenschaftliche Grundlagen der Expertise-Entwicklung
+- [Produktive Anstrengung durch Design](../03-praxis/produktive-anstrengung/) --- Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
