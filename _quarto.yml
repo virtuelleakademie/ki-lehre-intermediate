@@ -101,7 +101,6 @@ website:
       background: light
       contents:
         - 02-ki-und-lernen/index.qmd
-        - 02-ki-und-lernen/kompetenz-erwerben/index.qmd
 
     - title: "Teil 3: Praxis"
       style: "docked"
