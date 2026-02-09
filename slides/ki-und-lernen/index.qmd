@@ -1,0 +1,139 @@
+---
+title: "KI & Lernen"
+subtitle: "Wann KI das Lernen unterstützt --- und wann sie es verhindert"
+---
+
+
+## Offloading vs. Outsourcing {.smaller}
+
+**Die entscheidende Unterscheidung --- kategorial, nicht graduell**
+
+| | **Cognitive Offloading** | **Cognitive Outsourcing** |
+|---|---|---|
+| **Was passiert** | Tool reduziert Arbeitsgedächtnis-Last, *während* die Person denkt | Tool *übernimmt* das Denken |
+| **Beispiel** | Taschenrechner bei Problemlösung | KI schreibt den Aufsatz |
+| **Lernrelevante Last** | Bleibt erhalten | **Wird eliminiert** |
+| **Expertise** | Wird unterstützt | **Wird verhindert** |
+
+::: {.callout-warning}
+**Outsourcing eliminiert germane load --- das ist keine Nebenwirkung, das ist der Mechanismus.**
+:::
+
+
+## Die Frage ist nicht... {.center}
+
+. . .
+
+*"Dürfen Studierende KI nutzen?"*
+
+. . .
+
+### Sondern: "Wird das Denken ausgelagert oder nur unterstützt?"
+
+
+## Das Evaluationsparadox {.smaller}
+
+**Ein verbreiteter Vorschlag:**
+
+> *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
+
+. . .
+
+**Das Problem:**
+
+Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, die das Lernen erst entwickeln soll.
+
+. . .
+
+| | Expert:innen | Anfänger:innen |
+|---|---|---|
+| **Bewertungskriterien** | Unabhängig vorhanden | Fehlen |
+| **KI-Fehler** | Sofort erkennbar | Nicht erkennbar |
+| **"Kritische Nutzung"** | Echte Evaluation | Oberflächliches Prüfen |
+
+. . .
+
+::: {.callout-important}
+### Kompetente Nutzung setzt Kompetenz voraus
+Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.
+:::
+
+
+## Lernen ≠ Leisten {.smaller}
+
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben.
+
+. . .
+
+### Cargo Cult Scholarship
+
+Texte mit allen **Oberflächenmerkmalen** akademischer Arbeit --- Hedging, Zitationen, Fachvokabular --- ohne die zugrundeliegende intellektuelle Arbeit.
+
+. . .
+
+Tückischer als Plagiat, weil es **Selbsttäuschung** ist.
+
+
+## "The Beach, Not the Ant" {.center}
+
+> Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
+
+. . .
+
+Die richtige Frage ist nicht:
+
+*"Wie verhindern wir, dass Studierende schummeln?"*
+
+. . .
+
+Sondern:
+
+**"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
+
+
+## Die Equity-Dimension {.smaller}
+
+Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
+
+- **Stärkere** Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
+- **Schwächere** Studierende: werden am meisten geschädigt --- ihnen fehlt die Grundlage für kritische Nutzung
+
+. . .
+
+::: {.callout-warning}
+KI-Policy ist nicht nur eine Frage der akademischen Integrität --- es ist eine **pädagogische Gerechtigkeitsfrage**.
+:::
+
+
+## Das 5-Fragen-Framework {.smaller}
+
+Ein praktisches Werkzeug für die Aufgabengestaltung:
+
+| Frage | Wenn ja... |
+|-------|-----------|
+| 1. Geht es primär ums **Lernen**? | Outsourcing verhindern |
+| 2. Werden noch **Grundlagen** aufgebaut? | Interne Verarbeitung verlangen |
+| 3. Muss **internes Wissen** nachgewiesen werden? | Outsourcing unmöglich machen |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | Aufgabe umgestalten |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | KI für die Prüfphase nutzen |
+
+
+## Die goldene Regel {.center}
+
+### Versuch → dann → Prüfe
+
+. . .
+
+1. Studierende machen **zuerst** einen eigenen Versuch
+2. **Dann** wird mit KI verglichen, geprüft, oder erweitert
+
+. . .
+
+Die Reihenfolge bewahrt den **Prediction-Error-Mechanismus**:
+
+Studierende bilden Vorhersagen → scheitern an der Realität → lernen daraus
+
+
+## Jetzt seid ihr dran {.center}
+
+Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an --- und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*.
