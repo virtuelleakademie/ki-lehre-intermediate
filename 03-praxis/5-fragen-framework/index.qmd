@@ -1,0 +1,125 @@
+---
+title: "Das 5-Fragen-Framework"
+subtitle: "Aufgaben für das KI-Zeitalter gestalten"
+---
+
+## Überblick
+
+Dieses Framework hilft, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie **lernrelevante kognitive Verarbeitung** bewahren --- oder ob KI-Tools das Denken der Studierenden ersetzen können.
+
+Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wird, folgt eine klare Handlungsempfehlung.
+
+
+## Die 5 Fragen
+
+### Frage 1: Geht es primär ums Lernen?
+
+**Unterscheide Lern- von Leistungskontexten.**
+
+- **Lernkontext** (Übungen, Hausaufgaben, Selbststudium): Der Prozess zählt, nicht das Produkt → KI-Outsourcing *verhindern*
+- **Leistungskontext** (Prüfungen, professionelle Aufgaben): Das Ergebnis zählt → KI-Unterstützung kann sinnvoll sein
+
+> **Wenn ja**: Outsourcing verhindern. Die kognitive Anstrengung *ist* das Lernziel.
+
+
+### Frage 2: Werden noch Grundlagen aufgebaut?
+
+**Wo stehen die Studierenden auf dem Anfänger-Experten-Kontinuum?**
+
+- **Grundlagenphase** (Anfänger:innen): Interne Verarbeitung ist essentiell für Schemabildung → KI erst *nach* dem eigenen Versuch
+- **Fortgeschrittene Phase**: Expert:innen haben die Schemas bereits --- KI kann als Verstärker dienen
+
+> **Wenn ja**: Interne Verarbeitung verlangen. Studierende müssen die Grundlagen *selbst* aufbauen, bevor KI-Tools sinnvoll eingesetzt werden können (→ Evaluationsparadox).
+
+
+### Frage 3: Muss internes Wissen nachgewiesen werden?
+
+**Kann die Aufgabe nur mit *eigenem* Wissen gelöst werden?**
+
+- Mündliche Prüfungen, Erklärungen in eigenen Worten, spontane Anwendung
+- Wenn nicht: Kann KI die Aufgabe stellvertretend lösen?
+
+> **Wenn ja**: Outsourcing unmöglich machen. Aufgabenformate wählen, die *internes* Wissen erfordern (z.B. mündliche Komponenten, Erklärungen, unangekündigte Anwendung).
+
+
+### Frage 4: Kann KI die Aufgabe ohne Denkarbeit der Studierenden erledigen?
+
+**Der Reality Check**: Gib die Aufgabe testweise an ein KI-Tool. Produziert es ein akzeptables Ergebnis?
+
+- Wenn ja: Die Aufgabe testet *Produktion*, nicht *Verstehen*
+- Lösung: Aufgabe umgestalten, sodass der *Denkprozess* sichtbar wird
+
+> **Wenn ja**: Aufgabe umgestalten. Persönliche Erfahrungen einbauen, Prozessdokumentation verlangen, mündliche Komponenten hinzufügen, Troubleshooting statt Lösungsfindung.
+
+
+### Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?
+
+**Die goldene Regel für KI im Lernkontext:**
+
+1. Studierende machen *zuerst* einen eigenen Versuch (Hypothese generieren, Lösung skizzieren, Argument formulieren)
+2. *Dann* wird mit KI verglichen, geprüft oder erweitert
+
+> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt den Prediction-Error-Mechanismus: Studierende bilden Vorhersagen, die an der Realität (oder am KI-Output) scheitern --- und daraus lernen.
+
+
+## Anwendungsbeispiel: Volkswirtschaftslehre
+
+**Ursprüngliche Aufgabe**: "Analysieren Sie die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
+
+| Frage | Analyse |
+|-------|---------|
+| 1. Lernen? | Ja --- Hausaufgabe im 2. Semester |
+| 2. Grundlagen? | Ja --- makroökonomische Modelle werden gerade aufgebaut |
+| 3. Internes Wissen? | Nein --- Text kann mit KI produziert werden |
+| 4. KI ohne Denkarbeit? | Ja --- ChatGPT liefert eine solide Analyse |
+| 5. Versuch-dann-Prüfe? | Nein --- keine Struktur dafür |
+
+**Redesign:**
+
+- **Phase 1**: Studierende skizzieren *zuerst* ihre eigene kausale Argumentationskette (handschriftlich oder zeitbegrenzt)
+- **Phase 2**: KI-generierte Analyse als Vergleich --- Studierende identifizieren Unterschiede und bewerten beide Argumentationen
+- **Phase 3**: Mündliche Kurzpräsentation der Synthese (2 Min)
+
+→ Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
+
+
+## Disziplinspezifische Hinweise
+
+### Mathematik und Naturwissenschaften
+
+- Problemlösung *ohne* KI verlangen, dann mit KI-Lösung vergleichen
+- Erklärungsfragen einbauen ("Warum funktioniert dieser Schritt?")
+- Zwei-Phasen-Aufgaben: Handschriftlich → dann mit Tools prüfen
+
+### Schreiben und Geisteswissenschaften
+
+- Persönliche/erfahrungsbasierte Komponenten einbauen
+- Prozessdokumentation verlangen (Entwürfe, Gedankenprotokolle)
+- Mündliche Komponenten (Verteidigung, Erklärung)
+- Fokus auf das Denken *hinter* dem Text, nicht den Text selbst
+
+### Professionelle Fächer
+
+- Simulierte Praxis ohne KI (Beratungsgespräche, klinische Entscheidungen)
+- Echtzeitreasoning unter Zeitdruck
+- Fälle mit Ambiguität, die kein eindeutiges "richtig" haben
+
+### Sprachen
+
+- Spontane mündliche Interaktion maximieren
+- Zeitbegrenzte Schreibübungen
+- KI als Post-Produktions-Check, nicht als Produktionstool
+
+
+## Zusammenfassung
+
+```
+Geht es ums Lernen?
+  └─ Ja → Werden Grundlagen aufgebaut?
+              └─ Ja → Internes Wissen nötig?
+                          └─ Nein → Aufgabe umgestalten
+                          └─ Ja → Versuch-dann-Prüfe?
+                                      └─ Nein → Struktur einbauen
+                                      └─ Ja → KI sinnvoll einsetzbar
+  └─ Nein → KI-Unterstützung kann sinnvoll sein
+```
