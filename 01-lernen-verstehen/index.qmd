@@ -1,76 +1,127 @@
 ---
-title: "KI verstehen"
+title: "Wie Menschen lernen"
 ---
 
-In diesem ersten Teil des Workshops legen wir die Grundlagen für ein fundiertes Verständnis von Künstlicher Intelligenz im Bildungskontext. Wir beginnen mit einer klaren Einordnung, was KI ist und wie sie funktioniert – insbesondere die Large Language Models (LLMs), die hinter Chatbots wie ChatGPT stehen. Du lernst die Mechanismen der Textvorhersage kennen, verstehst die Stärken und Grenzen dieser Technologie und erhältst praktische Einblicke ins effektive Prompting. 
+Warum Anstrengung beim Lernen kein Bug ist --- sondern das Feature.
 
-Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen über den didaktisch sinnvollen Einsatz von KI in deiner Lehre treffen zu können. Der Fokus liegt dabei nicht auf technischen Details, sondern auf dem für die Lehre relevanten Verständnis: Was kann KI leisten, was nicht, und was bedeutet das für das Lernen deiner Studierenden?
+In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus der Perspektive der kognitiven Psychologie? Was passiert im Gehirn, wenn wir Neues lernen? Und warum ist das, was sich wie Lernen *anfühlt*, oft das Gegenteil?
+
+Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen über den Einsatz von KI in der Lehre treffen zu können.
 
 
+## {{< bi file-slides >}} Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht
 
-## {{< bi file-slides >}} Was ist Künstliche Intelligenz
+{{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
-::: {.callout-note appearance="minimal" collapse=true}
-## Optional
-{{< revealjs file="../slides/was-ist-ki/index.html" class="ratio ratio-16x9" >}}
+
+## Die kognitive Architektur
+
+### Arbeitsgedächtnis: Der Flaschenhals
+
+Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Jeder Denkakt --- Verstehen, Problemlösen, Entscheiden --- muss durch diesen Flaschenhals.
+
+::: {.active-processing}
+### Arbeitsgedächtnis erleben (3 Min)
+
+**Digit Span Demo:** Wie viele Zahlen kannst du dir merken?
+
+1. Die Kursleitung liest Zahlenfolgen vor (beginnend mit 4 Ziffern)
+2. Nach jeder Folge: aufschreiben, was du behalten hast
+3. Wann wird es schwierig?
+
+**Die Pointe**: Dieses Erlebnis *ist* die Lernarchitektur. Jeder Gedanke eurer Studierenden durchläuft genau diesen Flaschenhals.
+:::
+
+### Langzeitgedächtnis: Der unbegrenzte Speicher
+
+Das Langzeitgedächtnis ist praktisch unbegrenzt --- aber die Eintrittskarte ist *Anstrengung*. Passives Aufnehmen genügt nicht; aktives Abrufen, Elaborieren und Verknüpfen sind nötig.
+
+
+## Vom Anfänger zum Experten
+
+### Was unterscheidet Anfänger von Experten?
+
+Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organisiertes Langzeitgedächtnis** --- mit reichen, vernetzten Schemas, die als "Chunks" funktionieren.
+
+| | Anfänger | Experte |
+|---|---|---|
+| **Wissen** | Isolierte Fakten (deklarativ) | Vernetzte Schemas (prozedural) |
+| **Verarbeitung** | Bewusst, langsam, fehleranfällig | Automatisiert, schnell, flexibel |
+| **Arbeitsgedächtnis** | Schnell überlastet | Effizient durch Chunking |
+
+### Wissenskompilation: Der Lernprozess
+
+Der Weg vom Anfänger zum Experten erfordert **tausende Zyklen** von:
+
+> Vorhersage → Versuch → Fehler → Anpassung
+
+Dieses Prinzip --- **Prediction Error Learning** --- ist der zentrale Mechanismus, durch den Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte Modelle baut.
+
+**Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, nicht ab. Selbst erfahrene Sportlerinnen setzen mehr explizites Wissen ein als Anfängerinnen --- nicht weniger.
+
+### Expertise Reversal Effect
+
+Was Anfängern hilft, schadet Experten --- und umgekehrt:
+
+- **Worked Examples** sind für Anfänger effektiver als Problemlösen
+- Für Experten kehrt sich dieser Effekt um
+- Die Asymmetrie zwischen Anfängern und Experten wird ein zentrales Thema für KI in der Lehre
+
+
+## Warum Anstrengung das Feature ist
+
+### Wünschenswerte Schwierigkeiten (Desirable Difficulties)
+
+Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lernen erzeugen:
+
+1. **Abrufpraxis (Retrieval Practice)**: Aktives Erinnern statt Wiederlesen
+2. **Verteiltes Lernen (Spacing)**: Über Zeit verteilen statt Pauken
+3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
+4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
+
+### Die metakognitive Falle
+
+> Was sich wie Lernen *anfühlt*, ist oft keines. Was sich *schwierig anfühlt*, produziert oft das beste Lernen.
+
+Fliessend lesen = "Ich verstehe das". Aber: Vertrautheit ist nicht Verständnis. Die metakognitive Falle: Subjektive Leichtigkeit ist ein schlechter Indikator für tatsächliches Lernen.
+
+### Cognitive Load Theory
+
+Drei Arten kognitiver Belastung:
+
+| Typ | Beschreibung | Ziel |
+|-----|-------------|------|
+| **Intrinsisch** | Komplexität des Materials selbst | Angemessen dosieren |
+| **Extrinsisch** | Schlechtes Design, Ablenkung | **Minimieren** |
+| **Germane** (lernrelevant) | Anstrengung für Schemabildung | **Maximieren** |
+
+**Das Designprinzip:** Extrinsische Last reduzieren → Raum schaffen für germane (lernrelevante) Last.
+
+
+## {{< bi megaphone >}} Fallstudien-Analyse
+
+::: {.pair}
+### Case Study Analysis (10 Min)
+
+Analysiert in Paaren zwei Szenarien --- ein effektives und ein ineffektives Beispiel für KI-Integration in der Lehre.
+
+**Leitfrage:** *Welches Szenario erzeugt mehr Lernen? Warum?*
+
+Nutzt die Konzepte aus Teil 1:
+
+- Arbeitsgedächtnis & Langzeitgedächtnis
+- Prediction Error Learning
+- Desirable Difficulties & metakognitive Falle
+- Cognitive Load Theory (extrinsisch vs. germane)
+
+→ [Fallstudien-Material](../03-praxis/fallstudien/)
 :::
 
 
-## {{< bi file-slides >}} Wie funktionieren Chatbots?
+---
 
-{{< revealjs file="../slides/was-sind-chatbots/index.html" height="500px" class="ratio ratio-16x9" >}}
+## Vertiefende Ressourcen
 
+### Für das Selbststudium
 
-## {{< bi megaphone >}} Aktive Verarbeitung
-
-::: {.active-processing collapse=true}
-## Wie funktionieren LLMs? (5 Min)
-
-**Aufgabe:** Erkläre deinem Nachbarn in eigenen Worten:
-
-**Phase 1 (2 Min):** Partner A erklärt Partner B:
-
-- Wie "lernt" ein LLM aus Texten?
-- Was bedeutet "Vorhersage des nächsten Wortes"?
-
-**Phase 2 (2 Min):** Partner B erklärt Partner A:
-
-- Was können LLMs?
-- Was können sie nicht?
-
-**Phase 3 (1 Min):** Gemeinsam identifizieren:
-
-- Was sind die Implikationen für das Lernen eurer Studierenden?
-
-:::
-
-
-
-
-## {{< bi file-slides >}} Was sind Agents?
-
-{{< revealjs file="../slides/was-sind-agenten/index.html" height="500px" class="ratio ratio-16x9" >}}
-
-
-
-## {{< bi file-slides >}} Möglichkeiten und Grenzen
-
-{{< revealjs file="../slides/möglichkeiten-grenzen/index.html" height="500px" class="ratio ratio-16x9" >}}
-
-
-## {{< bi file-slides >}} Prompting Tipps
-
-::: {.callout-note appearance="minimal" collapse=true}
-## Optional
-
-{{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
-:::
-
-
-## {{< bi book>}} Weiterführende Kurse
-
-- [KI in der Lehre: Beginner](https://virtuelleakademie.github.io/ki-lehre-beginner/workshop/)
-- [KI in der Lehre: Intermediate](https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/)
-- [KI in der Lehre: Advanced](https://virtuelleakademie.github.io/ki-lehre-advanced/workshop/)
-- [KI in der Lehre: Refresher](https://www.bfh.ch/de/weiterbildung/kurse/ki-in-der-lehre-refresher/)
-<!-- ## {{< bi file-slides >}} Bibliographie -->
+- [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/) --- Wissenschaftliche Grundlagen der Expertise-Entwicklung
