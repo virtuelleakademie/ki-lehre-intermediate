@@ -11,9 +11,9 @@ project:
   render:
     - index.qmd
     - workshop/**/*.qmd
-    - 01-ki-verstehen/**/*.qmd
-    - 02-wie-menschen-lernen/**/*.qmd
-    - 03-lernumgebungen/**/*.qmd
+    - 01-lernen-verstehen/**/*.qmd
+    - 02-ki-und-lernen/**/*.qmd
+    - 03-praxis/**/*.qmd
     - resources/**/*.qmd
     - slides/**/*.qmd
 
@@ -39,15 +39,15 @@ website:
       - icon: card-list
         href: workshop/index.qmd
         text: Workshop
-      - icon: motherboard
-        href: 01-ki-verstehen/index.qmd
-        text: "1: KI verstehen"
       - icon: person-gear
-        href: 02-wie-menschen-lernen/index.qmd
-        text: "2: Lernen"
+        href: 01-lernen-verstehen/index.qmd
+        text: "1: Lernen verstehen"
+      - icon: motherboard
+        href: 02-ki-und-lernen/index.qmd
+        text: "2: KI & Lernen"
       - icon: marker-tip
-        href: 03-lernumgebungen/index.qmd
-        text: "3: KI-gestütztes Lerndesign"
+        href: 03-praxis/index.qmd
+        text: "3: Praxis"
 
     right:
       - icon: file-slides
@@ -82,37 +82,38 @@ website:
       contents:
         - workshop/index.qmd
         - workshop/einstieg/index.qmd
-        # - 01-ki-verstehen/index.qmd
-        # - 02-wie-menschen-lernen/index.qmd
-        # - 03-lernumgebungen/index.qmd
+        # - 01-lernen-verstehen/index.qmd
+        # - 02-ki-und-lernen/index.qmd
+        # - 03-praxis/index.qmd
         - workshop/diskussion/index.qmd
 
-    # - title: "Teil 1: KI verstehen"
-    #   style: "docked"
-    #   search: true
-    #   background: light
-    #   contents:
-    #     - 01-ki-verstehen/index.qmd
-    #     # - 01-ki-verstehen/selbststudium/index.qmd
-
-
-    - title: "Teil 2: Wie Menschen lernen "
+    - title: "Teil 1: Lernen verstehen"
       style: "docked"
       search: true
       background: light
       contents:
-        - 02-wie-menschen-lernen/index.qmd
-        - 02-wie-menschen-lernen/kompetenz-erwerben/index.qmd
+        - 01-lernen-verstehen/index.qmd
+        - 01-lernen-verstehen/kompetenz-erwerben/index.qmd
 
-    - title: "Teil 3: KI-gestütztes Lerndesign"
+    - title: "Teil 2: KI & Lernen"
       style: "docked"
       search: true
       background: light
       contents:
-        - 03-lernumgebungen/index.qmd
-        - 03-lernumgebungen/handout-make-it-stick/index.qmd
-        - 03-lernumgebungen/agent-beispiele/index.qmd
-        - 03-lernumgebungen/produktive-anstrengung/index.qmd
+        - 02-ki-und-lernen/index.qmd
+        - 02-ki-und-lernen/kompetenz-erwerben/index.qmd
+
+    - title: "Teil 3: Praxis"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - 03-praxis/index.qmd
+        - 03-praxis/5-fragen-framework/index.qmd
+        - 03-praxis/fallstudien/index.qmd
+        - 03-praxis/handout-make-it-stick/index.qmd
+        - 03-praxis/agent-beispiele/index.qmd
+        - 03-praxis/produktive-anstrengung/index.qmd
 
 page-footer:
     right:
