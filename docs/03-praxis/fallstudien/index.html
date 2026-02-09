@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>How Humans Learn – KI in der Lehre: Intermediate</title>
+<title>Fallstudien: KI-Integration in der Lehre – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,6 +30,8 @@ div.csl-indent {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../03-praxis/handout-make-it-stick/index.html" rel="next">
+<link href="../../03-praxis/5-fragen-framework/index.html" rel="prev">
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -58,9 +40,9 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -68,7 +50,6 @@ div.csl-indent {
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,28 +89,6 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
 div.callout-reflect.callout {
   border-left-color: purple;
 }
@@ -139,39 +98,6 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -185,31 +111,76 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 </style>
- 
-  <style>
-  .slide-deck {
-      border: 3px solid #dee2e6;
-      width: 100%;
-  }
-  </style>
-  
 
 
-<meta property="og:title" content="How Humans Learn – KI in der Lehre: Intermediate">
-<meta property="og:description" content="">
+<meta property="og:title" content="Fallstudien: KI-Integration in der Lehre – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Effektiv vs.&nbsp;ineffektiv — und warum">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
@@ -226,19 +197,19 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../01-ki-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../../01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
-<span class="menu-text">1: KI verstehen</span></a>
+<span class="menu-text">1: Lernen verstehen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../02-wie-menschen-lernen/index.html"> <i class="bi bi-person-gear" role="img">
+    <a class="nav-link" href="../../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
-<span class="menu-text">2: Lernen</span></a>
+<span class="menu-text">2: KI &amp; Lernen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../03-lernumgebungen/index.html"> <i class="bi bi-marker-tip" role="img">
+    <a class="nav-link active" href="../../03-praxis/index.html" aria-current="page"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">3: KI-gestütztes Lerndesign</span></a>
+<span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -274,17 +245,94 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../03-praxis/fallstudien/index.html">Fallstudien: KI-Integration in der Lehre</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vom Wissen zum Handeln</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Das 5-Fragen-Framework</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die 8 Make it Stick Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produktive Anstrengung durch Design</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#presentation" id="toc-presentation" class="nav-link active" data-scroll-target="#presentation"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Presentation</a></li>
+  <li><a href="#übersicht" id="toc-übersicht" class="nav-link active" data-scroll-target="#übersicht">Übersicht</a></li>
+  <li><a href="#fallstudie-a-einführung-in-die-programmierung" id="toc-fallstudie-a-einführung-in-die-programmierung" class="nav-link" data-scroll-target="#fallstudie-a-einführung-in-die-programmierung">Fallstudie A: Einführung in die Programmierung</a>
+  <ul class="collapse">
+  <li><a href="#szenario-a1-ki-als-problemlöser" id="toc-szenario-a1-ki-als-problemlöser" class="nav-link" data-scroll-target="#szenario-a1-ki-als-problemlöser">Szenario A1: “KI als Problemlöser”</a></li>
+  <li><a href="#szenario-a2-ki-als-debugging-partner" id="toc-szenario-a2-ki-als-debugging-partner" class="nav-link" data-scroll-target="#szenario-a2-ki-als-debugging-partner">Szenario A2: “KI als Debugging-Partner”</a></li>
+  </ul></li>
+  <li><a href="#fallstudie-b-wissenschaftliches-schreiben" id="toc-fallstudie-b-wissenschaftliches-schreiben" class="nav-link" data-scroll-target="#fallstudie-b-wissenschaftliches-schreiben">Fallstudie B: Wissenschaftliches Schreiben</a>
+  <ul class="collapse">
+  <li><a href="#szenario-b1-ki-gestütztes-schreiben" id="toc-szenario-b1-ki-gestütztes-schreiben" class="nav-link" data-scroll-target="#szenario-b1-ki-gestütztes-schreiben">Szenario B1: “KI-gestütztes Schreiben”</a></li>
+  <li><a href="#szenario-b2-denken-vor-dem-schreiben" id="toc-szenario-b2-denken-vor-dem-schreiben" class="nav-link" data-scroll-target="#szenario-b2-denken-vor-dem-schreiben">Szenario B2: “Denken vor dem Schreiben”</a></li>
+  </ul></li>
+  <li><a href="#fallstudie-c-medizinische-fallanalyse" id="toc-fallstudie-c-medizinische-fallanalyse" class="nav-link" data-scroll-target="#fallstudie-c-medizinische-fallanalyse">Fallstudie C: Medizinische Fallanalyse</a>
+  <ul class="collapse">
+  <li><a href="#szenario-c1-ki-als-diagnose-assistent" id="toc-szenario-c1-ki-als-diagnose-assistent" class="nav-link" data-scroll-target="#szenario-c1-ki-als-diagnose-assistent">Szenario C1: “KI als Diagnose-Assistent”</a></li>
+  <li><a href="#szenario-c2-hypothese-vor-konsultation" id="toc-szenario-c2-hypothese-vor-konsultation" class="nav-link" data-scroll-target="#szenario-c2-hypothese-vor-konsultation">Szenario C2: “Hypothese vor Konsultation”</a></li>
+  </ul></li>
+  <li><a href="#allgemeine-reflexionsfragen" id="toc-allgemeine-reflexionsfragen" class="nav-link" data-scroll-target="#allgemeine-reflexionsfragen">Allgemeine Reflexionsfragen</a></li>
   </ul>
 </nav>
     </div>
@@ -293,7 +341,8 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Humans Learn</h1>
+<h1 class="title">Fallstudien: KI-Integration in der Lehre</h1>
+<p class="subtitle lead">Effektiv vs.&nbsp;ineffektiv — und warum</p>
 </div>
 
 
@@ -310,29 +359,111 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </header>
 
 
-<p>This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R <span class="citation" data-cites="andersonAdaptiveCharacterThought2013 andersonHowCanHuman2007">(<a href="#ref-andersonAdaptiveCharacterThought2013" role="doc-biblioref">Anderson 2013</a>, <a href="#ref-andersonHowCanHuman2007" role="doc-biblioref">2007</a>)</span> theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.</p>
-<p><strong>The key takeaway:</strong> Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.</p>
-<section id="presentation" class="level2">
-<h2 class="anchored" data-anchor-id="presentation"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Presentation</h2>
-    <p><a href="../../slides/how-humans-learn/index.html" target="_blank">View slides in full screen</a></p>
-       <div class="ratio ratio-16x9">
-      <iframe class="slide-deck" src="../../slides/how-humans-learn/index.html" height="500px"></iframe>
-    </div>
-  
-<p><br> <br></p>
-
+<section id="übersicht" class="level2">
+<h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
+<p>Diese Fallstudien dienen als Material für die <strong>Paaranalyse in Teil 1</strong> des Workshops. Jedes Paar enthält ein effektives und ein ineffektives Beispiel für KI-Integration — analysiert mit den Konzepten der kognitiven Lernpsychologie.</p>
+</section>
+<section id="fallstudie-a-einführung-in-die-programmierung" class="level2">
+<h2 class="anchored" data-anchor-id="fallstudie-a-einführung-in-die-programmierung">Fallstudie A: Einführung in die Programmierung</h2>
+<section id="szenario-a1-ki-als-problemlöser" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-a1-ki-als-problemlöser">Szenario A1: “KI als Problemlöser”</h3>
+<p>Eine Dozentin erlaubt Studierenden, ChatGPT für ihre Programmieraufgaben zu nutzen. Die Studierenden beschreiben ihr Problem, erhalten funktionierenden Code, fügen ihn ein, und reichen die Aufgabe ein. Die Abgabequote steigt auf 95%, die Code-Qualität ist hoch.</p>
+</section>
+<section id="szenario-a2-ki-als-debugging-partner" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-a2-ki-als-debugging-partner">Szenario A2: “KI als Debugging-Partner”</h3>
+<p>Dieselbe Dozentin ändert die Struktur: Studierende müssen <em>zuerst</em> eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst <em>nach</em> einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: “Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft — aber gib mir nicht die Lösung.”</p>
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Welches Szenario erzeugt mehr <strong>Prediction Errors</strong> bei den Studierenden?</li>
+<li>Wo findet <strong>Wissenskompilation</strong> statt — und wo nicht?</li>
+<li>Wie verteilt sich die <strong>kognitive Last</strong> in beiden Szenarien (extrinsisch vs.&nbsp;germane)?</li>
+<li>Was passiert mit der <strong>Expertise-Entwicklung</strong> in beiden Fällen?</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="fallstudie-b-wissenschaftliches-schreiben" class="level2">
+<h2 class="anchored" data-anchor-id="fallstudie-b-wissenschaftliches-schreiben">Fallstudie B: Wissenschaftliches Schreiben</h2>
+<section id="szenario-b1-ki-gestütztes-schreiben" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-b1-ki-gestütztes-schreiben">Szenario B1: “KI-gestütztes Schreiben”</h3>
+<p>Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu schreiben. Die Studierenden prompten ChatGPT mit ihrem Thema, überarbeiten den Output, fügen Quellenangaben hinzu und reichen ab. Die Texte sind sprachlich korrekt und gut strukturiert.</p>
+</section>
+<section id="szenario-b2-denken-vor-dem-schreiben" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-b2-denken-vor-dem-schreiben">Szenario B2: “Denken vor dem Schreiben”</h3>
+<p>Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf <em>ohne</em> KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.</p>
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Wo liegt das <strong>Evaluationsparadox</strong>? Können Studierende in Szenario B1 die KI-Outputs tatsächlich kritisch bewerten?</li>
+<li>Inwiefern ist Szenario B1 ein Beispiel für <strong>Cargo Cult Scholarship</strong>?</li>
+<li>Welche Rolle spielt die <strong>Versuch-dann-Prüfe-Struktur</strong> in Szenario B2?</li>
+<li>Wie wirkt sich jedes Szenario auf die <strong>Equity</strong> aus — werden schwächere Studierende gleich oder unterschiedlich betroffen?</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="fallstudie-c-medizinische-fallanalyse" class="level2">
+<h2 class="anchored" data-anchor-id="fallstudie-c-medizinische-fallanalyse">Fallstudie C: Medizinische Fallanalyse</h2>
+<section id="szenario-c1-ki-als-diagnose-assistent" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-c1-ki-als-diagnose-assistent">Szenario C1: “KI als Diagnose-Assistent”</h3>
+<p>In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und erhalten differenzialdiagnostische Vorschläge. Sie wählen die plausibelste Diagnose und dokumentieren sie.</p>
+</section>
+<section id="szenario-c2-hypothese-vor-konsultation" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-c2-hypothese-vor-konsultation">Szenario C2: “Hypothese vor Konsultation”</h3>
+<p>Im gleichen Kurs müssen Studierende <em>zuerst</em> ihre eigene Differenzialdiagnose formulieren — mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: “Was habe ich übersehen? Warum?”</p>
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Welches Szenario fördert die <strong>Schemabildung</strong> für klinisches Reasoning?</li>
+<li>Wo findet <strong>Offloading</strong> statt, wo <strong>Outsourcing</strong>?</li>
+<li>Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs.&nbsp;KI → Auswahl) auf das <strong>Lernen</strong> aus?</li>
+<li>Welches Szenario bereitet besser auf Situationen vor, in denen <em>keine</em> KI verfügbar ist?</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="allgemeine-reflexionsfragen" class="level2">
+<h2 class="anchored" data-anchor-id="allgemeine-reflexionsfragen">Allgemeine Reflexionsfragen</h2>
+<p>Nach der Paaranalyse — für die Plenumsrunde:</p>
+<ol type="1">
+<li>Was unterscheidet die effektiven von den ineffektiven Szenarien?</li>
+<li>Gibt es ein gemeinsames <strong>Designprinzip</strong>, das alle effektiven Szenarien teilen?</li>
+<li>Wie lässt sich dieses Prinzip auf <em>eure eigene</em> Lehre übertragen?</li>
+</ol>
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-andersonHowCanHuman2007" class="csl-entry" role="listitem">
-Anderson, John R. 2007. <em>How <span>Can</span> the <span>Human Mind Occur</span> in the <span>Physical Universe</span>?</em> Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780195324259.001.0001">https://doi.org/10.1093/acprof:oso/9780195324259.001.0001</a>.
-</div>
-<div id="ref-andersonAdaptiveCharacterThought2013" class="csl-entry" role="listitem">
-———. 2013. <em>The <span>Adaptive Character</span> of <span>Thought</span></em>. New York: Psychology Press. <a href="https://doi.org/10.4324/9780203771730">https://doi.org/10.4324/9780203771730</a>.
-</div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -740,6 +871,18 @@ Anderson, John R. 2007. <em>How <span>Can</span> the <span>Human Mind Occur</spa
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../03-praxis/5-fragen-framework/index.html" class="pagination-link" aria-label="Das 5-Fragen-Framework">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Das 5-Fragen-Framework</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../03-praxis/handout-make-it-stick/index.html" class="pagination-link" aria-label="Die 8 Make it Stick Strategien">
+        <span class="nav-page-text">Die 8 Make it Stick Strategien</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

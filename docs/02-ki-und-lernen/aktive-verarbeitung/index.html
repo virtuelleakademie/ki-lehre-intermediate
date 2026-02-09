@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KI verstehen – KI in der Lehre: Intermediate</title>
+<title>Aktive Verarbeitung – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,32 +23,31 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="..//assets/robot.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//assets/robot.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,39 +87,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -130,17 +96,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -165,19 +120,54 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 </style>
- 
-  <style>
-  .slide-deck {
-      border: 3px solid #dee2e6;
-      width: 100%;
-  }
-  </style>
-  
 
 
-<meta property="og:title" content="KI verstehen – KI in der Lehre: Intermediate">
-<meta property="og:description" content="">
+<meta property="og:title" content="Aktive Verarbeitung – KI in der Lehre: Intermediate">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
@@ -188,9 +178,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
   </div>
@@ -201,24 +189,24 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../workshop/index.html"> <i class="bi bi-card-list" role="img">
+    <a class="nav-link" href="../../workshop/index.html"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../01-ki-verstehen/index.html" aria-current="page"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../../01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
-<span class="menu-text">1: KI verstehen</span></a>
+<span class="menu-text">1: Lernen verstehen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../02-wie-menschen-lernen/index.html"> <i class="bi bi-person-gear" role="img">
+    <a class="nav-link" href="../../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
-<span class="menu-text">2: Lernen</span></a>
+<span class="menu-text">2: KI &amp; Lernen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../03-lernumgebungen/index.html"> <i class="bi bi-marker-tip" role="img">
+    <a class="nav-link" href="../../03-praxis/index.html"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">3: KI-gestütztes Lerndesign</span></a>
+<span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -230,19 +218,19 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
         <li>
-    <a class="dropdown-item" href="../assets/pdfs/Begleitdokument.pdf">
+    <a class="dropdown-item" href="../../assets/pdfs/Begleitdokument.pdf">
  <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf">
+    <a class="dropdown-item" href="../../assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf">
  <span class="dropdown-text">Begleitdokument: KI Policy (PDF)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/resources.html">
+    <a class="dropdown-item" href="../../resources/resources.html">
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../assets/pdfs/Orientierungshilfe.pdf">
+    <a class="dropdown-item" href="../../assets/pdfs/Orientierungshilfe.pdf">
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
   </li>  
     </ul>
@@ -259,27 +247,15 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#was-ist-künstliche-intelligenz" id="toc-was-ist-künstliche-intelligenz" class="nav-link active" data-scroll-target="#was-ist-künstliche-intelligenz"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Was ist Künstliche Intelligenz</a></li>
-  <li><a href="#wie-funktionieren-chatbots" id="toc-wie-funktionieren-chatbots" class="nav-link" data-scroll-target="#wie-funktionieren-chatbots"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Wie funktionieren Chatbots?</a></li>
-  <li><a href="#aktive-verarbeitung" id="toc-aktive-verarbeitung" class="nav-link" data-scroll-target="#aktive-verarbeitung"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Aktive Verarbeitung</a></li>
-  <li><a href="#was-sind-agents" id="toc-was-sind-agents" class="nav-link" data-scroll-target="#was-sind-agents"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Was sind Agents?</a></li>
-  <li><a href="#möglichkeiten-und-grenzen" id="toc-möglichkeiten-und-grenzen" class="nav-link" data-scroll-target="#möglichkeiten-und-grenzen"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Möglichkeiten und Grenzen</a></li>
-  <li><a href="#prompting-tipps" id="toc-prompting-tipps" class="nav-link" data-scroll-target="#prompting-tipps"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Prompting Tipps</a></li>
-  <li><a href="#weiterführende-kurse" id="toc-weiterführende-kurse" class="nav-link" data-scroll-target="#weiterführende-kurse"><i class="bi-book " style="" role="img" aria-hidden="true"></i> Weiterführende Kurse</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">KI verstehen</h1>
+<h1 class="title">Aktive Verarbeitung</h1>
 </div>
 
 
@@ -296,122 +272,52 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 </header>
 
 
-<p>In diesem ersten Teil des Workshops legen wir die Grundlagen für ein fundiertes Verständnis von Künstlicher Intelligenz im Bildungskontext. Wir beginnen mit einer klaren Einordnung, was KI ist und wie sie funktioniert – insbesondere die Large Language Models (LLMs), die hinter Chatbots wie ChatGPT stehen. Du lernst die Mechanismen der Textvorhersage kennen, verstehst die Stärken und Grenzen dieser Technologie und erhältst praktische Einblicke ins effektive Prompting.</p>
-<p>Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen über den didaktisch sinnvollen Einsatz von KI in deiner Lehre treffen zu können. Der Fokus liegt dabei nicht auf technischen Details, sondern auf dem für die Lehre relevanten Verständnis: Was kann KI leisten, was nicht, und was bedeutet das für das Lernen deiner Studierenden?</p>
-<section id="was-ist-künstliche-intelligenz" class="level2">
-<h2 class="anchored" data-anchor-id="was-ist-künstliche-intelligenz"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Was ist Künstliche Intelligenz</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Optional
+<span class="screen-reader-only">Active-processing</span>Think-Pair-Share: Kognitive Anstrengung und Lernen
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-    <p><a href="../slides/was-ist-ki/index.html" target="_blank">View slides in full screen</a></p>
-       <div class="ratio ratio-16x9">
-      <iframe class="slide-deck" src="../slides/was-ist-ki/index.html" height="475px"></iframe>
-    </div>
-  
-</div>
-</div>
-</div>
-</section>
-<section id="wie-funktionieren-chatbots" class="level2">
-<h2 class="anchored" data-anchor-id="wie-funktionieren-chatbots"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Wie funktionieren Chatbots?</h2>
-    <p><a href="../slides/was-sind-chatbots/index.html" target="_blank">View slides in full screen</a></p>
-       <div class="ratio ratio-16x9">
-      <iframe class="slide-deck" src="../slides/was-sind-chatbots/index.html" height="500px"></iframe>
-    </div>
-  
-</section>
-<section id="aktive-verarbeitung" class="level2">
-<h2 class="anchored" data-anchor-id="aktive-verarbeitung"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Aktive Verarbeitung</h2>
-<div class="callout callout-style-default callout-active-processing callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Wie funktionieren LLMs? (5 Min)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><strong>Aufgabe:</strong> Erkläre deinem Nachbarn in eigenen Worten:</p>
-<p><strong>Phase 1 (2 Min):</strong> Partner A erklärt Partner B:</p>
+<section id="think-5-minuten" class="level3">
+<h3 class="anchored" data-anchor-id="think-5-minuten"><strong>Think (5 Minuten)</strong></h3>
+<p>Individuelle Reflexion zu den Fragen:</p>
+<p><strong>Wähle eine Frage aus, die dir am ehesten zusagt:</strong></p>
 <ul>
-<li>Wie “lernt” ein LLM aus Texten?</li>
-<li>Was bedeutet “Vorhersage des nächsten Wortes”?</li>
+<li>Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?</li>
+<li>Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden?</li>
+<li>Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?</li>
 </ul>
-<p><strong>Phase 2 (2 Min):</strong> Partner B erklärt Partner A:</p>
+<p><strong>Notiere kurz:</strong></p>
+<ol type="1">
+<li>Deine gewählte Frage und warum sie dich anspricht</li>
+<li>Ein konkretes Beispiel aus deiner eigenen Lern-/Lehrerfahrung</li>
+<li>Eine konkrete Veränderung, die du basierend auf dieser Erkenntnis vornehmen könntest</li>
+</ol>
+</section>
+<section id="pair-5-minuten" class="level3">
+<h3 class="anchored" data-anchor-id="pair-5-minuten"><strong>Pair (5 Minuten)</strong></h3>
+<p>Finde eine*n Partner*in und:</p>
 <ul>
-<li>Was können LLMs?</li>
-<li>Was können sie nicht?</li>
+<li>Je 2 Minuten zum Teilen der gewählten Frage und des Beispiels</li>
+<li>1 Minute gemeinsam, um ein gemeinsames Thema zwischen euren Erfahrungen zu identifizieren</li>
 </ul>
-<p><strong>Phase 3 (1 Min):</strong> Gemeinsam identifizieren:</p>
+</section>
+<section id="share-5-minuten" class="level3">
+<h3 class="anchored" data-anchor-id="share-5-minuten"><strong>Share (5 Minuten)</strong></h3>
+<p>Jedes Paar trägt <strong>eine</strong> Erkenntnis zur gesamten Gruppe bei:</p>
 <ul>
-<li>Was sind die Implikationen für das Lernen eurer Studierenden?</li>
+<li>“Wir haben beide bemerkt, dass…” oder “Ein Muster, das wir sahen, war…”</li>
+<li>Fokus auf praktische Implikationen für die Lehrpraxis</li>
 </ul>
-</div>
-</div>
-</div>
 </section>
-<section id="was-sind-agents" class="level2">
-<h2 class="anchored" data-anchor-id="was-sind-agents"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Was sind Agents?</h2>
-    <p><a href="../slides/was-sind-agenten/index.html" target="_blank">View slides in full screen</a></p>
-       <div class="ratio ratio-16x9">
-      <iframe class="slide-deck" src="../slides/was-sind-agenten/index.html" height="500px"></iframe>
-    </div>
-  
-</section>
-<section id="möglichkeiten-und-grenzen" class="level2">
-<h2 class="anchored" data-anchor-id="möglichkeiten-und-grenzen"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Möglichkeiten und Grenzen</h2>
-    <p><a href="../slides/möglichkeiten-grenzen/index.html" target="_blank">View slides in full screen</a></p>
-       <div class="ratio ratio-16x9">
-      <iframe class="slide-deck" src="../slides/möglichkeiten-grenzen/index.html" height="500px"></iframe>
-    </div>
-  
-</section>
-<section id="prompting-tipps" class="level2">
-<h2 class="anchored" data-anchor-id="prompting-tipps"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Prompting Tipps</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Optional
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-    <p><a href="../slides/prompting/index.html" target="_blank">View slides in full screen</a></p>
-       <div class="ratio ratio-16x9">
-      <iframe class="slide-deck" src="../slides/prompting/index.html" height="500px"></iframe>
-    </div>
-  
 </div>
 </div>
-</div>
-</section>
-<section id="weiterführende-kurse" class="level2">
-<h2 class="anchored" data-anchor-id="weiterführende-kurse"><i class="bi-book " style="" role="img" aria-hidden="true"></i> Weiterführende Kurse</h2>
-<ul>
-<li><a href="https://virtuelleakademie.github.io/ki-lehre-beginner/workshop/">KI in der Lehre: Beginner</a></li>
-<li><a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/">KI in der Lehre: Intermediate</a></li>
-<li><a href="https://virtuelleakademie.github.io/ki-lehre-advanced/workshop/">KI in der Lehre: Advanced</a></li>
-<li><a href="https://www.bfh.ch/de/weiterbildung/kurse/ki-in-der-lehre-refresher/">KI in der Lehre: Refresher</a> <!-- ##  Bibliographie --></li>
-</ul>
 
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -826,5 +732,5 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

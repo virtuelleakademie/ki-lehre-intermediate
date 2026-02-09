@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KI-gestütztes Lerndesign – KI in der Lehre: Intermediate</title>
+<title>Vom Wissen zum Handeln – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../03-lernumgebungen/handout-make-it-stick/index.html" rel="next">
+<link href="../03-praxis/5-fragen-framework/index.html" rel="next">
 <link href="..//assets/robot.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -39,9 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -89,26 +89,26 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
-div.callout-group.callout {
+div.callout-reflect.callout {
   border-left-color: purple;
 }
-div.callout-group.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -122,15 +122,15 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -155,21 +155,21 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
 </style>
 
 
-<meta property="og:title" content="KI-gestütztes Lerndesign – KI in der Lehre: Intermediate">
+<meta property="og:title" content="Vom Wissen zum Handeln – KI in der Lehre: Intermediate">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
@@ -181,8 +181,6 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
@@ -199,19 +197,19 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../01-ki-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
-<span class="menu-text">1: KI verstehen</span></a>
+<span class="menu-text">1: Lernen verstehen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../02-wie-menschen-lernen/index.html"> <i class="bi bi-person-gear" role="img">
+    <a class="nav-link" href="../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
-<span class="menu-text">2: Lernen</span></a>
+<span class="menu-text">2: KI &amp; Lernen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../03-lernumgebungen/index.html" aria-current="page"> <i class="bi bi-marker-tip" role="img">
+    <a class="nav-link active" href="../03-praxis/index.html" aria-current="page"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">3: KI-gestütztes Lerndesign</span></a>
+<span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -252,7 +250,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-lernumgebungen/index.html">KI-gestütztes Lerndesign</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../03-praxis/index.html">Vom Wissen zum Handeln</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -265,10 +263,6 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -278,25 +272,37 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-lernumgebungen/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">KI-gestütztes Lerndesign</span></a>
+  <a href="../03-praxis/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Vom Wissen zum Handeln</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-lernumgebungen/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../03-praxis/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Das 5-Fragen-Framework</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-praxis/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die 8 Make it Stick Strategien</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-lernumgebungen/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../03-praxis/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../03-lernumgebungen/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../03-praxis/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Produktive Anstrengung durch Design</span></a>
   </div>
 </li>
@@ -310,28 +316,21 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#einführung-die-8-make-it-stick-strategien-10-min" id="toc-einführung-die-8-make-it-stick-strategien-10-min" class="nav-link active" data-scroll-target="#einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</a>
+  <li><a href="#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min" id="toc-aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min" class="nav-link active" data-scroll-target="#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min">Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (25 Min)</a>
   <ul class="collapse">
-  <li><a href="#die-wissenschaftlich-bewährten-lernstrategien" id="toc-die-wissenschaftlich-bewährten-lernstrategien" class="nav-link" data-scroll-target="#die-wissenschaftlich-bewährten-lernstrategien">Die wissenschaftlich bewährten Lernstrategien:</a></li>
+  <li><a href="#think-phase-10-min" id="toc-think-phase-10-min" class="nav-link" data-scroll-target="#think-phase-10-min">THINK Phase (10 Min)</a></li>
+  <li><a href="#pair-phase-10-min" id="toc-pair-phase-10-min" class="nav-link" data-scroll-target="#pair-phase-10-min">PAIR Phase (10 Min)</a></li>
+  <li><a href="#share-phase-5-min" id="toc-share-phase-5-min" class="nav-link" data-scroll-target="#share-phase-5-min">SHARE Phase (5 Min)</a></li>
   </ul></li>
-  <li><a href="#think-phase-agent-erstellen-25-min" id="toc-think-phase-agent-erstellen-25-min" class="nav-link" data-scroll-target="#think-phase-agent-erstellen-25-min">THINK Phase: Agent erstellen (25 Min)</a></li>
-  <li><a href="#schritt-1-strategie-wählen-5-min" id="toc-schritt-1-strategie-wählen-5-min" class="nav-link" data-scroll-target="#schritt-1-strategie-wählen-5-min">Schritt 1: Strategie wählen (5 Min)</a></li>
-  <li><a href="#schritt-2-agent-erstellen-testen-20-min" id="toc-schritt-2-agent-erstellen-testen-20-min" class="nav-link" data-scroll-target="#schritt-2-agent-erstellen-testen-20-min">Schritt 2: Agent erstellen &amp; testen (20 Min)</a></li>
-  <li><a href="#pair-phase-agents-testen-erfahrungen-teilen-20-min" id="toc-pair-phase-agents-testen-erfahrungen-teilen-20-min" class="nav-link" data-scroll-target="#pair-phase-agents-testen-erfahrungen-teilen-20-min">PAIR Phase: Agents testen &amp; Erfahrungen teilen (20 Min)</a>
+  <li><a href="#aktivität-2-agent-design-für-produktive-anstrengung-25-min" id="toc-aktivität-2-agent-design-für-produktive-anstrengung-25-min" class="nav-link" data-scroll-target="#aktivität-2-agent-design-für-produktive-anstrengung-25-min">Aktivität 2: Agent-Design für produktive Anstrengung (25 Min)</a>
   <ul class="collapse">
-  <li><a href="#partner-finden-2-min" id="toc-partner-finden-2-min" class="nav-link" data-scroll-target="#partner-finden-2-min">Partner finden (2 Min)</a></li>
-  <li><a href="#agents-teilen-3-min" id="toc-agents-teilen-3-min" class="nav-link" data-scroll-target="#agents-teilen-3-min">Agents teilen (3 Min)</a></li>
-  <li><a href="#gegenseitiges-agent-testing-7-min" id="toc-gegenseitiges-agent-testing-7-min" class="nav-link" data-scroll-target="#gegenseitiges-agent-testing-7-min">Gegenseitiges Agent-Testing (7 Min)</a></li>
-  <li><a href="#erfahrungen-auf-padlet-dokumentieren-8-min" id="toc-erfahrungen-auf-padlet-dokumentieren-8-min" class="nav-link" data-scroll-target="#erfahrungen-auf-padlet-dokumentieren-8-min">Erfahrungen auf Padlet dokumentieren (8 Min)</a></li>
+  <li><a href="#think-phase-agent-erstellen-15-min" id="toc-think-phase-agent-erstellen-15-min" class="nav-link" data-scroll-target="#think-phase-agent-erstellen-15-min">THINK Phase: Agent erstellen (15 Min)</a></li>
+  <li><a href="#pair-phase-cross-testing-10-min" id="toc-pair-phase-cross-testing-10-min" class="nav-link" data-scroll-target="#pair-phase-cross-testing-10-min">PAIR Phase: Cross-Testing (10 Min)</a></li>
   </ul></li>
-  <li><a href="#share-phase-erkenntnisse-aus-der-praxis-15-min" id="toc-share-phase-erkenntnisse-aus-der-praxis-15-min" class="nav-link" data-scroll-target="#share-phase-erkenntnisse-aus-der-praxis-15-min">SHARE Phase: Erkenntnisse aus der Praxis (15 Min)</a>
-  <ul class="collapse">
-  <li><a href="#padlet-review-patterns-8-min" id="toc-padlet-review-patterns-8-min" class="nav-link" data-scroll-target="#padlet-review-patterns-8-min">Padlet-Review &amp; Patterns (8 Min)</a></li>
-  <li><a href="#synthese-transfer-7-min" id="toc-synthese-transfer-7-min" class="nav-link" data-scroll-target="#synthese-transfer-7-min">Synthese &amp; Transfer (7 Min)</a></li>
-  </ul></li>
+  <li><a href="#muster-synthese-5-min" id="toc-muster-synthese-5-min" class="nav-link" data-scroll-target="#muster-synthese-5-min">Muster &amp; Synthese (5 Min)</a></li>
   <li><a href="#ressourcen" id="toc-ressourcen" class="nav-link" data-scroll-target="#ressourcen">Ressourcen</a>
   <ul class="collapse">
-  <li><a href="#handout" id="toc-handout" class="nav-link" data-scroll-target="#handout">Handout</a></li>
+  <li><a href="#handouts" id="toc-handouts" class="nav-link" data-scroll-target="#handouts">Handouts</a></li>
   <li><a href="#vertiefung" id="toc-vertiefung" class="nav-link" data-scroll-target="#vertiefung">Vertiefung</a></li>
   <li><a href="#beispiele" id="toc-beispiele" class="nav-link" data-scroll-target="#beispiele">Beispiele</a></li>
   </ul></li>
@@ -343,7 +342,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">KI-gestütztes Lerndesign</h1>
+<h1 class="title">Vom Wissen zum Handeln</h1>
 </div>
 
 
@@ -360,270 +359,222 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 </header>
 
 
-<!-- ## Aktive Verarbeitung -->
 <div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Copilot Agent für effektives Lernen entwickeln (60 Min)
+<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; Agent gestalten (55 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Erstelle und teste einen <strong>funktionsfähigen Copilot Agent</strong>, der eine der 8 bewährten Lernstrategien aus “Make it Stick” für dein eigenes Lehrthema umsetzt.</p>
-<p><strong>Ziel</strong>: Durch Prompting einen Agent bauen, der das Lernen <strong>fördert</strong>, nicht <strong>ersetzt</strong> - und dabei die praktischen Herausforderungen erleben.</p>
-<p><strong>Format</strong>: Think-Pair-Share mit Live-Testing und Padlet-Reflexion</p>
+<p>In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:</p>
+<ol type="1">
+<li><strong>Aufgaben-Analyse</strong> mit dem 5-Fragen-Framework (25 Min)</li>
+<li><strong>Agent-Design</strong> für produktive Anstrengung (25 Min)</li>
+</ol>
+<p><strong>Ziel</strong>: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen <em>fördern</em> kann — und wo die Fallstricke liegen.</p>
 </div>
 </div>
-<section id="einführung-die-8-make-it-stick-strategien-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="einführung-die-8-make-it-stick-strategien-10-min">Einführung: Die 8 Make it Stick Strategien (10 Min)</h2>
-<section id="die-wissenschaftlich-bewährten-lernstrategien" class="level3">
-<h3 class="anchored" data-anchor-id="die-wissenschaftlich-bewährten-lernstrategien">Die wissenschaftlich bewährten Lernstrategien:</h3>
-<p><i class="bi-book " style="" role="img" aria-hidden="true"></i> <strong>Vertiefung</strong>: <a href="./handout-make-it-stick/">Die 8 Make it Stick Strategien im Detail</a></p>
+<section id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min" class="level2">
+<h2 class="anchored" data-anchor-id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min">Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (25 Min)</h2>
+<section id="think-phase-10-min" class="level3">
+<h3 class="anchored" data-anchor-id="think-phase-10-min">THINK Phase (10 Min)</h3>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Eigene Aufgabe analysieren
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Wähle eine Aufgabe oder Prüfung aus deiner Lehre</strong> und analysiere sie mit dem <a href="./5-fragen-framework/">5-Fragen-Framework</a>:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 33%">
-<col style="width: 40%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Strategie</th>
-<th>Kern-Prinzip</th>
-<th>Warum effektiv?</th>
+<th>Frage</th>
+<th>Deine Einschätzung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>1. Abrufpraxis</strong></td>
-<td>Aktives Erinnern statt Wiederlesen</td>
-<td>Stärkt neuronale Verbindungen</td>
+<td>1. Geht es primär ums <strong>Lernen</strong>?</td>
+<td></td>
 </tr>
 <tr class="even">
-<td><strong>2. Verteiltes Lernen</strong></td>
-<td>Über Zeit verteilen statt Pauken</td>
-<td>Nutzt Vergessen als Lernhilfe</td>
+<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><strong>3. Abwechslung</strong></td>
-<td>Verschiedene Aufgaben/Themen mischen</td>
-<td>Trainiert flexible Anwendung</td>
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td></td>
 </tr>
 <tr class="even">
-<td><strong>4. Variation</strong></td>
-<td>In unterschiedlichen Kontexten üben</td>
-<td>Fördert Transfer</td>
+<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><strong>5. Wünschenswerte Schwierigkeiten</strong></td>
-<td>Fehler und Anstrengung nutzen</td>
-<td>Vertieft Verständnis</td>
-</tr>
-<tr class="even">
-<td><strong>6. Verstehen vs.&nbsp;Vertrautheit</strong></td>
-<td>In eigenen Worten erklären</td>
-<td>Echtes vs.&nbsp;oberflächliches Wissen</td>
-</tr>
-<tr class="odd">
-<td><strong>7. Feedback &amp; Reflexion</strong></td>
-<td>Korrektur und bewusstes Nachdenken</td>
-<td>Selbstregulation</td>
-</tr>
-<tr class="even">
-<td><strong>8. Anwendung</strong></td>
-<td>Wissen in verschiedenen Kontexten</td>
-<td>Transferfähigkeit</td>
+<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-default callout-active-processing callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Erinnerung
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Ihr habt als Vorbereitung ein <strong>eigenes Lehrthema</strong> mitgebracht—das ist euer Anwendungsbereich!</p>
-<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i><strong>Inspiration</strong>: <a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></p>
-</div>
-</div>
-</section>
-</section>
-<section id="think-phase-agent-erstellen-25-min" class="level2">
-<h2 class="anchored" data-anchor-id="think-phase-agent-erstellen-25-min">THINK Phase: Agent erstellen (25 Min)</h2>
-</section>
-<section id="schritt-1-strategie-wählen-5-min" class="level2 {{.active-processing}">
-<h2 class="anchored" data-anchor-id="schritt-1-strategie-wählen-5-min">Schritt 1: Strategie wählen (5 Min)</h2>
-<p><strong>Aufgabe</strong>: Wähle eine der 8 Strategien, die am besten zu deinem Lehrproblem passt.</p>
-<p><strong>Leitfragen:</strong></p>
+<p><strong>Dann identifiziere:</strong></p>
 <ul>
-<li>Welches spezifische Problem haben meine Lernenden?</li>
-<li>Welche Strategie könnte dieses Problem am besten lösen?</li>
-<li>Bei welcher Strategie sehe ich das grösste Potenzial?</li>
+<li>Wo könnte KI die <strong>lernrelevante kognitive Last</strong> (germane load) eliminieren?</li>
+<li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren?</li>
 </ul>
 <p><strong>Notiere:</strong></p>
 <ul>
-<li><strong>Gewählte Strategie</strong>: ________________________</li>
-<li><strong>Mein Lehrthema</strong>: ________________________</li>
-<li><strong>Das spezifische Problem</strong>: ________________________</li>
+<li><strong>Meine Aufgabe</strong>: ________________________</li>
+<li><strong>Kritischer Punkt</strong>: ________________________</li>
+<li><strong>Meine Änderung</strong>: ________________________</li>
 </ul>
+</div>
+</div>
 </section>
-<section id="schritt-2-agent-erstellen-testen-20-min" class="level2 {{.active-processing}">
-<h2 class="anchored" data-anchor-id="schritt-2-agent-erstellen-testen-20-min">Schritt 2: Agent erstellen &amp; testen (20 Min)</h2>
-<p><strong>Erstelle deinen funktionsfähigen Copilot Agent:</strong></p>
-<section id="agent-prompt-entwickeln" class="level4">
-<h4 class="anchored" data-anchor-id="agent-prompt-entwickeln">Agent-Prompt entwickeln</h4>
-<p>Verwende das Agent-Design-Template, um einen effektiven Prompt zu schreiben:</p>
-<p><strong>Template-Struktur:</strong></p>
-<ul>
-<li><strong>Rolle &amp; Mission</strong>: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Make-it-Stick-Strategie] fördert”</li>
-<li><strong>Was der Agent TUT</strong>: Konkrete Funktionen und Verhaltensweisen</li>
-<li><strong>Was der Agent NICHT tut</strong>: Grenzen setzen (keine direkten Antworten geben, etc.)</li>
-<li><strong>Interaktionsstil</strong>: Wie soll der Agent mit Lernenden kommunizieren?</li>
-</ul>
-</section>
-<section id="testen" class="level4">
-<h4 class="anchored" data-anchor-id="testen">Testen</h4>
-<ul>
-<li>Teste deinen Agent mit einer typischen Lernsituation</li>
-<li>Identifiziere Prompting-Herausforderungen</li>
-<li>Verfeinere den Prompt basierend auf dem Test</li>
-</ul>
-</section>
-<section id="qualitätskontrolle" class="level4">
-<h4 class="anchored" data-anchor-id="qualitätskontrolle">Qualitätskontrolle</h4>
-<ul>
-<li><strong>Strategie</strong>: Fördert der Agent wirklich die gewählte Make-it-Stick-Strategie?</li>
-<li><strong>Anstrengung</strong>: Muss der Lernende noch selbst denken und arbeiten?</li>
-<li><strong>Gefahr</strong>: Wo nimmt der Agent dem Lernenden zu viel ab?</li>
-<li><strong>Verbesserung</strong>: Wo musst du den Prompt noch anpassen?</li>
-</ul>
-</section>
-</section>
-<section id="pair-phase-agents-testen-erfahrungen-teilen-20-min" class="level2">
-<h2 class="anchored" data-anchor-id="pair-phase-agents-testen-erfahrungen-teilen-20-min">PAIR Phase: Agents testen &amp; Erfahrungen teilen (20 Min)</h2>
-<section id="partner-finden-2-min" class="level3">
-<h3 class="anchored" data-anchor-id="partner-finden-2-min">Partner finden (2 Min)</h3>
-<ul>
-<li>Suche dir einen Partner</li>
-<li>Am besten jemand mit einer <strong>anderen Strategie</strong> oder <strong>anderem Fachbereich</strong></li>
-</ul>
-</section>
-<section id="agents-teilen-3-min" class="level3">
-<h3 class="anchored" data-anchor-id="agents-teilen-3-min">Agents teilen (3 Min)</h3>
-<p><strong>Demo</strong>: Wie ihr eure Copilot Agents miteinander teilt (wird demonstriert)</p>
-</section>
-<section id="gegenseitiges-agent-testing-7-min" class="level3">
-<h3 class="anchored" data-anchor-id="gegenseitiges-agent-testing-7-min">Gegenseitiges Agent-Testing (7 Min)</h3>
-<div class="callout callout-style-default callout-active-processing callout-titled">
+<section id="pair-phase-10-min" class="level3">
+<h3 class="anchored" data-anchor-id="pair-phase-10-min">PAIR Phase (10 Min)</h3>
+<div class="callout callout-style-default callout-pair callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Cross-Testing der Agents (parallel)
+<span class="screen-reader-only">Pair</span>Peer-Konsultation
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Beide Partner testen gleichzeitig (7 Min):</strong></p>
+<p>Tausche dich mit einem Partner aus:</p>
+<ol type="1">
+<li><strong>Vorstellen</strong> (3 Min pro Person): Stelle deine Aufgabe, deine Analyse und deine vorgeschlagene Änderung vor</li>
+<li><strong>Rückmeldung geben</strong>: Bewahrt die Änderung tatsächlich die interne kognitive Verarbeitung? Oder wird nur die Form geändert, während das Outsourcing weiter möglich ist?</li>
+</ol>
+<p><strong>Leitfrage für das Feedback:</strong></p>
+<blockquote class="blockquote">
+<p>“Muss die studierende Person nach deiner Änderung immer noch <em>selbst denken</em> — oder kann sie das Denken immer noch an die KI delegieren?”</p>
+</blockquote>
+</div>
+</div>
+</section>
+<section id="share-phase-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="share-phase-5-min">SHARE Phase (5 Min)</h3>
+<ul>
+<li>2–3 Beispiele im Plenum vorstellen</li>
+<li>Welche <strong>Muster</strong> zeigen sich? Gibt es wiederkehrende Schwachstellen?</li>
+</ul>
+</section>
+</section>
+<section id="aktivität-2-agent-design-für-produktive-anstrengung-25-min" class="level2">
+<h2 class="anchored" data-anchor-id="aktivität-2-agent-design-für-produktive-anstrengung-25-min">Aktivität 2: Agent-Design für produktive Anstrengung (25 Min)</h2>
+<p>Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen <strong>unterstützt</strong>, nicht <em>ersetzt</em>.</p>
+<section id="think-phase-agent-erstellen-15-min" class="level3">
+<h3 class="anchored" data-anchor-id="think-phase-agent-erstellen-15-min">THINK Phase: Agent erstellen (15 Min)</h3>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Agent-Prompt entwickeln
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Design-Constraint</strong>: Der Agent muss eine <strong>Versuch-dann-Prüfe-Struktur</strong> bewahren — die Studierenden müssen <em>zuerst selbst</em> denken, bevor der Agent reagiert.</p>
+<p><strong>Template-Struktur:</strong></p>
+<ul>
+<li><strong>Rolle &amp; Mission</strong>: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Lernstrategie] fördert”</li>
+<li><strong>Was der Agent TUT</strong>: Fragen stellen, zum Nachdenken anregen, Feedback geben <em>nach</em> dem Versuch</li>
+<li><strong>Was der Agent NICHT tut</strong>: Keine direkten Antworten geben, keine fertigen Lösungen, kein Outsourcing ermöglichen</li>
+<li><strong>Qualitätskontrolle</strong>: Die Studierenden müssen am Ende <em>mehr</em> wissen als vorher — nicht nur ein Produkt haben</li>
+</ul>
+<p><strong>Nutze die Make-it-Stick Strategien als Orientierung:</strong></p>
+<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i> <a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></p>
+<p><i class="bi-book " style="" role="img" aria-hidden="true"></i> <a href="./handout-make-it-stick/">Die 8 Make it Stick Strategien im Detail</a></p>
+</div>
+</div>
+</section>
+<section id="pair-phase-cross-testing-10-min" class="level3">
+<h3 class="anchored" data-anchor-id="pair-phase-cross-testing-10-min">PAIR Phase: Cross-Testing (10 Min)</h3>
+<div class="callout callout-style-default callout-pair callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pair</span>Agents gegenseitig testen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beide Partner testen gleichzeitig:</strong></p>
 <ul>
 <li><strong>Person A</strong> testet Agent von Person B</li>
 <li><strong>Person B</strong> testet Agent von Person A</li>
-<li><strong>Parallel arbeiten</strong> - jeder fokussiert auf den anderen Agent</li>
 </ul>
 <p><strong>Worauf achten:</strong></p>
 <ul>
-<li>Verwende den Agent für eine typische Lernsituation aus dem Fachbereich deines Partners</li>
-<li>Fördert der Agent wirklich die gewählte Strategie?</li>
-<li>Notiere Herausforderungen und Überraschungen</li>
+<li>Fördert der Agent wirklich die produktive Anstrengung?</li>
+<li>Wo gibt der Agent <strong>zu viel</strong> preis? Wo nimmt er <strong>zu viel</strong> ab?</li>
+<li>Bewahrt er die Versuch-dann-Prüfe-Struktur?</li>
 </ul>
-</div>
-</div>
-</section>
-<section id="erfahrungen-auf-padlet-dokumentieren-8-min" class="level3">
-<h3 class="anchored" data-anchor-id="erfahrungen-auf-padlet-dokumentieren-8-min">Erfahrungen auf Padlet dokumentieren (8 Min)</h3>
-<div class="callout callout-style-default callout-active-processing callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Padlet-Reflexion (via Moodle)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Teilt eure Erkenntnisse auf dem Kurs-Padlet:</strong></p>
-<p><strong>Dokumentiert:</strong></p>
-<ul>
-<li><strong>Was funktioniert gut?</strong> Welche Prompting-Strategien waren erfolgreich?</li>
-<li><strong>Wo hakt es?</strong> Welche Herausforderungen beim Agent-Design sind aufgetaucht?</li>
-<li><strong>Überraschende Entdeckungen</strong>: Was war anders als erwartet?</li>
-<li><strong>Theorie vs.&nbsp;Praxis</strong>: Wo klafft eine Lücke zwischen Konzept und Umsetzung?</li>
-</ul>
-<p><strong>Lest auch die Beiträge der anderen</strong> und ergänzt mit Kommentaren oder Reactions.</p>
+<p><strong>Die entscheidende Frage:</strong></p>
+<blockquote class="blockquote">
+<p>“Outsourct dieser Agent das Denken — oder unterstützt er es?”</p>
+</blockquote>
 </div>
 </div>
 </section>
 </section>
-<section id="share-phase-erkenntnisse-aus-der-praxis-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="share-phase-erkenntnisse-aus-der-praxis-15-min">SHARE Phase: Erkenntnisse aus der Praxis (15 Min)</h2>
-<section id="padlet-review-patterns-8-min" class="level3">
-<h3 class="anchored" data-anchor-id="padlet-review-patterns-8-min">Padlet-Review &amp; Patterns (8 Min)</h3>
-<p><strong>Gemeinsame Auswertung der Padlet-Beiträge:</strong></p>
+<section id="muster-synthese-5-min" class="level2">
+<h2 class="anchored" data-anchor-id="muster-synthese-5-min">Muster &amp; Synthese (5 Min)</h2>
+<p><strong>Gemeinsame Auswertung:</strong></p>
 <ul>
-<li>Welche <strong>Prompting-Herausforderungen</strong> tauchen wiederholt auf?</li>
-<li>Wo war die <strong>Theorie-Praxis-Lücke</strong> am größten?</li>
-<li>Welche <strong>erfolgreichen Strategien</strong> können wir identifizieren?</li>
-<li>Was haben wir über <strong>Agent-Verhalten vs.&nbsp;Agent-Intention</strong> gelernt?</li>
-</ul>
-</section>
-<section id="synthese-transfer-7-min" class="level3">
-<h3 class="anchored" data-anchor-id="synthese-transfer-7-min">Synthese &amp; Transfer (7 Min)</h3>
-<p><strong>Von der Praxis zur Anwendung:</strong></p>
-<ul>
-<li><strong>Reality Check</strong>: Was ist realistisch umsetzbar in der eigenen Lehre?</li>
-<li><strong>Prompting</strong>: Welche Erkenntnisse nehmt ihr für zukünftige Agent-Entwicklung mit?</li>
-<li><strong>Make-it-Stick und KI</strong>: Wo funktioniert die Kombination gut, wo nicht?</li>
-</ul>
-<p><strong>Nächste Schritte:</strong></p>
-<ul>
-<li>Wie könnt ihr das Gelernte in eurer Lehre einsetzen?</li>
+<li>Welche <strong>Designmuster</strong> tauchen wiederholt auf?</li>
+<li>Wo war die Grenze zwischen <em>Offloading</em> und <em>Outsourcing</em> am schwierigsten zu ziehen?</li>
+<li>Was haben wir über die Grenzen von Agent-Design gelernt?</li>
 </ul>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Pro-tip</span>Wichtiger Reminder
+<span class="screen-reader-only">Pro-tip</span>Zentrale Erkenntnis
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch praktisches Ausprobieren zu verstehen, wie KI die bewährten Lernstrategien <strong>unterstützen</strong> kann, und wo die Herausforderungen beim Prompting liegen.</p>
+<p>Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gestaltung zu verstehen: <strong>Gutes KI-Design für Lernen erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.</strong></p>
 </div>
 </div>
 </div>
-</section>
+<hr>
 </section>
 <section id="ressourcen" class="level2">
 <h2 class="anchored" data-anchor-id="ressourcen">Ressourcen</h2>
-<section id="handout" class="level3">
-<h3 class="anchored" data-anchor-id="handout">Handout</h3>
-<p><a href="./handout-make-it-stick/">Die 8 Make it Stick Strategien</a></p>
+<section id="handouts" class="level3">
+<h3 class="anchored" data-anchor-id="handouts">Handouts</h3>
+<ul>
+<li><a href="./5-fragen-framework/">Das 5-Fragen-Framework</a></li>
+<li><a href="./handout-make-it-stick/">Die 8 Make it Stick Strategien</a></li>
+</ul>
 </section>
 <section id="vertiefung" class="level3">
 <h3 class="anchored" data-anchor-id="vertiefung">Vertiefung</h3>
-<p><a href="./produktive-anstrengung/">Produktive Anstrengung durch Design</a></p>
+<ul>
+<li><a href="./produktive-anstrengung/">Produktive Anstrengung durch Design</a></li>
+<li><a href="./fallstudien/">Fallstudien</a></li>
+</ul>
 </section>
 <section id="beispiele" class="level3">
 <h3 class="anchored" data-anchor-id="beispiele">Beispiele</h3>
-<p><a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></p>
+<ul>
+<li><a href="./agent-beispiele/">Agent-Beispiele für jede Strategie</a></li>
+</ul>
 
 
 </section>
@@ -1041,8 +992,8 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../03-lernumgebungen/handout-make-it-stick/index.html" class="pagination-link" aria-label="Die 8 Make it Stick Strategien">
-        <span class="nav-page-text">Die 8 Make it Stick Strategien</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../03-praxis/5-fragen-framework/index.html" class="pagination-link" aria-label="Das 5-Fragen-Framework">
+        <span class="nav-page-text">Das 5-Fragen-Framework</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

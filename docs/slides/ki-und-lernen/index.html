@@ -9,12 +9,11 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Andrew Ellis">
-  <title>KI in der Lehre: Intermediate – Prompting: Eine Einführung</title>
+  <title>KI in der Lehre: Intermediate – KI &amp; Lernen</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -140,6 +139,17 @@
     }
   </style>
   <style>
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
   div.callout-reflect.callout {
     border-left-color: purple;
   }
@@ -149,39 +159,6 @@
   div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
     content: '💭';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
     background-image: none;
   }
   div.callout-pair.callout {
@@ -195,6 +172,39 @@
     content: '👥';
     background-image: none;
   }
+  div.callout-group.callout {
+    border-left-color: purple;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
+    background-image: none;
+  }
   div.callout-pro-tip.callout {
     border-left-color: gold;
   }
@@ -206,19 +216,9 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
   </style>
-<meta property="og:title" content="Prompting: Eine Einführung – KI in der Lehre: Intermediate">
+<meta property="og:title" content="KI &amp; Lernen – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Wann KI das Lernen unterstützt — und wann sie es verhindert">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 <body class="quarto-light">
@@ -226,7 +226,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">Prompting: Eine Einführung</h1>
+  <h1 class="title">KI &amp; Lernen</h1>
+  <p class="subtitle">Wann KI das Lernen unterstützt — und wann sie es verhindert</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -238,314 +239,210 @@ Andrew Ellis
 
   <p class="date">19 September, 2025</p>
 </section>
-<section id="was-ist-ein-prompt" class="slide level2">
-<h2>Was ist ein Prompt?</h2>
-<p><br> <br> <img data-src="../../assets/images/unlock-llm.png"></p>
+<section id="offloading-vs.-outsourcing" class="slide level2 smaller">
+<h2>Offloading vs.&nbsp;Outsourcing</h2>
+<p><strong>Die entscheidende Unterscheidung — kategorial, nicht graduell</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Cognitive Offloading</strong></th>
+<th><strong>Cognitive Outsourcing</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Was passiert</strong></td>
+<td>Tool reduziert Arbeitsgedächtnis-Last, <em>während</em> die Person denkt</td>
+<td>Tool <em>übernimmt</em> das Denken</td>
+</tr>
+<tr class="even">
+<td><strong>Beispiel</strong></td>
+<td>Taschenrechner bei Problemlösung</td>
+<td>KI schreibt den Aufsatz</td>
+</tr>
+<tr class="odd">
+<td><strong>Lernrelevante Last</strong></td>
+<td>Bleibt erhalten</td>
+<td><strong>Wird eliminiert</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Expertise</strong></td>
+<td>Wird unterstützt</td>
+<td><strong>Wird verhindert</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-warning no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Outsourcing eliminiert germane load — das ist keine Nebenwirkung, das ist der Mechanismus.</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="die-frage-ist-nicht" class="slide level2 center">
+<h2>Die Frage ist nicht…</h2>
+<div class="fragment">
+<p><em>“Dürfen Studierende KI nutzen?”</em></p>
+</div>
+<div class="fragment">
+<h3 id="sondern-wird-das-denken-ausgelagert-oder-nur-unterstützt">Sondern: “Wird das Denken ausgelagert oder nur unterstützt?”</h3>
+</div>
+</section>
+<section id="das-evaluationsparadox" class="slide level2 smaller">
+<h2>Das Evaluationsparadox</h2>
+<p><strong>Ein verbreiteter Vorschlag:</strong></p>
+<blockquote>
+<p><em>“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”</em></p>
+</blockquote>
+<div class="fragment">
+<p><strong>Das Problem:</strong></p>
+<p>Um KI-Outputs beurteilen zu können, braucht man genau die <strong>Fachkompetenz</strong>, die das Lernen erst entwickeln soll.</p>
+</div>
+<div class="fragment">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th>Expert:innen</th>
+<th>Anfänger:innen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Bewertungskriterien</strong></td>
+<td>Unabhängig vorhanden</td>
+<td>Fehlen</td>
+</tr>
+<tr class="even">
+<td><strong>KI-Fehler</strong></td>
+<td>Sofort erkennbar</td>
+<td>Nicht erkennbar</td>
+</tr>
+<tr class="odd">
+<td><strong>“Kritische Nutzung”</strong></td>
+<td>Echte Evaluation</td>
+<td>Oberflächliches Prüfen</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fragment">
+<div class="callout callout-important no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Kompetente Nutzung setzt Kompetenz voraus</strong></p>
+</div>
+<div class="callout-content">
+<p>Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="lernen-leisten" class="slide level2 smaller">
+<h2>Lernen ≠ Leisten</h2>
+<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben.</p>
+<div class="fragment">
+<p>Und: Wer die Denkarbeit auslagert, baut nicht nur <em>dieses</em> Wissen nicht auf — es fehlt die Grundlage für <strong>Wissenstransfer</strong> auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, <em>was</em> transferiert werden könnte.</p>
+</div>
+<div class="fragment">
+<h3 id="cargo-cult-scholarship">Cargo Cult Scholarship</h3>
+<p>Texte mit allen <strong>Oberflächenmerkmalen</strong> akademischer Arbeit — Hedging, Zitationen, Fachvokabular — ohne die zugrundeliegende intellektuelle Arbeit.</p>
+<p>. . .</p>
+<p>Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist.</p>
+</div>
+</section>
+<section id="the-beach-not-the-ant" class="slide level2 center">
+<h2>“The Beach, Not the Ant”</h2>
+<blockquote>
+<p>Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.</p>
+</blockquote>
+<div class="fragment">
+<p>Die richtige Frage ist nicht:</p>
+<p><em>“Wie verhindern wir, dass Studierende schummeln?”</em></p>
+</div>
+<div class="fragment">
+<p>Sondern:</p>
+<p><strong>“Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?”</strong></p>
+</div>
+</section>
+<section id="die-equity-dimension" class="slide level2 smaller">
+<h2>Die Equity-Dimension</h2>
+<p>Unstrukturierter KI-Einsatz <strong>vergrössert Leistungsunterschiede:</strong></p>
 <ul>
-<li>Ein Prompt ist ein Text (Anweisung), das einem generativen KI-Modell gegeben wird, um bestimmte Informationen zu generieren oder zu verstehen.</li>
-<li>Prompts dienen als Startpunkt beispielsweise für die Generierung von Ideen, Texten, Übersetzungen und Antworten auf Fragen.</li>
+<li><strong>Stärkere</strong> Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen</li>
+<li><strong>Schwächere</strong> Studierende: werden am meisten geschädigt — ihnen fehlt die Grundlage für kritische Nutzung</li>
 </ul>
+<div class="fragment">
+<div class="callout callout-warning no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p>KI-Policy ist nicht nur eine Frage der akademischen Integrität — es ist eine <strong>pädagogische Gerechtigkeitsfrage</strong>.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="wie-wird-text-output-erzeugt" class="slide level2">
-<h2>Wie wird Text (Output) erzeugt?</h2>
-<p><br> <br> <img data-src="../../assets/images/once-upon-a-time.png"></p>
+<section id="das-5-fragen-framework" class="slide level2 smaller">
+<h2>Das 5-Fragen-Framework</h2>
+<p>Ein praktisches Werkzeug für die Aufgabengestaltung:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Wenn ja…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es primär ums <strong>Lernen</strong>?</td>
+<td>Outsourcing verhindern</td>
+</tr>
+<tr class="even">
+<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td>Interne Verarbeitung verlangen</td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>Outsourcing unmöglich machen</td>
+</tr>
+<tr class="even">
+<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>Aufgabe umgestalten</td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td>KI für die Prüfphase nutzen</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="wie-kann-ich-den-output-beeinflussen" class="slide level2">
-<h2>Wie kann ich den Output beeinflussen?</h2>
-
-<img data-src="../../assets/images/output-beeinflussen.png" class="r-stretch"></section>
-<section id="prompting-grundlagen" class="slide level2">
-<h2>Prompting: Grundlagen</h2>
+<section id="die-goldene-regel" class="slide level2 center">
+<h2>Die goldene Regel</h2>
+<h3 id="versuch-dann-prüfe">Versuch → dann → Prüfe</h3>
+<p>. . .</p>
 <ol type="1">
-<li>Sei klar und präzise</li>
-<li>Fange einfach an und verbessere</li>
-<li>Verwende Beispiele und Kontext</li>
-<li>Leite den Denkprozess</li>
-<li>Nutze ChatGPT/Copilots “Wissen”</li>
-<li>Verwende Rollenspieltechniken</li>
+<li>Studierende machen <strong>zuerst</strong> einen eigenen Versuch</li>
+<li><strong>Dann</strong> wird mit KI verglichen, geprüft, oder erweitert</li>
 </ol>
+<p>. . .</p>
+<p>Die Reihenfolge bewahrt den <strong>Prediction-Error-Mechanismus</strong>:</p>
+<p>Studierende bilden Vorhersagen → scheitern an der Realität → lernen daraus</p>
 </section>
-<section id="sei-klar-und-präzise" class="slide level2">
-<h2>1. Sei klar und präzise</h2>
-<ul>
-<li>Formuliere deine Aufgabe oder Frage präzise</li>
-<li>Gib relevanten Kontext und Details an</li>
-<li>Unterteile komplexe Aufgaben in kleinere Schritte</li>
-</ul>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Beschreibe, wie KI in der Musikproduktion eingesetzt wird.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Beschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="fange-einfach-an-und-verbessere" class="slide level2 smaller">
-<h2>2. Fange einfach an und verbessere</h2>
-<p>Beispiel 1:</p>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Entwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Erstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.</p>
-</div>
-</div>
-</div>
-</div>
-<ul>
-<li>Wichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:
-<ul>
-<li>“Kannst du ein Beispiel für ein spezifisches Kostümdetail geben, das moderne Elemente einbezieht?”</li>
-<li>“Wie könnte das Bühnenbild die Stimmung oder den inneren Konflikt der Charaktere widerspiegeln?”</li>
-</ul></li>
-</ul>
-</section>
-<section id="fange-einfach-an-und-verbessere-1" class="slide level2 smaller">
-<h2>2. Fange einfach an und verbessere</h2>
-<p>Beispiel 2:</p>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Erstelle einen umfassenden, mehrstufigen Behandlungsplan für einen Patienten mit chronischer Hypertonie, einschließlich Medikamentenregime, Lebensstiländerungen, Nachsorgezeitplan und möglichen Komplikationen.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Schlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem kürzlich eine leichte Hypertonie diagnostiziert wurde.</p>
-</div>
-</div>
-</div>
-</div>
-<ul>
-<li>Wichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:
-<ul>
-<li>“Kannst du mehr Details zu einer dieser Änderungen geben?”</li>
-<li>“Welche Auswirkungen hätte jede dieser Änderungen auf den Blutdruck?”</li>
-<li>“Gibt es mögliche Herausforderungen bei der Umsetzung dieser Änderungen?”</li>
-</ul></li>
-</ul>
-</section>
-<section id="verwende-beispiele-und-kontext" class="slide level2">
-<h2>3. Verwende Beispiele und Kontext</h2>
-<p>Beschreibe, welche Art von Output du erwartest Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst</p>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Erkläre, wie man eine Skulptur restauriert.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Erkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:</p>
-<ul>
-<li>Sichtung und Dokumentation des Schadens</li>
-<li>Auswahl und Testen geeigneter Materialien zur Rissfüllung</li>
-<li>Anwendung und Glättung des Füllmaterials</li>
-</ul>
-<p>Gib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="leite-den-denkprozess" class="slide level2 smaller">
-<h2>4. Leite den Denkprozess</h2>
-<p>Bitte ChatGPT/Copilot, “Schritt für Schritt” zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.</p>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Restauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Lass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbverlust Schritt für Schritt angehen:</p>
-<ol type="1">
-<li>Zuerst beschreibe die Art und das Ausmass der Schäden.</li>
-<li>Welche Faktoren könnten für die Schäden verantwortlich sein (z.B. Alterung, Lagerungsbedingungen)?</li>
-<li>Welche Materialien und Techniken könnten zur Stabilisierung der Risse verwendet werden?</li>
-<li>Welche Farbpigmente und Fixiermittel könnten zur Ausbesserung des Farbverlustes geeignet sein?</li>
-<li>Welche Tests könnten vorher an kleinen Stellen des Gemäldes durchgeführt werden, um die Wirkung der Materialien zu prüfen?</li>
-</ol>
-<p>Beginne mit Schritt 1.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="nutze-chatgptcopilots-wissen" class="slide level2 smaller">
-<h2>5. Nutze ChatGPT/Copilots “Wissen”</h2>
-<ul>
-<li>LLMs verfügen über breites Wissen</li>
-<li>Frage nach Erklärungen oder Hintergrundinformationen</li>
-<li>Gib relevanten Kontext an, damit ChatGPT/Copilot gezielter antworten kann</li>
-</ul>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Erkläre, wie ein Orchester funktioniert.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Erkläre, wie ein Sinfonieorchester funktioniert, als würdest du Musikstudierenden im ersten Semester eine Einführung geben.</p>
-<p>Vergleiche dabei die Struktur eines Orchesters mit einem gut koordinierten Team, bei dem jede Gruppe eine spezifische Aufgabe übernimmt.</p>
-<p>Erkläre die Rolle der verschiedenen Instrumentengruppen (Streicher, Bläser, Schlagwerk) und die des Dirigenten und zeige, wie sie zusammenarbeiten, um ein harmonisches Ganzes zu erzeugen.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="nutze-chatgptcopilots-wissen-1" class="slide level2">
-<h2>5. Nutze ChatGPT/Copilots “Wissen”</h2>
-<p><br> <br></p>
-<div title="Achtung">
-<div class="callout callout-caution callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Achtung</strong></p>
-</div>
-<div class="callout-content">
-<p>Immer den Output eines LLM anhand externer Quellen überprüfen. <strong>Sprachmodelle sind keine Nachschlagewerke</strong>.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="verwende-rollenspieltechniken" class="slide level2 smaller">
-<h2>6. Verwende Rollenspieltechniken</h2>
-<ul>
-<li>Bitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen</li>
-<li>Dies kann zu spezifischeren und relevanteren Antworten führen</li>
-</ul>
-<div title="❌">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>❌</strong></p>
-</div>
-<div class="callout-content">
-<p>Gib Tipps zur Verbesserung der Bühnenpräsenz.</p>
-</div>
-</div>
-</div>
-</div>
-<div title="✅">
-<div class="callout callout-tip no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>✅</strong></p>
-</div>
-<div class="callout-content">
-<p>Du bist eine erfahrene Theaterregisseurin, die seit über 15 Jahren mit Schauspielstudierenden arbeitet.</p>
-<p>Was sind deine drei wichtigsten Tipps für junge Schauspieler, um ihre Bühnenpräsenz zu stärken?</p>
-<p>Berücksichtige dabei Aspekte wie Körperhaltung, Stimme und Interaktion mit dem Publikum und gib konkrete Übungen oder Techniken an, die die Schauspieler ausprobieren können.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="bonustips" class="slide level2">
-<h2>Bonustips</h2>
-<p><br> <br></p>
-<div class="callout callout-tip no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<ul>
-<li><strong>Mentales Modell</strong>: Ein LLM wie einen “Junior Assistant” behandeln.</li>
-<li><strong>Struktierten Output</strong> verlangen (Tabellen, Listen, etc.)</li>
-<li><strong>Input strukturieren</strong> (LLMs können diesen besser “verstehen”)</li>
-<li>Ein <strong>LLM (z.B. ChatGPT/Copilot) nach Prompting Tips fragen</strong>. LLMs sind nicht auf dem neuesten Stand, aber haben sehr wahrscheinlich die bis vor kurzem aktuelle Literatur “gelesen”.</li>
-<li><strong>ChatGPT Tip</strong>: Anweisen, <strong>Python</strong> zu benutzen. Python ist eine Programmiersprache, die ChatGPT sehr gut beherrscht. Mit Python kann ChatGPT Daten analysieren, Grafiken erstellen, Word/Excel/Powerpoint Dateien erstellen.</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- ## Questions / Discussion  -->
-<!-- 
-## References {background-color="#D8DEE9"}
-
-::: {#refs}
-::: -->
+<section id="jetzt-seid-ihr-dran" class="slide level2 center">
+<h2>Jetzt seid ihr dran</h2>
+<p>Im nächsten Teil wendet ihr dieses Framework auf <strong>eure eigenen Aufgaben</strong> an — und gestaltet dann einen Agent, der produktive Anstrengung <em>fördert</em> statt <em>ersetzt</em>.</p>
 
 
 </section>

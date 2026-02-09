@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Andrew Ellis">
 
-<title>Produktive Anstrengung durch Design – KI in der Lehre: Intermediate</title>
+<title>Productive Struggle by Design – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,7 +51,6 @@ div.csl-indent {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../03-lernumgebungen/agent-beispiele/index.html" rel="prev">
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -60,9 +59,9 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -109,39 +108,6 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
 div.callout-individual.callout {
   border-left-color: steelblue;
 }
@@ -151,28 +117,6 @@ div.callout-individual.callout-style-default > .callout-header {
 div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '💻';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -186,24 +130,77 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
 </style>
 
 
-<meta property="og:title" content="Produktive Anstrengung durch Design – KI in der Lehre: Intermediate">
-<meta property="og:description" content="Lehren im Zeitalter der KI">
-<meta property="og:image" content="https://virtuelleakademie.github.io/ki-lehre-intermediate/03-lernumgebungen/produktive-anstrengung/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:title" content="Productive Struggle by Design – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Teaching in the Age of AI">
+<meta property="og:image" content="https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/learning-environment/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
@@ -220,19 +217,19 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../01-ki-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../../01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
-<span class="menu-text">1: KI verstehen</span></a>
+<span class="menu-text">1: Lernen verstehen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../02-wie-menschen-lernen/index.html"> <i class="bi bi-person-gear" role="img">
+    <a class="nav-link" href="../../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
-<span class="menu-text">2: Lernen</span></a>
+<span class="menu-text">2: KI &amp; Lernen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../03-lernumgebungen/index.html" aria-current="page"> <i class="bi bi-marker-tip" role="img">
+    <a class="nav-link" href="../../03-praxis/index.html"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">3: KI-gestütztes Lerndesign</span></a>
+<span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -268,90 +265,37 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../03-lernumgebungen/produktive-anstrengung/index.html">Produktive Anstrengung durch Design</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../03-lernumgebungen/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">KI-gestütztes Lerndesign</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../03-lernumgebungen/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Die 8 Make it Stick Strategien</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../03-lernumgebungen/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../03-lernumgebungen/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Produktive Anstrengung durch Design</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#zentrales-prinzip" id="toc-zentrales-prinzip" class="nav-link active" data-scroll-target="#zentrales-prinzip">Zentrales Prinzip</a></li>
-  <li><a href="#evidenzbasierte-umweltgestaltung" id="toc-evidenzbasierte-umweltgestaltung" class="nav-link" data-scroll-target="#evidenzbasierte-umweltgestaltung">Evidenzbasierte Umweltgestaltung</a>
+  <li><a href="#core-principle" id="toc-core-principle" class="nav-link active" data-scroll-target="#core-principle">Core Principle</a></li>
+  <li><a href="#evidence-based-environmental-design" id="toc-evidence-based-environmental-design" class="nav-link" data-scroll-target="#evidence-based-environmental-design">Evidence-Based Environmental Design</a>
   <ul class="collapse">
-  <li><a href="#prüfungen-mit-niedrigen-einsätzen-langcheatinglessons2013" id="toc-prüfungen-mit-niedrigen-einsätzen-langcheatinglessons2013" class="nav-link" data-scroll-target="#prüfungen-mit-niedrigen-einsätzen-langcheatinglessons2013">1. Prüfungen mit niedrigen Einsätzen <span class="citation" data-cites="langCheatingLessons2013">(Lang 2013)</span></a></li>
-  <li><a href="#gestaltung-intrinsischer-motivation-langcheatinglessons2013" id="toc-gestaltung-intrinsischer-motivation-langcheatinglessons2013" class="nav-link" data-scroll-target="#gestaltung-intrinsischer-motivation-langcheatinglessons2013">2. Gestaltung intrinsischer Motivation <span class="citation" data-cites="langCheatingLessons2013">(Lang 2013)</span></a></li>
-  <li><a href="#verteiltes-wiederholen-cepedadistributedpracticeverbal2006" id="toc-verteiltes-wiederholen-cepedadistributedpracticeverbal2006" class="nav-link" data-scroll-target="#verteiltes-wiederholen-cepedadistributedpracticeverbal2006">3. Verteiltes Wiederholen <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(Cepeda et al. 2006)</span></a></li>
-  <li><a href="#abrufübung-roedigertestenhancedlearningtaking2006" id="toc-abrufübung-roedigertestenhancedlearningtaking2006" class="nav-link" data-scroll-target="#abrufübung-roedigertestenhancedlearningtaking2006">4. Abrufübung <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(Roediger and Karpicke 2006)</span></a></li>
-  <li><a href="#vermischtes-üben-rohrerinterleavinghelpsstudents2012" id="toc-vermischtes-üben-rohrerinterleavinghelpsstudents2012" class="nav-link" data-scroll-target="#vermischtes-üben-rohrerinterleavinghelpsstudents2012">5. Vermischtes Üben <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(Rohrer 2012)</span></a></li>
-  <li><a href="#kognitive-belastung-steuern-swellerdevelopmentcognitiveload2023" id="toc-kognitive-belastung-steuern-swellerdevelopmentcognitiveload2023" class="nav-link" data-scroll-target="#kognitive-belastung-steuern-swellerdevelopmentcognitiveload2023">6. Kognitive Belastung steuern <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(Sweller 2023)</span></a></li>
+  <li><a href="#lower-stakes-assessment-langcheatinglessons2013" id="toc-lower-stakes-assessment-langcheatinglessons2013" class="nav-link" data-scroll-target="#lower-stakes-assessment-langcheatinglessons2013">1. Lower-Stakes Assessment <span class="citation" data-cites="langCheatingLessons2013">(Lang 2013)</span></a></li>
+  <li><a href="#intrinsic-motivation-design-langcheatinglessons2013" id="toc-intrinsic-motivation-design-langcheatinglessons2013" class="nav-link" data-scroll-target="#intrinsic-motivation-design-langcheatinglessons2013">2. Intrinsic Motivation Design <span class="citation" data-cites="langCheatingLessons2013">(Lang 2013)</span></a></li>
+  <li><a href="#spaced-repetition-cepedadistributedpracticeverbal2006" id="toc-spaced-repetition-cepedadistributedpracticeverbal2006" class="nav-link" data-scroll-target="#spaced-repetition-cepedadistributedpracticeverbal2006">3. Spaced Repetition <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(Cepeda et al. 2006)</span></a></li>
+  <li><a href="#retrieval-practice-roedigertestenhancedlearningtaking2006" id="toc-retrieval-practice-roedigertestenhancedlearningtaking2006" class="nav-link" data-scroll-target="#retrieval-practice-roedigertestenhancedlearningtaking2006">4. Retrieval Practice <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(Roediger and Karpicke 2006)</span></a></li>
+  <li><a href="#interleaved-practice-rohrerinterleavinghelpsstudents2012" id="toc-interleaved-practice-rohrerinterleavinghelpsstudents2012" class="nav-link" data-scroll-target="#interleaved-practice-rohrerinterleavinghelpsstudents2012">5. Interleaved Practice <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(Rohrer 2012)</span></a></li>
+  <li><a href="#cognitive-load-management-swellerdevelopmentcognitiveload2023" id="toc-cognitive-load-management-swellerdevelopmentcognitiveload2023" class="nav-link" data-scroll-target="#cognitive-load-management-swellerdevelopmentcognitiveload2023">6. Cognitive Load Management <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(Sweller 2023)</span></a></li>
   </ul></li>
-  <li><a href="#optimale-herausforderungs-architektur" id="toc-optimale-herausforderungs-architektur" class="nav-link" data-scroll-target="#optimale-herausforderungs-architektur">Optimale Herausforderungs-Architektur</a></li>
-  <li><a href="#fächerübergreifende-anwendungen" id="toc-fächerübergreifende-anwendungen" class="nav-link" data-scroll-target="#fächerübergreifende-anwendungen">Fächerübergreifende Anwendungen</a></li>
-  <li><a href="#umsetzungshilfe" id="toc-umsetzungshilfe" class="nav-link" data-scroll-target="#umsetzungshilfe">Umsetzungshilfe</a>
+  <li><a href="#optimal-challenge-design" id="toc-optimal-challenge-design" class="nav-link" data-scroll-target="#optimal-challenge-design">Optimal Challenge Design</a></li>
+  <li><a href="#subject-specific-applications" id="toc-subject-specific-applications" class="nav-link" data-scroll-target="#subject-specific-applications">Subject-Specific Applications</a></li>
+  <li><a href="#implementation-guide" id="toc-implementation-guide" class="nav-link" data-scroll-target="#implementation-guide">Implementation Guide</a>
   <ul class="collapse">
-  <li><a href="#schwierigkeit-für-lernende-umdeuten" id="toc-schwierigkeit-für-lernende-umdeuten" class="nav-link" data-scroll-target="#schwierigkeit-für-lernende-umdeuten">Schwierigkeit für Lernende umdeuten</a></li>
-  <li><a href="#dokumentation-des-ringens" id="toc-dokumentation-des-ringens" class="nav-link" data-scroll-target="#dokumentation-des-ringens">Dokumentation des Ringens</a></li>
-  <li><a href="#fehler-positive-kultur-aufbauen" id="toc-fehler-positive-kultur-aufbauen" class="nav-link" data-scroll-target="#fehler-positive-kultur-aufbauen">Fehler-positive Kultur aufbauen</a></li>
-  <li><a href="#strukturierte-lernaktivitäten" id="toc-strukturierte-lernaktivitäten" class="nav-link" data-scroll-target="#strukturierte-lernaktivitäten">Strukturierte Lernaktivitäten</a></li>
-  <li><a href="#unterstützungs-systeme-für-das-ringen" id="toc-unterstützungs-systeme-für-das-ringen" class="nav-link" data-scroll-target="#unterstützungs-systeme-für-das-ringen">Unterstützungs-Systeme für das Ringen</a></li>
+  <li><a href="#reframing-difficulty-for-students" id="toc-reframing-difficulty-for-students" class="nav-link" data-scroll-target="#reframing-difficulty-for-students">Reframing Difficulty for Students</a></li>
+  <li><a href="#struggle-documentation-strategies" id="toc-struggle-documentation-strategies" class="nav-link" data-scroll-target="#struggle-documentation-strategies">Struggle Documentation Strategies</a></li>
+  <li><a href="#building-an-error-positive-culture" id="toc-building-an-error-positive-culture" class="nav-link" data-scroll-target="#building-an-error-positive-culture">Building an Error-Positive Culture</a></li>
+  <li><a href="#structured-learning-activities" id="toc-structured-learning-activities" class="nav-link" data-scroll-target="#structured-learning-activities">Structured Learning Activities</a></li>
+  <li><a href="#scaffolding-support-systems" id="toc-scaffolding-support-systems" class="nav-link" data-scroll-target="#scaffolding-support-systems">Scaffolding Support Systems</a></li>
   </ul></li>
-  <li><a href="#die-lernumgebungs-perspektive" id="toc-die-lernumgebungs-perspektive" class="nav-link" data-scroll-target="#die-lernumgebungs-perspektive">Die Lernumgebungs-Perspektive</a></li>
+  <li><a href="#the-environmental-perspective" id="toc-the-environmental-perspective" class="nav-link" data-scroll-target="#the-environmental-perspective">The Environmental Perspective</a></li>
   </ul>
 </nav>
     </div>
@@ -360,8 +304,8 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Produktive Anstrengung durch Design</h1>
-<p class="subtitle lead">Lehren im Zeitalter der KI</p>
+<h1 class="title">Productive Struggle by Design</h1>
+<p class="subtitle lead">Teaching in the Age of AI</p>
 </div>
 
 
@@ -375,7 +319,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
             <a href="https://virtuelleakademie.ch">
-            Virtuelle Akademie, Berner Fachhochschule
+            Virtual Academy, Bern University of Applied Sciences
             </a>
           </p>
       </div>
@@ -393,347 +337,348 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 </header>
 
 
-<section id="zentrales-prinzip" class="level2">
-<h2 class="anchored" data-anchor-id="zentrales-prinzip">Zentrales Prinzip</h2>
-<p>Wie James Lang in <em>Cheating Lessons</em> <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span> argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert.“ Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass <strong>produktives Ringen</strong> der lohnendste Weg ist.</p>
-<p>Forschung zu “desirable difficulties” <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994 bjorkMakingThingsHard2011">(<a href="#ref-bjorkMemoryMetamemoryConsiderations1994" role="doc-biblioref">R. A. Bjork 1994</a>; <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">E. L. Bjork and Bjork 2011</a>)</span> zeigt, dass Lernen kognitive Anstrengung erfordert—wenn wir den “struggle” entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.</p>
-<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<section id="core-principle" class="level2">
+<h2 class="anchored" data-anchor-id="core-principle">Core Principle</h2>
+<p>As James Lang argues in <em>Cheating Lessons</em> <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span>, “cheating is an inappropriate response to a learning environment that’s not working for the student.” Rather than focusing on student behavior, we must design learning environments that make <strong>productive struggle</strong> the most rewarding path.</p>
+<p>Research on “desirable difficulties” <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994 bjorkMakingThingsHard2011">(<a href="#ref-bjorkMemoryMetamemoryConsiderations1994" role="doc-biblioref">R. A. Bjork 1994</a>; <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">E. L. Bjork and Bjork 2011</a>)</span> shows that learning requires cognitive effort—when we remove struggle, we remove learning. Yet students are often not given incentives to engage with effortful processing. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.</p>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Das Paradox des Lernens
+<span class="screen-reader-only">Important</span>The Paradox of Learning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Bedingungen, die die Leistung während des Trainings gut aussehen lassen, fördern häufig kein nachhaltiges Lernen. Die folgenden Schwierigkeiten erscheinen im Moment härter und weniger effizient, führen aber zu überlegenem Langzeitbehalten und besserem Transfer:</p>
+<p>Conditions that make performance look good during training often fail to support learning. The following difficulties feel harder and less efficient in the moment, but produce superior long-term retention and transfer:</p>
 <ul>
-<li><strong>Generationseffekt</strong>: Lernende generieren (auch falsche) Antworten, bevor sie Informationen erhalten</li>
-<li><strong>Spacing-Effekt</strong>: Übung über die Zeit verteilen statt sie zu bündeln</li>
-<li><strong>Testing-Effekt</strong>: Wiederholtes Abrufen statt passivem Wiederholen nutzen</li>
-<li><strong>Interleaving</strong>: Verschiedene Aufgabentypen mischen statt zu blocken</li>
+<li><strong>Generation Effect</strong>: Having students generate answers (even incorrect ones) before receiving information</li>
+<li><strong>Spacing Effect</strong>: Distributing practice over time rather than massing it</li>
+<li><strong>Testing Effect</strong>: Using retrieval practice instead of passive review</li>
+<li><strong>Interleaving</strong>: Mixing different types of problems instead of blocking them</li>
 </ul>
-<p>Diese „wünschenswerten Schwierigkeiten“ sind der eigentliche Lernmechanismus—nicht Hindernisse, die eliminiert werden sollten.</p>
+<p>These “desirable difficulties” are the very mechanism of learning, not obstacles to be eliminated.</p>
 </div>
 </div>
 </section>
-<section id="evidenzbasierte-umweltgestaltung" class="level2">
-<h2 class="anchored" data-anchor-id="evidenzbasierte-umweltgestaltung">Evidenzbasierte Umweltgestaltung</h2>
-<section id="prüfungen-mit-niedrigen-einsätzen-langcheatinglessons2013" class="level3">
-<h3 class="anchored" data-anchor-id="prüfungen-mit-niedrigen-einsätzen-langcheatinglessons2013">1. Prüfungen mit niedrigen Einsätzen <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span></h3>
-<p>Ersetze Einzelprüfungen mit hohem Gewicht durch häufigere, weniger bedeutsame Bewertungen:</p>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<section id="evidence-based-environmental-design" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-based-environmental-design">Evidence-Based Environmental Design</h2>
+<section id="lower-stakes-assessment-langcheatinglessons2013" class="level3">
+<h3 class="anchored" data-anchor-id="lower-stakes-assessment-langcheatinglessons2013">1. Lower-Stakes Assessment <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span></h3>
+<p>Replace high-stakes single assessments with frequent, lower-stakes evaluations:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Forschungsbasierter Ansatz
+<span class="screen-reader-only">Tip</span>Research-Based Approach
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Statt einer Abschlussprüfung mit 50% Gewicht:</p>
+<p>Instead of a final exam worth 50%, use:</p>
 <ul>
-<li>Fünf Prüfungen mit je 10%</li>
-<li>Wöchentliche Reflexionsjournale</li>
-<li>Mehrfache Möglichkeiten, Lernen zu zeigen</li>
+<li>Five tests worth 10% each</li>
+<li>Weekly reflection journals</li>
+<li>Multiple opportunities to demonstrate learning</li>
 </ul>
-<p>Dies reduziert von Angst getriebene Abkürzungen und fördert das Behalten durch den <strong>Testing-Effekt</strong> <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger and Karpicke 2006</a>)</span>.</p>
+<p>This reduces anxiety-driven shortcuts while improving retention through the <strong>testing effect</strong> <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger and Karpicke 2006</a>)</span>.</p>
 </div>
 </div>
 </section>
-<section id="gestaltung-intrinsischer-motivation-langcheatinglessons2013" class="level3">
-<h3 class="anchored" data-anchor-id="gestaltung-intrinsischer-motivation-langcheatinglessons2013">2. Gestaltung intrinsischer Motivation <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span></h3>
-<p>Gestalte Kurse um bedeutungsvolle Probleme statt um reine Inhaltsabdeckung:</p>
-<p><strong>Inhaltsorientiert</strong>: „Lies Kapitel 7 über Klimawandel“<br>
-<strong>Problembasiert</strong>: „Analysiere, wie sich das Klima in deinem Heimatort mit lokalen Wetterdaten verändert hat“</p>
-<p>Probleme, die im Umfeld der Studierenden wurzeln, können intrinsische Motivation ansprechen und sind weniger anfällig für KI-Generierung.</p>
+<section id="intrinsic-motivation-design-langcheatinglessons2013" class="level3">
+<h3 class="anchored" data-anchor-id="intrinsic-motivation-design-langcheatinglessons2013">2. Intrinsic Motivation Design <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span></h3>
+<p>Build courses around meaningful problems rather than content coverage:</p>
+<p><strong>Coverage-Based</strong>: “Read Chapter 7 on climate change”<br>
+<strong>Problem-Based</strong>: “Analyze how climate patterns in your hometown have changed using local weather data”</p>
+<p>Problems rooted in students’ environments may tap intrinsic motivation and therefore be less prone to AI generation.</p>
 </section>
-<section id="verteiltes-wiederholen-cepedadistributedpracticeverbal2006" class="level3">
-<h3 class="anchored" data-anchor-id="verteiltes-wiederholen-cepedadistributedpracticeverbal2006">3. Verteiltes Wiederholen <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(<a href="#ref-cepedaDistributedPracticeVerbal2006" role="doc-biblioref">Cepeda et al. 2006</a>)</span></h3>
-<p>Verteile Übung über die Zeit statt sie zu bündeln:</p>
-<pre><code>Woche 1: Konzept A einführen
-Woche 3: Konzept A wiederholen und Konzept B lernen
-Woche 6: A &amp; B in neuem Kontext anwenden
-Woche 10: A &amp; B mit Konzept C verknüpfen</code></pre>
-<p>Forschung zeigt, dass verteilte Übung das Langzeitbehalten um 200–300% verbessert.</p>
+<section id="spaced-repetition-cepedadistributedpracticeverbal2006" class="level3">
+<h3 class="anchored" data-anchor-id="spaced-repetition-cepedadistributedpracticeverbal2006">3. Spaced Repetition <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(<a href="#ref-cepedaDistributedPracticeVerbal2006" role="doc-biblioref">Cepeda et al. 2006</a>)</span></h3>
+<p>Distribute practice across time rather than massing it:</p>
+<pre><code>Week 1: Introduce concept A
+Week 3: Review concept A while learning B  
+Week 6: Apply concepts A &amp; B to new context
+Week 10: Connect A &amp; B to concept C</code></pre>
+<p>Research shows spaced practice improves long-term retention by 200-300%.</p>
 </section>
-<section id="abrufübung-roedigertestenhancedlearningtaking2006" class="level3">
-<h3 class="anchored" data-anchor-id="abrufübung-roedigertestenhancedlearningtaking2006">4. Abrufübung <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger and Karpicke 2006</a>)</span></h3>
-<p>Nutze Tests als Lernwerkzeug, nicht nur zur Bewertung:</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<section id="retrieval-practice-roedigertestenhancedlearningtaking2006" class="level3">
+<h3 class="anchored" data-anchor-id="retrieval-practice-roedigertestenhancedlearningtaking2006">4. Retrieval Practice <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger and Karpicke 2006</a>)</span></h3>
+<p>Use testing as a learning tool, not just assessment:</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Umsetzungsstrategie
+<span class="screen-reader-only">Note</span>Implementation Strategy
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Abruf mit geringem Risiko:</strong></p>
+<p><strong>Low-stakes retrieval opportunities:</strong></p>
 <ul>
-<li>Jede Sitzung mit einem 2-Minuten-Quiz zum Vorwissen starten</li>
-<li>Wöchentliche „Brain Dumps“: alles aufschreiben, was man erinnert</li>
-<li>Peer-Teaching-Übungen</li>
-<li>Übungsaufgaben ohne Nachschlagen lösen</li>
+<li>Start each class with a 2-minute quiz on previous material</li>
+<li>Weekly “brain dumps” where students write everything they remember</li>
+<li>Peer teaching exercises</li>
+<li>Practice problems without looking at notes first</li>
 </ul>
-<p>Forschung zeigt, dass Abrufübung besseren Transfer als reines Wiederholen bringt.</p>
+<p>Research shows retrieval practice produces better transfer than repeated studying.</p>
 </div>
 </div>
 </section>
-<section id="vermischtes-üben-rohrerinterleavinghelpsstudents2012" class="level3">
-<h3 class="anchored" data-anchor-id="vermischtes-üben-rohrerinterleavinghelpsstudents2012">5. Vermischtes Üben <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(<a href="#ref-rohrerInterleavingHelpsStudents2012" role="doc-biblioref">Rohrer 2012</a>)</span></h3>
-<p>Mische verschiedene Aufgabentypen in Übungsaufgaben:</p>
-<p>Statt 20 Algebra- und dann 20 Geometrieaufgaben zu geben, mische sie:</p>
+<section id="interleaved-practice-rohrerinterleavinghelpsstudents2012" class="level3">
+<h3 class="anchored" data-anchor-id="interleaved-practice-rohrerinterleavinghelpsstudents2012">5. Interleaved Practice <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(<a href="#ref-rohrerInterleavingHelpsStudents2012" role="doc-biblioref">Rohrer 2012</a>)</span></h3>
+<p>Mix different types of problems within assignments:</p>
+<p>Instead of 20 algebra problems, then 20 geometry problems, mix them:</p>
 <ul>
-<li>Aufgaben 1, 4, 7: Algebra</li>
-<li>Aufgaben 2, 5, 8: Geometrie<br>
+<li>Problems 1, 4, 7: Algebra</li>
+<li>Problems 2, 5, 8: Geometry<br>
 </li>
-<li>Aufgaben 3, 6, 9: Textaufgaben mit beidem</li>
+<li>Problems 3, 6, 9: Word problems requiring both</li>
 </ul>
-<p>Interleaving verbessert die Unterscheidung ähnlicher Konzepte und das Langzeitbehalten.</p>
+<p>Interleaving improves discrimination between similar concepts and long-term retention.</p>
 </section>
-<section id="kognitive-belastung-steuern-swellerdevelopmentcognitiveload2023" class="level3">
-<h3 class="anchored" data-anchor-id="kognitive-belastung-steuern-swellerdevelopmentcognitiveload2023">6. Kognitive Belastung steuern <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span></h3>
-<p>Gestalte Instruktion so, dass sie die Arbeitsgedächtniskapazität optimiert und produktives Ringen erhält:</p>
-<p><strong>Für Anfänger:</strong></p>
+<section id="cognitive-load-management-swellerdevelopmentcognitiveload2023" class="level3">
+<h3 class="anchored" data-anchor-id="cognitive-load-management-swellerdevelopmentcognitiveload2023">6. Cognitive Load Management <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span></h3>
+<p>Design instruction to optimize working memory capacity while preserving productive struggle:</p>
+<p><strong>For Novices:</strong></p>
 <ul>
-<li>Durchgearbeitete Beispiele vor eigenständiger Übung bereitstellen</li>
-<li>Überflüssige Belastung reduzieren, aber die eigentliche Herausforderung erhalten</li>
+<li>Provide worked examples before independent practice</li>
+<li>Reduce extraneous cognitive load while maintaining intrinsic challenge</li>
 </ul>
-<p><strong>Für Fortgeschrittene:</strong></p>
+<p><strong>For Advanced Learners:</strong></p>
 <ul>
-<li>Elementinteraktivität schrittweise erhöhen</li>
-<li>Produktives Ringen durch passende Schwierigkeitsgrade fördern</li>
-<li>Fokus auf lernproduktive kognitive Belastung</li>
-</ul>
-</section>
-</section>
-<section id="optimale-herausforderungs-architektur" class="level2">
-<h2 class="anchored" data-anchor-id="optimale-herausforderungs-architektur">Optimale Herausforderungs-Architektur</h2>
-<p>Schaffe strukturierte Gelegenheiten für anstrengende Verarbeitung, indem du den optimalen Schwierigkeitsgrad findest:</p>
-<ul>
-<li><strong>Zu leicht</strong>: Lernende schalten ab; kein Lernen</li>
-<li><strong>Zu schwer</strong>: Überforderung, Arbeitsgedächtnis überlastet</li>
-<li><strong>Genau richtig</strong>: Produktives Ringen, Lernen findet statt</li>
-</ul>
-<p><strong>Gestaltungs-Implementierung:</strong></p>
-<ul>
-<li>Beginne auf dem aktuellen Fähigkeitsniveau</li>
-<li>Füge ein neues Element an Komplexität hinzu</li>
-<li>Unterstützung für das Ringen, nicht dessen Beseitigung bieten</li>
-<li>Ausreichend Zeit für anstrengende Verarbeitung lassen</li>
+<li>Increase element interactivity gradually</li>
+<li>Encourage productive struggle through appropriately difficult tasks</li>
+<li>Focus on germane (learning-productive) cognitive load</li>
 </ul>
 </section>
-<section id="fächerübergreifende-anwendungen" class="level2">
-<h2 class="anchored" data-anchor-id="fächerübergreifende-anwendungen">Fächerübergreifende Anwendungen</h2>
+</section>
+<section id="optimal-challenge-design" class="level2">
+<h2 class="anchored" data-anchor-id="optimal-challenge-design">Optimal Challenge Design</h2>
+<p>Create structured opportunities for effortful processing by finding the optimal difficulty level for learning:</p>
+<ul>
+<li><strong>Too Easy</strong>: Students disengage; no learning occurs</li>
+<li><strong>Too Hard</strong>: Students become overwhelmed; working memory overloads</li>
+<li><strong>Just Right</strong>: Students experience productive struggle; learning occurs</li>
+</ul>
+<p><strong>Design Implementation:</strong></p>
+<ul>
+<li>Start with student’s current capability level</li>
+<li>Add one new element of complexity</li>
+<li>Provide support for struggle, not elimination of it</li>
+<li>Allow adequate time for effortful processing</li>
+</ul>
+</section>
+<section id="subject-specific-applications" class="level2">
+<h2 class="anchored" data-anchor-id="subject-specific-applications">Subject-Specific Applications</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Mathematik</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Schreiben</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Naturwissenschaften</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Programmieren</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Mathematics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Writing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Science</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Programming</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><strong>Interleaving anwenden:</strong></p>
+<p><strong>Apply Interleaving:</strong></p>
 <ul>
-<li>Aufgabentypen in Sets mischen</li>
-<li>Zwischen mathematischen Verfahren wechseln</li>
-<li>Textaufgaben einbeziehen, die Strategieauswahl erfordern</li>
+<li>Mix problem types within practice sets</li>
+<li>Alternate between different mathematical procedures</li>
+<li>Include word problems requiring strategy selection</li>
 </ul>
-<p><strong>Durchgearbeitete Beispiele:</strong></p>
+<p><strong>Use Worked Examples:</strong></p>
 <ul>
-<li>Schritt-für-Schritt-Lösungen vor Eigenübung zeigen</li>
-<li>Unterstützung allmählich abbauen, sobald Expertise wächst</li>
+<li>Show step-by-step solutions before independent practice</li>
+<li>Gradually fade support as expertise develops</li>
 </ul>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>Verteilte Überarbeitung implementieren:</strong></p>
+<p><strong>Implement Spaced Revision:</strong></p>
 <ul>
-<li>Entwurf → Woche Pause → Überarbeitung → Woche Pause → Endfassung</li>
-<li>Mehrere Feedback-Schleifen mit niedrigen Einsätzen</li>
+<li>Draft → Week gap → Revision → Week gap → Final edit</li>
+<li>Multiple low-stakes feedback loops</li>
 </ul>
-<p><strong>Designbasiertes Lernen:</strong></p>
+<p><strong>Design-Based Learning:</strong></p>
 <ul>
-<li>Schreiben an reale Probleme binden</li>
-<li>Echte Zielgruppen außerhalb des Unterrichts</li>
+<li>Connect writing to real problems</li>
+<li>Authentic audiences beyond the instructor</li>
 </ul>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p><strong>Abrufübungen:</strong></p>
+<p><strong>Retrieval Practice Applications:</strong></p>
 <ul>
-<li>Vorhersagen-Beobachten-Erklären-Zyklen mit verzögertem Feedback</li>
-<li>Konzeptmapping aus dem Gedächtnis vor Nachschlagen</li>
+<li>Predict-observe-explain cycles with delayed feedback</li>
+<li>Concept mapping from memory before consulting notes</li>
 </ul>
-<p><strong>Wünschenswerte Schwierigkeiten:</strong></p>
+<p><strong>Desirable Difficulties:</strong></p>
 <ul>
-<li>Hypothesen generieren vor Wissensvermittlung</li>
-<li>Phänomene erklären, bevor der Mechanismus gelehrt wird<br>
+<li>Generate hypotheses before receiving information</li>
+<li>Explain phenomena before learning the mechanism<br>
 </li>
-<li>Mit „gescheiterten“ Experimenten ringen, die Fehlvorstellungen aufdecken</li>
+<li>Struggle with “failed” experiments that reveal misconceptions</li>
 </ul>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p><strong>Kognitive Belastung beachten:</strong></p>
+<p><strong>Cognitive Load Considerations:</strong></p>
 <ul>
-<li>Durchgearbeitete Beispiele für Syntax, Problemlösen für Logik</li>
-<li>Pair Programming als kognitive Meisterlehre</li>
-<li>Anderen Code debuggen, um Mustererkennung aufzubauen</li>
+<li>Worked examples for syntax, problem-solving for logic</li>
+<li>Pair programming as cognitive apprenticeship</li>
+<li>Debug others’ code to build pattern recognition</li>
 </ul>
 </div>
 </div>
 </div>
 </section>
-<section id="umsetzungshilfe" class="level2">
-<h2 class="anchored" data-anchor-id="umsetzungshilfe">Umsetzungshilfe</h2>
-<section id="schwierigkeit-für-lernende-umdeuten" class="level3">
-<h3 class="anchored" data-anchor-id="schwierigkeit-für-lernende-umdeuten">Schwierigkeit für Lernende umdeuten</h3>
-<p>Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, sondern der eigentliche Lernmechanismus:</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<section id="implementation-guide" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-guide">Implementation Guide</h2>
+<section id="reframing-difficulty-for-students" class="level3">
+<h3 class="anchored" data-anchor-id="reframing-difficulty-for-students">Reframing Difficulty for Students</h3>
+<p>Help students understand that cognitive effort is not a design flaw to be eliminated, but the very mechanism of learning:</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Schwierigkeit umdeuten
+<span class="screen-reader-only">Note</span>Reframing Difficulty
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Statt:</strong> „Das ist zu schwer“<br>
-<strong>Umdeuten als:</strong> „Mein Gehirn arbeitet hart, um neue Verbindungen zu schaffen“</p>
-<p><strong>Statt:</strong> „Ich verstehe es nicht“<br>
-<strong>Umdeuten als:</strong> „Ich bin in der produktiven Ringen-Zone, wo Lernen passiert“</p>
-<p><strong>Statt:</strong> „Ich habe einen Fehler gemacht“<br>
-<strong>Umdeuten als:</strong> „Ich habe nützliche Information über meinen aktuellen Stand erzeugt“</p>
-<p><strong>Statt:</strong> „Es sollte einfacher sein“<br>
-<strong>Umdeuten als:</strong> „Passende Schwierigkeit ist notwendig für Wachstum“</p>
+<p><strong>Instead of:</strong> “This is too hard”<br>
+<strong>Reframe as:</strong> “My brain is working hard to build new connections”</p>
+<p><strong>Instead of:</strong> “I don’t get it”<br>
+<strong>Reframe as:</strong> “I’m in the productive struggle zone where learning happens”</p>
+<p><strong>Instead of:</strong> “I made a mistake”<br>
+<strong>Reframe as:</strong> “I generated useful information about my current understanding”</p>
+<p><strong>Instead of:</strong> “This should be easier”<br>
+<strong>Reframe as:</strong> “Appropriate difficulty is necessary for growth”</p>
 </div>
 </div>
 </section>
-<section id="dokumentation-des-ringens" class="level3">
-<h3 class="anchored" data-anchor-id="dokumentation-des-ringens">Dokumentation des Ringens</h3>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<section id="struggle-documentation-strategies" class="level3">
+<h3 class="anchored" data-anchor-id="struggle-documentation-strategies">Struggle Documentation Strategies</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lernprozess-Portfolio
+<span class="screen-reader-only">Tip</span>The Learning Process Portfolio
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Das Ringen dokumentieren, nicht nur die Lösung:</strong></p>
+<p><strong>Track the struggle, not just the solution:</strong></p>
 <ul>
-<li><strong>Verwirrungsprotokolle</strong>: Was hat verwirrt, warum war das wertvoll?</li>
-<li><strong>Fehleranalysebögen</strong>: Systematische Reflexion über Fehler und Fehlkonzepte</li>
-<li><strong>Zeitaufzeichnung fürs Ringen</strong>: Produktive Ringen-Zeit protokollieren (und feiern!)</li>
-<li><strong>„Aha!“-Momente dokumentieren</strong>: Verknüpfe Ringen mit Durchbrüchen</li>
-<li><strong>Methoden-Evolutionskarten</strong>: Zeigen, wie Lösungswege sich verbessert haben</li>
+<li><strong>Confusion Logs</strong>: Students document what confused them and why it was valuable</li>
+<li><strong>Error Analysis Sheets</strong>: Systematic reflection on mistakes and misconceptions</li>
+<li><strong>Struggle Time Tracking</strong>: Record time spent in productive struggle (celebrate this!)</li>
+<li><strong>“Aha!” Moment Documentation</strong>: Connect struggles to breakthrough insights</li>
+<li><strong>Method Evolution Maps</strong>: Show how problem-solving approaches improved over time</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="fehler-positive-kultur-aufbauen" class="level3">
-<h3 class="anchored" data-anchor-id="fehler-positive-kultur-aufbauen">Fehler-positive Kultur aufbauen</h3>
-<p><strong>Bewertungsgestaltung:</strong></p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<section id="building-an-error-positive-culture" class="level3">
+<h3 class="anchored" data-anchor-id="building-an-error-positive-culture">Building an Error-Positive Culture</h3>
+<p><strong>Assessment Design:</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Fehlerfreundliche Benotung
+<span class="screen-reader-only">Note</span>Error-Friendly Grading
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><strong>Fehler-Portfolio-Bonus</strong>: Extra-Punkte für das Sammeln und Analysieren von Fehlern</li>
-<li><strong>Wertvollster Fehler</strong>: Lernende nominieren ihren lehrreichsten Fehler</li>
-<li><strong>Fehlermuster-Erkennung</strong>: Punkte für das Identifizieren wiederkehrender Fehler</li>
-<li><strong>Lehre deinen Fehler</strong>: Erkläre deinen Fehler, damit andere ihn vermeiden</li>
-<li><strong>Fehler-zu-Kompetenz-Progression</strong>: Notenverbesserung vom Fehler zur Korrektur</li>
+<li><strong>Error Portfolio Bonus</strong>: Extra credit for collecting and analyzing mistakes</li>
+<li><strong>Most Valuable Error</strong>: Students nominate their most instructive mistake</li>
+<li><strong>Error Pattern Recognition</strong>: Points for identifying recurring error types</li>
+<li><strong>Teaching Your Mistake</strong>: Students explain their errors to help others avoid them</li>
+<li><strong>Mistake-to-Mastery Progression</strong>: Grade improvement from error to correction</li>
 </ul>
 </div>
 </div>
-<p><strong>Veränderungen der Lernumgebung:</strong></p>
-<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<p><strong>Classroom Culture Shifts:</strong></p>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Veränderungen der Lernumgebung
+<span class="screen-reader-only">Important</span>Environmental Changes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Visuelle Umgebung:</strong></p>
+<p><strong>Visual Environment:</strong></p>
 <ul>
-<li><strong>„Schöne Fehler“-Wand</strong>: Lehrreiche Fehler mit Analyse ausstellen</li>
-<li><strong>Ringen-Tracker-Diagramme</strong>: Fortschritt durch schwierige Konzepte sichtbar machen<br>
+<li><strong>“Beautiful Mistakes” Wall</strong>: Display instructive errors with analysis</li>
+<li><strong>Struggle Tracker Charts</strong>: Visual progress through difficult concepts<br>
 </li>
-<li><strong>Problemlöse-Reisekarten</strong>: Zeigen den „unordentlichen“ Weg zum Verständnis</li>
+<li><strong>Problem-Solving Journey Maps</strong>: Show the messy path to understanding</li>
 </ul>
-<p><strong>Sprachliche Umgebung:</strong></p>
+<p><strong>Language Environment:</strong></p>
 <ul>
-<li><strong>„Ich bin verwirrt und das ist perfekt“</strong>: Verwirrung als Lernen normalisieren</li>
-<li><strong>„Was für ein schöner Fehler!“</strong>: Fehler feiern, die Denken offenbaren</li>
-<li><strong>„Das Ringen ist dein Gehirn, das wächst“</strong>: Anstrengung mit Wachstum verbinden</li>
-<li><strong>„Fehler sind Daten“</strong>: Fehler als Information, nicht als Versagen rahmen</li>
+<li><strong>“I’m confused and that’s perfect”</strong>: Normalize confusion as learning</li>
+<li><strong>“What a beautiful mistake!”</strong>: Celebrate errors that reveal thinking</li>
+<li><strong>“That struggle is your brain growing”</strong>: Connect effort to growth</li>
+<li><strong>“Errors are data”</strong>: Frame mistakes as information, not failure</li>
 </ul>
-<p><strong>Aktivitätsumgebung:</strong></p>
+<p><strong>Activity Environment:</strong></p>
 <ul>
-<li><strong>Tägliches Ringen teilen</strong>: 2-Minuten-Reflexion zu produktiven Schwierigkeiten</li>
-<li><strong>Fehler des Tages</strong>: Gemeinsame Analyse wertvoller Fehler</li>
-<li><strong>Verwirrungskonferenzen</strong>: 1:1 Gespräche über Schwierigkeiten</li>
-<li><strong>Fehler-Wettbewerbe</strong>: Fehlerproduktion und -analyse spielerisch machen</li>
+<li><strong>Daily Struggle Sharing</strong>: 2-minute reflections on productive difficulties</li>
+<li><strong>Error of the Day</strong>: Collective analysis of valuable mistakes</li>
+<li><strong>Confusion Conferences</strong>: One-on-one discussions about struggles</li>
+<li><strong>Mistake-Making Competitions</strong>: Gamify error generation and analysis</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="strukturierte-lernaktivitäten" class="level3">
-<h3 class="anchored" data-anchor-id="strukturierte-lernaktivitäten">Strukturierte Lernaktivitäten</h3>
-<p><strong>Vor dem Lernen (Generationseffekt):</strong></p>
+<section id="structured-learning-activities" class="level3">
+<h3 class="anchored" data-anchor-id="structured-learning-activities">Structured Learning Activities</h3>
+<p><strong>Pre-Learning Struggle (Generation Effect):</strong></p>
 <ul>
-<li>Probleme vor der Instruktion versuchen</li>
-<li>Lösungen zu unbekannten Herausforderungen generieren<br>
+<li>Attempt problems before instruction</li>
+<li>Generate possible solutions to unfamiliar challenges<br>
 </li>
-<li>Ergebnisse vor Demonstrationen vorhersagen</li>
-<li>Fragen zum neuen Stoff entwickeln</li>
+<li>Predict outcomes before demonstrations</li>
+<li>Create questions about upcoming material</li>
 </ul>
-<p><strong>Während des Lernens:</strong></p>
+<p><strong>During-Learning Struggle:</strong></p>
 <ul>
-<li><strong>Think-Pair-Share Verwirrung</strong>: Unklares teilen, gemeinsam daran arbeiten</li>
-<li><strong>Fehler-Speed-Dating</strong>: Durch häufige Fehler rotieren und diskutieren</li>
-<li><strong>Produktive Scheiter-Challenges</strong>: Absichtlich Aufgaben leicht über dem Niveau stellen</li>
-<li><strong>Erklären-vor-dem-Wissen</strong>: Vor der Antwort Erklärungen versuchen</li>
+<li><strong>Think-Pair-Share Confusion</strong>: Share what’s unclear, then work together</li>
+<li><strong>Error Speed Dating</strong>: Rotate through common mistakes, discuss each</li>
+<li><strong>Productive Failure Challenges</strong>: Deliberately tackle problems slightly above current level</li>
+<li><strong>Explain-Before-You-Know</strong>: Attempt explanations before receiving information</li>
 </ul>
-<p><strong>Nach dem Lernen:</strong></p>
+<p><strong>Post-Learning Struggle:</strong></p>
 <ul>
-<li><strong>Transfer-Aufgaben</strong>: Konzepte auf neue Situationen anwenden</li>
-<li><strong>Fehlerdiagnose</strong>: Fehler in Beispielarbeiten erkennen</li>
-<li><strong>Peer-Coaching</strong>: Anderen durch deren produktives Ringen helfen</li>
+<li><strong>Transfer Challenges</strong>: Apply concepts to novel situations</li>
+<li><strong>Error Diagnosis</strong>: Identify mistakes in sample work</li>
+<li><strong>Peer Coaching</strong>: Help others through their productive struggles</li>
 </ul>
 </section>
-<section id="unterstützungs-systeme-für-das-ringen" class="level3">
-<h3 class="anchored" data-anchor-id="unterstützungs-systeme-für-das-ringen">Unterstützungs-Systeme für das Ringen</h3>
-<p><strong>Struggle Support Ladder (Unterstützungsleiter):</strong></p>
+<section id="scaffolding-support-systems" class="level3">
+<h3 class="anchored" data-anchor-id="scaffolding-support-systems">Scaffolding Support Systems</h3>
+<p><strong>The Struggle Support Ladder:</strong></p>
 <ol type="1">
-<li><strong>Eigenständiger Versuch</strong> (mindestens 5–10 Minuten)</li>
-<li><strong>Austausch mit Peers</strong> (Schwierigkeiten teilen, keine Lösungen)</li>
-<li><strong>Zugang zu Ressourcen</strong> (strategische Hinweise, keine Komplettlösungen)</li>
-<li><strong>Lehrer-Coaching</strong> (Denken leiten, nicht lösen)</li>
-<li><strong>Kollaboratives Problemlösen</strong> (gemeinsam letzte Hürden nehmen)</li>
+<li><strong>Independent Attempt</strong> (5-10 minutes minimum)</li>
+<li><strong>Peer Consultation</strong> (share struggles, not solutions)</li>
+<li><strong>Resource Access</strong> (strategic hints, not full answers)</li>
+<li><strong>Instructor Coaching</strong> (guide thinking, don’t solve)</li>
+<li><strong>Collaborative Problem-Solving</strong> (work together on remaining challenges)</li>
 </ol>
-<p><strong>Strategisches Hinweis-System:</strong></p>
+<p><strong>Strategic Hint System:</strong></p>
 <ul>
-<li><strong>Prozesshinweise</strong> (keine Inhalte): „Was für ein Aufgabentyp ist das?“</li>
-<li><strong>Strategievorschläge</strong>: „Was hat bei ähnlichen Problemen geholfen?“</li>
-<li><strong>Fehleralarme</strong>: „Überprüfe Schritt drei“ (ohne Lösung zu geben)</li>
-<li><strong>Metakognitive Impulse</strong>: „Was denkst du gerade?“</li>
+<li><strong>Process Hints</strong> (not content): “What type of problem is this?”</li>
+<li><strong>Strategy Suggestions</strong>: “What worked for similar problems?”</li>
+<li><strong>Error Alerts</strong>: “Check your third step” (without giving the answer)</li>
+<li><strong>Metacognitive Prompts</strong>: “What are you thinking right now?”</li>
 </ul>
 </section>
 </section>
-<section id="die-lernumgebungs-perspektive" class="level2">
-<h2 class="anchored" data-anchor-id="die-lernumgebungs-perspektive">Die Lernumgebungs-Perspektive</h2>
-<p>Das Ziel ist nicht, den “Struggle” zu beseitigen, sondern Lernumgebungen so zu gestalten, dass produktives “Struggling” der lohnendste und unterstützte Weg zum gewünschten Ergebnis ist: den Aufbau von tiefem Verständnis und Expertise.</p>
+<section id="the-environmental-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="the-environmental-perspective">The Environmental Perspective</h2>
+<p>The goal is not to eliminate struggle, but to design learning environments where productive struggle becomes the most rewarding and supported path to achieving the outcomes we want for students: deep understanding, durable skills, and authentic expertise.</p>
+<p>When environments align with how humans actually learn through effortful processing, students naturally choose deeper engagement because they experience the satisfaction of genuine capability development.</p>
 
 
 
@@ -763,13 +708,12 @@ Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Lo
 </div>
 </div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ellis,
   author = {Ellis, Andrew},
-  title = {Produktive {Anstrengung} Durch {Design}},
-  url = {https://virtuelleakademie.github.io/ki-lehre-intermediate/03-lernumgebungen/produktive-anstrengung/},
+  title = {Productive {Struggle} by {Design}},
+  url = {https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/learning-environment/},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ellis" class="csl-entry quarto-appendix-citeas" role="listitem">
-Ellis, Andrew. n.d. <span>“Produktive Anstrengung Durch Design.”</span>
-<a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/03-lernumgebungen/produktive-anstrengung/">https://virtuelleakademie.github.io/ki-lehre-intermediate/03-lernumgebungen/produktive-anstrengung/</a>.
+Ellis, Andrew. n.d. <span>“Productive Struggle by Design.”</span> <a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/learning-environment/">https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/learning-environment/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1178,15 +1122,6 @@ Ellis, Andrew. n.d. <span>“Produktive Anstrengung Durch Design.”</span>
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../03-lernumgebungen/agent-beispiele/index.html" class="pagination-link" aria-label="Agent-Beispiele für die 8 Strategien">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Agent-Beispiele für die 8 Strategien</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
