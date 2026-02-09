@@ -51,7 +51,7 @@ Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert
 
 ## Lernen ≠ Leisten
 
-Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben.
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf --- es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
 ### Cargo Cult Scholarship
 
@@ -101,3 +101,4 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 
 - [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/) --- Wissenschaftliche Grundlagen der Expertise-Entwicklung
 - [Produktive Anstrengung durch Design](../03-praxis/produktive-anstrengung/) --- Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
+- [The Curious Case of Transfer of Learning](https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning) --- Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)
