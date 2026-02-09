@@ -298,7 +298,7 @@
     "href": "03-praxis/index.html",
     "title": "Vom Wissen zum Handeln",
     "section": "",
-    "text": "Active-processingPraxis: Aufgaben analysieren & Agent gestalten (55 Min)\n\n\n\nIn zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:\n\nAufgaben-Analyse mit dem 5-Fragen-Framework (25 Min)\nAgent-Design für produktive Anstrengung (25 Min)\n\nZiel: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen fördern kann — und wo die Fallstricke liegen.",
+    "text": "Active-processingPraxis: Aufgaben analysieren & Agent gestalten (50 Min)\n\n\n\nIn zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:\n\nAufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)\nAgent-Design für produktive Anstrengung (22 Min)\n\nZiel: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen fördern kann — und wo die Fallstricke liegen.",
     "crumbs": [
       "3: Praxis",
       "Vom Wissen zum Handeln"
@@ -540,7 +540,7 @@
     "href": "02-ki-und-lernen/index.html#das-5-fragen-framework",
     "title": "KI & Lernen",
     "section": "Das 5-Fragen-Framework",
-    "text": "Das 5-Fragen-Framework\nEin praktisches Werkzeug für die Aufgabengestaltung:\n\n\n\n\n\n\n\nFrage\nWenn ja…\n\n\n\n\n1. Geht es primär ums Lernen?\n→ Outsourcing verhindern\n\n\n2. Werden noch Grundlagen aufgebaut?\n→ Interne Verarbeitung verlangen\n\n\n3. Muss internes Wissen nachgewiesen werden?\n→ Outsourcing unmöglich machen\n\n\n4. Kann KI die Aufgabe ohne Denkarbeit erledigen?\n→ Aufgabe umgestalten\n\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\n→ KI für die Prüfphase nutzen\n\n\n\n\n\n\n\n\n\nTipÜberleitung zur Praxis\n\n\n\nJetzt seid ihr dran: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an — und gestaltet dann einen Agent, der produktive Anstrengung fördert statt ersetzt.\n\n\n→ 5-Fragen-Framework: Handout",
+    "text": "Das 5-Fragen-Framework\nEin praktisches Werkzeug für die Aufgabengestaltung:\n\n\n\n\n\n\n\nFrage\nWenn ja…\n\n\n\n\n1. Geht es primär ums Lernen?\n→ Outsourcing verhindern\n\n\n2. Werden noch Grundlagen aufgebaut?\n→ Interne Verarbeitung verlangen\n\n\n3. Muss internes Wissen nachgewiesen werden?\n→ Outsourcing unmöglich machen\n\n\n4. Kann KI die Aufgabe ohne Denkarbeit erledigen?\n→ Aufgabe umgestalten\n\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\n→ KI für die Prüfphase nutzen",
     "crumbs": [
       "2: KI & Lernen",
       "KI & Lernen"
@@ -755,7 +755,7 @@
     "href": "workshop/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:00\n Teil 1: Lernen verstehen\n\n\n\n\nWie Menschen lernen\n50 min\n\n\n10:00 - 10:15\n Pause\n\n\n\n\nKaffee\n15 min\n\n\n10:15 - 10:20\n Retrieval Activation\n\n\n\n\nAbrufpraxis: 3 Konzepte ohne Notizen\n5 min\n\n\n10:20 - 10:50\n Teil 2: KI & Lernen\n\n\n\n\nWas bedeutet das für KI?\n30 min\n\n\n10:50 - 11:45\n Teil 3: Vom Wissen zum Handeln\n\n\n\n\nAufgaben analysieren & Agent gestalten\n55 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
+    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:00\n Teil 1: Lernen verstehen\n\n\n\n\nWie Menschen lernen\n50 min\n\n\n10:00 - 10:15\n Pause\n\n\n\n\nKaffee\n15 min\n\n\n10:15 - 10:20\n Retrieval Activation\n\n\n\n\nAbrufpraxis: 3 Konzepte ohne Notizen\n5 min\n\n\n10:20 - 10:55\n Teil 2: KI & Lernen\n\n\n\n\nWas bedeutet das für KI?\n35 min\n\n\n10:55 - 11:45\n Teil 3: Vom Wissen zum Handeln\n\n\n\n\nAufgaben analysieren & Agent gestalten\n50 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -766,7 +766,7 @@
     "href": "workshop/index.html#workshop-ablauf-ki-in-der-lehre-intermediate-3-stunden",
     "title": "Ablauf",
     "section": "",
-    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:00\n Teil 1: Lernen verstehen\n\n\n\n\nWie Menschen lernen\n50 min\n\n\n10:00 - 10:15\n Pause\n\n\n\n\nKaffee\n15 min\n\n\n10:15 - 10:20\n Retrieval Activation\n\n\n\n\nAbrufpraxis: 3 Konzepte ohne Notizen\n5 min\n\n\n10:20 - 10:50\n Teil 2: KI & Lernen\n\n\n\n\nWas bedeutet das für KI?\n30 min\n\n\n10:50 - 11:45\n Teil 3: Vom Wissen zum Handeln\n\n\n\n\nAufgaben analysieren & Agent gestalten\n55 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
+    "text": "Zeit\n Thema\n Dauer\n\n\n\n\n09:00 - 09:10\n Einstieg\n\n\n\n\nAktivierende Begrüssung\n10 min\n\n\n09:10 - 10:00\n Teil 1: Lernen verstehen\n\n\n\n\nWie Menschen lernen\n50 min\n\n\n10:00 - 10:15\n Pause\n\n\n\n\nKaffee\n15 min\n\n\n10:15 - 10:20\n Retrieval Activation\n\n\n\n\nAbrufpraxis: 3 Konzepte ohne Notizen\n5 min\n\n\n10:20 - 10:55\n Teil 2: KI & Lernen\n\n\n\n\nWas bedeutet das für KI?\n35 min\n\n\n10:55 - 11:45\n Teil 3: Vom Wissen zum Handeln\n\n\n\n\nAufgaben analysieren & Agent gestalten\n50 min\n\n\n11:45 - 12:00\n Transfer & Abschluss\n\n\n\n\nUmsetzung & nächste Schritte\n15 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -1780,6 +1780,39 @@
     "crumbs": [
       "2: KI & Lernen",
       "KI & Lernen"
+    ]
+  },
+  {
+    "objectID": "02-ki-und-lernen/index.html#worked-example-das-framework-in-aktion",
+    "href": "02-ki-und-lernen/index.html#worked-example-das-framework-in-aktion",
+    "title": "KI & Lernen",
+    "section": "Worked Example: Das Framework in Aktion",
+    "text": "Worked Example: Das Framework in Aktion\nBevor ihr das Framework auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.\n\nDie Aufgabe: “Annotierte Bibliografie”\n\nStudierende suchen 5 relevante Quellen zu einem vorgegebenen Thema, fassen jede in 150 Wörtern zusammen und verfassen eine einseitige Synthese zum aktuellen Forschungsstand.\n\nEine Aufgabe, die in vielen Disziplinen vorkommt — von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit dem 5-Fragen-Framework.\n\n\nSchritt-für-Schritt-Analyse\nFrage 1: Geht es primär ums Lernen?\nJa — es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.\n→ Outsourcing muss verhindert werden.\nFrage 2: Werden noch Grundlagen aufgebaut?\nJa — Studierende lernen erst, wie man Quellen bewertet. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?”\n→ Die interne Verarbeitung — das eigene Urteil — ist der Lerninhalt.\nFrage 3: Muss internes Wissen nachgewiesen werden?\nEigentlich ja — aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass sie die Quellen gelesen und bewertet haben.\n→ Hier liegt die kritische Lücke.\nFrage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?\nJa — “Finde 5 Quellen zu X und fasse sie zusammen” ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.\n→ Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.\nFrage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?\nNein — es gibt keine eingebaute Phase, in der Studierende zuerst selbst suchen, bewerten und synthetisieren, bevor sie KI konsultieren.\n→ Hier liegt die Redesign-Möglichkeit.\n\n\nDie Diagnose\nDas Framework zeigt: Die kognitive Arbeit steckt nicht im Produkt (Zusammenfassungen + Synthese), sondern im Prozess (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt — und genau das kann KI liefern. Das Lernen wird umgangen, nicht unterstützt.\n\n\nEin mögliches Redesign\n\n\n\n\n\n\n\n\nPhase\nWas Studierende tun\nRolle der KI\n\n\n\n\n1. Suchprotokoll\nDokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung?\nKeine\n\n\n2. Bewertungsnotizen\nFür jede Quelle: Warum aufgenommen oder verworfen? Was ist die zentrale Argumentation?\nKeine\n\n\n3. Synthese in der Lehrveranstaltung\nEinseitige Synthese vor Ort, nur mit eigenen Notizen — keine KI, kein Internet\nKeine\n\n\n4. Qualitätsprüfung\nKI prüft Zitationsformat und sprachliche Korrektheit\nOffloading (extrinsische Last)\n\n\n\nWas sich ändert: Die Studierenden müssen den Prozess durchlaufen. Das Produkt allein reicht nicht mehr — die Denkarbeit wird sichtbar und geschützt.\n\n\nWas zeigt dieses Beispiel?\nDrei Erkenntnisse für die eigene Praxis:\n\nProdukt ≠ Prozess: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den Prozess prüfen\nOffloading am richtigen Punkt: KI für Zitationsformat (extrinsische Last) ist sinnvoll — KI für die Synthese (germane load) eliminiert das Lernen\nVersuch-dann-Prüfe als Designprinzip: Die Reihenfolge entscheidet — zuerst selbst denken, dann KI konsultieren\n\n\n\n\n\n\n\nTipÜberleitung zur Praxis\n\n\n\nJetzt seid ihr dran: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an — und gestaltet dann einen Agent, der produktive Anstrengung fördert statt ersetzt. Ihr habt gerade gesehen, wie die Analyse Schritt für Schritt aussieht — dasselbe macht ihr jetzt mit eurer mitgebrachten Aufgabe.\n\n\n→ 5-Fragen-Framework: Handout",
+    "crumbs": [
+      "2: KI & Lernen",
+      "KI & Lernen"
+    ]
+  },
+  {
+    "objectID": "03-praxis/index.html#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min",
+    "href": "03-praxis/index.html#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min",
+    "title": "Vom Wissen zum Handeln",
+    "section": "Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)",
+    "text": "Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)\n\nTHINK Phase (8 Min)\n\n\n\n\n\n\nIndividualEigene Aufgabe analysieren\n\n\n\nWähle eine Aufgabe oder Prüfung aus deiner Lehre und analysiere sie mit dem 5-Fragen-Framework:\n\n\n\nFrage\nDeine Einschätzung\n\n\n\n\n1. Geht es primär ums Lernen?\n\n\n\n2. Werden noch Grundlagen aufgebaut?\n\n\n\n3. Muss internes Wissen nachgewiesen werden?\n\n\n\n4. Kann KI die Aufgabe ohne Denkarbeit erledigen?\n\n\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\n\n\n\n\nDann identifiziere:\n\nWo könnte KI die lernrelevante kognitive Last (germane load) eliminieren?\nWelche eine Änderung würde produktive Anstrengung bewahren?\n\nNotiere:\n\nMeine Aufgabe: ________________________\nKritischer Punkt: ________________________\nMeine Änderung: ________________________\n\n\n\n\n\nPAIR Phase (10 Min)\n\n\n\n\n\n\nPairPeer-Konsultation\n\n\n\nTausche dich mit einem Partner aus:\n\nVorstellen (3 Min pro Person): Stelle deine Aufgabe, deine Analyse und deine vorgeschlagene Änderung vor\nRückmeldung geben: Bewahrt die Änderung tatsächlich die interne kognitive Verarbeitung? Oder wird nur die Form geändert, während das Outsourcing weiter möglich ist?\n\nLeitfrage für das Feedback:\n\n“Muss die studierende Person nach deiner Änderung immer noch selbst denken — oder kann sie das Denken immer noch an die KI delegieren?”\n\n\n\n\n\nSHARE Phase (5 Min)\n\n2–3 Beispiele im Plenum vorstellen\nWelche Muster zeigen sich? Gibt es wiederkehrende Schwachstellen?",
+    "crumbs": [
+      "3: Praxis",
+      "Vom Wissen zum Handeln"
+    ]
+  },
+  {
+    "objectID": "03-praxis/index.html#aktivität-2-agent-design-für-produktive-anstrengung-22-min",
+    "href": "03-praxis/index.html#aktivität-2-agent-design-für-produktive-anstrengung-22-min",
+    "title": "Vom Wissen zum Handeln",
+    "section": "Aktivität 2: Agent-Design für produktive Anstrengung (22 Min)",
+    "text": "Aktivität 2: Agent-Design für produktive Anstrengung (22 Min)\nBasierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen unterstützt, nicht ersetzt.\n\nTHINK Phase: Agent erstellen (12 Min)\n\n\n\n\n\n\nIndividualAgent-Prompt entwickeln\n\n\n\nDesign-Constraint: Der Agent muss eine Versuch-dann-Prüfe-Struktur bewahren — die Studierenden müssen zuerst selbst denken, bevor der Agent reagiert.\nTemplate-Struktur:\n\nRolle & Mission: “Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Lernstrategie] fördert”\nWas der Agent TUT: Fragen stellen, zum Nachdenken anregen, Feedback geben nach dem Versuch\nWas der Agent NICHT tut: Keine direkten Antworten geben, keine fertigen Lösungen, kein Outsourcing ermöglichen\nQualitätskontrolle: Die Studierenden müssen am Ende mehr wissen als vorher — nicht nur ein Produkt haben\n\nNutze die Make-it-Stick Strategien als Orientierung:\n Agent-Beispiele für jede Strategie\n Die 8 Make it Stick Strategien im Detail\n\n\n\n\nPAIR Phase: Cross-Testing (10 Min)\n\n\n\n\n\n\nPairAgents gegenseitig testen\n\n\n\nBeide Partner testen gleichzeitig:\n\nPerson A testet Agent von Person B\nPerson B testet Agent von Person A\n\nWorauf achten:\n\nFördert der Agent wirklich die produktive Anstrengung?\nWo gibt der Agent zu viel preis? Wo nimmt er zu viel ab?\nBewahrt er die Versuch-dann-Prüfe-Struktur?\n\nDie entscheidende Frage:\n\n“Outsourct dieser Agent das Denken — oder unterstützt er es?”",
+    "crumbs": [
+      "3: Praxis",
+      "Vom Wissen zum Handeln"
     ]
   }
 ]

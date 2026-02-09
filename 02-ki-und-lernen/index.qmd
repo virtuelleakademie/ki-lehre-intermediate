@@ -84,10 +84,76 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 | 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | → Aufgabe umgestalten |
 | 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | → KI für die Prüfphase nutzen |
 
+
+## Worked Example: Das Framework in Aktion
+
+Bevor ihr das Framework auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.
+
+### Die Aufgabe: "Annotierte Bibliografie"
+
+> Studierende suchen 5 relevante Quellen zu einem vorgegebenen Thema, fassen jede in 150 Wörtern zusammen und verfassen eine einseitige Synthese zum aktuellen Forschungsstand.
+
+Eine Aufgabe, die in vielen Disziplinen vorkommt --- von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit dem 5-Fragen-Framework.
+
+### Schritt-für-Schritt-Analyse
+
+**Frage 1: Geht es primär ums Lernen?**
+
+Ja --- es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.
+
+→ **Outsourcing muss verhindert werden.**
+
+**Frage 2: Werden noch Grundlagen aufgebaut?**
+
+Ja --- Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?"
+
+→ **Die interne Verarbeitung --- das eigene Urteil --- ist der Lerninhalt.**
+
+**Frage 3: Muss internes Wissen nachgewiesen werden?**
+
+Eigentlich ja --- aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass *sie* die Quellen gelesen und bewertet haben.
+
+→ **Hier liegt die kritische Lücke.**
+
+**Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?**
+
+Ja --- *"Finde 5 Quellen zu X und fasse sie zusammen"* ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.
+
+→ **Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.**
+
+**Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?**
+
+Nein --- es gibt keine eingebaute Phase, in der Studierende *zuerst selbst* suchen, bewerten und synthetisieren, bevor sie KI konsultieren.
+
+→ **Hier liegt die Redesign-Möglichkeit.**
+
+### Die Diagnose
+
+Das Framework zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt --- und genau das kann KI liefern. **Das Lernen wird umgangen, nicht unterstützt.**
+
+### Ein mögliches Redesign
+
+| Phase | Was Studierende tun | Rolle der KI |
+|-------|---------------------|--------------|
+| **1. Suchprotokoll** | Dokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? | Keine |
+| **2. Bewertungsnotizen** | Für jede Quelle: Warum aufgenommen oder verworfen? Was ist die zentrale Argumentation? | Keine |
+| **3. Synthese in der Lehrveranstaltung** | Einseitige Synthese *vor Ort*, nur mit eigenen Notizen --- keine KI, kein Internet | Keine |
+| **4. Qualitätsprüfung** | KI prüft Zitationsformat und sprachliche Korrektheit | Offloading (extrinsische Last) |
+
+**Was sich ändert:** Die Studierenden müssen *den Prozess* durchlaufen. Das Produkt allein reicht nicht mehr --- die Denkarbeit wird sichtbar und geschützt.
+
+### Was zeigt dieses Beispiel?
+
+Drei Erkenntnisse für die eigene Praxis:
+
+1. **Produkt ≠ Prozess**: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den *Prozess* prüfen
+2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll --- KI für die Synthese (germane load) eliminiert das Lernen
+3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet --- *zuerst selbst denken, dann KI konsultieren*
+
 ::: {.callout-tip}
 ### Überleitung zur Praxis
 
-**Jetzt seid ihr dran**: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an --- und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*.
+**Jetzt seid ihr dran**: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an --- und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*. Ihr habt gerade gesehen, wie die Analyse Schritt für Schritt aussieht --- dasselbe macht ihr jetzt mit eurer mitgebrachten Aufgabe.
 :::
 
 → [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)

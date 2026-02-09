@@ -3,20 +3,20 @@ title: "Vom Wissen zum Handeln"
 ---
 
 ::: {.active-processing}
-## Praxis: Aufgaben analysieren & Agent gestalten (55 Min)
+## Praxis: Aufgaben analysieren & Agent gestalten (50 Min)
 
 In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:
 
-1. **Aufgaben-Analyse** mit dem 5-Fragen-Framework (25 Min)
-2. **Agent-Design** für produktive Anstrengung (25 Min)
+1. **Aufgaben-Analyse** mit dem 5-Fragen-Framework (23 Min)
+2. **Agent-Design** für produktive Anstrengung (22 Min)
 
 **Ziel**: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen *fördern* kann --- und wo die Fallstricke liegen.
 :::
 
 
-## Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (25 Min)
+## Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)
 
-### THINK Phase (10 Min)
+### THINK Phase (8 Min)
 
 ::: {.individual}
 ### Eigene Aufgabe analysieren
@@ -64,11 +64,11 @@ Tausche dich mit einem Partner aus:
 - Welche **Muster** zeigen sich? Gibt es wiederkehrende Schwachstellen?
 
 
-## Aktivität 2: Agent-Design für produktive Anstrengung (25 Min)
+## Aktivität 2: Agent-Design für produktive Anstrengung (22 Min)
 
 Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen **unterstützt**, nicht *ersetzt*.
 
-### THINK Phase: Agent erstellen (15 Min)
+### THINK Phase: Agent erstellen (12 Min)
 
 ::: {.individual}
 ### Agent-Prompt entwickeln

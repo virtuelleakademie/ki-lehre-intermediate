@@ -100,15 +100,26 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-reflect.callout {
+div.callout-group.callout {
   border-left-color: purple;
 }
-div.callout-reflect.callout-style-default > .callout-header {
+div.callout-group.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -120,6 +131,17 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -142,28 +164,6 @@ div.callout-individual.callout-style-default > .callout-header {
 div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '💻';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -316,15 +316,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min" id="toc-aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min" class="nav-link active" data-scroll-target="#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min">Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (25 Min)</a>
+  <li><a href="#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min" id="toc-aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min" class="nav-link active" data-scroll-target="#aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min">Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)</a>
   <ul class="collapse">
-  <li><a href="#think-phase-10-min" id="toc-think-phase-10-min" class="nav-link" data-scroll-target="#think-phase-10-min">THINK Phase (10 Min)</a></li>
+  <li><a href="#think-phase-8-min" id="toc-think-phase-8-min" class="nav-link" data-scroll-target="#think-phase-8-min">THINK Phase (8 Min)</a></li>
   <li><a href="#pair-phase-10-min" id="toc-pair-phase-10-min" class="nav-link" data-scroll-target="#pair-phase-10-min">PAIR Phase (10 Min)</a></li>
   <li><a href="#share-phase-5-min" id="toc-share-phase-5-min" class="nav-link" data-scroll-target="#share-phase-5-min">SHARE Phase (5 Min)</a></li>
   </ul></li>
-  <li><a href="#aktivität-2-agent-design-für-produktive-anstrengung-25-min" id="toc-aktivität-2-agent-design-für-produktive-anstrengung-25-min" class="nav-link" data-scroll-target="#aktivität-2-agent-design-für-produktive-anstrengung-25-min">Aktivität 2: Agent-Design für produktive Anstrengung (25 Min)</a>
+  <li><a href="#aktivität-2-agent-design-für-produktive-anstrengung-22-min" id="toc-aktivität-2-agent-design-für-produktive-anstrengung-22-min" class="nav-link" data-scroll-target="#aktivität-2-agent-design-für-produktive-anstrengung-22-min">Aktivität 2: Agent-Design für produktive Anstrengung (22 Min)</a>
   <ul class="collapse">
-  <li><a href="#think-phase-agent-erstellen-15-min" id="toc-think-phase-agent-erstellen-15-min" class="nav-link" data-scroll-target="#think-phase-agent-erstellen-15-min">THINK Phase: Agent erstellen (15 Min)</a></li>
+  <li><a href="#think-phase-agent-erstellen-12-min" id="toc-think-phase-agent-erstellen-12-min" class="nav-link" data-scroll-target="#think-phase-agent-erstellen-12-min">THINK Phase: Agent erstellen (12 Min)</a></li>
   <li><a href="#pair-phase-cross-testing-10-min" id="toc-pair-phase-cross-testing-10-min" class="nav-link" data-scroll-target="#pair-phase-cross-testing-10-min">PAIR Phase: Cross-Testing (10 Min)</a></li>
   </ul></li>
   <li><a href="#muster-synthese-5-min" id="toc-muster-synthese-5-min" class="nav-link" data-scroll-target="#muster-synthese-5-min">Muster &amp; Synthese (5 Min)</a></li>
@@ -365,22 +365,22 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; Agent gestalten (55 Min)
+<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; Agent gestalten (50 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:</p>
 <ol type="1">
-<li><strong>Aufgaben-Analyse</strong> mit dem 5-Fragen-Framework (25 Min)</li>
-<li><strong>Agent-Design</strong> für produktive Anstrengung (25 Min)</li>
+<li><strong>Aufgaben-Analyse</strong> mit dem 5-Fragen-Framework (23 Min)</li>
+<li><strong>Agent-Design</strong> für produktive Anstrengung (22 Min)</li>
 </ol>
 <p><strong>Ziel</strong>: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen <em>fördern</em> kann — und wo die Fallstricke liegen.</p>
 </div>
 </div>
-<section id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min" class="level2">
-<h2 class="anchored" data-anchor-id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-25-min">Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (25 Min)</h2>
-<section id="think-phase-10-min" class="level3">
-<h3 class="anchored" data-anchor-id="think-phase-10-min">THINK Phase (10 Min)</h3>
+<section id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min" class="level2">
+<h2 class="anchored" data-anchor-id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min">Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)</h2>
+<section id="think-phase-8-min" class="level3">
+<h3 class="anchored" data-anchor-id="think-phase-8-min">THINK Phase (8 Min)</h3>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -468,11 +468,11 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </ul>
 </section>
 </section>
-<section id="aktivität-2-agent-design-für-produktive-anstrengung-25-min" class="level2">
-<h2 class="anchored" data-anchor-id="aktivität-2-agent-design-für-produktive-anstrengung-25-min">Aktivität 2: Agent-Design für produktive Anstrengung (25 Min)</h2>
+<section id="aktivität-2-agent-design-für-produktive-anstrengung-22-min" class="level2">
+<h2 class="anchored" data-anchor-id="aktivität-2-agent-design-für-produktive-anstrengung-22-min">Aktivität 2: Agent-Design für produktive Anstrengung (22 Min)</h2>
 <p>Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen <strong>unterstützt</strong>, nicht <em>ersetzt</em>.</p>
-<section id="think-phase-agent-erstellen-15-min" class="level3">
-<h3 class="anchored" data-anchor-id="think-phase-agent-erstellen-15-min">THINK Phase: Agent erstellen (15 Min)</h3>
+<section id="think-phase-agent-erstellen-12-min" class="level3">
+<h3 class="anchored" data-anchor-id="think-phase-agent-erstellen-12-min">THINK Phase: Agent erstellen (12 Min)</h3>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

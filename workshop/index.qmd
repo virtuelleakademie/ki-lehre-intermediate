@@ -14,10 +14,10 @@ title: "Ablauf"
 |                            | Kaffee                                                                  | 15 min                           |
 | **10:15 - 10:20**          | {{< bi collection-play >}} **Retrieval Activation**                    |                                  |
 |                            | Abrufpraxis: 3 Konzepte ohne Notizen                                   | 5 min                            |
-| **10:20 - 10:50**          | {{< bi collection-play >}} **Teil 2: KI & Lernen**                     |                                  |
-|                            | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 30 min                           |
-| **10:50 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
-|                            | [Aufgaben analysieren & Agent gestalten](../03-praxis/index.qmd)        | 55 min                           |
+| **10:20 - 10:55**          | {{< bi collection-play >}} **Teil 2: KI & Lernen**                     |                                  |
+|                            | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 35 min                           |
+| **10:55 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
+|                            | [Aufgaben analysieren & Agent gestalten](../03-praxis/index.qmd)        | 50 min                           |
 | **11:45 - 12:00**          | {{< bi collection-play >}} **Transfer & Abschluss**                    |                                  |
 |                            | [Umsetzung & nächste Schritte](diskussion/index.qmd)                   | 15 min                           |
 
