@@ -61,6 +61,17 @@ Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wir
 
 > **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt den Prediction-Error-Mechanismus: Studierende bilden Vorhersagen, die an der Realität (oder am KI-Output) scheitern --- und daraus lernen.
 
+::: {.callout-tip}
+## Praxistipp: Relevante Merkmale signalisieren
+
+In der Prüfphase brauchen Studierende **explizite Hinweise, worauf sie achten sollen**. Ohne Signale vergleichen sie Oberflächenmerkmale (Länge, Stil, Vokabular) statt der lernrelevanten Strukturen (Argumentationslogik, Annahmen, Kausalität).
+
+**Statt:** "Vergleiche deinen Text mit dem KI-Text"
+**Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
+
+Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig --- mit ihm wird der Vergleich zum gezielten Lernmoment.
+:::
+
 
 ## Anwendungsbeispiel: Volkswirtschaftslehre
 

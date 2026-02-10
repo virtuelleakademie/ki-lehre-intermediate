@@ -13,6 +13,20 @@ Jedes Beispiel zeigt:
 - **Lernende-Aktivität** (Was bleibt beim Lernenden?)
 - **Warum es funktioniert**
 
+::: {.callout-important}
+## Designprinzip: Aufmerksamkeit gezielt lenken
+
+Jeder Agent muss **explizit signalisieren, worauf Lernende achten sollen**. Ohne klare Signale verarbeiten Lernende zufällige Merkmale --- sie bemerken die Länge eines KI-Textes statt der Argumentationsstruktur, oder die Formulierung statt der Logik [@engelmannTheoryInstructionPrinciples2016].
+
+**In der Praxis:**
+
+- Der Agent stellt gezielte Vergleichsfragen ("Vergleiche die *kausale Kette* deiner Lösung mit der KI-Lösung")
+- Aufgabenstellungen benennen die relevanten Merkmale explizit ("Achte auf die Annahmen, nicht auf den Schreibstil")
+- Feedback fokussiert auf die zu lernenden Aspekte, nicht auf Oberflächenmerkmale
+
+Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerbar.
+:::
+
 ---
 
 ## 1. Abrufpraxis (Retrieval Practice)
