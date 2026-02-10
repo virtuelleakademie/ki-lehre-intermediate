@@ -2,7 +2,7 @@
 author: "Andrew Ellis"
 date: "19 September, 2025"
 date-format: "DD MMMM, YYYY"
-bibliography: [../bibliography.bib]
+bibliography: [../bibliography.bib, ../missing-refs.bib]
 # nocite: |
 #   @cuiEffectsGenerativeAI2024a
 format: 

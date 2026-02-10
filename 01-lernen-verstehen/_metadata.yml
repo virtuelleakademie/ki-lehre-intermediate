@@ -8,7 +8,7 @@
 #     orcid: 0000-0002-2788-936X
 license: CC BY
 # citation: true
-bibliography: ../bibliography.bib
+bibliography: [../bibliography.bib, ../missing-refs.bib]
 format:
     html:
         toc: true

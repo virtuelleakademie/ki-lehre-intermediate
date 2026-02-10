@@ -4,84 +4,98 @@
     "href": "slides/wie-menschen-lernen/index.html#ki-kann-uns-produktiver-machen",
     "title": "Wie Menschen lernen",
     "section": "KI kann uns produktiver machen",
-    "text": "KI kann uns produktiver machen\n\nWichtige Erkenntnisse aus der Forschung:\n\nDell’Acqua et al. (2023) erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.\nToner-Rodgers (2025) diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.\nCui et al. (2024) analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.\n\nErkenntnisse:\n\nAutomatisierung von routinemässigen kognitiven Aufgaben ist möglich\nUnterstützung kreativer Arbeit ist möglich\nDeskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren\nOhne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt"
+    "text": "KI kann uns produktiver machen\nForschung zeigt: KI steigert Produktivität und Qualität bei kognitiven Aufgaben — aber mit Nebenwirkungen.\n\n\nAutomatisierung von routinemässigen kognitiven Aufgaben ist möglich\nUnterstützung kreativer Arbeit ist möglich\nDeskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren\nOhne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt\n\n\n\n\nDell’Acqua et al. (2023); Toner-Rodgers (2025); Cui et al. (2024)"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#section",
     "href": "slides/wie-menschen-lernen/index.html#section",
     "title": "Wie Menschen lernen",
     "section": "",
-    "text": "Aber halt…\n🤔\n\nSollten Lernende überhaupt produktiver sein?\n\n\nWas ist, wenn Anstrengung beim Lernen wichtig ist als das Ergebnis?"
+    "text": "Aber halt…\n🤔\n\nSollten Lernende überhaupt produktiver sein?\n\n\nWas ist, wenn Anstrengung beim Lernen wichtiger ist als das Ergebnis?"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
     "href": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
     "title": "Wie Menschen lernen",
     "section": "Warum existieren Schulen?",
-    "text": "Warum existieren Schulen?\nWir unterscheiden zwischen:\n\n\nBiologisch primärem Wissen:\n\nWofür wir evolutionär angepasst sind\nLernen geschieht mühelos und automatisch\nBeispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion\n\n\nBiologisch sekundärem Wissen:\n\nKulturelle Errungenschaften ohne evolutionäre Anpassung\nErfordert bewusste Anstrengung und Instruktion\nBeispiele: Lesen, Schreiben, Mathematik, Programmieren\n\n\n\n\n\nPrimäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, während akademische Fähigkeiten explizite Anleitung und strukturiertes Üben erfordern."
+    "text": "Warum existieren Schulen?\nWir unterscheiden zwischen (Geary 2008; Sweller 2023):\n\n\nBiologisch primärem Wissen:\n\nEntwickelt sich bei normaler Umgebung ohne formale Instruktion\nBeispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion\n\n\nBiologisch sekundärem Wissen:\n\nKulturelle Errungenschaften ohne evolutionäre Anpassung\nErfordert bewusste Anstrengung und Instruktion\nBeispiele: Lesen, Schreiben, Mathematik, Programmieren\n\n\n\n\n\n\nAkademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben — sie entstehen nicht durch Entdeckung allein (Kirschner, and and Clark 2006)."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#experten-vs.-anfänger",
     "href": "slides/wie-menschen-lernen/index.html#experten-vs.-anfänger",
     "title": "Wie Menschen lernen",
     "section": "Experten vs. Anfänger",
-    "text": "Experten vs. Anfänger\n\n\n\n\n\nExperten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen.\n\n\n\n\n\n\n\n\n\n\nZwei verschiedene Betriebssysteme\n\n\n\n\n\n\n\n\nDimension\nAnfänger\nExperten\n\n\n\n\nSehen\n• Einzelne Teile\n• Bedeutungsvolle Muster\n\n\nVerarbeiten\n• Schritt-für-Schritt-Denken• Deliberativ• Bewusste Anstrengung\n• Automatische Prozeduren• Intuitiv• Unbewusst\n\n\nNeural\n• Schwache Verbindungen• Bahnen noch im Aufbau\n• Myelinisierte neuronale Bahnen• Tausende Stunden geübt"
+    "text": "Experten vs. Anfänger\n\n\n\n\n\nExperten haben eine kognitive Architektur — besser organisierte Wissensstrukturen — die Anfänger erst aufbauen müssen.\n\n\n\n\n\n\n\n\n\n\nZwei verschiedene Betriebssysteme\n\n\n\n\n\n\n\n\nDimension\nAnfänger\nExperten\n\n\n\n\nSehen\nEinzelne Teile\nBedeutungsvolle Muster\n\n\nVerarbeiten\nSchritt-für-Schritt, deliberativ, bewusst\nAutomatische Prozeduren, intuitiv\n\n\nWissen\nIsolierte Fakten, Bahnen im Aufbau\nVernetzte Schemata, tausende Stunden geübt"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#cognitive-load-theory",
     "href": "slides/wie-menschen-lernen/index.html#cognitive-load-theory",
     "title": "Wie Menschen lernen",
     "section": "Cognitive Load Theory",
-    "text": "Cognitive Load Theory\nWarum Anfänger anders lernen müssen als Experten\n\n\nArbeitsgedächtnis\n\nBegrenzt: Wenige Elemente gleichzeitig\nFlüchtig: Sekunden bis Minuten\nBottleneck: Hier findet aktives Lernen statt\nProblem: Schnell überlastet bei komplexen Aufgaben\n\n\nLangzeitgedächtnis\n\nUnbegrenzt: Keine bekannte Obergrenze\nDauerhaft: Jahre bis lebenslang\nOrganisiert: Schemata und Chunks\nLösung: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht\n\n\n\n\n\n\nKernprinzip: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstrukturen)"
+    "text": "Cognitive Load Theory\nWarum Anfänger anders lernen müssen als Experten (Sweller 2023)\n\n\nArbeitsgedächtnis\n\nBegrenzt: ~4 Elemente gleichzeitig\nFlüchtig: Sekunden ohne Wiederholung\nBottleneck: Hier findet aktives Lernen statt\nProblem: Schnell überlastet bei komplexen Aufgaben\n\n\nLangzeitgedächtnis\n\nUnbegrenzt: Keine bekannte Obergrenze\nDauerhaft: Jahre bis lebenslang\nOrganisiert: Schemata und Chunks\nLösung: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht\n\n\n\n\n\n\nKernprinzip: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#die-drei-arten-kognitiver-belastung",
     "href": "slides/wie-menschen-lernen/index.html#die-drei-arten-kognitiver-belastung",
     "title": "Wie Menschen lernen",
     "section": "Die drei Arten kognitiver Belastung",
-    "text": "Die drei Arten kognitiver Belastung\n\n\n\n\n\n\n\n\n\nArt\nDefinition\nBeispiel\nGestaltbar?\n\n\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst\nQuantenphysik hat höhere intrinsische Last als Addition\n❌ Nur durch Sequenzierung\n\n\nExtrinsisch\nWie Material präsentiert wird\nText und Grafik getrennt vs. integriert\n✅ Durch gutes Design minimierbar\n\n\nLernrelevant\nMentaler Aufwand für Schemabildung\nVerbindungen herstellen, Muster erkennen\n✅ Sollte maximiert werden\n\n\n\n\n\n\n\nDas Lerndilemma:\n\nGesamtlast darf Arbeitsgedächtnis nicht überfordern\nAber: Lernrelevanter cognitive load ist essentiell für Expertise-Entwicklung\nLösung: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen"
+    "text": "Die drei Arten kognitiver Belastung\n\n\n\n\n\n\n\n\n\nArt\nDefinition\nBeispiel\nGestaltbar?\n\n\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst\nQuantenphysik hat höhere intrinsische Last als Addition\nBegrenzt (Sequenzierung)\n\n\nExtrinsisch\nWie Material präsentiert wird\nText und Grafik getrennt vs. integriert\n✅ Durch gutes Design minimierbar\n\n\nLernrelevant\nMentaler Aufwand für Schemabildung\nVerbindungen herstellen, Muster erkennen\n✅ Raum dafür schaffen\n\n\n\n\n\n\n\nDas Lerndilemma:\n\nGesamtlast darf Arbeitsgedächtnis nicht überfordern\nAber: Lernrelevanter cognitive load ist essentiell für Expertise-Entwicklung\nLösung: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen"
   },
   {
-    "objectID": "slides/wie-menschen-lernen/index.html#clt-prinzipien-für-effektives-lernen",
-    "href": "slides/wie-menschen-lernen/index.html#clt-prinzipien-für-effektives-lernen",
+    "objectID": "slides/wie-menschen-lernen/index.html#der-expertise-reversal-effect",
+    "href": "slides/wie-menschen-lernen/index.html#der-expertise-reversal-effect",
     "title": "Wie Menschen lernen",
-    "section": "CLT-Prinzipien für effektives Lernen",
-    "text": "CLT-Prinzipien für effektives Lernen\n\n\n\n\n\n\n\n\n\nPrinzip\nFür Anfänger\nFür Fortgeschrittene\nImplikation\n\n\n\n\nWorked Examples\n✅ Reduziert kognitive Last durch Beispiele\n❌ Langweilt und hemmt\nScaffolding anpassen\n\n\nProblem Solving\n❌ Überfordert das Arbeitsgedächtnis\n✅ Fördert Schemabildung\nTiming ist kritisch\n\n\nSplit-Attention\nText + Bild integriert präsentieren\nWeniger relevant\nKlare Darstellung wählen\n\n\n\n\n\n\n\nDer Expertise Reversal Effect\n\n\nWas Experten hilft, kann Anfängern schaden – und umgekehrt. Lernumgebungen müssen sich an das Niveau anpassen.\n\n\n\nPraktische Regel: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise."
+    "section": "Der Expertise Reversal Effect",
+    "text": "Der Expertise Reversal Effect\nWas Anfängern hilft, schadet Experten — und umgekehrt (Kalyuga 2009)\n\n\n\n\n\n\n\n\nPrinzip\nFür Anfänger\nFür Fortgeschrittene\n\n\n\n\nWorked Examples\n✅ Reduziert kognitive Last\n❌ Langweilt und hemmt\n\n\nProblem Solving\n❌ Überfordert Arbeitsgedächtnis\n✅ Fördert Schemabildung\n\n\n\n\n\n\n\nPraktische Regel: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.\nDie KI-Falle: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird — sie verletzen das Fading-Prinzip systematisch."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading",
     "href": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading",
     "title": "Wie Menschen lernen",
     "section": "CLT und KI: Cognitive Offloading",
-    "text": "CLT und KI: Cognitive Offloading\nDas Lernparadox: KI optimiert für Produktion statt Lernen\n\n\n\n\n\n\n\n\n\nKognitive Last\nOhne KI\nMit KI\nKonsequenz\n\n\n\n\nIntrinsisch\nBleibt konstant\nScheint reduziert\nKomplexität wird versteckt, nicht bewältigt\n\n\nExtrinsisch\nVariabel\n✅ Minimiert\nGut für Effizienz\n\n\nLernrelevant\nWird aufgebracht\n❌ Eliminiert\nKeine Schemabildung"
+    "text": "CLT und KI: Cognitive Offloading\nDas Lernparadox: KI optimiert für Produktion statt Lernen\n\n\n\n\n\n\n\n\n\nKognitive Last\nOhne KI\nMit KI (Outsourcing)\nKonsequenz\n\n\n\n\nIntrinsisch\nBleibt konstant\nScheint reduziert\nKomplexität wird versteckt, nicht bewältigt\n\n\nExtrinsisch\nVariabel\n✅ Minimiert\nGut für Effizienz\n\n\nLernrelevant\nWird aufgebracht\n❌ Eliminiert\nKeine Schemabildung\n\n\n\n\n\n\n\nWichtig: Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit übernimmt (Outsourcing). Wenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last erhalten bleiben."
   },
   {
-    "objectID": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading-1",
-    "href": "slides/wie-menschen-lernen/index.html#clt-und-ki-cognitive-offloading-1",
+    "objectID": "slides/wie-menschen-lernen/index.html#clt-und-ki-lernmechanismen",
+    "href": "slides/wie-menschen-lernen/index.html#clt-und-ki-lernmechanismen",
     "title": "Wie Menschen lernen",
-    "section": "CLT und KI: Cognitive Offloading",
-    "text": "CLT und KI: Cognitive Offloading\nDrei kritische Lernmechanismen werden ausgeschaltet:\n\n\n\n\n\n\n\n\nMechanismus\nNormal\nMit KI-Offloading\n\n\n\n\nVorhersagefehler\nLücke zwischen Erwartung & Realität = Lernsignal\nKeine Erwartungen → kein Lernen\n\n\nGedächtniskonsolidierung\nAktive Verarbeitung → Speicherung\nPassive Konsumption → Vergessen\n\n\nProzedurale Entwicklung\nTausende Wiederholungen → Automatismen\nÜberspringen → keine Expertise\n\n\n\n\n\n\nDie CLT-Perspektive: Schwierigkeit ist kein Bug – sie ist das zentrale Feature für Expertise-Entwicklung"
+    "section": "CLT und KI: Lernmechanismen",
+    "text": "CLT und KI: Lernmechanismen\nDrei kritische Lernmechanismen werden durch Outsourcing ausgeschaltet:\n\n\n\n\n\n\n\n\nMechanismus\nNormal\nMit KI-Outsourcing\n\n\n\n\nErwartung vs. Realität (Vorhersagefehler)\nLücke zwischen Erwartung & Realität = Lernsignal\nKeine Erwartungen → kein Lernen\n\n\nGedächtniskonsolidierung\nAktive Verarbeitung → Speicherung\nPassive Konsumption → Vergessen\n\n\nProzedurale Entwicklung\nTausende Wiederholungen → Automatismen\nÜberspringen → keine Expertise\n\n\n\n\n\n\n\nDie CLT-Perspektive: Schwierigkeit ist kein Bug — sie ist das zentrale Feature für Expertise-Entwicklung"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#wie-expertise-entwickelt-wird",
     "href": "slides/wie-menschen-lernen/index.html#wie-expertise-entwickelt-wird",
     "title": "Wie Menschen lernen",
     "section": "Wie Expertise entwickelt wird",
-    "text": "Wie Expertise entwickelt wird\nVon Fakten zu automatisierten Prozeduren\n\n\n\n\n\n\n\n\n\nGedächtnissystem\nBeschreibung\nEigenschaften\nBeispiel\n\n\n\n\nDeklaratives Gedächtnis\n“Wissen dass”\n• Fakten, Regeln • Bewusst, langsamer Abruf\n“Um \\(3x + 5 = 20\\) zu lösen, \\(5\\) von beiden Seiten subtrahieren.”\n\n\nProzedurales Gedächtnis\n“Wissen wie”\n• Automatisierte Prozesse• Schnelle, mühelose Ausführung\n\\(3x + 5 = 20\\) sehen → direkt wissen: \\(x = 5\\)\n\n\n\n\n\n\nDer Weg zur Expertise\nDeklarative Fakten → Tausende Übungszyklen → Prozedurale Automatismen\n\n\n\n\nAbbildung von Scott H Young"
+    "text": "Wie Expertise entwickelt wird\nVon Fakten zu automatisierten Prozeduren (Anderson 1982)\n\n\n\n\n\n\n\n\nGedächtnissystem\nBeschreibung\nBeispiel\n\n\n\n\nDeklarativ (“Wissen dass”)\nFakten, Regeln; bewusster Abruf\n“Um \\(3x + 5 = 20\\) zu lösen, \\(5\\) von beiden Seiten subtrahieren.”\n\n\nProzedural (“Wissen wie”)\nAutomatisiert; schnelle Ausführung\n\\(3x + 5 = 20\\) sehen → direkt wissen: \\(x = 5\\)\n\n\n\n\nDer Weg zur Expertise\nDeklarative Fakten → Tausende Übungszyklen mit Vorhersagefehlern → Prozedurale Automatismen\nJeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Schemata"
   },
   {
-    "objectID": "slides/wie-menschen-lernen/index.html#das-lernparadox-gefühl-realität",
-    "href": "slides/wie-menschen-lernen/index.html#das-lernparadox-gefühl-realität",
+    "objectID": "slides/wie-menschen-lernen/index.html#das-lernparadox-12",
+    "href": "slides/wie-menschen-lernen/index.html#das-lernparadox-12",
     "title": "Wie Menschen lernen",
-    "section": "Das Lernparadox: Gefühl ≠ Realität",
-    "text": "Das Lernparadox: Gefühl ≠ Realität\n\n\n\n\n\n\n\n\n\nSituation\nWie es sich anfühlt\nWas tatsächlich passiert\nDer Trugschluss\n\n\n\n\nBeim Kämpfen mit einem Problem\n• Frustration 😣 • “Ich kann das nicht”• Langsamer Fortschritt• Unsicherheit\n• Neue neuronale Verbindungen entstehen• Tiefes Verständnis bildet sich• Langzeitgedächtnis wird aktiviert• Echtes Lernen 🧠\n“Wenn es schwer ist, lerne ich nicht” ❌\n\n\nBeim Produzieren mit KI-Hilfe\n• Erfolgsgefühl 😊 • “Ich bin produktiv”• Schnelle Ergebnisse• Selbstvertrauen\n• Oberflächliche Verarbeitung• Keine neuen Verbindungen• Arbeitsgedächtnis nur kurz aktiv• Illusion des Lernens 🃏\n“Wenn ich etwas produziere, lerne ich” ❌\n\n\n\n\n\n\n\nDie gefährliche Umkehrung\n\n\nUnser Gehirn belügt uns: Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.\nDie Wahrheit: Echter Lernfortschritt fühlt sich wie Scheitern an.\n\n\n\n\n\nMerksatz: “Cognitive effort isn’t a bug—it’s the feature.”"
+    "section": "Das Lernparadox (1/2)",
+    "text": "Das Lernparadox (1/2)\nBeim Kämpfen mit einem Problem\n\n\nWie es sich anfühlt:\n\nFrustration 😣\n“Ich kann das nicht”\nLangsamer Fortschritt\nUnsicherheit\n\n\n\nWas tatsächlich passiert:\n\nTiefes Verständnis bildet sich\nSchemata werden aufgebaut\nLangzeitgedächtnis wird aktiviert\nEchtes Lernen 🧠\n\n\n\n\n\n\n\nDer Trugschluss: “Wenn es schwer ist, lerne ich nicht” ❌"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#das-lernparadox-22",
+    "href": "slides/wie-menschen-lernen/index.html#das-lernparadox-22",
+    "title": "Wie Menschen lernen",
+    "section": "Das Lernparadox (2/2)",
+    "text": "Das Lernparadox (2/2)\nBeim Produzieren mit KI-Hilfe\n\n\nWie es sich anfühlt:\n\nErfolgsgefühl 😊\n“Ich bin produktiv”\nSchnelle Ergebnisse\nSelbstvertrauen\n\n\n\nWas tatsächlich passiert:\n\nOberflächliche Verarbeitung\nKeine Schemabildung\nArbeitsgedächtnis kaum aktiv\nIllusion des Lernens 🃏\n\n\n\n\n\n\n\nDer Trugschluss: “Wenn ich etwas produziere, lerne ich” ❌"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#die-gefährliche-umkehrung",
+    "href": "slides/wie-menschen-lernen/index.html#die-gefährliche-umkehrung",
+    "title": "Wie Menschen lernen",
+    "section": "Die gefährliche Umkehrung",
+    "text": "Die gefährliche Umkehrung\n\nUnser metakognitives Urteil täuscht uns:\nWas sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.\n\n\nProduktive Anstrengung fühlt sich schwierig an — aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) ist die Schwierigkeit der Mechanismus.\n\n\n\nMerksatz: “Cognitive effort isn’t a bug—it’s the feature.”"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#bibliographie",
     "href": "slides/wie-menschen-lernen/index.html#bibliographie",
     "title": "Wie Menschen lernen",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\nCui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, and Tobias Salz. 2024. “The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers.” SSRN Scholarly Paper. Rochester, NY. September 3, 2024. https://doi.org/10.2139/ssrn.4945566.\n\n\nDell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, and Karim R. Lakhani. 2023. “Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4573321.\n\n\nToner-Rodgers, Aidan. 2025. “Artificial Intelligence, Scientific Discovery, and Product Innovation.” May 20, 2025. https://doi.org/10.48550/arXiv.2412.17866."
+    "text": "Bibliographie\n\n\nAnderson, John R. 1982. “Acquisition of Cognitive Skill.” Psychological Review 89 (4): 369–406. https://doi.org/10.1037/0033-295X.89.4.369.\n\n\nCui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, and Tobias Salz. 2024. “The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers.” SSRN Scholarly Paper. Rochester, NY. September 3, 2024. https://doi.org/10.2139/ssrn.4945566.\n\n\nDell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, and Karim R. Lakhani. 2023. “Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4573321.\n\n\nGeary, David C. 2008. “An Evolutionarily Informed Education Science.” In Educational Psychology Review, 20:159–76. 2. https://doi.org/10.1007/s10648-008-9071-0.\n\n\nKalyuga, Slava. 2009. “The Expertise Reversal Effect.” In Managing Cognitive Load in Adaptive Multimedia Learning, 58–80. IGI Global Scientific Publishing. https://doi.org/10.4018/978-1-60566-048-6.ch003.\n\n\nKirschner, Paul A., Sweller, and Richard E. and Clark. 2006. “Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching.” Educational Psychologist 41 (2): 75–86. https://doi.org/10.1207/s15326985ep4102_1.\n\n\nSweller, John. 2023. “The Development of Cognitive Load Theory: Replication Crises and Incorporation of Other Theories Can Lead to Theory Expansion.” Educational Psychology Review 35 (4): 95. https://doi.org/10.1007/s10648-023-09817-2.\n\n\nToner-Rodgers, Aidan. 2025. “Artificial Intelligence, Scientific Discovery, and Product Innovation.” May 20, 2025. https://doi.org/10.48550/arXiv.2412.17866."
   },
   {
     "objectID": "slides/was-sind-agenten/index.html#der-paradigmenwechsel",
