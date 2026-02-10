@@ -8,6 +8,18 @@ title: "Die 8 Make it Stick Strategien"
 **Effortful Learning ist effektiver**---Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
 
 
+::: {.callout-note}
+### Wie die Strategien zusammenhängen
+
+Die 8 Strategien sind nicht unabhängig --- sie überlappen und verstärken sich:
+
+- **Wünschenswerte Schwierigkeiten** (Nr. 5) ist das übergeordnete Prinzip
+- **Abrufpraxis** (Nr. 1), **Spacing** (Nr. 2) und **Interleaving** (Nr. 3) sind konkrete Instanzen davon
+- **Variation** (Nr. 4) ändert den *Kontext* (verschiedene Anwendungen), **Interleaving** (Nr. 3) ändert die *Sequenz* (Konzepte durchmischen) --- beide fördern Transfer, aber auf unterschiedliche Weise
+
+In der Praxis nutzen Sie oft mehrere Strategien gleichzeitig.
+:::
+
 ## Die 8 bewährten Lernstrategien
 
 ### 1. Abrufpraxis (Retrieval Practice)

@@ -45,12 +45,12 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-- Lösen Aufgaben **ohne** Nachschlagen
-- Erklären ihre Lösungswege
-- Reflektieren über Fehlerquellen
-- Selbsteinschätzung vor Feedback
+1. **Versuch**: Lösen Aufgaben ohne Nachschlagen, erklären ihren Lösungsweg
+2. **Prüfe**: Agent zeigt Musterlösung --- Lernende vergleichen Argumentation
+3. **Reflektieren**: Wo wich die eigene Logik ab? Flüchtigkeitsfehler oder Konzeptfehler?
+4. **Selbsteinschätzung**: Eigenes Verständnis bewerten, bevor das nächste Feedback kommt
 
-**Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken.
+**Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Vorhersagefehler-Zyklus.
 
 ---
 
@@ -95,12 +95,12 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-- Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird
-- Implementieren ohne vorherige Ankündigung des Typs
-- Vergleichen und kontrastieren verschiedene Ansätze
-- Entwickeln "Problem-Pattern-Recognition"
+1. **Versuch**: Identifizieren Algorithmus/Datenstruktur und erstellen eine Skizze
+2. **Implementieren**: Ersten Lösungsansatz programmieren
+3. **Prüfe**: Agent zeigt Alternativen --- Lernende vergleichen Effizienz und Lesbarkeit
+4. **Reflektieren**: Warum ist Ansatz X hier besser? Pattern-Recognition entwickeln
 
-**Warum es funktioniert**: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen.
+**Warum es funktioniert**: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen. Die Versuch-dann-Prüfe-Struktur erzwingt eigenes Denken vor dem Vergleich.
 
 ---
 
@@ -144,12 +144,12 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-- Erst eigene Hypothesen aufstellen
-- Mit Unsicherheit und Ambiguität umgehen
-- Biases in eigenen Denkprozessen entdecken
-- Komplexe, nuancierte Analysen entwickeln
+1. **Versuch**: Eigene Hypothesen aufstellen --- begründen, welche Biases wirken
+2. **Prüfe**: Agent präsentiert widersprüchliche Evidenz oder Alternativen
+3. **Ringen**: Mit Unsicherheit umgehen --- keine einfache "richtige Antwort"
+4. **Reflektieren**: Biases in eigenen Denkprozessen entdecken
 
-**Warum es funktioniert**: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten.
+**Warum es funktioniert**: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten. Die Versuch-dann-Prüfe-Struktur sorgt dafür, dass Lernende zuerst selbst denken.
 
 ---
 
@@ -194,12 +194,12 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-- Eigene Texte kritisch evaluieren
-- Schreibstrategien bewusst reflektieren
-- Feedback in Überarbeitungen umsetzen
-- Metakognitive Awareness für Schreibprozess entwickeln
+1. **Versuch**: Ersten Entwurf schreiben --- eigene Schwächen identifizieren
+2. **Prüfe**: Agent analysiert Schreibmuster (nicht Inhalt!) und stellt Fragen
+3. **Überarbeiten**: Feedback in konkrete Änderungen umsetzen --- dokumentieren
+4. **Reflektieren**: "Was habe ich über meinen Schreibstil gelernt?"
 
-**Warum es funktioniert**: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern.
+**Warum es funktioniert**: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern. Die Versuch-dann-Prüfe-Struktur stellt sicher, dass Lernende zuerst selbst schreiben.
 
 ---
 
@@ -219,10 +219,10 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-- Theoretische Frameworks auf reale Probleme anwenden
-- Strategische Entscheidungen treffen und begründen
-- Multiple Perspektiven berücksichtigen
-- Langfristige Konsequenzen durchdenken
+1. **Versuch**: Eigene Analyse durchführen --- strategische Entscheidung treffen und begründen
+2. **Prüfe**: Agent präsentiert Stakeholder-Perspektiven und "What-if"-Szenarien
+3. **Vergleichen**: Wie unterscheiden sich die Annahmen? Welche Konsequenzen?
+4. **Synthetisieren**: Trade-offs und langfristige Konsequenzen durchdenken
 
-**Warum es funktioniert**: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden.
+**Warum es funktioniert**: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden. Die Versuch-dann-Prüfe-Struktur bewahrt die eigenständige Analyse.
 

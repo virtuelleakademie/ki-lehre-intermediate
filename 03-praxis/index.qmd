@@ -8,7 +8,7 @@ title: "Vom Wissen zum Handeln"
 In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:
 
 1. **Aufgaben-Analyse** mit dem 5-Fragen-Framework (23 Min)
-2. **Agent-Design** für produktive Anstrengung (22 Min)
+2. **Agent-Design** für produktive Anstrengung (20 Min)
 
 **Ziel**: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen *fördern* kann --- und wo die Fallstricke liegen.
 :::
@@ -63,26 +63,36 @@ Tausche dich mit einem Partner aus:
 - 2--3 Beispiele im Plenum vorstellen
 - Welche **Muster** zeigen sich? Gibt es wiederkehrende Schwachstellen?
 
+::: {.callout-tip}
+### Meta-Moment
 
-## Aktivität 2: Agent-Design für produktive Anstrengung (22 Min)
+Die THINK-PAIR-SHARE-Struktur ist kein Zufall: **THINK** nutzt den Generierungseffekt (ihr aktiviert euer Denken zuerst), **PAIR** fördert Elaboration (durch Erklären vertieft ihr), **SHARE** bringt Variation (durch verschiedene Beispiele erkennt ihr Muster). *Dieselbe Struktur funktioniert in eurer Lehre.*
+:::
+
+
+## Aktivität 2: Agent-Design für produktive Anstrengung (20 Min)
 
 Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen **unterstützt**, nicht *ersetzt*.
 
-### THINK Phase: Agent erstellen (12 Min)
+### THINK Phase: Template analysieren & anpassen (8 Min)
 
 ::: {.individual}
-### Agent-Prompt entwickeln
+### Agent-Template evaluieren und modifizieren
 
-**Design-Constraint**: Der Agent muss eine **Versuch-dann-Prüfe-Struktur** bewahren --- die Studierenden müssen *zuerst selbst* denken, bevor der Agent reagiert.
+Statt einen Agent von Grund auf zu erstellen, arbeitet ihr mit einem **vorgefertigten Template**, das ihr analysiert und an eure Aufgabe anpasst.
 
-**Template-Struktur:**
+**Warum ein Template?** Freie Generierung belastet das Arbeitsgedächtnis stark. Analyse + Modifikation ist für den Einstieg effektiver --- und entspricht dem Prinzip der "Worked Examples" aus Teil 1.
 
-- **Rolle & Mission**: "Du bist ein [Typ] Agent für [Lehrthema], der [spezifische Lernstrategie] fördert"
-- **Was der Agent TUT**: Fragen stellen, zum Nachdenken anregen, Feedback geben *nach* dem Versuch
-- **Was der Agent NICHT tut**: Keine direkten Antworten geben, keine fertigen Lösungen, kein Outsourcing ermöglichen
-- **Qualitätskontrolle**: Die Studierenden müssen am Ende *mehr* wissen als vorher --- nicht nur ein Produkt haben
+**Zum Template:** [Agent-Template: Statistik-Reflexions-Coach](./agent-template/)
 
-**Nutze die Make-it-Stick Strategien als Orientierung:**
+**Eure Aufgabe (8 Min):**
+
+1. **Analysieren** (3 Min): Evaluiert das Template --- bewahrt es die Versuch-dann-Prüfe-Struktur?
+2. **Anpassen** (5 Min): Wählt eine Option (A, B oder C) aus dem Template
+
+**Leitfrage:**
+
+> "Was tut der Agent? Was tut der Lernende?"
 
 {{< bi lightbulb >}} [Agent-Beispiele für jede Strategie](./agent-beispiele/)
 
@@ -110,8 +120,14 @@ Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen **u
 > "Outsourct dieser Agent das Denken --- oder unterstützt er es?"
 :::
 
+::: {.callout-tip}
+### Meta-Moment
 
-## Muster & Synthese (5 Min)
+Warum ein Template statt freier Gestaltung? Das entspricht dem **Expertise Reversal Effect**: Für Novizen sind Worked Examples effektiver als freies Problemlösen. Dieselbe Logik gilt für eure Studierenden --- gebt ihnen Gerüste, bevor ihr offene Aufgaben stellt.
+:::
+
+
+## Muster & Synthese (4 Min)
 
 **Gemeinsame Auswertung:**
 
@@ -142,4 +158,5 @@ Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gest
 
 ### Beispiele
 
+- [Agent-Template: Statistik-Reflexions-Coach](./agent-template/)
 - [Agent-Beispiele für jede Strategie](./agent-beispiele/)

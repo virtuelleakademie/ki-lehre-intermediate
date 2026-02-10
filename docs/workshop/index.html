@@ -89,28 +89,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
 div.callout-pair.callout {
   border-left-color: forestgreen;
 }
@@ -155,6 +133,17 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-reflect.callout {
   border-left-color: purple;
 }
@@ -164,6 +153,17 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 </style>
@@ -373,7 +373,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </tr>
 <tr class="odd">
 <td><strong>10:15 - 10:20</strong></td>
-<td><i class="bi-collection-play " style="" role="img" aria-hidden="true"></i> <strong>Retrieval Activation</strong></td>
+<td><i class="bi-arrow-repeat " style="" role="img" aria-hidden="true"></i> <strong>Retrieval Activation</strong> (Übergang)</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -382,31 +382,36 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <td>5 min</td>
 </tr>
 <tr class="odd">
-<td><strong>10:20 - 10:55</strong></td>
+<td><strong>10:20 - 10:50</strong></td>
 <td><i class="bi-collection-play " style="" role="img" aria-hidden="true"></i> <strong>Teil 2: KI &amp; Lernen</strong></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><a href="../02-ki-und-lernen/index.html">Was bedeutet das für KI?</a></td>
-<td>35 min</td>
+<td>30 min</td>
 </tr>
 <tr class="odd">
+<td><strong>10:50 - 10:55</strong></td>
+<td><i class="bi-hourglass-split " style="" role="img" aria-hidden="true"></i> <strong>Puffer / Übergang</strong></td>
+<td>5 min</td>
+</tr>
+<tr class="even">
 <td><strong>10:55 - 11:45</strong></td>
 <td><i class="bi-collection-play " style="" role="img" aria-hidden="true"></i> <strong>Teil 3: Vom Wissen zum Handeln</strong></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="../03-praxis/index.html">Aufgaben analysieren &amp; Agent gestalten</a></td>
 <td>50 min</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>11:45 - 12:00</strong></td>
 <td><i class="bi-collection-play " style="" role="img" aria-hidden="true"></i> <strong>Transfer &amp; Abschluss</strong></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><a href="../workshop/diskussion/index.html">Umsetzung &amp; nächste Schritte</a></td>
 <td>15 min</td>

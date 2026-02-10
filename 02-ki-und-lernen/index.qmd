@@ -61,6 +61,10 @@ Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbei
 
 > Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
 
+Herbert Simon beobachtete: Eine Ameise läuft einen komplexen, gewundenen Pfad am Strand entlang. Aber die Komplexität liegt nicht in der Ameise --- sie folgt einfachen Regeln. Die Komplexität liegt im **Strand**: in den Hindernissen, Steigungen und Barrieren.
+
+Übertragen auf Lernen: Wenn Studierende den einfachsten Weg nehmen (KI das Denken übernehmen lassen), ist das keine Charakterschwäche. Es ist **rationales Verhalten** in einer Umgebung, die diesen Weg ermöglicht.
+
 Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"* sondern **"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
 
 ### Die Equity-Dimension

@@ -32,6 +32,12 @@ Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Je
 **Die Pointe**: Dieses Erlebnis *ist* die Lernarchitektur. Jeder Gedanke eurer Studierenden durchläuft genau diesen Flaschenhals.
 :::
 
+::: {.callout-tip}
+### Meta-Moment
+
+Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses --- genau das Konzept, das sie vermitteln soll. Die direkte Erfahrung macht das Konzept konkreter als jede Erklärung. Das ist **Elaboration durch Erleben**. *Der Workshop modelliert, was er lehrt.*
+:::
+
 ### Langzeitgedächtnis: Der unbegrenzte Speicher
 
 Das Langzeitgedächtnis ist praktisch unbegrenzt --- aber die Eintrittskarte ist *Anstrengung*. Passives Aufnehmen genügt nicht; aktives Abrufen, Elaborieren und Verknüpfen sind nötig.
@@ -55,7 +61,7 @@ Der Weg vom Anfänger zum Experten erfordert **tausende Zyklen** von:
 
 > Vorhersage → Versuch → Fehler → Anpassung
 
-Dieses Prinzip --- **Prediction Error Learning** --- ist der zentrale Mechanismus, durch den Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte Modelle baut.
+Dieses Prinzip --- **Prediction Error Learning** --- ist ein wichtiger neuronaler Mechanismus, durch den Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte Modelle baut. Dieser Mechanismus erklärt, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
 
 **Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, nicht ab. Selbst erfahrene Sportlerinnen setzen mehr explizites Wissen ein als Anfängerinnen --- nicht weniger.
 
@@ -79,6 +85,18 @@ Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lerne
 3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
 4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
 
+::: {.callout-note}
+### Wie die Konzepte zusammenhängen
+
+Die drei Ebenen des Lernens:
+
+1. **Neuronaler Mechanismus** (Wie das Gehirn lernt): Prediction Error Learning
+2. **Didaktische Prinzipien** (Wie wir Lernen gestalten): Desirable Difficulties
+3. **Konkrete Strategien** (Was wir in der Lehre tun): Abrufpraxis, Spacing, Interleaving, Generierung
+
+Prediction Error ist das *Warum*, Desirable Difficulties sind das *Was*, und die vier Strategien sind das *Wie*.
+:::
+
 ### Die metakognitive Falle
 
 > Was sich wie Lernen *anfühlt*, ist oft keines. Was sich *schwierig anfühlt*, produziert oft das beste Lernen.
@@ -96,6 +114,12 @@ Drei Arten kognitiver Belastung:
 | **Germane** (lernrelevant) | Anstrengung für Schemabildung | **Maximieren** |
 
 **Das Designprinzip:** Extrinsische Last reduzieren → Raum schaffen für germane (lernrelevante) Last.
+
+::: {.callout-tip}
+### Meta-Moment
+
+Sie werden das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die Agent-Design-Aktivität ist bewusst herausfordernd gestaltet. Wenn es sich schwierig anfühlt --- das ist das Feature, nicht der Bug.
+:::
 
 
 ## {{< bi megaphone >}} Fallstudien-Analyse

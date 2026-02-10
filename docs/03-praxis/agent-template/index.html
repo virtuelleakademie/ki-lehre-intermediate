@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KI in der Lehre: Intermediate</title>
+<title>Agent-Template: Analyse &amp; Anpassung – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,34 +20,55 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//assets/robot.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//assets/robot.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,15 +108,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-active-processing.callout {
@@ -120,17 +141,6 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
 div.callout-individual.callout {
   border-left-color: steelblue;
 }
@@ -140,17 +150,6 @@ div.callout-individual.callout-style-default > .callout-header {
 div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '💻';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -164,22 +163,44 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '💭';
   background-image: none;
 }
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 </style>
 
 
-<meta property="og:title" content="KI in der Lehre: Intermediate">
-<meta property="og:description" content="">
+<meta property="og:title" content="Agent-Template: Analyse &amp; Anpassung – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
   </div>
@@ -190,22 +211,22 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./workshop/index.html"> <i class="bi bi-card-list" role="img">
+    <a class="nav-link" href="../../workshop/index.html"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
+    <a class="nav-link" href="../../01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
 <span class="menu-text">1: Lernen verstehen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
 <span class="menu-text">2: KI &amp; Lernen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./03-praxis/index.html"> <i class="bi bi-marker-tip" role="img">
+    <a class="nav-link" href="../../03-praxis/index.html"> <i class="bi bi-marker-tip" role="img">
 </i> 
 <span class="menu-text">3: Praxis</span></a>
   </li>  
@@ -219,19 +240,19 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
         <li>
-    <a class="dropdown-item" href="./assets/pdfs/Begleitdokument.pdf">
+    <a class="dropdown-item" href="../../assets/pdfs/Begleitdokument.pdf">
  <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf">
+    <a class="dropdown-item" href="../../assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf">
  <span class="dropdown-text">Begleitdokument: KI Policy (PDF)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/resources.html">
+    <a class="dropdown-item" href="../../resources/resources.html">
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./assets/pdfs/Orientierungshilfe.pdf">
+    <a class="dropdown-item" href="../../assets/pdfs/Orientierungshilfe.pdf">
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
   </li>  
     </ul>
@@ -248,52 +269,180 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#warum-ein-template" id="toc-warum-ein-template" class="nav-link active" data-scroll-target="#warum-ein-template">Warum ein Template?</a></li>
+  <li><a href="#template-statistik-reflexions-coach" id="toc-template-statistik-reflexions-coach" class="nav-link" data-scroll-target="#template-statistik-reflexions-coach">Template: Statistik-Reflexions-Coach</a>
+  <ul class="collapse">
+  <li><a href="#kontext" id="toc-kontext" class="nav-link" data-scroll-target="#kontext">Kontext</a></li>
+  <li><a href="#agent-prompt-version-1.0" id="toc-agent-prompt-version-1.0" class="nav-link" data-scroll-target="#agent-prompt-version-1.0">Agent-Prompt (Version 1.0)</a></li>
+  </ul></li>
+  <li><a href="#ihre-aufgabe-analysieren-anpassen" id="toc-ihre-aufgabe-analysieren-anpassen" class="nav-link" data-scroll-target="#ihre-aufgabe-analysieren-anpassen">Ihre Aufgabe: Analysieren &amp; Anpassen</a>
+  <ul class="collapse">
+  <li><a href="#phase-1-analysieren-3-min" id="toc-phase-1-analysieren-3-min" class="nav-link" data-scroll-target="#phase-1-analysieren-3-min">Phase 1: Analysieren (3 Min)</a></li>
+  <li><a href="#phase-2-anpassen-5-min" id="toc-phase-2-anpassen-5-min" class="nav-link" data-scroll-target="#phase-2-anpassen-5-min">Phase 2: Anpassen (5 Min)</a></li>
+  </ul></li>
+  <li><a href="#designprinzipien-zur-orientierung" id="toc-designprinzipien-zur-orientierung" class="nav-link" data-scroll-target="#designprinzipien-zur-orientierung">Designprinzipien zur Orientierung</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block"></header> <main class="content" id="quarto-document-content">
-<p><i class="bi-calendar-event " style="" role="img" aria-hidden="true"></i> 19. September 2025</p>
-<p><i class="bi-clock " style="" role="img" aria-hidden="true"></i> 9:00–12:00 Uhr</p>
-<p><i class="bi-map " style="" role="img" aria-hidden="true"></i> S112 Seminarraum, Hallerstrasse 8, 3012 Bern</p>
-<p><br></p>
-<section id="dozent" class="level2">
-<h2 data-anchor-id="dozent">Dozent</h2>
-<p><a href="mailto:andrew.ellis@bfh.ch">Dr.&nbsp;Andrew Ellis</a> ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der <a href="https://virtuelleakademie.ch/">Virtuellen Akademie</a> der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.</p>
-</section>
-<section id="website" class="level2">
-<h2 data-anchor-id="website">Website</h2>
-<p><i class="bi-link " style="" role="img" aria-hidden="true"></i> <a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/">virtuelleakademie.github.io/ki-lehre-intermediate/</a></p>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Agent-Template: Analyse &amp; Anpassung</h1>
+<p class="subtitle lead">Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren</p>
+</div>
 
 
-</section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
-    <div class="about-footer"><div class="about-links">
-  <a href="mailto:virtuelle.akademie@bfh.ch" class="about-link" rel="" target="">
-    <i class="bi bi-inbox-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://virtuelleakademie.ch/" class="about-link" rel="" target="">
-    <i class="bi bi-magic"></i>
-     <span class="about-link-text">Virtuelle Akademie</span>
-  </a>
-  <a href="https://virtuelleakademie.ch/knowledge-base/" class="about-link" rel="" target="">
-    <i class="bi bi-lightbulb-fill"></i>
-     <span class="about-link-text">Knowledge Base</span>
-  </a>
-  <a href="https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard-fill"></i>
-     <span class="about-link-text">Weiterbildungsangebote</span>
-  </a>
-</div>
-</div>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
+</header>
+
+
+<section id="warum-ein-template" class="level2">
+<h2 class="anchored" data-anchor-id="warum-ein-template">Warum ein Template?</h2>
+<p>Das Erstellen eines Agents von Grund auf ist kognitiv anspruchsvoll — besonders wenn man zum ersten Mal einen Agent-Prompt schreibt. Stattdessen nutzen wir <strong>Analyse + Modifikation</strong>: eine Strategie, die das Arbeitsgedächtnis weniger belastet und schneller zu produktiven Ergebnissen führt.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
- <!-- /main -->
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Lernprinzip: Worked Examples
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Forschung zeigt: Anfänger lernen effektiver durch das Analysieren und Anpassen von Beispielen als durch freie Generierung <span class="citation" data-cites="swellerCognitiveLoadTheory2024">(<a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>. Erst wenn Sie mehrere Agents analysiert haben, wird das freie Design zugänglich.</p>
+</div>
+</div>
+</section>
+<section id="template-statistik-reflexions-coach" class="level2">
+<h2 class="anchored" data-anchor-id="template-statistik-reflexions-coach">Template: Statistik-Reflexions-Coach</h2>
+<section id="kontext" class="level3">
+<h3 class="anchored" data-anchor-id="kontext">Kontext</h3>
+<ul>
+<li><strong>Fach</strong>: Deskriptive Statistik (2. Semester)</li>
+<li><strong>Lernziel</strong>: Studierende sollen verstehen, <strong>wann</strong> welches Streuungsmaß (Range, IQR, Standardabweichung) angemessen ist</li>
+<li><strong>Problem</strong>: Studierende können die Formeln anwenden, aber nicht begründen, warum sie ein bestimmtes Maß wählen</li>
+</ul>
+</section>
+<section id="agent-prompt-version-1.0" class="level3">
+<h3 class="anchored" data-anchor-id="agent-prompt-version-1.0">Agent-Prompt (Version 1.0)</h3>
+<pre><code>Du bist ein Statistik-Reflexions-Coach für Studierende in deskriptiver Statistik.
+
+DEINE ROLLE:
+- Du hilfst Studierenden, über ihre Entscheidungen bei der Wahl von
+  Streuungsmaßen nachzudenken
+- Du stellst Fragen, die zum Nachdenken anregen
+- Du gibst KEINE direkten Antworten oder fertigen Lösungen
+
+ARBEITSWEISE (Versuch-dann-Prüfe):
+1. Die Studierenden beschreiben einen Datensatz und ihr gewähltes
+   Streuungsmaß
+2. Du stellst 2-3 gezielte Fragen zu ihrer Wahl:
+   - "Welche Eigenschaften des Datensatzes haben dich zu dieser
+     Wahl geführt?"
+   - "Was würde passieren, wenn du [alternatives Maß] verwendet
+     hättest?"
+   - "Gibt es Ausreißer oder Schiefe in den Daten?"
+3. Nach ihrer Reflexion gibst du spezifisches Feedback zu ihrer
+   Begründung (nicht zur Wahl selbst)
+
+VERBOTEN:
+- Direkt sagen "Verwende X" oder "Das ist falsch"
+- Die Entscheidung für die Studierenden treffen
+- Fertige Analysen liefern
+
+ZIEL:
+Studierende sollen lernen, ihre Entscheidungen zu BEGRÜNDEN, nicht
+nur "richtige Antworten" zu produzieren.</code></pre>
+</section>
+</section>
+<section id="ihre-aufgabe-analysieren-anpassen" class="level2">
+<h2 class="anchored" data-anchor-id="ihre-aufgabe-analysieren-anpassen">Ihre Aufgabe: Analysieren &amp; Anpassen</h2>
+<section id="phase-1-analysieren-3-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1-analysieren-3-min">Phase 1: Analysieren (3 Min)</h3>
+<p>Evaluieren Sie das Template mit dieser Checkliste:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Bewahrt der Agent die <strong>Versuch-dann-Prüfe-Struktur</strong>?</label></li>
+<li><label><input type="checkbox">Wird das Denken an die KI ausgelagert — oder bleibt es bei den Studierenden?</label></li>
+<li><label><input type="checkbox">Wo gibt der Agent <strong>zu viel</strong> preis?</label></li>
+<li><label><input type="checkbox">Wo gibt der Agent <strong>zu wenig</strong> Orientierung?</label></li>
+</ul>
+</section>
+<section id="phase-2-anpassen-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-anpassen-5-min">Phase 2: Anpassen (5 Min)</h3>
+<p>Wählen Sie <strong>eine</strong> der folgenden Optionen:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Option A: Für Ihre Disziplin anpassen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Option B: Das Template verbessern</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Option C: Eine Strategie explizit einbauen</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ul>
+<li>Ändern Sie Kontext, Fach und Lernziel</li>
+<li>Passen Sie die Fragen an Ihr Thema an</li>
+<li>Behalten Sie die Versuch-dann-Prüfe-Struktur bei</li>
+</ul>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li>Identifizieren Sie eine Schwachstelle</li>
+<li>Formulieren Sie eine Verbesserung</li>
+<li>Begründen Sie, warum das den Agent besser macht</li>
+</ul>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ul>
+<li>Wählen Sie eine der <a href="../handout-make-it-stick/">8 Make-it-Stick-Strategien</a></li>
+<li>Integrieren Sie sie explizit in den Prompt</li>
+<li>Testen Sie, ob die Versuch-dann-Prüfe-Struktur erhalten bleibt</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="designprinzipien-zur-orientierung" class="level2">
+<h2 class="anchored" data-anchor-id="designprinzipien-zur-orientierung">Designprinzipien zur Orientierung</h2>
+<p>Gute Agents für Lernen:</p>
+<ol type="1">
+<li><strong>Versuch zuerst</strong>: Studierende müssen selbst denken, bevor der Agent reagiert</li>
+<li><strong>Fragen statt Antworten</strong>: Der Agent provoziert Nachdenken</li>
+<li><strong>Prozess über Produkt</strong>: Fördert <em>wie</em> Studierende denken, nicht nur <em>was</em> sie produzieren</li>
+<li><strong>Explizite Signale</strong>: Lenkt Aufmerksamkeit auf lernrelevante Merkmale</li>
+</ol>
+<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i> <a href="../agent-beispiele/">Weitere Agent-Beispiele für jede Strategie</a></p>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-swellerCognitiveLoadTheory2024" class="csl-entry" role="listitem">
+Sweller, John. 2024. <span>“Cognitive Load Theory and Individual Differences.”</span> <em>Learning and Individual Differences</em> 110 (February): 102423. <a href="https://doi.org/10.1016/j.lindif.2024.102423">https://doi.org/10.1016/j.lindif.2024.102423</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -697,5 +846,5 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

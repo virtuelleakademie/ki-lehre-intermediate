@@ -1,0 +1,104 @@
+---
+title: "Agent-Template: Analyse & Anpassung"
+subtitle: "Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren"
+---
+
+## Warum ein Template?
+
+Das Erstellen eines Agents von Grund auf ist kognitiv anspruchsvoll --- besonders wenn man zum ersten Mal einen Agent-Prompt schreibt. Stattdessen nutzen wir **Analyse + Modifikation**: eine Strategie, die das Arbeitsgedächtnis weniger belastet und schneller zu produktiven Ergebnissen führt.
+
+::: {.callout-note}
+### Lernprinzip: Worked Examples
+
+Forschung zeigt: Anfänger lernen effektiver durch das Analysieren und Anpassen von Beispielen als durch freie Generierung [@swellerCognitiveLoadTheory2024]. Erst wenn Sie mehrere Agents analysiert haben, wird das freie Design zugänglich.
+:::
+
+
+## Template: Statistik-Reflexions-Coach
+
+### Kontext
+
+- **Fach**: Deskriptive Statistik (2. Semester)
+- **Lernziel**: Studierende sollen verstehen, **wann** welches Streuungsmaß (Range, IQR, Standardabweichung) angemessen ist
+- **Problem**: Studierende können die Formeln anwenden, aber nicht begründen, warum sie ein bestimmtes Maß wählen
+
+### Agent-Prompt (Version 1.0)
+
+```
+Du bist ein Statistik-Reflexions-Coach für Studierende in deskriptiver Statistik.
+
+DEINE ROLLE:
+- Du hilfst Studierenden, über ihre Entscheidungen bei der Wahl von
+  Streuungsmaßen nachzudenken
+- Du stellst Fragen, die zum Nachdenken anregen
+- Du gibst KEINE direkten Antworten oder fertigen Lösungen
+
+ARBEITSWEISE (Versuch-dann-Prüfe):
+1. Die Studierenden beschreiben einen Datensatz und ihr gewähltes
+   Streuungsmaß
+2. Du stellst 2-3 gezielte Fragen zu ihrer Wahl:
+   - "Welche Eigenschaften des Datensatzes haben dich zu dieser
+     Wahl geführt?"
+   - "Was würde passieren, wenn du [alternatives Maß] verwendet
+     hättest?"
+   - "Gibt es Ausreißer oder Schiefe in den Daten?"
+3. Nach ihrer Reflexion gibst du spezifisches Feedback zu ihrer
+   Begründung (nicht zur Wahl selbst)
+
+VERBOTEN:
+- Direkt sagen "Verwende X" oder "Das ist falsch"
+- Die Entscheidung für die Studierenden treffen
+- Fertige Analysen liefern
+
+ZIEL:
+Studierende sollen lernen, ihre Entscheidungen zu BEGRÜNDEN, nicht
+nur "richtige Antworten" zu produzieren.
+```
+
+
+## Ihre Aufgabe: Analysieren & Anpassen
+
+### Phase 1: Analysieren (3 Min)
+
+Evaluieren Sie das Template mit dieser Checkliste:
+
+- [ ] Bewahrt der Agent die **Versuch-dann-Prüfe-Struktur**?
+- [ ] Wird das Denken an die KI ausgelagert --- oder bleibt es bei den Studierenden?
+- [ ] Wo gibt der Agent **zu viel** preis?
+- [ ] Wo gibt der Agent **zu wenig** Orientierung?
+
+### Phase 2: Anpassen (5 Min)
+
+Wählen Sie **eine** der folgenden Optionen:
+
+::: {.panel-tabset}
+## Option A: Für Ihre Disziplin anpassen
+
+- Ändern Sie Kontext, Fach und Lernziel
+- Passen Sie die Fragen an Ihr Thema an
+- Behalten Sie die Versuch-dann-Prüfe-Struktur bei
+
+## Option B: Das Template verbessern
+
+- Identifizieren Sie eine Schwachstelle
+- Formulieren Sie eine Verbesserung
+- Begründen Sie, warum das den Agent besser macht
+
+## Option C: Eine Strategie explizit einbauen
+
+- Wählen Sie eine der [8 Make-it-Stick-Strategien](../handout-make-it-stick/)
+- Integrieren Sie sie explizit in den Prompt
+- Testen Sie, ob die Versuch-dann-Prüfe-Struktur erhalten bleibt
+:::
+
+
+## Designprinzipien zur Orientierung
+
+Gute Agents für Lernen:
+
+1. **Versuch zuerst**: Studierende müssen selbst denken, bevor der Agent reagiert
+2. **Fragen statt Antworten**: Der Agent provoziert Nachdenken
+3. **Prozess über Produkt**: Fördert *wie* Studierende denken, nicht nur *was* sie produzieren
+4. **Explizite Signale**: Lenkt Aufmerksamkeit auf lernrelevante Merkmale
+
+{{< bi lightbulb >}} [Weitere Agent-Beispiele für jede Strategie](../agent-beispiele/)

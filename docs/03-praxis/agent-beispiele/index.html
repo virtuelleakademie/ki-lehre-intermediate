@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -89,17 +109,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
 div.callout-reflect.callout {
   border-left-color: purple;
 }
@@ -111,36 +120,14 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '💭';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
@@ -155,15 +142,48 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: purple;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '👥';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 </style>
@@ -384,6 +404,26 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li><strong>Lernende-Aktivität</strong> (Was bleibt beim Lernenden?)</li>
 <li><strong>Warum es funktioniert</strong></li>
 </ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Designprinzip: Aufmerksamkeit gezielt lenken
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jeder Agent muss <strong>explizit signalisieren, worauf Lernende achten sollen</strong>. Ohne klare Signale verarbeiten Lernende zufällige Merkmale — sie bemerken die Länge eines KI-Textes statt der Argumentationsstruktur, oder die Formulierung statt der Logik <span class="citation" data-cites="engelmannTheoryInstructionPrinciples2016">(<a href="#ref-engelmannTheoryInstructionPrinciples2016" role="doc-biblioref">Engelmann and Carnine 2016</a>)</span>.</p>
+<p><strong>In der Praxis:</strong></p>
+<ul>
+<li>Der Agent stellt gezielte Vergleichsfragen (“Vergleiche die <em>kausale Kette</em> deiner Lösung mit der KI-Lösung”)</li>
+<li>Aufgabenstellungen benennen die relevanten Merkmale explizit (“Achte auf die Annahmen, nicht auf den Schreibstil”)</li>
+<li>Feedback fokussiert auf die zu lernenden Aspekte, nicht auf Oberflächenmerkmale</li>
+</ul>
+<p>Ohne Signale ist Lernen dem Zufall überlassen — mit Signalen wird es steuerbar.</p>
+</div>
+</div>
 <hr>
 </section>
 <section id="abrufpraxis-retrieval-practice" class="level2">
@@ -402,13 +442,13 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>Tracking von Abruf-Erfolg über Zeit</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
-<ul>
-<li>Lösen Aufgaben <strong>ohne</strong> Nachschlagen</li>
-<li>Erklären ihre Lösungswege</li>
-<li>Reflektieren über Fehlerquellen</li>
-<li>Selbsteinschätzung vor Feedback</li>
-</ul>
-<p><strong>Warum es funktioniert</strong>: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken.</p>
+<ol type="1">
+<li><strong>Versuch</strong>: Lösen Aufgaben ohne Nachschlagen, erklären ihren Lösungsweg</li>
+<li><strong>Prüfe</strong>: Agent zeigt Musterlösung — Lernende vergleichen Argumentation</li>
+<li><strong>Reflektieren</strong>: Wo wich die eigene Logik ab? Flüchtigkeitsfehler oder Konzeptfehler?</li>
+<li><strong>Selbsteinschätzung</strong>: Eigenes Verständnis bewerten, bevor das nächste Feedback kommt</li>
+</ol>
+<p><strong>Warum es funktioniert</strong>: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Vorhersagefehler-Zyklus.</p>
 <hr>
 </section>
 </section>
@@ -454,13 +494,13 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>Analysiert welche Kombinationen am besten funktionieren</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
-<ul>
-<li>Identifizieren welcher Algorithmus/welche Datenstruktur benötigt wird</li>
-<li>Implementieren ohne vorherige Ankündigung des Typs</li>
-<li>Vergleichen und kontrastieren verschiedene Ansätze</li>
-<li>Entwickeln “Problem-Pattern-Recognition”</li>
-</ul>
-<p><strong>Warum es funktioniert</strong>: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen.</p>
+<ol type="1">
+<li><strong>Versuch</strong>: Identifizieren Algorithmus/Datenstruktur und erstellen eine Skizze</li>
+<li><strong>Implementieren</strong>: Ersten Lösungsansatz programmieren</li>
+<li><strong>Prüfe</strong>: Agent zeigt Alternativen — Lernende vergleichen Effizienz und Lesbarkeit</li>
+<li><strong>Reflektieren</strong>: Warum ist Ansatz X hier besser? Pattern-Recognition entwickeln</li>
+</ol>
+<p><strong>Warum es funktioniert</strong>: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen. Die Versuch-dann-Prüfe-Struktur erzwingt eigenes Denken vor dem Vergleich.</p>
 <hr>
 </section>
 </section>
@@ -502,13 +542,13 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>Gibt delayed und minimales Feedback</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
-<ul>
-<li>Erst eigene Hypothesen aufstellen</li>
-<li>Mit Unsicherheit und Ambiguität umgehen</li>
-<li>Biases in eigenen Denkprozessen entdecken</li>
-<li>Komplexe, nuancierte Analysen entwickeln</li>
-</ul>
-<p><strong>Warum es funktioniert</strong>: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten.</p>
+<ol type="1">
+<li><strong>Versuch</strong>: Eigene Hypothesen aufstellen — begründen, welche Biases wirken</li>
+<li><strong>Prüfe</strong>: Agent präsentiert widersprüchliche Evidenz oder Alternativen</li>
+<li><strong>Ringen</strong>: Mit Unsicherheit umgehen — keine einfache “richtige Antwort”</li>
+<li><strong>Reflektieren</strong>: Biases in eigenen Denkprozessen entdecken</li>
+</ol>
+<p><strong>Warum es funktioniert</strong>: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten. Die Versuch-dann-Prüfe-Struktur sorgt dafür, dass Lernende zuerst selbst denken.</p>
 <hr>
 </section>
 </section>
@@ -554,13 +594,13 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>Gibt formatives (nicht summatives) Feedback</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
-<ul>
-<li>Eigene Texte kritisch evaluieren</li>
-<li>Schreibstrategien bewusst reflektieren</li>
-<li>Feedback in Überarbeitungen umsetzen</li>
-<li>Metakognitive Awareness für Schreibprozess entwickeln</li>
-</ul>
-<p><strong>Warum es funktioniert</strong>: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern.</p>
+<ol type="1">
+<li><strong>Versuch</strong>: Ersten Entwurf schreiben — eigene Schwächen identifizieren</li>
+<li><strong>Prüfe</strong>: Agent analysiert Schreibmuster (nicht Inhalt!) und stellt Fragen</li>
+<li><strong>Überarbeiten</strong>: Feedback in konkrete Änderungen umsetzen — dokumentieren</li>
+<li><strong>Reflektieren</strong>: “Was habe ich über meinen Schreibstil gelernt?”</li>
+</ol>
+<p><strong>Warum es funktioniert</strong>: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern. Die Versuch-dann-Prüfe-Struktur stellt sicher, dass Lernende zuerst selbst schreiben.</p>
 <hr>
 </section>
 </section>
@@ -580,19 +620,24 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>Sammelt aktuelle Business Cases</li>
 </ul>
 <p><strong>Lernende tun:</strong></p>
-<ul>
-<li>Theoretische Frameworks auf reale Probleme anwenden</li>
-<li>Strategische Entscheidungen treffen und begründen</li>
-<li>Multiple Perspektiven berücksichtigen</li>
-<li>Langfristige Konsequenzen durchdenken</li>
-</ul>
-<p><strong>Warum es funktioniert</strong>: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden.</p>
+<ol type="1">
+<li><strong>Versuch</strong>: Eigene Analyse durchführen — strategische Entscheidung treffen und begründen</li>
+<li><strong>Prüfe</strong>: Agent präsentiert Stakeholder-Perspektiven und “What-if”-Szenarien</li>
+<li><strong>Vergleichen</strong>: Wie unterscheiden sich die Annahmen? Welche Konsequenzen?</li>
+<li><strong>Synthetisieren</strong>: Trade-offs und langfristige Konsequenzen durchdenken</li>
+</ol>
+<p><strong>Warum es funktioniert</strong>: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden. Die Versuch-dann-Prüfe-Struktur bewahrt die eigenständige Analyse.</p>
+
 
 
 </section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-engelmannTheoryInstructionPrinciples2016" class="csl-entry" role="listitem">
+Engelmann, Siegfried, and Doug Carnine. 2016. <em>Theory of <span>Instruction</span>: <span>Principles</span> and <span>Applications</span></em>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

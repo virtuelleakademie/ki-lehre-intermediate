@@ -10,6 +10,20 @@ author:
 citation: true
 ---
 
+::: {.callout-note}
+## Lesehinweise
+
+**Geschätzte Lesezeit**: 20--25 Minuten
+
+Diese Seite vertieft die wissenschaftlichen Grundlagen des Workshops. Empfohlene Reihenfolge:
+
+- **Essentiell**: Die Progression von schwachen zu starken Methoden & Cognitive Load Theory
+- **Vertiefung**: Vorhersagefehler-Mechanismus --- ergänzt die Workshop-Inhalte mit wissenschaftlicher Tiefe
+- **Optional**: Grokking und Gedächtnisparadoxon --- interessante Erweiterungen
+
+Abschnitte, die mit dem Workshop-Hauptinhalt überlappen, sind als *Vertiefung* markiert und bieten zusätzliche Details und Beispiele.
+:::
+
 ## Zentrale Erkenntnisse
     
 1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
@@ -25,7 +39,7 @@ Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswert
 
 ## Die Progression von schwachen zu starken Methoden
 
-Nach John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] entwickelt sich Expertise durch eine vorhersehbare Progression:
+Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert dann, **wie** dieser Übergang durch Wissenskompilation geschieht. Expertise entwickelt sich durch eine vorhersehbare Progression:
 
 ### 1. **Schwache Methoden** (Anfänger-Stadium)
 
@@ -91,6 +105,18 @@ Wenn nach Erklärung gefragt:
 - "Wie wusste ich das? Ich bin mir nicht sicher..."
 
 **Das Wissen ist zu automatischen Prozeduren kompilert.**
+:::
+
+::: {.reflect}
+### Reflexion: Expertise in Ihrer Lehre
+
+Denken Sie an ein Thema, das Sie Ihren Studierenden beibringen:
+
+- Welche "schwachen Methoden" verwenden Anfänger typischerweise?
+- Welche automatisierten Prozeduren haben Experten entwickelt?
+- Was würde passieren, wenn Sie Anfängern direkt Experten-Werkzeuge geben?
+
+*Notieren Sie 2--3 Beobachtungen aus Ihrer eigenen Lehre.*
 :::
 
 ## Warum kognitive Anstrengung zählt: Die Biologie des Lernens
@@ -175,6 +201,18 @@ Betrachte das Lösen: $(x + 3)(x - 2) = 0$
 - Eingabe → Antwort
 
 **Insgesamt: 0 Arbeitsgedächtnisverarbeitung** = Kein Lernen, keine Speicherung im Langzeitgedächtnis
+:::
+
+::: {.reflect}
+### Reflexion: Cognitive Load erkennen
+
+**Ohne zurückzuschauen**: Erklären Sie in eigenen Worten:
+
+- Was ist der Unterschied zwischen extrinsischer und germane load?
+- Warum können Experten mehr Elemente gleichzeitig verarbeiten?
+- Wie beeinflusst das Ihre Aufgabengestaltung?
+
+*Der Versuch, dies ohne Nachschlagen zu erklären, ist selbst ein Beispiel für Abrufpraxis.*
 :::
 
 ### Wie Expertise wirklich entsteht
@@ -269,6 +307,17 @@ Wenn Anfänger zu früh Expertenwerkzeuge nutzen:
 Das ist nicht nur „kein Lernen“, sondern **Verlernen** vorhandener Fähigkeiten.
 :::
 
+::: {.callout-note}
+### Verbindung zum Workshop
+
+Diese vier Prinzipien bilden die Grundlage für:
+
+- Das **5-Fragen-Framework** in Teil 3 (Fragen 2 & 5 behandeln den Kompetenzaufbau und die Versuch-dann-Prüfe-Struktur)
+- Die **Agent-Design-Aktivität** in Teil 3 (Leitfrage: "Was tut der Agent? Was tut der Lernende?")
+
+Sie werden diese Prinzipien in der Praxis anwenden, wenn Sie Ihre eigene Aufgabe analysieren.
+:::
+
 ### Lehren im Einklang mit dem Gehirn
 
 #### Prinzip 1: Die Entwicklungssequenz respektieren
@@ -295,9 +344,17 @@ Das ist nicht nur „kein Lernen“, sondern **Verlernen** vorhandener Fähigkei
 - Durchgearbeitete Beispiele liefern, die den Prozess zeigen, nicht nur die Antworten
 - Unterstützung schrittweise abbauen, sobald Kompetenz entsteht (Scaffolding)
 
-### Wie Vorhersagefehler Lernen antreiben
+::: {.callout-tip}
+### Vertiefung: Workshop-Konzept wissenschaftlich betrachtet
 
-#### Wie Vorhersagefehler Lernen antreiben
+Der folgende Abschnitt vertieft das Konzept des "Prediction Error Learning", das im Workshop eingeführt wurde. Hier sehen Sie die wissenschaftlichen Details und Mechanismen hinter diesem Prinzip.
+:::
+
+### Vorhersagefehler: Ein wichtiger Lernmechanismus
+
+Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Er erklärt, warum bestimmte didaktische Strategien (wie Abrufpraxis und Generierung) wirksam sind. Es ist jedoch nicht der einzige Lernmechanismus --- Konsolidierung, Elaboration und Mustererkennung spielen ebenfalls zentrale Rollen.
+
+#### Der Vorhersagefehler-Zyklus
 
 **Schritt 1: Bildung einer Vorhersage**
 
@@ -319,10 +376,18 @@ Man versucht eine Lösung und vergleicht das tatsächliche Ergebnis mit der Vorh
 
 Das Gehirn nutzt diese Fehler zur Anpassung des Wissens:
 
-- **Dopamin-Ausschüttung** markiert Vorhersagefehler als wichtige Lernmomente
-- **Eligibility Traces** markieren beteiligte neuronale Pfade zur Stärkung
-- **Synaptische Gewichte** werden je nach Fehlergröße angepasst
+- **Neuronale Signale** markieren Vorhersagefehler als wichtige Lernmomente
+- **Neuronale Pfade**, die am Fehler beteiligt waren, werden verstärkt
+- **Synaptische Verbindungen** werden je nach Fehlergröße angepasst
 - **Konsolidierung im Schlaf** macht diese Änderungen dauerhaft
+
+::: {.pro-tip collapse="true"}
+### Neurowissenschaftliche Details (optional)
+
+Die Forschung zu Prediction Error Learning umfasst mehrere Systeme: dopaminerge Signale im mesolimbischen System, Eligibility Traces im Cerebellum und Konsolidierungsprozesse im Hippocampus und Neokortex. Diese Mechanismen sind komplexer und weniger eindeutig geklärt, als populäre Darstellungen oft suggerieren.
+
+Für die Lehrpraxis ist entscheidend: **Der Vorhersagefehler-Zyklus funktioniert, wenn Lernende selbst Hypothesen bilden, diese testen und Feedback bekommen** --- unabhängig von den genauen neuronalen Details.
+:::
 
 ::: {.callout-note collapse="true"}
 ## Beispiel: Algebra durch Vorhersagefehler lernen
@@ -341,7 +406,17 @@ Das Gehirn nutzt diese Fehler zur Anpassung des Wissens:
 - **Vorhersagefehler**: Positiv! Ansatz funktioniert
 - **Lernen**: Gehirn stärkt „Subtrahiere zur Isolierung“-Pfad
 
-**Nach vielen Zyklen**: Die Regel „Subtrahiere zur Isolierung“ wird automatisch
+**Nach vielen Zyklen**: Die Regel „Subtrahiere zur Isolierung" wird automatisch
+:::
+
+::: {.reflect}
+### Reflexion: Vorhersagefehler in Ihrer Lehre
+
+Denken Sie an eine Aufgabe in Ihrer Lehre:
+
+- Wo generieren Studierende Vorhersagen, bevor sie Feedback bekommen?
+- Wo könnte KI diesen Vorhersagefehler-Zyklus kurzschließen?
+- Wie könnten Sie die "Versuch-dann-Prüfe"-Struktur einbauen?
 :::
 
 #### Warum das Auslagern kognitiver Prozesse an KI das Lernsignal eliminiert
@@ -416,7 +491,19 @@ Aktuelle Studien zeigen alarmierende Auswirkungen von KI-Nutzung auf das Lernen:
 - **Weniger kritisches Denken** bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit [@leeImpactGenerativeAI2025]
 - **Nur oberflächliches Lernen** bei Programmierstudierenden mit ChatGPT [@yangEffectivenessChatGPTAssisting2025]
 - **Verminderte Problemlösefähigkeiten** bei Mathematiklernenden mit KI-Tools [@bastaniGenerativeAICan2024]
-- **„Die Fluency-Illusion“**: KI-Kompetenz wird mit eigenem Können verwechselt
+- **„Die Fluency-Illusion"**: KI-Kompetenz wird mit eigenem Können verwechselt
+
+::: {.reflect}
+### Reflexion: Das Gesamtbild
+
+Bevor Sie weiterlesen, fassen Sie für sich zusammen:
+
+- Was sind die drei wichtigsten Erkenntnisse für Ihre Lehre?
+- Welche **eine Änderung** an einer Aufgabe werden Sie zuerst umsetzen?
+- Wo erwarten Sie den größten Widerstand von Studierenden?
+
+*Diese Selbsterklärung ist der Übergang vom Verstehen zum Anwenden.*
+:::
 
 ## Die biologische Realität des Lernens
 
@@ -433,7 +520,8 @@ Lernen endet nicht mit dem Üben:
 
 **Man kann Schlaf nicht herunterladen – genauso wenig wie Expertise!**
 
-### Das "Grokking"-Phänomen
+::: {.pro-tip collapse="true"}
+### Optionale Vertiefung: Das "Grokking"-Phänomen
 
 "Grokking" bedeutet _etwas intuitiv und vollständig verstehen_. Sogar maschinelle Lernmodelle zeigen dieses Muster:
 
@@ -442,18 +530,15 @@ Lernen endet nicht mit dem Üben:
 - Früher als "overfitting" missverstanden
 - Heute als tiefes Musterlernen erkannt
 
- Grokking (im machinellen Lernen) zeigt:
- 
-  - Nach perfektem Memorieren kann echtes Verstehen entstehen
-  - Manchmal braucht es viel mehr Trainingsschritte als bis zum
-  Memorieren
-  - Das Modell findet plötzlich die zugrundeliegende Regel statt
-  nur Beispiele auswendig zu lernen
-  
-## Das Gedächtnisparadoxon
+Grokking (im maschinellen Lernen) zeigt:
 
-::: {.callout-warning}
-## Umkehrung des Flynn-Effekts
+- Nach perfektem Memorieren kann echtes Verstehen entstehen
+- Manchmal braucht es viel mehr Trainingsschritte als bis zum Memorieren
+- Das Modell findet plötzlich die zugrundeliegende Regel statt nur Beispiele auswendig zu lernen
+:::
+
+::: {.pro-tip collapse="true"}
+### Optionale Vertiefung: Das Gedächtnisparadoxon (Flynn-Effekt)
 
 Seit den 1970er/80er Jahren, als Bildung sich vom Auswendiglernen abkehrte:
 
@@ -496,12 +581,6 @@ Seit den 1970er/80er Jahren, als Bildung sich vom Auswendiglernen abkehrte:
 
 
 
-<!-- ## Reflexionsfragen
-
-- Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?
-- Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden?
-- Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?
-- Wie kannst du den Vorhersagefehler-Zyklus in deinem eigenen Lernen schützen? -->
 
 ---
 
