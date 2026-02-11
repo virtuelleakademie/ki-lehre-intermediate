@@ -21,7 +21,7 @@ In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Tei
 ::: {.individual}
 ### Eigene Aufgabe analysieren
 
-**Wähle eine Aufgabe oder Prüfung aus deiner Lehre** und analysiere sie mit dem [5-Fragen-Framework](./5-fragen-framework/):
+**Wähle eine Aufgabe oder Prüfung aus deiner Lehre** und analysiere sie mit dem [5-Fragen-Framework](./5-fragen-framework/). *Falls du keine eigene Aufgabe mitgebracht hast, nutze eines der [Fallstudien-Szenarien](./fallstudien/).*
 
 | Frage | Deine Einschätzung |
 |-------|-------------------|
@@ -33,7 +33,7 @@ In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Tei
 
 **Dann identifiziere:**
 
-- Wo könnte KI die **lernrelevante kognitive Last** (germane load) eliminieren?
+- Wo könnte KI die **lernrelevante kognitive Verarbeitung** eliminieren?
 - Welche **eine Änderung** würde produktive Anstrengung bewahren?
 
 **Notiere:**
@@ -53,9 +53,11 @@ Tausche dich mit einem Partner aus:
 1. **Vorstellen** (3 Min pro Person): Stelle deine Aufgabe, deine Analyse und deine vorgeschlagene Änderung vor
 2. **Rückmeldung geben**: Bewahrt die Änderung tatsächlich die interne kognitive Verarbeitung? Oder wird nur die Form geändert, während das Outsourcing weiter möglich ist?
 
-**Leitfrage für das Feedback:**
+**Leitfragen für das Feedback:**
 
 > "Muss die studierende Person nach deiner Änderung immer noch *selbst denken* --- oder kann sie das Denken immer noch an die KI delegieren?"
+
+**Praxistest mit den 3 Sonden:** Könnte eine Studierende nach der Aufgabe konkret beantworten: *"Was hast du versucht, bevor du KI gefragt hast?"* und *"Wo hat dich die KI überrascht?"* --- Wenn nicht, schützt das Redesign den Denkprozess noch nicht ausreichend.
 :::
 
 ### SHARE Phase (5 Min)
@@ -63,10 +65,10 @@ Tausche dich mit einem Partner aus:
 - 2--3 Beispiele im Plenum vorstellen
 - Welche **Muster** zeigen sich? Gibt es wiederkehrende Schwachstellen?
 
-::: {.callout-tip}
-### Meta-Moment
+::: {.reflect}
+### Welches Lernprinzip haben wir gerade angewendet?
 
-Die THINK-PAIR-SHARE-Struktur ist kein Zufall: **THINK** nutzt den Generierungseffekt (ihr aktiviert euer Denken zuerst), **PAIR** fördert Elaboration (durch Erklären vertieft ihr), **SHARE** bringt Variation (durch verschiedene Beispiele erkennt ihr Muster). *Dieselbe Struktur funktioniert in eurer Lehre.*
+Diskutiert 30 Sekunden mit eurem Nachbarn: **Welche Prinzipien aus Teil 1 stecken in der THINK-PAIR-SHARE-Struktur?** *Tipp: Es sind mindestens drei.*
 :::
 
 

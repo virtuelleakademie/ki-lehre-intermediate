@@ -25,12 +25,12 @@ Abschnitte, die mit dem Workshop-Hauptinhalt überlappen, sind als *Vertiefung* 
 :::
 
 ## Zentrale Erkenntnisse
-    
+
 1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
-2. **Kognitive Anstrengung ist kein Fehler, sondern die Funktion**, die Lernen durch Vorhersagefehler ermöglicht
-3. **Offloading an KI umgeht genau die Anstrengungen**, die dauerhafte Fähigkeiten aufbauen
-4. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
-5. **Echtes Verständnis entsteht** durch tausende anstrengende Übungszyklen mit Vorhersagefehlern
+2. **Kognitive Anstrengung ist kein Fehler, sondern die Funktion**, die Lernen durch Vorhersagefehler, Elaboration und Konsolidierung ermöglicht
+3. **Expertise bedeutet: ein internes generatives Modell aufbauen**, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann
+4. **KI-Outsourcing liefert Ergebnisse ohne den Prozess**, der dieses interne Modell aufbaut
+5. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
 6. **Wähle deine Werkzeuge mit Bedacht**: Nutze KI, um irrelevante kognitive Belastung zu reduzieren, nicht um essentielles Lernen zu überspringen
 
 ## Die Reise vom Anfänger zum Experten
@@ -295,16 +295,16 @@ Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv – es ist **akt
 ::: {.callout-warning}
 ## Die Abhängigkeitskaskade
 
-Wenn Anfänger zu früh Expertenwerkzeuge nutzen:
+Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken:
 
 1. **Anfänglicher Erfolg** schafft falsches Selbstvertrauen
 2. **Schwache Methoden verkümmern** durch Nichtgebrauch
 3. **Problemlösefähigkeiten verschlechtern sich** ohne Übung
 4. **Abhängigkeit vertieft sich**, da interne Fähigkeiten schwinden
 5. **Transfer scheitert**, wenn KI nicht verfügbar ist
-6. **Erlernte Hilflosigkeit** entsteht bei neuen Herausforderungen
+6. **Das Selbstbild aktualisiert sich**: Lernende schliessen aus ihren Erfahrungen (mit KI: Erfolg, ohne KI: Misserfolg) rational, dass sie es allein nicht können
 
-Das ist nicht nur „kein Lernen“, sondern **Verlernen** vorhandener Fähigkeiten.
+Diese Risiken bilden kein deterministisches Stufenmodell --- sie interagieren dynamisch und variieren je nach Person und Kontext. Das Ergebnis ist nicht "Verlernen" im engeren Sinne (aktiver Verlust von Wissen), sondern **Fähigkeitsatrophie durch Nichtgebrauch**: Vorhandene Kompetenzen werden nicht weiter gestärkt und verblassen über die Zeit.
 :::
 
 ::: {.callout-note}
@@ -352,7 +352,7 @@ Der folgende Abschnitt vertieft das Konzept des "Prediction Error Learning", das
 
 ### Vorhersagefehler: Ein wichtiger Lernmechanismus
 
-Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Er erklärt, warum bestimmte didaktische Strategien (wie Abrufpraxis und Generierung) wirksam sind. Es ist jedoch nicht der einzige Lernmechanismus --- Konsolidierung, Elaboration und Mustererkennung spielen ebenfalls zentrale Rollen.
+Prediction Error Learning ist einer der wichtigsten neuronalen Mechanismen für den Kompetenzaufbau. Er erklärt, warum bestimmte didaktische Strategien (wie Abrufpraxis und Generierung) wirksam sind. Die Forschung zu Vorhersagefehlern umfasst verschiedene Systeme --- dopaminerge Belohnungssignale, sensorische Vorhersagefehler und Überraschung im Bayesianischen Sinne --- die über unterschiedliche neuronale Substrate und Rechenprinzipien operieren. Für die Lehrpraxis ist die gemeinsame Grundidee entscheidend: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.* Daneben spielen Konsolidierung, Elaboration und Mustererkennung ebenfalls zentrale Rollen.
 
 #### Der Vorhersagefehler-Zyklus
 
@@ -419,18 +419,46 @@ Denken Sie an eine Aufgabe in Ihrer Lehre:
 - Wie könnten Sie die "Versuch-dann-Prüfe"-Struktur einbauen?
 :::
 
-#### Warum das Auslagern kognitiver Prozesse an KI das Lernsignal eliminiert
+#### Warum das Auslagern kognitiver Prozesse an KI das Lernsignal verarmt
 
-**KI liefert sofort perfekte Antworten**:
+**Wenn KI sofort fertige Antworten liefert**, wird der Vorhersagefehler *nicht* null --- das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird **uninformativ**:
 
-- Keine Vorhersagephase (Lernende generieren keine Erwartungen)
-- Keine Versuch-Phase (es werden keine Lösungen ausprobiert)
-- Keine Fehlerphase (kein Vergleich zwischen Erwartung und Realität)
-- **Ergebnis**: Null Vorhersagefehler = kein Lernsiganl
+- Ohne eigenen Lösungsversuch aktivieren Lernende ihr internes Modell nicht
+- Ohne spezifische Vorhersage gibt es nichts, woran das Feedback sinnvoll andocken kann
+- Das Ergebnis ist ein **diffuser, unstrukturierter Vorhersagefehler**, der kaum Lernen erzeugt
 
-**Das Gehirn hat buchstäblich nichts, woraus es lernen kann**, weil der Vorhersagefehler-Zyklus nie stattfindet.
+Das entscheidende Problem: Je weniger Vorwissen Lernende haben, desto weniger können sie mit dem KI-Output anfangen. Ihr internes Modell ist noch zu undifferenziert, um dem Feedback Bedeutung zuzuschreiben --- sie erkennen weder, *warum* die Antwort richtig ist, noch *wo* ihr eigenes Verständnis die Lücken hat.
 
-Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. **Lernen braucht Fehler, nicht Perfektion.**
+Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert sein internes Modell, bildet spezifische Vorhersagen und erzeugt dadurch **informative Vorhersagefehler** --- genau die Art von Diskrepanz, aus der das Gehirn effektiv lernen kann.
+
+Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. **Lernen braucht informative Fehler, nicht Perfektion.**
+
+### Das interne Modell: Was Expertise eigentlich ist
+
+Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, ein **internes generatives Modell** aufgebaut zu haben --- ein Modell, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann. Dieses Modell ist es, was sich durch tausende Übungszyklen entwickelt.
+
+Warum ist diese Perspektive hilfreich? Sie erklärt auf einen Blick:
+
+- **Warum aktives Problemlösen so wirksam ist**: Es zwingt Lernende, ihr internes Modell zu aktivieren --- es "laufen zu lassen" und konkrete Vorhersagen zu generieren, die dann an der Realität scheitern oder bestätigt werden können.
+- **Warum Experten von KI-Feedback profitieren**: Ihr Modell ist differenziert genug, um spezifische Vorhersagen zu machen. Feedback dockt an konkreten Erwartungen an und ist deshalb *informativ*.
+- **Warum Anfänger durch KI-Outsourcing gefährdet sind**: Ihr Modell ist noch zu undifferenziert. Ohne eigenen Lösungsversuch aktivieren sie es nicht --- und der KI-Output bleibt ein diffuser Datenpunkt, aus dem wenig gelernt werden kann.
+- **Warum das Evaluationsparadox existiert**: KI-Output zu bewerten *ist selbst eine Form von Inferenz* --- man muss das eigene Modell aktivieren und prüfen, ob der Output damit konsistent ist. Ohne entwickeltes Modell fehlt die Grundlage dafür.
+
+Die entscheidende Frage für jede Lernsituation lautet deshalb: **Wie aktiv ist das interne Modell der Lernenden, wenn sie dem KI-Output begegnen?** Je aktiver das Modell, desto informativer das Feedback --- und desto mehr wird gelernt.
+
+::: {.pro-tip collapse="true"}
+### Vertiefung: Die Bayesianische Perspektive (optional)
+
+Man kann den Vorhersagefehler-Mechanismus formal als Bayesianisches Lernen beschreiben. Ein Lernender hat ein internes Modell $M$ mit Überzeugungen $\theta$ und aktualisiert diese durch neue Daten $d$:
+
+$$P(\theta|d, M) \propto P(d|\theta, M) \cdot P(\theta|M)$$
+
+Das heisst: Die neuen Überzeugungen (Posterior) ergeben sich aus dem Zusammenspiel von Vorwissen (Prior) und der Frage, wie gut die neuen Daten zu verschiedenen Hypothesen passen (Likelihood).
+
+**Warum das für KI relevant ist:** Wenn ein Novize einen KI-Output liest, ist seine Likelihood-Funktion $P(d|\theta)$ *flach* --- korrekte und inkorrekte Antworten sehen für ihn ähnlich plausibel aus. Der Informationsgewinn ist minimal. Ein Experte hingegen hat eine *scharfe* Likelihood: Er kann sofort erkennen, ob der Output zu seinem Modell passt oder nicht.
+
+Lernen im Bayesianischen Sinne ist **Entropiereduktion** --- die Reduktion von Unsicherheit über die Struktur der Welt. Aktives Problemlösen maximiert den erwarteten Informationsgewinn, weil es die Lernenden zwingt, ihre eigenen Vorhersagen zu testen. KI-Outsourcing minimiert ihn, weil die Lernenden nie ihre eigenen Vorhersagen generieren.
+:::
 
 ### Das Prinzip der "Desirable Difficulties"
 
@@ -490,7 +518,7 @@ Aktuelle Studien zeigen alarmierende Auswirkungen von KI-Nutzung auf das Lernen:
 
 - **Weniger kritisches Denken** bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit [@leeImpactGenerativeAI2025]
 - **Nur oberflächliches Lernen** bei Programmierstudierenden mit ChatGPT [@yangEffectivenessChatGPTAssisting2025]
-- **Verminderte Problemlösefähigkeiten** bei Mathematiklernenden mit KI-Tools [@bastaniGenerativeAICan2024]
+- **Verminderte Problemlösefähigkeiten** bei Mathematiklernenden mit KI-Tools [@bastaniGenerativeAIGuardrails2025]
 - **„Die Fluency-Illusion"**: KI-Kompetenz wird mit eigenem Können verwechselt
 
 ::: {.reflect}
@@ -612,7 +640,7 @@ Achte auf diese Anzeichen für kognitives Auslagern:
 - Abhängigkeit von KI bei Grundaufgaben
 - KI-Ausgabe wird mit eigenem Verständnis verwechselt
 - Sofortige KI-Konsultation ohne eigenen Versuch
-- Keine Vorhersagefehler (immer „richtige“ Antworten)
+- Nur uninformative Vorhersagefehler (kein eigener Versuch vor KI-Nutzung)
 :::
 
 

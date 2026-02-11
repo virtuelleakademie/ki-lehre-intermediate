@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-group.callout {
@@ -111,6 +111,28 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -120,28 +142,6 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -155,15 +155,15 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 </style>
@@ -391,7 +391,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Wähle eine Aufgabe oder Prüfung aus deiner Lehre</strong> und analysiere sie mit dem <a href="./5-fragen-framework/">5-Fragen-Framework</a>:</p>
+<p><strong>Wähle eine Aufgabe oder Prüfung aus deiner Lehre</strong> und analysiere sie mit dem <a href="./5-fragen-framework/">5-Fragen-Framework</a>. <em>Falls du keine eigene Aufgabe mitgebracht hast, nutze eines der <a href="./fallstudien/">Fallstudien-Szenarien</a>.</em></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -424,7 +424,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </table>
 <p><strong>Dann identifiziere:</strong></p>
 <ul>
-<li>Wo könnte KI die <strong>lernrelevante kognitive Last</strong> (germane load) eliminieren?</li>
+<li>Wo könnte KI die <strong>lernrelevante kognitive Verarbeitung</strong> eliminieren?</li>
 <li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren?</li>
 </ul>
 <p><strong>Notiere:</strong></p>
@@ -453,10 +453,11 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <li><strong>Vorstellen</strong> (3 Min pro Person): Stelle deine Aufgabe, deine Analyse und deine vorgeschlagene Änderung vor</li>
 <li><strong>Rückmeldung geben</strong>: Bewahrt die Änderung tatsächlich die interne kognitive Verarbeitung? Oder wird nur die Form geändert, während das Outsourcing weiter möglich ist?</li>
 </ol>
-<p><strong>Leitfrage für das Feedback:</strong></p>
+<p><strong>Leitfragen für das Feedback:</strong></p>
 <blockquote class="blockquote">
 <p>“Muss die studierende Person nach deiner Änderung immer noch <em>selbst denken</em> — oder kann sie das Denken immer noch an die KI delegieren?”</p>
 </blockquote>
+<p><strong>Praxistest mit den 3 Sonden:</strong> Könnte eine Studierende nach der Aufgabe konkret beantworten: <em>“Was hast du versucht, bevor du KI gefragt hast?”</em> und <em>“Wo hat dich die KI überrascht?”</em> — Wenn nicht, schützt das Redesign den Denkprozess noch nicht ausreichend.</p>
 </div>
 </div>
 </section>
@@ -466,17 +467,17 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <li>2–3 Beispiele im Plenum vorstellen</li>
 <li>Welche <strong>Muster</strong> zeigen sich? Gibt es wiederkehrende Schwachstellen?</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-reflect callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Meta-Moment
+<span class="screen-reader-only">Reflect</span>Welches Lernprinzip haben wir gerade angewendet?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Die THINK-PAIR-SHARE-Struktur ist kein Zufall: <strong>THINK</strong> nutzt den Generierungseffekt (ihr aktiviert euer Denken zuerst), <strong>PAIR</strong> fördert Elaboration (durch Erklären vertieft ihr), <strong>SHARE</strong> bringt Variation (durch verschiedene Beispiele erkennt ihr Muster). <em>Dieselbe Struktur funktioniert in eurer Lehre.</em></p>
+<p>Diskutiert 30 Sekunden mit eurem Nachbarn: <strong>Welche Prinzipien aus Teil 1 stecken in der THINK-PAIR-SHARE-Struktur?</strong> <em>Tipp: Es sind mindestens drei.</em></p>
 </div>
 </div>
 </section>

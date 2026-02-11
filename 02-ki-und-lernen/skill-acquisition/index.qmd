@@ -427,7 +427,7 @@ Recent studies show alarming impacts of AI use on learning:
 
 - **68% reduction in critical thinking** among knowledge workers with high AI confidence [@leeImpactGenerativeAI2025]
 - **Surface learning only** for programming students using ChatGPT [@yangEffectivenessChatGPTAssisting2025]
-- **Decreased problem-solving ability** in math students using AI tools [@bastaniGenerativeAICan2024]
+- **Decreased problem-solving ability** in math students using AI tools [@bastaniGenerativeAIGuardrails2025]
 - **"The fluency illusion"**: Mistaking AI's competence for your own
 
 ## The Biological Reality of Learning

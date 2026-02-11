@@ -89,48 +89,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -155,15 +122,48 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 </style>
@@ -445,8 +445,8 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <blockquote class="blockquote">
 <p>Vorhersage → Versuch → Fehler → Anpassung</p>
 </blockquote>
-<p>Dieses Prinzip — <strong>Prediction Error Learning</strong> — ist ein wichtiger neuronaler Mechanismus, durch den Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte Modelle baut. Dieser Mechanismus erklärt, <em>warum</em> die didaktischen Strategien funktionieren, die wir gleich kennenlernen.</p>
-<p><strong>Überraschung aus der Motorik-Forschung:</strong> Explizites, strategisches Denken <em>nimmt mit Expertise zu</em>, nicht ab. Selbst erfahrene Sportlerinnen setzen mehr explizites Wissen ein als Anfängerinnen — nicht weniger.</p>
+<p>Dieses Prinzip — <strong>Prediction Error Learning</strong> — ist einer der wichtigsten neuronalen Mechanismen, durch die Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte interne Modelle baut. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklärt dieser Mechanismus, <em>warum</em> die didaktischen Strategien funktionieren, die wir gleich kennenlernen.</p>
+<p><strong>Überraschung aus der Motorik-Forschung:</strong> Explizites, strategisches Denken <em>nimmt mit Expertise zu</em> — allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.</p>
 </section>
 <section id="expertise-reversal-effect" class="level3">
 <h3 class="anchored" data-anchor-id="expertise-reversal-effect">Expertise Reversal Effect</h3>
@@ -481,11 +481,29 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <div class="callout-body-container callout-body">
 <p>Die drei Ebenen des Lernens:</p>
 <ol type="1">
-<li><strong>Neuronaler Mechanismus</strong> (Wie das Gehirn lernt): Prediction Error Learning</li>
-<li><strong>Didaktische Prinzipien</strong> (Wie wir Lernen gestalten): Desirable Difficulties</li>
-<li><strong>Konkrete Strategien</strong> (Was wir in der Lehre tun): Abrufpraxis, Spacing, Interleaving, Generierung</li>
+<li><strong>Das Ziel</strong> (Was Lernende tun): Ein internes Modell aufbauen, das Vorhersagen, Erklärungen und Lösungen generieren kann</li>
+<li><strong>Der Mechanismus</strong> (Wie das Gehirn aktualisiert): Durch Vorhersagefehler, Elaboration und Konsolidierung</li>
+<li><strong>Das Design</strong> (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen — durch Abrufpraxis, Spacing, Interleaving, Generierung</li>
 </ol>
-<p>Prediction Error ist das <em>Warum</em>, Desirable Difficulties sind das <em>Was</em>, und die vier Strategien sind das <em>Wie</em>.</p>
+<p>Die Strategien sind das <em>Wie</em>, Desirable Difficulties das <em>Was</em>, und der Aufbau eines generativen internen Modells das <em>Warum</em>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Kurz-Abruf (2 Min)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Ohne zurückzuschauen:</strong> Notiere in Stichworten:</p>
+<ul>
+<li>Was sind die 4 Formen wünschenswerter Schwierigkeiten?</li>
+<li>Welche davon setzt du bereits in deiner Lehre ein?</li>
+</ul>
+<p><em>Wenn das schwierig ist — gut. Das ist der Punkt.</em></p>
 </div>
 </div>
 </section>
@@ -498,7 +516,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </section>
 <section id="cognitive-load-theory" class="level3">
 <h3 class="anchored" data-anchor-id="cognitive-load-theory">Cognitive Load Theory</h3>
-<p>Drei Arten kognitiver Belastung:</p>
+<p>Zwei Quellen kognitiver Belastung:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -515,22 +533,17 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <tbody>
 <tr class="odd">
 <td><strong>Intrinsisch</strong></td>
-<td>Komplexität des Materials selbst</td>
+<td>Komplexität des Materials selbst (abhängig von Elementinteraktivität und Vorwissen)</td>
 <td>Angemessen dosieren</td>
 </tr>
 <tr class="even">
 <td><strong>Extrinsisch</strong></td>
-<td>Schlechtes Design, Ablenkung</td>
+<td>Schlechtes Design, Ablenkung — trägt nicht zum Lernen bei</td>
 <td><strong>Minimieren</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>Germane</strong> (lernrelevant)</td>
-<td>Anstrengung für Schemabildung</td>
-<td><strong>Maximieren</strong></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Das Designprinzip:</strong> Extrinsische Last reduzieren → Raum schaffen für germane (lernrelevante) Last.</p>
+<p><strong>Das Designprinzip:</strong> Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung “germane load”; heute spricht man präziser von <strong>germane processing</strong> — der lernrelevanten Auseinandersetzung mit dem Material.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

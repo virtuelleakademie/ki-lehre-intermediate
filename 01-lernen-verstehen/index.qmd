@@ -61,9 +61,9 @@ Der Weg vom Anfänger zum Experten erfordert **tausende Zyklen** von:
 
 > Vorhersage → Versuch → Fehler → Anpassung
 
-Dieses Prinzip --- **Prediction Error Learning** --- ist ein wichtiger neuronaler Mechanismus, durch den Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte Modelle baut. Dieser Mechanismus erklärt, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
+Dieses Prinzip --- **Prediction Error Learning** --- ist einer der wichtigsten neuronalen Mechanismen, durch die Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte interne Modelle baut. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklärt dieser Mechanismus, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
 
-**Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, nicht ab. Selbst erfahrene Sportlerinnen setzen mehr explizites Wissen ein als Anfängerinnen --- nicht weniger.
+**Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu* --- allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.
 
 ### Expertise Reversal Effect
 
@@ -90,11 +90,22 @@ Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lerne
 
 Die drei Ebenen des Lernens:
 
-1. **Neuronaler Mechanismus** (Wie das Gehirn lernt): Prediction Error Learning
-2. **Didaktische Prinzipien** (Wie wir Lernen gestalten): Desirable Difficulties
-3. **Konkrete Strategien** (Was wir in der Lehre tun): Abrufpraxis, Spacing, Interleaving, Generierung
+1. **Das Ziel** (Was Lernende tun): Ein internes Modell aufbauen, das Vorhersagen, Erklärungen und Lösungen generieren kann
+2. **Der Mechanismus** (Wie das Gehirn aktualisiert): Durch Vorhersagefehler, Elaboration und Konsolidierung
+3. **Das Design** (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen --- durch Abrufpraxis, Spacing, Interleaving, Generierung
 
-Prediction Error ist das *Warum*, Desirable Difficulties sind das *Was*, und die vier Strategien sind das *Wie*.
+Die Strategien sind das *Wie*, Desirable Difficulties das *Was*, und der Aufbau eines generativen internen Modells das *Warum*.
+:::
+
+::: {.active-processing}
+### Kurz-Abruf (2 Min)
+
+**Ohne zurückzuschauen:** Notiere in Stichworten:
+
+- Was sind die 4 Formen wünschenswerter Schwierigkeiten?
+- Welche davon setzt du bereits in deiner Lehre ein?
+
+*Wenn das schwierig ist --- gut. Das ist der Punkt.*
 :::
 
 ### Die metakognitive Falle
@@ -105,15 +116,14 @@ Fliessend lesen = "Ich verstehe das". Aber: Vertrautheit ist nicht Verständnis.
 
 ### Cognitive Load Theory
 
-Drei Arten kognitiver Belastung:
+Zwei Quellen kognitiver Belastung:
 
 | Typ | Beschreibung | Ziel |
 |-----|-------------|------|
-| **Intrinsisch** | Komplexität des Materials selbst | Angemessen dosieren |
-| **Extrinsisch** | Schlechtes Design, Ablenkung | **Minimieren** |
-| **Germane** (lernrelevant) | Anstrengung für Schemabildung | **Maximieren** |
+| **Intrinsisch** | Komplexität des Materials selbst (abhängig von Elementinteraktivität und Vorwissen) | Angemessen dosieren |
+| **Extrinsisch** | Schlechtes Design, Ablenkung --- trägt nicht zum Lernen bei | **Minimieren** |
 
-**Das Designprinzip:** Extrinsische Last reduzieren → Raum schaffen für germane (lernrelevante) Last.
+**Das Designprinzip:** Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung "germane load"; heute spricht man präziser von **germane processing** --- der lernrelevanten Auseinandersetzung mit dem Material.
 
 ::: {.callout-tip}
 ### Meta-Moment

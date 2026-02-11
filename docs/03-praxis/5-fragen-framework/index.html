@@ -89,6 +89,39 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
 div.callout-pro-tip.callout {
   border-left-color: gold;
 }
@@ -111,39 +144,6 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
 div.callout-pair.callout {
   border-left-color: forestgreen;
 }
@@ -155,15 +155,15 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 </style>
@@ -325,6 +325,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   <li><a href="#frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen" id="toc-frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen" class="nav-link" data-scroll-target="#frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen">Frage 4: Kann KI die Aufgabe ohne Denkarbeit der Studierenden erledigen?</a></li>
   <li><a href="#frage-5-gibt-es-eine-versuch-dann-prüfe-struktur" id="toc-frage-5-gibt-es-eine-versuch-dann-prüfe-struktur" class="nav-link" data-scroll-target="#frage-5-gibt-es-eine-versuch-dann-prüfe-struktur">Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</a></li>
   </ul></li>
+  <li><a href="#theoretische-fundierung" id="toc-theoretische-fundierung" class="nav-link" data-scroll-target="#theoretische-fundierung">Theoretische Fundierung</a></li>
   <li><a href="#anwendungsbeispiel-volkswirtschaftslehre" id="toc-anwendungsbeispiel-volkswirtschaftslehre" class="nav-link" data-scroll-target="#anwendungsbeispiel-volkswirtschaftslehre">Anwendungsbeispiel: Volkswirtschaftslehre</a></li>
   <li><a href="#disziplinspezifische-hinweise" id="toc-disziplinspezifische-hinweise" class="nav-link" data-scroll-target="#disziplinspezifische-hinweise">Disziplinspezifische Hinweise</a>
   <ul class="collapse">
@@ -332,6 +333,12 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   <li><a href="#schreiben-und-geisteswissenschaften" id="toc-schreiben-und-geisteswissenschaften" class="nav-link" data-scroll-target="#schreiben-und-geisteswissenschaften">Schreiben und Geisteswissenschaften</a></li>
   <li><a href="#professionelle-fächer" id="toc-professionelle-fächer" class="nav-link" data-scroll-target="#professionelle-fächer">Professionelle Fächer</a></li>
   <li><a href="#sprachen" id="toc-sprachen" class="nav-link" data-scroll-target="#sprachen">Sprachen</a></li>
+  </ul></li>
+  <li><a href="#vom-design-zur-praxis-3-sonden-für-den-lehralltag" id="toc-vom-design-zur-praxis-3-sonden-für-den-lehralltag" class="nav-link" data-scroll-target="#vom-design-zur-praxis-3-sonden-für-den-lehralltag">Vom Design zur Praxis: 3 Sonden für den Lehralltag</a>
+  <ul class="collapse">
+  <li><a href="#die-3-sonden" id="toc-die-3-sonden" class="nav-link" data-scroll-target="#die-3-sonden">Die 3 Sonden</a></li>
+  <li><a href="#so-klingen-die-antworten" id="toc-so-klingen-die-antworten" class="nav-link" data-scroll-target="#so-klingen-die-antworten">So klingen die Antworten</a></li>
+  <li><a href="#zwei-einsatzmodi" id="toc-zwei-einsatzmodi" class="nav-link" data-scroll-target="#zwei-einsatzmodi">Zwei Einsatzmodi</a></li>
   </ul></li>
   <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
   </ul>
@@ -438,6 +445,44 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </div>
 </section>
 </section>
+<section id="theoretische-fundierung" class="level2">
+<h2 class="anchored" data-anchor-id="theoretische-fundierung">Theoretische Fundierung</h2>
+<p>Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Theoretische Grundlage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es ums <strong>Lernen</strong>?</td>
+<td>Lernen ≠ Leisten — Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau</td>
+</tr>
+<tr class="even">
+<td>2. Werden <strong>Grundlagen</strong> aufgebaut?</td>
+<td>Novizen-Experten-Progression &amp; Expertise Reversal Effect — was Anfängern hilft, schadet Experten</td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>Schemabildung &amp; Langzeitgedächtnis — Wissen muss intern aufgebaut, nicht extern geliefert werden</td>
+</tr>
+<tr class="even">
+<td>4. Kann KI <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>Cognitive Outsourcing &amp; Cargo Cult Scholarship — Oberflächenprodukte ohne Denkprozess</td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es <strong>Versuch-dann-Prüfe</strong>?</td>
+<td>Vorhersagefehler &amp; Desirable Difficulties — informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback</td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="anwendungsbeispiel-volkswirtschaftslehre" class="level2">
 <h2 class="anchored" data-anchor-id="anwendungsbeispiel-volkswirtschaftslehre">Anwendungsbeispiel: Volkswirtschaftslehre</h2>
 <p><strong>Ursprüngliche Aufgabe</strong>: “Analysieren Sie die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt.”</p>
@@ -517,6 +562,106 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li>Zeitbegrenzte Schreibübungen</li>
 <li>KI als Post-Produktions-Check, nicht als Produktionstool</li>
 </ul>
+</section>
+</section>
+<section id="vom-design-zur-praxis-3-sonden-für-den-lehralltag" class="level2">
+<h2 class="anchored" data-anchor-id="vom-design-zur-praxis-3-sonden-für-den-lehralltag">Vom Design zur Praxis: 3 Sonden für den Lehralltag</h2>
+<p>Die 5 Fragen helfen beim <strong>Gestalten</strong> von Aufgaben. Aber wie prüft man danach, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:</p>
+<section id="die-3-sonden" class="level3">
+<h3 class="anchored" data-anchor-id="die-3-sonden">Die 3 Sonden</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 29%">
+<col style="width: 30%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sonde</th>
+<th>Frage an Studierende</th>
+<th>Was sie diagnostiziert</th>
+<th>Theoretischer Anker</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vorher</strong></td>
+<td>“Was hast du versucht, bevor du KI gefragt hast?”</td>
+<td>Gab es einen eigenen Versuch? (Generation)</td>
+<td>Generierungseffekt, Desirable Difficulties</td>
+</tr>
+<tr class="even">
+<td><strong>Während</strong></td>
+<td>“Wo hat dich die KI überrascht — und warum?”</td>
+<td>War das interne Modell aktiv? (Vorhersagefehler)</td>
+<td>Prediction Error Learning, Evaluationsparadox</td>
+</tr>
+<tr class="odd">
+<td><strong>Nachher</strong></td>
+<td>“Was machst du nächstes Mal anders — ohne KI?”</td>
+<td>Hat sich das Schema aktualisiert? (Transfer)</td>
+<td>Wissenskompilation, Schemabildung</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="so-klingen-die-antworten" class="level3">
+<h3 class="anchored" data-anchor-id="so-klingen-die-antworten">So klingen die Antworten</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 41%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sonde</th>
+<th>Outsourcing (Denken ausgelagert)</th>
+<th>Genuine Verarbeitung (Denken geblieben)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vorher</strong></td>
+<td>“Ich hab direkt ChatGPT gefragt” / vages “Ich hab mal überlegt”</td>
+<td>“Ich hab zuerst X probiert, bin bei Y steckengeblieben, weil…”</td>
+</tr>
+<tr class="even">
+<td><strong>Während</strong></td>
+<td>“Nichts hat mich überrascht” / “Die KI hat gut geschrieben”</td>
+<td>“Ich dachte, der Zusammenhang sei A, aber die KI hat B argumentiert — das hat mich zum Nachdenken gebracht, weil…”</td>
+</tr>
+<tr class="odd">
+<td><strong>Nachher</strong></td>
+<td>“Keine Ahnung” / “Ich würde es genauso machen”</td>
+<td>“Beim nächsten Mal würde ich zuerst X klären, weil ich gemerkt habe, dass…”</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Die Schlüsselsonde ist “Während”:</strong> Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten — es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.</p>
+</section>
+<section id="zwei-einsatzmodi" class="level3">
+<h3 class="anchored" data-anchor-id="zwei-einsatzmodi">Zwei Einsatzmodi</h3>
+<p><strong>Modus 1 — Einbauen:</strong> Die Sonden als Teil der Aufgabe verlangen. Z.B.: <em>“Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?”</em> So wird die Diagnostik zum strukturellen Bestandteil — der Strand zwingt die Ameise durch den Checkpoint.</p>
+<p><strong>Modus 2 — Nachfragen:</strong> In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächssonden nutzen. Keine Vorbereitung nötig — die Fragen funktionieren in jedem Fach.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Vorsicht vor Fehldiagnosen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Flüssige Leistung ≠ Outsourcing.</strong> Fortgeschrittene Studierende produzieren glatte Arbeit <em>und</em> bestehen die Sonden. Kompetenz nicht mit Outsourcing verwechseln.</li>
+<li><strong>KI-Nutzung ≠ Outsourcing.</strong> Wer KI für Formatierung, Sprachkorrektur oder Literatursuche nutzt, während die konzeptuelle Arbeit intern bleibt, betreibt legitimes Offloading.</li>
+<li><strong>Prozessdokumentation kann fabriziert werden.</strong> Achte auf <em>Spezifität und Idiosynkrasie</em>: Echte Denkspuren enthalten konkrete Sackgassen und spezifische Verwirrungsmomente. Fabrizierte sind generisch und narrativ zu glatt.</li>
+</ul>
+</div>
+</div>
 </section>
 </section>
 <section id="zusammenfassung" class="level2">

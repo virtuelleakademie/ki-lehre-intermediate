@@ -109,15 +109,26 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-agent-potential.callout {
+div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
-div.callout-agent-potential.callout-style-default > .callout-header {
+div.callout-active-processing.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -131,26 +142,15 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-group.callout {
@@ -164,26 +164,26 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-individual.callout {
+  border-left-color: steelblue;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 </style>
@@ -370,6 +370,7 @@ window.Quarto = {
   <li><a href="#warum-expertenmethoden-anfängern-aktiv-schaden" id="toc-warum-expertenmethoden-anfängern-aktiv-schaden" class="nav-link" data-scroll-target="#warum-expertenmethoden-anfängern-aktiv-schaden">Warum Expertenmethoden Anfängern aktiv schaden</a></li>
   <li><a href="#lehren-im-einklang-mit-dem-gehirn" id="toc-lehren-im-einklang-mit-dem-gehirn" class="nav-link" data-scroll-target="#lehren-im-einklang-mit-dem-gehirn">Lehren im Einklang mit dem Gehirn</a></li>
   <li><a href="#vorhersagefehler-ein-wichtiger-lernmechanismus" id="toc-vorhersagefehler-ein-wichtiger-lernmechanismus" class="nav-link" data-scroll-target="#vorhersagefehler-ein-wichtiger-lernmechanismus">Vorhersagefehler: Ein wichtiger Lernmechanismus</a></li>
+  <li><a href="#das-interne-modell-was-expertise-eigentlich-ist" id="toc-das-interne-modell-was-expertise-eigentlich-ist" class="nav-link" data-scroll-target="#das-interne-modell-was-expertise-eigentlich-ist">Das interne Modell: Was Expertise eigentlich ist</a></li>
   <li><a href="#das-prinzip-der-desirable-difficulties" id="toc-das-prinzip-der-desirable-difficulties" class="nav-link" data-scroll-target="#das-prinzip-der-desirable-difficulties">Das Prinzip der “Desirable Difficulties”</a></li>
   <li><a href="#der-kompilierungsprozess" id="toc-der-kompilierungsprozess" class="nav-link" data-scroll-target="#der-kompilierungsprozess">Der Kompilierungsprozess</a></li>
   <li><a href="#was-wir-verlieren-wenn-wir-die-anstrengung-überspringen" id="toc-was-wir-verlieren-wenn-wir-die-anstrengung-überspringen" class="nav-link" data-scroll-target="#was-wir-verlieren-wenn-wir-die-anstrengung-überspringen">Was wir verlieren, wenn wir die Anstrengung überspringen</a></li>
@@ -447,10 +448,10 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="zentrale-erkenntnisse">Zentrale Erkenntnisse</h2>
 <ol type="1">
 <li><strong>Expertise erfordert schrittweisen Kompetenzaufbau</strong> durch schwache → starke Methoden</li>
-<li><strong>Kognitive Anstrengung ist kein Fehler, sondern die Funktion</strong>, die Lernen durch Vorhersagefehler ermöglicht</li>
-<li><strong>Offloading an KI umgeht genau die Anstrengungen</strong>, die dauerhafte Fähigkeiten aufbauen</li>
+<li><strong>Kognitive Anstrengung ist kein Fehler, sondern die Funktion</strong>, die Lernen durch Vorhersagefehler, Elaboration und Konsolidierung ermöglicht</li>
+<li><strong>Expertise bedeutet: ein internes generatives Modell aufbauen</strong>, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann</li>
+<li><strong>KI-Outsourcing liefert Ergebnisse ohne den Prozess</strong>, der dieses interne Modell aufbaut</li>
 <li><strong>Expertenmethoden schaden Anfängern aktiv</strong>, indem sie kognitive Überlastung und Abhängigkeit erzeugen</li>
-<li><strong>Echtes Verständnis entsteht</strong> durch tausende anstrengende Übungszyklen mit Vorhersagefehlern</li>
 <li><strong>Wähle deine Werkzeuge mit Bedacht</strong>: Nutze KI, um irrelevante kognitive Belastung zu reduzieren, nicht um essentielles Lernen zu überspringen</li>
 </ol>
 </section>
@@ -801,16 +802,16 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wenn Anfänger zu früh Expertenwerkzeuge nutzen:</p>
+<p>Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken:</p>
 <ol type="1">
 <li><strong>Anfänglicher Erfolg</strong> schafft falsches Selbstvertrauen</li>
 <li><strong>Schwache Methoden verkümmern</strong> durch Nichtgebrauch</li>
 <li><strong>Problemlösefähigkeiten verschlechtern sich</strong> ohne Übung</li>
 <li><strong>Abhängigkeit vertieft sich</strong>, da interne Fähigkeiten schwinden</li>
 <li><strong>Transfer scheitert</strong>, wenn KI nicht verfügbar ist</li>
-<li><strong>Erlernte Hilflosigkeit</strong> entsteht bei neuen Herausforderungen</li>
+<li><strong>Das Selbstbild aktualisiert sich</strong>: Lernende schliessen aus ihren Erfahrungen (mit KI: Erfolg, ohne KI: Misserfolg) rational, dass sie es allein nicht können</li>
 </ol>
-<p>Das ist nicht nur „kein Lernen“, sondern <strong>Verlernen</strong> vorhandener Fähigkeiten.</p>
+<p>Diese Risiken bilden kein deterministisches Stufenmodell — sie interagieren dynamisch und variieren je nach Person und Kontext. Das Ergebnis ist nicht “Verlernen” im engeren Sinne (aktiver Verlust von Wissen), sondern <strong>Fähigkeitsatrophie durch Nichtgebrauch</strong>: Vorhandene Kompetenzen werden nicht weiter gestärkt und verblassen über die Zeit.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -883,7 +884,7 @@ Warning
 </section>
 <section id="vorhersagefehler-ein-wichtiger-lernmechanismus" class="level3">
 <h3 class="anchored" data-anchor-id="vorhersagefehler-ein-wichtiger-lernmechanismus">Vorhersagefehler: Ein wichtiger Lernmechanismus</h3>
-<p>Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Er erklärt, warum bestimmte didaktische Strategien (wie Abrufpraxis und Generierung) wirksam sind. Es ist jedoch nicht der einzige Lernmechanismus — Konsolidierung, Elaboration und Mustererkennung spielen ebenfalls zentrale Rollen.</p>
+<p>Prediction Error Learning ist einer der wichtigsten neuronalen Mechanismen für den Kompetenzaufbau. Er erklärt, warum bestimmte didaktische Strategien (wie Abrufpraxis und Generierung) wirksam sind. Die Forschung zu Vorhersagefehlern umfasst verschiedene Systeme — dopaminerge Belohnungssignale, sensorische Vorhersagefehler und Überraschung im Bayesianischen Sinne — die über unterschiedliche neuronale Substrate und Rechenprinzipien operieren. Für die Lehrpraxis ist die gemeinsame Grundidee entscheidend: <em>Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.</em> Daneben spielen Konsolidierung, Elaboration und Mustererkennung ebenfalls zentrale Rollen.</p>
 <section id="der-vorhersagefehler-zyklus" class="level4">
 <h4 class="anchored" data-anchor-id="der-vorhersagefehler-zyklus">Der Vorhersagefehler-Zyklus</h4>
 <p><strong>Schritt 1: Bildung einer Vorhersage</strong></p>
@@ -974,18 +975,50 @@ Warning
 </div>
 </div>
 </section>
-<section id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-eliminiert" class="level4">
-<h4 class="anchored" data-anchor-id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-eliminiert">Warum das Auslagern kognitiver Prozesse an KI das Lernsignal eliminiert</h4>
-<p><strong>KI liefert sofort perfekte Antworten</strong>:</p>
+<section id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-verarmt" class="level4">
+<h4 class="anchored" data-anchor-id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-verarmt">Warum das Auslagern kognitiver Prozesse an KI das Lernsignal verarmt</h4>
+<p><strong>Wenn KI sofort fertige Antworten liefert</strong>, wird der Vorhersagefehler <em>nicht</em> null — das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird <strong>uninformativ</strong>:</p>
 <ul>
-<li>Keine Vorhersagephase (Lernende generieren keine Erwartungen)</li>
-<li>Keine Versuch-Phase (es werden keine Lösungen ausprobiert)</li>
-<li>Keine Fehlerphase (kein Vergleich zwischen Erwartung und Realität)</li>
-<li><strong>Ergebnis</strong>: Null Vorhersagefehler = kein Lernsiganl</li>
+<li>Ohne eigenen Lösungsversuch aktivieren Lernende ihr internes Modell nicht</li>
+<li>Ohne spezifische Vorhersage gibt es nichts, woran das Feedback sinnvoll andocken kann</li>
+<li>Das Ergebnis ist ein <strong>diffuser, unstrukturierter Vorhersagefehler</strong>, der kaum Lernen erzeugt</li>
 </ul>
-<p><strong>Das Gehirn hat buchstäblich nichts, woraus es lernen kann</strong>, weil der Vorhersagefehler-Zyklus nie stattfindet.</p>
-<p>Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. <strong>Lernen braucht Fehler, nicht Perfektion.</strong></p>
+<p>Das entscheidende Problem: Je weniger Vorwissen Lernende haben, desto weniger können sie mit dem KI-Output anfangen. Ihr internes Modell ist noch zu undifferenziert, um dem Feedback Bedeutung zuzuschreiben — sie erkennen weder, <em>warum</em> die Antwort richtig ist, noch <em>wo</em> ihr eigenes Verständnis die Lücken hat.</p>
+<p>Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert sein internes Modell, bildet spezifische Vorhersagen und erzeugt dadurch <strong>informative Vorhersagefehler</strong> — genau die Art von Diskrepanz, aus der das Gehirn effektiv lernen kann.</p>
+<p>Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. <strong>Lernen braucht informative Fehler, nicht Perfektion.</strong></p>
 </section>
+</section>
+<section id="das-interne-modell-was-expertise-eigentlich-ist" class="level3">
+<h3 class="anchored" data-anchor-id="das-interne-modell-was-expertise-eigentlich-ist">Das interne Modell: Was Expertise eigentlich ist</h3>
+<p>Ein Experte “weiss” nicht einfach mehr Fakten. Expertise bedeutet, ein <strong>internes generatives Modell</strong> aufgebaut zu haben — ein Modell, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann. Dieses Modell ist es, was sich durch tausende Übungszyklen entwickelt.</p>
+<p>Warum ist diese Perspektive hilfreich? Sie erklärt auf einen Blick:</p>
+<ul>
+<li><strong>Warum aktives Problemlösen so wirksam ist</strong>: Es zwingt Lernende, ihr internes Modell zu aktivieren — es “laufen zu lassen” und konkrete Vorhersagen zu generieren, die dann an der Realität scheitern oder bestätigt werden können.</li>
+<li><strong>Warum Experten von KI-Feedback profitieren</strong>: Ihr Modell ist differenziert genug, um spezifische Vorhersagen zu machen. Feedback dockt an konkreten Erwartungen an und ist deshalb <em>informativ</em>.</li>
+<li><strong>Warum Anfänger durch KI-Outsourcing gefährdet sind</strong>: Ihr Modell ist noch zu undifferenziert. Ohne eigenen Lösungsversuch aktivieren sie es nicht — und der KI-Output bleibt ein diffuser Datenpunkt, aus dem wenig gelernt werden kann.</li>
+<li><strong>Warum das Evaluationsparadox existiert</strong>: KI-Output zu bewerten <em>ist selbst eine Form von Inferenz</em> — man muss das eigene Modell aktivieren und prüfen, ob der Output damit konsistent ist. Ohne entwickeltes Modell fehlt die Grundlage dafür.</li>
+</ul>
+<p>Die entscheidende Frage für jede Lernsituation lautet deshalb: <strong>Wie aktiv ist das interne Modell der Lernenden, wenn sie dem KI-Output begegnen?</strong> Je aktiver das Modell, desto informativer das Feedback — und desto mehr wird gelernt.</p>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Vertiefung: Die Bayesianische Perspektive (optional)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Man kann den Vorhersagefehler-Mechanismus formal als Bayesianisches Lernen beschreiben. Ein Lernender hat ein internes Modell <span class="math inline">\(M\)</span> mit Überzeugungen <span class="math inline">\(\theta\)</span> und aktualisiert diese durch neue Daten <span class="math inline">\(d\)</span>:</p>
+<p><span class="math display">\[P(\theta|d, M) \propto P(d|\theta, M) \cdot P(\theta|M)\]</span></p>
+<p>Das heisst: Die neuen Überzeugungen (Posterior) ergeben sich aus dem Zusammenspiel von Vorwissen (Prior) und der Frage, wie gut die neuen Daten zu verschiedenen Hypothesen passen (Likelihood).</p>
+<p><strong>Warum das für KI relevant ist:</strong> Wenn ein Novize einen KI-Output liest, ist seine Likelihood-Funktion <span class="math inline">\(P(d|\theta)\)</span> <em>flach</em> — korrekte und inkorrekte Antworten sehen für ihn ähnlich plausibel aus. Der Informationsgewinn ist minimal. Ein Experte hingegen hat eine <em>scharfe</em> Likelihood: Er kann sofort erkennen, ob der Output zu seinem Modell passt oder nicht.</p>
+<p>Lernen im Bayesianischen Sinne ist <strong>Entropiereduktion</strong> — die Reduktion von Unsicherheit über die Struktur der Welt. Aktives Problemlösen maximiert den erwarteten Informationsgewinn, weil es die Lernenden zwingt, ihre eigenen Vorhersagen zu testen. KI-Outsourcing minimiert ihn, weil die Lernenden nie ihre eigenen Vorhersagen generieren.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="das-prinzip-der-desirable-difficulties" class="level3">
 <h3 class="anchored" data-anchor-id="das-prinzip-der-desirable-difficulties">Das Prinzip der “Desirable Difficulties”</h3>
@@ -1052,7 +1085,7 @@ Muster wird automatisch</code></pre>
 <ul>
 <li><strong>Weniger kritisches Denken</strong> bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit <span class="citation" data-cites="leeImpactGenerativeAI2025">(<a href="#ref-leeImpactGenerativeAI2025" role="doc-biblioref">Lee et al. 2025</a>)</span></li>
 <li><strong>Nur oberflächliches Lernen</strong> bei Programmierstudierenden mit ChatGPT <span class="citation" data-cites="yangEffectivenessChatGPTAssisting2025">(<a href="#ref-yangEffectivenessChatGPTAssisting2025" role="doc-biblioref">Yang, Hsu, and Wu 2025</a>)</span></li>
-<li><strong>Verminderte Problemlösefähigkeiten</strong> bei Mathematiklernenden mit KI-Tools <span class="citation" data-cites="bastaniGenerativeAICan2024">(<a href="#ref-bastaniGenerativeAICan2024" role="doc-biblioref"><strong>bastaniGenerativeAICan2024?</strong></a>)</span></li>
+<li><strong>Verminderte Problemlösefähigkeiten</strong> bei Mathematiklernenden mit KI-Tools <span class="citation" data-cites="bastaniGenerativeAIGuardrails2025">(<a href="#ref-bastaniGenerativeAIGuardrails2025" role="doc-biblioref">Bastani et al. 2025</a>)</span></li>
 <li><strong>„Die Fluency-Illusion”</strong>: KI-Kompetenz wird mit eigenem Können verwechselt</li>
 </ul>
 <div class="callout callout-style-default callout-reflect callout-titled">
@@ -1090,7 +1123,7 @@ Muster wird automatisch</code></pre>
 </ul>
 <p><strong>Man kann Schlaf nicht herunterladen – genauso wenig wie Expertise!</strong></p>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1099,7 +1132,7 @@ Muster wird automatisch</code></pre>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>“Grokking” bedeutet <em>etwas intuitiv und vollständig verstehen</em>. Sogar maschinelle Lernmodelle zeigen dieses Muster:</p>
 <ul>
@@ -1118,7 +1151,7 @@ Muster wird automatisch</code></pre>
 </div>
 </div>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1127,7 +1160,7 @@ Muster wird automatisch</code></pre>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Seit den 1970er/80er Jahren, als Bildung sich vom Auswendiglernen abkehrte:</p>
 <ul>
@@ -1268,7 +1301,7 @@ Muster wird automatisch</code></pre>
 <li>Abhängigkeit von KI bei Grundaufgaben</li>
 <li>KI-Ausgabe wird mit eigenem Verständnis verwechselt</li>
 <li>Sofortige KI-Konsultation ohne eigenen Versuch</li>
-<li>Keine Vorhersagefehler (immer „richtige“ Antworten)</li>
+<li>Nur uninformative Vorhersagefehler (kein eigener Versuch vor KI-Nutzung)</li>
 </ul>
 </div>
 </div>
@@ -1284,6 +1317,9 @@ Anderson, John R. 1982. <span>“Acquisition of Cognitive Skill.”</span> <em>P
 </div>
 <div id="ref-andersonHowCanHuman2007" class="csl-entry" role="listitem">
 ———. 2007. <em>How <span>Can</span> the <span>Human Mind Occur</span> in the <span>Physical Universe</span>?</em> Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780195324259.001.0001">https://doi.org/10.1093/acprof:oso/9780195324259.001.0001</a>.
+</div>
+<div id="ref-bastaniGenerativeAIGuardrails2025" class="csl-entry" role="listitem">
+Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2025. <span>“Generative <span>AI</span> Without Guardrails Can Harm Learning: <span>Evidence</span> from High School Mathematics.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 122 (26): e2422633122. <a href="https://doi.org/10.1073/pnas.2422633122">https://doi.org/10.1073/pnas.2422633122</a>.
 </div>
 <div id="ref-bjorkMakingThingsHard2011" class="csl-entry" role="listitem">
 Bjork, Elizabeth Ligon, and Robert A. Bjork. 2011. <span>“Making Things Hard on Yourself, but in a Good Way: <span>Creating</span> Desirable Difficulties to Enhance Learning.”</span> In <em>Psychology and the Real World: <span>Essays</span> Illustrating Fundamental Contributions to Society</em>, 56–64. New York, NY, US: Worth Publishers.
