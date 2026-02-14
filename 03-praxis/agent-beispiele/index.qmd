@@ -27,7 +27,6 @@ Jeder Agent muss **explizit signalisieren, worauf Lernende achten sollen**. Ohne
 Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 :::
 
----
 
 ## 1. Abrufpraxis (Retrieval Practice)
 
@@ -52,7 +51,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Vorhersagefehler-Zyklus.
 
----
 
 ## 2. Verteiltes Lernen (Spacing)
 
@@ -77,7 +75,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent optimiert wann gelernt wird, aber nicht was und wie.
 
----
 
 ## 3. Abwechslung (Interleaving)
 
@@ -102,7 +99,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen. Die Versuch-dann-Prüfe-Struktur erzwingt eigenes Denken vor dem Vergleich.
 
----
 
 ## 4. Variation
 
@@ -126,7 +122,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent variiert die Kontexte, Lernende müssen Prinzipien erkennen und anwenden.
 
----
 
 ## 5. Wünschenswerte Schwierigkeiten
 
@@ -151,7 +146,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten. Die Versuch-dann-Prüfe-Struktur sorgt dafür, dass Lernende zuerst selbst denken.
 
----
 
 ## 6. Verstehen vs. Vertrautheit
 
@@ -176,7 +170,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust, die ultimative Verstehens-Prüfung.
 
----
 
 ## 7. Feedback & Reflexion
 
@@ -201,7 +194,6 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 **Warum es funktioniert**: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern. Die Versuch-dann-Prüfe-Struktur stellt sicher, dass Lernende zuerst selbst schreiben.
 
----
 
 ## 8. Anwendung
 

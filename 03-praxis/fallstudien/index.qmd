@@ -74,7 +74,27 @@ Im gleichen Kurs müssen Studierende *zuerst* ihre eigene Differenzialdiagnose f
 :::
 
 
----
+## Fallstudie D: Projektmanagement (Leistungskontext)
+
+### Szenario D1: "KI-Verbot im Berufsalltag"
+
+Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei allen Aufgaben. In einem Modul zu Projektmanagement müssen erfahrene Projektleiterinnen (5+ Jahre Berufserfahrung) einen Statusbericht für ein reales Projekt von Hand schreiben, inklusive Risikoanalyse. Die Studierenden empfinden die Aufgabe als praxisfern, da sie im Berufsalltag selbstverständlich KI-Tools nutzen.
+
+### Szenario D2: "KI als professionelles Werkzeug"
+
+Dieselbe Dozentin differenziert: Für die *Risikoanalyse* (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den *Statusbericht* (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?
+
+::: {.active-processing}
+### Analyse-Leitfragen
+
+- Was unterscheidet einen **Lernkontext** von einem **Leistungskontext**? Welche Teile dieser Aufgabe fallen in welche Kategorie?
+- Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?
+- Wie hilft das **Offloading-Outsourcing-Spektrum**, diese Unterscheidung zu treffen?
+- Wann ist die Entscheidung "Keine KI nötig" oder "KI ist hier sinnvoll" gleich berechtigt?
+
+**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* bei dieser Fallstudie nicht die gleiche Antwort herauskommt wie bei A, B und C. Welches Prinzip aus dem 5-Fragen-Framework steckt dahinter?
+:::
+
 
 ## Allgemeine Reflexionsfragen
 
@@ -82,4 +102,5 @@ Nach der Paaranalyse, für die Plenumsrunde:
 
 1. Was unterscheidet die effektiven von den ineffektiven Szenarien?
 2. Gibt es ein gemeinsames **Designprinzip**, das alle effektiven Szenarien teilen?
-3. Wie lässt sich dieses Prinzip auf *eure eigene* Lehre übertragen?
+3. **Wann ist KI-Unterstützung die richtige Antwort?** Was unterscheidet Fallstudie D von den anderen drei?
+4. Wie lässt sich dieses Prinzip auf *eure eigene* Lehre übertragen?

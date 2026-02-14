@@ -360,15 +360,31 @@ Herbert Simon beobachtete: Eine Ameise läuft einen komplexen, gewundenen Pfad a
 
 Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"* sondern **"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
 
+Herbert Simon nannte das zugrundeliegende Prinzip **Bounded Rationality** (begrenzte Rationalität): Menschen treffen Entscheidungen nicht durch Optimierung aller Möglichkeiten, sondern indem sie die erste akzeptable Lösung wählen (*Satisficing*). Wenn die Lernumgebung eine akzeptable Lösung ohne kognitive Anstrengung zulässt, werden begrenzt rationale Studierende diese Lösung wählen. Die Konsequenz für die Aufgabengestaltung: Wir müssen Aufgaben so entwerfen, dass die "befriedigende" Lösung die kognitive Anstrengung *einschliesst*, nicht umgeht.
+
 ### Die Equity-Dimension
 
-Erste Forschungsergebnisse und die breitere Bildungstechnologie-Forschung legen nahe: Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
+Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtigkeit: Wenn das, was Novizen hilft, sich von dem unterscheidet, was Experten hilft, dann schadet unstrukturierter KI-Einsatz Studierenden mit schwächerem Vorwissen *überproportional*. Das ist keine empirische Spekulation, sondern eine logische Folge der Theorie, die wir bereits besprochen haben:
 
 - Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen
 - Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde
 - KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**
 
-Die Evidenzbasis zu KI-spezifischen Equity-Effekten ist noch schmal (kurze Interventionsstudien, wenige Disziplinen), aber die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+Die empirische Evidenzbasis zu KI-spezifischen Equity-Effekten wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+
+**Konkrete Gegenmassnahmen:**
+
+- **Differenziertes Scaffolding in der Versuch-Phase**: Studierende mit schwächerem Vorwissen erhalten strukturiertere Ausgangspunkte (z.B. teilweise bearbeitete Beispiele), damit der eigenständige Versuch produktiv bleibt statt überfordernd
+- **Strategische Paarung in der Prüfe-Phase**: Bewusste Zusammensetzung von Tandems, die unterschiedliche Stärken einbringen, damit die Vergleichsphase für alle informativ ist
+- **Sprachliche Zugänglichkeit beachten**: KI-Tools funktionieren in verschiedenen Sprachen unterschiedlich gut. Für nicht-muttersprachliche Studierende kann die Sprachbarriere die ohnehin schwächere Ausgangsposition verschärfen
+
+### Was uns die Geschichte der Bildungstechnologie lehrt
+
+Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Cargo Cult Scholarship, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
+
+Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.
+
+Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkzeuge sinnvoll integrieren [@reichFailureDisruptWhy2020]. Die angemessene Reaktion auf KI ist weder unkritische Begeisterung noch pauschale Ablehnung, sondern informierte, kontextbezogene Integration, genau das, was dieses Framework ermöglichen soll.
 
 
 ## Das 5-Fragen-Framework
@@ -455,7 +471,7 @@ Drei Erkenntnisse für die eigene Praxis:
 
 1. **Produkt ≠ Prozess**: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den *Prozess* prüfen
 2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen
-3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*
+3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Dieses Prinzip ist theoretisch gut fundiert durch die Forschung zu Abrufeffekten und Vorhersagefehlern, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
 ```{r}
 #| label: fig-try-then-check
@@ -535,8 +551,6 @@ digraph try_then_check {
 
 > [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)
 
-
----
 
 ## Vertiefende Ressourcen
 

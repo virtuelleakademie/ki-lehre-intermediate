@@ -217,7 +217,6 @@ Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching
 - **Erzeugt** Illusion of Knowing
 - **Macht** Lernen nur einfacher, nicht besser
 
----
 
 ## Leitfragen für Agent-Entwicklung
 

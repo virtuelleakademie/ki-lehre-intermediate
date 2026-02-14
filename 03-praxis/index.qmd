@@ -159,8 +159,6 @@ Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gest
 :::
 
 
----
-
 ## Ressourcen
 
 ### Handouts

@@ -12,7 +12,7 @@ citation: true
 
 ## Zentrales Prinzip
 
-Wie James Lang in *Cheating Lessons* [@langCheatingLessons2013] argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert." Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass **produktives Ringen** der lohnendste Weg ist.
+Wie James Lang in *Cheating Lessons* [@langCheatingLessons2013] argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert." Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass **produktive Anstrengung** der lohnendste Weg ist.
 
 Forschung zu "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen kognitive Anstrengung erfordert. Wenn wir den "struggle" entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
 
@@ -101,7 +101,7 @@ Interleaving verbessert die Unterscheidung ähnlicher Konzepte und das Langzeitb
 
 ### 6. Kognitive Belastung steuern [@swellerDevelopmentCognitiveLoad2023]
 
-Gestalte Instruktion so, dass sie die Arbeitsgedächtniskapazität optimiert und produktives Ringen erhält:
+Gestalte Instruktion so, dass sie die Arbeitsgedächtniskapazität optimiert und produktive Anstrengung erhält:
 
 **Für Anfänger:**
 
@@ -111,7 +111,7 @@ Gestalte Instruktion so, dass sie die Arbeitsgedächtniskapazität optimiert und
 **Für Fortgeschrittene:**
 
 - Elementinteraktivität schrittweise erhöhen
-- Produktives Ringen durch passende Schwierigkeitsgrade fördern
+- Produktive Anstrengung durch passende Schwierigkeitsgrade fördern
 - Fokus auf lernproduktive kognitive Belastung
 
 ## Optimale Herausforderungs-Architektur
@@ -120,13 +120,13 @@ Schaffe strukturierte Gelegenheiten für anstrengende Verarbeitung, indem du den
 
 - **Zu leicht**: Lernende schalten ab; kein Lernen
 - **Zu schwer**: Überforderung, Arbeitsgedächtnis überlastet
-- **Genau richtig**: Produktives Ringen, Lernen findet statt
+- **Genau richtig**: Produktive Anstrengung, Lernen findet statt
 
 **Gestaltungs-Implementierung:**
 
 - Beginne auf dem aktuellen Fähigkeitsniveau
 - Füge ein neues Element an Komplexität hinzu
-- Unterstützung für das Ringen, nicht dessen Beseitigung bieten
+- Unterstützung für die Anstrengung, nicht deren Beseitigung bieten
 - Ausreichend Zeit für anstrengende Verarbeitung lassen
 
 ## Fächerübergreifende Anwendungen
@@ -168,7 +168,7 @@ Schaffe strukturierte Gelegenheiten für anstrengende Verarbeitung, indem du den
 
 - Hypothesen generieren vor Wissensvermittlung
 - Phänomene erklären, bevor der Mechanismus gelehrt wird
-- Mit „gescheiterten" Experimenten ringen, die Fehlvorstellungen aufdecken
+- An „gescheiterten" Experimenten arbeiten, die Fehlvorstellungen aufdecken
 
 ## Programmieren
 
@@ -192,7 +192,7 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 **Umdeuten als:** „Mein Gehirn arbeitet hart, um neue Verbindungen zu schaffen"
 
 **Statt:** „Ich verstehe es nicht"
-**Umdeuten als:** „Ich bin in der produktiven Ringen-Zone, wo Lernen passiert"
+**Umdeuten als:** „Ich bin genau da, wo Lernen passiert: bei der produktiven Anstrengung"
 
 **Statt:** „Ich habe einen Fehler gemacht"
 **Umdeuten als:** „Ich habe nützliche Information über meinen aktuellen Stand erzeugt"
@@ -201,17 +201,17 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 **Umdeuten als:** „Passende Schwierigkeit ist notwendig für Wachstum"
 :::
 
-### Dokumentation des Ringens
+### Dokumentation der Anstrengung
 
 ::: {.callout-tip}
 ## Lernprozess-Portfolio
 
-**Das Ringen dokumentieren, nicht nur die Lösung:**
+**Die Anstrengung dokumentieren, nicht nur die Lösung:**
 
 - **Verwirrungsprotokolle**: Was hat verwirrt, warum war das wertvoll?
 - **Fehleranalysebögen**: Systematische Reflexion über Fehler und Fehlkonzepte
-- **Zeitaufzeichnung fürs Ringen**: Produktive Ringen-Zeit protokollieren (und feiern!)
-- **„Aha!"-Momente dokumentieren**: Verknüpfe Ringen mit Durchbrüchen
+- **Zeitaufzeichnung**: Produktive Arbeitszeit protokollieren (und feiern!)
+- **„Aha!"-Momente dokumentieren**: Verknüpfe Anstrengung mit Durchbrüchen
 - **Methoden-Evolutionskarten**: Zeigen, wie Lösungswege sich verbessert haben
 :::
 
@@ -237,19 +237,19 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 **Visuelle Umgebung:**
 
 - **„Schöne Fehler"-Wand**: Lehrreiche Fehler mit Analyse ausstellen
-- **Ringen-Tracker-Diagramme**: Fortschritt durch schwierige Konzepte sichtbar machen
+- **Fortschritts-Tracker-Diagramme**: Fortschritt durch schwierige Konzepte sichtbar machen
 - **Problemlöse-Reisekarten**: Zeigen den „unordentlichen" Weg zum Verständnis
 
 **Sprachliche Umgebung:**
 
 - **„Ich bin verwirrt und das ist perfekt"**: Verwirrung als Lernen normalisieren
 - **„Was für ein schöner Fehler!"**: Fehler feiern, die Denken offenbaren
-- **„Das Ringen ist dein Gehirn, das wächst"**: Anstrengung mit Wachstum verbinden
+- **„Die Anstrengung ist dein Gehirn, das wächst"**: Anstrengung mit Wachstum verbinden
 - **„Fehler sind Daten"**: Fehler als Information, nicht als Versagen rahmen
 
 **Aktivitätsumgebung:**
 
-- **Tägliches Ringen teilen**: 2-Minuten-Reflexion zu produktiven Schwierigkeiten
+- **Tägliche Anstrengung teilen**: 2-Minuten-Reflexion zu produktiven Schwierigkeiten
 - **Fehler des Tages**: Gemeinsame Analyse wertvoller Fehler
 - **Verwirrungskonferenzen**: 1:1 Gespräche über Schwierigkeiten
 - **Fehler-Wettbewerbe**: Fehlerproduktion und -analyse spielerisch machen
@@ -275,11 +275,11 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 
 - **Transfer-Aufgaben**: Konzepte auf neue Situationen anwenden
 - **Fehlerdiagnose**: Fehler in Beispielarbeiten erkennen
-- **Peer-Coaching**: Anderen durch deren produktives Ringen helfen
+- **Peer-Coaching**: Anderen durch deren produktive Anstrengung helfen
 
-### Unterstützungs-Systeme für das Ringen
+### Unterstützungs-Systeme für produktive Anstrengung
 
-**Struggle Support Ladder (Unterstützungsleiter):**
+**Unterstützungsleiter (Struggle Support Ladder):**
 
 1. **Eigenständiger Versuch** (mindestens 5–10 Minuten)
 2. **Austausch mit Peers** (Schwierigkeiten teilen, keine Lösungen)
@@ -296,4 +296,4 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 
 ## Die Lernumgebungs-Perspektive
 
-Das Ziel ist nicht, den "Struggle" zu beseitigen, sondern Lernumgebungen so zu gestalten, dass produktives "Struggling" der lohnendste und unterstützte Weg zum gewünschten Ergebnis ist: den Aufbau von tiefem Verständnis und Expertise.
+Das Ziel ist nicht, die Anstrengung zu beseitigen, sondern Lernumgebungen so zu gestalten, dass produktive Anstrengung der lohnendste und unterstützte Weg zum gewünschten Ergebnis ist: den Aufbau von tiefem Verständnis und Expertise.

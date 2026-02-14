@@ -514,7 +514,6 @@ Notice how your understanding differed across modes? That's the compilation proc
 - What would change if we viewed struggle as evidence of growth rather than failure?
 - How can you protect the prediction error cycle in your own learning?
 
----
 
 ## Quick Reference: How Theories Work Together
 

@@ -237,9 +237,15 @@ digraph five_questions {
   e5 [label = 'Struktur\\neinbauen' fillcolor = '#f59e0b' fontcolor = '#222222']
 
   success [
-    label = 'KI sinnvoll einsetzbar'
+    label = 'Aufgabe bereit ✓\n(mit oder ohne KI)'
     fillcolor = '#16a34a'
     fontsize = 14
+  ]
+
+  noai [
+    label = 'Keine KI nötig ✓\nAufgabe funktioniert bereits'
+    fillcolor = '#16a34a'
+    fontsize = 12
   ]
 
   start -> q1
@@ -248,6 +254,7 @@ digraph five_questions {
   q2 -> q3 [label = '  Ja  ']
   q3 -> q4 [label = '  Ja  ']
   q4 -> q5 [label = '  Nein  ']
+  q4 -> noai [label = '  Nein +\n  bewahrt Anstrengung  ']
   q5 -> success [label = '  Ja  ']
 
   q1 -> e1 [label = '  Nein  ']
@@ -259,8 +266,12 @@ digraph five_questions {
   {rank = same; q1; e1}
   {rank = same; q2; e2}
   {rank = same; q3; e3}
-  {rank = same; q4; e4}
+  {rank = same; q4; e4; noai}
   {rank = same; q5; e5}
 }
 ")
 ```
+
+::: {.callout-note title="Nicht jede Aufgabe braucht KI" appearance="simple"}
+Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Das Framework kann auch bestätigen, dass dein aktuelles Design bereits solide ist.
+:::

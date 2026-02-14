@@ -13,15 +13,14 @@ citation: true
 ::: {.callout-note}
 ## Lesehinweise
 
-**Geschätzte Lesezeit**: 20--25 Minuten
+**Geschätzte Lesezeit**: 15--20 Minuten
 
-Diese Seite vertieft die wissenschaftlichen Grundlagen des Workshops. Empfohlene Reihenfolge:
+Diese Seite vertieft die wissenschaftlichen Grundlagen des Workshops mit Fokus auf zwei Themen, die hier exklusiv behandelt werden:
 
-- **Essentiell**: Die Progression von schwachen zu starken Methoden & Cognitive Load Theory
-- **Vertiefung**: Der Vorhersagefehler-Mechanismus, der die Workshop-Inhalte mit wissenschaftlicher Tiefe ergänzt
-- **Optional**: Grokking und Gedächtnisparadoxon als interessante Erweiterungen
+- **Kernthema 1**: Die Progression von schwachen zu starken Methoden (Newell & Simon, Anderson)
+- **Kernthema 2**: Der Vorhersagefehler-Mechanismus und das interne generative Modell
 
-Abschnitte, die mit dem Workshop-Hauptinhalt überlappen, sind als *Vertiefung* markiert und bieten zusätzliche Details und Beispiele.
+Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsgedaechtnis/) | [Gedächtnis & Lernstrategien](../gedaechtnis-und-lernen/)
 :::
 
 ## Zentrale Erkenntnisse
@@ -31,11 +30,10 @@ Abschnitte, die mit dem Workshop-Hauptinhalt überlappen, sind als *Vertiefung* 
 3. **Expertise bedeutet: ein internes generatives Modell aufbauen**, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann
 4. **KI-Outsourcing liefert Ergebnisse ohne den Prozess**, der dieses interne Modell aufbaut
 5. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
-6. **Wähle deine Werkzeuge mit Bedacht**: Nutze KI, um irrelevante kognitive Belastung zu reduzieren, nicht um essentielles Lernen zu überspringen
 
 ## Die Reise vom Anfänger zum Experten
 
-Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswerte Transformation. Das Verständnis dieses Prozesses hilft uns zu erkennen, warum das Auslagern kognitiver Prozesse an KI die Entwicklung echter Expertise verhindern kann, und warum _Expertenwerkzeuge Anfängern aktiv schaden können_.
+Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswerte Transformation. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Schlimmer noch: _Expertenwerkzeuge können Anfängern aktiv schaden._
 
 ## Die Progression von schwachen zu starken Methoden
 
@@ -104,7 +102,7 @@ Wenn nach Erklärung gefragt:
 - "Du subtrahierst 5 und teilst durch 3"
 - "Wie wusste ich das? Ich bin mir nicht sicher..."
 
-**Das Wissen ist zu automatischen Prozeduren kompilert.**
+**Das Wissen ist zu automatischen Prozeduren kompiliert.**
 :::
 
 ::: {.reflect}
@@ -119,110 +117,13 @@ Denke an ein Thema, das du deinen Studierenden beibringst:
 *Notiere 2--3 Beobachtungen aus deiner eigenen Lehre.*
 :::
 
-## Warum kognitive Anstrengung zählt: Die Biologie des Lernens
 
-### Das Vorhersagefehler-Lernsystem
+## Kognitive Belastung und Expertise
 
-Das menschliche Gehirn lernt durch ein ausgefeiltes Vorhersagefehler-System, das leicht umgangen werden kann, wenn die kognitive Verarbeitung ausgelagert wird. Diese biologische Realität erklärt, warum Anstrengung für das Lernen unerlässlich ist.
+Die Cognitive Load Theory erklärt, warum Anfänger und Experten das gleiche Material völlig unterschiedlich verarbeiten. Eine ausführliche Darstellung findest du im Deep-Dive [Arbeitsgedächtnis & Cognitive Load](../arbeitsgedaechtnis/). Hier das Wesentliche für den Kompetenzaufbau:
 
-## Cognitive Load Theory verstehen
+Expertise verändert die kognitive Belastung grundlegend. Was für Anfänger 7+ interagierende Elemente im Arbeitsgedächtnis erfordert (z.B. das Lösen von $(x + 3)(x - 2) = 0$), ist für Experten ein einziger Chunk. Beim Auslagern an KI: 0 Arbeitsgedächtnisverarbeitung, also kein Lernen. Dieser Mechanismus, der **Expertise Reversal Effect**, hat direkte Konsequenzen für den KI-Einsatz: Was Experten hilft (komplexe Werkzeuge, offene Probleme), überfordert Anfänger und umgekehrt.
 
-### Die evolutionäre Grundlage des Lernens
-
-Die Cognitive Load Theory (CLT) [@swellerDevelopmentCognitiveLoad2023] beschäftigt sich speziell damit, wie Menschen **biologisch sekundäres Wissen** erwerben, also das akademische Wissen, das Schulen vermitteln sollen. Das Verständnis dieses Unterschieds ist entscheidend, um zu begreifen, warum KI das Lernen so tiefgreifend stören kann.
-
-#### Biologisch primäres vs. sekundäres Wissen
-
-| Wissenstyp | Beispiele |
-|---|---|
-| **Biologisch primär** (wir sind dafür evolutionär angepasst) | • Gesichter und Stimmen erkennen<br>• Soziale Interaktionen verstehen<br>• Gesprochene Sprache lernen<br>• Räumliche Orientierung<br>• Gefahr und Sicherheit erkennen |
-| **Biologisch sekundär** (wir sind NICHT dafür evolutionär angepasst) | • Lesen und Schreiben<br>• Mathematik und Algebra<br>• Programmieren und Datenanalyse<br>• Wissenschaftliches Denken<br>• Historische Analyse |
-
-::: {.callout-important}
-## Warum diese Unterscheidung wichtig ist
-
-- **Primäres Wissen** kann durch natürliche Entdeckung und Spiel erlernt werden
-- **Sekundäres Wissen** erfordert explizite Instruktion und angeleitetes Üben
-- **Schulen existieren**, weil sich sekundäres Wissen nicht natürlich entwickelt
-- **KI-Störung** ist besonders schädlich für den Erwerb sekundären Wissens
-:::
-
-### Die kognitive Architektur des Lernens
-
-CLT basiert darauf, wie die menschliche Kognition Informationen verarbeitet und nutzt eine Architektur, die die Evolution durch natürliche Selektion widerspiegelt [@swellerDevelopmentCognitiveLoad2023]:
-
-#### Zwei Wege für neue Informationen
-
-Menschen können neues biologisch sekundäres Wissen auf zwei Arten erwerben:
-
-1. **Entdeckung durch Problemlösen**: Eigenständiges Durcharbeiten von Herausforderungen
-2. **Lernen von anderen**: Aufnahme von Informationen durch Instruktion
-
-**Entscheidend**: Beide Erwerbsarten sind selbst *biologisch primär*. Wir sind hervorragend darin, Dinge zu entdecken und von anderen zu lernen. Deshalb dominieren Menschen die Säugetierwelt.
-
-#### Die Engstelle der Verarbeitung
-
-Sobald Information durch einen der beiden Wege erworben wurde, muss sie verarbeitet werden durch:
-
-**Arbeitsgedächtnis**:
-
-- **Stark begrenzte Kapazität** (Millers 7±2, neuer: Cowans 4±1 Chunks)
-- **Stark begrenzte Dauer** (15–30 Sekunden ohne Wiederholung)
-- **Die Engstelle**, in der alles bewusste Lernen stattfindet
-
-**Langzeitgedächtnis**:
-
-- **Keine bekannten Begrenzungen** für Kapazität oder Dauer
-- **Hier lebt die Expertise** durch fachspezifische Informationsspeicherung
-- **Das Ziel** aller Instruktion
-
-::: {.callout-note}
-## Elementinteraktivität in der Praxis
-
-Betrachte das Lösen: $(x + 3)(x - 2) = 0$
-
-**Für einen Anfänger** muss jedes Element im Arbeitsgedächtnis gehalten werden:
-
-- Was $x$ bedeutet
-- Die Bedeutung der Klammern
-- Additions- und Subtraktionsoperationen
-- Implizite Multiplikation
-- Die Bedeutung von „gleich Null"
-- Wie man Lösungen findet
-
-**Insgesamt: 7+ interagierende Elemente** = Überlastung des Arbeitsgedächtnisses
-
-**Für einen Experten** ist das ein Chunk aus dem Langzeitgedächtnis:
-- "Faktorisierte Form, also $x = -3$ oder $x = 2$"
-
-**Insgesamt: 1 Chunk** = Minimale Belastung des Arbeitsgedächtnisses
-
-**Beim Auslagern an KI**:
-- Eingabe → Antwort
-
-**Insgesamt: 0 Arbeitsgedächtnisverarbeitung** = Kein Lernen, keine Speicherung im Langzeitgedächtnis
-:::
-
-::: {.reflect}
-### Reflexion: Cognitive Load erkennen
-
-**Ohne zurückzuschauen**: Erkläre in eigenen Worten:
-
-- Was ist der Unterschied zwischen extrinsischer und germane load?
-- Warum können Experten mehr Elemente gleichzeitig verarbeiten?
-- Wie beeinflusst das deine Aufgabengestaltung?
-
-*Der Versuch, dies ohne Nachschlagen zu erklären, ist selbst ein Beispiel für Abrufpraxis.*
-:::
-
-### Wie Expertise wirklich entsteht
-
-Wie De Groot 1965 erstmals zeigte [@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024], ist Expertise **fächerspezifisch** und resultiert aus **riesigen Mengen fachspezifischer Informationen im Langzeitgedächtnis**. Das ist nicht einfach "mehr Fakten wissen", sondern organisierte Wissensstrukturen (Schemata), die Experten ermöglichen:
-
-- **Mehrere Elemente zu Chunks bündeln**
-- **Muster automatisch erkennen**
-- **Prozeduren ohne bewusste Anstrengung abrufen**
-- **Das Arbeitsgedächtnis für höheres Denken freimachen**
 
 ## Das KI-Bypass-Problem
 
@@ -239,78 +140,33 @@ Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschließ
 **Das Grundproblem**: KI bietet die Vorteile von Expertise (sofortiger Zugriff auf organisiertes Wissen), ohne den Prozess, der Expertise schafft (Arbeitsgedächtnisanstrengung → Speicherung im Langzeitgedächtnis).
 :::
 
-## Pädagogische Implikationen
-
 ### Die Experten-Anfänger-Unterrichtsfalle
 
-Der gefährlichste Fehler in der Bildung ist anzunehmen, dass Anfänger so lernen sollten, wie Experten arbeiten. Das führt zu dem, was Kirschner [@kirschnerHowTeachingHappens2022] als Verwechslung der **„Epistemologie des Experten mit der Pädagogik für Lernende"** bezeichnet.
-
-**Was Experten tun (Wissen produzieren):**
-
-- Arbeiten von automatisierten Prinzipien aus vorwärts
-- Erkennen tiefe Muster sofort
-- Wenden starke, fachspezifische Methoden an
-- Erschaffen und entdecken neues Wissen
-- Verarbeiten mehrere Elemente gleichzeitig
-
-**Was Anfänger brauchen (Wissen lernen):**
-
-- Rückwärtsarbeiten mit Mittel-Ziel-Analyse
-- Grundlegende Mustererkennung durch Übung aufbauen
-- Mit schwachen, allgemeinen Methoden beginnen
-- Vorhandenes Wissen rekonstruieren und verstehen
-- Elemente nacheinander verarbeiten, um Überlastung zu vermeiden
+Der gefährlichste Fehler in der Bildung ist anzunehmen, dass Anfänger so lernen sollten, wie Experten arbeiten. Kirschner [@kirschnerHowTeachingHappens2022] bezeichnet das als Verwechslung der **„Epistemologie des Experten mit der Pädagogik für Lernende"**.
 
 ### Warum Expertenmethoden Anfängern aktiv schaden
 
-Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv, sondern **aktiv schädlich** für das Lernen:
+Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv, sondern **aktiv schädlich**:
 
-#### 1. **Mismatch der kognitiven Belastung (cognitive load)**
-
-- **Experten** können viele Elemente verarbeiten, weil sie diese zu Mustern gebündelt haben
-- **Anfänger** werden mit derselben Komplexität überfordert
-- **Ergebnis**: Kognitive Überlastung verhindert jegliches Lernen
-
-#### 2. **Störung der Produktionsregeln**
-
-- **Experten** haben starke, erfolgreiche Produktionsregeln, die automatisch feuern
-- **Anfänger** müssen diese Regeln durch wiederholte Anwendung schwacher Methoden aufbauen
-- **KI-Abkürzungen** verhindern die notwendige Wiederholung zur Stärkung der Regeln
-- **Ergebnis**: Schwache Regeln entwickeln sich nie, dauerhafte Abhängigkeit bleibt
-
-#### 3. **Schemabildungs-Bypass**
-
-- **Experten** haben reichhaltige Schemata, aufgebaut durch Erfahrung
-- **Anfänger** müssen diese Schemata Element für Element konstruieren
-- **KI-Antworten** liefern das Ergebnis ohne den Konstruktionsprozess
-- **Ergebnis**: Es entstehen keine Schemata, Transfer auf neue Situationen ist unmöglich
-
-#### 4. **Metakognitive Schädigung**
-
-- **Experten** wissen, wann und warum sie verschiedene Strategien anwenden
-- **Anfänger** entwickeln dieses Bewusstsein durch Überwachung des eigenen Denkens
-- **KI-Abhängigkeit** beseitigt die Notwendigkeit zur Selbstüberwachung
-- **Ergebnis**: Lernende können ihr eigenes Verständnis nicht mehr bewerten
+| Mechanismus | Experten | Anfänger | Ergebnis mit KI |
+|---|---|---|---|
+| **Kognitive Belastung** | Verarbeiten viele Elemente als Chunks | Werden mit derselben Komplexität überfordert | Kognitive Überlastung, kein Lernen |
+| **Produktionsregeln** | Starke Regeln feuern automatisch | Müssen Regeln durch Wiederholung aufbauen | Keine Wiederholung, dauerhafte Abhängigkeit |
+| **Schemabildung** | Reichhaltige Schemata durch Erfahrung | Müssen Schemata Element für Element konstruieren | Kein Konstruktionsprozess, kein Transfer |
+| **Metakognition** | Wissen, wann welche Strategie passt | Entwickeln Bewusstsein durch Selbstüberwachung | Keine Selbstüberwachung, keine Selbsteinschätzung |
 
 ::: {.callout-warning}
 ## Die Abhängigkeitskaskade
 
-Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken:
+Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken: Anfänglicher Erfolg schafft falsches Selbstvertrauen, schwache Methoden verkümmern durch Nichtgebrauch, und Transfer scheitert, wenn KI nicht verfügbar ist. Das Selbstbild aktualisiert sich: Lernende schliessen aus ihren Erfahrungen rational, dass sie es allein nicht können.
 
-1. **Anfänglicher Erfolg** schafft falsches Selbstvertrauen
-2. **Schwache Methoden verkümmern** durch Nichtgebrauch
-3. **Problemlösefähigkeiten verschlechtern sich** ohne Übung
-4. **Abhängigkeit vertieft sich**, da interne Fähigkeiten schwinden
-5. **Transfer scheitert**, wenn KI nicht verfügbar ist
-6. **Das Selbstbild aktualisiert sich**: Lernende schliessen aus ihren Erfahrungen (mit KI: Erfolg, ohne KI: Misserfolg) rational, dass sie es allein nicht können
-
-Diese Risiken bilden kein deterministisches Stufenmodell, sondern interagieren dynamisch und variieren je nach Person und Kontext. Das Ergebnis ist nicht "Verlernen" im engeren Sinne (aktiver Verlust von Wissen), sondern **Fähigkeitsatrophie durch Nichtgebrauch**: Vorhandene Kompetenzen werden nicht weiter gestärkt und verblassen über die Zeit.
+Das Ergebnis ist nicht "Verlernen" im engeren Sinne, sondern **Fähigkeitsatrophie durch Nichtgebrauch**.
 :::
 
 ::: {.callout-note}
 ### Verbindung zum Workshop
 
-Diese vier Prinzipien bilden die Grundlage für:
+Diese Prinzipien bilden die Grundlage für:
 
 - Das **5-Fragen-Framework** in Teil 3 (Fragen 2 & 5 behandeln den Kompetenzaufbau und die Versuch-dann-Prüfe-Struktur)
 - Die **Agent-Design-Aktivität** in Teil 3 (Leitfrage: "Was tut der Agent? Was tut der Lernende?")
@@ -332,9 +188,9 @@ Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigene Aufgabe a
 - Experten können komplexe, parallele Verarbeitung bewältigen
 - Dasselbe Material muss je nach Expertenniveau unterschiedlich präsentiert werden
 
-#### Prinzip 3: Das „Struggle Window" schützen
+#### Prinzip 3: Das Zeitfenster für produktive Anstrengung schützen
 
-- Genügend Zeit für eigenständiges Ringen vor KI-Konsultation geben
+- Genügend Zeit für eigenständiges Arbeiten vor KI-Konsultation geben
 - Denkprozesse dokumentieren, bevor externe Hilfe gesucht wird
 - Mehrere Versuche, bevor Lösungen zugänglich sind
 
@@ -347,7 +203,7 @@ Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigene Aufgabe a
 ::: {.reflect}
 ### Reflexion: Prinzipien auf die eigene Lehre übertragen
 
-Wähle eines der vier Prinzipien (Entwicklungssequenz, kognitive Belastung, Struggle Window, Scaffolding):
+Wähle eines der vier Prinzipien (Entwicklungssequenz, kognitive Belastung, produktive Anstrengung, Scaffolding):
 
 - Wie gut ist dieses Prinzip in einer deiner aktuellen Lehrveranstaltungen umgesetzt?
 - Was müsstest du konkret ändern?
@@ -363,7 +219,7 @@ Der folgende Abschnitt vertieft das Konzept des "Prediction Error Learning", das
 
 ### Vorhersagefehler: Ein wichtiger Lernmechanismus
 
-Prediction Error Learning ist einer der wichtigsten neuronalen Mechanismen für den Kompetenzaufbau. Er erklärt, warum bestimmte didaktische Strategien (wie Abrufpraxis und Generierung) wirksam sind. Die Forschung zu Vorhersagefehlern umfasst verschiedene Systeme, darunter dopaminerge Belohnungssignale, sensorische Vorhersagefehler und Überraschung im Bayesianischen Sinne, die über unterschiedliche neuronale Substrate und Rechenprinzipien operieren. Für die Lehrpraxis ist die gemeinsame Grundidee entscheidend: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.* Daneben spielen Konsolidierung, Elaboration und Mustererkennung ebenfalls zentrale Rollen.
+Prediction Error Learning ist einer der wichtigsten neuronalen Mechanismen für den Kompetenzaufbau. Die Forschung zu Vorhersagefehlern umfasst verschiedene Systeme, darunter dopaminerge Belohnungssignale, sensorische Vorhersagefehler und Überraschung im Bayesianischen Sinne. Für die Lehrpraxis ist die gemeinsame Grundidee entscheidend: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.*
 
 #### Der Vorhersagefehler-Zyklus
 
@@ -438,11 +294,9 @@ Denke an eine Aufgabe in deiner Lehre:
 - Ohne spezifische Vorhersage gibt es nichts, woran das Feedback sinnvoll andocken kann
 - Das Ergebnis ist ein **diffuser, unstrukturierter Vorhersagefehler**, der kaum Lernen erzeugt
 
-Das entscheidende Problem: Je weniger Vorwissen Lernende haben, desto weniger können sie mit dem KI-Output anfangen. Ihr internes Modell ist noch zu undifferenziert, um dem Feedback Bedeutung zuzuschreiben. Sie erkennen weder, *warum* die Antwort richtig ist, noch *wo* ihr eigenes Verständnis die Lücken hat.
+Das entscheidende Problem: Je weniger Vorwissen Lernende haben, desto weniger können sie mit dem KI-Output anfangen. Ihr internes Modell ist noch zu undifferenziert, um dem Feedback Bedeutung zuzuschreiben.
 
 Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert sein internes Modell, bildet spezifische Vorhersagen und erzeugt dadurch **informative Vorhersagefehler**, genau die Art von Diskrepanz, aus der das Gehirn effektiv lernen kann.
-
-Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. **Lernen braucht informative Fehler, nicht Perfektion.**
 
 ### Das interne Modell: Was Expertise eigentlich ist
 
@@ -457,80 +311,13 @@ Warum ist diese Perspektive hilfreich? Sie erklärt auf einen Blick:
 
 Die entscheidende Frage für jede Lernsituation lautet deshalb: **Wie aktiv ist das interne Modell der Lernenden, wenn sie dem KI-Output begegnen?** Je aktiver das Modell, desto informativer das Feedback, und desto mehr wird gelernt.
 
-::: {.pro-tip collapse="true"}
-### Vertiefung: Die Bayesianische Perspektive (optional)
 
-Man kann den Vorhersagefehler-Mechanismus formal als Bayesianisches Lernen beschreiben. Ein Lernender hat ein internes Modell $M$ mit Überzeugungen $\theta$ und aktualisiert diese durch neue Daten $d$:
+## Wünschenswerte Schwierigkeiten und Lernstrategien
 
-$$P(\theta|d, M) \propto P(d|\theta, M) \cdot P(\theta|M)$$
+Lernen erfordert sogenannte "desirable difficulties" [@bjorkMakingThingsHard2011]: Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern (Abrufübung, verteiltes Wiederholen, Interleaving, Generierung). Eine ausführliche Darstellung dieser Strategien mit praktischen Beispielen findest du im Deep-Dive [Gedächtnis & Lernstrategien](../gedaechtnis-und-lernen/).
 
-Das heisst: Die neuen Überzeugungen (Posterior) ergeben sich aus dem Zusammenspiel von Vorwissen (Prior) und der Frage, wie gut die neuen Daten zu verschiedenen Hypothesen passen (Likelihood).
+Aktuelle Studien zeigen, dass KI-Outsourcing diese Mechanismen systematisch untergräbt: weniger kritisches Denken bei hohem KI-Vertrauen [@leeImpactGenerativeAI2025], nur oberflächliches Lernen bei Programmierstudierenden [@yangEffectivenessChatGPTAssisting2025] und verminderte Problemlösefähigkeiten bei Mathematiklernenden [@bastaniGenerativeAIGuardrails2025].
 
-**Warum das für KI relevant ist:** Wenn ein Novize einen KI-Output liest, ist seine Likelihood-Funktion $P(d|\theta)$ *flach*, denn korrekte und inkorrekte Antworten sehen für ihn ähnlich plausibel aus. Der Informationsgewinn ist minimal. Ein Experte hingegen hat eine *scharfe* Likelihood: Er kann sofort erkennen, ob der Output zu seinem Modell passt oder nicht.
-
-Lernen im Bayesianischen Sinne ist **Entropiereduktion**, also die Reduktion von Unsicherheit über die Struktur der Welt. Aktives Problemlösen maximiert den erwarteten Informationsgewinn, weil es die Lernenden zwingt, ihre eigenen Vorhersagen zu testen. KI-Outsourcing minimiert ihn, weil die Lernenden nie ihre eigenen Vorhersagen generieren.
-:::
-
-### Das Prinzip der "Desirable Difficulties"
-
-Lernen erfordert sogenannte "desirable difficulties" [@bjorkMakingThingsHard2011], also Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern:
-
-1. **Abrufübung**: Abrufen aus dem Gedächtnis stärkt es
-2. **Verteiltes Wiederholen**: Vergessen und erneutes Lernen schafft dauerhaftes Wissen
-3. **Interleaving**: Verschiedene Problemarten mischen fördert Unterscheidungsfähigkeit
-4. **Generierung**: Selbst Antworten erstellen (auch falsche) ist besser als Konsum
-
-### Der Kompilierungsprozess
-
-Echte Expertise entsteht durch tausende Übungszyklen:
-
-```
-Problem begegnen → Vorhersage treffen → Lösung versuchen → Mit Vorhersage vergleichen → Feedback bekommen → Neuronale Anpassung
-↓
-Neuronaler Pfad wird gestärkt
-↓
-Muster wird automatisch
-```
-
-
-Jeder Zyklus:
-
-- Stärkt neuronale Verbindungen durch Vorhersagefehler
-- Verringert die Bearbeitungszeit durch Wiederholung
-- Entlastet das Arbeitsgedächtnis für höheres Denken
-- Ermöglicht kreatives Problemlösen durch starke Grundlagen
-
-**So funktioniert Expertise wirklich**: Bei einem Problem konkurrieren mehrere Produktionsregeln. Die Regel mit dem höchsten „Nutzen" (basierend auf vergangenem Erfolg durch Vorhersagefehler) setzt sich durch. Jede erfolgreiche Anwendung stärkt diese Regel, wodurch sie künftig wahrscheinlicher gewinnt. Deshalb wirken Experten, als „wüssten sie es einfach": Ihre stärksten Produktionen feuern automatisch.
-
-### Was wir verlieren, wenn wir die Anstrengung überspringen
-
-::: {.callout-warning}
-## Was wir verlieren
-
-1. **Keine Gedächtnisbildung**: Das Gehirn kodiert nicht, was es nicht verarbeitet
-2. **Keine Musterentwicklung**: Können nicht erkennen, was wir nicht geübt haben
-3. **Keine Transferfähigkeit**: Können ungeübte Prinzipien nicht auf neue Kontexte anwenden
-4. **Keine Metakognition**: Entwickeln kein Bewusstsein über das eigene Denken
-5. **Kein Lernen durch Vorhersagefehler**: Der fundamentale Lernmechanismus wird umgangen
-:::
-
-### Die Expertise-Illusion
-
-Das Auslagern kognitiver Prozesse an KI erzeugt eine gefährliche Illusion:
-
-- **Oberflächenflüssigkeit**: Perfekte Antworten ohne Verständnis
-- **Falsches Selbstvertrauen**: Glauben, es „verstanden zu haben" ohne Übung
-- **Fragiles Wissen**: Bricht ohne KI-Unterstützung zusammen
-- **Begrenzter Transfer**: Kann nicht auf neue Situationen angewandt werden
-
-### Forschungsergebnisse: Die Kosten des kognitiven Auslagerns
-
-Aktuelle Studien zeigen alarmierende Auswirkungen von KI-Nutzung auf das Lernen:
-
-- **Weniger kritisches Denken** bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit [@leeImpactGenerativeAI2025]
-- **Nur oberflächliches Lernen** bei Programmierstudierenden mit ChatGPT [@yangEffectivenessChatGPTAssisting2025]
-- **Verminderte Problemlösefähigkeiten** bei Mathematiklernenden mit KI-Tools [@bastaniGenerativeAIGuardrails2025]
-- **„Die Fluency-Illusion"**: KI-Kompetenz wird mit eigenem Können verwechselt
 
 ::: {.reflect}
 ### Reflexion: Das Gesamtbild
@@ -544,79 +331,15 @@ Bevor du weiterliest, fasse für dich zusammen:
 *Diese Selbsterklärung ist der Übergang vom Verstehen zum Anwenden.*
 :::
 
-## Die biologische Realität des Lernens
-
-Lernen ist nicht nur ein kognitiver, sondern ein biologischer Prozess, der das Gehirn physisch verändert [@oakleyMemoryParadoxWhy2025]:
-
-### Schlafkonsolidierung ist essenziell
-
-Lernen endet nicht mit dem Üben:
-
-- **Sharp wave ripples** im Schlaf spielen Erlebtes erneut ab
-- Das Gehirn entscheidet, was bleibt und was gelöscht wird
-- Erinnerungen wandern vom Hippocampus in den Kortex
-- Neue neuronale Verbindungen festigen sich
-
-**Man kann Schlaf nicht herunterladen, genauso wenig wie Expertise!**
 
 ::: {.pro-tip collapse="true"}
-### Optionale Vertiefung: Das "Grokking"-Phänomen
+### Für Interessierte: Biologische Grundlagen des Lernens
 
-"Grokking" bedeutet _etwas intuitiv und vollständig verstehen_. Sogar maschinelle Lernmodelle zeigen dieses Muster:
+Lernen ist nicht nur ein kognitiver, sondern ein biologischer Prozess [@oakleyMemoryParadoxWhy2025]. Schlafkonsolidierung spielt eine zentrale Rolle: Sharp wave ripples im Schlaf spielen Erlebtes erneut ab, Erinnerungen wandern vom Hippocampus in den Kortex, und neue neuronale Verbindungen festigen sich. Man kann Schlaf nicht herunterladen, genauso wenig wie Expertise.
 
-- Lange Plateauphase ohne sichtbaren Fortschritt
-- Plötzlicher Sprung zur Generalisierung
-- Früher als "overfitting" missverstanden
-- Heute als tiefes Musterlernen erkannt
-
-Grokking (im maschinellen Lernen) zeigt:
-
-- Nach perfektem Memorieren kann echtes Verstehen entstehen
-- Manchmal braucht es viel mehr Trainingsschritte als bis zum Memorieren
-- Das Modell findet plötzlich die zugrundeliegende Regel statt nur Beispiele auswendig zu lernen
+Das "Grokking"-Phänomen in maschinellen Lernmodellen zeigt ein ähnliches Muster: Nach einer langen Plateauphase ohne sichtbaren Fortschritt kommt ein plötzlicher Sprung zur Generalisierung. Manchmal braucht es viel mehr Trainingsschritte als bis zum Memorieren, dann findet das Modell plötzlich die zugrundeliegende Regel.
 :::
 
-::: {.pro-tip collapse="true"}
-### Optionale Vertiefung: Das Gedächtnisparadoxon (Flynn-Effekt)
-
-Seit den 1970er/80er Jahren, als Bildung sich vom Auswendiglernen abkehrte:
-
-- IQ-Werte sanken erstmals in der Geschichte
-- "Warum auswendig lernen, wenn man nachschlagen kann?"
-- Genau zu dem Zeitpunkt, als Neurowissenschaften bewiesen, dass Auswendiglernen kritisches Denken fördert
-- Wir verwarfen bewährte Methoden, gerade als wir ihren Nutzen verstanden [@oakleyMemoryParadoxWhy2025]
-:::
-
-## Echte Expertise aufbauen
-
-::: {.callout-tip}
-## Evidenzbasierte Strategien
-
-1. **Die Anstrengung annehmen**
-   - Deine Verwirrung ist ein notwendiger Lernschritt
-   - Fehler liefern wertvolle Vorhersagefehler-Signale
-   - Schwierigkeit zeigt Gehirnwachstum an
-
-2. **Abruf üben**
-   - Selbst testen, bevor Antworten überprüft werden
-   - Konzepte ohne Notizen erklären
-   - Anderen das Gelernte beibringen
-
-3. **Lernen verteilen**
-   - Nach Tagen/Wochen zu Konzepten zurückkehren
-   - Vergessen zwischen den Sitzungen zulassen
-   - In verschiedenen Kontexten erneut lernen
-
-4. **Praxis variieren**
-   - Problemtypen mischen
-   - Kontexte wechseln
-   - Neue Anwendungen suchen
-
-5. **Vorhersagefehler schützen**
-   - Erst eigene Versuche unternehmen, bevor Hilfe gesucht wird
-   - Bemerkenswertes Nichterwarten identifizieren
-   - Fehler als Lernchancen, nicht als Scheitern sehen
-:::
 
 ::: {.reflect}
 ### Abschluss-Reflexion
@@ -625,12 +348,11 @@ Du hast jetzt die vollständige wissenschaftliche Grundlage gelesen. Formuliere 
 
 **Was ist die wichtigste Erkenntnis, die du in deine nächste Lehrveranstaltung mitnimmst?**
 
-*Schreibe den Satz auf, bevor du die Schnellreferenz-Tabellen anschaust.*
+*Schreibe den Satz auf, bevor du die Schnellreferenz-Tabelle anschaust.*
 :::
 
----
 
-## Schnellreferenz: Wie Theorien zusammenwirken
+## Schnellreferenz
 
 ::: {.panel-tabset}
 ## Schwach → Stark Methoden
@@ -648,15 +370,4 @@ Du hast jetzt die vollständige wissenschaftliche Grundlage gelesen. Formuliere 
 | Deklarativ | Auswendig gelernte Regeln befolgen | Klare durchgearbeitete Beispiele geben |
 | Kompilierung | Wiederholte Sequenzen werden zu Chunks | Viele ähnliche Übungsaufgaben |
 | Prozedural | Automatisierte Expertise | Bereit für komplexe Anwendungen |
-
-## Warnsignale
-Achte auf diese Anzeichen für kognitives Auslagern:
-
-- Glatte Leistung ohne Erklärungsfähigkeit
-- Unfähigkeit, Problemvarianten zu lösen
-- Kein Fortschritt trotz Übung
-- Abhängigkeit von KI bei Grundaufgaben
-- KI-Ausgabe wird mit eigenem Verständnis verwechselt
-- Sofortige KI-Konsultation ohne eigenen Versuch
-- Nur uninformative Vorhersagefehler (kein eigener Versuch vor KI-Nutzung)
 :::
