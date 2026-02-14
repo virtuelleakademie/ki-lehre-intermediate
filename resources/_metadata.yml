@@ -1,0 +1,6 @@
+license: CC BY
+bibliography: [../bibliography.bib]
+format:
+    html:
+        toc: true
+        callout-icon: true

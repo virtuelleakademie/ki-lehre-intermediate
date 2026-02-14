@@ -22,11 +22,11 @@ about:
 ---
 
 
-{{< bi calendar-event >}} 19. September 2025
+{{< bi calendar-event >}} 20. Februar 2026
 
 {{< bi clock >}} 9:00–12:00 Uhr
 
-{{< bi map >}} S112 Seminarraum, Hallerstrasse 8, 3012 Bern
+{{< bi map >}} P107, Brückenstrasse 73, 3005 Bern
 
 <br>
 

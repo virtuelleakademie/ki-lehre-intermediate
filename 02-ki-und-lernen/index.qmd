@@ -21,8 +21,17 @@ Was fällt dir ein? Was musst du nachschlagen?
 
 {{< revealjs file="../slides/ki-und-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
+::: {.facilitator}
+### Slides und Übergang zum Worked Example (ca. 10 Min)
 
-## Offloading vs. Outsourcing
+Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", Equity, 5-Fragen-Framework. Nach den Slides kurz die 3 Sonden zeigen (Tabelle unten) und die Sonden-Aktivität durchführen, dann direkt zum Worked Example übergehen. Den Text zwischen Slides und Worked Example nicht vorlesen.
+:::
+
+
+::: {.nachlesen}
+### Offloading vs. Outsourcing
+
+Die Slides behandeln Offloading und Outsourcing als Kernunterscheidung. Hier die vertiefte Erklärung mit Beispielen und Visualisierung.
 
 Die entscheidende Frage: **Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?**
 
@@ -41,6 +50,121 @@ Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der e
 
 Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht "Dürfen Studierende KI nutzen?", sondern "Wird das Denken ausgelagert oder nur unterstützt?" Hier braucht es das Urteil der Lehrperson.
 
+```{r}
+#| label: fig-offloading-spectrum
+#| echo: false
+#| fig-cap: "Das Spektrum von Cognitive Offloading (lernförderlich) bis Cognitive Outsourcing (lernhinderlich), mit konkreten Beispielen."
+#| fig-width: 12
+#| fig-height: 6
+
+library(tidyverse)
+library(showtext)
+
+font_add_google("Lato", "Lato")
+showtext_auto()
+
+brand_dark <- "#222222"
+brand_accent <- "#9A4665"
+
+spectrum_examples <- tibble(
+  position = c(0.12, 0.30, 0.50, 0.75, 0.92),
+  label = c(
+    "Taschenrechner\nfür Arithmetik",
+    "KI prüft\nZitationsformat",
+    "Studierender\nüberarbeitet\nKI-Entwurf",
+    "Frage an KI ohne\neigenen Versuch",
+    "KI schreibt\nden Aufsatz"
+  ),
+  y_offset = c(0.72, 0.72, 0.76, 0.72, 0.72)
+)
+
+gradient_data <- tibble(
+  x = seq(0, 1, length.out = 200)
+) |>
+  mutate(fill_value = x)
+
+ggplot() +
+  geom_tile(
+    data = gradient_data,
+    aes(x = x, y = 0.2, fill = fill_value, width = 0.006, height = 0.15),
+    show.legend = FALSE
+  ) +
+  scale_fill_gradient(low = "#16a34a", high = "#dc2626") +
+  annotate(
+    "rect",
+    xmin = 0, xmax = 1,
+    ymin = 0.125, ymax = 0.275,
+    fill = NA, color = brand_dark, linewidth = 0.8
+  ) +
+  geom_segment(
+    data = spectrum_examples,
+    aes(x = position, xend = position, y = 0.30, yend = 0.50),
+    color = brand_dark, linewidth = 0.6
+  ) +
+  geom_point(
+    data = spectrum_examples,
+    aes(x = position, y = 0.50),
+    size = 5, color = brand_dark, fill = "white",
+    shape = 21, stroke = 1.5
+  ) +
+  geom_text(
+    data = spectrum_examples,
+    aes(x = position, y = y_offset, label = label),
+    size = 3.3, lineheight = 0.9, fontface = "bold",
+    color = brand_dark, family = "Lato"
+  ) +
+  annotate(
+    "text", x = 0, y = 0.04,
+    label = "Cognitive Offloading",
+    hjust = 0, size = 4.5, fontface = "bold",
+    color = "#16a34a", family = "Lato"
+  ) +
+  annotate(
+    "text", x = 1, y = 0.04,
+    label = "Cognitive Outsourcing",
+    hjust = 1, size = 4.5, fontface = "bold",
+    color = "#dc2626", family = "Lato"
+  ) +
+  annotate(
+    "segment",
+    x = 0, xend = 1, y = -0.08, yend = -0.08,
+    arrow = arrow(length = unit(0.2, "cm"), ends = "both", type = "closed"),
+    color = brand_dark, linewidth = 0.8
+  ) +
+  annotate(
+    "text", x = 0, y = -0.15,
+    label = "Lernrelevante Verarbeitung: Erhalten",
+    hjust = 0, size = 3.8, fontface = "italic",
+    color = "#16a34a", family = "Lato"
+  ) +
+  annotate(
+    "text", x = 1, y = -0.15,
+    label = "Lernrelevante Verarbeitung: Eliminiert",
+    hjust = 1, size = 3.8, fontface = "italic",
+    color = "#dc2626", family = "Lato"
+  ) +
+  scale_x_continuous(limits = c(-0.05, 1.05), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(-0.22, 0.95), expand = c(0, 0)) +
+  labs(
+    title = "Spektrum: Cognitive Offloading vs. Cognitive Outsourcing",
+    subtitle = "Nicht jede KI-Nutzung hat die gleiche Auswirkung auf das Lernen"
+  ) +
+  theme_void(base_family = "Lato") +
+  theme(
+    plot.title = element_text(
+      face = "bold", size = 16, color = brand_dark,
+      hjust = 0.5, margin = margin(b = 5)
+    ),
+    plot.subtitle = element_text(
+      size = 11, color = "#666666",
+      hjust = 0.5, margin = margin(b = 20)
+    ),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+```
+:::
+
+
 ### Wie erkennt man, wo auf dem Spektrum man steht?
 
 Das 5-Fragen-Framework (→ Teil 3) hilft beim **Gestalten** von Aufgaben. Aber wie prüft man im Lehralltag, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:
@@ -53,8 +177,15 @@ Das 5-Fragen-Framework (→ Teil 3) hilft beim **Gestalten** von Aufgaben. Aber 
 
 Wer outsourct, hat auf Sonde 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → [Ausführliche Anleitung mit Beispielen](../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-sonden-für-den-lehralltag)
 
+::: {.pair}
+### Die 3 Sonden ausprobieren (1 Min)
 
-## Das Evaluationsparadox
+Wähle eine der 3 Sonden. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
+:::
+
+
+::: {.nachlesen}
+### Das Evaluationsparadox
 
 Ein verbreiteter Vorschlag: *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
 
@@ -68,8 +199,155 @@ Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert
 
 **Wichtige Differenzierung:** Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.
 
+```{r}
+#| label: fig-evaluation-paradox
+#| echo: false
 
-## Warum Schemas den KI-Output umschreiben
+library(DiagrammeR)
+
+grViz("
+digraph evaluation_paradox {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.8
+    ranksep = 1.0
+    label = 'Das Evaluationsparadox\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht'
+    labelloc = t
+    fontsize = 14
+    fontcolor = '#666666'
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.15'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 11
+    color = '#999999'
+    arrowsize = 0.8
+  ]
+
+  evaluate [
+    label = 'KI-Output\nbewerten'
+    fillcolor = '#dc2626'
+  ]
+
+  competence [
+    label = 'Fachkompetenz'
+    fillcolor = '#64748b'
+  ]
+
+  learning [
+    label = 'Eigenes\nLernen'
+    fillcolor = '#64748b'
+  ]
+
+  thinking [
+    label = 'Eigenes\nDenken'
+    fillcolor = '#16a34a'
+  ]
+
+  center [
+    label = 'Internes Modell\nnoch nicht aufgebaut'
+    fillcolor = '#F5F5F5'
+    fontcolor = '#9A4665'
+    style = 'filled'
+    shape = plaintext
+    fontsize = 11
+  ]
+
+  evaluate -> competence [label = '  erfordert  ']
+  competence -> learning [label = '  entsteht durch  ']
+  learning -> thinking [label = '  erfordert  ']
+  thinking -> evaluate [label = '  wird ersetzt\n  durch KI  ' style = dashed color = '#dc2626']
+}
+")
+```
+
+```{r}
+#| label: fig-expert-novice
+#| echo: false
+
+grViz("
+digraph expert_novice {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    rankdir = LR
+    nodesep = 0.6
+    ranksep = 1.0
+    compound = true
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 10
+    arrowsize = 0.8
+  ]
+
+  subgraph cluster_expert {
+    label = 'Expert:in'
+    fontname = 'Helvetica'
+    fontsize = 13
+    fontcolor = '#16a34a'
+    style = 'rounded,filled'
+    fillcolor = '#e8f5e9'
+    color = '#16a34a'
+    penwidth = 1.5
+
+    e_model [label = 'Starkes internes\nModell' fillcolor = '#16a34a']
+    e_ki [label = 'KI-Output' fillcolor = '#64748b']
+    e_result [label = 'Korrektur' fillcolor = '#16a34a']
+
+    e_model -> e_ki [label = '  Vergleich\n  möglich  ' color = '#222222']
+    e_ki -> e_result [label = '  Fehler\n  erkennbar  ' color = '#222222']
+  }
+
+  subgraph cluster_novice {
+    label = 'Anfänger:in'
+    fontname = 'Helvetica'
+    fontsize = 13
+    fontcolor = '#dc2626'
+    style = 'rounded,filled'
+    fillcolor = '#fce4ec'
+    color = '#dc2626'
+    penwidth = 1.5
+
+    n_model [label = 'Schwaches internes\nModell' fillcolor = '#dc2626']
+    n_ki [label = 'KI-Output' fillcolor = '#64748b']
+    n_result [label = 'Übernahme' fillcolor = '#dc2626']
+
+    n_model -> n_ki [label = '  Kein Vergleichs-\n  massstab  ' color = '#999999' style = dashed]
+    n_ki -> n_result [label = '  Fehler\n  unsichtbar  ' color = '#999999' style = dashed]
+  }
+}
+")
+```
+:::
+
+
+::: {.nachlesen}
+### Schemas, Lernen ≠ Leisten und der "Strand"
+
+#### Warum Schemas den KI-Output umschreiben
 
 Gedächtnis ist nicht reproduktiv, sondern **rekonstruktiv**. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas, also organisierte Wissensstrukturen aus Erfahrung, sind dabei gleichzeitig der grösste Vorteil *und* die systematischste Fehlerquelle des Gedächtnisses.
 
@@ -79,16 +357,15 @@ Das erklärt auch, warum **Missverständnisse so hartnäckig** sind: Einfach kor
 
 > [Vertiefung: Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/). Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
 
-
-## Lernen &ne; Leisten
+#### Lernen &ne; Leisten
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
-### Cargo Cult Scholarship
+#### Schein-Kompetenz
 
-Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
+Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Das Phänomen ist nicht neu: Studierende haben schon vor KI mit Copy-Paste, strategischem Zusammenfassen und oberflächlichem Paraphrasieren akademische Fassaden errichtet. KI macht es nur einfacher und die Fassade überzeugender. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
 
-### "The Beach, Not the Ant"
+#### "The Beach, Not the Ant"
 
 > Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
 
@@ -98,18 +375,36 @@ Herbert Simon beobachtete: Eine Ameise läuft einen komplexen, gewundenen Pfad a
 
 Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"* sondern **"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
 
-### Die Equity-Dimension
+Herbert Simon nannte das zugrundeliegende Prinzip **Bounded Rationality** (begrenzte Rationalität): Menschen treffen Entscheidungen nicht durch Optimierung aller Möglichkeiten, sondern indem sie die erste akzeptable Lösung wählen (*Satisficing*). Wenn die Lernumgebung eine akzeptable Lösung ohne kognitive Anstrengung zulässt, werden begrenzt rationale Studierende diese Lösung wählen. Die Konsequenz für die Aufgabengestaltung: Wir müssen Aufgaben so entwerfen, dass die "befriedigende" Lösung die kognitive Anstrengung *einschliesst*, nicht umgeht.
 
-Erste Forschungsergebnisse und die breitere Bildungstechnologie-Forschung legen nahe: Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
+#### Die Equity-Dimension
+
+Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtigkeit: Wenn das, was Novizen hilft, sich von dem unterscheidet, was Experten hilft, dann schadet unstrukturierter KI-Einsatz Studierenden mit schwächerem Vorwissen *überproportional*. Das ist keine empirische Spekulation, sondern eine logische Folge der Theorie, die wir bereits besprochen haben:
 
 - Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen
 - Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde
 - KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**
 
-Die Evidenzbasis zu KI-spezifischen Equity-Effekten ist noch schmal (kurze Interventionsstudien, wenige Disziplinen), aber die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+Die empirische Evidenzbasis zu KI-spezifischen Equity-Effekten wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+
+**Konkrete Gegenmassnahmen:**
+
+- **Differenziertes Scaffolding in der Versuch-Phase**: Studierende mit schwächerem Vorwissen erhalten strukturiertere Ausgangspunkte (z.B. teilweise bearbeitete Beispiele), damit der eigenständige Versuch produktiv bleibt statt überfordernd
+- **Strategische Paarung in der Prüfe-Phase**: Bewusste Zusammensetzung von Tandems, die unterschiedliche Stärken einbringen, damit die Vergleichsphase für alle informativ ist
+- **Sprachliche Zugänglichkeit beachten**: KI-Tools funktionieren in verschiedenen Sprachen unterschiedlich gut. Für nicht-muttersprachliche Studierende kann die Sprachbarriere die ohnehin schwächere Ausgangsposition verschärfen
+
+#### Was uns die Geschichte der Bildungstechnologie lehrt
+
+Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
+
+Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.
+
+Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkzeuge sinnvoll integrieren [@reichFailureDisruptWhy2020]. Die angemessene Reaktion auf KI ist weder unkritische Begeisterung noch pauschale Ablehnung, sondern informierte, kontextbezogene Integration, genau das, was dieses Framework ermöglichen soll.
+:::
 
 
-## Das 5-Fragen-Framework
+::: {.nachlesen}
+### Das 5-Fragen-Framework (Übersicht)
 
 Ein praktisches Werkzeug für die Aufgabengestaltung:
 
@@ -120,9 +415,16 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 | 3. Muss **internes Wissen** nachgewiesen werden? | → Outsourcing unmöglich machen |
 | 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | → Aufgabe umgestalten |
 | 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | → KI für die Prüfphase nutzen |
+:::
 
 
 ## Worked Example: Das Framework in Aktion
+
+::: {.facilitator}
+### Worked Example gemeinsam durchgehen (ca. 12 Min)
+
+Dieses Beispiel Schritt für Schritt gemeinsam durcharbeiten. Jeden Schritt vorlesen oder zusammenfassen, dann kurz Reaktionen abfragen. Vor dem Redesign PAUSE für die Selbsterklärung (2 Min). Dann das Redesign zeigen und die drei Erkenntnisse besprechen.
+:::
 
 Bevor ihr das Framework auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.
 
@@ -193,7 +495,77 @@ Drei Erkenntnisse für die eigene Praxis:
 
 1. **Produkt ≠ Prozess**: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den *Prozess* prüfen
 2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen
-3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*
+3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Dieses Prinzip ist theoretisch gut fundiert durch die Forschung zu Abrufeffekten und Vorhersagefehlern, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
+
+```{r}
+#| label: fig-try-then-check
+#| echo: false
+
+grViz("
+digraph try_then_check {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    compound = true
+    nodesep = 0.5
+    ranksep = 0.8
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 10
+    arrowsize = 0.8
+  ]
+
+  subgraph cluster_productive {
+    label = 'Produktiver Weg'
+    fontname = 'Helvetica'
+    fontsize = 14
+    fontcolor = '#16a34a'
+    style = 'rounded,filled'
+    fillcolor = '#e8f5e9'
+    color = '#16a34a'
+    penwidth = 1.5
+
+    try [label = '1. Versuch\nEigenen Ansatz\ngenerieren' fillcolor = '#16a34a']
+    compare [label = '2. Vergleich\nMit KI-Output\nabgleichen' fillcolor = '#2563eb']
+    reflect [label = '3. Reflexion\nSchema\naktualisieren' fillcolor = '#f59e0b' fontcolor = '#222222']
+
+    try -> compare [label = '  Prediction Error  ' color = '#666666']
+    compare -> reflect [label = '  Analyse  ' color = '#666666']
+    reflect -> try [label = '  Nächster Zyklus  ' color = '#666666' style = dashed]
+  }
+
+  subgraph cluster_unproductive {
+    label = 'Unproduktiver Weg'
+    fontname = 'Helvetica'
+    fontsize = 14
+    fontcolor = '#dc2626'
+    style = 'rounded,filled'
+    fillcolor = '#fce4ec'
+    color = '#dc2626'
+    penwidth = 1.5
+
+    direct [label = 'KI-Output\ndirekt nutzen' fillcolor = '#dc2626']
+    passive [label = 'Passives\nÜbernehmen' fillcolor = '#dc2626']
+    nolearn [label = 'Kein\nLerneffekt' fillcolor = '#dc2626']
+
+    direct -> passive [color = '#999999' style = dashed]
+    passive -> nolearn [color = '#999999' style = dashed label = '  Keine Reflexion\n  möglich  ']
+  }
+}
+")
+```
 
 ::: {.callout-tip}
 ### Überleitung zur Praxis
@@ -204,8 +576,6 @@ Drei Erkenntnisse für die eigene Praxis:
 > [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)
 
 
----
-
 ## Vertiefende Ressourcen
 
 ### Für das Selbststudium
@@ -213,5 +583,5 @@ Drei Erkenntnisse für die eigene Praxis:
 - [Arbeitsgedächtnis und Instruktion](../01-lernen-verstehen/arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
 - [Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/). Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
 - [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung
-- [Produktive Anstrengung durch Design](../03-praxis/produktive-anstrengung/). Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
+- [Produktive Anstrengung durch Design](../resources/produktive-anstrengung/). Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
 - [The Curious Case of Transfer of Learning](https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning). Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)

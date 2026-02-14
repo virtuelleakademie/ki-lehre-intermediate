@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="de"><head>
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/tabby.min.js"></script>
@@ -32,7 +32,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8910c83ed40c291cdbba4a0e0b83eb6e.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8fb4ea61ef6030b6d5f3e8e39ac4e811.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -150,37 +150,26 @@
     content: '👥';
     background-image: none;
   }
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
   }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
+  div.callout-facilitator.callout {
+    border-left-color: #d97706;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-facilitator.callout-style-default > .callout-header {
+    background-color: rgba(217, 119, 6, 0.13);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
+  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+    content: '📋';
     background-image: none;
   }
   div.callout-reflect.callout {
@@ -205,6 +194,28 @@
     content: '👥';
     background-image: none;
   }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
   div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
@@ -214,6 +225,17 @@
   div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
     content: '🤖';
+    background-image: none;
+  }
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
     background-image: none;
   }
   </style>
@@ -237,51 +259,33 @@ Andrew Ellis
 </div>
 </div>
 
-  <p class="date">19 September, 2025</p>
+  <p class="date">20 Februar, 2026</p>
 </section>
-<section id="offloading-vs.-outsourcing" class="slide level2 smaller">
+<section id="offloading-vs.-outsourcing" class="slide level2">
 <h2>Offloading vs.&nbsp;Outsourcing</h2>
-<p><strong>Die entscheidende Unterscheidung: kategorial, nicht graduell</strong></p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th><strong>Cognitive Offloading</strong></th>
-<th><strong>Cognitive Outsourcing</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Was passiert</strong></td>
-<td>Tool reduziert Arbeitsgedächtnis-Last, <em>während</em> die Person denkt</td>
-<td>Tool <em>übernimmt</em> das Denken</td>
-</tr>
-<tr class="even">
-<td><strong>Beispiel</strong></td>
-<td>Taschenrechner bei Problemlösung</td>
-<td>KI schreibt den Aufsatz</td>
-</tr>
-<tr class="odd">
-<td><strong>Lernrelevante Last</strong></td>
-<td>Bleibt erhalten</td>
-<td><strong>Wird eliminiert</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Expertise</strong></td>
-<td>Wird unterstützt</td>
-<td><strong>Wird verhindert</strong></td>
-</tr>
-</tbody>
-</table>
+<p><strong>Die entscheidende Unterscheidung</strong></p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<h3 id="cognitive-offloading">Cognitive Offloading</h3>
+<p>Tool reduziert Arbeitsgedächtnis-Last, <strong>während</strong> die Person denkt</p>
+<p><em>Beispiel:</em> Taschenrechner bei Problemlösung</p>
+<p>Lernrelevante Last: <strong>erhalten</strong></p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<div class="fragment">
+<h3 id="cognitive-outsourcing">Cognitive Outsourcing</h3>
+<p>Tool <strong>übernimmt</strong> das Denken</p>
+<p><em>Beispiel:</em> KI schreibt den Aufsatz</p>
+<p>Lernrelevante Last: <strong>eliminiert</strong></p>
+</div>
+</div></div>
+<div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
 <p><strong>Outsourcing eliminiert germane load. Das ist keine Nebenwirkung, das ist der Mechanismus.</strong></p>
+</div>
 </div>
 </div>
 </div>
@@ -353,7 +357,7 @@ Andrew Ellis
 <p>Und: Wer die Denkarbeit auslagert, baut nicht nur <em>dieses</em> Wissen nicht auf. Es fehlt auch die Grundlage für <strong>Wissenstransfer</strong> auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, <em>was</em> transferiert werden könnte.</p>
 </div>
 <div class="fragment">
-<h3 id="cargo-cult-scholarship">Cargo Cult Scholarship</h3>
+<h3 id="schein-kompetenz">Schein-Kompetenz</h3>
 <p>Texte mit allen <strong>Oberflächenmerkmalen</strong> akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.</p>
 <p>. . .</p>
 <p>Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist.</p>
@@ -442,7 +446,7 @@ Andrew Ellis
 </section>
 <section id="jetzt-seid-ihr-dran" class="slide level2 center">
 <h2>Jetzt seid ihr dran</h2>
-<p>Im nächsten Teil wendet ihr dieses Framework auf <strong>eure eigenen Aufgaben</strong> an — und gestaltet dann einen Agent, der produktive Anstrengung <em>fördert</em> statt <em>ersetzt</em>.</p>
+<p>Im nächsten Teil wendet ihr dieses Framework auf <strong>eure eigenen Aufgaben</strong> an und gestaltet dann einen Agent, der produktive Anstrengung <em>fördert</em> statt <em>ersetzt</em>.</p>
 
 
 </section>
@@ -687,12 +691,12 @@ Andrew Ellis
           // flash "checked"
           button.classList.add('code-copy-button-checked');
           var currentTitle = button.getAttribute("title");
-          button.setAttribute("title", "Copied!");
+          button.setAttribute("title", "Kopiert");
           let tooltip;
           if (window.bootstrap) {
             button.setAttribute("data-bs-toggle", "tooltip");
             button.setAttribute("data-bs-placement", "left");
-            button.setAttribute("data-bs-title", "Copied!");
+            button.setAttribute("data-bs-title", "Kopiert");
             tooltip = new bootstrap.Tooltip(button, 
               { trigger: "manual", 
                 customClass: "code-copy-button-tooltip",

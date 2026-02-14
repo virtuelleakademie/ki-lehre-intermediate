@@ -87,6 +87,17 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -96,28 +107,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -131,15 +120,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -164,10 +153,22 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 </style>
 
 
 <meta property="og:title" content="Aktive Verarbeitung – KI in der Lehre: Intermediate">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
@@ -272,47 +273,43 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </header>
 
 
+<p>Diese Aktivität bildet die Brücke zwischen der Theorie (Teil 1 und 2) und der eigenen Lehrpraxis. Nutze die Konzepte, die du gerade kennengelernt hast, um eine reale Situation zu analysieren.</p>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Think-Pair-Share: Kognitive Anstrengung und Lernen
+<span class="screen-reader-only">Active-processing</span>Think-Pair-Share: Kognitive Anstrengung in der eigenen Lehre (10 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<section id="think-5-minuten" class="level3">
-<h3 class="anchored" data-anchor-id="think-5-minuten"><strong>Think (5 Minuten)</strong></h3>
-<p>Individuelle Reflexion zu den Fragen:</p>
-<p><strong>Wähle eine Frage aus, die dir am ehesten zusagt:</strong></p>
+<section id="think-4-minuten" class="level3">
+<h3 class="anchored" data-anchor-id="think-4-minuten"><strong>Think (4 Minuten)</strong></h3>
+<p>Denke an eine Situation in deiner Lehre, in der Studierende den einfachsten Weg genommen haben (mit KI oder auf andere Weise).</p>
+<p><strong>Analysiere mit einem Konzept aus Teil 1 oder 2:</strong></p>
 <ul>
-<li>Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?</li>
-<li>Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden?</li>
-<li>Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?</li>
+<li><em>Warum</em> war das der einfachste Weg? (Welcher kognitive Mechanismus erklärt das Verhalten?)</li>
+<li>War es <em>Offloading</em> oder <em>Outsourcing</em>? Woran machst du das fest?</li>
+<li>Welche <em>eine Designänderung</em> an der Aufgabe hätte produktive Anstrengung zum natürlicheren Weg gemacht?</li>
 </ul>
-<p><strong>Notiere kurz:</strong></p>
+<p><strong>Notiere:</strong></p>
 <ol type="1">
-<li>Deine gewählte Frage und warum sie dich anspricht</li>
-<li>Ein konkretes Beispiel aus deiner eigenen Lern-/Lehrerfahrung</li>
-<li>Eine konkrete Veränderung, die du basierend auf dieser Erkenntnis vornehmen könntest</li>
+<li>Die Situation und das Konzept, mit dem du sie analysierst</li>
+<li>Deine Designänderung</li>
 </ol>
 </section>
-<section id="pair-5-minuten" class="level3">
-<h3 class="anchored" data-anchor-id="pair-5-minuten"><strong>Pair (5 Minuten)</strong></h3>
-<p>Finde eine*n Partner*in und:</p>
+<section id="pair-4-minuten" class="level3">
+<h3 class="anchored" data-anchor-id="pair-4-minuten"><strong>Pair (4 Minuten)</strong></h3>
+<p>Tauscht eure Analysen aus:</p>
 <ul>
-<li>Je 2 Minuten zum Teilen der gewählten Frage und des Beispiels</li>
-<li>1 Minute gemeinsam, um ein gemeinsames Thema zwischen euren Erfahrungen zu identifizieren</li>
+<li>Stimmt der/die Partner:in mit der Diagnose (Offloading vs.&nbsp;Outsourcing) überein?</li>
+<li>Schützt die vorgeschlagene Designänderung tatsächlich die lernrelevante Verarbeitung?</li>
 </ul>
 </section>
-<section id="share-5-minuten" class="level3">
-<h3 class="anchored" data-anchor-id="share-5-minuten"><strong>Share (5 Minuten)</strong></h3>
-<p>Jedes Paar trägt <strong>eine</strong> Erkenntnis zur gesamten Gruppe bei:</p>
-<ul>
-<li>“Wir haben beide bemerkt, dass…” oder “Ein Muster, das wir sahen, war…”</li>
-<li>Fokus auf praktische Implikationen für die Lehrpraxis</li>
-</ul>
+<section id="share-2-minuten" class="level3">
+<h3 class="anchored" data-anchor-id="share-2-minuten"><strong>Share (2 Minuten)</strong></h3>
+<p>1–2 Paare teilen: Welches Konzept war am aufschlussreichsten für die Analyse?</p>
 </section>
 </div>
 </div>

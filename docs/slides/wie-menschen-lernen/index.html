@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="de"><head>
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/tabby.min.js"></script>
@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8910c83ed40c291cdbba4a0e0b83eb6e.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8fb4ea61ef6030b6d5f3e8e39ac4e811.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -159,28 +159,6 @@
     }
   </style>
   <style>
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: purple;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
   div.callout-group.callout {
     border-left-color: purple;
   }
@@ -203,15 +181,15 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-facilitator.callout {
+    border-left-color: #d97706;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-facilitator.callout-style-default > .callout-header {
+    background-color: rgba(217, 119, 6, 0.13);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+    content: '📋';
     background-image: none;
   }
   div.callout-active-processing.callout {
@@ -225,6 +203,28 @@
     content: '📝';
     background-image: none;
   }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
+    background-image: none;
+  }
   div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
@@ -234,6 +234,28 @@
   div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
     content: '🤖';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: purple;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   </style>
@@ -256,7 +278,7 @@ Andrew Ellis
 </div>
 </div>
 
-  <p class="date">19 September, 2025</p>
+  <p class="date">20 Februar, 2026</p>
 </section>
 <section id="ki-kann-uns-produktiver-machen" class="slide level2">
 <h2>KI kann uns produktiver machen</h2>
@@ -271,7 +293,7 @@ Andrew Ellis
 </div>
 
 <aside><div>
-<p><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua et al. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific2025">Toner-Rodgers (<a href="#/bibliographie" role="doc-biblioref" onclick="">2025</a>)</span>; <span class="citation" data-cites="cuiEffectsGenerativeAI2024">Cui et al. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2024</a>)</span></p>
+<p><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific2025">Toner-Rodgers (<a href="#/bibliographie" role="doc-biblioref" onclick="">2025</a>)</span>; <span class="citation" data-cites="cuiEffectsGenerativeAI2024">Cui u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2024</a>)</span></p>
 </div></aside></section>
 <section id="section" class="slide level2 center">
 <h2></h2>
@@ -306,7 +328,7 @@ Andrew Ellis
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, and and Clark 2006</a>)</span>.</p>
+<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, und and Clark 2006</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -396,52 +418,36 @@ Andrew Ellis
 </section>
 <section id="die-drei-arten-kognitiver-belastung" class="slide level2">
 <h2>Die drei Arten kognitiver Belastung</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 30%">
-<col style="width: 25%">
-<col style="width: 32%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Art</th>
-<th>Definition</th>
-<th>Beispiel</th>
-<th>Gestaltbar?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Intrinsisch</strong></td>
-<td>Komplexität des Lernstoffs selbst</td>
-<td>Quantenphysik hat höhere intrinsische Last als Addition</td>
-<td>Begrenzt (Sequenzierung)</td>
-</tr>
-<tr class="even">
-<td><strong>Extrinsisch</strong></td>
-<td>Wie Material präsentiert wird</td>
-<td>Text und Grafik getrennt vs.&nbsp;integriert</td>
-<td>Durch gutes Design minimierbar</td>
-</tr>
-<tr class="odd">
-<td><strong>Lernrelevant</strong></td>
-<td>Mentaler Aufwand für Schemabildung</td>
-<td>Verbindungen herstellen, Muster erkennen</td>
-<td>Raum dafür schaffen</td>
-</tr>
-</tbody>
-</table>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Intrinsisch</strong></p>
+<p>Komplexität des Lernstoffs selbst</p>
+<p><em>Begrenzt steuerbar (Sequenzierung)</em></p>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p><strong>Extrinsisch</strong></p>
+<p>Wie Material präsentiert wird</p>
+<p><em>Durch Design <strong>minimierbar</strong></em></p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p><strong>Lernrelevant</strong></p>
+<p>Mentaler Aufwand für Schemabildung</p>
+<p><strong><em>Raum dafür schaffen</em></strong></p>
+</div>
+</div></div>
+</section>
+<section id="das-lerndilemma" class="slide level2">
+<h2>Das Lerndilemma</h2>
+<p>Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.</p>
+<div class="fragment">
+<p>Aber: Lernrelevanter cognitive load ist <strong>essentiell</strong> für Expertise-Entwicklung.</p>
+</div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Das Lerndilemma</strong>:</p>
-<ul>
-<li>Gesamtlast darf Arbeitsgedächtnis nicht überfordern</li>
-<li>Aber: Lernrelevanter <em>cognitive load</em> ist essentiell für Expertise-Entwicklung</li>
-<li><strong>Lösung</strong>: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen</li>
-</ul>
+<p><strong>Lösung</strong>: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen.</p>
 </div>
 </div>
 </div>
@@ -487,94 +493,81 @@ Andrew Ellis
 </div>
 </div>
 </section>
-<section id="clt-und-ki-cognitive-offloading" class="slide level2 smaller">
-<h2>CLT und KI: Cognitive Offloading</h2>
-<p><strong>Das Lernparadox: KI optimiert für Produktion statt Lernen</strong></p>
+<section id="clt-und-ki-was-passiert-bei-outsourcing" class="slide level2">
+<h2>CLT und KI: Was passiert bei Outsourcing?</h2>
+<p><strong>KI optimiert für Produktion statt Lernen</strong></p>
 <table class="caption-top">
-<colgroup>
-<col style="width: 21%">
-<col style="width: 24%">
-<col style="width: 21%">
-<col style="width: 32%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Kognitive Last</th>
 <th>Ohne KI</th>
 <th>Mit KI (Outsourcing)</th>
-<th>Konsequenz</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Intrinsisch</strong></td>
 <td>Bleibt konstant</td>
-<td>Scheint reduziert</td>
-<td>Komplexität wird versteckt, nicht bewältigt</td>
+<td>Wird umgangen</td>
 </tr>
 <tr class="even">
 <td><strong>Extrinsisch</strong></td>
 <td>Variabel</td>
 <td>Minimiert</td>
-<td>Gut für Effizienz</td>
 </tr>
 <tr class="odd">
 <td><strong>Lernrelevant</strong></td>
 <td>Wird aufgebracht</td>
-<td>Eliminiert</td>
-<td>Keine Schemabildung</td>
+<td><strong>Eliminiert</strong></td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
+<p>Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.</p>
+</div>
+</section>
+<section id="clt-und-ki-die-nuance" class="slide level2">
+<h2>CLT und KI: Die Nuance</h2>
 <div class="callout callout-note no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Wichtig</strong>: Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing). Wenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last erhalten bleiben.</p>
+<p>Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing).</p>
 </div>
 </div>
 </div>
+<div class="fragment">
+<p>Wenn KI <em>nach eigenem Versuch</em> als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last <strong>erhalten bleiben</strong>.</p>
+</div>
+<div class="fragment">
+<p>Die Reihenfolge entscheidet: <strong>Versuch → dann → KI-Feedback</strong></p>
 </div>
 </section>
-<section id="clt-und-ki-lernmechanismen" class="slide level2 smaller">
-<h2>CLT und KI: Lernmechanismen</h2>
-<p><strong>Drei kritische Lernmechanismen werden durch Outsourcing ausgeschaltet:</strong></p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 32%">
-<col style="width: 20%">
-<col style="width: 47%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Mechanismus</th>
-<th>Normal</th>
-<th>Mit KI-Outsourcing</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Erwartung vs.&nbsp;Realität</strong> (Vorhersagefehler)</td>
-<td>Lücke zwischen Erwartung &amp; Realität = Lernsignal</td>
-<td>Keine Erwartungen → kein Lernen</td>
-</tr>
-<tr class="even">
-<td><strong>Gedächtniskonsolidierung</strong></td>
-<td>Aktive Verarbeitung → Speicherung</td>
-<td>Passive Konsumption → Vergessen</td>
-</tr>
-<tr class="odd">
-<td><strong>Prozedurale Entwicklung</strong></td>
-<td>Tausende Wiederholungen → Automatismen</td>
-<td>Überspringen → keine Expertise</td>
-</tr>
-</tbody>
-</table>
+<section id="drei-lernmechanismen-die-outsourcing-ausschaltet" class="slide level2">
+<h2>Drei Lernmechanismen, die Outsourcing ausschaltet</h2>
+<p><strong>1. Vorhersagefehler</strong></p>
+<ul>
+<li>Normal: Lücke zwischen Erwartung &amp; Realität = Lernsignal</li>
+<li>Outsourcing: Keine Erwartungen → kein Lernen</li>
+</ul>
+<div class="fragment">
+<p><strong>2. Gedächtniskonsolidierung</strong></p>
+<ul>
+<li>Normal: Aktive Verarbeitung → Speicherung</li>
+<li>Outsourcing: Passive Konsumption → Vergessen</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>3. Prozedurale Entwicklung</strong></p>
+<ul>
+<li>Normal: Tausende Wiederholungen → Automatismen</li>
+<li>Outsourcing: Überspringen → keine Expertise</li>
+</ul>
+</div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung</p>
+<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.</p>
 </div>
 </div>
 </div>
@@ -699,28 +692,28 @@ Andrew Ellis
 <h2>Bibliographie</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-andersonAcquisitionCognitiveSkill1982" class="csl-entry" role="listitem">
-Anderson, John R. 1982. <span>“Acquisition of Cognitive Skill.”</span> <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
+Anderson, John R. 1982. <span>„Acquisition of Cognitive Skill“</span>. <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
 </div>
 <div id="ref-cuiEffectsGenerativeAI2024" class="csl-entry" role="listitem">
-Cui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, and Tobias Salz. 2024. <span>“The <span>Effects</span> of <span>Generative AI</span> on <span>High Skilled Work</span>: <span>Evidence</span> from <span>Three Field Experiments</span> with <span>Software Developers</span>.”</span> SSRN Scholarly Paper. Rochester, NY. September 3, 2024. <a href="https://doi.org/10.2139/ssrn.4945566">https://doi.org/10.2139/ssrn.4945566</a>.
+Cui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. <span>„The <span>Effects</span> of <span>Generative AI</span> on <span>High Skilled Work</span>: <span>Evidence</span> from <span>Three Field Experiments</span> with <span>Software Developers</span>“</span>. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. <a href="https://doi.org/10.2139/ssrn.4945566">https://doi.org/10.2139/ssrn.4945566</a>.
 </div>
 <div id="ref-dellacquaNavigatingJaggedTechnological2023" class="csl-entry" role="listitem">
-Dell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, and Karim R. Lakhani. 2023. <span>“Navigating the <span>Jagged Technological Frontier</span>: <span>Field Experimental Evidence</span> of the <span>Effects</span> of <span>AI</span> on <span>Knowledge Worker Productivity</span> and <span>Quality</span>.”</span> <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.4573321">https://doi.org/10.2139/ssrn.4573321</a>.
+Dell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, und Karim R. Lakhani. 2023. <span>„Navigating the <span>Jagged Technological Frontier</span>: <span>Field Experimental Evidence</span> of the <span>Effects</span> of <span>AI</span> on <span>Knowledge Worker Productivity</span> and <span>Quality</span>“</span>. <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.4573321">https://doi.org/10.2139/ssrn.4573321</a>.
 </div>
 <div id="ref-gearyEvolutionarilyInformedEducation2008" class="csl-entry" role="listitem">
-GEARY, DAVID C. 2008. <span>“An <span>Evolutionarily Informed Education Science</span>.”</span> <em>Educational Psychologist</em> 43 (4): 179–95. <a href="https://doi.org/10.1080/00461520802392133">https://doi.org/10.1080/00461520802392133</a>.
+GEARY, DAVID C. 2008. <span>„An <span>Evolutionarily Informed Education Science</span>“</span>. <em>Educational Psychologist</em> 43 (4): 179–95. <a href="https://doi.org/10.1080/00461520802392133">https://doi.org/10.1080/00461520802392133</a>.
 </div>
 <div id="ref-kalyugaExpertiseReversalEffect2009" class="csl-entry" role="listitem">
-Kalyuga, Slava. 2009. <span>“The <span>Expertise Reversal Effect</span>.”</span> In <em>Managing <span>Cognitive Load</span> in <span>Adaptive Multimedia Learning</span></em>, 58–80. IGI Global Scientific Publishing. <a href="https://doi.org/10.4018/978-1-60566-048-6.ch003">https://doi.org/10.4018/978-1-60566-048-6.ch003</a>.
+Kalyuga, Slava. 2009. <span>„The <span>Expertise Reversal Effect</span>“</span>. In <em>Managing <span>Cognitive Load</span> in <span>Adaptive Multimedia Learning</span></em>, 58–80. IGI Global Scientific Publishing. <a href="https://doi.org/10.4018/978-1-60566-048-6.ch003">https://doi.org/10.4018/978-1-60566-048-6.ch003</a>.
 </div>
 <div id="ref-kirschnerWhyMinimalGuidance2006" class="csl-entry" role="listitem">
-Kirschner, Paul A., Sweller, and Richard E. and Clark. 2006. <span>“Why <span>Minimal Guidance During Instruction Does Not Work</span>: <span>An Analysis</span> of the <span>Failure</span> of <span>Constructivist</span>, <span>Discovery</span>, <span>Problem-Based</span>, <span>Experiential</span>, and <span>Inquiry-Based Teaching</span>.”</span> <em>Educational Psychologist</em> 41 (2): 75–86. <a href="https://doi.org/10.1207/s15326985ep4102_1">https://doi.org/10.1207/s15326985ep4102_1</a>.
+Kirschner, Paul A., Sweller, und Richard E. and Clark. 2006. <span>„Why <span>Minimal Guidance During Instruction Does Not Work</span>: <span>An Analysis</span> of the <span>Failure</span> of <span>Constructivist</span>, <span>Discovery</span>, <span>Problem-Based</span>, <span>Experiential</span>, and <span>Inquiry-Based Teaching</span>“</span>. <em>Educational Psychologist</em> 41 (2): 75–86. <a href="https://doi.org/10.1207/s15326985ep4102_1">https://doi.org/10.1207/s15326985ep4102_1</a>.
 </div>
 <div id="ref-swellerDevelopmentCognitiveLoad2023" class="csl-entry" role="listitem">
-Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>.”</span> <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
+Sweller, John. 2023. <span>„The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>“</span>. <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
 </div>
 <div id="ref-toner-rodgersArtificialIntelligenceScientific2025" class="csl-entry" role="listitem">
-Toner-Rodgers, Aidan. 2025. <span>“Artificial <span>Intelligence</span>, <span>Scientific Discovery</span>, and <span>Product Innovation</span>.”</span> May 20, 2025. <a href="https://doi.org/10.48550/arXiv.2412.17866">https://doi.org/10.48550/arXiv.2412.17866</a>.
+Toner-Rodgers, Aidan. 2025. <span>„Artificial <span>Intelligence</span>, <span>Scientific Discovery</span>, and <span>Product Innovation</span>“</span>. 20. Mai 2025. <a href="https://doi.org/10.48550/arXiv.2412.17866">https://doi.org/10.48550/arXiv.2412.17866</a>.
 </div>
 </div>
 
@@ -967,12 +960,12 @@ Toner-Rodgers, Aidan. 2025. <span>“Artificial <span>Intelligence</span>, <span
           // flash "checked"
           button.classList.add('code-copy-button-checked');
           var currentTitle = button.getAttribute("title");
-          button.setAttribute("title", "Copied!");
+          button.setAttribute("title", "Kopiert");
           let tooltip;
           if (window.bootstrap) {
             button.setAttribute("data-bs-toggle", "tooltip");
             button.setAttribute("data-bs-placement", "left");
-            button.setAttribute("data-bs-title", "Copied!");
+            button.setAttribute("data-bs-title", "Kopiert");
             tooltip = new bootstrap.Tooltip(button, 
               { trigger: "manual", 
                 customClass: "code-copy-button-tooltip",

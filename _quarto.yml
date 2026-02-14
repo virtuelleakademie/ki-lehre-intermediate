@@ -50,9 +50,16 @@ website:
         text: "3: Praxis"
 
     right:
-      - icon: file-slides
-        text: "Dokumente" # {{< fa person-chalkboard >}}
+      - icon: book
+        text: "Dokumente"
         menu:
+          - text: "Die 8 Make it Stick Strategien"
+            file: resources/handout-make-it-stick/index.qmd
+          - text: "Agent-Beispiele"
+            file: resources/agent-beispiele/index.qmd
+          - text: "Produktive Anstrengung durch Design"
+            file: resources/produktive-anstrengung/index.qmd
+          - text: "---"
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
           - text: "Begleitdokument: KI Policy (PDF)"
@@ -112,14 +119,22 @@ website:
         - 03-praxis/index.qmd
         - 03-praxis/5-fragen-framework/index.qmd
         - 03-praxis/fallstudien/index.qmd
-        - 03-praxis/handout-make-it-stick/index.qmd
-        - 03-praxis/agent-beispiele/index.qmd
-        - 03-praxis/produktive-anstrengung/index.qmd
+
+    - title: "Ressourcen"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - resources/handout-make-it-stick/index.qmd
+        - resources/agent-beispiele/index.qmd
+        - resources/produktive-anstrengung/index.qmd
 
 page-footer:
     right:
     - icon: github
       href: https://github.com/virtuelleakademie/ki-lehre-intermediate/
+
+lang: de
 
 format:
   html:
@@ -231,6 +246,18 @@ custom-callout:
     title: "Pro Tip"
     icon-symbol: "💡"
     color: "gold"
+    collapse: true
+
+  nachlesen:
+    title: "Zum Nachlesen"
+    icon-symbol: "📖"
+    color: "#64748b"
+    collapse: true
+
+  facilitator:
+    title: "Moderationshinweis"
+    icon-symbol: "📋"
+    color: "#d97706"
     collapse: true
 
   # # Technical Elements

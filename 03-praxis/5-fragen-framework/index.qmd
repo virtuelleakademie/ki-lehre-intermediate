@@ -82,21 +82,30 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | 1. Geht es ums **Lernen**? | Lernen ≠ Leisten, denn Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau |
 | 2. Werden **Grundlagen** aufgebaut? | Novizen-Experten-Progression & Expertise Reversal Effect: Was Anfängern hilft, schadet Experten |
 | 3. Muss **internes Wissen** nachgewiesen werden? | Schemabildung & Langzeitgedächtnis, also Wissen muss intern aufgebaut, nicht extern geliefert werden |
-| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Cargo Cult Scholarship: Oberflächenprodukte ohne Denkprozess |
+| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess |
 | 5. Gibt es **Versuch-dann-Prüfe**? | Vorhersagefehler & Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback |
 
 
-## Anwendungsbeispiel: Volkswirtschaftslehre
+## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
 
 **Ursprüngliche Aufgabe**: "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
+
+Die ersten drei Fragen sind analysiert. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.
 
 | Frage | Analyse |
 |-------|---------|
 | 1. Lernen? | Ja, denn es ist eine Hausaufgabe im 2. Semester |
 | 2. Grundlagen? | Ja, denn makroökonomische Modelle werden gerade aufgebaut |
 | 3. Internes Wissen? | Nein, der Text kann mit KI produziert werden |
-| 4. KI ohne Denkarbeit? | Ja, ChatGPT liefert eine solide Analyse |
-| 5. Versuch-dann-Prüfe? | Nein, keine Struktur dafür |
+| 4. KI ohne Denkarbeit? | *Deine Einschätzung:* ________________________ |
+| 5. Versuch-dann-Prüfe? | *Deine Einschätzung:* ________________________ |
+
+::: {.pro-tip collapse="true"}
+### Lösung: Fragen 4 und 5
+
+**Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?** Ja. "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt" ist ein einfacher Prompt. ChatGPT liefert eine solide Analyse mit korrekter ökonomischer Logik.
+
+**Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?** Nein. Es gibt keine eingebaute Phase, in der Studierende zuerst selbst analysieren, bevor sie KI konsultieren.
 
 **Redesign:**
 
@@ -104,7 +113,8 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 - **Phase 2**: KI-generierte Analyse als Vergleich, wobei Studierende Unterschiede identifizieren und beide Argumentationen bewerten
 - **Phase 3**: Mündliche Kurzpräsentation der Synthese (2 Min)
 
-→ Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
+Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
+:::
 
 
 ## Disziplinspezifische Hinweise
@@ -174,13 +184,94 @@ Die 5 Fragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach,
 
 ## Zusammenfassung
 
+```{r}
+#| label: fig-5-fragen-summary
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph five_questions {
+  graph [
+    rankdir = TB
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.6
+    ranksep = 0.7
+    margin = 0.2
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 13
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 11
+    color = '#999999'
+    arrowsize = 0.8
+  ]
+
+  start [
+    label = 'Aufgabe analysieren'
+    fillcolor = '#64748b'
+    fontsize = 14
+  ]
+
+  q1 [label = '1. Geht es primär\\nums Lernen?' fillcolor = '#2563eb']
+  q2 [label = '2. Werden noch\\nGrundlagen aufgebaut?' fillcolor = '#2563eb']
+  q3 [label = '3. Muss internes Wissen\\nnachgewiesen werden?' fillcolor = '#2563eb']
+  q4 [label = '4. Kann KI ohne\\nDenkarbeit erledigen?' fillcolor = '#2563eb']
+  q5 [label = '5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?' fillcolor = '#2563eb']
+
+  e1 [label = 'KI-Unterstützung\\nkann sinnvoll sein' fillcolor = '#16a34a']
+  e2 [label = 'KI als Verstärker\\nmöglich' fillcolor = '#16a34a']
+  e3 [label = 'Aufgabenformat\\nändern' fillcolor = '#dc2626']
+  e4 [label = 'Aufgabe\\numgestalten' fillcolor = '#dc2626']
+  e5 [label = 'Struktur\\neinbauen' fillcolor = '#f59e0b' fontcolor = '#222222']
+
+  success [
+    label = 'Aufgabe bereit ✓\n(mit oder ohne KI)'
+    fillcolor = '#16a34a'
+    fontsize = 14
+  ]
+
+  noai [
+    label = 'Keine KI nötig ✓\nAufgabe funktioniert bereits'
+    fillcolor = '#16a34a'
+    fontsize = 12
+  ]
+
+  start -> q1
+
+  q1 -> q2 [label = '  Ja  ']
+  q2 -> q3 [label = '  Ja  ']
+  q3 -> q4 [label = '  Ja  ']
+  q4 -> q5 [label = '  Nein  ']
+  q4 -> noai [label = '  Nein +\n  bewahrt Anstrengung  ']
+  q5 -> success [label = '  Ja  ']
+
+  q1 -> e1 [label = '  Nein  ']
+  q2 -> e2 [label = '  Nein  ']
+  q3 -> e3 [label = '  Nein  ']
+  q4 -> e4 [label = '  Ja  ']
+  q5 -> e5 [label = '  Nein  ']
+
+  {rank = same; q1; e1}
+  {rank = same; q2; e2}
+  {rank = same; q3; e3}
+  {rank = same; q4; e4; noai}
+  {rank = same; q5; e5}
+}
+")
 ```
-Geht es ums Lernen?
-  └─ Ja → Werden Grundlagen aufgebaut?
-              └─ Ja → Internes Wissen nötig?
-                          └─ Nein → Aufgabe umgestalten
-                          └─ Ja → Versuch-dann-Prüfe?
-                                      └─ Nein → Struktur einbauen
-                                      └─ Ja → KI sinnvoll einsetzbar
-  └─ Nein → KI-Unterstützung kann sinnvoll sein
-```
+
+::: {.callout-note title="Nicht jede Aufgabe braucht KI" appearance="simple"}
+Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Das Framework kann auch bestätigen, dass dein aktuelles Design bereits solide ist.
+:::

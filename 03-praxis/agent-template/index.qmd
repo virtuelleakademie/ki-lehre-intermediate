@@ -86,7 +86,7 @@ Wähle **eine** der folgenden Optionen:
 
 ## Option C: Eine Strategie explizit einbauen
 
-- Wähle eine der [8 Make-it-Stick-Strategien](../handout-make-it-stick/)
+- Wähle eine der [8 Make-it-Stick-Strategien](../../resources/handout-make-it-stick/)
 - Integriere sie explizit in den Prompt
 - Teste, ob die Versuch-dann-Prüfe-Struktur erhalten bleibt
 :::
@@ -101,4 +101,4 @@ Gute Agents für Lernen:
 3. **Prozess über Produkt**: Fördert *wie* Studierende denken, nicht nur *was* sie produzieren
 4. **Explizite Signale**: Lenkt Aufmerksamkeit auf lernrelevante Merkmale
 
-{{< bi lightbulb >}} [Weitere Agent-Beispiele für jede Strategie](../agent-beispiele/)
+{{< bi lightbulb >}} [Weitere Agent-Beispiele für jede Strategie](../../resources/agent-beispiele/)

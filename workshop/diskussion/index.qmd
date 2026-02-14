@@ -32,6 +32,12 @@ Erinnert euch an eure 3 Vorhersagen vom Anfang: *"Was sind die wichtigsten Fakto
 
 ## Blitzlicht (5 Min)
 
+::: {.active-processing}
+### Kernbotschaft in eigenen Worten
+
+Bevor wir teilen: Erkläre in zwei Sätzen, **warum kognitive Anstrengung der Mechanismus für Lernen ist**. Nutze dabei mindestens ein Konzept aus dem Workshop.
+:::
+
 **Jeder teilt in 30 Sekunden:**
 
 - **Eine Erkenntnis** aus dem heutigen Workshop
