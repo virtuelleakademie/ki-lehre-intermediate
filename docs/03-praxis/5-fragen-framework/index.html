@@ -82,6 +82,17 @@ ul.task-list li input[type="checkbox"] {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 div.callout-individual.callout {
   border-left-color: steelblue;
 }
@@ -91,17 +102,6 @@ div.callout-individual.callout-style-default > .callout-header {
 div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '💻';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -115,6 +115,17 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -124,17 +135,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -148,14 +148,14 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: purple;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
@@ -308,7 +308,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   </ul>
 </li>
   <li><a href="#theoretische-fundierung" id="toc-theoretische-fundierung" class="nav-link" data-scroll-target="#theoretische-fundierung">Theoretische Fundierung</a></li>
-  <li><a href="#anwendungsbeispiel-volkswirtschaftslehre" id="toc-anwendungsbeispiel-volkswirtschaftslehre" class="nav-link" data-scroll-target="#anwendungsbeispiel-volkswirtschaftslehre">Anwendungsbeispiel: Volkswirtschaftslehre</a></li>
+  <li><a href="#teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre" id="toc-teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre" class="nav-link" data-scroll-target="#teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre">Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre</a></li>
   <li>
 <a href="#disziplinspezifische-hinweise" id="toc-disziplinspezifische-hinweise" class="nav-link" data-scroll-target="#disziplinspezifische-hinweise">Disziplinspezifische Hinweise</a>
   <ul class="collapse">
@@ -450,8 +450,9 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <td>Vorhersagefehler &amp; Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback</td>
 </tr>
 </tbody>
-</table></section><section id="anwendungsbeispiel-volkswirtschaftslehre" class="level2"><h2 class="anchored" data-anchor-id="anwendungsbeispiel-volkswirtschaftslehre">Anwendungsbeispiel: Volkswirtschaftslehre</h2>
+</table></section><section id="teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre" class="level2"><h2 class="anchored" data-anchor-id="teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre">Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre</h2>
 <p><strong>Ursprüngliche Aufgabe</strong>: “Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt.”</p>
+<p>Die ersten drei Fragen sind analysiert. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 43%">
@@ -476,14 +477,30 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </tr>
 <tr class="even">
 <td>4. KI ohne Denkarbeit?</td>
-<td>Ja, ChatGPT liefert eine solide Analyse</td>
+<td>
+<em>Deine Einschätzung:</em> ________________________</td>
 </tr>
 <tr class="odd">
 <td>5. Versuch-dann-Prüfe?</td>
-<td>Nein, keine Struktur dafür</td>
+<td>
+<em>Deine Einschätzung:</em> ________________________</td>
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Lösung: Fragen 4 und 5
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?</strong> Ja. “Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt” ist ein einfacher Prompt. ChatGPT liefert eine solide Analyse mit korrekter ökonomischer Logik.</p>
+<p><strong>Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</strong> Nein. Es gibt keine eingebaute Phase, in der Studierende zuerst selbst analysieren, bevor sie KI konsultieren.</p>
 <p><strong>Redesign:</strong></p>
 <ul>
 <li>
@@ -493,7 +510,10 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>
 <strong>Phase 3</strong>: Mündliche Kurzpräsentation der Synthese (2 Min)</li>
 </ul>
-<p>→ Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.</p>
+<p>Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.</p>
+</div>
+</div>
+</div>
 </section><section id="disziplinspezifische-hinweise" class="level2"><h2 class="anchored" data-anchor-id="disziplinspezifische-hinweise">Disziplinspezifische Hinweise</h2>
 <section id="mathematik-und-naturwissenschaften" class="level3"><h3 class="anchored" data-anchor-id="mathematik-und-naturwissenschaften">Mathematik und Naturwissenschaften</h3>
 <ul>
@@ -610,12 +630,25 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <div class="cell">
 <div id="fig-5-fragen-summary" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-5-fragen-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-0cd3a9566cb60ac14a5c" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-0cd3a9566cb60ac14a5c">{"x":{"diagram":"\ndigraph five_questions {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#2563eb\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#2563eb\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#2563eb\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#2563eb\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#2563eb\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#16a34a\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#16a34a\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#dc2626\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#dc2626\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#f59e0b\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"KI sinnvoll einsetzbar\"\n    fillcolor = \"#16a34a\"\n    fontsize = 14\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-7af9bd0a300845747a83" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-7af9bd0a300845747a83">{"x":{"diagram":"\ndigraph five_questions {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#2563eb\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#2563eb\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#2563eb\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#2563eb\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#2563eb\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#16a34a\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#16a34a\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#dc2626\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#dc2626\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#f59e0b\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"Aufgabe bereit ✓\n(mit oder ohne KI)\"\n    fillcolor = \"#16a34a\"\n    fontsize = 14\n  ]\n\n  noai [\n    label = \"Keine KI nötig ✓\nAufgabe funktioniert bereits\"\n    fillcolor = \"#16a34a\"\n    fontsize = 12\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q4 -> noai [label = \"  Nein +\n  bewahrt Anstrengung  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4; noai}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-5-fragen-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1
 </figcaption></figure>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled" title="Nicht jede Aufgabe braucht KI">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Nicht jede Aufgabe braucht KI
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Das Framework kann auch bestätigen, dass dein aktuelles Design bereits solide ist.</p>
 </div>
 </div>
 

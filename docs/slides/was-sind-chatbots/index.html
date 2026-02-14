@@ -32,7 +32,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8910c83ed40c291cdbba4a0e0b83eb6e.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8fb4ea61ef6030b6d5f3e8e39ac4e811.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -139,26 +139,15 @@
     }
   </style>
   <style>
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
   }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
   }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: purple;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   div.callout-agent-potential.callout {
@@ -172,15 +161,26 @@
     content: '🤖';
     background-image: none;
   }
-  div.callout-group.callout {
-    border-left-color: purple;
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
   }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
   }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-individual.callout {
@@ -194,26 +194,26 @@
     content: '💻';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-group.callout {
+    border-left-color: purple;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
     content: '👥';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
+  div.callout-reflect.callout {
+    border-left-color: purple;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   </style>
@@ -305,7 +305,7 @@ Andrew Ellis
 </div>
 <p><strong>Syntaktische Struktur (Grammatik und Struktur des Satzes):</strong></p>
 <ul>
-<li>Das Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen—im Plural—beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).</li>
+<li>Das Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen im Plural beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).</li>
 <li>Der Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.</li>
 </ul>
 <p><strong>Semantischer Kontext (Bedeutung):</strong></p>
@@ -353,6 +353,25 @@ Ein LLM wird in drei Schritten aufgebaut:
 <h2>Wie werden LLMs trainiert?</h2>
 
 <img data-src="../../assets/images/llm-training.png" class="r-stretch"></section>
+<section id="llms-und-menschliches-lernen" class="slide level2">
+<h2>LLMs und menschliches Lernen</h2>
+<p>LLMs lernen statistische Muster aus Milliarden von Texten. Menschen lernen durch <strong>aktive Auseinandersetzung</strong> mit dem Stoff: Vorhersagen treffen, Fehler machen, Schemas aufbauen.</p>
+<div title="Das Evaluationsparadox">
+<div class="callout callout-note callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Das Evaluationsparadox</strong></p>
+</div>
+<div class="callout-content">
+<p>Um KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll. LLMs liefern flüssige Texte, aber Flüssigkeit ist kein Zeichen für Verständnis.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="gefahren-und-herausforderungen" class="slide level2">
 <h2>Gefahren und Herausforderungen</h2>
 <div class="columns">
@@ -385,36 +404,44 @@ Ein LLM wird in drei Schritten aufgebaut:
 <p><img data-src="../../assets/images/KnowledgeBase.png"></p>
 </div></div>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Das ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen.</p></li></ol></aside></section>
-<section id="chatgpt" class="slide level2">
-<h2>ChatGPT</h2>
+<section id="chatgpt-die-bekannteste-oberfläche" class="slide level2">
+<h2>ChatGPT: Die bekannteste Oberfläche</h2>
+<p>Die Chat-Oberfläche von OpenAI, die LLMs für alle zugänglich gemacht hat.</p>
 
 <img data-src="../../assets/images/chatgpt.png" class="r-stretch"></section>
 <section id="fragen-beantworten" class="slide level2">
 <h2>Fragen beantworten</h2>
+<p>Direkte Wissensfragen sind die einfachste Anwendung.</p>
 
 <img data-src="../../assets/images/fragen-beantworten.png" class="r-stretch"></section>
 <section id="bilder-analysieren" class="slide level2">
 <h2>Bilder analysieren</h2>
+<p>Multimodale Modelle können auch visuellen Input verarbeiten.</p>
 
 <img data-src="../../assets/images/bilder-analysieren.png" class="r-stretch"></section>
 <section id="dokumente-zusammenfassen" class="slide level2">
 <h2>Dokumente zusammenfassen</h2>
+<p>Lange Texte in Kernaussagen destillieren.</p>
 
 <img data-src="../../assets/images/dokumente-zusammenfassen.png" class="r-stretch"></section>
 <section id="output-strukturieren" class="slide level2">
 <h2>Output strukturieren</h2>
+<p>Antworten in Tabellen, Listen oder spezifische Formate bringen.</p>
 
 <img data-src="../../assets/images/output-strukturieren.png" class="r-stretch"></section>
 <section id="websuche" class="slide level2">
 <h2>Websuche</h2>
+<p>Aktuelle Informationen aus dem Internet einbeziehen.</p>
 
 <img data-src="../../assets/images/websuche.png" class="r-stretch"></section>
 <section id="datenanalyse" class="slide level2">
 <h2>Datenanalyse</h2>
+<p>Code ausführen, Daten analysieren und visualisieren.</p>
 
 <img data-src="../../assets/images/datenanalyse.png" class="r-stretch"></section>
 <section id="custom-gpts" class="slide level2">
 <h2>Custom GPTs</h2>
+<p>Eigene, spezialisierte Assistenten mit vordefinierten Instruktionen erstellen.</p>
 
 
 

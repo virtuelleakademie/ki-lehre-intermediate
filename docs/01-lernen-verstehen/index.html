@@ -109,6 +109,17 @@ div.csl-indent {
   });
 </script>
 <style>
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -118,28 +129,6 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -153,15 +142,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-group.callout {
+div.callout-reflect.callout {
   border-left-color: purple;
 }
-div.callout-group.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -175,15 +164,26 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 </style>
@@ -347,7 +347,6 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   <li><a href="#warum-anstrengung-das-feature-ist" id="toc-warum-anstrengung-das-feature-ist" class="nav-link" data-scroll-target="#warum-anstrengung-das-feature-ist">Warum Anstrengung das Feature ist</a>
   <ul class="collapse">
   <li><a href="#wünschenswerte-schwierigkeiten-desirable-difficulties" id="toc-wünschenswerte-schwierigkeiten-desirable-difficulties" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten-desirable-difficulties">Wünschenswerte Schwierigkeiten (Desirable Difficulties)</a></li>
-  <li><a href="#warum-kontext-das-erinnern-bestimmt" id="toc-warum-kontext-das-erinnern-bestimmt" class="nav-link" data-scroll-target="#warum-kontext-das-erinnern-bestimmt">Warum Kontext das Erinnern bestimmt</a></li>
   <li><a href="#die-metakognitive-falle" id="toc-die-metakognitive-falle" class="nav-link" data-scroll-target="#die-metakognitive-falle">Die metakognitive Falle</a></li>
   <li><a href="#cognitive-load-theory" id="toc-cognitive-load-theory" class="nav-link" data-scroll-target="#cognitive-load-theory">Cognitive Load Theory</a></li>
   </ul></li>
@@ -495,6 +494,19 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li>Für Experten kehrt sich dieser Effekt um</li>
 <li>Die Asymmetrie zwischen Anfängern und Experten wird ein zentrales Thema für KI in der Lehre</li>
 </ul>
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Kurzcheck (1 Min)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Ohne zurückzuschauen:</strong> Was ist der Expertise Reversal Effect in einem Satz? Warum ist er für KI in der Lehre relevant?</p>
+</div>
+</div>
 </section>
 </section>
 <section id="warum-anstrengung-das-feature-ist" class="level2">
@@ -508,25 +520,6 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li><strong>Abwechslung (Interleaving)</strong>: Aufgabentypen mischen statt blockweise üben</li>
 <li><strong>Generierungseffekt</strong>: Selbst produzieren statt passiv aufnehmen</li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Wie die Konzepte zusammenhängen
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Die drei Ebenen des Lernens:</p>
-<ol type="1">
-<li><strong>Das Ziel</strong> (Was Lernende tun): Ein internes Modell aufbauen, das Vorhersagen, Erklärungen und Lösungen generieren kann</li>
-<li><strong>Der Mechanismus</strong> (Wie das Gehirn aktualisiert): Durch Vorhersagefehler, Elaboration und Konsolidierung</li>
-<li><strong>Das Design</strong> (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen, etwa durch Abrufpraxis, Spacing, Interleaving und Generierung</li>
-</ol>
-<p>Die Strategien sind das <em>Wie</em>, Desirable Difficulties das <em>Was</em>, und der Aufbau eines generativen internen Modells das <em>Warum</em>.</p>
-</div>
-</div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -540,15 +533,49 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <p><strong>Ohne zurückzuschauen:</strong> Notiere in Stichworten:</p>
 <ul>
 <li>Was sind die 4 Formen wünschenswerter Schwierigkeiten?</li>
-<li>Welche davon setzt du bereits in deiner Lehre ein?</li>
+<li>Wähle eine davon und erkläre in einem Satz, <em>warum</em> sie funktioniert (welcher kognitive Mechanismus steckt dahinter?)</li>
 </ul>
 <p><em>Wenn das schwierig ist: gut. Das ist der Punkt.</em></p>
 </div>
 </div>
-</section>
-<section id="warum-kontext-das-erinnern-bestimmt" class="level3">
-<h3 class="anchored" data-anchor-id="warum-kontext-das-erinnern-bestimmt">Warum Kontext das Erinnern bestimmt</h3>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Wie die Konzepte zusammenhängen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Die drei Ebenen des Lernens:</p>
+<ol type="1">
+<li><strong>Das Ziel</strong> (Was Lernende tun): Ein internes Modell aufbauen, das Vorhersagen, Erklärungen und Lösungen generieren kann</li>
+<li><strong>Der Mechanismus</strong> (Wie das Gehirn aktualisiert): Durch Vorhersagefehler, Elaboration und Konsolidierung</li>
+<li><strong>Das Design</strong> (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen, etwa durch Abrufpraxis, Spacing, Interleaving und Generierung</li>
+</ol>
+<p>Die Strategien sind das <em>Wie</em>, Desirable Difficulties das <em>Was</em>, und der Aufbau eines generativen internen Modells das <em>Warum</em>.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Vertiefung: Warum Kontext das Erinnern bestimmt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Tulvings <strong>Encoding-Specificity-Prinzip</strong> <span class="citation" data-cites="tulvingEpisodicMemoryMind2002">(<a href="#ref-tulvingEpisodicMemoryMind2002" role="doc-biblioref">2002</a>)</span> zeigt: Gedächtnisabruf funktioniert am besten, wenn der Abrufkontext mit dem Lernkontext übereinstimmt. Studierende “wissen” oft etwas im Vorlesungskontext, können aber in der Prüfung nicht darauf zugreifen, weil der Abrufpfad kontextabhängig ist. Das ist ein starkes Argument für <em>variierende Kontexte</em> beim Üben und für <em>Interleaving</em>: Jeder neue Kontext schafft zusätzliche Abrufpfade und macht Wissen transferierbarer.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="die-metakognitive-falle" class="level3">
 <h3 class="anchored" data-anchor-id="die-metakognitive-falle">Die metakognitive Falle</h3>
@@ -610,7 +637,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Pair</span>Case Study Analysis (10 Min)
+<span class="screen-reader-only">Pair</span>Fallstudien-Analyse (10 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -628,7 +655,20 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </blockquote>
 </div>
 </div>
-<hr>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Wichtigste Erkenntnis (1 Min)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Schreibe in einem Satz auf: <strong>Was ist die wichtigste Erkenntnis aus Teil 1 für deine eigene Lehre?</strong></p>
+<p><em>Diese Konsolidierung vor der Pause hilft, das Gelernte zu verankern, bevor neuer Input kommt.</em></p>
+</div>
+</div>
 </section>
 <section id="vertiefende-ressourcen" class="level2">
 <h2 class="anchored" data-anchor-id="vertiefende-ressourcen">Vertiefende Ressourcen</h2>

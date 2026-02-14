@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8910c83ed40c291cdbba4a0e0b83eb6e.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-8fb4ea61ef6030b6d5f3e8e39ac4e811.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -159,37 +159,15 @@
     }
   </style>
   <style>
-  div.callout-agent-potential.callout {
+  div.callout-active-processing.callout {
     border-left-color: #9A4665;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
+  div.callout-active-processing.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-pair.callout {
@@ -203,6 +181,28 @@
     content: '👥';
     background-image: none;
   }
+  div.callout-group.callout {
+    border-left-color: purple;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
+    background-image: none;
+  }
   div.callout-pro-tip.callout {
     border-left-color: gold;
   }
@@ -214,17 +214,6 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
   div.callout-reflect.callout {
     border-left-color: purple;
   }
@@ -234,6 +223,17 @@
   div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
     content: '💭';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
     background-image: none;
   }
   </style>
@@ -396,52 +396,36 @@ Andrew Ellis
 </section>
 <section id="die-drei-arten-kognitiver-belastung" class="slide level2">
 <h2>Die drei Arten kognitiver Belastung</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 30%">
-<col style="width: 25%">
-<col style="width: 32%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Art</th>
-<th>Definition</th>
-<th>Beispiel</th>
-<th>Gestaltbar?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Intrinsisch</strong></td>
-<td>Komplexität des Lernstoffs selbst</td>
-<td>Quantenphysik hat höhere intrinsische Last als Addition</td>
-<td>Begrenzt (Sequenzierung)</td>
-</tr>
-<tr class="even">
-<td><strong>Extrinsisch</strong></td>
-<td>Wie Material präsentiert wird</td>
-<td>Text und Grafik getrennt vs.&nbsp;integriert</td>
-<td>Durch gutes Design minimierbar</td>
-</tr>
-<tr class="odd">
-<td><strong>Lernrelevant</strong></td>
-<td>Mentaler Aufwand für Schemabildung</td>
-<td>Verbindungen herstellen, Muster erkennen</td>
-<td>Raum dafür schaffen</td>
-</tr>
-</tbody>
-</table>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Intrinsisch</strong></p>
+<p>Komplexität des Lernstoffs selbst</p>
+<p><em>Begrenzt steuerbar (Sequenzierung)</em></p>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p><strong>Extrinsisch</strong></p>
+<p>Wie Material präsentiert wird</p>
+<p><em>Durch Design <strong>minimierbar</strong></em></p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p><strong>Lernrelevant</strong></p>
+<p>Mentaler Aufwand für Schemabildung</p>
+<p><strong><em>Raum dafür schaffen</em></strong></p>
+</div>
+</div></div>
+</section>
+<section id="das-lerndilemma" class="slide level2">
+<h2>Das Lerndilemma</h2>
+<p>Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.</p>
+<div class="fragment">
+<p>Aber: Lernrelevanter cognitive load ist <strong>essentiell</strong> für Expertise-Entwicklung.</p>
+</div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Das Lerndilemma</strong>:</p>
-<ul>
-<li>Gesamtlast darf Arbeitsgedächtnis nicht überfordern</li>
-<li>Aber: Lernrelevanter <em>cognitive load</em> ist essentiell für Expertise-Entwicklung</li>
-<li><strong>Lösung</strong>: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen</li>
-</ul>
+<p><strong>Lösung</strong>: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen.</p>
 </div>
 </div>
 </div>
@@ -487,94 +471,81 @@ Andrew Ellis
 </div>
 </div>
 </section>
-<section id="clt-und-ki-cognitive-offloading" class="slide level2 smaller">
-<h2>CLT und KI: Cognitive Offloading</h2>
-<p><strong>Das Lernparadox: KI optimiert für Produktion statt Lernen</strong></p>
+<section id="clt-und-ki-was-passiert-bei-outsourcing" class="slide level2">
+<h2>CLT und KI: Was passiert bei Outsourcing?</h2>
+<p><strong>KI optimiert für Produktion statt Lernen</strong></p>
 <table class="caption-top">
-<colgroup>
-<col style="width: 21%">
-<col style="width: 24%">
-<col style="width: 21%">
-<col style="width: 32%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Kognitive Last</th>
 <th>Ohne KI</th>
 <th>Mit KI (Outsourcing)</th>
-<th>Konsequenz</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Intrinsisch</strong></td>
 <td>Bleibt konstant</td>
-<td>Scheint reduziert</td>
-<td>Komplexität wird versteckt, nicht bewältigt</td>
+<td>Wird umgangen</td>
 </tr>
 <tr class="even">
 <td><strong>Extrinsisch</strong></td>
 <td>Variabel</td>
 <td>Minimiert</td>
-<td>Gut für Effizienz</td>
 </tr>
 <tr class="odd">
 <td><strong>Lernrelevant</strong></td>
 <td>Wird aufgebracht</td>
-<td>Eliminiert</td>
-<td>Keine Schemabildung</td>
+<td><strong>Eliminiert</strong></td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
+<p>Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.</p>
+</div>
+</section>
+<section id="clt-und-ki-die-nuance" class="slide level2">
+<h2>CLT und KI: Die Nuance</h2>
 <div class="callout callout-note no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Wichtig</strong>: Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing). Wenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last erhalten bleiben.</p>
+<p>Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing).</p>
 </div>
 </div>
 </div>
+<div class="fragment">
+<p>Wenn KI <em>nach eigenem Versuch</em> als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last <strong>erhalten bleiben</strong>.</p>
+</div>
+<div class="fragment">
+<p>Die Reihenfolge entscheidet: <strong>Versuch → dann → KI-Feedback</strong></p>
 </div>
 </section>
-<section id="clt-und-ki-lernmechanismen" class="slide level2 smaller">
-<h2>CLT und KI: Lernmechanismen</h2>
-<p><strong>Drei kritische Lernmechanismen werden durch Outsourcing ausgeschaltet:</strong></p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 32%">
-<col style="width: 20%">
-<col style="width: 47%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Mechanismus</th>
-<th>Normal</th>
-<th>Mit KI-Outsourcing</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Erwartung vs.&nbsp;Realität</strong> (Vorhersagefehler)</td>
-<td>Lücke zwischen Erwartung &amp; Realität = Lernsignal</td>
-<td>Keine Erwartungen → kein Lernen</td>
-</tr>
-<tr class="even">
-<td><strong>Gedächtniskonsolidierung</strong></td>
-<td>Aktive Verarbeitung → Speicherung</td>
-<td>Passive Konsumption → Vergessen</td>
-</tr>
-<tr class="odd">
-<td><strong>Prozedurale Entwicklung</strong></td>
-<td>Tausende Wiederholungen → Automatismen</td>
-<td>Überspringen → keine Expertise</td>
-</tr>
-</tbody>
-</table>
+<section id="drei-lernmechanismen-die-outsourcing-ausschaltet" class="slide level2">
+<h2>Drei Lernmechanismen, die Outsourcing ausschaltet</h2>
+<p><strong>1. Vorhersagefehler</strong></p>
+<ul>
+<li>Normal: Lücke zwischen Erwartung &amp; Realität = Lernsignal</li>
+<li>Outsourcing: Keine Erwartungen → kein Lernen</li>
+</ul>
+<div class="fragment">
+<p><strong>2. Gedächtniskonsolidierung</strong></p>
+<ul>
+<li>Normal: Aktive Verarbeitung → Speicherung</li>
+<li>Outsourcing: Passive Konsumption → Vergessen</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>3. Prozedurale Entwicklung</strong></p>
+<ul>
+<li>Normal: Tausende Wiederholungen → Automatismen</li>
+<li>Outsourcing: Überspringen → keine Expertise</li>
+</ul>
+</div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung</p>
+<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.</p>
 </div>
 </div>
 </div>
