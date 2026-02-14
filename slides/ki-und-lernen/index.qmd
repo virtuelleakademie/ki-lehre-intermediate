@@ -4,19 +4,41 @@ subtitle: "Wann KI das Lernen unterstützt, und wann sie es verhindert"
 ---
 
 
-## Offloading vs. Outsourcing {.smaller}
+## Offloading vs. Outsourcing
 
-**Die entscheidende Unterscheidung: kategorial, nicht graduell**
+**Die entscheidende Unterscheidung**
 
-| | **Cognitive Offloading** | **Cognitive Outsourcing** |
-|---|---|---|
-| **Was passiert** | Tool reduziert Arbeitsgedächtnis-Last, *während* die Person denkt | Tool *übernimmt* das Denken |
-| **Beispiel** | Taschenrechner bei Problemlösung | KI schreibt den Aufsatz |
-| **Lernrelevante Last** | Bleibt erhalten | **Wird eliminiert** |
-| **Expertise** | Wird unterstützt | **Wird verhindert** |
+::::{.columns}
+:::{.column width="48%"}
+### Cognitive Offloading
 
+Tool reduziert Arbeitsgedächtnis-Last, **während** die Person denkt
+
+*Beispiel:* Taschenrechner bei Problemlösung
+
+Lernrelevante Last: **erhalten**
+:::
+
+:::{.column width="4%"}
+:::
+
+:::{.column width="48%"}
+:::{.fragment}
+### Cognitive Outsourcing
+
+Tool **übernimmt** das Denken
+
+*Beispiel:* KI schreibt den Aufsatz
+
+Lernrelevante Last: **eliminiert**
+:::
+:::
+::::
+
+:::{.fragment}
 ::: {.callout-warning}
 **Outsourcing eliminiert germane load. Das ist keine Nebenwirkung, das ist der Mechanismus.**
+:::
 :::
 
 

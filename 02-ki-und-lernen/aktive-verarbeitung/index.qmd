@@ -5,35 +5,36 @@ title: "Aktive Verarbeitung"
 
 
 
+Diese Aktivität bildet die Brücke zwischen der Theorie (Teil 1 und 2) und der eigenen Lehrpraxis. Nutze die Konzepte, die du gerade kennengelernt hast, um eine reale Situation zu analysieren.
+
 ::: {.active-processing}
-## Think-Pair-Share: Kognitive Anstrengung und Lernen
+## Think-Pair-Share: Kognitive Anstrengung in der eigenen Lehre (10 Min)
 
-### **Think (5 Minuten)**
-Individuelle Reflexion zu den Fragen:
+### **Think (4 Minuten)**
 
-**Wähle eine Frage aus, die dir am ehesten zusagt:**
+Denke an eine Situation in deiner Lehre, in der Studierende den einfachsten Weg genommen haben (mit KI oder auf andere Weise).
 
-- Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?
-- Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden? 
-- Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?
+**Analysiere mit einem Konzept aus Teil 1 oder 2:**
 
-**Notiere kurz:**
+- *Warum* war das der einfachste Weg? (Welcher kognitive Mechanismus erklärt das Verhalten?)
+- War es *Offloading* oder *Outsourcing*? Woran machst du das fest?
+- Welche *eine Designänderung* an der Aufgabe hätte produktive Anstrengung zum natürlicheren Weg gemacht?
 
-1. Deine gewählte Frage und warum sie dich anspricht
-2. Ein konkretes Beispiel aus deiner eigenen Lern-/Lehrerfahrung
-3. Eine konkrete Veränderung, die du basierend auf dieser Erkenntnis vornehmen könntest
+**Notiere:**
 
-### **Pair (5 Minuten)**
-Finde eine\*n Partner\*in und:
+1. Die Situation und das Konzept, mit dem du sie analysierst
+2. Deine Designänderung
 
-- Je 2 Minuten zum Teilen der gewählten Frage und des Beispiels
-- 1 Minute gemeinsam, um ein gemeinsames Thema zwischen euren Erfahrungen zu identifizieren
+### **Pair (4 Minuten)**
 
-### **Share (5 Minuten)**
-Jedes Paar trägt **eine** Erkenntnis zur gesamten Gruppe bei:
+Tauscht eure Analysen aus:
 
-- "Wir haben beide bemerkt, dass..." oder "Ein Muster, das wir sahen, war..."
-- Fokus auf praktische Implikationen für die Lehrpraxis
+- Stimmt der/die Partner:in mit der Diagnose (Offloading vs. Outsourcing) überein?
+- Schützt die vorgeschlagene Designänderung tatsächlich die lernrelevante Verarbeitung?
+
+### **Share (2 Minuten)**
+
+1--2 Paare teilen: Welches Konzept war am aufschlussreichsten für die Analyse?
 :::
 
 

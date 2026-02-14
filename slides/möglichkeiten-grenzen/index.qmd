@@ -2,6 +2,11 @@
 title: "Möglichkeiten und Grenzen"
 ---
 
+## Warum Rahmenbedingungen wichtig sind
+
+Die Lernforschung zeigt: **Die Umgebung bestimmt das Verhalten** ("The Beach, Not the Ant"). Rechtliche und institutionelle Rahmenbedingungen sind Teil dieser Lernumgebung. Sie bestimmen mit, ob KI-Nutzung produktiv oder schädlich für das Lernen ist.
+
+
 ## Rechtliche Aspekte
 
 Zwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:

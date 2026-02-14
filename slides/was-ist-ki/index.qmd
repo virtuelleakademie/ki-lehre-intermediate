@@ -17,60 +17,30 @@ title: "Was ist Künstliche Intelligenz?"
 
 ::: {.column width="40%"}
 
-:::
-::::
-
-::: {.attribution}
-Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
-::: 
-
-## Erster Schritt: Eigene KI-Kompetenz entwickeln
-
-:::: {.columns}
-::: {.column width="60%"}
-### Warum du beginnen solltest
-
-![](../../assets/images/funf-schritte-model.png)
-
-[Blog Post: KI integrieren](https://barbarageyer.substack.com/p/ki-integration)
-:::
-
-::: {.column width="40%"}
-
+:::{.fragment}
 **Kommerzielle Tools**
 
 - [ChatGPT](https://chatgpt.com/)
 - [Claude](https://claude.ai/)
 - [Copilot](https://copilot.microsoft.com/)
 - [Gemini](https://gemini.google.com/)
-  
+
 **Lokale Sprachmodelle**
 
 - [LM Studio](https://lmstudio.ai/)
 - [Ollama](https://ollama.com/)
 :::
+:::
 ::::
 
 ::: {.attribution}
 Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
-::: 
+:::
 
 
 ## Was ist KI?
 
-
-::::{.columns}
-:::{.column width="30%"}
-
-
-:::
-
-:::{.column width="70%"}
 ![](../../assets/images/ai-diagram.svg)
-
-:::
-
-::::
 
 ## Symbolische KI / Maschinelles Lernen {.smaller}
 
@@ -96,14 +66,14 @@ Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
 ::::
 
 
-## Machine learning
+## Machine Learning: Neuronale Netze
 
 ![](../../assets/images/neural-network.gif)
 
 
-## Machine learning
+## Machine Learning: Drei Lernparadigmen
 
-:::: {.columns} 
+:::: {.columns}
 ::: {.column width="30%"}
 - Supervised learning
 - Unsupervised learning
@@ -118,9 +88,9 @@ Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
 
 
 
-## Machine learning
+## Machine Learning: Supervised Learning
 
-:::: {.columns} 
+:::: {.columns}
 ::: {.column width="30%"}
 - **Supervised learning**
 - Unsupervised learning
@@ -135,9 +105,9 @@ Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
 ::::
 
 
-## Machine learning
+## Machine Learning: Reinforcement Learning
 
-:::: {.columns} 
+:::: {.columns}
 ::: {.column width="30%"}
 - Supervised learning
 - Unsupervised learning
@@ -157,21 +127,9 @@ Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
 ::::
 
 
-## Klassifizierung
+## Klassifizierung: Katze oder Hund?
 
-
-::::{.columns}
-:::{.column width="30%"}
-
-
-:::
-
-:::{.column width="70%"}
 ![](../../assets/images/cats-vs-dogs.png)
-
-:::
-
-::::
 
 ::: {.attribution}
 Figure courtesy of [Branav Kumar Gnanamoorthy](https://medium.com/@gnabr/machine-learning-c28daf3cf60a)

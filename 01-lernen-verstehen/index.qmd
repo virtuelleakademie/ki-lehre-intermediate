@@ -81,6 +81,12 @@ Was Anfängern hilft, schadet Experten, und umgekehrt:
 - Für Experten kehrt sich dieser Effekt um
 - Die Asymmetrie zwischen Anfängern und Experten wird ein zentrales Thema für KI in der Lehre
 
+::: {.active-processing}
+### Kurzcheck (1 Min)
+
+**Ohne zurückzuschauen:** Was ist der Expertise Reversal Effect in einem Satz? Warum ist er für KI in der Lehre relevant?
+:::
+
 
 ## Warum Anstrengung das Feature ist
 
@@ -93,7 +99,18 @@ Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lerne
 3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
 4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
 
-::: {.callout-note}
+::: {.active-processing}
+### Kurz-Abruf (2 Min)
+
+**Ohne zurückzuschauen:** Notiere in Stichworten:
+
+- Was sind die 4 Formen wünschenswerter Schwierigkeiten?
+- Wähle eine davon und erkläre in einem Satz, *warum* sie funktioniert (welcher kognitive Mechanismus steckt dahinter?)
+
+*Wenn das schwierig ist: gut. Das ist der Punkt.*
+:::
+
+::: {.pro-tip collapse="true"}
 ### Wie die Konzepte zusammenhängen
 
 Die drei Ebenen des Lernens:
@@ -105,20 +122,11 @@ Die drei Ebenen des Lernens:
 Die Strategien sind das *Wie*, Desirable Difficulties das *Was*, und der Aufbau eines generativen internen Modells das *Warum*.
 :::
 
-::: {.active-processing}
-### Kurz-Abruf (2 Min)
-
-**Ohne zurückzuschauen:** Notiere in Stichworten:
-
-- Was sind die 4 Formen wünschenswerter Schwierigkeiten?
-- Welche davon setzt du bereits in deiner Lehre ein?
-
-*Wenn das schwierig ist: gut. Das ist der Punkt.*
-:::
-
-### Warum Kontext das Erinnern bestimmt
+::: {.pro-tip collapse="true"}
+### Vertiefung: Warum Kontext das Erinnern bestimmt
 
 Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeigt: Gedächtnisabruf funktioniert am besten, wenn der Abrufkontext mit dem Lernkontext übereinstimmt. Studierende "wissen" oft etwas im Vorlesungskontext, können aber in der Prüfung nicht darauf zugreifen, weil der Abrufpfad kontextabhängig ist. Das ist ein starkes Argument für *variierende Kontexte* beim Üben und für *Interleaving*: Jeder neue Kontext schafft zusätzliche Abrufpfade und macht Wissen transferierbarer.
+:::
 
 ### Die metakognitive Falle
 
@@ -147,7 +155,7 @@ Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach
 ## {{< bi megaphone >}} Fallstudien-Analyse
 
 ::: {.pair}
-### Case Study Analysis (10 Min)
+### Fallstudien-Analyse (10 Min)
 
 Analysiert in Paaren zwei Szenarien, ein effektives und ein ineffektives Beispiel für KI-Integration in der Lehre.
 
@@ -161,6 +169,14 @@ Nutzt die Konzepte aus Teil 1:
 - Cognitive Load Theory (extrinsisch vs. germane)
 
 > [Fallstudien-Material](../03-praxis/fallstudien/)
+:::
+
+::: {.individual}
+### Wichtigste Erkenntnis (1 Min)
+
+Schreibe in einem Satz auf: **Was ist die wichtigste Erkenntnis aus Teil 1 für deine eigene Lehre?**
+
+*Diese Konsolidierung vor der Pause hilft, das Gelernte zu verankern, bevor neuer Input kommt.*
 :::
 
 

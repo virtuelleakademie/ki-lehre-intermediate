@@ -166,6 +166,12 @@ Das 5-Fragen-Framework (→ Teil 3) hilft beim **Gestalten** von Aufgaben. Aber 
 
 Wer outsourct, hat auf Sonde 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → [Ausführliche Anleitung mit Beispielen](../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-sonden-für-den-lehralltag)
 
+::: {.pair}
+### Die 3 Sonden ausprobieren (1 Min)
+
+Wähle eine der 3 Sonden. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
+:::
+
 
 ## Das Evaluationsparadox
 

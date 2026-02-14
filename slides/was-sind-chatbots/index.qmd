@@ -189,8 +189,9 @@ Die verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken
 
 
 
-## ChatGPT
+## ChatGPT: Die bekannteste Oberfläche
 
+Die Chat-Oberfläche von OpenAI, die LLMs für alle zugänglich gemacht hat.
 
 ![](../../assets/images/chatgpt.png)
 
@@ -198,31 +199,45 @@ Die verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken
 
 ## Fragen beantworten
 
+Direkte Wissensfragen sind die einfachste Anwendung.
+
 ![](../../assets/images/fragen-beantworten.png)
 
 
 ## Bilder analysieren
 
+Multimodale Modelle können auch visuellen Input verarbeiten.
+
 ![](../../assets/images/bilder-analysieren.png)
 
 ## Dokumente zusammenfassen
+
+Lange Texte in Kernaussagen destillieren.
 
 ![](../../assets/images/dokumente-zusammenfassen.png)
 
 ## Output strukturieren
 
+Antworten in Tabellen, Listen oder spezifische Formate bringen.
+
 ![](../../assets/images/output-strukturieren.png)
 
 ## Websuche
+
+Aktuelle Informationen aus dem Internet einbeziehen.
 
 ![](../../assets/images/websuche.png)
 
 ## Datenanalyse
 
+Code ausführen, Daten analysieren und visualisieren.
+
 ![](../../assets/images/datenanalyse.png)
 
 
 ## Custom GPTs
+
+Eigene, spezialisierte Assistenten mit vordefinierten Instruktionen erstellen.
 
 ![](../../assets/images/gpts.png)
 

@@ -344,6 +344,17 @@ Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigene Aufgabe a
 - Durchgearbeitete Beispiele liefern, die den Prozess zeigen, nicht nur die Antworten
 - Unterstützung schrittweise abbauen, sobald Kompetenz entsteht (Scaffolding)
 
+::: {.reflect}
+### Reflexion: Prinzipien auf die eigene Lehre übertragen
+
+Wähle eines der vier Prinzipien (Entwicklungssequenz, kognitive Belastung, Struggle Window, Scaffolding):
+
+- Wie gut ist dieses Prinzip in einer deiner aktuellen Lehrveranstaltungen umgesetzt?
+- Was müsstest du konkret ändern?
+
+*Halte deine Antwort in 2--3 Sätzen fest, bevor du weiterliest.*
+:::
+
 ::: {.callout-tip}
 ### Vertiefung: Workshop-Konzept wissenschaftlich betrachtet
 
@@ -607,8 +618,15 @@ Seit den 1970er/80er Jahren, als Bildung sich vom Auswendiglernen abkehrte:
    - Fehler als Lernchancen, nicht als Scheitern sehen
 :::
 
+::: {.reflect}
+### Abschluss-Reflexion
 
+Du hast jetzt die vollständige wissenschaftliche Grundlage gelesen. Formuliere in einem Satz:
 
+**Was ist die wichtigste Erkenntnis, die du in deine nächste Lehrveranstaltung mitnimmst?**
+
+*Schreibe den Satz auf, bevor du die Schnellreferenz-Tabellen anschaust.*
+:::
 
 ---
 

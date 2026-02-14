@@ -20,6 +20,12 @@ Die 8 Strategien sind nicht unabhängig, sondern sie überlappen und verstärken
 In der Praxis nutzt du oft mehrere Strategien gleichzeitig.
 :::
 
+::: {.callout-tip}
+### Meta-Moment: Ironie bemerkt?
+
+Dieses Handout präsentiert die 8 Strategien in geblockter Reihenfolge (1, 2, 3, ...), obwohl Interleaving (Nr. 3) genau das Gegenteil empfiehlt. Im Workshop werden die Strategien tatsächlich verschränkt eingesetzt: Abrufpraxis nach der Pause, Generierung beim Einstieg, Variation durch verschiedene Fallstudien. Das Handout dient als Nachschlagewerk, nicht als Lernsequenz.
+:::
+
 ## Die 8 bewährten Lernstrategien
 
 ### 1. Abrufpraxis (Retrieval Practice)

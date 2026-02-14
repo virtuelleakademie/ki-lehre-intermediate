@@ -121,19 +121,48 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 
 ## Die drei Arten kognitiver Belastung
 
-| Art | Definition | Beispiel | Gestaltbar? |
-|-----|------------|----------|-------------|
-| **Intrinsisch** | Komplexität des Lernstoffs selbst | Quantenphysik hat höhere intrinsische Last als Addition | Begrenzt (Sequenzierung) |
-| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | Durch gutes Design minimierbar |
-| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | Raum dafür schaffen |
+::::{.columns}
+:::{.column width="33%"}
+**Intrinsisch**
+
+Komplexität des Lernstoffs selbst
+
+*Begrenzt steuerbar (Sequenzierung)*
+:::
+
+:::{.column width="33%"}
+:::{.fragment}
+**Extrinsisch**
+
+Wie Material präsentiert wird
+
+*Durch Design **minimierbar***
+:::
+:::
+
+:::{.column width="33%"}
+:::{.fragment}
+**Lernrelevant**
+
+Mentaler Aufwand für Schemabildung
+
+***Raum dafür schaffen***
+:::
+:::
+::::
+
+
+## Das Lerndilemma
+
+Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.
+
+:::{.fragment}
+Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklung.
+:::
 
 :::{.fragment}
 ::: {.callout-warning}
-**Das Lerndilemma**:
-
-- Gesamtlast darf Arbeitsgedächtnis nicht überfordern
-- Aber: Lernrelevanter _cognitive load_ ist essentiell für Expertise-Entwicklung
-- **Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen
+**Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen.
 :::
 :::
 
@@ -156,35 +185,55 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 :::
 
 
-## CLT und KI: Cognitive Offloading {.smaller}
+## CLT und KI: Was passiert bei Outsourcing?
 
-**Das Lernparadox: KI optimiert für Produktion statt Lernen**
+**KI optimiert für Produktion statt Lernen**
 
-| Kognitive Last | Ohne KI | Mit KI (Outsourcing) | Konsequenz |
-|--------|---------|--------|------------|
-| **Intrinsisch** | Bleibt konstant | Scheint reduziert | Komplexität wird versteckt, nicht bewältigt |
-| **Extrinsisch** | Variabel | Minimiert | Gut für Effizienz |
-| **Lernrelevant** | Wird aufgebracht | Eliminiert | Keine Schemabildung |
+| Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
+|--------|---------|--------|
+| **Intrinsisch** | Bleibt konstant | Scheint reduziert |
+| **Extrinsisch** | Variabel | Minimiert |
+| **Lernrelevant** | Wird aufgebracht | **Eliminiert** |
+
+
+## CLT und KI: Die Nuance
+
+::: {.callout-note}
+Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
+:::
 
 :::{.fragment}
-::: {.callout-note}
-**Wichtig**: Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing). Wenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last erhalten bleiben.
-:::
+Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last **erhalten bleiben**.
 :::
 
-## CLT und KI: Lernmechanismen {.smaller}
+:::{.fragment}
+Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
+:::
 
-**Drei kritische Lernmechanismen werden durch Outsourcing ausgeschaltet:**
+## Drei Lernmechanismen, die Outsourcing ausschaltet
 
-| Mechanismus | Normal | Mit KI-Outsourcing |
-|-------------|--------|-------------------|
-| **Erwartung vs. Realität** (Vorhersagefehler) | Lücke zwischen Erwartung & Realität = Lernsignal | Keine Erwartungen → kein Lernen |
-| **Gedächtniskonsolidierung** | Aktive Verarbeitung → Speicherung | Passive Konsumption → Vergessen |
-| **Prozedurale Entwicklung** | Tausende Wiederholungen → Automatismen | Überspringen → keine Expertise |
+**1. Vorhersagefehler**
+
+- Normal: Lücke zwischen Erwartung & Realität = Lernsignal
+- Outsourcing: Keine Erwartungen → kein Lernen
+
+:::{.fragment}
+**2. Gedächtniskonsolidierung**
+
+- Normal: Aktive Verarbeitung → Speicherung
+- Outsourcing: Passive Konsumption → Vergessen
+:::
+
+:::{.fragment}
+**3. Prozedurale Entwicklung**
+
+- Normal: Tausende Wiederholungen → Automatismen
+- Outsourcing: Überspringen → keine Expertise
+:::
 
 :::{.fragment}
 ::: {.callout-warning}
-**Die CLT-Perspektive**: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung
+**Die CLT-Perspektive**: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
 :::
 :::
 

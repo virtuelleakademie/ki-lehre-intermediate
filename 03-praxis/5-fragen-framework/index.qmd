@@ -86,17 +86,26 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | 5. Gibt es **Versuch-dann-Prüfe**? | Vorhersagefehler & Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback |
 
 
-## Anwendungsbeispiel: Volkswirtschaftslehre
+## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
 
 **Ursprüngliche Aufgabe**: "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
+
+Die ersten drei Fragen sind analysiert. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.
 
 | Frage | Analyse |
 |-------|---------|
 | 1. Lernen? | Ja, denn es ist eine Hausaufgabe im 2. Semester |
 | 2. Grundlagen? | Ja, denn makroökonomische Modelle werden gerade aufgebaut |
 | 3. Internes Wissen? | Nein, der Text kann mit KI produziert werden |
-| 4. KI ohne Denkarbeit? | Ja, ChatGPT liefert eine solide Analyse |
-| 5. Versuch-dann-Prüfe? | Nein, keine Struktur dafür |
+| 4. KI ohne Denkarbeit? | *Deine Einschätzung:* ________________________ |
+| 5. Versuch-dann-Prüfe? | *Deine Einschätzung:* ________________________ |
+
+::: {.pro-tip collapse="true"}
+### Lösung: Fragen 4 und 5
+
+**Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?** Ja. "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt" ist ein einfacher Prompt. ChatGPT liefert eine solide Analyse mit korrekter ökonomischer Logik.
+
+**Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?** Nein. Es gibt keine eingebaute Phase, in der Studierende zuerst selbst analysieren, bevor sie KI konsultieren.
 
 **Redesign:**
 
@@ -104,7 +113,8 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 - **Phase 2**: KI-generierte Analyse als Vergleich, wobei Studierende Unterschiede identifizieren und beide Argumentationen bewerten
 - **Phase 3**: Mündliche Kurzpräsentation der Synthese (2 Min)
 
-→ Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
+Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
+:::
 
 
 ## Disziplinspezifische Hinweise

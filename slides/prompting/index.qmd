@@ -92,24 +92,29 @@ Schlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem k�
 
 
 
-## 3. Verwende Beispiele und Kontext
+## 3. Verwende Beispiele und Kontext {.smaller}
 
-Beschreibe, welche Art von Output du erwartest
-Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst
+Beschreibe, welche Art von Output du erwartest. Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst.
 
+::::{.columns}
+:::{.column width="48%"}
 ::: {.callout-tip title="Nicht so"}
 Erkläre, wie man eine Skulptur restauriert.
 :::
+:::
 
+:::{.column width="48%"}
 ::: {.callout-tip title="Besser"}
-Erkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:
+Erkläre, wie man eine **Marmorskulptur mit sichtbaren Rissen** restauriert. Berücksichtige:
 
   + Sichtung und Dokumentation des Schadens
-  + Auswahl und Testen geeigneter Materialien zur Rissfüllung
-  + Anwendung und Glättung des Füllmaterials
+  + Auswahl geeigneter Materialien
+  + Anwendung und Glättung
 
-Gib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind.
+Gib Details zu Werkzeugen und Techniken an.
 :::
+:::
+::::
 
 ## 4. Leite den Denkprozess {.smaller}
 
