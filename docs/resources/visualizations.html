@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
@@ -96,17 +96,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "s"
   ],
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -127,37 +127,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script>
 <style>
-div.callout-group.callout {
-  border-left-color: purple;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -171,15 +149,37 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -191,6 +191,28 @@ div.callout-pro-tip.callout-style-default > .callout-header {
 div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
   content: '💡';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 div.callout-active-processing.callout {
@@ -226,8 +248,8 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -256,11 +278,24 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-slides" role="img">
+      <i class="bi bi-book" role="img">
 </i> 
  <span class="menu-text">Dokumente</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
+        <li>
+    <a class="dropdown-item" href="../resources/handout-make-it-stick/index.html">
+ <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/agent-beispiele/index.html">
+ <span class="dropdown-text">Agent-Beispiele</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/produktive-anstrengung/index.html">
+ <span class="dropdown-text">Produktive Anstrengung durch Design</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
         <li>
     <a class="dropdown-item" href="../assets/pdfs/Begleitdokument.pdf">
  <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
@@ -293,7 +328,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
   <li><a href="#kognitive-belastung-verteilung-im-arbeitsgedaechtnis" id="toc-kognitive-belastung-verteilung-im-arbeitsgedaechtnis" class="nav-link active" data-scroll-target="#kognitive-belastung-verteilung-im-arbeitsgedaechtnis">1. Kognitive Belastung: Verteilung im Arbeitsgedaechtnis</a></li>
@@ -404,7 +439,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">9</span>),</span>
 <span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="dv">10</span>, <span class="dv">50</span>, <span class="dv">10</span>, <span class="dv">10</span>)</span>
 <span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">fill =</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">fill =</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>))</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div id="fig-cognitive-load" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -412,7 +447,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <img src="visualizations_files/figure-html/fig-cognitive-load-1.png" class="img-fluid figure-img" width="960">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cognitive-load-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Verteilung der kognitiven Belastung in drei Szenarien. Die Gesamthoehe repraesentiert die fixe Arbeitsgedaechtniskapazitaet.
+Abbildung&nbsp;1: Verteilung der kognitiven Belastung in drei Szenarien. Die Gesamthoehe repraesentiert die fixe Arbeitsgedaechtniskapazitaet.
 </figcaption>
 </figure>
 </div>
@@ -512,7 +547,7 @@ Figure&nbsp;1: Verteilung der kognitiven Belastung in drei Szenarien. Die Gesamt
 <span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(</span>
 <span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>),</span>
 <span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="fu">guide_legend</span>(<span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
 (`geom_line()`).</code></pre>
@@ -524,7 +559,7 @@ Figure&nbsp;1: Verteilung der kognitiven Belastung in drei Szenarien. Die Gesamt
 <img src="visualizations_files/figure-html/fig-expertise-reversal-1.png" class="img-fluid figure-img" width="960">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-expertise-reversal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Der Expertise Reversal Effekt zeigt, dass optimale Instruktion vom Vorwissensniveau abhaengt. Permanentes KI-Scaffolding (gestrichelt) verhindert die Expertise-Entwicklung.
+Abbildung&nbsp;2: Der Expertise Reversal Effekt zeigt, dass optimale Instruktion vom Vorwissensniveau abhaengt. Permanentes KI-Scaffolding (gestrichelt) verhindert die Expertise-Entwicklung.
 </figcaption>
 </figure>
 </div>
@@ -576,7 +611,7 @@ Figure&nbsp;2: Der Expertise Reversal Effekt zeigt, dass optimale Instruktion vo
 <span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
 <span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">11</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">lineheight =</span> <span class="fl">1.1</span>),</span>
 <span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>()</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div id="fig-testing-effect" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -584,7 +619,7 @@ Figure&nbsp;2: Der Expertise Reversal Effekt zeigt, dass optimale Instruktion vo
 <img src="visualizations_files/figure-html/fig-testing-effect-1.png" class="img-fluid figure-img" width="864">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testing-effect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Daten basierend auf Roediger &amp; Karpicke (2006). Wiederholtes Testen fuehrt zu deutlich besserer Langzeiterinnerung als wiederholtes Studieren.
+Abbildung&nbsp;3: Daten basierend auf Roediger &amp; Karpicke (2006). Wiederholtes Testen fuehrt zu deutlich besserer Langzeiterinnerung als wiederholtes Studieren.
 </figcaption>
 </figure>
 </div>
@@ -681,7 +716,7 @@ Figure&nbsp;3: Daten basierend auf Roediger &amp; Karpicke (2006). Wiederholtes 
 <span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>),</span>
 <span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="dv">15</span>, <span class="dv">15</span>, <span class="dv">15</span>, <span class="dv">15</span>)</span>
 <span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_fixed</span>(<span class="at">ratio =</span> <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_fixed</span>(<span class="at">ratio =</span> <span class="dv">1</span>)</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div id="fig-lernparadox" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -689,7 +724,7 @@ Figure&nbsp;3: Daten basierend auf Roediger &amp; Karpicke (2006). Wiederholtes 
 <img src="visualizations_files/figure-html/fig-lernparadox-1.png" class="img-fluid figure-img" width="960">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lernparadox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: Das Lernparadox: Subjektives Gefühl und tatsächliches Lernen können in unterschiedliche Richtungen weisen. Die metakognitive Falle liegt im unteren rechten Quadranten.
+Abbildung&nbsp;4: Das Lernparadox: Subjektives Gefühl und tatsächliches Lernen können in unterschiedliche Richtungen weisen. Die metakognitive Falle liegt im unteren rechten Quadranten.
 </figcaption>
 </figure>
 </div>
@@ -794,7 +829,7 @@ Figure&nbsp;4: Das Lernparadox: Subjektives Gefühl und tatsächliches Lernen k�
 <span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a>      <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">b =</span> <span class="dv">20</span>)</span>
 <span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a>    ),</span>
 <span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>)</span>
-<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div id="fig-offloading-spectrum" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -802,7 +837,7 @@ Figure&nbsp;4: Das Lernparadox: Subjektives Gefühl und tatsächliches Lernen k�
 <img src="visualizations_files/figure-html/fig-offloading-spectrum-1.png" class="img-fluid figure-img" width="1152">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-offloading-spectrum-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: Das Spektrum von Cognitive Offloading (lernfoerderlich) bis Cognitive Outsourcing (lernhinderlich), mit konkreten Beispielen.
+Abbildung&nbsp;5: Das Spektrum von Cognitive Offloading (lernfoerderlich) bis Cognitive Outsourcing (lernhinderlich), mit konkreten Beispielen.
 </figcaption>
 </figure>
 </div>
@@ -820,7 +855,7 @@ Figure&nbsp;5: Das Spektrum von Cognitive Offloading (lernfoerderlich) bis Cogni
 <script type="application/json" data-for="htmlwidget-30e4409849e39179307f">{"x":{"diagram":"\ndigraph bottleneck {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 1.0\n    ranksep = 1.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#666666\"\n    arrowsize = 0.9\n  ]\n\n  input [\n    label = \"Sensorischer Input\\n\\nUmwelt\"\n    fillcolor = \"#94a3b8\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2\n  ]\n\n  wm [\n    label = \"Arbeitsgedächtnis\\n\\n~4 Elemente\\n15–30 Sekunden\\nAktives Lernen\"\n    fillcolor = \"#f59e0b\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2.5\n  ]\n\n  ltm [\n    label = \"Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas\"\n    fillcolor = \"#16a34a\"\n    fontsize = 13\n    margin = \"0.3,0.2\"\n    width = 2.8\n  ]\n\n  input -> wm [label = \"  Aufmerksamkeit  \"]\n  wm -> ltm [label = \"  Schemabildung\\n  & Übung  \"]\n  ltm -> wm [label = \"  Abruf &\\n  Aktivierung  \" style = dashed]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6
+Abbildung&nbsp;6
 </figcaption>
 </figure>
 </div>
@@ -837,7 +872,7 @@ Figure&nbsp;6
 <script type="application/json" data-for="htmlwidget-2e17466358a46d139971">{"x":{"diagram":"\ndigraph evaluation_paradox {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 1.0\n    label = \"Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht\"\n    labelloc = t\n    fontsize = 14\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  evaluate [\n    label = \"KI-Output\\nbewerten\"\n    fillcolor = \"#dc2626\"\n  ]\n\n  competence [\n    label = \"Fachkompetenz\"\n    fillcolor = \"#64748b\"\n  ]\n\n  learning [\n    label = \"Eigenes\\nLernen\"\n    fillcolor = \"#64748b\"\n  ]\n\n  thinking [\n    label = \"Eigenes\\nDenken\"\n    fillcolor = \"#16a34a\"\n  ]\n\n  center [\n    label = \"Internes Modell\\nnoch nicht aufgebaut\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  evaluate -> competence [label = \"  erfordert  \"]\n  competence -> learning [label = \"  entsteht durch  \"]\n  learning -> thinking [label = \"  erfordert  \"]\n  thinking -> evaluate [label = \"  wird ersetzt\\n  durch KI  \" style = dashed color = \"#dc2626\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-evaluation-paradox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7
+Abbildung&nbsp;7
 </figcaption>
 </figure>
 </div>
@@ -851,7 +886,7 @@ Figure&nbsp;7
 <script type="application/json" data-for="htmlwidget-6e8228581aa3e4de6c04">{"x":{"diagram":"\ndigraph expert_novice {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    rankdir = LR\n    nodesep = 0.6\n    ranksep = 1.0\n    compound = true\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_expert {\n    label = \"Expert:in\"\n    fontname = \"Helvetica\"\n    fontsize = 13\n    fontcolor = \"#16a34a\"\n    style = \"rounded,filled\"\n    fillcolor = \"#e8f5e9\"\n    color = \"#16a34a\"\n    penwidth = 1.5\n\n    e_model [label = \"Starkes internes\\nModell\" fillcolor = \"#16a34a\"]\n    e_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    e_result [label = \"Korrektur\" fillcolor = \"#16a34a\"]\n\n    e_model -> e_ki [label = \"  Vergleich\\n  möglich  \" color = \"#222222\"]\n    e_ki -> e_result [label = \"  Fehler\\n  erkennbar  \" color = \"#222222\"]\n  }\n\n  subgraph cluster_novice {\n    label = \"Anfänger:in\"\n    fontname = \"Helvetica\"\n    fontsize = 13\n    fontcolor = \"#dc2626\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fce4ec\"\n    color = \"#dc2626\"\n    penwidth = 1.5\n\n    n_model [label = \"Schwaches internes\\nModell\" fillcolor = \"#dc2626\"]\n    n_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    n_result [label = \"Übernahme\" fillcolor = \"#dc2626\"]\n\n    n_model -> n_ki [label = \"  Kein Vergleichs-\\n  massstab  \" color = \"#999999\" style = dashed]\n    n_ki -> n_result [label = \"  Fehler\\n  unsichtbar  \" color = \"#999999\" style = dashed]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-expert-novice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;8
+Abbildung&nbsp;8
 </figcaption>
 </figure>
 </div>
@@ -868,7 +903,7 @@ Figure&nbsp;8
 <script type="application/json" data-for="htmlwidget-d3a15b670239e029179d">{"x":{"diagram":"\ndigraph try_then_check {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    compound = true\n    nodesep = 0.5\n    ranksep = 0.8\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_productive {\n    label = \"Produktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 14\n    fontcolor = \"#16a34a\"\n    style = \"rounded,filled\"\n    fillcolor = \"#e8f5e9\"\n    color = \"#16a34a\"\n    penwidth = 1.5\n\n    try [label = \"1. Versuch\\nEigenen Ansatz\\ngenerieren\" fillcolor = \"#16a34a\"]\n    compare [label = \"2. Vergleich\\nMit KI-Output\\nabgleichen\" fillcolor = \"#2563eb\"]\n    reflect [label = \"3. Reflexion\\nSchema\\naktualisieren\" fillcolor = \"#f59e0b\" fontcolor = \"#222222\"]\n\n    try -> compare [label = \"  Prediction Error  \" color = \"#666666\"]\n    compare -> reflect [label = \"  Analyse  \" color = \"#666666\"]\n    reflect -> try [label = \"  Nächster Zyklus  \" color = \"#666666\" style = dashed]\n  }\n\n  subgraph cluster_unproductive {\n    label = \"Unproduktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 14\n    fontcolor = \"#dc2626\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fce4ec\"\n    color = \"#dc2626\"\n    penwidth = 1.5\n\n    direct [label = \"KI-Output\\ndirekt nutzen\" fillcolor = \"#dc2626\"]\n    passive [label = \"Passives\\nÜbernehmen\" fillcolor = \"#dc2626\"]\n    nolearn [label = \"Kein\\nLerneffekt\" fillcolor = \"#dc2626\"]\n\n    direct -> passive [color = \"#999999\" style = dashed]\n    passive -> nolearn [color = \"#999999\" style = dashed label = \"  Keine Reflexion\\n  möglich  \"]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-try-then-check-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;9
+Abbildung&nbsp;9
 </figcaption>
 </figure>
 </div>
@@ -885,7 +920,7 @@ Figure&nbsp;9
 <script type="application/json" data-for="htmlwidget-2a8e9539872343d5916c">{"x":{"diagram":"\ndigraph five_questions {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#2563eb\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#2563eb\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#2563eb\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#2563eb\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#2563eb\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#16a34a\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#16a34a\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#dc2626\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#dc2626\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#f59e0b\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"KI sinnvoll einsetzbar\"\n    fillcolor = \"#16a34a\"\n    fontsize = 14\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-5-fragen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;10
+Abbildung&nbsp;10
 </figcaption>
 </figure>
 </div>
@@ -894,7 +929,7 @@ Figure&nbsp;10
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -920,12 +955,12 @@ Figure&nbsp;10
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
