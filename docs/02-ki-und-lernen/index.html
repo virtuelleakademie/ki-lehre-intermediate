@@ -88,17 +88,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -121,15 +110,15 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-individual.callout {
+  border-left-color: steelblue;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 div.callout-group.callout {
@@ -143,15 +132,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -163,6 +152,17 @@ div.callout-pair.callout-style-default > .callout-header {
 div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '👥';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 </style>
@@ -299,6 +299,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   <li><a href="#wie-erkennt-man-wo-auf-dem-spektrum-man-steht" id="toc-wie-erkennt-man-wo-auf-dem-spektrum-man-steht" class="nav-link" data-scroll-target="#wie-erkennt-man-wo-auf-dem-spektrum-man-steht">Wie erkennt man, wo auf dem Spektrum man steht?</a></li>
   </ul></li>
   <li><a href="#das-evaluationsparadox" id="toc-das-evaluationsparadox" class="nav-link" data-scroll-target="#das-evaluationsparadox">Das Evaluationsparadox</a></li>
+  <li><a href="#warum-schemas-den-ki-output-umschreiben" id="toc-warum-schemas-den-ki-output-umschreiben" class="nav-link" data-scroll-target="#warum-schemas-den-ki-output-umschreiben">Warum Schemas den KI-Output umschreiben</a></li>
   <li><a href="#lernen-leisten" id="toc-lernen-leisten" class="nav-link" data-scroll-target="#lernen-leisten">Lernen ≠ Leisten</a>
   <ul class="collapse">
   <li><a href="#cargo-cult-scholarship" id="toc-cargo-cult-scholarship" class="nav-link" data-scroll-target="#cargo-cult-scholarship">Cargo Cult Scholarship</a></li>
@@ -462,12 +463,19 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <p>Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.</p>
 <p><strong>Wichtige Differenzierung:</strong> Das Paradox ist nicht absolut — es variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern — ohne es aufzulösen.</p>
 </section>
+<section id="warum-schemas-den-ki-output-umschreiben" class="level2">
+<h2 class="anchored" data-anchor-id="warum-schemas-den-ki-output-umschreiben">Warum Schemas den KI-Output umschreiben</h2>
+<p>Gedächtnis ist nicht reproduktiv — es ist <strong>rekonstruktiv</strong>. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas — organisierte Wissensstrukturen aus Erfahrung — sind dabei gleichzeitig der grösste Vorteil <em>und</em> die systematischste Fehlerquelle des Gedächtnisses.</p>
+<p>Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemas gefiltert und — oft still — <strong>an Erwartungen angepasst</strong>. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal <em>hinzufabriziert</em>, obwohl sie nie da waren.</p>
+<p>Das erklärt auch, warum <strong>Missverständnisse so hartnäckig</strong> sind: Einfach korrekte Information zu präsentieren reicht nicht, weil das bestehende Schema die neue Information umschreibt. Stattdessen braucht es den Dreischritt: <strong>Aktivieren</strong> (Missverständnis explizit machen) → <strong>Konflikt</strong> (Evidenz zeigen, die das Missverständnis nicht erklären kann) → <strong>Auflösen</strong> (korrekte Erklärung im Kontrast zum Missverständnis).</p>
+<p>→ <a href="../01-lernen-verstehen/gedaechtnis-und-lernen/">Vertiefung: Gedächtnis und Lernen</a> — Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt</p>
+</section>
 <section id="lernen-leisten" class="level2">
 <h2 class="anchored" data-anchor-id="lernen-leisten">Lernen ≠ Leisten</h2>
 <p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur <em>dieses</em> Wissen nicht auf — es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, <em>was</em> transferiert werden könnte.</p>
 <section id="cargo-cult-scholarship" class="level3">
 <h3 class="anchored" data-anchor-id="cargo-cult-scholarship">Cargo Cult Scholarship</h3>
-<p>Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit — Hedging, Zitationen, Fachvokabular — ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht.</p>
+<p>Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit — Hedging, Zitationen, Fachvokabular — ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht — das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.</p>
 </section>
 <section id="the-beach-not-the-ant" class="level3">
 <h3 class="anchored" data-anchor-id="the-beach-not-the-ant">“The Beach, Not the Ant”</h3>
@@ -643,6 +651,8 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <section id="für-das-selbststudium" class="level3">
 <h3 class="anchored" data-anchor-id="für-das-selbststudium">Für das Selbststudium</h3>
 <ul>
+<li><a href="../01-lernen-verstehen/arbeitsgedaechtnis/">Arbeitsgedächtnis und Instruktion</a> — Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten</li>
+<li><a href="../01-lernen-verstehen/gedaechtnis-und-lernen/">Gedächtnis und Lernen</a> — Rekonstruktives Gedächtnis, Schemas, und warum Abruf der stärkste Lernmechanismus ist</li>
 <li><a href="../01-lernen-verstehen/kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a> — Wissenschaftliche Grundlagen der Expertise-Entwicklung</li>
 <li><a href="../03-praxis/produktive-anstrengung/">Produktive Anstrengung durch Design</a> — Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen</li>
 <li><a href="https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning">The Curious Case of Transfer of Learning</a> — Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)</li>
