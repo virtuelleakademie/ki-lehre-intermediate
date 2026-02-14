@@ -1,6 +1,6 @@
 ---
 title: "Wie man Kompetenzen erwirbt"
-subtitle: "Vom Novizen zum Exerten: Die Wissenschaft des Lernens"
+subtitle: "Vom Novizen zum Experten: Die Wissenschaft des Lernens"
 author:
   - name: Andrew Ellis
     url: https://github.com/awellis

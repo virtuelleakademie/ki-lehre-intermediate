@@ -14,6 +14,21 @@ In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Tei
 :::
 
 
+::: {.active-processing}
+### Retrieval Check (2 Min)
+
+**Bevor wir starten:** Schreibe die 5 Fragen des Frameworks aus dem Gedächtnis auf, ohne zurückzuschauen.
+
+1. ________________________
+2. ________________________
+3. ________________________
+4. ________________________
+5. ________________________
+
+Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Was hattest du vergessen? Genau diese Lücken sind die produktivsten Lernmomente.
+:::
+
+
 ## Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)
 
 ### THINK Phase (8 Min)
@@ -68,7 +83,7 @@ Tausche dich mit einem Partner aus:
 ::: {.reflect}
 ### Welches Lernprinzip haben wir gerade angewendet?
 
-Diskutiert 30 Sekunden mit eurem Nachbarn: **Welche Prinzipien aus Teil 1 stecken in der THINK-PAIR-SHARE-Struktur?** *Tipp: Es sind mindestens drei.*
+Diskutiert 30 Sekunden mit eurem Nachbarn: **Benennt mindestens drei Prinzipien aus Teil 1, die in der THINK-PAIR-SHARE-Struktur stecken, und erklärt bei einem davon, *warum* es funktioniert.** *Tipp: Es sind mindestens drei Prinzipien.*
 :::
 
 

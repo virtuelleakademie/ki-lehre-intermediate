@@ -16,7 +16,7 @@ Jedes Beispiel zeigt:
 ::: {.callout-important}
 ## Designprinzip: Aufmerksamkeit gezielt lenken
 
-Jeder Agent muss **explizit signalisieren, worauf Lernende achten sollen**. Ohne klare Signale verarbeiten Lernende zufällige Merkmale --- sie bemerken die Länge eines KI-Textes statt der Argumentationsstruktur, oder die Formulierung statt der Logik [@engelmannTheoryInstructionPrinciples2016].
+Jeder Agent muss **explizit signalisieren, worauf Lernende achten sollen**. Ohne klare Signale verarbeiten Lernende zufällige Merkmale: Sie bemerken die Länge eines KI-Textes statt der Argumentationsstruktur, oder die Formulierung statt der Logik [@engelmannTheoryInstructionPrinciples2016].
 
 **In der Praxis:**
 
@@ -24,7 +24,7 @@ Jeder Agent muss **explizit signalisieren, worauf Lernende achten sollen**. Ohne
 - Aufgabenstellungen benennen die relevanten Merkmale explizit ("Achte auf die Annahmen, nicht auf den Schreibstil")
 - Feedback fokussiert auf die zu lernenden Aspekte, nicht auf Oberflächenmerkmale
 
-Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerbar.
+Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 :::
 
 ---
@@ -46,7 +46,7 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 **Lernende tun:**
 
 1. **Versuch**: Lösen Aufgaben ohne Nachschlagen, erklären ihren Lösungsweg
-2. **Prüfe**: Agent zeigt Musterlösung --- Lernende vergleichen Argumentation
+2. **Prüfe**: Agent zeigt Musterlösung, Lernende vergleichen Argumentation
 3. **Reflektieren**: Wo wich die eigene Logik ab? Flüchtigkeitsfehler oder Konzeptfehler?
 4. **Selbsteinschätzung**: Eigenes Verständnis bewerten, bevor das nächste Feedback kommt
 
@@ -58,7 +58,7 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 ### **Beispiel: Anatomie-Coach**
 
-- **Lehrthema**: Medizin---Anatomische Strukturen
+- **Lehrthema**: Medizin, Anatomische Strukturen
 - **Problem**: Bulimie-Lernen vor Prüfungen, schnelles Vergessen
 
 **Agent macht:**
@@ -97,7 +97,7 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 1. **Versuch**: Identifizieren Algorithmus/Datenstruktur und erstellen eine Skizze
 2. **Implementieren**: Ersten Lösungsansatz programmieren
-3. **Prüfe**: Agent zeigt Alternativen --- Lernende vergleichen Effizienz und Lesbarkeit
+3. **Prüfe**: Agent zeigt Alternativen, Lernende vergleichen Effizienz und Lesbarkeit
 4. **Reflektieren**: Warum ist Ansatz X hier besser? Pattern-Recognition entwickeln
 
 **Warum es funktioniert**: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen. Die Versuch-dann-Prüfe-Struktur erzwingt eigenes Denken vor dem Vergleich.
@@ -144,9 +144,9 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-1. **Versuch**: Eigene Hypothesen aufstellen --- begründen, welche Biases wirken
+1. **Versuch**: Eigene Hypothesen aufstellen und begründen, welche Biases wirken
 2. **Prüfe**: Agent präsentiert widersprüchliche Evidenz oder Alternativen
-3. **Ringen**: Mit Unsicherheit umgehen --- keine einfache "richtige Antwort"
+3. **Ringen**: Mit Unsicherheit umgehen, denn es gibt keine einfache "richtige Antwort"
 4. **Reflektieren**: Biases in eigenen Denkprozessen entdecken
 
 **Warum es funktioniert**: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten. Die Versuch-dann-Prüfe-Struktur sorgt dafür, dass Lernende zuerst selbst denken.
@@ -174,7 +174,7 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 - Verständnislücken selbst entdecken beim Erklärungsversuch
 - Konzepte in verschiedenen Abstraktionsebenen darstellen
 
-**Warum es funktioniert**: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust---die ultimative Verstehens-Prüfung.
+**Warum es funktioniert**: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust, die ultimative Verstehens-Prüfung.
 
 ---
 
@@ -194,9 +194,9 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-1. **Versuch**: Ersten Entwurf schreiben --- eigene Schwächen identifizieren
+1. **Versuch**: Ersten Entwurf schreiben und eigene Schwächen identifizieren
 2. **Prüfe**: Agent analysiert Schreibmuster (nicht Inhalt!) und stellt Fragen
-3. **Überarbeiten**: Feedback in konkrete Änderungen umsetzen --- dokumentieren
+3. **Überarbeiten**: Feedback in konkrete Änderungen umsetzen und dokumentieren
 4. **Reflektieren**: "Was habe ich über meinen Schreibstil gelernt?"
 
 **Warum es funktioniert**: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern. Die Versuch-dann-Prüfe-Struktur stellt sicher, dass Lernende zuerst selbst schreiben.
@@ -219,7 +219,7 @@ Ohne Signale ist Lernen dem Zufall überlassen --- mit Signalen wird es steuerba
 
 **Lernende tun:**
 
-1. **Versuch**: Eigene Analyse durchführen --- strategische Entscheidung treffen und begründen
+1. **Versuch**: Eigene Analyse durchführen, strategische Entscheidung treffen und begründen
 2. **Prüfe**: Agent präsentiert Stakeholder-Perspektiven und "What-if"-Szenarien
 3. **Vergleichen**: Wie unterscheiden sich die Annahmen? Welche Konsequenzen?
 4. **Synthetisieren**: Trade-offs und langfristige Konsequenzen durchdenken

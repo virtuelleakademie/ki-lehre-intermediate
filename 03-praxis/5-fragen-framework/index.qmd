@@ -174,13 +174,25 @@ Die 5 Fragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach,
 
 ## Zusammenfassung
 
-```
-Geht es ums Lernen?
-  └─ Ja → Werden Grundlagen aufgebaut?
-              └─ Ja → Internes Wissen nötig?
-                          └─ Nein → Aufgabe umgestalten
-                          └─ Ja → Versuch-dann-Prüfe?
-                                      └─ Nein → Struktur einbauen
-                                      └─ Ja → KI sinnvoll einsetzbar
-  └─ Nein → KI-Unterstützung kann sinnvoll sein
+```{mermaid}
+%%| fig-cap: "Das 5-Fragen-Framework als Entscheidungsbaum"
+flowchart TD
+    A[Aufgabe] --> B{1. Geht es primär<br>ums Lernen?}
+    B -- Nein --> C[KI-Unterstützung<br>kann sinnvoll sein]
+    B -- Ja --> D{2. Werden noch<br>Grundlagen aufgebaut?}
+    D -- Nein --> E[KI als Verstärker<br>möglich]
+    D -- Ja --> F{3. Muss internes Wissen<br>nachgewiesen werden?}
+    F -- Nein --> G[Aufgabenformat<br>ändern]
+    F -- Ja --> H{4. Kann KI ohne<br>Denkarbeit erledigen?}
+    H -- Ja --> I[Aufgabe<br>umgestalten]
+    H -- Nein --> J{5. Versuch-dann-Prüfe<br>Struktur?}
+    J -- Nein --> K[Struktur<br>einbauen]
+    J -- Ja --> L[KI sinnvoll<br>einsetzbar]
+
+    style C fill:#16a34a,color:#fff,stroke:#16a34a
+    style E fill:#16a34a,color:#fff,stroke:#16a34a
+    style L fill:#16a34a,color:#fff,stroke:#16a34a
+    style G fill:#dc2626,color:#fff,stroke:#dc2626
+    style I fill:#dc2626,color:#fff,stroke:#dc2626
+    style K fill:#f59e0b,color:#fff,stroke:#f59e0b
 ```

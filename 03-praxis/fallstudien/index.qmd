@@ -25,6 +25,8 @@ Dieselbe Dozentin ändert die Struktur: Studierende müssen *zuerst* eigenen Cod
 - Wo findet **Wissenskompilation** statt, und wo nicht?
 - Wie verteilt sich die **kognitive Last** in beiden Szenarien (extrinsisch vs. germane)?
 - Was passiert mit der **Expertise-Entwicklung** in beiden Fällen?
+
+**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* Szenario A2 besseres Lernen erzeugt als A1. Welcher kognitive Mechanismus wird aktiviert?
 :::
 
 
@@ -45,6 +47,8 @@ Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst ei
 - Inwiefern ist Szenario B1 ein Beispiel für **Cargo Cult Scholarship**?
 - Welche Rolle spielt die **Versuch-dann-Prüfe-Struktur** in Szenario B2?
 - Wie wirkt sich jedes Szenario auf die **Equity** aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?
+
+**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* Szenario B2 besseres Lernen erzeugt als B1. Welcher kognitive Mechanismus wird aktiviert?
 :::
 
 
@@ -65,6 +69,8 @@ Im gleichen Kurs müssen Studierende *zuerst* ihre eigene Differenzialdiagnose f
 - Wo findet **Offloading** statt, wo **Outsourcing**?
 - Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs. KI → Auswahl) auf das **Lernen** aus?
 - Welches Szenario bereitet besser auf Situationen vor, in denen *keine* KI verfügbar ist?
+
+**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* Szenario C2 besseres Lernen erzeugt als C1. Welcher kognitive Mechanismus wird aktiviert?
 :::
 
 

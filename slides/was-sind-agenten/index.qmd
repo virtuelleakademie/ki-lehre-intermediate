@@ -73,7 +73,7 @@ Agents verwandeln passive Sprachmodelle in aktive, handelnde Systeme durch konti
 :::
 
 
-## Von Chatbot zu Agent: Unterschiedie {.smaller}
+## Von Chatbot zu Agent: Unterschiede {.smaller}
 
 **Zwei verschiedene Paradigmen**
 
