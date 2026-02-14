@@ -68,6 +68,12 @@ Key extensions: `custom-callout` (activity blocks), `timer` (countdown timers), 
 
 `_brand.yml` defines colors (dark grey `#222222`, light grey `#F5F5F5`) and Jura font (Google Fonts). Accent link color: `#9A4665` (burgundy), set in `_quarto.yml`.
 
+## Writing Style
+
+- **Address participants with "du"** (not "Sie") throughout all workshop content, including the Vorbereitung section
+- **Minimize use of dashes (em-dashes, en-dashes, hyphens used as dashes)**. Prefer natural sentence flow with commas, periods, or subordinate clauses. Occasional dashes are fine, but overuse is a telltale sign of LLM-generated text. Rewrite sentences to avoid them where possible.
+- **Never use emojis in text.** No emojis in any content, headings, callouts, slides, or other written material. Font Awesome (`{{< fa >}}`) and Bootstrap (`{{< bi >}}`) icons are fine where relevant.
+
 ## Content Patterns
 
 - Pages use `{{< bi icon-name >}}` for Bootstrap icons in headings
