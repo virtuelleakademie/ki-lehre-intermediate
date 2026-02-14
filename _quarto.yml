@@ -86,7 +86,6 @@ website:
         # - 02-ki-und-lernen/index.qmd
         # - 03-praxis/index.qmd
         - workshop/diskussion/index.qmd
-        - workshop/moderation/index.qmd
 
     - title: "Teil 1: Lernen verstehen"
       style: "docked"
