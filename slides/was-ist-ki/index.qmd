@@ -127,6 +127,15 @@ Grafik von [Barbara Geyer](https://barbarageyer.substack.com/p/ki-integration)
 ::::
 
 
+## KI-Fähigkeiten und Lernen
+
+::: {.callout-note title="Brücke zur Lernwissenschaft" appearance="simple"}
+KI kann Inhalte produzieren, klassifizieren und optimieren. Aber: **Lernen entsteht durch kognitive Anstrengung**, nicht durch perfekte Ergebnisse.
+
+Wenn KI die Denkarbeit übernimmt, entfällt der Lernprozess. Ob ein KI-Einsatz sinnvoll ist, hängt davon ab, wo er auf dem **Offloading-Outsourcing-Spektrum** liegt.
+:::
+
+
 ## Klassifizierung: Katze oder Hund?
 
 ![](../../assets/images/cats-vs-dogs.png)

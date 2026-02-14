@@ -192,6 +192,17 @@ Berücksichtige dabei Aspekte wie Körperhaltung, Stimme und Interaktion mit dem
 - **ChatGPT Tip**: Anweisen, **Python** zu benutzen. Python ist eine Programmiersprache, die ChatGPT sehr gut beherrscht. Mit Python kann ChatGPT Daten analysieren, Grafiken erstellen, Word/Excel/Powerpoint Dateien erstellen.
 :::
 
+
+## Prompting und Lernprozess
+
+Bessere Prompts erzeugen bessere Outputs. Aber in Lernkontexten ist die entscheidende Frage eine andere:
+
+**Welche dieser Prompting-Techniken führt zu Offloading, und welche zu Outsourcing?**
+
+::: {.callout-note title="Faustregel" appearance="simple"}
+Wenn der Prompt die Denkarbeit an die KI delegiert, ist es Outsourcing. Wenn der Prompt die KI nutzt, um die *eigene* Denkarbeit zu vertiefen (z.B. Feedback auf einen eigenen Entwurf), ist es Offloading.
+:::
+
 <!-- ## Questions / Discussion {{< bi chat-dots >}} -->
 <!-- 
 ## References {background-color="#D8DEE9"}

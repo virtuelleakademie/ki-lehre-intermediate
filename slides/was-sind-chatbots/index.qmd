@@ -82,7 +82,7 @@ Welche Wörter sind besonders wichtig, um
 
 **Syntaktische Struktur (Grammatik und Struktur des Satzes):**
 
-- Das Wort "grosszügigen" ist ein Adjektiv, das wahrscheinlich ein Nomen---im Plural---beschreibt (Dativ oder Akkusativ wegen der Endung "-en").
+- Das Wort "grosszügigen" ist ein Adjektiv, das wahrscheinlich ein Nomen im Plural beschreibt (Dativ oder Akkusativ wegen der Endung "-en").
 - Der Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.
 
 **Semantischer Kontext (Bedeutung):**
@@ -148,6 +148,15 @@ Ein LLM wird in drei Schritten aufgebaut:
 ## Wie werden LLMs trainiert?
 
 ![](../../assets/images/llm-training.png)
+
+
+## LLMs und menschliches Lernen
+
+LLMs lernen statistische Muster aus Milliarden von Texten. Menschen lernen durch **aktive Auseinandersetzung** mit dem Stoff: Vorhersagen treffen, Fehler machen, Schemas aufbauen.
+
+::: {.callout-note title="Das Evaluationsparadox" appearance="simple"}
+Um KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll. LLMs liefern flüssige Texte, aber Flüssigkeit ist kein Zeichen für Verständnis.
+:::
 
 
 ## Gefahren und Herausforderungen

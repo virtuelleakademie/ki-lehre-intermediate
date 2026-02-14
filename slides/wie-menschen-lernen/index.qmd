@@ -191,9 +191,13 @@ Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklun
 
 | Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
 |--------|---------|--------|
-| **Intrinsisch** | Bleibt konstant | Scheint reduziert |
+| **Intrinsisch** | Bleibt konstant | Wird umgangen |
 | **Extrinsisch** | Variabel | Minimiert |
 | **Lernrelevant** | Wird aufgebracht | **Eliminiert** |
+
+::: {.fragment}
+Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
+:::
 
 
 ## CLT und KI: Die Nuance
