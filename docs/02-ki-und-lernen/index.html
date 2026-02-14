@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
@@ -77,17 +77,17 @@ div.csl-indent {
     "s"
   ],
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script><style>html{ scroll-behavior: smooth; }</style>
 <script type="application/json" class="js-hypothesis-config">
@@ -101,14 +101,14 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
@@ -123,6 +123,17 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -132,17 +143,6 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -156,26 +156,15 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -189,15 +178,26 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 </style>
@@ -223,8 +223,8 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -296,13 +296,13 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 </div>
       </div> <!-- /container-fluid -->
     </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-ki-und-lernen/index.html">KI &amp; Lernen</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -310,7 +310,7 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
@@ -326,7 +326,7 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 </nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
 <li>
@@ -485,7 +485,7 @@ Loading required package: showtextdb</code></pre>
 <img src="index_files/figure-html/fig-offloading-spectrum-1.png" class="img-fluid figure-img" width="1152">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-offloading-spectrum-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Das Spektrum von Cognitive Offloading (lernförderlich) bis Cognitive Outsourcing (lernhinderlich), mit konkreten Beispielen.
+Abbildung&nbsp;1: Das Spektrum von Cognitive Offloading (lernförderlich) bis Cognitive Outsourcing (lernhinderlich), mit konkreten Beispielen.
 </figcaption></figure>
 </div>
 </div>
@@ -566,7 +566,7 @@ Figure&nbsp;1: Das Spektrum von Cognitive Offloading (lernförderlich) bis Cogni
 <script type="application/json" data-for="htmlwidget-2f8ab8204d4f2c4f7b0c">{"x":{"diagram":"\ndigraph evaluation_paradox {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 1.0\n    label = \"Das Evaluationsparadox\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht\"\n    labelloc = t\n    fontsize = 14\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  evaluate [\n    label = \"KI-Output\nbewerten\"\n    fillcolor = \"#dc2626\"\n  ]\n\n  competence [\n    label = \"Fachkompetenz\"\n    fillcolor = \"#64748b\"\n  ]\n\n  learning [\n    label = \"Eigenes\nLernen\"\n    fillcolor = \"#64748b\"\n  ]\n\n  thinking [\n    label = \"Eigenes\nDenken\"\n    fillcolor = \"#16a34a\"\n  ]\n\n  center [\n    label = \"Internes Modell\nnoch nicht aufgebaut\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  evaluate -> competence [label = \"  erfordert  \"]\n  competence -> learning [label = \"  entsteht durch  \"]\n  learning -> thinking [label = \"  erfordert  \"]\n  thinking -> evaluate [label = \"  wird ersetzt\n  durch KI  \" style = dashed color = \"#dc2626\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-evaluation-paradox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2
+Abbildung&nbsp;2
 </figcaption></figure>
 </div>
 </div>
@@ -577,7 +577,7 @@ Figure&nbsp;2
 <script type="application/json" data-for="htmlwidget-63838668d7e2e5999d38">{"x":{"diagram":"\ndigraph expert_novice {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    rankdir = LR\n    nodesep = 0.6\n    ranksep = 1.0\n    compound = true\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_expert {\n    label = \"Expert:in\"\n    fontname = \"Helvetica\"\n    fontsize = 13\n    fontcolor = \"#16a34a\"\n    style = \"rounded,filled\"\n    fillcolor = \"#e8f5e9\"\n    color = \"#16a34a\"\n    penwidth = 1.5\n\n    e_model [label = \"Starkes internes\nModell\" fillcolor = \"#16a34a\"]\n    e_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    e_result [label = \"Korrektur\" fillcolor = \"#16a34a\"]\n\n    e_model -> e_ki [label = \"  Vergleich\n  möglich  \" color = \"#222222\"]\n    e_ki -> e_result [label = \"  Fehler\n  erkennbar  \" color = \"#222222\"]\n  }\n\n  subgraph cluster_novice {\n    label = \"Anfänger:in\"\n    fontname = \"Helvetica\"\n    fontsize = 13\n    fontcolor = \"#dc2626\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fce4ec\"\n    color = \"#dc2626\"\n    penwidth = 1.5\n\n    n_model [label = \"Schwaches internes\nModell\" fillcolor = \"#dc2626\"]\n    n_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    n_result [label = \"Übernahme\" fillcolor = \"#dc2626\"]\n\n    n_model -> n_ki [label = \"  Kein Vergleichs-\n  massstab  \" color = \"#999999\" style = dashed]\n    n_ki -> n_result [label = \"  Fehler\n  unsichtbar  \" color = \"#999999\" style = dashed]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-expert-novice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3
+Abbildung&nbsp;3
 </figcaption></figure>
 </div>
 </div>
@@ -605,8 +605,8 @@ Figure&nbsp;3
 </blockquote>
 </section><section id="lernen-leisten" class="level4"><h4 class="anchored" data-anchor-id="lernen-leisten">Lernen ≠ Leisten</h4>
 <p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur <em>dieses</em> Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, <em>was</em> transferiert werden könnte.</p>
-</section><section id="cargo-cult-scholarship" class="level4"><h4 class="anchored" data-anchor-id="cargo-cult-scholarship">Cargo Cult Scholarship</h4>
-<p>Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.</p>
+</section><section id="schein-kompetenz" class="level4"><h4 class="anchored" data-anchor-id="schein-kompetenz">Schein-Kompetenz</h4>
+<p>Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Das Phänomen ist nicht neu: Studierende haben schon vor KI mit Copy-Paste, strategischem Zusammenfassen und oberflächlichem Paraphrasieren akademische Fassaden errichtet. KI macht es nur einfacher und die Fassade überzeugender. Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.</p>
 </section><section id="the-beach-not-the-ant" class="level4"><h4 class="anchored" data-anchor-id="the-beach-not-the-ant">“The Beach, Not the Ant”</h4>
 <blockquote class="blockquote">
 <p>Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.</p>
@@ -633,7 +633,7 @@ Figure&nbsp;3
 <li>
 <strong>Sprachliche Zugänglichkeit beachten</strong>: KI-Tools funktionieren in verschiedenen Sprachen unterschiedlich gut. Für nicht-muttersprachliche Studierende kann die Sprachbarriere die ohnehin schwächere Ausgangsposition verschärfen</li>
 </ul></section><section id="was-uns-die-geschichte-der-bildungstechnologie-lehrt" class="level4"><h4 class="anchored" data-anchor-id="was-uns-die-geschichte-der-bildungstechnologie-lehrt">Was uns die Geschichte der Bildungstechnologie lehrt</h4>
-<p>Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Cargo Cult Scholarship, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.</p>
+<p>Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.</p>
 <p>Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.</p>
 <p>Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkzeuge sinnvoll integrieren <span class="citation" data-cites="reichFailureDisruptWhy2020">(<a href="#ref-reichFailureDisruptWhy2020" role="doc-biblioref">Reich 2020</a>)</span>. Die angemessene Reaktion auf KI ist weder unkritische Begeisterung noch pauschale Ablehnung, sondern informierte, kontextbezogene Integration, genau das, was dieses Framework ermöglichen soll.</p>
 </section>
@@ -806,7 +806,7 @@ Figure&nbsp;3
 <script type="application/json" data-for="htmlwidget-ca64e269fcb9effc0c07">{"x":{"diagram":"\ndigraph try_then_check {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    compound = true\n    nodesep = 0.5\n    ranksep = 0.8\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_productive {\n    label = \"Produktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 14\n    fontcolor = \"#16a34a\"\n    style = \"rounded,filled\"\n    fillcolor = \"#e8f5e9\"\n    color = \"#16a34a\"\n    penwidth = 1.5\n\n    try [label = \"1. Versuch\nEigenen Ansatz\ngenerieren\" fillcolor = \"#16a34a\"]\n    compare [label = \"2. Vergleich\nMit KI-Output\nabgleichen\" fillcolor = \"#2563eb\"]\n    reflect [label = \"3. Reflexion\nSchema\naktualisieren\" fillcolor = \"#f59e0b\" fontcolor = \"#222222\"]\n\n    try -> compare [label = \"  Prediction Error  \" color = \"#666666\"]\n    compare -> reflect [label = \"  Analyse  \" color = \"#666666\"]\n    reflect -> try [label = \"  Nächster Zyklus  \" color = \"#666666\" style = dashed]\n  }\n\n  subgraph cluster_unproductive {\n    label = \"Unproduktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 14\n    fontcolor = \"#dc2626\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fce4ec\"\n    color = \"#dc2626\"\n    penwidth = 1.5\n\n    direct [label = \"KI-Output\ndirekt nutzen\" fillcolor = \"#dc2626\"]\n    passive [label = \"Passives\nÜbernehmen\" fillcolor = \"#dc2626\"]\n    nolearn [label = \"Kein\nLerneffekt\" fillcolor = \"#dc2626\"]\n\n    direct -> passive [color = \"#999999\" style = dashed]\n    passive -> nolearn [color = \"#999999\" style = dashed label = \"  Keine Reflexion\n  möglich  \"]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-try-then-check-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4
+Abbildung&nbsp;4
 </figcaption></figure>
 </div>
 </div>
@@ -816,7 +816,7 @@ Figure&nbsp;4
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Überleitung zur Praxis
+<span class="screen-reader-only">Tipp</span>Überleitung zur Praxis
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -843,11 +843,11 @@ Figure&nbsp;4
 
 
 
-</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-reichFailureDisruptWhy2020" class="csl-entry" role="listitem">
 Reich, Justin. 2020. <em>Failure to <span>Disrupt</span>: <span>Why Technology Alone Can</span>’t <span>Transform Education</span></em>. Cambridge London: Harvard University Press.
 </div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -872,12 +872,12 @@ Reich, Justin. 2020. <em>Failure to <span>Disrupt</span>: <span>Why Technology A
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

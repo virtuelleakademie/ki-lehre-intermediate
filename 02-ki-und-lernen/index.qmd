@@ -361,9 +361,9 @@ Das erklärt auch, warum **Missverständnisse so hartnäckig** sind: Einfach kor
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
-#### Cargo Cult Scholarship
+#### Schein-Kompetenz
 
-Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
+Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Das Phänomen ist nicht neu: Studierende haben schon vor KI mit Copy-Paste, strategischem Zusammenfassen und oberflächlichem Paraphrasieren akademische Fassaden errichtet. KI macht es nur einfacher und die Fassade überzeugender. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
 
 #### "The Beach, Not the Ant"
 
@@ -395,7 +395,7 @@ Die empirische Evidenzbasis zu KI-spezifischen Equity-Effekten wächst, und die 
 
 #### Was uns die Geschichte der Bildungstechnologie lehrt
 
-Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Cargo Cult Scholarship, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
+Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
 
 Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.
 

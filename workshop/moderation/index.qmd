@@ -131,7 +131,7 @@ Präsentiere die Slides. Kernbotschaften:
 1. **Offloading vs. Outsourcing**: Spektrum, nicht Binär. "Wird das Denken ausgelagert oder nur unterstützt?"
 2. **Evaluationsparadox**: Kompetente Nutzung setzt Kompetenz voraus
 3. **Lernen ≠ Leisten**: KI-Output ≠ Lernergebnis
-4. **Cargo Cult Scholarship**: Oberfläche ohne Substanz
+4. **Schein-Kompetenz**: Oberfläche ohne Substanz
 5. **"The Beach, Not the Ant"**: Lernumgebung gestalten statt Studierende kontrollieren
 6. **Bounded Rationality**: Studierende sind rational. Den Strand umgestalten.
 7. **Equity**: Expertise Reversal Effect → Schwächere werden überproportional geschädigt

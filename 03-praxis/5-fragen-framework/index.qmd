@@ -82,7 +82,7 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | 1. Geht es ums **Lernen**? | Lernen ≠ Leisten, denn Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau |
 | 2. Werden **Grundlagen** aufgebaut? | Novizen-Experten-Progression & Expertise Reversal Effect: Was Anfängern hilft, schadet Experten |
 | 3. Muss **internes Wissen** nachgewiesen werden? | Schemabildung & Langzeitgedächtnis, also Wissen muss intern aufgebaut, nicht extern geliefert werden |
-| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Cargo Cult Scholarship: Oberflächenprodukte ohne Denkprozess |
+| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess |
 | 5. Gibt es **Versuch-dann-Prüfe**? | Vorhersagefehler & Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback |
 
 
