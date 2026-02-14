@@ -69,13 +69,24 @@ Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert
 **Wichtige Differenzierung:** Das Paradox ist nicht absolut --- es variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern --- ohne es aufzulösen.
 
 
-## Lernen ≠ Leisten
+## Warum Schemas den KI-Output umschreiben
+
+Gedächtnis ist nicht reproduktiv --- es ist **rekonstruktiv**. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas --- organisierte Wissensstrukturen aus Erfahrung --- sind dabei gleichzeitig der grösste Vorteil *und* die systematischste Fehlerquelle des Gedächtnisses.
+
+Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemas gefiltert und --- oft still --- **an Erwartungen angepasst**. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal *hinzufabriziert*, obwohl sie nie da waren.
+
+Das erklärt auch, warum **Missverständnisse so hartnäckig** sind: Einfach korrekte Information zu präsentieren reicht nicht, weil das bestehende Schema die neue Information umschreibt. Stattdessen braucht es den Dreischritt: **Aktivieren** (Missverständnis explizit machen) → **Konflikt** (Evidenz zeigen, die das Missverständnis nicht erklären kann) → **Auflösen** (korrekte Erklärung im Kontrast zum Missverständnis).
+
+→ [Vertiefung: Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/) --- Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
+
+
+## Lernen &ne; Leisten
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf --- es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
 ### Cargo Cult Scholarship
 
-Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit --- Hedging, Zitationen, Fachvokabular --- ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht.
+Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit --- Hedging, Zitationen, Fachvokabular --- ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht --- das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
 
 ### "The Beach, Not the Ant"
 
@@ -199,6 +210,8 @@ Drei Erkenntnisse für die eigene Praxis:
 
 ### Für das Selbststudium
 
+- [Arbeitsgedächtnis und Instruktion](../01-lernen-verstehen/arbeitsgedaechtnis/) --- Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
+- [Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/) --- Rekonstruktives Gedächtnis, Schemas, und warum Abruf der stärkste Lernmechanismus ist
 - [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/) --- Wissenschaftliche Grundlagen der Expertise-Entwicklung
 - [Produktive Anstrengung durch Design](../03-praxis/produktive-anstrengung/) --- Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
 - [The Curious Case of Transfer of Learning](https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning) --- Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)

@@ -38,9 +38,17 @@ Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Je
 Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses --- genau das Konzept, das sie vermitteln soll. Die direkte Erfahrung macht das Konzept konkreter als jede Erklärung. Das ist **Elaboration durch Erleben**. *Der Workshop modelliert, was er lehrt.*
 :::
 
+Wichtig: Die Zahl "4±1" gilt für einfache, unverbundene Elemente. Die *effektive* Kapazität hängt stark vom Vorwissen ab --- Experten verarbeiten "F = ma" als **einen** Chunk, Anfänger als drei separate Elemente. @cowanMagicalMysteryFour2010 beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung --- fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.
+
+Und: **Pausen sind keine verlorene Zeit.** Das TBRS-Modell [@barrouilletWorkingMemoryLoss2015] zeigt, dass Aufmerksamkeit zwischen Verarbeitung und Auffrischung von Gedächtnisspuren geteilt werden muss. Schon kurze Mikropausen (30--60 Sekunden) zwischen Instruktionssegmenten geben dem Gehirn Zeit, zerfallende Spuren aufzufrischen. Ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen.
+
+→ [Vertiefung: Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/) --- Die vier Modelle des Arbeitsgedächtnisses und was sie für die Lehre bedeuten
+
 ### Langzeitgedächtnis: Der unbegrenzte Speicher
 
 Das Langzeitgedächtnis ist praktisch unbegrenzt --- aber die Eintrittskarte ist *Anstrengung*. Passives Aufnehmen genügt nicht; aktives Abrufen, Elaborieren und Verknüpfen sind nötig.
+
+Dabei ist "Gedächtnis" kein einheitliches System: Deklaratives Wissen (Fakten, Konzepte) und prozedurales Wissen (Fertigkeiten, Abläufe) folgen unterschiedlichen Regeln und erfordern unterschiedliche Instruktionsansätze. Und der Übergang von episodischem Erinnern ("die Dienstags-Vorlesung in Raum 204") zu semantischem Wissen ("Regression minimiert quadrierte Residuen") geschieht nicht automatisch --- er erfordert variierende Begegnungen und aktiven Abruf.
 
 
 ## Vom Anfänger zum Experten
@@ -108,6 +116,10 @@ Die Strategien sind das *Wie*, Desirable Difficulties das *Was*, und der Aufbau 
 *Wenn das schwierig ist --- gut. Das ist der Punkt.*
 :::
 
+### Warum Kontext das Erinnern bestimmt
+
+Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeigt: Gedächtnisabruf funktioniert am besten, wenn der Abrufkontext mit dem Lernkontext übereinstimmt. Studierende "wissen" oft etwas im Vorlesungskontext, können aber in der Prüfung nicht darauf zugreifen --- weil der Abrufpfad kontextabhängig ist. Das ist ein starkes Argument für *variierende Kontexte* beim Üben und für *Interleaving*: Jeder neue Kontext schafft zusätzliche Abrufpfade und macht Wissen transferierbarer.
+
 ### Die metakognitive Falle
 
 > Was sich wie Lernen *anfühlt*, ist oft keines. Was sich *schwierig anfühlt*, produziert oft das beste Lernen.
@@ -158,4 +170,6 @@ Nutzt die Konzepte aus Teil 1:
 
 ### Für das Selbststudium
 
+- [Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/) --- Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
+- [Gedächtnis und Lernen](./gedaechtnis-und-lernen/) --- Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist
 - [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/) --- Wissenschaftliche Grundlagen der Expertise-Entwicklung

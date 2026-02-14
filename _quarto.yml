@@ -93,6 +93,8 @@ website:
       background: light
       contents:
         - 01-lernen-verstehen/index.qmd
+        - 01-lernen-verstehen/arbeitsgedaechtnis/index.qmd
+        - 01-lernen-verstehen/gedaechtnis-und-lernen/index.qmd
         - 01-lernen-verstehen/kompetenz-erwerben/index.qmd
 
     - title: "Teil 2: KI & Lernen"
