@@ -1,49 +1,49 @@
  ---
 title: "Wie Menschen lernen"
-subtitle: "Cognitive effort isn't a bug---it’s the feature"
+subtitle: "Cognitive effort isn't a bug---it's the feature"
 ---
 
 
-## KI kann uns produktiver machen {.smaller}
+## KI kann uns produktiver machen
 
-- **Wichtige Erkenntnisse aus der Forschung**:
-  - @dellacquaNavigatingJaggedTechnological2023 erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.
-  - @toner-rodgersArtificialIntelligenceScientific2025 diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.
-  - @cuiEffectsGenerativeAI2024 analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.
+**Forschung zeigt**: KI steigert Produktivität und Qualität bei kognitiven Aufgaben, aber mit Nebenwirkungen.
 
-- **Erkenntnisse**:
-  - Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
-  - Unterstützung kreativer Arbeit ist möglich
-  - Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
-  - Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt
+:::{.fragment}
+- Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
+- Unterstützung kreativer Arbeit ist möglich
+- **Deskilling**: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
+- Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt
+:::
+
+::: aside
+@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific2025; @cuiEffectsGenerativeAI2024
+:::
 
 
 ## {.center}
 
 Aber halt...
 
-🤔
+...
 
 :::{.fragment}
 ### Sollten **Lernende** überhaupt produktiver sein?
 :::
 
 :::{.fragment}
-Was ist, wenn **Anstrengung** beim Lernen wichtig ist als das **Ergebnis**?
+Was ist, wenn **Anstrengung** beim Lernen wichtiger ist als das **Ergebnis**?
 :::
 
 
 ## Warum existieren Schulen?
 
-
-Wir unterscheiden zwischen:
+Wir unterscheiden zwischen [@gearyEvolutionarilyInformedEducation2008; @swellerDevelopmentCognitiveLoad2023]:
 
 ::::{.columns}
 :::{.column width="50%"}
 **Biologisch primärem Wissen**:
 
-- Wofür wir evolutionär angepasst sind
-- Lernen geschieht mühelos und automatisch
+- Entwickelt sich bei normaler Umgebung ohne formale Instruktion
 - Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion
 :::
 :::{.column width=50%}
@@ -55,22 +55,22 @@ Wir unterscheiden zwischen:
 :::
 ::::
 
+:::{.fragment}
 ::: {.callout-important}
-Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, während akademische Fähigkeiten explizite Anleitung und strukturiertes Üben erfordern.
+Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein [@kirschnerWhyMinimalGuidance2006].
+:::
 :::
 
 
-## Experten vs. Anfänger {.smaller}
+## Experten vs. Anfänger
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 ::: {.callout-important}
-Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen.
+Experten haben eine **kognitive Architektur**, also besser organisierte Wissensstrukturen, die Anfänger erst aufbauen müssen.
 :::
 :::
-
-
 
 ::: {.column width="50%"}
 ![](../../assets/images/chess.png){width=30% fig-align="center"}
@@ -83,22 +83,21 @@ Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
 
 | Dimension       | **Anfänger**                                                              | **Experten**                                                 |
 | --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Sehen**       | • Einzelne Teile                                                                | • Bedeutungsvolle Muster                                |
-| **Verarbeiten** | • Schritt-für-Schritt-Denken<br>• Deliberativ<br>• Bewusste Anstrengung | • Automatische Prozeduren<br>• Intuitiv<br>• Unbewusst |
-| **Neural**      | • Schwache Verbindungen<br>• Bahnen noch im Aufbau                                 | • Myelinisierte neuronale Bahnen<br>• Tausende Stunden geübt        |
-|                 |                                                                  |                                                                                 |
+| **Sehen**       | Einzelne Teile                                                                | Bedeutungsvolle Muster                                |
+| **Verarbeiten** | Schritt-für-Schritt, deliberativ, bewusst | Automatische Prozeduren, intuitiv |
+| **Wissen**      | Isolierte Fakten, Bahnen im Aufbau                                 | Vernetzte Schemata, tausende Stunden geübt        |
 
 
-## Cognitive Load Theory {.smaller}
+## Cognitive Load Theory
 
-**Warum Anfänger anders lernen müssen als Experten**
+**Warum Anfänger anders lernen müssen als Experten** [@swellerDevelopmentCognitiveLoad2023]
 
 ::::{.columns}
 :::{.column width="50%"}
 ### Arbeitsgedächtnis
 
-- **Begrenzt**: Wenige Elemente gleichzeitig
-- **Flüchtig**: Sekunden bis Minuten
+- **Begrenzt**: ~4 Elemente gleichzeitig
+- **Flüchtig**: Sekunden ohne Wiederholung
 - **Bottleneck**: Hier findet aktives Lernen statt
 - **Problem**: Schnell überlastet bei komplexen Aufgaben
 :::
@@ -113,23 +112,22 @@ Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
 :::
 ::::
 
-<br>
-
+:::{.fragment}
 ::: {.callout-tip}
-**Kernprinzip**: Lernen = Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung (Wissensstrukturen)
+**Kernprinzip**: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung
+:::
 :::
 
 
-## Die drei Arten kognitiver Belastung {.smaller}
+## Die drei Arten kognitiver Belastung
 
 | Art | Definition | Beispiel | Gestaltbar? |
 |-----|------------|----------|-------------|
-| **Intrinsisch** | Komplexität des Lernstoffs selbst | Quantenphysik hat höhere intrinsische Last als Addition | ❌ Nur durch Sequenzierung |
-| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | ✅ Durch gutes Design minimierbar |
-| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | ✅ Sollte maximiert werden |
+| **Intrinsisch** | Komplexität des Lernstoffs selbst | Quantenphysik hat höhere intrinsische Last als Addition | Begrenzt (Sequenzierung) |
+| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | Durch gutes Design minimierbar |
+| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | Raum dafür schaffen |
 
-<br>
-
+:::{.fragment}
 ::: {.callout-warning}
 **Das Lerndilemma**:
 
@@ -137,98 +135,164 @@ Experten haben eine neuronale Architektur, die Anfänger erst entwickeln müssen
 - Aber: Lernrelevanter _cognitive load_ ist essentiell für Expertise-Entwicklung
 - **Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Last zu schaffen
 :::
-
-
-## CLT-Prinzipien für effektives Lernen {.smaller}
-
-| Prinzip | Für Anfänger | Für Fortgeschrittene | Implikation |
-|---------|--------------|----------------------|-------------|
-| **Worked Examples** | ✅ Reduziert kognitive Last durch Beispiele | ❌ Langweilt und hemmt | Scaffolding anpassen |
-| **Problem Solving** | ❌ Überfordert das Arbeitsgedächtnis | ✅ Fördert Schemabildung | Timing ist kritisch |
-| **Split-Attention** | Text + Bild integriert präsentieren | Weniger relevant | Klare Darstellung wählen  |
-
-<br>
-
-::: {.callout-important}
-### Der Expertise Reversal Effect
-
-Was Experten hilft, kann Anfängern schaden – und umgekehrt. Lernumgebungen müssen sich an das Niveau anpassen.
 :::
 
+
+## Der Expertise Reversal Effect
+
+**Was Anfängern hilft, schadet Experten, und umgekehrt** [@kalyugaExpertiseReversalEffect2009]
+
+| Prinzip | Für Anfänger | Für Fortgeschrittene |
+|---------|--------------|----------------------|
+| **Worked Examples** | Reduziert kognitive Last | Langweilt und hemmt |
+| **Problem Solving** | Überfordert Arbeitsgedächtnis | Fördert Schemabildung |
+
+:::{.fragment}
+::: {.callout-important}
 **Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
+
+**Die KI-Falle**: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.
+:::
+:::
 
 
 ## CLT und KI: Cognitive Offloading {.smaller}
 
 **Das Lernparadox: KI optimiert für Produktion statt Lernen**
 
-| Kognitive Last | Ohne KI | Mit KI | Konsequenz |
+| Kognitive Last | Ohne KI | Mit KI (Outsourcing) | Konsequenz |
 |--------|---------|--------|------------|
 | **Intrinsisch** | Bleibt konstant | Scheint reduziert | Komplexität wird versteckt, nicht bewältigt |
-| **Extrinsisch** | Variabel | ✅ Minimiert | Gut für Effizienz |
-| **Lernrelevant** | Wird aufgebracht | ❌ Eliminiert | Keine Schemabildung |
+| **Extrinsisch** | Variabel | Minimiert | Gut für Effizienz |
+| **Lernrelevant** | Wird aufgebracht | Eliminiert | Keine Schemabildung |
 
-## CLT und KI: Cognitive Offloading {.smaller}
+:::{.fragment}
+::: {.callout-note}
+**Wichtig**: Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing). Wenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last erhalten bleiben.
+:::
+:::
 
-**Drei kritische Lernmechanismen werden ausgeschaltet:**
+## CLT und KI: Lernmechanismen {.smaller}
 
-| Mechanismus | Normal | Mit KI-Offloading |
+**Drei kritische Lernmechanismen werden durch Outsourcing ausgeschaltet:**
+
+| Mechanismus | Normal | Mit KI-Outsourcing |
 |-------------|--------|-------------------|
-| **Vorhersagefehler** | Lücke zwischen Erwartung & Realität = Lernsignal | Keine Erwartungen → kein Lernen |
+| **Erwartung vs. Realität** (Vorhersagefehler) | Lücke zwischen Erwartung & Realität = Lernsignal | Keine Erwartungen → kein Lernen |
 | **Gedächtniskonsolidierung** | Aktive Verarbeitung → Speicherung | Passive Konsumption → Vergessen |
 | **Prozedurale Entwicklung** | Tausende Wiederholungen → Automatismen | Überspringen → keine Expertise |
 
+:::{.fragment}
 ::: {.callout-warning}
-**Die CLT-Perspektive**: Schwierigkeit ist kein Bug – sie ist das zentrale Feature für Expertise-Entwicklung
+**Die CLT-Perspektive**: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung
+:::
 :::
 
 
-## Wie Expertise entwickelt wird {.smaller}
+## Wie Expertise entwickelt wird
 
-**Von Fakten zu automatisierten Prozeduren**
+**Von Fakten zu automatisierten Prozeduren** [@andersonAcquisitionCognitiveSkill1982]
 
-| Gedächtnissystem                | Beschreibung        | Eigenschaften                                                       | Beispiel                                                |
-| -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Deklaratives Gedächtnis** | **"Wissen dass"** | • Fakten, Regeln<br> • Bewusst, langsamer Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
-| **Prozedurales Gedächtnis**   | **"Wissen wie"**  | • Automatisierte Prozesse<br>• Schnelle, mühelose Ausführung  | $3x + 5 = 20$ sehen → direkt wissen: $x = 5$               |
+| Gedächtnissystem | Beschreibung | Beispiel |
+| ---------------- | ------------ | -------- |
+| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
+| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $3x + 5 = 20$ sehen → direkt wissen: $x = 5$ |
 
-<br>
+:::{.fragment}
 
-:::: {.columns}
-::: {.column width="50%"}
 ### Der Weg zur Expertise
-Deklarative Fakten → Tausende Übungszyklen → Prozedurale Automatismen
+
+**Deklarative Fakten** → Tausende Übungszyklen mit Vorhersagefehlern → **Prozedurale Automatismen**
+
+Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Schemata
 :::
 
-::: {.column width="50%"}
-![](../../assets/images/ACTR3.jpg)
+
+## Das Lernparadox (1/2)
+
+### Beim **Kämpfen** mit einem Problem
+
+::::{.columns}
+:::{.column width="50%"}
+**Wie es sich anfühlt:**
+
+- Frustration
+- "Ich kann das nicht"
+- Langsamer Fortschritt
+- Unsicherheit
+:::
+
+:::{.column width="50%"}
+:::{.fragment}
+**Was tatsächlich passiert:**
+
+- Tiefes Verständnis bildet sich
+- Schemata werden aufgebaut
+- Langzeitgedächtnis wird aktiviert
+- **Echtes Lernen**
+:::
 :::
 ::::
 
-::: {.attribution}
-Abbildung von [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/act-r/)
+:::{.fragment}
+::: {.callout-note}
+**Der Trugschluss**: "Wenn es schwer ist, lerne ich nicht"
+:::
 :::
 
 
-## Das Lernparadox: Gefühl ≠ Realität {.smaller}
+## Das Lernparadox (2/2)
 
-| Situation | **Wie es sich anfühlt** |  **Was tatsächlich passiert** | **Der Trugschluss** |
-|-----------|---------------------------|--------------------------------|----------------------|
-| **Beim Kämpfen mit einem Problem** | • **Frustration** 😣 <br>• "Ich kann das nicht"<br>• Langsamer Fortschritt<br>• Unsicherheit | • Neue neuronale Verbindungen entstehen<br>• Tiefes Verständnis bildet sich<br>• Langzeitgedächtnis wird aktiviert<br>• **Echtes Lernen** 🧠 | "Wenn es schwer ist, lerne ich nicht" ❌  |
-| **Beim Produzieren mit KI-Hilfe** | • **Erfolgsgefühl** 😊 <br>• "Ich bin produktiv"<br>• Schnelle Ergebnisse<br>• Selbstvertrauen | • Oberflächliche Verarbeitung<br>• Keine neuen Verbindungen<br>• Arbeitsgedächtnis nur kurz aktiv<br>• **Illusion des Lernens** 🃏| "Wenn ich etwas produziere, lerne ich" ❌  |
+### Beim **Produzieren** mit KI-Hilfe
 
-. . .
+::::{.columns}
+:::{.column width="50%"}
+**Wie es sich anfühlt:**
 
-:::{.callout-warning}
-## Die gefährliche Umkehrung
-**Unser Gehirn belügt uns:** Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.
-
-**Die Wahrheit:** Echter Lernfortschritt fühlt sich wie Scheitern an.
+- Erfolgsgefühl
+- "Ich bin produktiv"
+- Schnelle Ergebnisse
+- Selbstvertrauen
 :::
 
+:::{.column width="50%"}
+:::{.fragment}
+**Was tatsächlich passiert:**
+
+- Oberflächliche Verarbeitung
+- Keine Schemabildung
+- Arbeitsgedächtnis kaum aktiv
+- **Illusion des Lernens**
+:::
+:::
+::::
+
+:::{.fragment}
+::: {.callout-warning}
+**Der Trugschluss**: "Wenn ich etwas produziere, lerne ich"
+:::
+:::
+
+
+## Die gefährliche Umkehrung {.center}
+
+<br>
+
+**Unser metakognitives Urteil täuscht uns:**
+
+Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.
+
 . . .
 
-**Merksatz:** "Cognitive effort isn't a bug---it’s the feature."
+<br>
+
+Produktive Anstrengung **fühlt sich schwierig an**, aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **ist die Schwierigkeit der Mechanismus**.
+
+. . .
+
+<br>
+
+**Merksatz:** "Cognitive effort isn't a bug---it's the feature."
 
 
 ## Bibliographie

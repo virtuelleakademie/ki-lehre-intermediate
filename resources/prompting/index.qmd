@@ -94,12 +94,12 @@ Step-by-step, explain how to identify the limiting reagent in this reaction.
 :::
 
 :::{.callout-tip appearance="default"}
-## ✅
+## Do this
 Instruct the LLM to think first: "Explain your reasoning first, then state the answer."
 :::
 
 :::{.callout-warning appearance="default"}
-## ❌
+## Avoid this
 Instruct the LLM to give the answer first: "State the answer first, then explain your reasoning."
 :::
 

@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Das 5-Fragen-Framework – KI in der Lehre: Intermediate</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../03-praxis/fallstudien/index.html" rel="next">
+<link href="../../03-praxis/index.html" rel="prev">
+<link href="../..//assets/robot.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<style>
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+</style>
+
+
+<meta property="og:title" content="Das 5-Fragen-Framework – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Aufgaben für das KI-Zeitalter gestalten">
+<meta property="og:site_name" content="KI in der Lehre: Intermediate">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">KI in der Lehre: Intermediate</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../workshop/index.html"> <i class="bi bi-card-list" role="img">
+</i> 
+<span class="menu-text">Workshop</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../01-lernen-verstehen/index.html"> <i class="bi bi-person-gear" role="img">
+</i> 
+<span class="menu-text">1: Lernen verstehen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
+</i> 
+<span class="menu-text">2: KI &amp; Lernen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../03-praxis/index.html" aria-current="page"> <i class="bi bi-marker-tip" role="img">
+</i> 
+<span class="menu-text">3: Praxis</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-file-slides" role="img">
+</i> 
+ <span class="menu-text">Dokumente</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
+        <li>
+    <a class="dropdown-item" href="../../assets/pdfs/Begleitdokument.pdf">
+ <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf">
+ <span class="dropdown-text">Begleitdokument: KI Policy (PDF)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/resources.html">
+ <span class="dropdown-text">Begleitdokument: Orientierungshilfe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../assets/pdfs/Orientierungshilfe.pdf">
+ <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://virtuelleakademie.ch/knowledge-base/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../03-praxis/5-fragen-framework/index.html">Das 5-Fragen-Framework</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vom Wissen zum Handeln</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Das 5-Fragen-Framework</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die 8 Make it Stick Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produktive Anstrengung durch Design</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#überblick" id="toc-überblick" class="nav-link active" data-scroll-target="#überblick">Überblick</a></li>
+  <li><a href="#die-5-fragen" id="toc-die-5-fragen" class="nav-link" data-scroll-target="#die-5-fragen">Die 5 Fragen</a>
+  <ul class="collapse">
+  <li><a href="#frage-1-geht-es-primär-ums-lernen" id="toc-frage-1-geht-es-primär-ums-lernen" class="nav-link" data-scroll-target="#frage-1-geht-es-primär-ums-lernen">Frage 1: Geht es primär ums Lernen?</a></li>
+  <li><a href="#frage-2-werden-noch-grundlagen-aufgebaut" id="toc-frage-2-werden-noch-grundlagen-aufgebaut" class="nav-link" data-scroll-target="#frage-2-werden-noch-grundlagen-aufgebaut">Frage 2: Werden noch Grundlagen aufgebaut?</a></li>
+  <li><a href="#frage-3-muss-internes-wissen-nachgewiesen-werden" id="toc-frage-3-muss-internes-wissen-nachgewiesen-werden" class="nav-link" data-scroll-target="#frage-3-muss-internes-wissen-nachgewiesen-werden">Frage 3: Muss internes Wissen nachgewiesen werden?</a></li>
+  <li><a href="#frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen" id="toc-frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen" class="nav-link" data-scroll-target="#frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen">Frage 4: Kann KI die Aufgabe ohne Denkarbeit der Studierenden erledigen?</a></li>
+  <li><a href="#frage-5-gibt-es-eine-versuch-dann-prüfe-struktur" id="toc-frage-5-gibt-es-eine-versuch-dann-prüfe-struktur" class="nav-link" data-scroll-target="#frage-5-gibt-es-eine-versuch-dann-prüfe-struktur">Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</a></li>
+  </ul></li>
+  <li><a href="#theoretische-fundierung" id="toc-theoretische-fundierung" class="nav-link" data-scroll-target="#theoretische-fundierung">Theoretische Fundierung</a></li>
+  <li><a href="#anwendungsbeispiel-volkswirtschaftslehre" id="toc-anwendungsbeispiel-volkswirtschaftslehre" class="nav-link" data-scroll-target="#anwendungsbeispiel-volkswirtschaftslehre">Anwendungsbeispiel: Volkswirtschaftslehre</a></li>
+  <li><a href="#disziplinspezifische-hinweise" id="toc-disziplinspezifische-hinweise" class="nav-link" data-scroll-target="#disziplinspezifische-hinweise">Disziplinspezifische Hinweise</a>
+  <ul class="collapse">
+  <li><a href="#mathematik-und-naturwissenschaften" id="toc-mathematik-und-naturwissenschaften" class="nav-link" data-scroll-target="#mathematik-und-naturwissenschaften">Mathematik und Naturwissenschaften</a></li>
+  <li><a href="#schreiben-und-geisteswissenschaften" id="toc-schreiben-und-geisteswissenschaften" class="nav-link" data-scroll-target="#schreiben-und-geisteswissenschaften">Schreiben und Geisteswissenschaften</a></li>
+  <li><a href="#professionelle-fächer" id="toc-professionelle-fächer" class="nav-link" data-scroll-target="#professionelle-fächer">Professionelle Fächer</a></li>
+  <li><a href="#sprachen" id="toc-sprachen" class="nav-link" data-scroll-target="#sprachen">Sprachen</a></li>
+  </ul></li>
+  <li><a href="#vom-design-zur-praxis-3-sonden-für-den-lehralltag" id="toc-vom-design-zur-praxis-3-sonden-für-den-lehralltag" class="nav-link" data-scroll-target="#vom-design-zur-praxis-3-sonden-für-den-lehralltag">Vom Design zur Praxis: 3 Sonden für den Lehralltag</a>
+  <ul class="collapse">
+  <li><a href="#die-3-sonden" id="toc-die-3-sonden" class="nav-link" data-scroll-target="#die-3-sonden">Die 3 Sonden</a></li>
+  <li><a href="#so-klingen-die-antworten" id="toc-so-klingen-die-antworten" class="nav-link" data-scroll-target="#so-klingen-die-antworten">So klingen die Antworten</a></li>
+  <li><a href="#zwei-einsatzmodi" id="toc-zwei-einsatzmodi" class="nav-link" data-scroll-target="#zwei-einsatzmodi">Zwei Einsatzmodi</a></li>
+  </ul></li>
+  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Das 5-Fragen-Framework</h1>
+<p class="subtitle lead">Aufgaben für das KI-Zeitalter gestalten</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="überblick" class="level2">
+<h2 class="anchored" data-anchor-id="überblick">Überblick</h2>
+<p>Dieses Framework hilft, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie <strong>lernrelevante kognitive Verarbeitung</strong> bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.</p>
+<p>Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit “Ja” beantwortet wird, folgt eine klare Handlungsempfehlung.</p>
+</section>
+<section id="die-5-fragen" class="level2">
+<h2 class="anchored" data-anchor-id="die-5-fragen">Die 5 Fragen</h2>
+<section id="frage-1-geht-es-primär-ums-lernen" class="level3">
+<h3 class="anchored" data-anchor-id="frage-1-geht-es-primär-ums-lernen">Frage 1: Geht es primär ums Lernen?</h3>
+<p><strong>Unterscheide Lern- von Leistungskontexten.</strong></p>
+<ul>
+<li><strong>Lernkontext</strong> (Übungen, Hausaufgaben, Selbststudium): Der Prozess zählt, nicht das Produkt → KI-Outsourcing <em>verhindern</em></li>
+<li><strong>Leistungskontext</strong> (Prüfungen, professionelle Aufgaben): Das Ergebnis zählt → KI-Unterstützung kann sinnvoll sein</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Wenn ja</strong>: Outsourcing verhindern. Die kognitive Anstrengung <em>ist</em> das Lernziel.</p>
+</blockquote>
+</section>
+<section id="frage-2-werden-noch-grundlagen-aufgebaut" class="level3">
+<h3 class="anchored" data-anchor-id="frage-2-werden-noch-grundlagen-aufgebaut">Frage 2: Werden noch Grundlagen aufgebaut?</h3>
+<p><strong>Wo stehen die Studierenden auf dem Anfänger-Experten-Kontinuum?</strong></p>
+<ul>
+<li><strong>Grundlagenphase</strong> (Anfänger:innen): Interne Verarbeitung ist essentiell für Schemabildung → KI erst <em>nach</em> dem eigenen Versuch</li>
+<li><strong>Fortgeschrittene Phase</strong>: Expert:innen haben die Schemas bereits, und KI kann als Verstärker dienen</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Wenn ja</strong>: Interne Verarbeitung verlangen. Studierende müssen die Grundlagen <em>selbst</em> aufbauen, bevor KI-Tools sinnvoll eingesetzt werden können (→ Evaluationsparadox).</p>
+</blockquote>
+</section>
+<section id="frage-3-muss-internes-wissen-nachgewiesen-werden" class="level3">
+<h3 class="anchored" data-anchor-id="frage-3-muss-internes-wissen-nachgewiesen-werden">Frage 3: Muss internes Wissen nachgewiesen werden?</h3>
+<p><strong>Kann die Aufgabe nur mit <em>eigenem</em> Wissen gelöst werden?</strong></p>
+<ul>
+<li>Mündliche Prüfungen, Erklärungen in eigenen Worten, spontane Anwendung</li>
+<li>Wenn nicht: Kann KI die Aufgabe stellvertretend lösen?</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Wenn ja</strong>: Outsourcing unmöglich machen. Aufgabenformate wählen, die <em>internes</em> Wissen erfordern (z.B. mündliche Komponenten, Erklärungen, unangekündigte Anwendung).</p>
+</blockquote>
+</section>
+<section id="frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen" class="level3">
+<h3 class="anchored" data-anchor-id="frage-4-kann-ki-die-aufgabe-ohne-denkarbeit-der-studierenden-erledigen">Frage 4: Kann KI die Aufgabe ohne Denkarbeit der Studierenden erledigen?</h3>
+<p><strong>Der Reality Check</strong>: Gib die Aufgabe testweise an ein KI-Tool. Produziert es ein akzeptables Ergebnis?</p>
+<ul>
+<li>Wenn ja: Die Aufgabe testet <em>Produktion</em>, nicht <em>Verstehen</em></li>
+<li>Lösung: Aufgabe umgestalten, sodass der <em>Denkprozess</em> sichtbar wird</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Wenn ja</strong>: Aufgabe umgestalten. Persönliche Erfahrungen einbauen, Prozessdokumentation verlangen, mündliche Komponenten hinzufügen, Troubleshooting statt Lösungsfindung.</p>
+</blockquote>
+</section>
+<section id="frage-5-gibt-es-eine-versuch-dann-prüfe-struktur" class="level3">
+<h3 class="anchored" data-anchor-id="frage-5-gibt-es-eine-versuch-dann-prüfe-struktur">Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</h3>
+<p><strong>Die goldene Regel für KI im Lernkontext:</strong></p>
+<ol type="1">
+<li>Studierende machen <em>zuerst</em> einen eigenen Versuch (Hypothese generieren, Lösung skizzieren, Argument formulieren)</li>
+<li><em>Dann</em> wird mit KI verglichen, geprüft oder erweitert</li>
+</ol>
+<blockquote class="blockquote">
+<p><strong>Wenn ja</strong>: KI für die Prüfphase nutzen. Die Reihenfolge “Versuch → Prüfung” bewahrt den Prediction-Error-Mechanismus: Studierende bilden Vorhersagen, die an der Realität (oder am KI-Output) scheitern und daraus lernen.</p>
+</blockquote>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Praxistipp: Relevante Merkmale signalisieren
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In der Prüfphase brauchen Studierende <strong>explizite Hinweise, worauf sie achten sollen</strong>. Ohne Signale vergleichen sie Oberflächenmerkmale (Länge, Stil, Vokabular) statt der lernrelevanten Strukturen (Argumentationslogik, Annahmen, Kausalität).</p>
+<p><strong>Statt:</strong> “Vergleiche deinen Text mit dem KI-Text” <strong>Besser:</strong> “Vergleiche die <em>kausale Argumentationskette</em> deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?”</p>
+<p>Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig; mit ihm wird der Vergleich zum gezielten Lernmoment.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="theoretische-fundierung" class="level2">
+<h2 class="anchored" data-anchor-id="theoretische-fundierung">Theoretische Fundierung</h2>
+<p>Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Theoretische Grundlage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es ums <strong>Lernen</strong>?</td>
+<td>Lernen ≠ Leisten, denn Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau</td>
+</tr>
+<tr class="even">
+<td>2. Werden <strong>Grundlagen</strong> aufgebaut?</td>
+<td>Novizen-Experten-Progression &amp; Expertise Reversal Effect: Was Anfängern hilft, schadet Experten</td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>Schemabildung &amp; Langzeitgedächtnis, also Wissen muss intern aufgebaut, nicht extern geliefert werden</td>
+</tr>
+<tr class="even">
+<td>4. Kann KI <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>Cognitive Outsourcing &amp; Cargo Cult Scholarship: Oberflächenprodukte ohne Denkprozess</td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es <strong>Versuch-dann-Prüfe</strong>?</td>
+<td>Vorhersagefehler &amp; Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="anwendungsbeispiel-volkswirtschaftslehre" class="level2">
+<h2 class="anchored" data-anchor-id="anwendungsbeispiel-volkswirtschaftslehre">Anwendungsbeispiel: Volkswirtschaftslehre</h2>
+<p><strong>Ursprüngliche Aufgabe</strong>: “Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt.”</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Analyse</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Lernen?</td>
+<td>Ja, denn es ist eine Hausaufgabe im 2. Semester</td>
+</tr>
+<tr class="even">
+<td>2. Grundlagen?</td>
+<td>Ja, denn makroökonomische Modelle werden gerade aufgebaut</td>
+</tr>
+<tr class="odd">
+<td>3. Internes Wissen?</td>
+<td>Nein, der Text kann mit KI produziert werden</td>
+</tr>
+<tr class="even">
+<td>4. KI ohne Denkarbeit?</td>
+<td>Ja, ChatGPT liefert eine solide Analyse</td>
+</tr>
+<tr class="odd">
+<td>5. Versuch-dann-Prüfe?</td>
+<td>Nein, keine Struktur dafür</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Redesign:</strong></p>
+<ul>
+<li><strong>Phase 1</strong>: Studierende skizzieren <em>zuerst</em> ihre eigene kausale Argumentationskette (handschriftlich oder zeitbegrenzt)</li>
+<li><strong>Phase 2</strong>: KI-generierte Analyse als Vergleich, wobei Studierende Unterschiede identifizieren und beide Argumentationen bewerten</li>
+<li><strong>Phase 3</strong>: Mündliche Kurzpräsentation der Synthese (2 Min)</li>
+</ul>
+<p>→ Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.</p>
+</section>
+<section id="disziplinspezifische-hinweise" class="level2">
+<h2 class="anchored" data-anchor-id="disziplinspezifische-hinweise">Disziplinspezifische Hinweise</h2>
+<section id="mathematik-und-naturwissenschaften" class="level3">
+<h3 class="anchored" data-anchor-id="mathematik-und-naturwissenschaften">Mathematik und Naturwissenschaften</h3>
+<ul>
+<li>Problemlösung <em>ohne</em> KI verlangen, dann mit KI-Lösung vergleichen</li>
+<li>Erklärungsfragen einbauen (“Warum funktioniert dieser Schritt?”)</li>
+<li>Zwei-Phasen-Aufgaben: Handschriftlich → dann mit Tools prüfen</li>
+</ul>
+</section>
+<section id="schreiben-und-geisteswissenschaften" class="level3">
+<h3 class="anchored" data-anchor-id="schreiben-und-geisteswissenschaften">Schreiben und Geisteswissenschaften</h3>
+<ul>
+<li>Persönliche/erfahrungsbasierte Komponenten einbauen</li>
+<li>Prozessdokumentation verlangen (Entwürfe, Gedankenprotokolle)</li>
+<li>Mündliche Komponenten (Verteidigung, Erklärung)</li>
+<li>Fokus auf das Denken <em>hinter</em> dem Text, nicht den Text selbst</li>
+</ul>
+</section>
+<section id="professionelle-fächer" class="level3">
+<h3 class="anchored" data-anchor-id="professionelle-fächer">Professionelle Fächer</h3>
+<ul>
+<li>Simulierte Praxis ohne KI (Beratungsgespräche, klinische Entscheidungen)</li>
+<li>Echtzeitreasoning unter Zeitdruck</li>
+<li>Fälle mit Ambiguität, die kein eindeutiges “richtig” haben</li>
+</ul>
+</section>
+<section id="sprachen" class="level3">
+<h3 class="anchored" data-anchor-id="sprachen">Sprachen</h3>
+<ul>
+<li>Spontane mündliche Interaktion maximieren</li>
+<li>Zeitbegrenzte Schreibübungen</li>
+<li>KI als Post-Produktions-Check, nicht als Produktionstool</li>
+</ul>
+</section>
+</section>
+<section id="vom-design-zur-praxis-3-sonden-für-den-lehralltag" class="level2">
+<h2 class="anchored" data-anchor-id="vom-design-zur-praxis-3-sonden-für-den-lehralltag">Vom Design zur Praxis: 3 Sonden für den Lehralltag</h2>
+<p>Die 5 Fragen helfen beim <strong>Gestalten</strong> von Aufgaben. Aber wie prüft man danach, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:</p>
+<section id="die-3-sonden" class="level3">
+<h3 class="anchored" data-anchor-id="die-3-sonden">Die 3 Sonden</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 29%">
+<col style="width: 30%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sonde</th>
+<th>Frage an Studierende</th>
+<th>Was sie diagnostiziert</th>
+<th>Theoretischer Anker</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vorher</strong></td>
+<td>“Was hast du versucht, bevor du KI gefragt hast?”</td>
+<td>Gab es einen eigenen Versuch? (Generation)</td>
+<td>Generierungseffekt, Desirable Difficulties</td>
+</tr>
+<tr class="even">
+<td><strong>Während</strong></td>
+<td>“Wo hat dich die KI überrascht, und warum?”</td>
+<td>War das interne Modell aktiv? (Vorhersagefehler)</td>
+<td>Prediction Error Learning, Evaluationsparadox</td>
+</tr>
+<tr class="odd">
+<td><strong>Nachher</strong></td>
+<td>“Was machst du nächstes Mal anders, ohne KI?”</td>
+<td>Hat sich das Schema aktualisiert? (Transfer)</td>
+<td>Wissenskompilation, Schemabildung</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="so-klingen-die-antworten" class="level3">
+<h3 class="anchored" data-anchor-id="so-klingen-die-antworten">So klingen die Antworten</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 41%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sonde</th>
+<th>Outsourcing (Denken ausgelagert)</th>
+<th>Genuine Verarbeitung (Denken geblieben)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vorher</strong></td>
+<td>“Ich hab direkt ChatGPT gefragt” / vages “Ich hab mal überlegt”</td>
+<td>“Ich hab zuerst X probiert, bin bei Y steckengeblieben, weil…”</td>
+</tr>
+<tr class="even">
+<td><strong>Während</strong></td>
+<td>“Nichts hat mich überrascht” / “Die KI hat gut geschrieben”</td>
+<td>“Ich dachte, der Zusammenhang sei A, aber die KI hat B argumentiert, und das hat mich zum Nachdenken gebracht, weil…”</td>
+</tr>
+<tr class="odd">
+<td><strong>Nachher</strong></td>
+<td>“Keine Ahnung” / “Ich würde es genauso machen”</td>
+<td>“Beim nächsten Mal würde ich zuerst X klären, weil ich gemerkt habe, dass…”</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Die Schlüsselsonde ist “Während”:</strong> Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten, denn es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.</p>
+</section>
+<section id="zwei-einsatzmodi" class="level3">
+<h3 class="anchored" data-anchor-id="zwei-einsatzmodi">Zwei Einsatzmodi</h3>
+<p><strong>Modus 1, Einbauen:</strong> Die Sonden als Teil der Aufgabe verlangen. Z.B.: <em>“Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?”</em> So wird die Diagnostik zum strukturellen Bestandteil, und der Strand zwingt die Ameise durch den Checkpoint.</p>
+<p><strong>Modus 2, Nachfragen:</strong> In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächssonden nutzen. Keine Vorbereitung nötig, denn die Fragen funktionieren in jedem Fach.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Vorsicht vor Fehldiagnosen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Flüssige Leistung ≠ Outsourcing.</strong> Fortgeschrittene Studierende produzieren glatte Arbeit <em>und</em> bestehen die Sonden. Kompetenz nicht mit Outsourcing verwechseln.</li>
+<li><strong>KI-Nutzung ≠ Outsourcing.</strong> Wer KI für Formatierung, Sprachkorrektur oder Literatursuche nutzt, während die konzeptuelle Arbeit intern bleibt, betreibt legitimes Offloading.</li>
+<li><strong>Prozessdokumentation kann fabriziert werden.</strong> Achte auf <em>Spezifität und Idiosynkrasie</em>: Echte Denkspuren enthalten konkrete Sackgassen und spezifische Verwirrungsmomente. Fabrizierte sind generisch und narrativ zu glatt.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="zusammenfassung" class="level2">
+<h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
+<pre><code>Geht es ums Lernen?
+  └─ Ja → Werden Grundlagen aufgebaut?
+              └─ Ja → Internes Wissen nötig?
+                          └─ Nein → Aufgabe umgestalten
+                          └─ Ja → Versuch-dann-Prüfe?
+                                      └─ Nein → Struktur einbauen
+                                      └─ Ja → KI sinnvoll einsetzbar
+  └─ Nein → KI-Unterstützung kann sinnvoll sein</code></pre>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/virtuelleakademie\.github\.io\/ki-lehre-intermediate\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../03-praxis/index.html" class="pagination-link" aria-label="Vom Wissen zum Handeln">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Vom Wissen zum Handeln</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../03-praxis/fallstudien/index.html" class="pagination-link" aria-label="Fallstudien: KI-Integration in der Lehre">
+        <span class="nav-page-text">Fallstudien: KI-Integration in der Lehre</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

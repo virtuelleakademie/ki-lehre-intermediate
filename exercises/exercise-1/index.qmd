@@ -4,7 +4,7 @@ title: "Übung 1: Tutor erstellen"
 
 
 ## Aufgabe
-Passen Sie das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.
+Passe das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.
 
 ::: {.callout-note collapse="true"}
 ## Prompt-Template
@@ -18,7 +18,7 @@ Du bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis fü
 
 ## Ziel
 
-*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln – nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*
+*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln, nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*
 
 ---
 

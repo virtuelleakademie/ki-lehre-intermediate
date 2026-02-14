@@ -1,0 +1,217 @@
+---
+title: "KI & Lernen"
+---
+
+Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen, und wann verhindert sie es?
+
+::: {.active-processing}
+### Retrieval Activation (5 Min)
+
+Bevor wir weitergehen: **Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen.** Ergänze bei jedem Konzept in einem Satz, *warum es für den KI-Einsatz in der Lehre relevant ist*.
+
+Was fällt dir ein? Was musst du nachschlagen?
+
+**Dann (2 Min):** Vergleicht zu zweit eure Konzepte. Was habt ihr vergessen? Was war überraschend schwierig zu erinnern?
+
+*Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung. Dass es sich anstrengend anfühlt, ist kein Zeichen für schlechtes Lernen, sondern es ist das Lernen.*
+:::
+
+
+## {{< bi file-slides >}} Was bedeutet das für KI?
+
+{{< revealjs file="../slides/ki-und-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+## Offloading vs. Outsourcing
+
+Die entscheidende Frage: **Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?**
+
+Offloading und Outsourcing markieren die Endpunkte eines Spektrums:
+
+| | Cognitive Offloading | Cognitive Outsourcing |
+|---|---|---|
+| **Definition** | Tool reduziert Arbeitsgedächtnis-Last, *während* die Person denkt | Tool *übernimmt* das Denken |
+| **Beispiel** | Taschenrechner bei Problemlösung | KI schreibt den Aufsatz |
+| **Lernrelevante Verarbeitung** | Bleibt erhalten | **Wird eliminiert** |
+| **Expertise-Entwicklung** | Wird unterstützt | **Wird verhindert** |
+
+Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der einen KI-generierten Entwurf gründlich überarbeitet; eine Studierende, die nach eigenem Versuch gezielt eine Frage an die KI stellt. Die entscheidende Variable ist nicht, *ob* KI genutzt wird, sondern **wie viel eigene Denkarbeit die Lernenden geleistet haben, bevor sie dem KI-Output begegnen**. Je aktiver das interne Modell, desto informativer das Feedback.
+
+> **Outsourcing eliminiert die lernrelevante kognitive Verarbeitung. Das ist keine Nebenwirkung, das ist der Mechanismus.**
+
+Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht "Dürfen Studierende KI nutzen?", sondern "Wird das Denken ausgelagert oder nur unterstützt?" Hier braucht es das Urteil der Lehrperson.
+
+### Wie erkennt man, wo auf dem Spektrum man steht?
+
+Das 5-Fragen-Framework (→ Teil 3) hilft beim **Gestalten** von Aufgaben. Aber wie prüft man im Lehralltag, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:
+
+| Sonde | Frage an Studierende | Was sie zeigt |
+|-------|---------------------|---------------|
+| **Vorher** | "Was hast du versucht, bevor du KI gefragt hast?" | Gab es einen eigenen Versuch? |
+| **Während** | "Wo hat dich die KI überrascht, und warum?" | War das interne Modell aktiv? |
+| **Nachher** | "Was machst du nächstes Mal anders, ohne KI?" | Hat sich das Verständnis aktualisiert? |
+
+Wer outsourct, hat auf Sonde 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → [Ausführliche Anleitung mit Beispielen](../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-sonden-für-den-lehralltag)
+
+
+## Das Evaluationsparadox
+
+Ein verbreiteter Vorschlag: *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
+
+Das Problem: **Um KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.** Evaluation ist selbst eine Form von Inferenz. Man muss das eigene interne Modell aktivieren und prüfen, ob der KI-Output damit konsistent ist. Ohne hinreichend entwickeltes Modell fehlt die Grundlage für diese Prüfung.
+
+- Expert:innen haben unabhängige Bewertungskriterien und erkennen Fehler sofort
+- Anfänger:innen fehlen diese Kriterien, sodass "kritische Bewertung" zu oberflächlichem Prüfen wird
+- **Kompetente Nutzung setzt Kompetenz voraus**
+
+Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.
+
+**Wichtige Differenzierung:** Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.
+
+
+## Warum Schemas den KI-Output umschreiben
+
+Gedächtnis ist nicht reproduktiv, sondern **rekonstruktiv**. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas, also organisierte Wissensstrukturen aus Erfahrung, sind dabei gleichzeitig der grösste Vorteil *und* die systematischste Fehlerquelle des Gedächtnisses.
+
+Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemas gefiltert und oft still **an Erwartungen angepasst**. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal *hinzufabriziert*, obwohl sie nie da waren.
+
+Das erklärt auch, warum **Missverständnisse so hartnäckig** sind: Einfach korrekte Information zu präsentieren reicht nicht, weil das bestehende Schema die neue Information umschreibt. Stattdessen braucht es den Dreischritt: **Aktivieren** (Missverständnis explizit machen) → **Konflikt** (Evidenz zeigen, die das Missverständnis nicht erklären kann) → **Auflösen** (korrekte Erklärung im Kontrast zum Missverständnis).
+
+> [Vertiefung: Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/). Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
+
+
+## Lernen &ne; Leisten
+
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
+
+### Cargo Cult Scholarship
+
+Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
+
+### "The Beach, Not the Ant"
+
+> Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
+
+Herbert Simon beobachtete: Eine Ameise läuft einen komplexen, gewundenen Pfad am Strand entlang. Aber die Komplexität liegt nicht in der Ameise, denn sie folgt einfachen Regeln. Die Komplexität liegt im **Strand**: in den Hindernissen, Steigungen und Barrieren.
+
+Übertragen auf Lernen: Wenn Studierende den einfachsten Weg nehmen (KI das Denken übernehmen lassen), ist das keine Charakterschwäche. Es ist **rationales Verhalten** in einer Umgebung, die diesen Weg ermöglicht.
+
+Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"* sondern **"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
+
+### Die Equity-Dimension
+
+Erste Forschungsergebnisse und die breitere Bildungstechnologie-Forschung legen nahe: Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
+
+- Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen
+- Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde
+- KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**
+
+Die Evidenzbasis zu KI-spezifischen Equity-Effekten ist noch schmal (kurze Interventionsstudien, wenige Disziplinen), aber die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+
+
+## Das 5-Fragen-Framework
+
+Ein praktisches Werkzeug für die Aufgabengestaltung:
+
+| Frage | Wenn ja... |
+|-------|-----------|
+| 1. Geht es primär ums **Lernen**? | → Outsourcing verhindern |
+| 2. Werden noch **Grundlagen** aufgebaut? | → Interne Verarbeitung verlangen |
+| 3. Muss **internes Wissen** nachgewiesen werden? | → Outsourcing unmöglich machen |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | → Aufgabe umgestalten |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | → KI für die Prüfphase nutzen |
+
+
+## Worked Example: Das Framework in Aktion
+
+Bevor ihr das Framework auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.
+
+### Die Aufgabe: "Annotierte Bibliografie"
+
+> Studierende suchen 5 relevante Quellen zu einem vorgegebenen Thema, fassen jede in 150 Wörtern zusammen und verfassen eine einseitige Synthese zum aktuellen Forschungsstand.
+
+Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit dem 5-Fragen-Framework.
+
+### Schritt-für-Schritt-Analyse
+
+**Frage 1: Geht es primär ums Lernen?**
+
+Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.
+
+> **Outsourcing muss verhindert werden.**
+
+**Frage 2: Werden noch Grundlagen aufgebaut?**
+
+Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?"
+
+> **Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.**
+
+**Frage 3: Muss internes Wissen nachgewiesen werden?**
+
+Eigentlich ja, aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass *sie* die Quellen gelesen und bewertet haben.
+
+> **Hier liegt die kritische Lücke.**
+
+**Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?**
+
+Ja. *"Finde 5 Quellen zu X und fasse sie zusammen"* ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.
+
+> **Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.**
+
+**Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?**
+
+Nein. Es gibt keine eingebaute Phase, in der Studierende *zuerst selbst* suchen, bewerten und synthetisieren, bevor sie KI konsultieren.
+
+> **Hier liegt die Redesign-Möglichkeit.**
+
+### Die Diagnose
+
+Das Framework zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern. **Das Lernen wird umgangen, nicht unterstützt.**
+
+::: {.active-processing}
+### Selbsterklärung (2 Min)
+
+**Bevor ihr das Redesign seht:** Notiert basierend auf der Diagnose, wie würdet *ihr* diese Aufgabe umgestalten? Was müsste sich ändern, damit der Denkprozess geschützt ist?
+
+*Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Genau das Prinzip, das wir gerade besprochen haben.*
+:::
+
+### Ein mögliches Redesign
+
+| Phase | Was Studierende tun | Rolle der KI |
+|-------|---------------------|--------------|
+| **1. Suchprotokoll** | Dokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? | Keine |
+| **2. Bewertungsnotizen** | Für jede Quelle: Warum aufgenommen oder verworfen? Was ist die zentrale Argumentation? | Keine |
+| **3. Synthese in der Lehrveranstaltung** | Einseitige Synthese *vor Ort*, nur mit eigenen Notizen, ohne KI und ohne Internet | Keine |
+| **4. Qualitätsprüfung** | KI prüft Zitationsformat und sprachliche Korrektheit | Offloading (extrinsische Last) |
+
+**Was sich ändert:** Die Studierenden müssen *den Prozess* durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.
+
+### Was zeigt dieses Beispiel?
+
+Drei Erkenntnisse für die eigene Praxis:
+
+1. **Produkt ≠ Prozess**: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den *Prozess* prüfen
+2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen
+3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*
+
+::: {.callout-tip}
+### Überleitung zur Praxis
+
+**Jetzt seid ihr dran**: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*. Ihr habt gerade gesehen, wie die Analyse Schritt für Schritt aussieht. Dasselbe macht ihr jetzt mit eurer mitgebrachten Aufgabe.
+:::
+
+> [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)
+
+
+---
+
+## Vertiefende Ressourcen
+
+### Für das Selbststudium
+
+- [Arbeitsgedächtnis und Instruktion](../01-lernen-verstehen/arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
+- [Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/). Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
+- [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung
+- [Produktive Anstrengung durch Design](../03-praxis/produktive-anstrengung/). Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
+- [The Curious Case of Transfer of Learning](https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning). Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)

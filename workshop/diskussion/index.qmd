@@ -2,39 +2,46 @@
 title: Transfer & Abschluss
 ---
 
-## Von der Idee zur Umsetzung (15 Min)
+## Rückkehr zu den Vorhersagen (5 Min)
 
-### Schritt 1: Persönlicher Umsetzungsplan (8 Min)
+::: {.active-processing}
+### Was hat sich verändert?
+
+Erinnert euch an eure 3 Vorhersagen vom Anfang: *"Was sind die wichtigsten Faktoren für effektives Lernen?"*
+
+**Vergleicht:**
+
+- Was habt ihr am Anfang geschrieben?
+- Was würdet ihr jetzt *anders* formulieren?
+- Welche neuen Konzepte würdet ihr hinzufügen?
+
+*Dieser Moment nutzt gleich zwei Lernprinzipien: **Abrufpraxis** (ihr erinnert euch an den Anfang) und **Prediction Error** (die Lücke zwischen eurer Vorhersage und eurem jetzigen Wissen IST das Lernen).*
+:::
+
+
+## Persönlicher Umsetzungsplan (5 Min)
 
 **Entwickle deinen konkreten nächsten Schritt:**
 
-#### **Was nehme ich mit?**
+### Was nehme ich mit?
 
-- Welche **Make-it-Stick-Strategie** will ich als erstes umsetzen?
-- Welches **Agent-Konzept** ist realistisch für meine Lehre?
-- Was ist mein **konkreter erster Schritt**?
+- Welche **Erkenntnis** aus dem heutigen Workshop war am wichtigsten?
+- Welche **eine Änderung** an meiner Aufgabe setze ich als erstes um?
+- Wie kann ich das **5-Fragen-Framework** in meiner Lehre einsetzen?
 
-#### **Wie setze ich das um?**
-- **Tool-Wahl**: GPT, Copilot, oder andere KI-Tools?
-- **Pilotversuch**: Wo teste ich meinen Agent zuerst?
-- **Erfolg messen**: Woran erkenne ich, dass es funktioniert?
 
-<!-- **Notiere dir:** -->
-<!-- ``` -->
-<!-- Meine Strategie: ____________________ -->
-<!-- Mein erster Schritt: ________________ -->
-<!-- Bis wann: __________________________ -->
-<!-- ``` -->
-
-### Schritt 2: Blitzlicht (7 Min)
+## Blitzlicht (5 Min)
 
 **Jeder teilt in 30 Sekunden:**
 
 - **Eine Erkenntnis** aus dem heutigen Workshop
 - **Einen konkreten nächsten Schritt**
 
+
 ::: {.callout-tip}
 ## Take-Away Message
 
-**Wissenschaftlich fundierter KI Einsatz** bedeutet: KI-Tools sollen die bewährten Lernstrategien **fördern**, nicht **ersetzen**.
+**Die Schwierigkeit des Lernens ist nicht das Problem, sondern der Mechanismus.**
+
+Gute KI-Integration in der Lehre bedeutet, Lernumgebungen zu gestalten, in denen produktive Anstrengung der natürliche Weg ist, statt zu kontrollieren, ob Studierende KI nutzen.
 :::

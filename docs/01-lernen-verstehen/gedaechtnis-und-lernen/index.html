@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Andrew Ellis">
+
+<title>Gedächtnis und Lernen – KI in der Lehre: Intermediate</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../01-lernen-verstehen/kompetenz-erwerben/index.html" rel="next">
+<link href="../../01-lernen-verstehen/arbeitsgedaechtnis/index.html" rel="prev">
+<link href="../..//assets/robot.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<style>
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+</style>
+
+
+<meta property="og:title" content="Gedächtnis und Lernen – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist">
+<meta property="og:image" content="https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/gedaechtnis-und-lernen/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:site_name" content="KI in der Lehre: Intermediate">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">KI in der Lehre: Intermediate</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../workshop/index.html"> <i class="bi bi-card-list" role="img">
+</i> 
+<span class="menu-text">Workshop</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../01-lernen-verstehen/index.html" aria-current="page"> <i class="bi bi-person-gear" role="img">
+</i> 
+<span class="menu-text">1: Lernen verstehen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../02-ki-und-lernen/index.html"> <i class="bi bi-motherboard" role="img">
+</i> 
+<span class="menu-text">2: KI &amp; Lernen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../03-praxis/index.html"> <i class="bi bi-marker-tip" role="img">
+</i> 
+<span class="menu-text">3: Praxis</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-file-slides" role="img">
+</i> 
+ <span class="menu-text">Dokumente</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
+        <li>
+    <a class="dropdown-item" href="../../assets/pdfs/Begleitdokument.pdf">
+ <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../assets/pdfs/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf">
+ <span class="dropdown-text">Begleitdokument: KI Policy (PDF)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/resources.html">
+ <span class="dropdown-text">Begleitdokument: Orientierungshilfe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../assets/pdfs/Orientierungshilfe.pdf">
+ <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://virtuelleakademie.ch/knowledge-base/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../01-lernen-verstehen/gedaechtnis-und-lernen/index.html">Gedächtnis und Lernen</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../01-lernen-verstehen/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wie Menschen lernen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../01-lernen-verstehen/arbeitsgedaechtnis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arbeitsgedächtnis und Instruktion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../01-lernen-verstehen/gedaechtnis-und-lernen/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Gedächtnis und Lernen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../01-lernen-verstehen/kompetenz-erwerben/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wie man Kompetenzen erwirbt</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#zentrale-erkenntnisse" id="toc-zentrale-erkenntnisse" class="nav-link active" data-scroll-target="#zentrale-erkenntnisse">Zentrale Erkenntnisse</a></li>
+  <li><a href="#gedächtnis-ist-nicht-ein-system" id="toc-gedächtnis-ist-nicht-ein-system" class="nav-link" data-scroll-target="#gedächtnis-ist-nicht-ein-system">Gedächtnis ist nicht ein System</a>
+  <ul class="collapse">
+  <li><a href="#deklaratives-gedächtnis-wissen-dass" id="toc-deklaratives-gedächtnis-wissen-dass" class="nav-link" data-scroll-target="#deklaratives-gedächtnis-wissen-dass">Deklaratives Gedächtnis: Wissen, dass</a></li>
+  <li><a href="#prozedurales-gedächtnis-wissen-wie" id="toc-prozedurales-gedächtnis-wissen-wie" class="nav-link" data-scroll-target="#prozedurales-gedächtnis-wissen-wie">Prozedurales Gedächtnis: Wissen, wie</a></li>
+  <li><a href="#unterschiedliche-systeme-unterschiedliche-regeln" id="toc-unterschiedliche-systeme-unterschiedliche-regeln" class="nav-link" data-scroll-target="#unterschiedliche-systeme-unterschiedliche-regeln">Unterschiedliche Systeme, unterschiedliche Regeln</a></li>
+  </ul></li>
+  <li><a href="#vom-erlebnis-zum-wissen-wie-verständnis-entsteht" id="toc-vom-erlebnis-zum-wissen-wie-verständnis-entsteht" class="nav-link" data-scroll-target="#vom-erlebnis-zum-wissen-wie-verständnis-entsteht">Vom Erlebnis zum Wissen: Wie Verständnis entsteht</a>
+  <ul class="collapse">
+  <li><a href="#von-episodischer-enkodierung-zu-semantischem-wissen" id="toc-von-episodischer-enkodierung-zu-semantischem-wissen" class="nav-link" data-scroll-target="#von-episodischer-enkodierung-zu-semantischem-wissen">Von episodischer Enkodierung zu semantischem Wissen</a></li>
+  <li><a href="#encoding-specificity-und-das-transfer-problem" id="toc-encoding-specificity-und-das-transfer-problem" class="nav-link" data-scroll-target="#encoding-specificity-und-das-transfer-problem">Encoding Specificity und das Transfer-Problem</a></li>
+  </ul></li>
+  <li><a href="#gedächtnis-ist-rekonstruktiv" id="toc-gedächtnis-ist-rekonstruktiv" class="nav-link" data-scroll-target="#gedächtnis-ist-rekonstruktiv">Gedächtnis ist rekonstruktiv</a>
+  <ul class="collapse">
+  <li><a href="#schemas-das-zweischneidige-schwert" id="toc-schemas-das-zweischneidige-schwert" class="nav-link" data-scroll-target="#schemas-das-zweischneidige-schwert">Schemas: Das zweischneidige Schwert</a></li>
+  <li><a href="#activate-conflict-resolve" id="toc-activate-conflict-resolve" class="nav-link" data-scroll-target="#activate-conflict-resolve">Activate — Conflict — Resolve</a></li>
+  </ul></li>
+  <li><a href="#konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung" id="toc-konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung" class="nav-link" data-scroll-target="#konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung">Konsolidierung: Gedächtnis verändert sich nach der Enkodierung</a>
+  <ul class="collapse">
+  <li><a href="#zentrale-konsolidierungsprinzipien" id="toc-zentrale-konsolidierungsprinzipien" class="nav-link" data-scroll-target="#zentrale-konsolidierungsprinzipien">Zentrale Konsolidierungsprinzipien</a></li>
+  <li><a href="#gestaffelter-abrufzeitplan" id="toc-gestaffelter-abrufzeitplan" class="nav-link" data-scroll-target="#gestaffelter-abrufzeitplan">Gestaffelter Abrufzeitplan</a></li>
+  </ul></li>
+  <li><a href="#abruf-ist-ein-lernereignis" id="toc-abruf-ist-ein-lernereignis" class="nav-link" data-scroll-target="#abruf-ist-ein-lernereignis">Abruf ist ein Lernereignis</a>
+  <ul class="collapse">
+  <li><a href="#der-testing-effect" id="toc-der-testing-effect" class="nav-link" data-scroll-target="#der-testing-effect">Der Testing Effect</a></li>
+  <li><a href="#abrufpraxis-prüfung" id="toc-abrufpraxis-prüfung" class="nav-link" data-scroll-target="#abrufpraxis-prüfung">Abrufpraxis ≠ Prüfung</a></li>
+  </ul></li>
+  <li><a href="#wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist" id="toc-wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist">Wünschenswerte Schwierigkeiten: Wenn schwieriger besser ist</a>
+  <ul class="collapse">
+  <li><a href="#die-performance-learning-unterscheidung" id="toc-die-performance-learning-unterscheidung" class="nav-link" data-scroll-target="#die-performance-learning-unterscheidung">Die Performance-Learning-Unterscheidung</a></li>
+  <li><a href="#die-drei-schlüsselstrategien" id="toc-die-drei-schlüsselstrategien" class="nav-link" data-scroll-target="#die-drei-schlüsselstrategien">Die drei Schlüsselstrategien</a></li>
+  <li><a href="#wann-sind-schwierigkeiten-wünschenswert" id="toc-wann-sind-schwierigkeiten-wünschenswert" class="nav-link" data-scroll-target="#wann-sind-schwierigkeiten-wünschenswert">Wann sind Schwierigkeiten “wünschenswert”?</a></li>
+  </ul></li>
+  <li><a href="#studierenden-beibringen-wie-lernen-funktioniert" id="toc-studierenden-beibringen-wie-lernen-funktioniert" class="nav-link" data-scroll-target="#studierenden-beibringen-wie-lernen-funktioniert">Studierenden beibringen, wie Lernen funktioniert</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gedächtnis und Lernen</h1>
+<p class="subtitle lead">Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://github.com/awellis">Andrew Ellis</a> <a href="https://orcid.org/0000-0002-2788-936X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://virtuelleakademie.ch">
+            Virtual Academy, Bern University of Applied Sciences
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Lesehinweise
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Geschätzte Lesezeit</strong>: 20–25 Minuten</p>
+<p>Diese Seite vertieft die Themen Langzeitgedächtnis, Abrufpraxis und wünschenswerte Schwierigkeiten aus dem Workshop. Empfohlene Reihenfolge:</p>
+<ul>
+<li><strong>Essentiell</strong>: Gedächtnissysteme + Der Testing Effect + Wünschenswerte Schwierigkeiten</li>
+<li><strong>Vertiefung</strong>: Rekonstruktives Gedächtnis &amp; Schemas + Konsolidierung</li>
+<li><strong>Optional</strong>: Encoding Specificity + Spacing-Zeitpläne</li>
+</ul>
+<p>Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksamer als Weiterlesen.</p>
+</div>
+</div>
+<section id="zentrale-erkenntnisse" class="level2">
+<h2 class="anchored" data-anchor-id="zentrale-erkenntnisse">Zentrale Erkenntnisse</h2>
+<ol type="1">
+<li><strong>Gedächtnis ist kein Aufnahmegerät</strong>, sondern ein rekonstruktiver Prozess, der Informationen bei jeder Stufe transformiert</li>
+<li><strong>Deklaratives und prozedurales Wissen folgen unterschiedlichen Regeln</strong> und erfordern unterschiedliche Instruktionsansätze</li>
+<li><strong>Der Übergang von episodischem zu semantischem Wissen</strong> erfordert aktive, variierende Begegnungen und geschieht nicht von allein</li>
+<li><strong>Abruf <em>erzeugt</em> Lernen</strong>, nicht nur misst es. Das ist der wirksamste verfügbare Lernmechanismus</li>
+<li><strong>Was sich leicht anfühlt, produziert oft schwaches Lernen</strong>: Spacing, Interleaving und Generation fühlen sich schwieriger an, produzieren aber dauerhafteres Wissen</li>
+<li><strong>Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben</strong>, weil Schemas neue Information still umschreiben</li>
+</ol>
+</section>
+<section id="gedächtnis-ist-nicht-ein-system" class="level2">
+<h2 class="anchored" data-anchor-id="gedächtnis-ist-nicht-ein-system">Gedächtnis ist nicht ein System</h2>
+<p>Die grundlegendste Einsicht der Gedächtnisforschung: Was wir beiläufig “Gedächtnis” nennen, ist eine <strong>Sammlung verschiedener Systeme</strong>, die nach unterschiedlichen Regeln arbeiten, verschiedene Arten von Information speichern und unterschiedliche Implikationen für die Lehre haben.</p>
+<section id="deklaratives-gedächtnis-wissen-dass" class="level3">
+<h3 class="anchored" data-anchor-id="deklaratives-gedächtnis-wissen-dass">Deklaratives Gedächtnis: Wissen, dass</h3>
+<p>Deklaratives Gedächtnis speichert Information, auf die man bewusst zugreifen und die man verbal beschreiben kann. Es gibt zwei Formen:</p>
+<p><strong>Episodisches Gedächtnis</strong> speichert persönlich erlebte Ereignisse, gebunden an einen bestimmten Zeitpunkt und Ort. Wenn Studierende sich an <em>deine Vorlesung</em> erinnern, also den Raum, die Folie, das Beispiel, dann ist das episodisches Gedächtnis. Es ist reichhaltig, kontextgebunden und inhärent an die Umstände der Enkodierung geknüpft.</p>
+<p><strong>Semantisches Gedächtnis</strong> speichert dekontextualisiertes Wissen: Fakten, Konzepte, Prinzipien, Kategorien. Wenn Studierende wissen, dass <em>Mitochondrien die Kraftwerke der Zelle sind</em>, ohne sich zu erinnern, wo sie das gelernt haben, dann ist das semantisches Gedächtnis. Es ist abstrakt, flexibel und (idealerweise) über Kontexte hinweg transferierbar.</p>
+</section>
+<section id="prozedurales-gedächtnis-wissen-wie" class="level3">
+<h3 class="anchored" data-anchor-id="prozedurales-gedächtnis-wissen-wie">Prozedurales Gedächtnis: Wissen, wie</h3>
+<p>Prozedurales Gedächtnis speichert Fähigkeiten und Abläufe, also Dinge, die man <em>tun</em> kann, aber möglicherweise nicht erklären kann. Studierende, die Differentialgleichungen flüssig lösen, aber Mühe haben, die Regeln zu artikulieren, operieren aus dem prozeduralen Gedächtnis.</p>
+</section>
+<section id="unterschiedliche-systeme-unterschiedliche-regeln" class="level3">
+<h3 class="anchored" data-anchor-id="unterschiedliche-systeme-unterschiedliche-regeln">Unterschiedliche Systeme, unterschiedliche Regeln</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Deklarativ (“Wissen, dass”)</th>
+<th>Prozedural (“Wissen, wie”)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Erwerb durch</strong></td>
+<td>Erklärung, Lesen, Elaboration, Diskussion</td>
+<td>Wiederholtes Üben, Feedback, schrittweise Automatisierung</td>
+</tr>
+<tr class="even">
+<td><strong>Eigenschaften</strong></td>
+<td>Schnell erwerbbar, verbalisierbar, flexibel aber fragil, interferenzanfällig</td>
+<td>Langsam erwerbbar, schwer verbalisierbar, robust wenn gelernt</td>
+</tr>
+<tr class="odd">
+<td><strong>Transfer</strong></td>
+<td>Breit möglich (wenn gut über variierende Kontexte enkodiert)</td>
+<td>Anfangs eng; wird breiter mit variierter Übung</td>
+</tr>
+<tr class="even">
+<td><strong>Gefördert durch</strong></td>
+<td>Elaboration, Spacing, Abrufpraxis, Selbsterklärung</td>
+<td>Wiederholung, variierte Übung, sofortiges Feedback</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Lehrimplikation</strong>: Man kann niemandem eine Fertigkeit <em>erklären</em>, und man kann niemandem konzeptuelles Verständnis <em>antrainieren</em>. Die meisten Hochschulkurse brauchen beides, und das Versäumnis, beides zu unterscheiden, erklärt eine häufige Frustration: Studierende, die die Theorie erklären können, aber sie nicht anwenden, oder die Prozeduren befolgen können, aber nicht verstehen, warum sie funktionieren.</p>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Selbsttest: Gedächtnissysteme
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Ohne zurückzuschauen:</strong> Ordne diese Beispiele dem richtigen Gedächtnissystem zu:</p>
+<ol type="1">
+<li>Ein Student erinnert sich, dass die Vorlesung am Dienstag in Raum 204 stattfand</li>
+<li>Eine Studentin weiss, dass F = ma gilt</li>
+<li>Ein Student kann automatisch Gleichungen umformen, ohne die Regeln bewusst abrufen zu müssen</li>
+</ol>
+<p><em>Antworten: 1 = episodisch, 2 = semantisch, 3 = prozedural</em></p>
+</div>
+</div>
+</section>
+</section>
+<section id="vom-erlebnis-zum-wissen-wie-verständnis-entsteht" class="level2">
+<h2 class="anchored" data-anchor-id="vom-erlebnis-zum-wissen-wie-verständnis-entsteht">Vom Erlebnis zum Wissen: Wie Verständnis entsteht</h2>
+<p>Einer der wichtigsten Prozesse beim Lernen ist die Entwicklung von stark <strong>episodischen</strong> Erinnerungen zu <strong>semantischem</strong> Wissen, also vom Erinnern einer bestimmten Erfahrung zum Besitz abstrakten, transferierbaren Verständnisses.</p>
+<section id="von-episodischer-enkodierung-zu-semantischem-wissen" class="level3">
+<h3 class="anchored" data-anchor-id="von-episodischer-enkodierung-zu-semantischem-wissen">Von episodischer Enkodierung zu semantischem Wissen</h3>
+<p>Wenn Studierende zum ersten Mal neues Material begegnen, sind ihre Erinnerungen stark episodisch: gebunden an den spezifischen Kontext des Lernens. Sie erinnern sich an die <em>Vorlesung</em>, das <em>Beispiel</em>, die <em>Folie</em>. Mit der Zeit und mit variierten Erfahrungen wird Wissen allmählich dekontextualisiert, es löst sich von spezifischen Episoden und wird Teil der allgemeinen Wissensstruktur.</p>
+<p><em>Wichtig</em>: Dies ist eine Vereinfachung. Die Beziehung zwischen episodischem und semantischem Gedächtnis ist bidirektional und fortlaufend, kein einfacher Einweg-Prozess. Episodische Spuren können bestehen bleiben, auch wenn sich semantisches Wissen entwickelt, und semantisches Wissen kann die episodische Enkodierung verbessern. Die praktische Implikation bleibt: Variierende Begegnungen und aktiver Abruf unterstützen die Entwicklung dekontextualisierten, transferierbaren Wissens.</p>
+<p><strong>Beispiel</strong>: “Regression”</p>
+<ul>
+<li><strong>Anfangs (episodisch)</strong>: “Dienstagvorlesung, Raum 204, das Gewicht-Grösse-Beispiel, Folie mit rotem Streudiagramm, sass neben Emma”</li>
+<li><strong>Später (semantisch)</strong>: “Passt eine Gerade an Datenpunkte an, minimiert quadrierte Residuen, wird für Vorhersagen verwendet, setzt lineare Beziehung voraus, verbunden mit Korrelation und GLM”</li>
+</ul>
+<p>Dieser Übergang geschieht nicht automatisch. Er erfordert:</p>
+<ul>
+<li><strong>Mehrfache Begegnungen</strong> in verschiedenen Kontexten (nicht nur dieselben Notizen nochmals lesen)</li>
+<li><strong>Variierende Beispiele</strong>, die hervorheben, was wesentlich und was nebensächlich ist</li>
+<li><strong>Aktiven Abruf</strong>, der Rekonstruktion erzwingt statt nur Wiedererkennung</li>
+<li><strong>Abstraktion</strong>, also explizites Identifizieren der Tiefenstruktur über Beispiele hinweg</li>
+</ul>
+</section>
+<section id="encoding-specificity-und-das-transfer-problem" class="level3">
+<h3 class="anchored" data-anchor-id="encoding-specificity-und-das-transfer-problem">Encoding Specificity und das Transfer-Problem</h3>
+<p>Endel Tulvings <strong>Encoding-Specificity-Prinzip</strong> <span class="citation" data-cites="tulvingEpisodicMemoryMind2002">(<a href="#ref-tulvingEpisodicMemoryMind2002" role="doc-biblioref">2002</a>)</span> besagt: Gedächtnisabruf ist am effektivsten, wenn der Abrufkontext mit dem Enkodierungskontext übereinstimmt. Dies ist einer der am besten gesicherten Befunde der Gedächtnisforschung, und er hat eine weitreichende Implikation für die Lehre:</p>
+<p><strong>Studierende “wissen” oft etwas im Kontext, in dem sie es gelernt haben, können aber in einem anderen Kontext nicht darauf zugreifen.</strong></p>
+<p>Das erklärt, warum Studierende bei Hausaufgaben, die Vorlesungsbeispielen ähneln, gut abschneiden, aber bei Prüfungen scheitern, die die Anwendung derselben Konzepte in neuen Kontexten erfordern. Das Wissen ist da, aber der Abrufpfad ist kontextabhängig.</p>
+<p><strong>Lehrimplikation</strong>: Um transferierbares Wissen aufzubauen, musst du bewusst die <strong>Kontexte variieren</strong>, in denen Studierende Konzepte begegnen und üben. Verschiedene Beispiele, verschiedene Oberflächenmerkmale, verschiedene Aufgabenformate verwenden. Jeder neue Kontext schafft zusätzliche Abrufpfade. Das ist auch ein starkes Argument für <strong>Interleaving</strong>, also das Mischen verschiedener Aufgabentypen statt ihrer Blockung, weil Interleaving Studierende zwingt, die <em>Auswahl</em> des richtigen Wissens zu üben, nicht nur dessen Ausführung.</p>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Anwendung: Transfer in deiner Lehre
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Denke an eine Prüfungsfrage, bei der viele Studierende überraschend schlecht abschneiden, obwohl das Material “behandelt” wurde:</p>
+<ul>
+<li>In wie vielen verschiedenen Kontexten haben Studierende dieses Konzept geübt?</li>
+<li>Wie ähnlich waren die Übungsaufgaben den Prüfungsaufgaben (Oberflächenmerkmale, nicht nur Tiefenstruktur)?</li>
+<li>Was könntest du ändern, um mehr Transferpfade zu schaffen?</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="gedächtnis-ist-rekonstruktiv" class="level2">
+<h2 class="anchored" data-anchor-id="gedächtnis-ist-rekonstruktiv">Gedächtnis ist rekonstruktiv</h2>
+<p>Vielleicht der kontraintuitivste Befund der Gedächtniswissenschaft <span class="citation" data-cites="schacterAdaptiveConstructiveProcesses2012">(<a href="#ref-schacterAdaptiveConstructiveProcesses2012" role="doc-biblioref">Schacter 2012</a>)</span>: <strong>Gedächtnis ist nicht reproduktiv, es ist rekonstruktiv.</strong> Wenn man sich an etwas erinnert, spielt man keine Aufnahme ab, sondern rekonstruiert eine Erfahrung aus gespeicherten Fragmenten, ergänzt durch Vorwissen, aktuelle Überzeugungen und kontextuelle Hinweise.</p>
+<section id="schemas-das-zweischneidige-schwert" class="level3">
+<h3 class="anchored" data-anchor-id="schemas-das-zweischneidige-schwert">Schemas: Das zweischneidige Schwert</h3>
+<p>Schemas, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werden, sind gleichzeitig der grösste Vorteil des Gedächtnisses und seine systematischste Fehlerquelle.</p>
+<p><strong>Vorteile von Schemas:</strong></p>
+<ul>
+<li>Fehlende Details werden korrekt ergänzt</li>
+<li>Neue Information wird organisiert</li>
+<li>Schnelles Verstehen wird ermöglicht</li>
+<li>Inferenz und Vorhersage werden unterstützt</li>
+</ul>
+<p><strong>Kosten von Schemas:</strong></p>
+<ul>
+<li>Dinge werden ergänzt, die <em>nicht da waren</em></li>
+<li>Erinnerungen werden an Erwartungen angepasst (verzerrt)</li>
+<li>Schema-inkonsistente Information wird schlecht erinnert</li>
+<li>Falsches Vertrauen in rekonstruierte Details</li>
+</ul>
+<p><strong>Beispiel</strong>: Studierende hören von einem Experiment mit “Kontrollgruppe” und “Interventionsgruppe”. Schema-konsistentes Detail (gut erinnert): “Die Interventionsgruppe erhielt die Behandlung.” Schema-fabriziertes Detail (fälschlich erinnert): “Die Teilnehmenden wurden randomisiert zugewiesen”, obwohl das nie gesagt wurde, weil das Schema es erwartet.</p>
+<p><strong>Lehrimplikation</strong>: Studierende werden neue Information systematisch <strong>an ihre bestehenden Schemas anpassen</strong>. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu <em>präsentieren</em> reicht oft nicht; du musst das Missverständnis <strong>explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen</strong>.</p>
+</section>
+<section id="activate-conflict-resolve" class="level3">
+<h3 class="anchored" data-anchor-id="activate-conflict-resolve">Activate — Conflict — Resolve</h3>
+<p>Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemas schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.</p>
+<p><strong>Beispiel</strong>: Student glaubt “Schwerere Objekte fallen schneller”. Dozent präsentiert: “Alle Objekte fallen im Vakuum gleich schnell.” Schema schreibt um: “Also ist der Unterschied im Vakuum kleiner.” <strong>Falsch, das Missverständnis überlebt.</strong></p>
+<p>Die Lösung:</p>
+<ol type="1">
+<li><strong>Aktivieren</strong>: Mache das Missverständnis explizit. Bitte Studierende, sich auf eine Vorhersage festzulegen.</li>
+<li><strong>Konflikt</strong>: Zeige Evidenz, die das Missverständnis nicht erklären kann.</li>
+<li><strong>Auflösen</strong>: Präsentiere die korrekte Erklärung im direkten Kontrast zum Missverständnis.</li>
+</ol>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Missverständnisse in deinem Fach
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nenne ein häufiges Missverständnis in deinem Fachgebiet:</p>
+<ul>
+<li>Wie äussert es sich bei Studierenden?</li>
+<li>Hast du bisher versucht, es durch Präsentation der korrekten Information zu korrigieren?</li>
+<li>Wie könntest du stattdessen die Activate-Conflict-Resolve-Strategie einsetzen?</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung" class="level2">
+<h2 class="anchored" data-anchor-id="konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung">Konsolidierung: Gedächtnis verändert sich nach der Enkodierung</h2>
+<p>Enkodierung ist nicht das Ende der Geschichte. Nach dem initialen Lernen durchlaufen Erinnerungen einen langwierigen Prozess der <strong>Konsolidierung</strong>, bei dem sie über Stunden, Tage und Wochen schrittweise reorganisiert, verstärkt und mit bestehendem Wissen integriert werden.</p>
+<section id="zentrale-konsolidierungsprinzipien" class="level3">
+<h3 class="anchored" data-anchor-id="zentrale-konsolidierungsprinzipien">Zentrale Konsolidierungsprinzipien</h3>
+<p><strong>Schlaf konsolidiert Erinnerungen.</strong> Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den <em>Kern</em> des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.</p>
+<p><strong>Erinnerungen werden stabiler, aber weniger detailliert.</strong> Frisch enkodierte Erinnerungen sind reich an Details, aber fragil. Mit fortschreitender Konsolidierung werden Erinnerungen stabiler und abstrakter: Der Kern bleibt erhalten, die Details verblassen. Das ist kein Fehler; es ist ein Feature. Abstraktion ist das, was Wissen transferierbar macht.</p>
+<p><strong>Abruf während der Konsolidierung verstärkt Erinnerungen.</strong> Abruf während des Konsolidierungsfensters testet nicht nur das Gedächtnis, sondern verstärkt und stabilisiert aktiv die Gedächtnisspur. Deshalb ist verteilte Abrufpraxis so effektiv: Jedes Abrufereignis gibt der Erinnerung eine weitere Gelegenheit, stabilisiert und integriert zu werden.</p>
+<p><strong>Lehrimplikation</strong>: Die Struktur deines Kurses <em>über die Zeit</em> ist genauso wichtig wie der Inhalt einzelner Sitzungen. Lernen auf mehrere Sitzungen mit Schlaf dazwischen verteilen, Abrufgelegenheiten einbauen, die Tage und Wochen überspannen, und Schlüsselkonzepte in wachsenden Abständen wieder aufgreifen: All das nutzt Konsolidierung, um dauerhafteres, integrierteres, transferierbareres Wissen zu produzieren.</p>
+</section>
+<section id="gestaffelter-abrufzeitplan" class="level3">
+<h3 class="anchored" data-anchor-id="gestaffelter-abrufzeitplan">Gestaffelter Abrufzeitplan</h3>
+<p>Ein bewährtes Prinzip für die Kursgestaltung:</p>
+<pre><code>Woche:  1  2  3  4  5  6  7  8  9  10  11  12
+A:      *  R  .  R  .  .  .  R  .  .   .   R
+B:      .  *  R  .  R  .  .  .  R  .   .   R
+C:      .  .  *  R  .  R  .  .  .  R   .   R
+
+* = Vermitteln   R = Abrufen   Abstände wachsen über die Zeit</code></pre>
+<p>Jeder Abruf beinhaltet teilweises Vergessen → anstrengungsreiches Erinnern → Restabilisierung. Die Abstände wachsen, weil jeder erfolgreiche Abruf die Spur dauerhafter macht.</p>
+<p><em>Hinweis</em>: Der optimale Spacing-Zeitplan wird diskutiert; einige Studien finden, dass gleichmässige Abstände vergleichbar wirksam sind. Der wichtigste Faktor ist, dass Spacing überhaupt stattfindet.</p>
+</section>
+</section>
+<section id="abruf-ist-ein-lernereignis" class="level2">
+<h2 class="anchored" data-anchor-id="abruf-ist-ein-lernereignis">Abruf ist ein Lernereignis</h2>
+<p>Dies ist möglicherweise der wichtigste Befund für die Hochschullehre der letzten 30 Jahre <span class="citation" data-cites="roedigerCriticalRoleRetrieval2011">(<a href="#ref-roedigerCriticalRoleRetrieval2011" role="doc-biblioref">Roediger and Butler 2011</a>)</span>: <strong>Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er <em>erzeugt</em> Lernen.</strong></p>
+<section id="der-testing-effect" class="level3">
+<h3 class="anchored" data-anchor-id="der-testing-effect">Der Testing Effect</h3>
+<p>Hunderte von Studien haben gezeigt: Die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, verstärkt die Gedächtnisspur wirksamer als erneutes Studieren desselben Materials.</p>
+<p><span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">Roediger and Karpicke (<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">2006</a>)</span>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Bedingung</th>
+<th>Erinnerung nach 1 Woche</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4× Studieren (Wiederlesen)</td>
+<td>~40%</td>
+</tr>
+<tr class="even">
+<td>3× Studieren + 1× Testen</td>
+<td>~56%</td>
+</tr>
+<tr class="odd">
+<td>1× Studieren + 3× Testen</td>
+<td><strong>~61%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Exakte Werte variieren über Studien hinweg, aber das Muster ist robust: Das Ersetzen von Wiederlesen durch Abrufpraxis verbessert die Langzeitretention substanziell.</p>
+<p>Warum funktioniert Abrufpraxis?</p>
+<ul>
+<li><strong>Abruf stärkt Abrufrouten.</strong> Jeder erfolgreiche Abruf macht die Erinnerung zukünftig leichter zugänglich.</li>
+<li><strong>Abruf identifiziert Lücken.</strong> Wenn Studierende versuchen abzurufen und scheitern, entdecken sie, was sie nicht wissen. Beim Wiederlesen fühlt sich alles vertraut an.</li>
+<li><strong>Abruf fördert Elaboration.</strong> Der Aufwand der Rekonstruktion aktiviert verwandtes Wissen und erzeugt reichhaltigere, vernetztere Repräsentationen.</li>
+<li><strong>Abruf aktualisiert den Kontext.</strong> Jedes Abrufereignis enkodiert einen neuen Kontext, der mit der Erinnerung assoziiert wird, und macht sie aus mehr Situationen abrufbar (adressiert das Transfer-Problem).</li>
+</ul>
+</section>
+<section id="abrufpraxis-prüfung" class="level3">
+<h3 class="anchored" data-anchor-id="abrufpraxis-prüfung">Abrufpraxis ≠ Prüfung</h3>
+<p>Das reframed die Rolle von Tests in der Lehre. Traditionelle Sicht: Tests messen, was Studierende gelernt haben. Evidenzbasierte Sicht: <strong>Tests sind ein Lernwerkzeug</strong>, und ihr Wert liegt nicht primär in der Note, sondern in der Abrufpraxis, die sie bieten.</p>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Jede Sitzung mit Fragen zum vorherigen Material beginnen</li>
+<li>In-Class-Polling oder Antwortsysteme nutzen</li>
+<li>Übungsaufgaben stellen, die Abruf erfordern, nicht nur Wiedererkennung</li>
+<li>Studierende ermutigen, sich selbst zu testen statt wiederzulesen</li>
+<li>Antwortschlüssel oder Feedback bereitstellen, damit Abruffehler korrigiert werden</li>
+</ul>
+<p>Die Abrufversuche müssen <strong>nicht benotet</strong> werden, um wirksam zu sein. Was zählt, ist der Akt des Abrufens selbst.</p>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Selbsttest: Testing Effect
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Ohne zurückzuschauen:</strong></p>
+<ol type="1">
+<li>Um wie viel Prozent verbessert sich die Erinnerung ungefähr, wenn Wiederlesen durch Abrufpraxis ersetzt wird?</li>
+<li>Nenne drei Gründe, warum Abrufpraxis funktioniert.</li>
+<li>Muss Abrufpraxis benotet werden, um wirksam zu sein?</li>
+</ol>
+<p><em>Vergleiche anschliessend. Wo lagst du richtig?</em></p>
+</div>
+</div>
+</section>
+</section>
+<section id="wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist" class="level2">
+<h2 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist">Wünschenswerte Schwierigkeiten: Wenn schwieriger besser ist</h2>
+<p>Robert Bjorks Konzept der <strong>Desirable Difficulties</strong> <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork and Bjork 2011</a>)</span> ist eines der wichtigsten und kontraintuitivsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste <em>Leistung während des Lernens</em> erzeugen, auch die beste <em>langfristige Retention und den besten Transfer</em> produzieren.</p>
+<p>Das tun sie nicht.</p>
+<section id="die-performance-learning-unterscheidung" class="level3">
+<h3 class="anchored" data-anchor-id="die-performance-learning-unterscheidung">Die Performance-Learning-Unterscheidung</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Während des Lernens</th>
+<th>Auf einem späteren Test</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Leichte Bedingungen</strong> (Massed, Blocked, Wiederlesen)</td>
+<td>Hohe Leistung. Fühlt sich produktiv an.</td>
+<td>Schwache Retention. Hält nicht.</td>
+</tr>
+<tr class="even">
+<td><strong>Schwierige Bedingungen</strong> (Spaced, Interleaved, Abrufpraxis)</td>
+<td>Niedrigere Leistung. Fühlt sich frustrierend an.</td>
+<td>Starke Retention. Dauerhaft und flexibel.</td>
+</tr>
+</tbody>
+</table>
+<p>Diese Unterscheidung ist kritisch, weil <strong>Studierende und Dozierende ihr eigenes Lernen systematisch falsch einschätzen.</strong> Bedingungen, die sich flüssig und produktiv anfühlen, erzeugen eine Illusion des Lernens.</p>
+</section>
+<section id="die-drei-schlüsselstrategien" class="level3">
+<h3 class="anchored" data-anchor-id="die-drei-schlüsselstrategien">Die drei Schlüsselstrategien</h3>
+<section id="spacing-verteiltes-lernen" class="level4">
+<h4 class="anchored" data-anchor-id="spacing-verteiltes-lernen">1. Spacing (Verteiltes Lernen)</h4>
+<p>Lerneinheiten über die Zeit verteilen statt zusammenpressen. Derselbe Zeitaufwand, aber dramatisch unterschiedliche Ergebnisse.</p>
+<p><strong>Warum es funktioniert:</strong> Jede verteilte Sitzung beinhaltet partielles Vergessen, gefolgt von anstrengungsreichem Abruf, der die Erinnerung verstärkt. Massed Learning erlaubt Aufrechterhaltung im Arbeitsgedächtnis ohne Abruf aus dem Langzeitgedächtnis. Das fühlt sich leicht an, umgeht aber die Mechanismen, die dauerhafte Enkodierung erzeugen. Zusätzlich ermöglicht Spacing Konsolidierung zwischen den Sitzungen.</p>
+</section>
+<section id="interleaving-abwechslung" class="level4">
+<h4 class="anchored" data-anchor-id="interleaving-abwechslung">2. Interleaving (Abwechslung)</h4>
+<p>Verschiedene Aufgabentypen während der Übung mischen statt blockweise üben.</p>
+<p><strong>Warum es funktioniert:</strong> Blocking fühlt sich produktiver an, weil Studierende in einen Rhythmus kommen. Aber Interleaving zwingt Studierende, die <em>Unterscheidung zwischen Aufgabentypen</em> zu üben, eine Fähigkeit, die sie in Prüfungen und im echten Leben brauchen, aber unter Blocking-Bedingungen nie üben.</p>
+<p><em>Hinweis</em>: Interleaving ist am wirksamsten, wenn Kategorien oder Aufgabentypen leicht miteinander verwechselt werden können; der Vorteil ist kleiner für stark verschiedene Kategorien.</p>
+</section>
+<section id="generation-generierungseffekt" class="level4">
+<h4 class="anchored" data-anchor-id="generation-generierungseffekt">3. Generation (Generierungseffekt)</h4>
+<p>Eine Antwort generieren, bevor man sie gezeigt bekommt, selbst wenn die generierte Antwort falsch ist, verbessert das anschliessende Lernen der korrekten Antwort.</p>
+<p><strong>Warum es funktioniert:</strong> Der Versuch, eine Antwort zu generieren, aktiviert relevantes Wissen, erzeugt einen Kontext der Neugierde und macht die spätere Antwort einprägsamer, besonders wenn sie der Vorhersage widerspricht (der “Hypercorrection Effect”: Fehler mit hohem Vertrauen werden nach Korrektur besser erinnert als Fehler mit niedrigem Vertrauen).</p>
+</section>
+</section>
+<section id="wann-sind-schwierigkeiten-wünschenswert" class="level3">
+<h3 class="anchored" data-anchor-id="wann-sind-schwierigkeiten-wünschenswert">Wann sind Schwierigkeiten “wünschenswert”?</h3>
+<p>Nicht jede Schwierigkeit ist wünschenswert. Eine Schwierigkeit ist wünschenswert, wenn sie produktive kognitive Verarbeitung auslöst. Sie ist <strong>nicht</strong> wünschenswert, wenn sie nur Verwirrung erzeugt oder das Arbeitsgedächtnis überlastet, ohne das Lernen voranzubringen.</p>
+<p><strong>Entscheidende Bedingung</strong>: Studierende müssen genug Vorwissen haben, um sich produktiv mit der Schwierigkeit auseinanderzusetzen.</p>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Anwendung: Wünschenswerte Schwierigkeiten in deinem Kurs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Analysiere einen deiner Kurse:</p>
+<ol type="1">
+<li>Wo setzen Studierende hauptsächlich <strong>Wiederlesen</strong> ein? Wie könntest du <strong>Abrufpraxis</strong> einbauen?</li>
+<li>Üben Studierende Aufgabentypen <strong>blockweise</strong>? Könntest du <strong>Interleaving</strong> einführen?</li>
+<li>Gibt es Stellen, an denen Studierende <strong>Antworten empfangen</strong>, bevor sie selbst versucht haben? Wie könntest du den <strong>Generierungseffekt</strong> nutzen?</li>
+</ol>
+<p>Identifiziere eine konkrete Änderung, die du umsetzen könntest.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="studierenden-beibringen-wie-lernen-funktioniert" class="level2">
+<h2 class="anchored" data-anchor-id="studierenden-beibringen-wie-lernen-funktioniert">Studierenden beibringen, wie Lernen funktioniert</h2>
+<p>Die Standard-Lernstrategien der Studierenden sind kontraproduktiv, weil sie <strong>Vertrautheit mit Lernen verwechseln</strong> <span class="citation" data-cites="dunloskyImprovingStudentsLearning2013">(vgl. <a href="#ref-dunloskyImprovingStudentsLearning2013" role="doc-biblioref">Dunlosky et al. 2013</a>)</span>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Was Studierende tun</th>
+<th>Was tatsächlich funktioniert</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Notizen wiederlesen (Wiedererkennung)</td>
+<td>Sich selbst aus dem Gedächtnis testen (Abruf)</td>
+</tr>
+<tr class="even">
+<td>Text markieren (Illusion von Engagement)</td>
+<td>In eigenen Worten erklären (Elaboration)</td>
+</tr>
+<tr class="odd">
+<td>Ein Thema zur Zeit lernen (Blocking)</td>
+<td>Themen mischen (Interleaving)</td>
+</tr>
+<tr class="even">
+<td>Vor der Prüfung pauken (Massing)</td>
+<td>Über Wochen verteilen (Spacing)</td>
+</tr>
+<tr class="odd">
+<td>“Ich verstehe das” (Vertrautheitsgefühl)</td>
+<td>“Kann ich das aus dem Gedächtnis erklären?” (tatsächlicher Test)</td>
+</tr>
+</tbody>
+</table>
+<p>Investiere <strong>15 Minuten</strong> in der ersten Sitzung, um die Performance-Learning-Unterscheidung zu lehren. Zeige die Testing-Effect-Daten. Vermittle Abruf + Spacing + Interleaving. Diese einzelne Intervention verbessert das Lernen in <strong>jedem Kurs</strong>, den die Studierenden besuchen.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Verbindung zum Workshop
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Die Prinzipien auf dieser Seite bilden die wissenschaftliche Grundlage für:</p>
+<ul>
+<li>Die <strong>wünschenswerten Schwierigkeiten</strong> (→ <a href="../../01-lernen-verstehen/">Teil 1</a>): Die vier Strategien und warum Anstrengung das Feature ist</li>
+<li>Das <strong>Evaluationsparadox</strong> (→ <a href="../../02-ki-und-lernen/">Teil 2</a>): Schemas, die KI-Output still umschreiben, sind derselbe Mechanismus wie Schemas, die Vorlesungsinhalte umschreiben</li>
+<li>Die <strong>Versuch-dann-Prüfe-Struktur</strong> (→ <a href="../../03-praxis/5-fragen-framework/">5-Fragen-Framework</a>): Der Generierungseffekt erklärt, warum die Reihenfolge, <em>zuerst selbst denken, dann KI konsultieren</em>, entscheidend ist</li>
+<li>Das <strong>rekonstruktive Gedächtnis</strong> erklärt, warum Cargo Cult Scholarship (→ <a href="../../02-ki-und-lernen/">Teil 2</a>) so tückisch ist: Studierende <em>glauben</em>, sie hätten nachgedacht, weil ihr Schema die Rekonstruktion plausibel erscheinen lässt</li>
+</ul>
+<p>Gedächtnisforschung erklärt, <em>warum</em> die Gestaltungsprinzipien funktionieren und <em>warum</em> Studierende ihnen intuitiv widerstehen.</p>
+</div>
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bjorkMakingThingsHard2011" class="csl-entry" role="listitem">
+Bjork, Elizabeth Ligon, and Robert A. Bjork. 2011. <span>“Making Things Hard on Yourself, but in a Good Way: <span>Creating</span> Desirable Difficulties to Enhance Learning.”</span> In <em>Psychology and the Real World: <span>Essays</span> Illustrating Fundamental Contributions to Society</em>, 56–64. New York, NY, US: Worth Publishers.
+</div>
+<div id="ref-dunloskyImprovingStudentsLearning2013" class="csl-entry" role="listitem">
+Dunlosky, John, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan, and Daniel T. Willingham. 2013. <span>“Improving <span>Students</span>’ <span>Learning With Effective Learning Techniques</span>: <span>Promising Directions From Cognitive</span> and <span>Educational Psychology</span>.”</span> <em>Psychological Science in the Public Interest: A Journal of the American Psychological Society</em> 14 (1): 4–58. <a href="https://doi.org/10.1177/1529100612453266">https://doi.org/10.1177/1529100612453266</a>.
+</div>
+<div id="ref-roedigerCriticalRoleRetrieval2011" class="csl-entry" role="listitem">
+Roediger, Henry L., and Andrew C. Butler. 2011. <span>“The Critical Role of Retrieval Practice in Long-Term Retention.”</span> <em>Trends in Cognitive Sciences</em> 15 (1): 20–27. <a href="https://doi.org/10.1016/j.tics.2010.09.003">https://doi.org/10.1016/j.tics.2010.09.003</a>.
+</div>
+<div id="ref-roedigerTestenhancedLearningTaking2006" class="csl-entry" role="listitem">
+Roediger, Henry L., and Jeffrey D. Karpicke. 2006. <span>“Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention.”</span> <em>Psychological Science</em> 17 (3): 249–55. <a href="https://doi.org/10.1111/j.1467-9280.2006.01693.x">https://doi.org/10.1111/j.1467-9280.2006.01693.x</a>.
+</div>
+<div id="ref-schacterAdaptiveConstructiveProcesses2012" class="csl-entry" role="listitem">
+Schacter, Daniel L. 2012. <span>“Adaptive Constructive Processes and the Future of Memory.”</span> <em>The American Psychologist</em> 67 (8): 603–13. <a href="https://doi.org/10.1037/a0029869">https://doi.org/10.1037/a0029869</a>.
+</div>
+<div id="ref-tulvingEpisodicMemoryMind2002" class="csl-entry" role="listitem">
+Tulving, Endel. 2002. <span>“Episodic Memory: From Mind to Brain.”</span> <em>Annual Review of Psychology</em> 53: 1–25. <a href="https://doi.org/10.1146/annurev.psych.53.100901.135114">https://doi.org/10.1146/annurev.psych.53.100901.135114</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ellis,
+  author = {Ellis, Andrew},
+  title = {Gedächtnis Und {Lernen}},
+  url = {https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/gedaechtnis-und-lernen/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ellis" class="csl-entry quarto-appendix-citeas" role="listitem">
+Ellis, Andrew. n.d. <span>“Gedächtnis Und Lernen.”</span> <a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/gedaechtnis-und-lernen/">https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/gedaechtnis-und-lernen/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/virtuelleakademie\.github\.io\/ki-lehre-intermediate\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../01-lernen-verstehen/arbeitsgedaechtnis/index.html" class="pagination-link" aria-label="Arbeitsgedächtnis und Instruktion">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Arbeitsgedächtnis und Instruktion</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../01-lernen-verstehen/kompetenz-erwerben/index.html" class="pagination-link" aria-label="Wie man Kompetenzen erwirbt">
+        <span class="nav-page-text">Wie man Kompetenzen erwirbt</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

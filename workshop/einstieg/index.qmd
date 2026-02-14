@@ -1,5 +1,5 @@
 ---
-title: Aktivierende Einstieg
+title: Aktivierender Einstieg
 ---
 
 ## Kurze Vorstellungsrunde (5 Min)
@@ -8,21 +8,42 @@ title: Aktivierende Einstieg
 
 1. **Name & Institut**
 2. **KI-Erfahrung** (Skala 0-10)
-3. **Lehrthema** das du heute mitgebracht hast
+3. **Aufgabe/Prüfung**, die du heute mitgebracht hast
 
 
-## Heute entwickeln wir gemeinsam (5 Min)
+## Generierungsaktivität (5 Min)
 
-**Unser Ziel**: Jeder entwickelt einen **wissenschaftlich fundierten Copilot Agent** für sein eigenes Lehrthema.
+::: {.active-processing}
+### Was macht Lernen effektiv?
 
-### **Was ihr mitgebracht habt:**
-- **Euer spezifisches Lehrthema** (aus der Vorbereitung)
-- **Konkrete Lernprobleme** eurer Studierenden
-- **Erste Ideen** für KI-Unterstützung
+**Schreibe 3 Vorhersagen auf:**
 
-### **Was ihr heute lernt:**
-- **Unterschied** zwischen Tools und Agents
-- **8 wissenschaftlich bewährte** Lernstrategien
-- **Praktisches Agent-Design** mit Think-Pair-Share
-- **Konkrete Umsetzung** für eure Lehre
+> *Was sind deiner Erfahrung nach die wichtigsten Faktoren für effektives Lernen?*
 
+Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende des Workshops darauf zurück.
+
+*Diese Übung nutzt den **Generierungseffekt**: Eigene Vorhersagen zu formulieren, bevor man Neues lernt, verankert das Folgende besser im Gedächtnis.*
+:::
+
+
+## Rahmen für heute
+
+**Im Beginner-Workshop** haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.
+
+**Heute verstehen wir warum:**
+
+- **Teil 1**: Wie Lernen funktioniert, die kognitive Architektur
+- **Teil 2**: Was das für KI bedeutet, wann KI hilft und wann sie schadet
+- **Teil 3**: Vom Wissen zum Handeln, eure eigenen Aufgaben analysieren und einen Agent gestalten
+
+### Was ihr mitgebracht habt
+
+- **Eine eigene Aufgabe oder Prüfung** (aus der Vorbereitung)
+- **Fragen und Erfahrungen** aus eurer Lehre
+
+### Was ihr heute lernt
+
+- Warum **kognitive Anstrengung** der Mechanismus für Lernen ist
+- Wann KI-Nutzung **Offloading** (hilfreich) und wann **Outsourcing** (schädlich) ist
+- Wie ihr eure Aufgaben mit dem **5-Fragen-Framework** analysieren könnt
+- Wie ihr einen Agent gestaltet, der **produktive Anstrengung fördert**
