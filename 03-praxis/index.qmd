@@ -31,6 +31,12 @@ Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Was hattest
 
 ## Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)
 
+::: {.facilitator}
+### THINK-PAIR-SHARE Aktivität (23 Min)
+
+Sicherstellen, dass alle eine Aufgabe haben. Wer keine mitgebracht hat, nutzt die Fallstudien-Szenarien. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.
+:::
+
 ### THINK Phase (8 Min)
 
 ::: {.individual}
@@ -88,6 +94,12 @@ Diskutiert 30 Sekunden mit eurem Nachbarn: **Benennt mindestens drei Prinzipien 
 
 
 ## Aktivität 2: Agent-Design für produktive Anstrengung (20 Min)
+
+::: {.facilitator}
+### Agent-Design Aktivität (20 Min)
+
+Kurze Überleitung: "Jetzt wenden wir die Analyse in ein konkretes Tool um." Zum Template verlinken und kurz erklären, dass sie ein bestehendes Template analysieren und anpassen, nicht von Grund auf erstellen. Paare beibehalten oder neu bilden.
+:::
 
 Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen **unterstützt**, nicht *ersetzt*.
 

@@ -21,8 +21,17 @@ Was fällt dir ein? Was musst du nachschlagen?
 
 {{< revealjs file="../slides/ki-und-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
+::: {.facilitator}
+### Slides und Übergang zum Worked Example (ca. 10 Min)
 
-## Offloading vs. Outsourcing
+Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", Equity, 5-Fragen-Framework. Nach den Slides kurz die 3 Sonden zeigen (Tabelle unten) und die Sonden-Aktivität durchführen, dann direkt zum Worked Example übergehen. Den Text zwischen Slides und Worked Example nicht vorlesen.
+:::
+
+
+::: {.nachlesen}
+### Offloading vs. Outsourcing
+
+Die Slides behandeln Offloading und Outsourcing als Kernunterscheidung. Hier die vertiefte Erklärung mit Beispielen und Visualisierung.
 
 Die entscheidende Frage: **Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?**
 
@@ -153,6 +162,8 @@ ggplot() +
     plot.margin = margin(20, 20, 20, 20)
   )
 ```
+:::
+
 
 ### Wie erkennt man, wo auf dem Spektrum man steht?
 
@@ -173,7 +184,8 @@ Wähle eine der 3 Sonden. Wie würdest du sie in deiner Lehre konkret einsetzen?
 :::
 
 
-## Das Evaluationsparadox
+::: {.nachlesen}
+### Das Evaluationsparadox
 
 Ein verbreiteter Vorschlag: *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
 
@@ -329,9 +341,13 @@ digraph expert_novice {
 }
 ")
 ```
+:::
 
 
-## Warum Schemas den KI-Output umschreiben
+::: {.nachlesen}
+### Schemas, Lernen ≠ Leisten und der "Strand"
+
+#### Warum Schemas den KI-Output umschreiben
 
 Gedächtnis ist nicht reproduktiv, sondern **rekonstruktiv**. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas, also organisierte Wissensstrukturen aus Erfahrung, sind dabei gleichzeitig der grösste Vorteil *und* die systematischste Fehlerquelle des Gedächtnisses.
 
@@ -341,16 +357,15 @@ Das erklärt auch, warum **Missverständnisse so hartnäckig** sind: Einfach kor
 
 > [Vertiefung: Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/). Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
 
-
-## Lernen &ne; Leisten
+#### Lernen &ne; Leisten
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
-### Cargo Cult Scholarship
+#### Cargo Cult Scholarship
 
 Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
 
-### "The Beach, Not the Ant"
+#### "The Beach, Not the Ant"
 
 > Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
 
@@ -362,7 +377,7 @@ Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"*
 
 Herbert Simon nannte das zugrundeliegende Prinzip **Bounded Rationality** (begrenzte Rationalität): Menschen treffen Entscheidungen nicht durch Optimierung aller Möglichkeiten, sondern indem sie die erste akzeptable Lösung wählen (*Satisficing*). Wenn die Lernumgebung eine akzeptable Lösung ohne kognitive Anstrengung zulässt, werden begrenzt rationale Studierende diese Lösung wählen. Die Konsequenz für die Aufgabengestaltung: Wir müssen Aufgaben so entwerfen, dass die "befriedigende" Lösung die kognitive Anstrengung *einschliesst*, nicht umgeht.
 
-### Die Equity-Dimension
+#### Die Equity-Dimension
 
 Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtigkeit: Wenn das, was Novizen hilft, sich von dem unterscheidet, was Experten hilft, dann schadet unstrukturierter KI-Einsatz Studierenden mit schwächerem Vorwissen *überproportional*. Das ist keine empirische Spekulation, sondern eine logische Folge der Theorie, die wir bereits besprochen haben:
 
@@ -378,16 +393,18 @@ Die empirische Evidenzbasis zu KI-spezifischen Equity-Effekten wächst, und die 
 - **Strategische Paarung in der Prüfe-Phase**: Bewusste Zusammensetzung von Tandems, die unterschiedliche Stärken einbringen, damit die Vergleichsphase für alle informativ ist
 - **Sprachliche Zugänglichkeit beachten**: KI-Tools funktionieren in verschiedenen Sprachen unterschiedlich gut. Für nicht-muttersprachliche Studierende kann die Sprachbarriere die ohnehin schwächere Ausgangsposition verschärfen
 
-### Was uns die Geschichte der Bildungstechnologie lehrt
+#### Was uns die Geschichte der Bildungstechnologie lehrt
 
 Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Cargo Cult Scholarship, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
 
 Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.
 
 Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkzeuge sinnvoll integrieren [@reichFailureDisruptWhy2020]. Die angemessene Reaktion auf KI ist weder unkritische Begeisterung noch pauschale Ablehnung, sondern informierte, kontextbezogene Integration, genau das, was dieses Framework ermöglichen soll.
+:::
 
 
-## Das 5-Fragen-Framework
+::: {.nachlesen}
+### Das 5-Fragen-Framework (Übersicht)
 
 Ein praktisches Werkzeug für die Aufgabengestaltung:
 
@@ -398,9 +415,16 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 | 3. Muss **internes Wissen** nachgewiesen werden? | → Outsourcing unmöglich machen |
 | 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | → Aufgabe umgestalten |
 | 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | → KI für die Prüfphase nutzen |
+:::
 
 
 ## Worked Example: Das Framework in Aktion
+
+::: {.facilitator}
+### Worked Example gemeinsam durchgehen (ca. 12 Min)
+
+Dieses Beispiel Schritt für Schritt gemeinsam durcharbeiten. Jeden Schritt vorlesen oder zusammenfassen, dann kurz Reaktionen abfragen. Vor dem Redesign PAUSE für die Selbsterklärung (2 Min). Dann das Redesign zeigen und die drei Erkenntnisse besprechen.
+:::
 
 Bevor ihr das Framework auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.
 

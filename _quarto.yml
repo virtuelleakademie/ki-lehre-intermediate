@@ -86,6 +86,7 @@ website:
         # - 02-ki-und-lernen/index.qmd
         # - 03-praxis/index.qmd
         - workshop/diskussion/index.qmd
+        - workshop/moderation/index.qmd
 
     - title: "Teil 1: Lernen verstehen"
       style: "docked"
@@ -231,6 +232,18 @@ custom-callout:
     title: "Pro Tip"
     icon-symbol: "💡"
     color: "gold"
+    collapse: true
+
+  nachlesen:
+    title: "Zum Nachlesen"
+    icon-symbol: "📖"
+    color: "#64748b"
+    collapse: true
+
+  facilitator:
+    title: "Moderationshinweis"
+    icon-symbol: "📋"
+    color: "#d97706"
     collapse: true
 
   # # Technical Elements
