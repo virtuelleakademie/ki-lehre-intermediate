@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
 <meta name="author" content="Andrew Ellis">
-
 <title>Arbeitsgedächtnis und Instruktion – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
@@ -43,7 +40,6 @@ div.csl-indent {
   margin-left: 2em;
 }</style>
 
-
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
@@ -70,8 +66,7 @@ div.csl-indent {
 <link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -96,31 +91,18 @@ div.csl-indent {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
+}</script><style>html{ scroll-behavior: smooth; }</style>
 <script type="application/json" class="js-hypothesis-config">
 {
   "theme": "clean"
 }
-</script>
-<script async="" src="https://hypothes.is/embed.js"></script>
-<script>
+</script><script async="" src="https://hypothes.is/embed.js"></script><script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script>
-<style>
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
+</script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
 div.callout-pair.callout {
   border-left-color: forestgreen;
 }
@@ -129,39 +111,6 @@ div.callout-pair.callout-style-default > .callout-header {
 }
 div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
@@ -176,6 +125,28 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -187,21 +158,38 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 </style>
-
-
 <meta property="og:title" content="Arbeitsgedächtnis und Instruktion – KI in der Lehre: Intermediate">
 <meta property="og:description" content="Warum der Flaschenhals des Lernens jede Lehrdesign-Entscheidung bestimmt">
 <meta property="og:image" content="https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/arbeitsgedaechtnis/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
-
 <body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
@@ -213,7 +201,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
+<li class="nav-item">
     <a class="nav-link" href="../../workshop/index.html"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
@@ -234,15 +222,15 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-file-slides" role="img">
 </i> 
  <span class="menu-text">Dokumente</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">
+<li>
     <a class="dropdown-item" href="../../assets/pdfs/Begleitdokument.pdf">
  <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
   </li>  
@@ -259,16 +247,14 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
   </li>  
     </ul>
-  </li>
+</li>
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://virtuelleakademie.ch/knowledge-base/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
+    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
@@ -279,20 +265,16 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../01-lernen-verstehen/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Wie Menschen lernen</span></a>
@@ -317,56 +299,60 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   </div>
 </li>
     </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#zentrale-erkenntnisse" id="toc-zentrale-erkenntnisse" class="nav-link active" data-scroll-target="#zentrale-erkenntnisse">Zentrale Erkenntnisse</a></li>
-  <li><a href="#was-ist-das-arbeitsgedächtnis" id="toc-was-ist-das-arbeitsgedächtnis" class="nav-link" data-scroll-target="#was-ist-das-arbeitsgedächtnis">Was ist das Arbeitsgedächtnis?</a>
+<li><a href="#zentrale-erkenntnisse" id="toc-zentrale-erkenntnisse" class="nav-link active" data-scroll-target="#zentrale-erkenntnisse">Zentrale Erkenntnisse</a></li>
+  <li>
+<a href="#was-ist-das-arbeitsged%C3%A4chtnis" id="toc-was-ist-das-arbeitsgedächtnis" class="nav-link" data-scroll-target="#was-ist-das-arbeitsged%C3%A4chtnis">Was ist das Arbeitsgedächtnis?</a>
   <ul class="collapse">
-  <li><a href="#zentrale-eigenschaften" id="toc-zentrale-eigenschaften" class="nav-link" data-scroll-target="#zentrale-eigenschaften">Zentrale Eigenschaften</a></li>
-  </ul></li>
-  <li><a href="#modelle-des-arbeitsgedächtnisses" id="toc-modelle-des-arbeitsgedächtnisses" class="nav-link" data-scroll-target="#modelle-des-arbeitsgedächtnisses">Modelle des Arbeitsgedächtnisses</a>
+<li><a href="#zentrale-eigenschaften" id="toc-zentrale-eigenschaften" class="nav-link" data-scroll-target="#zentrale-eigenschaften">Zentrale Eigenschaften</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#modelle-des-arbeitsged%C3%A4chtnisses" id="toc-modelle-des-arbeitsgedächtnisses" class="nav-link" data-scroll-target="#modelle-des-arbeitsged%C3%A4chtnisses">Modelle des Arbeitsgedächtnisses</a>
   <ul class="collapse">
-  <li><a href="#baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" id="toc-baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" class="nav-link" data-scroll-target="#baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000">Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(2000)</span></a></li>
+<li><a href="#baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" id="toc-baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" class="nav-link" data-scroll-target="#baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000">Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(2000)</span></a></li>
   <li><a href="#cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" id="toc-cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" class="nav-link" data-scroll-target="#cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010">Cowans Modell der eingebetteten Prozesse <span class="citation" data-cites="cowanMagicalMysteryFour2010">(Cowan 2010)</span></a></li>
   <li><a href="#tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" id="toc-tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" class="nav-link" data-scroll-target="#tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015">TBRS-Modell: Zeitbasierte Ressourcenteilung <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(Barrouillet and Camos 2015)</span></a></li>
   <li><a href="#oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" id="toc-oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" class="nav-link" data-scroll-target="#oberauers-konzentrisches-modell--oberaueraccessinformationworking2002">Oberauers konzentrisches Modell <span class="citation" data-cites="oberauerAccessInformationWorking2002">(2002)</span></a></li>
   <li><a href="#slots-vs.-ressourcen-eine-aktuelle-debatte" id="toc-slots-vs.-ressourcen-eine-aktuelle-debatte" class="nav-link" data-scroll-target="#slots-vs.-ressourcen-eine-aktuelle-debatte">Slots vs.&nbsp;Ressourcen: Eine aktuelle Debatte</a></li>
-  </ul></li>
-  <li><a href="#das-problem-neuer-inhalte" id="toc-das-problem-neuer-inhalte" class="nav-link" data-scroll-target="#das-problem-neuer-inhalte">Das Problem neuer Inhalte</a>
+  </ul>
+</li>
+  <li>
+<a href="#das-problem-neuer-inhalte" id="toc-das-problem-neuer-inhalte" class="nav-link" data-scroll-target="#das-problem-neuer-inhalte">Das Problem neuer Inhalte</a>
   <ul class="collapse">
-  <li><a href="#das-bootstrapping-problem" id="toc-das-bootstrapping-problem" class="nav-link" data-scroll-target="#das-bootstrapping-problem">Das Bootstrapping-Problem</a></li>
+<li><a href="#das-bootstrapping-problem" id="toc-das-bootstrapping-problem" class="nav-link" data-scroll-target="#das-bootstrapping-problem">Das Bootstrapping-Problem</a></li>
   <li><a href="#der-expertise-reversal-effect" id="toc-der-expertise-reversal-effect" class="nav-link" data-scroll-target="#der-expertise-reversal-effect">Der Expertise Reversal Effect</a></li>
-  </ul></li>
-  <li><a href="#cognitive-load-theory-vom-labor-ins-klassenzimmer" id="toc-cognitive-load-theory-vom-labor-ins-klassenzimmer" class="nav-link" data-scroll-target="#cognitive-load-theory-vom-labor-ins-klassenzimmer">Cognitive Load Theory: Vom Labor ins Klassenzimmer</a>
+  </ul>
+</li>
+  <li>
+<a href="#cognitive-load-theory-vom-labor-ins-klassenzimmer" id="toc-cognitive-load-theory-vom-labor-ins-klassenzimmer" class="nav-link" data-scroll-target="#cognitive-load-theory-vom-labor-ins-klassenzimmer">Cognitive Load Theory: Vom Labor ins Klassenzimmer</a>
   <ul class="collapse">
-  <li><a href="#drei-arten-kognitiver-belastung" id="toc-drei-arten-kognitiver-belastung" class="nav-link" data-scroll-target="#drei-arten-kognitiver-belastung">Drei Arten kognitiver Belastung</a></li>
+<li><a href="#drei-arten-kognitiver-belastung" id="toc-drei-arten-kognitiver-belastung" class="nav-link" data-scroll-target="#drei-arten-kognitiver-belastung">Drei Arten kognitiver Belastung</a></li>
   <li><a href="#vier-behebbare-quellen-extrinsischer-last" id="toc-vier-behebbare-quellen-extrinsischer-last" class="nav-link" data-scroll-target="#vier-behebbare-quellen-extrinsischer-last">Vier behebbare Quellen extrinsischer Last</a></li>
-  </ul></li>
-  <li><a href="#praktische-prinzipien-für-die-lehre" id="toc-praktische-prinzipien-für-die-lehre" class="nav-link" data-scroll-target="#praktische-prinzipien-für-die-lehre">Praktische Prinzipien für die Lehre</a>
+  </ul>
+</li>
+  <li>
+<a href="#praktische-prinzipien-f%C3%BCr-die-lehre" id="toc-praktische-prinzipien-für-die-lehre" class="nav-link" data-scroll-target="#praktische-prinzipien-f%C3%BCr-die-lehre">Praktische Prinzipien für die Lehre</a>
   <ul class="collapse">
-  <li><a href="#komplexe-inhalte-segmentieren" id="toc-komplexe-inhalte-segmentieren" class="nav-link" data-scroll-target="#komplexe-inhalte-segmentieren">1. Komplexe Inhalte segmentieren</a></li>
+<li><a href="#komplexe-inhalte-segmentieren" id="toc-komplexe-inhalte-segmentieren" class="nav-link" data-scroll-target="#komplexe-inhalte-segmentieren">1. Komplexe Inhalte segmentieren</a></li>
   <li><a href="#dual-coding-nutzen" id="toc-dual-coding-nutzen" class="nav-link" data-scroll-target="#dual-coding-nutzen">2. Dual Coding nutzen</a></li>
   <li><a href="#extrinsische-last-eliminieren" id="toc-extrinsische-last-eliminieren" class="nav-link" data-scroll-target="#extrinsische-last-eliminieren">3. Extrinsische Last eliminieren</a></li>
   <li><a href="#pausen-einbauen" id="toc-pausen-einbauen" class="nav-link" data-scroll-target="#pausen-einbauen">4. Pausen einbauen</a></li>
-  <li><a href="#neue-inhalte-stark-stützen-dann-ausblenden" id="toc-neue-inhalte-stark-stützen-dann-ausblenden" class="nav-link" data-scroll-target="#neue-inhalte-stark-stützen-dann-ausblenden">5. Neue Inhalte stark stützen, dann ausblenden</a></li>
-  <li><a href="#elementinteraktivität-explizit-managen" id="toc-elementinteraktivität-explizit-managen" class="nav-link" data-scroll-target="#elementinteraktivität-explizit-managen">6. Elementinteraktivität explizit managen</a></li>
+  <li><a href="#neue-inhalte-stark-st%C3%BCtzen-dann-ausblenden" id="toc-neue-inhalte-stark-stützen-dann-ausblenden" class="nav-link" data-scroll-target="#neue-inhalte-stark-st%C3%BCtzen-dann-ausblenden">5. Neue Inhalte stark stützen, dann ausblenden</a></li>
+  <li><a href="#elementinteraktivit%C3%A4t-explizit-managen" id="toc-elementinteraktivität-explizit-managen" class="nav-link" data-scroll-target="#elementinteraktivit%C3%A4t-explizit-managen">6. Elementinteraktivität explizit managen</a></li>
   <li><a href="#instruktion-an-das-expertise-niveau-anpassen" id="toc-instruktion-an-das-expertise-niveau-anpassen" class="nav-link" data-scroll-target="#instruktion-an-das-expertise-niveau-anpassen">7. Instruktion an das Expertise-Niveau anpassen</a></li>
-  </ul></li>
   </ul>
-</nav>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Arbeitsgedächtnis und Instruktion</h1>
 <p class="subtitle lead">Warum der Flaschenhals des Lernens jede Lehrdesign-Entscheidung bestimmt</p>
 </div>
@@ -397,10 +383,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   
 
 
-</header>
-
-
-<div class="callout callout-style-default callout-note callout-titled">
+</header><div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -413,41 +396,43 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <p><strong>Geschätzte Lesezeit</strong>: 15–20 Minuten</p>
 <p>Diese Seite vertieft den Abschnitt zur kognitiven Architektur aus dem Workshop. Empfohlene Reihenfolge:</p>
 <ul>
-<li><strong>Essentiell</strong>: Was ist das Arbeitsgedächtnis? + Das Problem neuer Inhalte + Cognitive Load Theory</li>
-<li><strong>Vertiefung</strong>: Die vier Modelle, die die Workshop-Inhalte mit wissenschaftlicher Tiefe ergänzen</li>
-<li><strong>Optional</strong>: Slots vs.&nbsp;Ressourcen, also die aktuelle Debatte in der Forschung</li>
+<li>
+<strong>Essentiell</strong>: Was ist das Arbeitsgedächtnis? + Das Problem neuer Inhalte + Cognitive Load Theory</li>
+<li>
+<strong>Vertiefung</strong>: Die vier Modelle, die die Workshop-Inhalte mit wissenschaftlicher Tiefe ergänzen</li>
+<li>
+<strong>Optional</strong>: Slots vs.&nbsp;Ressourcen, also die aktuelle Debatte in der Forschung</li>
 </ul>
 <p>Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksamer als Weiterlesen.</p>
 </div>
 </div>
-<section id="zentrale-erkenntnisse" class="level2">
-<h2 class="anchored" data-anchor-id="zentrale-erkenntnisse">Zentrale Erkenntnisse</h2>
+<section id="zentrale-erkenntnisse" class="level2"><h2 class="anchored" data-anchor-id="zentrale-erkenntnisse">Zentrale Erkenntnisse</h2>
 <ol type="1">
-<li><strong>Arbeitsgedächtnis ist der Flaschenhals</strong>, durch den alles Lernen hindurch muss: ca. 4 Elemente, 15–30 Sekunden ohne Auffrischung</li>
-<li><strong>Vorwissen verändert den Flaschenhals</strong>: Schemas komprimieren Elemente; die effektive Kapazität variiert mit der Expertise</li>
-<li><strong>Pausen sind keine verlorene Zeit</strong>: Schon kurze Mikropausen ermöglichen die Auffrischung zerfallender Gedächtnisspuren</li>
-<li><strong>Das eigentliche Limit ist Bindung</strong>: Nicht nur Elemente halten, sondern deren <em>Beziehungen zueinander</em> verarbeiten, das ist die anspruchsvollste Operation</li>
-<li><strong>Neue Inhalte belasten fundamental anders</strong>: Ohne Schemas fehlen alle Mechanismen, die das Arbeitsgedächtnis normalerweise entlasten</li>
-<li><strong>Cognitive Load Theory übersetzt die Forschung in Lehrdesign</strong>: Extrinsische Last eliminieren, um Raum für die produktive Verarbeitung der intrinsischen Komplexität zu schaffen</li>
-</ol>
-</section>
-<section id="was-ist-das-arbeitsgedächtnis" class="level2">
-<h2 class="anchored" data-anchor-id="was-ist-das-arbeitsgedächtnis">Was ist das Arbeitsgedächtnis?</h2>
+<li>
+<strong>Arbeitsgedächtnis ist der Flaschenhals</strong>, durch den alles Lernen hindurch muss: ca. 4 Elemente, 15–30 Sekunden ohne Auffrischung</li>
+<li>
+<strong>Vorwissen verändert den Flaschenhals</strong>: Schemas komprimieren Elemente; die effektive Kapazität variiert mit der Expertise</li>
+<li>
+<strong>Pausen sind keine verlorene Zeit</strong>: Schon kurze Mikropausen ermöglichen die Auffrischung zerfallender Gedächtnisspuren</li>
+<li>
+<strong>Das eigentliche Limit ist Bindung</strong>: Nicht nur Elemente halten, sondern deren <em>Beziehungen zueinander</em> verarbeiten, das ist die anspruchsvollste Operation</li>
+<li>
+<strong>Neue Inhalte belasten fundamental anders</strong>: Ohne Schemas fehlen alle Mechanismen, die das Arbeitsgedächtnis normalerweise entlasten</li>
+<li>
+<strong>Cognitive Load Theory übersetzt die Forschung in Lehrdesign</strong>: Extrinsische Last eliminieren, um Raum für die produktive Verarbeitung der intrinsischen Komplexität zu schaffen</li>
+</ol></section><section id="was-ist-das-arbeitsgedächtnis" class="level2"><h2 class="anchored" data-anchor-id="was-ist-das-arbeitsgedächtnis">Was ist das Arbeitsgedächtnis?</h2>
 <p>Das Arbeitsgedächtnis ist nicht dasselbe wie das Kurzzeitgedächtnis. Kurzzeitgedächtnis meint passives Speichern, also eine Telefonnummer für ein paar Sekunden behalten. Das Arbeitsgedächtnis fügt eine aktive Verarbeitungskomponente hinzu: Es ist der mentale Arbeitsplatz, auf dem man Informationen hält <em>und gleichzeitig etwas damit tut</em>, also vergleichen, schlussfolgern, integrieren und lösen.</p>
 <p>Eine nützliche Analogie: Stell dir das Arbeitsgedächtnis als <strong>kleinen Schreibtisch</strong> vor. Man kann nur wenige Dokumente gleichzeitig geöffnet haben. Werden es zu viele, fallen Dinge vom Rand. Das Langzeitgedächtnis ist der Aktenschrank mit riesiger Kapazität, aber man muss Dokumente erst zum Schreibtisch holen, bevor man damit arbeiten kann.</p>
-<section id="zentrale-eigenschaften" class="level3">
-<h3 class="anchored" data-anchor-id="zentrale-eigenschaften">Zentrale Eigenschaften</h3>
+<section id="zentrale-eigenschaften" class="level3"><h3 class="anchored" data-anchor-id="zentrale-eigenschaften">Zentrale Eigenschaften</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
 <col style="width: 50%">
 </colgroup>
-<thead>
-<tr class="header">
+<thead><tr class="header">
 <th>Eigenschaft</th>
 <th>Details</th>
-</tr>
-</thead>
+</tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Kapazität</strong></td>
@@ -468,6 +453,17 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 </tbody>
 </table>
 <p>Das Arbeitsgedächtnis ist der <strong>Flaschenhals</strong>, durch den alles Lernen hindurch muss.</p>
+<div class="cell">
+<div id="fig-bottleneck" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-5508f89eba813061d111" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-5508f89eba813061d111">{"x":{"diagram":"\ndigraph bottleneck {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 1.0\n    ranksep = 1.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#666666\"\n    arrowsize = 0.9\n  ]\n\n  input [\n    label = \"Sensorischer Input\\n\\nUmwelt\"\n    fillcolor = \"#94a3b8\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2\n  ]\n\n  wm [\n    label = \"Arbeitsgedächtnis\\n\\n~4 Elemente\\n15–30 Sekunden\\nAktives Lernen\"\n    fillcolor = \"#f59e0b\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2.5\n  ]\n\n  ltm [\n    label = \"Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas\"\n    fillcolor = \"#16a34a\"\n    fontsize = 13\n    margin = \"0.3,0.2\"\n    width = 2.8\n  ]\n\n  input -> wm [label = \"  Aufmerksamkeit  \"]\n  wm -> ltm [label = \"  Schemabildung\\n  & Übung  \"]\n  ltm -> wm [label = \"  Abruf &\\n  Aktivierung  \" style = dashed]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption></figure>
+</div>
+</div>
 <div class="callout callout-style-default callout-reflect callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -486,25 +482,25 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <p><em>Wenn du dich unsicher fühlst, ist das ein gutes Zeichen. Es bedeutet, dass dein Gehirn gerade aktiv rekonstruiert statt nur wiederzuerkennen.</em></p>
 </div>
 </div>
-</section>
-</section>
-<section id="modelle-des-arbeitsgedächtnisses" class="level2">
-<h2 class="anchored" data-anchor-id="modelle-des-arbeitsgedächtnisses">Modelle des Arbeitsgedächtnisses</h2>
+</section></section><section id="modelle-des-arbeitsgedächtnisses" class="level2"><h2 class="anchored" data-anchor-id="modelle-des-arbeitsgedächtnisses">Modelle des Arbeitsgedächtnisses</h2>
 <p>Forschende haben verschiedene Modelle vorgeschlagen, die unterschiedliche Aspekte des Systems erfassen und unterschiedliche Implikationen für die Lehre haben.</p>
-<section id="baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" class="level3">
-<h3 class="anchored" data-anchor-id="baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000">Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(<a href="#ref-baddeleyEpisodicBufferNew2000" role="doc-biblioref">2000</a>)</span></h3>
+<section id="baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" class="level3"><h3 class="anchored" data-anchor-id="baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000">Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(<a href="#ref-baddeleyEpisodicBufferNew2000" role="doc-biblioref">2000</a>)</span>
+</h3>
 <p>Das bekannteste Modell beschreibt das Arbeitsgedächtnis als System mit getrennten Subsystemen, die von einer zentralen Exekutive gesteuert werden:</p>
 <ul>
-<li><strong>Zentrale Exekutive</strong>: Aufmerksamkeitskontrolle und Koordination</li>
-<li><strong>Phonologische Schleife</strong>: Verarbeitung verbaler und akustischer Information</li>
-<li><strong>Visuell-räumlicher Notizblock</strong>: Verarbeitung visueller und räumlicher Information</li>
-<li><strong>Episodischer Puffer</strong>: Integration von Information und Verbindung zum Langzeitgedächtnis</li>
+<li>
+<strong>Zentrale Exekutive</strong>: Aufmerksamkeitskontrolle und Koordination</li>
+<li>
+<strong>Phonologische Schleife</strong>: Verarbeitung verbaler und akustischer Information</li>
+<li>
+<strong>Visuell-räumlicher Notizblock</strong>: Verarbeitung visueller und räumlicher Information</li>
+<li>
+<strong>Episodischer Puffer</strong>: Integration von Information und Verbindung zum Langzeitgedächtnis</li>
 </ul>
 <p>Die Subsysteme werden von der zentralen Exekutive <em>gesteuert</em>, sind aber eigenständige Komponenten, die nicht “in” der Exekutive enthalten sind.</p>
 <p><strong>Lehrimplikation</strong>: Du hast <strong>zwei Eingangskanäle</strong>, einen verbalen und einen visuellen. Beide gleichzeitig nutzen (z.B. Diagramm mit gesprochener Erklärung) reduziert die gegenseitige Interferenz und unterstützt eine effektivere Verarbeitung. Aber: Zwei verbale Ströme (Folientext lesen und gleichzeitig denselben Inhalt hören) konkurrieren um <em>denselben</em> Kanal und erzeugen Redundanz, keine Erweiterung. <strong>Lies nie deine Folien vor.</strong></p>
-</section>
-<section id="cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" class="level3">
-<h3 class="anchored" data-anchor-id="cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010">Cowans Modell der eingebetteten Prozesse <span class="citation" data-cites="cowanMagicalMysteryFour2010">(<a href="#ref-cowanMagicalMysteryFour2010" role="doc-biblioref">Cowan 2010</a>)</span></h3>
+</section><section id="cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" class="level3"><h3 class="anchored" data-anchor-id="cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010">Cowans Modell der eingebetteten Prozesse <span class="citation" data-cites="cowanMagicalMysteryFour2010">(<a href="#ref-cowanMagicalMysteryFour2010" role="doc-biblioref">Cowan 2010</a>)</span>
+</h3>
 <p>Nelson Cowan schlug eine sparsamere Sicht vor: Arbeitsgedächtnis ist kein separates System. Es besteht aus <strong>aktivierten Teilen des Langzeitgedächtnisses</strong>, wobei eine kleine Teilmenge im <strong>Aufmerksamkeitsfokus</strong> gehalten wird (~4 Elemente).</p>
 <p>Die Schlüsselidee: Die Grenze zwischen Arbeits- und Langzeitgedächtnis ist fliessend. Wenn Studierende relevantes Vorwissen haben, kann dieses schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Vorwissen <strong>verändert die effektive Kapazität</strong> des Arbeitsgedächtnisses.</p>
 <p><strong>Lehrimplikation</strong>: Das ist der Grund, warum Vorwissensdiagnostik so wichtig ist. Dieselbe Vorlesung, dasselbe Material, und dennoch eine fundamental unterschiedliche kognitive Aufgabe, je nachdem, was Studierende bereits wissen. Ein Experte verarbeitet “F = ma” als <strong>einen Chunk</strong> in einem Arbeitsgedächtnis-Slot. Ein Anfänger verarbeitet es als <strong>drei unverbundene Elemente</strong>, die 3+ Slots beanspruchen, ohne Schema, das die Bindungen stabilisiert.</p>
@@ -526,20 +522,22 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 </ul>
 </div>
 </div>
-</section>
-<section id="tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" class="level3">
-<h3 class="anchored" data-anchor-id="tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015">TBRS-Modell: Zeitbasierte Ressourcenteilung <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(<a href="#ref-barrouilletWorkingMemoryLoss2015" role="doc-biblioref">Barrouillet and Camos 2015</a>)</span></h3>
+</section><section id="tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" class="level3"><h3 class="anchored" data-anchor-id="tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015">TBRS-Modell: Zeitbasierte Ressourcenteilung <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(<a href="#ref-barrouilletWorkingMemoryLoss2015" role="doc-biblioref">Barrouillet and Camos 2015</a>)</span>
+</h3>
 <p>Das TBRS-Modell bietet eine fundamental andere Erklärung für die Grenzen des Arbeitsgedächtnisses. Statt einer festen Anzahl von “Slots” schlägt es vor:</p>
 <ul>
 <li>Das Modell behandelt <strong>Aufmerksamkeit als eine einzelne Ressource</strong>, die zwischen <em>Verarbeitung</em> (kognitive Arbeit) und <em>Aufrechterhaltung</em> (Elemente am Leben halten) geteilt werden muss</li>
 <li>Gedächtnisspuren <strong>zerfallen über die Zeit</strong> und müssen aktiv aufgefrischt werden</li>
 <li>Das Gehirn <strong>wechselt</strong> schnell zwischen Verarbeitung und Auffrischung, wie ein Jongleur, der mehrere Bälle in der Luft hält</li>
-<li><strong>Kognitive Last</strong> = der Anteil der Zeit, den die Verarbeitung beansprucht, sodass nichts für die Auffrischung übrig bleibt</li>
+<li>
+<strong>Kognitive Last</strong> = der Anteil der Zeit, den die Verarbeitung beansprucht, sodass nichts für die Auffrischung übrig bleibt</li>
 </ul>
 <p>Was passiert bei unterschiedlicher Last:</p>
 <ul>
-<li><strong>Niedrige Last</strong>: Pausen zwischen Verarbeitungsschritten ermöglichen das Auffrischen, und die Elemente überleben</li>
-<li><strong>Hohe Last</strong>: Ununterbrochene Verarbeitung lässt keine Zeit zum Auffrischen, und die Elemente zerfallen und gehen verloren</li>
+<li>
+<strong>Niedrige Last</strong>: Pausen zwischen Verarbeitungsschritten ermöglichen das Auffrischen, und die Elemente überleben</li>
+<li>
+<strong>Hohe Last</strong>: Ununterbrochene Verarbeitung lässt keine Zeit zum Auffrischen, und die Elemente zerfallen und gehen verloren</li>
 </ul>
 <p><strong>Lehrimplikation</strong>: <em>Das Tempo ist entscheidend.</em> Selbst kurze Mikropausen zwischen Instruktionssegmenten geben dem Gehirn der Studierenden Zeit, zerfallende Gedächtnisspuren aufzufrischen. Schnelle, ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen. Dies ist ein mechanistisch plausibles Argument für die Segmentierung von Vorlesungen und den Einbau kurzer Reflexionspausen, unterstützt durch die allgemeine Forschung zu segmentierter Instruktion (Mayers Segmentierungsprinzip) und konsistent mit dem TBRS-Mechanismus, obwohl die spezifische TBRS-zu-Hörsaal-Kausalkette nicht direkt getestet wurde.</p>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
@@ -564,24 +562,26 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 </div>
 </div>
 </div>
-</section>
-<section id="oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" class="level3">
-<h3 class="anchored" data-anchor-id="oberauers-konzentrisches-modell--oberaueraccessinformationworking2002">Oberauers konzentrisches Modell <span class="citation" data-cites="oberauerAccessInformationWorking2002">(<a href="#ref-oberauerAccessInformationWorking2002" role="doc-biblioref">2002</a>)</span></h3>
+</section><section id="oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" class="level3"><h3 class="anchored" data-anchor-id="oberauers-konzentrisches-modell--oberaueraccessinformationworking2002">Oberauers konzentrisches Modell <span class="citation" data-cites="oberauerAccessInformationWorking2002">(<a href="#ref-oberauerAccessInformationWorking2002" role="doc-biblioref">2002</a>)</span>
+</h3>
 <p>Klaus Oberauer erweiterte Cowans Modell zu drei konzentrischen Ebenen:</p>
 <ol type="1">
-<li><strong>Aktiviertes Langzeitgedächtnis</strong>: Breites, relevantes Hintergrundwissen</li>
-<li><strong>Region des direkten Zugriffs</strong>: ~4 Elemente, die für die Verarbeitung verfügbar sind</li>
-<li><strong>Aufmerksamkeitsfokus</strong>: 1 Element, das gerade bearbeitet wird</li>
+<li>
+<strong>Aktiviertes Langzeitgedächtnis</strong>: Breites, relevantes Hintergrundwissen</li>
+<li>
+<strong>Region des direkten Zugriffs</strong>: ~4 Elemente, die für die Verarbeitung verfügbar sind</li>
+<li>
+<strong>Aufmerksamkeitsfokus</strong>: 1 Element, das gerade bearbeitet wird</li>
 </ol>
 <p>Oberauers besondere Einsicht: Die eigentliche Engstelle ist nicht die Speicherung, sondern die <strong>Bindung</strong>. Es geht nicht nur darum, vier Elemente zu halten; es geht darum, zu behalten, <em>welches Element zu welchem gehört</em>, <em>was auf was folgt</em> und <em>wie die Dinge zusammenhängen</em>.</p>
 <p><strong>Lehrimplikation</strong>: Verstehen ist fundamental eine Frage der <strong>relationalen Struktur</strong>. Wenn du ein Konzept unterrichtest, müssen Studierende nicht nur die einzelnen Elemente halten, sondern auch die Bindungen zwischen ihnen aufrechterhalten. Deshalb ist Material mit hoher <strong>Elementinteraktivität</strong> (bei dem viele Elemente gleichzeitig in Beziehung zueinander verstanden werden müssen) so anspruchsvoll.</p>
-</section>
-<section id="slots-vs.-ressourcen-eine-aktuelle-debatte" class="level3">
-<h3 class="anchored" data-anchor-id="slots-vs.-ressourcen-eine-aktuelle-debatte">Slots vs.&nbsp;Ressourcen: Eine aktuelle Debatte</h3>
+</section><section id="slots-vs.-ressourcen-eine-aktuelle-debatte" class="level3"><h3 class="anchored" data-anchor-id="slots-vs.-ressourcen-eine-aktuelle-debatte">Slots vs.&nbsp;Ressourcen: Eine aktuelle Debatte</h3>
 <p>Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Genauigkeit (<strong>Slots</strong>) oder verteilt es eine kontinuierliche Ressource über Elemente (<strong>Ressourcen</strong>)? Neuere Evidenz favorisiert zunehmend <strong>Hybridmodelle</strong>, die Elemente beider Ansätze kombinieren, aber die Debatte hat praktische Implikationen:</p>
 <ul>
-<li><strong>Slot-Modell</strong>: Jedes gespeicherte Element hat volle Präzision; überschüssige Elemente fallen einfach weg</li>
-<li><strong>Ressourcen-Modell</strong>: Mehr Elemente = weniger Präzision für jedes einzelne; weniger Elemente = höhere Präzision</li>
+<li>
+<strong>Slot-Modell</strong>: Jedes gespeicherte Element hat volle Präzision; überschüssige Elemente fallen einfach weg</li>
+<li>
+<strong>Ressourcen-Modell</strong>: Mehr Elemente = weniger Präzision für jedes einzelne; weniger Elemente = höhere Präzision</li>
 </ul>
 <p><strong>Lehrimplikation</strong>: Eine Überladung des Arbeitsgedächtnisses führt möglicherweise nicht dazu, dass Elemente einfach <em>verschwinden</em>. Stattdessen werden alle Repräsentationen <em>verrauschter und weniger präzise</em>. Das entspricht der Erfahrung mit Studierenden, die “so ungefähr” mehrere Dinge verstehen, aber keines davon sicher beherrschen. Manchmal ist es besser, weniger Dinge gründlich zu lehren als viele Dinge oberflächlich.</p>
 <div class="callout callout-style-default callout-reflect callout-titled">
@@ -604,53 +604,77 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <p><em>Vergleiche anschliessend mit dem Text. Wo lagst du richtig? Wo musst du nochmals lesen?</em></p>
 </div>
 </div>
-</section>
-</section>
-<section id="das-problem-neuer-inhalte" class="level2">
-<h2 class="anchored" data-anchor-id="das-problem-neuer-inhalte">Das Problem neuer Inhalte</h2>
+</section></section><section id="das-problem-neuer-inhalte" class="level2"><h2 class="anchored" data-anchor-id="das-problem-neuer-inhalte">Das Problem neuer Inhalte</h2>
 <p>Hier wird es für die Lehre entscheidend. Alle Mechanismen, die das Arbeitsgedächtnis effektiver machen (Chunking, Schema-Aktivierung, Langzeit-Arbeitsgedächtnis) sind <strong>Produkte früheren Lernens</strong>. Wenn Inhalte für Studierende wirklich neu sind, steht keiner dieser Mechanismen zur Verfügung.</p>
-<section id="das-bootstrapping-problem" class="level3">
-<h3 class="anchored" data-anchor-id="das-bootstrapping-problem">Das Bootstrapping-Problem</h3>
+<section id="das-bootstrapping-problem" class="level3"><h3 class="anchored" data-anchor-id="das-bootstrapping-problem">Das Bootstrapping-Problem</h3>
 <p>Für den Experten ist “F = ma” ein einziger, reichhaltiger Chunk im Langzeitgedächtnis, verknüpft mit Konzepten, Beispielen und Intuitionen. Verwendet ~1 Arbeitsgedächtnis-Slot. Hohe Präzision. Leicht aufzufrischen.</p>
 <p>Für den Anfänger sind “F”, “m” und “a” drei separate Elemente ohne Verbindung. Wie hängen sie zusammen? Was bedeutet “=” hier? Es werden 3+ Arbeitsgedächtnis-Slots verwendet. Niedrige Präzision. Schwer aufrechtzuerhalten.</p>
 <p>Bei neuen Inhalten:</p>
 <ul>
-<li><strong>Chunking kann nicht helfen</strong>, weil es keine vorhandenen Schemas zum Komprimieren gibt</li>
-<li><strong>Aktiviertes LTM hat nichts Relevantes</strong> zur Unterstützung der aktuellen Verarbeitung</li>
-<li><strong>Auffrischung ist weniger effektiv</strong>, weil keine LTM-Anker die Spuren stabilisieren</li>
-<li><strong>Jede Bindung ist willkürlich</strong>, und die relationale Struktur muss durch rohe Anstrengung aufrechterhalten werden</li>
-<li><strong>Präzisionsanforderungen sind höher</strong>, weil degradierte Repräsentationen nicht aus Hintergrundwissen rekonstruiert werden können</li>
+<li>
+<strong>Chunking kann nicht helfen</strong>, weil es keine vorhandenen Schemas zum Komprimieren gibt</li>
+<li>
+<strong>Aktiviertes LTM hat nichts Relevantes</strong> zur Unterstützung der aktuellen Verarbeitung</li>
+<li>
+<strong>Auffrischung ist weniger effektiv</strong>, weil keine LTM-Anker die Spuren stabilisieren</li>
+<li>
+<strong>Jede Bindung ist willkürlich</strong>, und die relationale Struktur muss durch rohe Anstrengung aufrechterhalten werden</li>
+<li>
+<strong>Präzisionsanforderungen sind höher</strong>, weil degradierte Repräsentationen nicht aus Hintergrundwissen rekonstruiert werden können</li>
 </ul>
 <p>Die Modelle legen nahe, dass der initiale Erwerb <strong>qualitativ unterschiedlichen kognitiven Einschränkungen</strong> unterliegen könnte als die spätere Verfeinerung, also nicht nur langsamer, sondern fundamental anders.</p>
-</section>
-<section id="der-expertise-reversal-effect" class="level3">
-<h3 class="anchored" data-anchor-id="der-expertise-reversal-effect">Der Expertise Reversal Effect</h3>
+</section><section id="der-expertise-reversal-effect" class="level3"><h3 class="anchored" data-anchor-id="der-expertise-reversal-effect">Der Expertise Reversal Effect</h3>
 <p>Instruktionshilfen, die Anfängern helfen (z.B. durchgearbeitete Beispiele), können Experten sogar <em>schaden</em>:</p>
 <ul>
 <li>Für <strong>Anfänger</strong> reduzieren durchgearbeitete Beispiele die extrinsische Last, indem sie vororganisierte relationale Struktur liefern</li>
 <li>Für <strong>Experten</strong> ist dieselbe Strukturierung redundant, weil sie sie zwingt, Information zu verarbeiten, die sie bereits geChunkt haben</li>
 </ul>
 <p><strong>Lehrimplikation</strong>: Biete Scaffolding als <em>optionales</em> Material an, nicht als Pflicht, damit fortgeschrittene Studierende nicht gezwungen werden, redundante Struktur zu verarbeiten.</p>
-</section>
-</section>
-<section id="cognitive-load-theory-vom-labor-ins-klassenzimmer" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-load-theory-vom-labor-ins-klassenzimmer">Cognitive Load Theory: Vom Labor ins Klassenzimmer</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.6
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.1     ✔ tibble    3.3.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.2
+✔ purrr     1.2.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+Loading required package: sysfonts
+
+Loading required package: showtextdb</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+(`geom_line()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div id="fig-expertise-reversal" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-expertise-reversal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-expertise-reversal-1.png" class="img-fluid figure-img" width="960">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-expertise-reversal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Der Expertise Reversal Effekt: Optimale Unterstützung hängt vom Vorwissen ab. Permanentes KI-Scaffolding (gestrichelt) verhindert die Expertise-Entwicklung.
+</figcaption></figure>
+</div>
+</div>
+</div>
+</section></section><section id="cognitive-load-theory-vom-labor-ins-klassenzimmer" class="level2"><h2 class="anchored" data-anchor-id="cognitive-load-theory-vom-labor-ins-klassenzimmer">Cognitive Load Theory: Vom Labor ins Klassenzimmer</h2>
 <p>Die Cognitive Load Theory [CLT; <span class="citation" data-cites="swellerCognitiveLoadTheory2011">Sweller, Ayres, and Kalyuga (<a href="#ref-swellerCognitiveLoadTheory2011" role="doc-biblioref">2011</a>)</span>], entwickelt von John Sweller, übersetzt die Arbeitsgedächtnisforschung in Prinzipien für das Instruktionsdesign.</p>
-<section id="drei-arten-kognitiver-belastung" class="level3">
-<h3 class="anchored" data-anchor-id="drei-arten-kognitiver-belastung">Drei Arten kognitiver Belastung</h3>
+<section id="drei-arten-kognitiver-belastung" class="level3"><h3 class="anchored" data-anchor-id="drei-arten-kognitiver-belastung">Drei Arten kognitiver Belastung</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 54%">
 <col style="width: 25%">
 </colgroup>
-<thead>
-<tr class="header">
+<thead><tr class="header">
 <th>Art</th>
 <th>Beschreibung</th>
 <th>Ziel</th>
-</tr>
-</thead>
+</tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Intrinsisch</strong></td>
@@ -663,29 +687,26 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <td><strong>Minimieren</strong></td>
 </tr>
 <tr class="odd">
-<td><strong>Germane Processing</strong>*</td>
+<td>
+<strong>Germane Processing</strong>*</td>
 <td>Produktive Verarbeitung: Schemabildung, Integration, Elaboration</td>
 <td><strong>Raum dafür schaffen</strong></td>
 </tr>
 </tbody>
 </table>
 <p>* In der aktuellen CLT wurde “germane load” als <em>germane processing</em> rekonzeptualisiert, nicht als separater Belastungstyp, sondern als der produktive Anteil der intrinsischen Verarbeitung, der der Schemakonstruktion gewidmet ist <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span>.</p>
-</section>
-<section id="vier-behebbare-quellen-extrinsischer-last" class="level3">
-<h3 class="anchored" data-anchor-id="vier-behebbare-quellen-extrinsischer-last">Vier behebbare Quellen extrinsischer Last</h3>
+</section><section id="vier-behebbare-quellen-extrinsischer-last" class="level3"><h3 class="anchored" data-anchor-id="vier-behebbare-quellen-extrinsischer-last">Vier behebbare Quellen extrinsischer Last</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 31%">
 <col style="width: 41%">
 <col style="width: 27%">
 </colgroup>
-<thead>
-<tr class="header">
+<thead><tr class="header">
 <th>Problem</th>
 <th>Was passiert</th>
 <th>Lösung</th>
-</tr>
-</thead>
+</tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Split Attention</strong></td>
@@ -695,7 +716,8 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <tr class="even">
 <td><strong>Redundanz</strong></td>
 <td>Text auf Folie wird vorgelesen, und zwei verbale Ströme konkurrieren</td>
-<td>Visuals auf Folien. Verbal erklären. <strong>Nie Folien vorlesen.</strong></td>
+<td>Visuals auf Folien. Verbal erklären. <strong>Nie Folien vorlesen.</strong>
+</td>
 </tr>
 <tr class="odd">
 <td><strong>Seductive Details</strong></td>
@@ -710,6 +732,18 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 </tbody>
 </table>
 <p><strong>Das Designprinzip</strong>: Extrinsische Last eliminieren → Arbeitsgedächtniskapazität freisetzen → damit sie für die produktive Verarbeitung (germane processing) der intrinsisch komplexen Inhalte zur Verfügung steht.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-cognitive-load" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-cognitive-load-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-cognitive-load-1.png" class="img-fluid figure-img" width="960">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cognitive-load-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Verteilung der kognitiven Belastung in drei Szenarien. Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität.
+</figcaption></figure>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-reflect callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -730,36 +764,20 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 <p>Identifiziere eine konkrete Änderung, die du beim nächsten Mal umsetzen würdest.</p>
 </div>
 </div>
-</section>
-</section>
-<section id="praktische-prinzipien-für-die-lehre" class="level2">
-<h2 class="anchored" data-anchor-id="praktische-prinzipien-für-die-lehre">Praktische Prinzipien für die Lehre</h2>
-<section id="komplexe-inhalte-segmentieren" class="level3">
-<h3 class="anchored" data-anchor-id="komplexe-inhalte-segmentieren">1. Komplexe Inhalte segmentieren</h3>
+</section></section><section id="praktische-prinzipien-für-die-lehre" class="level2"><h2 class="anchored" data-anchor-id="praktische-prinzipien-für-die-lehre">Praktische Prinzipien für die Lehre</h2>
+<section id="komplexe-inhalte-segmentieren" class="level3"><h3 class="anchored" data-anchor-id="komplexe-inhalte-segmentieren">1. Komplexe Inhalte segmentieren</h3>
 <p>Inhalte mit hoher Elementinteraktivität in handhabbare Teile zerlegen. Komponenten zunächst isoliert vermitteln, dann integrieren.</p>
-</section>
-<section id="dual-coding-nutzen" class="level3">
-<h3 class="anchored" data-anchor-id="dual-coding-nutzen">2. Dual Coding nutzen</h3>
+</section><section id="dual-coding-nutzen" class="level3"><h3 class="anchored" data-anchor-id="dual-coding-nutzen">2. Dual Coding nutzen</h3>
 <p>Informationen über beide Kanäle gleichzeitig präsentieren, also Diagramm mit gesprochener Erklärung. Nicht den Folientext vorlesen.</p>
-</section>
-<section id="extrinsische-last-eliminieren" class="level3">
-<h3 class="anchored" data-anchor-id="extrinsische-last-eliminieren">3. Extrinsische Last eliminieren</h3>
+</section><section id="extrinsische-last-eliminieren" class="level3"><h3 class="anchored" data-anchor-id="extrinsische-last-eliminieren">3. Extrinsische Last eliminieren</h3>
 <p>Informationsquellen integrieren, Redundanz entfernen, Seductive Details streichen.</p>
-</section>
-<section id="pausen-einbauen" class="level3">
-<h3 class="anchored" data-anchor-id="pausen-einbauen">4. Pausen einbauen</h3>
+</section><section id="pausen-einbauen" class="level3"><h3 class="anchored" data-anchor-id="pausen-einbauen">4. Pausen einbauen</h3>
 <p>Auch 30–60-Sekunden-Mikropausen ermöglichen die Auffrischung von Gedächtnisspuren (TBRS). Nicht in einem ununterbrochenen Strom vermitteln.</p>
-</section>
-<section id="neue-inhalte-stark-stützen-dann-ausblenden" class="level3">
-<h3 class="anchored" data-anchor-id="neue-inhalte-stark-stützen-dann-ausblenden">5. Neue Inhalte stark stützen, dann ausblenden</h3>
+</section><section id="neue-inhalte-stark-stützen-dann-ausblenden" class="level3"><h3 class="anchored" data-anchor-id="neue-inhalte-stark-stützen-dann-ausblenden">5. Neue Inhalte stark stützen, dann ausblenden</h3>
 <p>Maximale externe Struktur für neue Inhalte (durchgearbeitete Beispiele, Prozessanleitungen). Mit wachsender Expertise schrittweise reduzieren.</p>
-</section>
-<section id="elementinteraktivität-explizit-managen" class="level3">
-<h3 class="anchored" data-anchor-id="elementinteraktivität-explizit-managen">6. Elementinteraktivität explizit managen</h3>
+</section><section id="elementinteraktivität-explizit-managen" class="level3"><h3 class="anchored" data-anchor-id="elementinteraktivität-explizit-managen">6. Elementinteraktivität explizit managen</h3>
 <p>Nicht nur “langsamer” machen, sondern aktiv die Anzahl der Elemente reduzieren, die gleichzeitig verarbeitet werden müssen.</p>
-</section>
-<section id="instruktion-an-das-expertise-niveau-anpassen" class="level3">
-<h3 class="anchored" data-anchor-id="instruktion-an-das-expertise-niveau-anpassen">7. Instruktion an das Expertise-Niveau anpassen</h3>
+</section><section id="instruktion-an-das-expertise-niveau-anpassen" class="level3"><h3 class="anchored" data-anchor-id="instruktion-an-das-expertise-niveau-anpassen">7. Instruktion an das Expertise-Niveau anpassen</h3>
 <p>Was Anfängern hilft, kann Experten schaden (Expertise Reversal Effect). Scaffolding als optionales Material anbieten, nicht als Pflicht.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -783,10 +801,7 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
 
 
 
-</section>
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-baddeleyEpisodicBufferNew2000" class="csl-entry" role="listitem">
 Baddeley, A. 2000. <span>“The Episodic Buffer: A New Component of Working Memory?”</span> <em>Trends in Cognitive Sciences</em> 4 (11): 417–23. <a href="https://doi.org/10.1016/s1364-6613(00)01538-2">https://doi.org/10.1016/s1364-6613(00)01538-2</a>.
 </div>
@@ -813,8 +828,7 @@ Sweller, John, Paul Ayres, and Slava Kalyuga. 2011. <em>Cognitive <span>Load The
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ellis" class="csl-entry quarto-appendix-citeas" role="listitem">
 Ellis, Andrew. n.d. <span>“Arbeitsgedächtnis Und Instruktion.”</span> <a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/arbeitsgedaechtnis/">https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/arbeitsgedaechtnis/</a>.
-</div></div></section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -1220,9 +1234,7 @@ Ellis, Andrew. n.d. <span>“Arbeitsgedächtnis Und Instruktion.”</span> <a hr
       }
     }
   });
-  </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
+  </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
       <a href="../../01-lernen-verstehen/index.html" class="pagination-link" aria-label="Wie Menschen lernen">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Wie Menschen lernen</span>
       </a>          
@@ -1234,7 +1246,6 @@ Ellis, Andrew. n.d. <span>“Arbeitsgedächtnis Und Instruktion.”</span> <a hr
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 
