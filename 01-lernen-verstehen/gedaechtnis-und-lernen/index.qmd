@@ -218,6 +218,57 @@ Hunderte von Studien haben gezeigt: Die Handlung des Abrufens, also eine Frage b
 
 Exakte Werte variieren über Studien hinweg, aber das Muster ist robust: Das Ersetzen von Wiederlesen durch Abrufpraxis verbessert die Langzeitretention substanziell.
 
+```{r}
+#| label: fig-testing-effect
+#| fig-cap: "Daten basierend auf Roediger & Karpicke (2006). Wiederholtes Testen führt zu deutlich besserer Langzeiterinnerung als wiederholtes Studieren."
+#| fig-width: 9
+#| fig-height: 6
+#| echo: false
+
+library(tidyverse)
+library(showtext)
+font_add_google("Lato", "Lato")
+showtext_auto()
+
+brand_dark <- "#222222"
+brand_accent <- "#9A4665"
+
+testing_effect_data <- tibble(
+  condition = factor(
+    c("4\u00d7 Studieren", "3\u00d7 Studieren +\n1\u00d7 Test", "1\u00d7 Studieren +\n3\u00d7 Tests"),
+    levels = c("4\u00d7 Studieren", "3\u00d7 Studieren +\n1\u00d7 Test", "1\u00d7 Studieren +\n3\u00d7 Tests")
+  ),
+  retention = c(40, 56, 61)
+)
+
+ggplot(testing_effect_data, aes(x = condition, y = retention)) +
+  geom_col(aes(fill = retention), width = 0.65,
+           color = brand_dark, linewidth = 0.3) +
+  geom_text(aes(label = paste0(retention, "%")),
+            vjust = -0.5, size = 5, fontface = "bold",
+            color = brand_dark, family = "Lato") +
+  scale_fill_gradient(low = "#f0a5bb", high = brand_accent, guide = "none") +
+  scale_y_continuous(limits = c(0, 70), breaks = seq(0, 60, 20),
+                     labels = paste0(seq(0, 60, 20), "%"),
+                     expand = expansion(mult = c(0, 0.05))) +
+  labs(title = "Testing Effekt",
+       subtitle = "Aktives Abrufen führt zu besserem Langzeitlernen als wiederholtes Studieren",
+       x = NULL, y = "Erinnerung nach 1 Woche (%)",
+       caption = "Daten basierend auf Roediger & Karpicke (2006)") +
+  theme_minimal(base_size = 13, base_family = "Lato") +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = brand_dark),
+    plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
+    plot.caption = element_text(size = 9, color = "#666666", hjust = 0, margin = margin(t = 10)),
+    axis.title = element_text(face = "bold", size = 11),
+    axis.text = element_text(size = 10, color = brand_dark),
+    axis.text.x = element_text(size = 11, face = "bold", lineheight = 1.1),
+    panel.grid.minor = element_blank(),
+    panel.grid.major = element_line(color = "#e5e7eb", linewidth = 0.3),
+    panel.grid.major.x = element_blank()
+  )
+```
+
 Warum funktioniert Abrufpraxis?
 
 - **Abruf stärkt Abrufrouten.** Jeder erfolgreiche Abruf macht die Erinnerung zukünftig leichter zugänglich.
@@ -266,6 +317,104 @@ Das tun sie nicht.
 | **Schwierige Bedingungen** (Spaced, Interleaved, Abrufpraxis) | Niedrigere Leistung. Fühlt sich frustrierend an. | Starke Retention. Dauerhaft und flexibel. |
 
 Diese Unterscheidung ist kritisch, weil **Studierende und Dozierende ihr eigenes Lernen systematisch falsch einschätzen.** Bedingungen, die sich flüssig und produktiv anfühlen, erzeugen eine Illusion des Lernens.
+
+```{r}
+#| label: fig-lernparadox
+#| echo: false
+#| fig-cap: "Das Lernparadox: Subjektives Gefühl und tatsächliches Lernen können in unterschiedliche Richtungen weisen. Die metakognitive Falle liegt im unteren rechten Quadranten."
+#| fig-width: 10
+#| fig-height: 8
+
+quadrants <- tibble(
+  xmin = c(0, 5, 0, 5),
+  xmax = c(5, 10, 5, 10),
+  ymin = c(5, 5, 0, 0),
+  ymax = c(10, 10, 5, 5),
+  quadrant = c(
+    "Produktive\nAnstrengung",
+    "Experten-\nEffizienz",
+    "Unproduktive\nFrustration",
+    "Illusion des\nLernens"
+  ),
+  fill_color = c("#16a34a", "#2563eb", "#9ca3af", "#dc2626"),
+  importance = c("ZIEL", "OK für Fortgeschrittene", "Vermeiden", "FALLE")
+)
+
+ggplot(quadrants) +
+  geom_rect(
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = I(fill_color)),
+    alpha = 0.3,
+    color = brand_dark,
+    linewidth = 0.8
+  ) +
+  geom_text(
+    aes(
+      x = (xmin + xmax) / 2,
+      y = (ymin + ymax) / 2 + 0.7,
+      label = quadrant
+    ),
+    size = 5.5,
+    fontface = "bold",
+    lineheight = 0.9,
+    color = brand_dark,
+    family = "Lato"
+  ) +
+  geom_text(
+    aes(
+      x = (xmin + xmax) / 2,
+      y = (ymin + ymax) / 2 - 0.9,
+      label = importance
+    ),
+    size = 3.8,
+    fontface = "italic",
+    color = brand_dark,
+    family = "Lato"
+  ) +
+  geom_curve(
+    data = tibble(x = 8.2, y = 1.8, xend = 1.8, yend = 8.2),
+    aes(x = x, y = y, xend = xend, yend = yend),
+    arrow = arrow(length = unit(0.3, "cm"), type = "closed"),
+    curvature = -0.3,
+    color = brand_accent,
+    linewidth = 1.2
+  ) +
+  annotate(
+    "text",
+    x = 5, y = 4.3,
+    label = "Metakognitive Falle",
+    size = 4.2,
+    fontface = "bold.italic",
+    color = brand_accent,
+    family = "Lato"
+  ) +
+  scale_x_continuous(
+    breaks = c(2.5, 7.5),
+    labels = c("Schwierig", "Leicht"),
+    expand = c(0, 0)
+  ) +
+  scale_y_continuous(
+    breaks = c(2.5, 7.5),
+    labels = c("Wenig", "Viel"),
+    expand = c(0, 0)
+  ) +
+  labs(
+    title = "Das Lernparadox",
+    subtitle = "Subjektives Gefühl und tatsächliches Lernen können auseinanderklaffen",
+    x = "\nSubjektives Gefühl beim Lernen",
+    y = "Tatsächliches Lernen\n"
+  ) +
+  theme_minimal(base_size = 13, base_family = "Lato") +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = brand_dark),
+    plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
+    panel.grid = element_blank(),
+    axis.line = element_line(color = brand_dark, linewidth = 0.8),
+    axis.text = element_text(size = 12, face = "bold"),
+    axis.title = element_text(size = 12),
+    plot.margin = margin(15, 15, 15, 15)
+  ) +
+  coord_fixed(ratio = 1)
+```
 
 ### Die drei Schlüsselstrategien
 

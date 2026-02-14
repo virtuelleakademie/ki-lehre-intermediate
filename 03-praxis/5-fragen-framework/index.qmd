@@ -174,25 +174,83 @@ Die 5 Fragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach,
 
 ## Zusammenfassung
 
-```{mermaid}
-%%| fig-cap: "Das 5-Fragen-Framework als Entscheidungsbaum"
-flowchart TD
-    A[Aufgabe] --> B{1. Geht es primär<br>ums Lernen?}
-    B -- Nein --> C[KI-Unterstützung<br>kann sinnvoll sein]
-    B -- Ja --> D{2. Werden noch<br>Grundlagen aufgebaut?}
-    D -- Nein --> E[KI als Verstärker<br>möglich]
-    D -- Ja --> F{3. Muss internes Wissen<br>nachgewiesen werden?}
-    F -- Nein --> G[Aufgabenformat<br>ändern]
-    F -- Ja --> H{4. Kann KI ohne<br>Denkarbeit erledigen?}
-    H -- Ja --> I[Aufgabe<br>umgestalten]
-    H -- Nein --> J{5. Versuch-dann-Prüfe<br>Struktur?}
-    J -- Nein --> K[Struktur<br>einbauen]
-    J -- Ja --> L[KI sinnvoll<br>einsetzbar]
+```{r}
+#| label: fig-5-fragen-summary
+#| echo: false
 
-    style C fill:#16a34a,color:#fff,stroke:#16a34a
-    style E fill:#16a34a,color:#fff,stroke:#16a34a
-    style L fill:#16a34a,color:#fff,stroke:#16a34a
-    style G fill:#dc2626,color:#fff,stroke:#dc2626
-    style I fill:#dc2626,color:#fff,stroke:#dc2626
-    style K fill:#f59e0b,color:#fff,stroke:#f59e0b
+library(DiagrammeR)
+
+grViz("
+digraph five_questions {
+  graph [
+    rankdir = TB
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.6
+    ranksep = 0.7
+    margin = 0.2
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 13
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 11
+    color = '#999999'
+    arrowsize = 0.8
+  ]
+
+  start [
+    label = 'Aufgabe analysieren'
+    fillcolor = '#64748b'
+    fontsize = 14
+  ]
+
+  q1 [label = '1. Geht es primär\\nums Lernen?' fillcolor = '#2563eb']
+  q2 [label = '2. Werden noch\\nGrundlagen aufgebaut?' fillcolor = '#2563eb']
+  q3 [label = '3. Muss internes Wissen\\nnachgewiesen werden?' fillcolor = '#2563eb']
+  q4 [label = '4. Kann KI ohne\\nDenkarbeit erledigen?' fillcolor = '#2563eb']
+  q5 [label = '5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?' fillcolor = '#2563eb']
+
+  e1 [label = 'KI-Unterstützung\\nkann sinnvoll sein' fillcolor = '#16a34a']
+  e2 [label = 'KI als Verstärker\\nmöglich' fillcolor = '#16a34a']
+  e3 [label = 'Aufgabenformat\\nändern' fillcolor = '#dc2626']
+  e4 [label = 'Aufgabe\\numgestalten' fillcolor = '#dc2626']
+  e5 [label = 'Struktur\\neinbauen' fillcolor = '#f59e0b' fontcolor = '#222222']
+
+  success [
+    label = 'KI sinnvoll einsetzbar'
+    fillcolor = '#16a34a'
+    fontsize = 14
+  ]
+
+  start -> q1
+
+  q1 -> q2 [label = '  Ja  ']
+  q2 -> q3 [label = '  Ja  ']
+  q3 -> q4 [label = '  Ja  ']
+  q4 -> q5 [label = '  Nein  ']
+  q5 -> success [label = '  Ja  ']
+
+  q1 -> e1 [label = '  Nein  ']
+  q2 -> e2 [label = '  Nein  ']
+  q3 -> e3 [label = '  Nein  ']
+  q4 -> e4 [label = '  Ja  ']
+  q5 -> e5 [label = '  Nein  ']
+
+  {rank = same; q1; e1}
+  {rank = same; q2; e2}
+  {rank = same; q3; e3}
+  {rank = same; q4; e4}
+  {rank = same; q5; e5}
+}
+")
 ```
