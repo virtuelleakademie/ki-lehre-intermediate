@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -111,26 +111,15 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -144,26 +133,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -177,15 +155,37 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 </style>
@@ -323,11 +323,8 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   </div>
 </li>
         <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../03-praxis/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Produktive Anstrengung durch Design</span></a>
-  </div>
-</li>
+ <span class="menu-text">03-praxis/produktive-anstrengung/index.qmd</span>
+  </li>
     </ul>
     </div>
 </nav>
@@ -388,7 +385,12 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 
 <section id="übersicht" class="level2">
 <h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
-<p>Diese Fallstudien dienen als Material für die <strong>Paaranalyse in Teil 1</strong> des Workshops. Jedes Paar enthält ein effektives und ein ineffektives Beispiel für KI-Integration, analysiert mit den Konzepten der kognitiven Lernpsychologie.</p>
+<p>Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Sie können auf zwei Arten genutzt werden:</p>
+<ul>
+<li><strong>Als Analysematerial mit dem 5-Fragen-Framework</strong> (Teil 3): Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.</li>
+<li><strong>Als Diskussionsgrundlage</strong> für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.</li>
+</ul>
+<p>Jedes Paar enthält ein problematisches und ein effektives Beispiel.</p>
 </section>
 <section id="fallstudie-a-einführung-in-die-programmierung" class="level2">
 <h2 class="anchored" data-anchor-id="fallstudie-a-einführung-in-die-programmierung">Fallstudie A: Einführung in die Programmierung</h2>
@@ -399,15 +401,65 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <section id="szenario-a2-ki-als-debugging-partner" class="level3">
 <h3 class="anchored" data-anchor-id="szenario-a2-ki-als-debugging-partner">Szenario A2: “KI als Debugging-Partner”</h3>
 <p>Dieselbe Dozentin ändert die Struktur: Studierende müssen <em>zuerst</em> eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst <em>nach</em> einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: “Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft, aber gib mir nicht die Lösung.”</p>
-<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario A1
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit dem Framework:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Deine Einschätzung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es primär ums <strong>Lernen</strong>?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dann identifiziere:</strong></p>
+<ul>
+<li>Wo eliminiert KI die <strong>lernrelevante kognitive Verarbeitung</strong>?</li>
+<li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario A2.)</em></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Vertiefung: Theoretische Analyse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Welches Szenario erzeugt mehr <strong>Prediction Errors</strong> bei den Studierenden?</li>
@@ -415,7 +467,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li>Wie verteilt sich die <strong>kognitive Last</strong> in beiden Szenarien (extrinsisch vs.&nbsp;germane)?</li>
 <li>Was passiert mit der <strong>Expertise-Entwicklung</strong> in beiden Fällen?</li>
 </ul>
-<p><strong>Selbsterklärung:</strong> Erkläre in 2 Sätzen, <em>warum</em> Szenario A2 besseres Lernen erzeugt als A1. Welcher kognitive Mechanismus wird aktiviert?</p>
+</div>
 </div>
 </div>
 </section>
@@ -429,15 +481,65 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <section id="szenario-b2-denken-vor-dem-schreiben" class="level3">
 <h3 class="anchored" data-anchor-id="szenario-b2-denken-vor-dem-schreiben">Szenario B2: “Denken vor dem Schreiben”</h3>
 <p>Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf <em>ohne</em> KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.</p>
-<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario B1
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Analysiere Szenario B1 (Seminararbeit im 3. Semester) mit dem Framework:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Deine Einschätzung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es primär ums <strong>Lernen</strong>?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dann identifiziere:</strong></p>
+<ul>
+<li>Wo eliminiert KI die <strong>lernrelevante kognitive Verarbeitung</strong>?</li>
+<li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario B2.)</em></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Vertiefung: Theoretische Analyse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Wo liegt das <strong>Evaluationsparadox</strong>? Können Studierende in Szenario B1 die KI-Outputs tatsächlich kritisch bewerten?</li>
@@ -445,7 +547,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li>Welche Rolle spielt die <strong>Versuch-dann-Prüfe-Struktur</strong> in Szenario B2?</li>
 <li>Wie wirkt sich jedes Szenario auf die <strong>Equity</strong> aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?</li>
 </ul>
-<p><strong>Selbsterklärung:</strong> Erkläre in 2 Sätzen, <em>warum</em> Szenario B2 besseres Lernen erzeugt als B1. Welcher kognitive Mechanismus wird aktiviert?</p>
+</div>
 </div>
 </div>
 </section>
@@ -459,15 +561,65 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <section id="szenario-c2-hypothese-vor-konsultation" class="level3">
 <h3 class="anchored" data-anchor-id="szenario-c2-hypothese-vor-konsultation">Szenario C2: “Hypothese vor Konsultation”</h3>
 <p>Im gleichen Kurs müssen Studierende <em>zuerst</em> ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: “Was habe ich übersehen? Warum?”</p>
-<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario C1
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Analysiere Szenario C1 (klinischer Kurs im 4. Semester) mit dem Framework:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Deine Einschätzung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es primär ums <strong>Lernen</strong>?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dann identifiziere:</strong></p>
+<ul>
+<li>Wo eliminiert KI die <strong>lernrelevante kognitive Verarbeitung</strong>?</li>
+<li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario C2.)</em></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Vertiefung: Theoretische Analyse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Welches Szenario fördert die <strong>Schemabildung</strong> für klinisches Reasoning?</li>
@@ -475,7 +627,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li>Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs.&nbsp;KI → Auswahl) auf das <strong>Lernen</strong> aus?</li>
 <li>Welches Szenario bereitet besser auf Situationen vor, in denen <em>keine</em> KI verfügbar ist?</li>
 </ul>
-<p><strong>Selbsterklärung:</strong> Erkläre in 2 Sätzen, <em>warum</em> Szenario C2 besseres Lernen erzeugt als C1. Welcher kognitive Mechanismus wird aktiviert?</p>
+</div>
 </div>
 </div>
 </section>
@@ -489,15 +641,65 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <section id="szenario-d2-ki-als-professionelles-werkzeug" class="level3">
 <h3 class="anchored" data-anchor-id="szenario-d2-ki-als-professionelles-werkzeug">Szenario D2: “KI als professionelles Werkzeug”</h3>
 <p>Dieselbe Dozentin differenziert: Für die <em>Risikoanalyse</em> (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den <em>Statusbericht</em> (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?</p>
-<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Analyse-Leitfragen
+<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario D1
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Dieses Szenario ist anders als A, B und C. Analysiere es mit dem Framework und achte darauf, <strong>wo die Antworten anders ausfallen</strong>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Deine Einschätzung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Geht es primär ums <strong>Lernen</strong>?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dann identifiziere:</strong></p>
+<ul>
+<li>Welche Teile der Aufgabe sind <strong>Lernkontext</strong>, welche <strong>Leistungskontext</strong>?</li>
+<li>Wo ist KI-Unterstützung die <strong>richtige</strong> Antwort, und warum?</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Vertiefung: Theoretische Analyse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Was unterscheidet einen <strong>Lernkontext</strong> von einem <strong>Leistungskontext</strong>? Welche Teile dieser Aufgabe fallen in welche Kategorie?</li>
@@ -505,14 +707,14 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li>Wie hilft das <strong>Offloading-Outsourcing-Spektrum</strong>, diese Unterscheidung zu treffen?</li>
 <li>Wann ist die Entscheidung “Keine KI nötig” oder “KI ist hier sinnvoll” gleich berechtigt?</li>
 </ul>
-<p><strong>Selbsterklärung:</strong> Erkläre in 2 Sätzen, <em>warum</em> bei dieser Fallstudie nicht die gleiche Antwort herauskommt wie bei A, B und C. Welches Prinzip aus dem 5-Fragen-Framework steckt dahinter?</p>
+</div>
 </div>
 </div>
 </section>
 </section>
 <section id="allgemeine-reflexionsfragen" class="level2">
 <h2 class="anchored" data-anchor-id="allgemeine-reflexionsfragen">Allgemeine Reflexionsfragen</h2>
-<p>Nach der Paaranalyse, für die Plenumsrunde:</p>
+<p>Nach der Analyse, für die Plenumsrunde:</p>
 <ol type="1">
 <li>Was unterscheidet die effektiven von den ineffektiven Szenarien?</li>
 <li>Gibt es ein gemeinsames <strong>Designprinzip</strong>, das alle effektiven Szenarien teilen?</li>

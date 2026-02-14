@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Agent-Template: Analyse &amp; Anpassung – KI in der Lehre: Intermediate</title>
+<title>Die 8 Make it Stick Strategien – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,6 +50,7 @@ div.csl-indent {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../resources/agent-beispiele/index.html" rel="next">
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -68,7 +69,6 @@ div.csl-indent {
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,6 +108,17 @@ div.csl-indent {
   });
 </script>
 <style>
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: purple;
 }
@@ -119,15 +130,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -141,15 +152,15 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -161,28 +172,6 @@ div.callout-facilitator.callout-style-default > .callout-header {
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
   content: '📋';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -207,15 +196,26 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 </style>
 
 
-<meta property="og:title" content="Agent-Template: Analyse &amp; Anpassung – KI in der Lehre: Intermediate">
-<meta property="og:description" content="Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren">
+<meta property="og:title" content="Die 8 Make it Stick Strategien – KI in der Lehre: Intermediate">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -256,11 +256,24 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-slides" role="img">
+      <i class="bi bi-book" role="img">
 </i> 
  <span class="menu-text">Dokumente</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
+        <li>
+    <a class="dropdown-item" href="../../resources/handout-make-it-stick/index.html">
+ <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/agent-beispiele/index.html">
+ <span class="dropdown-text">Agent-Beispiele</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/produktive-anstrengung/index.html">
+ <span class="dropdown-text">Produktive Anstrengung durch Design</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
         <li>
     <a class="dropdown-item" href="../../assets/pdfs/Begleitdokument.pdf">
  <span class="dropdown-text">Begleitdokument: KI Weiterbildung</span></a>
@@ -286,28 +299,77 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../resources/handout-make-it-stick/index.html">Die 8 Make it Stick Strategien</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../resources/handout-make-it-stick/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Die 8 Make it Stick Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../resources/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../resources/produktive-anstrengung/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Produktive Anstrengung durch Design</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#warum-ein-template" id="toc-warum-ein-template" class="nav-link active" data-scroll-target="#warum-ein-template">Warum ein Template?</a></li>
-  <li><a href="#template-statistik-reflexions-coach" id="toc-template-statistik-reflexions-coach" class="nav-link" data-scroll-target="#template-statistik-reflexions-coach">Template: Statistik-Reflexions-Coach</a>
+  <li><a href="#kernprinzip" id="toc-kernprinzip" class="nav-link active" data-scroll-target="#kernprinzip">Kernprinzip</a></li>
+  <li><a href="#die-8-bewährten-lernstrategien" id="toc-die-8-bewährten-lernstrategien" class="nav-link" data-scroll-target="#die-8-bewährten-lernstrategien">Die 8 bewährten Lernstrategien</a>
   <ul class="collapse">
-  <li><a href="#kontext" id="toc-kontext" class="nav-link" data-scroll-target="#kontext">Kontext</a></li>
-  <li><a href="#agent-prompt-version-1.0" id="toc-agent-prompt-version-1.0" class="nav-link" data-scroll-target="#agent-prompt-version-1.0">Agent-Prompt (Version 1.0)</a></li>
+  <li><a href="#abrufpraxis-retrieval-practice" id="toc-abrufpraxis-retrieval-practice" class="nav-link" data-scroll-target="#abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</a></li>
+  <li><a href="#verteiltes-lernen-spacing" id="toc-verteiltes-lernen-spacing" class="nav-link" data-scroll-target="#verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</a></li>
+  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">3. Abwechslung (Interleaving)</a></li>
+  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">4. Variation</a></li>
+  <li><a href="#wünschenswerte-schwierigkeiten-desirable-difficulties" id="toc-wünschenswerte-schwierigkeiten-desirable-difficulties" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten-desirable-difficulties">5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)</a></li>
+  <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</a></li>
+  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. Feedback &amp; Reflexion</a></li>
+  <li><a href="#anwendung" id="toc-anwendung" class="nav-link" data-scroll-target="#anwendung">8. Anwendung</a></li>
   </ul></li>
-  <li><a href="#deine-aufgabe-analysieren-anpassen" id="toc-deine-aufgabe-analysieren-anpassen" class="nav-link" data-scroll-target="#deine-aufgabe-analysieren-anpassen">Deine Aufgabe: Analysieren &amp; Anpassen</a>
+  <li><a href="#ki-tool-design-prinzipien" id="toc-ki-tool-design-prinzipien" class="nav-link" data-scroll-target="#ki-tool-design-prinzipien">KI-Tool Design Prinzipien</a>
   <ul class="collapse">
-  <li><a href="#phase-1-analysieren-3-min" id="toc-phase-1-analysieren-3-min" class="nav-link" data-scroll-target="#phase-1-analysieren-3-min">Phase 1: Analysieren (3 Min)</a></li>
-  <li><a href="#phase-2-anpassen-5-min" id="toc-phase-2-anpassen-5-min" class="nav-link" data-scroll-target="#phase-2-anpassen-5-min">Phase 2: Anpassen (5 Min)</a></li>
+  <li><a href="#gute-ki-unterstützung" id="toc-gute-ki-unterstützung" class="nav-link" data-scroll-target="#gute-ki-unterstützung">Gute KI-Unterstützung</a></li>
+  <li><a href="#problematische-ki-nutzung" id="toc-problematische-ki-nutzung" class="nav-link" data-scroll-target="#problematische-ki-nutzung">Problematische KI-Nutzung</a></li>
   </ul></li>
-  <li><a href="#designprinzipien-zur-orientierung" id="toc-designprinzipien-zur-orientierung" class="nav-link" data-scroll-target="#designprinzipien-zur-orientierung">Designprinzipien zur Orientierung</a></li>
+  <li><a href="#leitfragen-für-agent-entwicklung" id="toc-leitfragen-für-agent-entwicklung" class="nav-link" data-scroll-target="#leitfragen-für-agent-entwicklung">Leitfragen für Agent-Entwicklung</a></li>
   </ul>
 </nav>
     </div>
@@ -316,8 +378,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Agent-Template: Analyse &amp; Anpassung</h1>
-<p class="subtitle lead">Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren</p>
+<h1 class="title">Die 8 Make it Stick Strategien</h1>
 </div>
 
 
@@ -334,128 +395,318 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </header>
 
 
-<section id="warum-ein-template" class="level2">
-<h2 class="anchored" data-anchor-id="warum-ein-template">Warum ein Template?</h2>
-<p>Das Erstellen eines Agents von Grund auf ist kognitiv anspruchsvoll, besonders wenn man zum ersten Mal einen Agent-Prompt schreibt. Stattdessen nutzen wir <strong>Analyse + Modifikation</strong>: eine Strategie, die das Arbeitsgedächtnis weniger belastet und schneller zu produktiven Ergebnissen führt.</p>
+<section id="kernprinzip" class="level2">
+<h2 class="anchored" data-anchor-id="kernprinzip">Kernprinzip</h2>
+<p><strong>Effortful Learning ist effektiver</strong>: Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen <span class="citation" data-cites="brownMakeItStick2014">(<a href="#ref-brownMakeItStick2014" role="doc-biblioref">Brown, III, and McDaniel 2014</a>)</span>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Lernprinzip: Worked Examples
+<span class="screen-reader-only">Note</span>Wie die Strategien zusammenhängen
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Forschung zeigt: Anfänger lernen effektiver durch das Analysieren und Anpassen von Beispielen als durch freie Generierung <span class="citation" data-cites="swellerCognitiveLoadTheory2024">(<a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>. Erst wenn du mehrere Agents analysiert hast, wird das freie Design zugänglich.</p>
-</div>
-</div>
-</section>
-<section id="template-statistik-reflexions-coach" class="level2">
-<h2 class="anchored" data-anchor-id="template-statistik-reflexions-coach">Template: Statistik-Reflexions-Coach</h2>
-<section id="kontext" class="level3">
-<h3 class="anchored" data-anchor-id="kontext">Kontext</h3>
+<p>Die 8 Strategien sind nicht unabhängig, sondern sie überlappen und verstärken sich:</p>
 <ul>
-<li><strong>Fach</strong>: Deskriptive Statistik (2. Semester)</li>
-<li><strong>Lernziel</strong>: Studierende sollen verstehen, <strong>wann</strong> welches Streuungsmaß (Range, IQR, Standardabweichung) angemessen ist</li>
-<li><strong>Problem</strong>: Studierende können die Formeln anwenden, aber nicht begründen, warum sie ein bestimmtes Maß wählen</li>
+<li><strong>Wünschenswerte Schwierigkeiten</strong> (Nr. 5) ist das übergeordnete Prinzip</li>
+<li><strong>Abrufpraxis</strong> (Nr. 1), <strong>Spacing</strong> (Nr. 2) und <strong>Interleaving</strong> (Nr. 3) sind konkrete Instanzen davon</li>
+<li><strong>Variation</strong> (Nr. 4) ändert den <em>Kontext</em> (verschiedene Anwendungen), <strong>Interleaving</strong> (Nr. 3) ändert die <em>Sequenz</em> (Konzepte durchmischen). Beide fördern Transfer, aber auf unterschiedliche Weise</li>
 </ul>
+<p>In der Praxis nutzt du oft mehrere Strategien gleichzeitig.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Meta-Moment: Ironie bemerkt?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dieses Handout präsentiert die 8 Strategien in geblockter Reihenfolge (1, 2, 3, …), obwohl Interleaving (Nr. 3) genau das Gegenteil empfiehlt. Im Workshop werden die Strategien tatsächlich verschränkt eingesetzt: Abrufpraxis nach der Pause, Generierung beim Einstieg, Variation durch verschiedene Fallstudien. Das Handout dient als Nachschlagewerk, nicht als Lernsequenz.</p>
+</div>
+</div>
 </section>
-<section id="agent-prompt-version-1.0" class="level3">
-<h3 class="anchored" data-anchor-id="agent-prompt-version-1.0">Agent-Prompt (Version 1.0)</h3>
-<pre><code>Du bist ein Statistik-Reflexions-Coach für Studierende in deskriptiver Statistik.
-
-DEINE ROLLE:
-- Du hilfst Studierenden, über ihre Entscheidungen bei der Wahl von
-  Streuungsmaßen nachzudenken
-- Du stellst Fragen, die zum Nachdenken anregen
-- Du gibst KEINE direkten Antworten oder fertigen Lösungen
-
-ARBEITSWEISE (Versuch-dann-Prüfe):
-1. Die Studierenden beschreiben einen Datensatz und ihr gewähltes
-   Streuungsmaß
-2. Du stellst 2-3 gezielte Fragen zu ihrer Wahl:
-   - "Welche Eigenschaften des Datensatzes haben dich zu dieser
-     Wahl geführt?"
-   - "Was würde passieren, wenn du [alternatives Maß] verwendet
-     hättest?"
-   - "Gibt es Ausreißer oder Schiefe in den Daten?"
-3. Nach ihrer Reflexion gibst du spezifisches Feedback zu ihrer
-   Begründung (nicht zur Wahl selbst)
-
-VERBOTEN:
-- Direkt sagen "Verwende X" oder "Das ist falsch"
-- Die Entscheidung für die Studierenden treffen
-- Fertige Analysen liefern
-
-ZIEL:
-Studierende sollen lernen, ihre Entscheidungen zu BEGRÜNDEN, nicht
-nur "richtige Antworten" zu produzieren.</code></pre>
-</section>
-</section>
-<section id="deine-aufgabe-analysieren-anpassen" class="level2">
-<h2 class="anchored" data-anchor-id="deine-aufgabe-analysieren-anpassen">Deine Aufgabe: Analysieren &amp; Anpassen</h2>
-<section id="phase-1-analysieren-3-min" class="level3">
-<h3 class="anchored" data-anchor-id="phase-1-analysieren-3-min">Phase 1: Analysieren (3 Min)</h3>
-<p>Evaluiere das Template mit dieser Checkliste:</p>
-<ul class="task-list">
-<li><label><input type="checkbox">Bewahrt der Agent die <strong>Versuch-dann-Prüfe-Struktur</strong>?</label></li>
-<li><label><input type="checkbox">Wird das Denken an die KI ausgelagert, oder bleibt es bei den Studierenden?</label></li>
-<li><label><input type="checkbox">Wo gibt der Agent <strong>zu viel</strong> preis?</label></li>
-<li><label><input type="checkbox">Wo gibt der Agent <strong>zu wenig</strong> Orientierung?</label></li>
-</ul>
-</section>
-<section id="phase-2-anpassen-5-min" class="level3">
-<h3 class="anchored" data-anchor-id="phase-2-anpassen-5-min">Phase 2: Anpassen (5 Min)</h3>
-<p>Wähle <strong>eine</strong> der folgenden Optionen:</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Option A: Für deine Disziplin anpassen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Option B: Das Template verbessern</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Option C: Eine Strategie explizit einbauen</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="die-8-bewährten-lernstrategien" class="level2">
+<h2 class="anchored" data-anchor-id="die-8-bewährten-lernstrategien">Die 8 bewährten Lernstrategien</h2>
+<section id="abrufpraxis-retrieval-practice" class="level3">
+<h3 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</h3>
+<p><strong>Prinzip</strong>: Aktives Erinnern statt passives Wiederlesen</p>
+<p><strong>Warum effektiv?</strong></p>
 <ul>
-<li>Ändere Kontext, Fach und Lernziel</li>
-<li>Passe die Fragen an dein Thema an</li>
-<li>Behalte die Versuch-dann-Prüfe-Struktur bei</li>
+<li>Jeder Abruf stärkt die neuronalen Verbindungen</li>
+<li><strong>“Testing Effect”</strong>: Abrufen verstärkt Gedächtnis mehr als erneutes Studieren</li>
 </ul>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><strong>Praktische Umsetzung:</strong></p>
 <ul>
-<li>Identifiziere eine Schwachstelle</li>
-<li>Formuliere eine Verbesserung</li>
-<li>Begründe, warum das den Agent besser macht</li>
+<li>Selbsttests, Karteikarten, Übungsfragen</li>
+<li>Ohne Notizen erklären können</li>
+<li>Frequent low-stakes quizzes</li>
 </ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition</p>
+</div>
+</div>
+</section>
+<section id="verteiltes-lernen-spacing" class="level3">
+<h3 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</h3>
+<p><strong>Prinzip</strong>: Über Zeit verteilen statt Pauken</p>
+<p><strong>Warum effektiv?</strong></p>
 <ul>
-<li>Wähle eine der <a href="../../resources/handout-make-it-stick/">8 Make-it-Stick-Strategien</a></li>
-<li>Integriere sie explizit in den Prompt</li>
-<li>Teste, ob die Versuch-dann-Prüfe-Struktur erhalten bleibt</li>
+<li>Grössere Anstrengung nach Vergessen als Lernhilfe</li>
+<li>Gegen die Intuition: Schwieriger → Besser für Langzeitretention (Konsolidierung)</li>
 </ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Warten bis Vergessen eingesetzt hat, dann wiederholen</li>
+<li>Verteilte Übung über Wochen/Monate</li>
+<li>Spaced Repetition Systeme (z.B. <a href="https://apps.ankiweb.net/">Anki</a>)</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen</p>
+</div>
+</div>
+</section>
+<section id="abwechslung-interleaving" class="level3">
+<h3 class="anchored" data-anchor-id="abwechslung-interleaving">3. Abwechslung (Interleaving)</h3>
+<p><strong>Prinzip</strong>: Verschiedene Aufgaben/Themen mischen statt blockweise üben</p>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Trainiert flexible Anwendung</li>
+<li>Erhöht Anstrengung → Besserer Transfer zwischen Konzepten</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Verschiedene Aufgabentypen mischen</li>
+<li>Beispiel Mathe: Addition, Multiplikation, Brüche durchmischen</li>
+<li>Nicht alle gleichen Aufgaben hintereinander</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Intelligente Aufgabenmischung, Adaptive Sequenzierung</p>
+</div>
+</div>
+</section>
+<section id="variation" class="level3">
+<h3 class="anchored" data-anchor-id="variation">4. Variation</h3>
+<p><strong>Prinzip</strong>: In unterschiedlichen Kontexten üben</p>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Fördert Transfer auf neue Situationen</li>
+<li>Macht Wissen weniger abhängig vom ursprünglichen Lernkontext</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Verschiedene Beispiele, Umgebungen, Anwendungen</li>
+<li>Gleiche Konzepte in unterschiedlichen Situationen</li>
+<li>Vielfältige Übungsformate</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kontextvariation generieren, Neue Anwendungsszenarien erstellen</p>
+</div>
+</div>
+</section>
+<section id="wünschenswerte-schwierigkeiten-desirable-difficulties" class="level3">
+<h3 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-desirable-difficulties">5. Wünschenswerte Schwierigkeiten (Desirable Difficulties)</h3>
+<p><strong>Prinzip</strong>: Fehler, Anstrengung und Herausforderungen nutzen</p>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Vertieft Verständnis durch kognitive Anstrengung</li>
+<li>Kurzfristig schwieriger, langfristig mehr Retention</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Tests ohne Ankündigung</li>
+<li>Variation in der Übung</li>
+<li><em>Forcing functions</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> die zum Nachdenken zwingen</li>
+<li>Erst raten, dann lernen</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Adaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</div>
+</div>
+</section>
+<section id="verstehen-vs.-vertrautheit" class="level3">
+<h3 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</h3>
+<p><strong>Prinzip</strong>: In eigenen Worten erklären = echtes Verständnis</p>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Unterscheidet echtes Wissen von <strong>Fluency-Illusion</strong></li>
+<li>Zwingt zu aktiver Verarbeitung und Verknüpfung</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Erklären, als ob man es jemand anderem beibringt</li>
+<li>Verbindungen zu Vorwissen herstellen</li>
+<li>Selbst Antworten generieren vor dem Lernen der Lösung</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Feynman-Technik<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, Erklärungen bewerten, Verständnis testen</p>
+</div>
+</div>
+</section>
+<section id="feedback-reflexion" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-reflexion">7. Feedback &amp; Reflexion</h3>
+<p><strong>Prinzip</strong>: Korrektur und bewusstes Nachdenken</p>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li><strong>Korrektes Feedback</strong> sorgt dafür, dass richtige Informationen verankert werden</li>
+<li><strong>Reflexion</strong> fördert Metakognition und Selbstregulation</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Nach Lernsitzung fragen: “Was habe ich gelernt?”</li>
+<li>Über Lernprozess und -strategien reflektieren</li>
+<li>Regelmässiges, konstruktives Feedback holen</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking</p>
+</div>
+</div>
+</section>
+<section id="anwendung" class="level3">
+<h3 class="anchored" data-anchor-id="anwendung">8. Anwendung</h3>
+<p><strong>Prinzip</strong>: Wissen in verschiedenen Kontexten einsetzen</p>
+<p><strong>Warum effektiv?</strong></p>
+<ul>
+<li>Entwickelt Transferfähigkeit</li>
+<li>Macht abstraktes Wissen konkret anwendbar</li>
+</ul>
+<p><strong>Praktische Umsetzung:</strong></p>
+<ul>
+<li>Real-world Probleme lösen</li>
+<li>Wissen in neuen Situationen anwenden</li>
+<li>Von Theorie zur Praxis</li>
+</ul>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching</p>
 </div>
 </div>
 </section>
 </section>
-<section id="designprinzipien-zur-orientierung" class="level2">
-<h2 class="anchored" data-anchor-id="designprinzipien-zur-orientierung">Designprinzipien zur Orientierung</h2>
-<p>Gute Agents für Lernen:</p>
+<section id="ki-tool-design-prinzipien" class="level2">
+<h2 class="anchored" data-anchor-id="ki-tool-design-prinzipien">KI-Tool Design Prinzipien</h2>
+<section id="gute-ki-unterstützung" class="level3">
+<h3 class="anchored" data-anchor-id="gute-ki-unterstützung">Gute KI-Unterstützung</h3>
+<ul>
+<li><strong>Fördert</strong> die 8 Strategien</li>
+<li><strong>Erhält</strong> lernrelevante Anstrengung</li>
+<li><strong>Unterstützt</strong> ohne zu ersetzen</li>
+<li><strong>Personalisiert</strong> den Lernprozess</li>
+</ul>
+</section>
+<section id="problematische-ki-nutzung" class="level3">
+<h3 class="anchored" data-anchor-id="problematische-ki-nutzung">Problematische KI-Nutzung</h3>
+<ul>
+<li><strong>Eliminiert</strong> kognitive Anstrengung</li>
+<li><strong>Übernimmt</strong> das Denken</li>
+<li><strong>Erzeugt</strong> Illusion of Knowing</li>
+<li><strong>Macht</strong> Lernen nur einfacher, nicht besser</li>
+</ul>
+</section>
+</section>
+<section id="leitfragen-für-agent-entwicklung" class="level2">
+<h2 class="anchored" data-anchor-id="leitfragen-für-agent-entwicklung">Leitfragen für Agent-Entwicklung</h2>
 <ol type="1">
-<li><strong>Versuch zuerst</strong>: Studierende müssen selbst denken, bevor der Agent reagiert</li>
-<li><strong>Fragen statt Antworten</strong>: Der Agent provoziert Nachdenken</li>
-<li><strong>Prozess über Produkt</strong>: Fördert <em>wie</em> Studierende denken, nicht nur <em>was</em> sie produzieren</li>
-<li><strong>Explizite Signale</strong>: Lenkt Aufmerksamkeit auf lernrelevante Merkmale</li>
+<li><strong>Welche der 8 Strategien wird gefördert?</strong></li>
+<li><strong>Was tut der Agent? Was tut der Lernende?</strong></li>
+<li><strong>Bleibt die gewünschte Schwierigkeit erhalten?</strong></li>
+<li><strong>Macht der Agent das Lernen besser oder nur einfacher?</strong></li>
+<li><strong>Wie wird echter Lernfortschritt messbar?</strong></li>
 </ol>
-<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i> <a href="../../resources/agent-beispiele/">Weitere Agent-Beispiele für jede Strategie</a></p>
 
 
 
 </section>
+
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-swellerCognitiveLoadTheory2024" class="csl-entry" role="listitem">
-Sweller, John. 2024. <span>“Cognitive Load Theory and Individual Differences.”</span> <em>Learning and Individual Differences</em> 110 (February): 102423. <a href="https://doi.org/10.1016/j.lindif.2024.102423">https://doi.org/10.1016/j.lindif.2024.102423</a>.
+<div id="ref-brownMakeItStick2014" class="csl-entry" role="listitem">
+Brown, Peter C., Henry L. Roediger III, and Mark A. McDaniel. 2014. <em>Make <span>It Stick</span>: <span>The Science</span> of <span>Successful Learning</span></em>. Cambridge, Massachusetts: Belknap Press: An Imprint of Harvard University Press.
 </div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Forcing Functions sind Design-Entscheidungen oder Einschränkungen, die bestimmte Verhaltensweisen erzwingen und unerwünschte Aktionen verhindern. Prinzip: Das System macht es unmöglich, einen Fehler zu machen.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Productive Struggle implementiert mehrere der 8 Strategien gleichzeitig: Retrieval Practice, Elaboration, Generation, Reflection.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Eine Methode zum Test des eigenen Verständnisses, benannt nach dem Physiker Richard Feynman. Die Technik hat vier Schritte: (1) Wähle ein Konzept, (2) Erkläre es in einfachster Sprache, als würdest du es einem Kind beibringen, (3) Identifiziere Lücken und kehre zum Quellmaterial zurück, (4) Vereinfache und verwende Analogien. Der Kern: Wenn du etwas nicht einfach erklären kannst, verstehst du es nicht wirklich. Die Technik funktioniert als <em>Forcing Function</em>, denn sie zwingt zur Übersetzung von Fachwissen in Alltagssprache und deckt dabei Verständnislücken schonungslos auf.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -863,6 +1114,15 @@ Sweller, John. 2024. <span>“Cognitive Load Theory and Individual Differences.�
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../resources/agent-beispiele/index.html" class="pagination-link" aria-label="Agent-Beispiele für die 8 Strategien">
+        <span class="nav-page-text">Agent-Beispiele für die 8 Strategien</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -5,7 +5,12 @@ subtitle: "Effektiv vs. ineffektiv, und warum"
 
 ## Übersicht
 
-Diese Fallstudien dienen als Material für die **Paaranalyse in Teil 1** des Workshops. Jedes Paar enthält ein effektives und ein ineffektives Beispiel für KI-Integration, analysiert mit den Konzepten der kognitiven Lernpsychologie.
+Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Sie können auf zwei Arten genutzt werden:
+
+- **Als Analysematerial mit dem 5-Fragen-Framework** (Teil 3): Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
+- **Als Diskussionsgrundlage** für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.
+
+Jedes Paar enthält ein problematisches und ein effektives Beispiel.
 
 
 ## Fallstudie A: Einführung in die Programmierung
@@ -18,15 +23,32 @@ Eine Dozentin erlaubt Studierenden, ChatGPT für ihre Programmieraufgaben zu nut
 
 Dieselbe Dozentin ändert die Struktur: Studierende müssen *zuerst* eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst *nach* einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: "Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft, aber gib mir nicht die Lösung."
 
-::: {.active-processing}
-### Analyse-Leitfragen
+::: {.individual}
+### 5-Fragen-Analyse: Szenario A1
+
+Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit dem Framework:
+
+| Frage | Deine Einschätzung |
+|-------|-------------------|
+| 1. Geht es primär ums **Lernen**? | |
+| 2. Werden noch **Grundlagen** aufgebaut? | |
+| 3. Muss **internes Wissen** nachgewiesen werden? | |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+
+**Dann identifiziere:**
+
+- Wo eliminiert KI die **lernrelevante kognitive Verarbeitung**?
+- Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario A2.)*
+:::
+
+::: {.pro-tip collapse="true"}
+### Vertiefung: Theoretische Analyse
 
 - Welches Szenario erzeugt mehr **Prediction Errors** bei den Studierenden?
 - Wo findet **Wissenskompilation** statt, und wo nicht?
 - Wie verteilt sich die **kognitive Last** in beiden Szenarien (extrinsisch vs. germane)?
 - Was passiert mit der **Expertise-Entwicklung** in beiden Fällen?
-
-**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* Szenario A2 besseres Lernen erzeugt als A1. Welcher kognitive Mechanismus wird aktiviert?
 :::
 
 
@@ -40,15 +62,32 @@ Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu s
 
 Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf *ohne* KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.
 
-::: {.active-processing}
-### Analyse-Leitfragen
+::: {.individual}
+### 5-Fragen-Analyse: Szenario B1
+
+Analysiere Szenario B1 (Seminararbeit im 3. Semester) mit dem Framework:
+
+| Frage | Deine Einschätzung |
+|-------|-------------------|
+| 1. Geht es primär ums **Lernen**? | |
+| 2. Werden noch **Grundlagen** aufgebaut? | |
+| 3. Muss **internes Wissen** nachgewiesen werden? | |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+
+**Dann identifiziere:**
+
+- Wo eliminiert KI die **lernrelevante kognitive Verarbeitung**?
+- Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario B2.)*
+:::
+
+::: {.pro-tip collapse="true"}
+### Vertiefung: Theoretische Analyse
 
 - Wo liegt das **Evaluationsparadox**? Können Studierende in Szenario B1 die KI-Outputs tatsächlich kritisch bewerten?
 - Inwiefern ist Szenario B1 ein Beispiel für **Cargo Cult Scholarship**?
 - Welche Rolle spielt die **Versuch-dann-Prüfe-Struktur** in Szenario B2?
 - Wie wirkt sich jedes Szenario auf die **Equity** aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?
-
-**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* Szenario B2 besseres Lernen erzeugt als B1. Welcher kognitive Mechanismus wird aktiviert?
 :::
 
 
@@ -62,15 +101,32 @@ In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und e
 
 Im gleichen Kurs müssen Studierende *zuerst* ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: "Was habe ich übersehen? Warum?"
 
-::: {.active-processing}
-### Analyse-Leitfragen
+::: {.individual}
+### 5-Fragen-Analyse: Szenario C1
+
+Analysiere Szenario C1 (klinischer Kurs im 4. Semester) mit dem Framework:
+
+| Frage | Deine Einschätzung |
+|-------|-------------------|
+| 1. Geht es primär ums **Lernen**? | |
+| 2. Werden noch **Grundlagen** aufgebaut? | |
+| 3. Muss **internes Wissen** nachgewiesen werden? | |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+
+**Dann identifiziere:**
+
+- Wo eliminiert KI die **lernrelevante kognitive Verarbeitung**?
+- Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario C2.)*
+:::
+
+::: {.pro-tip collapse="true"}
+### Vertiefung: Theoretische Analyse
 
 - Welches Szenario fördert die **Schemabildung** für klinisches Reasoning?
 - Wo findet **Offloading** statt, wo **Outsourcing**?
 - Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs. KI → Auswahl) auf das **Lernen** aus?
 - Welches Szenario bereitet besser auf Situationen vor, in denen *keine* KI verfügbar ist?
-
-**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* Szenario C2 besseres Lernen erzeugt als C1. Welcher kognitive Mechanismus wird aktiviert?
 :::
 
 
@@ -84,21 +140,38 @@ Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei a
 
 Dieselbe Dozentin differenziert: Für die *Risikoanalyse* (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den *Statusbericht* (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?
 
-::: {.active-processing}
-### Analyse-Leitfragen
+::: {.individual}
+### 5-Fragen-Analyse: Szenario D1
+
+Dieses Szenario ist anders als A, B und C. Analysiere es mit dem Framework und achte darauf, **wo die Antworten anders ausfallen**:
+
+| Frage | Deine Einschätzung |
+|-------|-------------------|
+| 1. Geht es primär ums **Lernen**? | |
+| 2. Werden noch **Grundlagen** aufgebaut? | |
+| 3. Muss **internes Wissen** nachgewiesen werden? | |
+| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
+| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+
+**Dann identifiziere:**
+
+- Welche Teile der Aufgabe sind **Lernkontext**, welche **Leistungskontext**?
+- Wo ist KI-Unterstützung die **richtige** Antwort, und warum?
+:::
+
+::: {.pro-tip collapse="true"}
+### Vertiefung: Theoretische Analyse
 
 - Was unterscheidet einen **Lernkontext** von einem **Leistungskontext**? Welche Teile dieser Aufgabe fallen in welche Kategorie?
 - Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?
 - Wie hilft das **Offloading-Outsourcing-Spektrum**, diese Unterscheidung zu treffen?
 - Wann ist die Entscheidung "Keine KI nötig" oder "KI ist hier sinnvoll" gleich berechtigt?
-
-**Selbsterklärung:** Erkläre in 2 Sätzen, *warum* bei dieser Fallstudie nicht die gleiche Antwort herauskommt wie bei A, B und C. Welches Prinzip aus dem 5-Fragen-Framework steckt dahinter?
 :::
 
 
 ## Allgemeine Reflexionsfragen
 
-Nach der Paaranalyse, für die Plenumsrunde:
+Nach der Analyse, für die Plenumsrunde:
 
 1. Was unterscheidet die effektiven von den ineffektiven Szenarien?
 2. Gibt es ein gemeinsames **Designprinzip**, das alle effektiven Szenarien teilen?

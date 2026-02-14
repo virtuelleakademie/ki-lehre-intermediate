@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="de"><head>
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/tabby.min.js"></script>
@@ -159,26 +159,15 @@
     }
   </style>
   <style>
-  div.callout-reflect.callout {
-    border-left-color: purple;
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
   }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-facilitator.callout {
@@ -190,17 +179,6 @@
   div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
     content: '📋';
-    background-image: none;
-  }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
     background-image: none;
   }
   div.callout-pro-tip.callout {
@@ -225,6 +203,39 @@
     content: '👥';
     background-image: none;
   }
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: purple;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
   div.callout-nachlesen.callout {
     border-left-color: #64748b;
   }
@@ -236,26 +247,15 @@
     content: '📖';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
+  div.callout-individual.callout {
+    border-left-color: steelblue;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
     background-image: none;
   }
   </style>
@@ -293,7 +293,7 @@ Andrew Ellis
 </div>
 
 <aside><div>
-<p><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua et al. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific2025">Toner-Rodgers (<a href="#/bibliographie" role="doc-biblioref" onclick="">2025</a>)</span>; <span class="citation" data-cites="cuiEffectsGenerativeAI2024">Cui et al. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2024</a>)</span></p>
+<p><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific2025">Toner-Rodgers (<a href="#/bibliographie" role="doc-biblioref" onclick="">2025</a>)</span>; <span class="citation" data-cites="cuiEffectsGenerativeAI2024">Cui u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2024</a>)</span></p>
 </div></aside></section>
 <section id="section" class="slide level2 center">
 <h2></h2>
@@ -328,7 +328,7 @@ Andrew Ellis
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, and and Clark 2006</a>)</span>.</p>
+<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, und and Clark 2006</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -692,28 +692,28 @@ Andrew Ellis
 <h2>Bibliographie</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-andersonAcquisitionCognitiveSkill1982" class="csl-entry" role="listitem">
-Anderson, John R. 1982. <span>“Acquisition of Cognitive Skill.”</span> <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
+Anderson, John R. 1982. <span>„Acquisition of Cognitive Skill“</span>. <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
 </div>
 <div id="ref-cuiEffectsGenerativeAI2024" class="csl-entry" role="listitem">
-Cui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, and Tobias Salz. 2024. <span>“The <span>Effects</span> of <span>Generative AI</span> on <span>High Skilled Work</span>: <span>Evidence</span> from <span>Three Field Experiments</span> with <span>Software Developers</span>.”</span> SSRN Scholarly Paper. Rochester, NY. September 3, 2024. <a href="https://doi.org/10.2139/ssrn.4945566">https://doi.org/10.2139/ssrn.4945566</a>.
+Cui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. <span>„The <span>Effects</span> of <span>Generative AI</span> on <span>High Skilled Work</span>: <span>Evidence</span> from <span>Three Field Experiments</span> with <span>Software Developers</span>“</span>. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. <a href="https://doi.org/10.2139/ssrn.4945566">https://doi.org/10.2139/ssrn.4945566</a>.
 </div>
 <div id="ref-dellacquaNavigatingJaggedTechnological2023" class="csl-entry" role="listitem">
-Dell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, and Karim R. Lakhani. 2023. <span>“Navigating the <span>Jagged Technological Frontier</span>: <span>Field Experimental Evidence</span> of the <span>Effects</span> of <span>AI</span> on <span>Knowledge Worker Productivity</span> and <span>Quality</span>.”</span> <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.4573321">https://doi.org/10.2139/ssrn.4573321</a>.
+Dell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, und Karim R. Lakhani. 2023. <span>„Navigating the <span>Jagged Technological Frontier</span>: <span>Field Experimental Evidence</span> of the <span>Effects</span> of <span>AI</span> on <span>Knowledge Worker Productivity</span> and <span>Quality</span>“</span>. <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.4573321">https://doi.org/10.2139/ssrn.4573321</a>.
 </div>
 <div id="ref-gearyEvolutionarilyInformedEducation2008" class="csl-entry" role="listitem">
-GEARY, DAVID C. 2008. <span>“An <span>Evolutionarily Informed Education Science</span>.”</span> <em>Educational Psychologist</em> 43 (4): 179–95. <a href="https://doi.org/10.1080/00461520802392133">https://doi.org/10.1080/00461520802392133</a>.
+GEARY, DAVID C. 2008. <span>„An <span>Evolutionarily Informed Education Science</span>“</span>. <em>Educational Psychologist</em> 43 (4): 179–95. <a href="https://doi.org/10.1080/00461520802392133">https://doi.org/10.1080/00461520802392133</a>.
 </div>
 <div id="ref-kalyugaExpertiseReversalEffect2009" class="csl-entry" role="listitem">
-Kalyuga, Slava. 2009. <span>“The <span>Expertise Reversal Effect</span>.”</span> In <em>Managing <span>Cognitive Load</span> in <span>Adaptive Multimedia Learning</span></em>, 58–80. IGI Global Scientific Publishing. <a href="https://doi.org/10.4018/978-1-60566-048-6.ch003">https://doi.org/10.4018/978-1-60566-048-6.ch003</a>.
+Kalyuga, Slava. 2009. <span>„The <span>Expertise Reversal Effect</span>“</span>. In <em>Managing <span>Cognitive Load</span> in <span>Adaptive Multimedia Learning</span></em>, 58–80. IGI Global Scientific Publishing. <a href="https://doi.org/10.4018/978-1-60566-048-6.ch003">https://doi.org/10.4018/978-1-60566-048-6.ch003</a>.
 </div>
 <div id="ref-kirschnerWhyMinimalGuidance2006" class="csl-entry" role="listitem">
-Kirschner, Paul A., Sweller, and Richard E. and Clark. 2006. <span>“Why <span>Minimal Guidance During Instruction Does Not Work</span>: <span>An Analysis</span> of the <span>Failure</span> of <span>Constructivist</span>, <span>Discovery</span>, <span>Problem-Based</span>, <span>Experiential</span>, and <span>Inquiry-Based Teaching</span>.”</span> <em>Educational Psychologist</em> 41 (2): 75–86. <a href="https://doi.org/10.1207/s15326985ep4102_1">https://doi.org/10.1207/s15326985ep4102_1</a>.
+Kirschner, Paul A., Sweller, und Richard E. and Clark. 2006. <span>„Why <span>Minimal Guidance During Instruction Does Not Work</span>: <span>An Analysis</span> of the <span>Failure</span> of <span>Constructivist</span>, <span>Discovery</span>, <span>Problem-Based</span>, <span>Experiential</span>, and <span>Inquiry-Based Teaching</span>“</span>. <em>Educational Psychologist</em> 41 (2): 75–86. <a href="https://doi.org/10.1207/s15326985ep4102_1">https://doi.org/10.1207/s15326985ep4102_1</a>.
 </div>
 <div id="ref-swellerDevelopmentCognitiveLoad2023" class="csl-entry" role="listitem">
-Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>.”</span> <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
+Sweller, John. 2023. <span>„The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>“</span>. <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
 </div>
 <div id="ref-toner-rodgersArtificialIntelligenceScientific2025" class="csl-entry" role="listitem">
-Toner-Rodgers, Aidan. 2025. <span>“Artificial <span>Intelligence</span>, <span>Scientific Discovery</span>, and <span>Product Innovation</span>.”</span> May 20, 2025. <a href="https://doi.org/10.48550/arXiv.2412.17866">https://doi.org/10.48550/arXiv.2412.17866</a>.
+Toner-Rodgers, Aidan. 2025. <span>„Artificial <span>Intelligence</span>, <span>Scientific Discovery</span>, and <span>Product Innovation</span>“</span>. 20. Mai 2025. <a href="https://doi.org/10.48550/arXiv.2412.17866">https://doi.org/10.48550/arXiv.2412.17866</a>.
 </div>
 </div>
 
@@ -960,12 +960,12 @@ Toner-Rodgers, Aidan. 2025. <span>“Artificial <span>Intelligence</span>, <span
           // flash "checked"
           button.classList.add('code-copy-button-checked');
           var currentTitle = button.getAttribute("title");
-          button.setAttribute("title", "Copied!");
+          button.setAttribute("title", "Kopiert");
           let tooltip;
           if (window.bootstrap) {
             button.setAttribute("data-bs-toggle", "tooltip");
             button.setAttribute("data-bs-placement", "left");
-            button.setAttribute("data-bs-title", "Copied!");
+            button.setAttribute("data-bs-title", "Kopiert");
             tooltip = new bootstrap.Tooltip(button, 
               { trigger: "manual", 
                 customClass: "code-copy-button-tooltip",

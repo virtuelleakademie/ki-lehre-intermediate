@@ -122,10 +122,6 @@ Statt einen Agent von Grund auf zu erstellen, arbeitet ihr mit einem **vorgefert
 **Leitfrage:**
 
 > "Was tut der Agent? Was tut der Lernende?"
-
-{{< bi lightbulb >}} [Agent-Beispiele für jede Strategie](./agent-beispiele/)
-
-{{< bi book >}} [Die 8 Make it Stick Strategien im Detail](./handout-make-it-stick/)
 :::
 
 ### PAIR Phase: Cross-Testing (10 Min)
@@ -176,14 +172,14 @@ Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gest
 ### Handouts
 
 - [Das 5-Fragen-Framework](./5-fragen-framework/)
-- [Die 8 Make it Stick Strategien](./handout-make-it-stick/)
+- [Die 8 Make it Stick Strategien](../resources/handout-make-it-stick/)
 
 ### Vertiefung
 
-- [Produktive Anstrengung durch Design](./produktive-anstrengung/)
+- [Produktive Anstrengung durch Design](../resources/produktive-anstrengung/)
 - [Fallstudien](./fallstudien/)
 
 ### Beispiele
 
 - [Agent-Template: Statistik-Reflexions-Coach](./agent-template/)
-- [Agent-Beispiele für jede Strategie](./agent-beispiele/)
+- [Agent-Beispiele für jede Strategie](../resources/agent-beispiele/)

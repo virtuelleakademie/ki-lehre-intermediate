@@ -31,7 +31,7 @@ Diese „wünschenswerten Schwierigkeiten" sind der eigentliche Lernmechanismus,
 
 ## Evidenzbasierte Umweltgestaltung
 
-### 1. Prüfungen mit niedrigen Einsätzen [@langCheatingLessons2013]
+### 1. Low-stakes Prüfungen [@langCheatingLessons2013]
 
 Ersetze Einzelprüfungen mit hohem Gewicht durch häufigere, weniger bedeutsame Bewertungen:
 

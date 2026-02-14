@@ -583,5 +583,5 @@ digraph try_then_check {
 - [Arbeitsgedächtnis und Instruktion](../01-lernen-verstehen/arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
 - [Gedächtnis und Lernen](../01-lernen-verstehen/gedaechtnis-und-lernen/). Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt
 - [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung
-- [Produktive Anstrengung durch Design](../03-praxis/produktive-anstrengung/). Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
+- [Produktive Anstrengung durch Design](../resources/produktive-anstrengung/). Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
 - [The Curious Case of Transfer of Learning](https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning). Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)
