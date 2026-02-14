@@ -88,6 +88,17 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -110,17 +121,6 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
 div.callout-group.callout {
   border-left-color: purple;
 }
@@ -130,17 +130,6 @@ div.callout-group.callout-style-default > .callout-header {
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -163,6 +152,17 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 </style>
@@ -344,7 +344,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </header>
 
 
-<p>Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen — und wann verhindert sie es?</p>
+<p>Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen, und wann verhindert sie es?</p>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -355,10 +355,10 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Bevor wir weitergehen: <strong>Schreibe 3 zentrale Konzepte aus Teil 1 auf — ohne Notizen.</strong> Ergänze bei jedem Konzept in einem Satz, <em>warum es für den KI-Einsatz in der Lehre relevant ist</em>.</p>
+<p>Bevor wir weitergehen: <strong>Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen.</strong> Ergänze bei jedem Konzept in einem Satz, <em>warum es für den KI-Einsatz in der Lehre relevant ist</em>.</p>
 <p>Was fällt dir ein? Was musst du nachschlagen?</p>
 <p><strong>Dann (2 Min):</strong> Vergleicht zu zweit eure Konzepte. Was habt ihr vergessen? Was war überraschend schwierig zu erinnern?</p>
-<p><em>Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung. Dass es sich anstrengend anfühlt, ist kein Zeichen für schlechtes Lernen — es ist das Lernen.</em></p>
+<p><em>Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung. Dass es sich anstrengend anfühlt, ist kein Zeichen für schlechtes Lernen, sondern es ist das Lernen.</em></p>
 </div>
 </div>
 <section id="was-bedeutet-das-für-ki" class="level2">
@@ -411,9 +411,9 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </table>
 <p>Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der einen KI-generierten Entwurf gründlich überarbeitet; eine Studierende, die nach eigenem Versuch gezielt eine Frage an die KI stellt. Die entscheidende Variable ist nicht, <em>ob</em> KI genutzt wird, sondern <strong>wie viel eigene Denkarbeit die Lernenden geleistet haben, bevor sie dem KI-Output begegnen</strong>. Je aktiver das interne Modell, desto informativer das Feedback.</p>
 <blockquote class="blockquote">
-<p><strong>Outsourcing eliminiert die lernrelevante kognitive Verarbeitung — das ist keine Nebenwirkung, das ist der Mechanismus.</strong></p>
+<p><strong>Outsourcing eliminiert die lernrelevante kognitive Verarbeitung. Das ist keine Nebenwirkung, das ist der Mechanismus.</strong></p>
 </blockquote>
-<p>Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht “Dürfen Studierende KI nutzen?” sondern “Wird das Denken ausgelagert oder nur unterstützt?” — und hier braucht es das Urteil der Lehrperson.</p>
+<p>Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht “Dürfen Studierende KI nutzen?”, sondern “Wird das Denken ausgelagert oder nur unterstützt?” Hier braucht es das Urteil der Lehrperson.</p>
 <section id="wie-erkennt-man-wo-auf-dem-spektrum-man-steht" class="level3">
 <h3 class="anchored" data-anchor-id="wie-erkennt-man-wo-auf-dem-spektrum-man-steht">Wie erkennt man, wo auf dem Spektrum man steht?</h3>
 <p>Das 5-Fragen-Framework (→ Teil 3) hilft beim <strong>Gestalten</strong> von Aufgaben. Aber wie prüft man im Lehralltag, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:</p>
@@ -438,51 +438,53 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </tr>
 <tr class="even">
 <td><strong>Während</strong></td>
-<td>“Wo hat dich die KI überrascht — und warum?”</td>
+<td>“Wo hat dich die KI überrascht, und warum?”</td>
 <td>War das interne Modell aktiv?</td>
 </tr>
 <tr class="odd">
 <td><strong>Nachher</strong></td>
-<td>“Was machst du nächstes Mal anders — ohne KI?”</td>
+<td>“Was machst du nächstes Mal anders, ohne KI?”</td>
 <td>Hat sich das Verständnis aktualisiert?</td>
 </tr>
 </tbody>
 </table>
-<p>Wer outsourct, hat auf Sonde 2 keine Antwort — es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → <a href="../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-sonden-für-den-lehralltag">Ausführliche Anleitung mit Beispielen</a></p>
+<p>Wer outsourct, hat auf Sonde 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → <a href="../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-sonden-für-den-lehralltag">Ausführliche Anleitung mit Beispielen</a></p>
 </section>
 </section>
 <section id="das-evaluationsparadox" class="level2">
 <h2 class="anchored" data-anchor-id="das-evaluationsparadox">Das Evaluationsparadox</h2>
 <p>Ein verbreiteter Vorschlag: <em>“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”</em></p>
-<p>Das Problem: <strong>Um KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.</strong> Evaluation ist selbst eine Form von Inferenz — man muss das eigene interne Modell aktivieren und prüfen, ob der KI-Output damit konsistent ist. Ohne hinreichend entwickeltes Modell fehlt die Grundlage für diese Prüfung.</p>
+<p>Das Problem: <strong>Um KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.</strong> Evaluation ist selbst eine Form von Inferenz. Man muss das eigene interne Modell aktivieren und prüfen, ob der KI-Output damit konsistent ist. Ohne hinreichend entwickeltes Modell fehlt die Grundlage für diese Prüfung.</p>
 <ul>
-<li>Expert:innen haben unabhängige Bewertungskriterien — sie erkennen Fehler sofort</li>
-<li>Anfänger:innen fehlen diese Kriterien — “kritische Bewertung” wird zu oberflächlichem Prüfen</li>
+<li>Expert:innen haben unabhängige Bewertungskriterien und erkennen Fehler sofort</li>
+<li>Anfänger:innen fehlen diese Kriterien, sodass “kritische Bewertung” zu oberflächlichem Prüfen wird</li>
 <li><strong>Kompetente Nutzung setzt Kompetenz voraus</strong></li>
 </ul>
 <p>Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.</p>
-<p><strong>Wichtige Differenzierung:</strong> Das Paradox ist nicht absolut — es variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern — ohne es aufzulösen.</p>
+<p><strong>Wichtige Differenzierung:</strong> Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.</p>
 </section>
 <section id="warum-schemas-den-ki-output-umschreiben" class="level2">
 <h2 class="anchored" data-anchor-id="warum-schemas-den-ki-output-umschreiben">Warum Schemas den KI-Output umschreiben</h2>
-<p>Gedächtnis ist nicht reproduktiv — es ist <strong>rekonstruktiv</strong>. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas — organisierte Wissensstrukturen aus Erfahrung — sind dabei gleichzeitig der grösste Vorteil <em>und</em> die systematischste Fehlerquelle des Gedächtnisses.</p>
-<p>Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemas gefiltert und — oft still — <strong>an Erwartungen angepasst</strong>. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal <em>hinzufabriziert</em>, obwohl sie nie da waren.</p>
+<p>Gedächtnis ist nicht reproduktiv, sondern <strong>rekonstruktiv</strong>. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemas, also organisierte Wissensstrukturen aus Erfahrung, sind dabei gleichzeitig der grösste Vorteil <em>und</em> die systematischste Fehlerquelle des Gedächtnisses.</p>
+<p>Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemas gefiltert und oft still <strong>an Erwartungen angepasst</strong>. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal <em>hinzufabriziert</em>, obwohl sie nie da waren.</p>
 <p>Das erklärt auch, warum <strong>Missverständnisse so hartnäckig</strong> sind: Einfach korrekte Information zu präsentieren reicht nicht, weil das bestehende Schema die neue Information umschreibt. Stattdessen braucht es den Dreischritt: <strong>Aktivieren</strong> (Missverständnis explizit machen) → <strong>Konflikt</strong> (Evidenz zeigen, die das Missverständnis nicht erklären kann) → <strong>Auflösen</strong> (korrekte Erklärung im Kontrast zum Missverständnis).</p>
-<p>→ <a href="../01-lernen-verstehen/gedaechtnis-und-lernen/">Vertiefung: Gedächtnis und Lernen</a> — Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt</p>
+<blockquote class="blockquote">
+<p><a href="../01-lernen-verstehen/gedaechtnis-und-lernen/">Vertiefung: Gedächtnis und Lernen</a>. Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt</p>
+</blockquote>
 </section>
 <section id="lernen-leisten" class="level2">
 <h2 class="anchored" data-anchor-id="lernen-leisten">Lernen ≠ Leisten</h2>
-<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur <em>dieses</em> Wissen nicht auf — es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, <em>was</em> transferiert werden könnte.</p>
+<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur <em>dieses</em> Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, <em>was</em> transferiert werden könnte.</p>
 <section id="cargo-cult-scholarship" class="level3">
 <h3 class="anchored" data-anchor-id="cargo-cult-scholarship">Cargo Cult Scholarship</h3>
-<p>Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit — Hedging, Zitationen, Fachvokabular — ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht — das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.</p>
+<p>Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.</p>
 </section>
 <section id="the-beach-not-the-ant" class="level3">
 <h3 class="anchored" data-anchor-id="the-beach-not-the-ant">“The Beach, Not the Ant”</h3>
 <blockquote class="blockquote">
 <p>Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.</p>
 </blockquote>
-<p>Herbert Simon beobachtete: Eine Ameise läuft einen komplexen, gewundenen Pfad am Strand entlang. Aber die Komplexität liegt nicht in der Ameise — sie folgt einfachen Regeln. Die Komplexität liegt im <strong>Strand</strong>: in den Hindernissen, Steigungen und Barrieren.</p>
+<p>Herbert Simon beobachtete: Eine Ameise läuft einen komplexen, gewundenen Pfad am Strand entlang. Aber die Komplexität liegt nicht in der Ameise, denn sie folgt einfachen Regeln. Die Komplexität liegt im <strong>Strand</strong>: in den Hindernissen, Steigungen und Barrieren.</p>
 <p>Übertragen auf Lernen: Wenn Studierende den einfachsten Weg nehmen (KI das Denken übernehmen lassen), ist das keine Charakterschwäche. Es ist <strong>rationales Verhalten</strong> in einer Umgebung, die diesen Weg ermöglicht.</p>
 <p>Die richtige Frage ist nicht <em>“Wie verhindern wir, dass Studierende schummeln?”</em> sondern <strong>“Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?”</strong></p>
 </section>
@@ -491,8 +493,8 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <p>Erste Forschungsergebnisse und die breitere Bildungstechnologie-Forschung legen nahe: Unstrukturierter KI-Einsatz <strong>vergrössert Leistungsunterschiede:</strong></p>
 <ul>
 <li>Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen</li>
-<li>Schwächere Studierende werden am meisten geschädigt — ihnen fehlt genau die Grundlage, die eine kritische Nutzung erfordern würde</li>
-<li>KI-Policy ist nicht nur eine Frage der akademischen Integrität — es ist eine <strong>pädagogische Gerechtigkeitsfrage</strong></li>
+<li>Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde</li>
+<li>KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine <strong>pädagogische Gerechtigkeitsfrage</strong></li>
 </ul>
 <p>Die Evidenzbasis zu KI-spezifischen Equity-Effekten ist noch schmal (kurze Interventionsstudien, wenige Disziplinen), aber die Richtung ist konsistent mit dem “digitalen Matthäus-Effekt” aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.</p>
 </section>
@@ -543,29 +545,39 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <blockquote class="blockquote">
 <p>Studierende suchen 5 relevante Quellen zu einem vorgegebenen Thema, fassen jede in 150 Wörtern zusammen und verfassen eine einseitige Synthese zum aktuellen Forschungsstand.</p>
 </blockquote>
-<p>Eine Aufgabe, die in vielen Disziplinen vorkommt — von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit dem 5-Fragen-Framework.</p>
+<p>Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit dem 5-Fragen-Framework.</p>
 </section>
 <section id="schritt-für-schritt-analyse" class="level3">
 <h3 class="anchored" data-anchor-id="schritt-für-schritt-analyse">Schritt-für-Schritt-Analyse</h3>
 <p><strong>Frage 1: Geht es primär ums Lernen?</strong></p>
-<p>Ja — es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.</p>
-<p>→ <strong>Outsourcing muss verhindert werden.</strong></p>
+<p>Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.</p>
+<blockquote class="blockquote">
+<p><strong>Outsourcing muss verhindert werden.</strong></p>
+</blockquote>
 <p><strong>Frage 2: Werden noch Grundlagen aufgebaut?</strong></p>
-<p>Ja — Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?”</p>
-<p>→ <strong>Die interne Verarbeitung — das eigene Urteil — ist der Lerninhalt.</strong></p>
+<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?”</p>
+<blockquote class="blockquote">
+<p><strong>Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.</strong></p>
+</blockquote>
 <p><strong>Frage 3: Muss internes Wissen nachgewiesen werden?</strong></p>
-<p>Eigentlich ja — aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass <em>sie</em> die Quellen gelesen und bewertet haben.</p>
-<p>→ <strong>Hier liegt die kritische Lücke.</strong></p>
+<p>Eigentlich ja, aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass <em>sie</em> die Quellen gelesen und bewertet haben.</p>
+<blockquote class="blockquote">
+<p><strong>Hier liegt die kritische Lücke.</strong></p>
+</blockquote>
 <p><strong>Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?</strong></p>
-<p>Ja — <em>“Finde 5 Quellen zu X und fasse sie zusammen”</em> ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.</p>
-<p>→ <strong>Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.</strong></p>
+<p>Ja. <em>“Finde 5 Quellen zu X und fasse sie zusammen”</em> ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.</p>
+<blockquote class="blockquote">
+<p><strong>Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.</strong></p>
+</blockquote>
 <p><strong>Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</strong></p>
-<p>Nein — es gibt keine eingebaute Phase, in der Studierende <em>zuerst selbst</em> suchen, bewerten und synthetisieren, bevor sie KI konsultieren.</p>
-<p>→ <strong>Hier liegt die Redesign-Möglichkeit.</strong></p>
+<p>Nein. Es gibt keine eingebaute Phase, in der Studierende <em>zuerst selbst</em> suchen, bewerten und synthetisieren, bevor sie KI konsultieren.</p>
+<blockquote class="blockquote">
+<p><strong>Hier liegt die Redesign-Möglichkeit.</strong></p>
+</blockquote>
 </section>
 <section id="die-diagnose" class="level3">
 <h3 class="anchored" data-anchor-id="die-diagnose">Die Diagnose</h3>
-<p>Das Framework zeigt: Die kognitive Arbeit steckt nicht im <em>Produkt</em> (Zusammenfassungen + Synthese), sondern im <em>Prozess</em> (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt — und genau das kann KI liefern. <strong>Das Lernen wird umgangen, nicht unterstützt.</strong></p>
+<p>Das Framework zeigt: Die kognitive Arbeit steckt nicht im <em>Produkt</em> (Zusammenfassungen + Synthese), sondern im <em>Prozess</em> (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern. <strong>Das Lernen wird umgangen, nicht unterstützt.</strong></p>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -576,8 +588,8 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Bevor ihr das Redesign seht:</strong> Notiert basierend auf der Diagnose — wie würdet <em>ihr</em> diese Aufgabe umgestalten? Was müsste sich ändern, damit der Denkprozess geschützt ist?</p>
-<p><em>Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption — genau das Prinzip, das wir gerade besprochen haben.</em></p>
+<p><strong>Bevor ihr das Redesign seht:</strong> Notiert basierend auf der Diagnose, wie würdet <em>ihr</em> diese Aufgabe umgestalten? Was müsste sich ändern, damit der Denkprozess geschützt ist?</p>
+<p><em>Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Genau das Prinzip, das wir gerade besprochen haben.</em></p>
 </div>
 </div>
 </section>
@@ -609,7 +621,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </tr>
 <tr class="odd">
 <td><strong>3. Synthese in der Lehrveranstaltung</strong></td>
-<td>Einseitige Synthese <em>vor Ort</em>, nur mit eigenen Notizen — keine KI, kein Internet</td>
+<td>Einseitige Synthese <em>vor Ort</em>, nur mit eigenen Notizen, ohne KI und ohne Internet</td>
 <td>Keine</td>
 </tr>
 <tr class="even">
@@ -619,15 +631,15 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </tr>
 </tbody>
 </table>
-<p><strong>Was sich ändert:</strong> Die Studierenden müssen <em>den Prozess</em> durchlaufen. Das Produkt allein reicht nicht mehr — die Denkarbeit wird sichtbar und geschützt.</p>
+<p><strong>Was sich ändert:</strong> Die Studierenden müssen <em>den Prozess</em> durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.</p>
 </section>
 <section id="was-zeigt-dieses-beispiel" class="level3">
 <h3 class="anchored" data-anchor-id="was-zeigt-dieses-beispiel">Was zeigt dieses Beispiel?</h3>
 <p>Drei Erkenntnisse für die eigene Praxis:</p>
 <ol type="1">
 <li><strong>Produkt ≠ Prozess</strong>: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den <em>Prozess</em> prüfen</li>
-<li><strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll — KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen</li>
-<li><strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet — <em>zuerst selbst denken, dann KI konsultieren</em></li>
+<li><strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen</li>
+<li><strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet: <em>zuerst selbst denken, dann KI konsultieren</em></li>
 </ol>
 <div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -639,10 +651,12 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Jetzt seid ihr dran</strong>: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an — und gestaltet dann einen Agent, der produktive Anstrengung <em>fördert</em> statt <em>ersetzt</em>. Ihr habt gerade gesehen, wie die Analyse Schritt für Schritt aussieht — dasselbe macht ihr jetzt mit eurer mitgebrachten Aufgabe.</p>
+<p><strong>Jetzt seid ihr dran</strong>: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an und gestaltet dann einen Agent, der produktive Anstrengung <em>fördert</em> statt <em>ersetzt</em>. Ihr habt gerade gesehen, wie die Analyse Schritt für Schritt aussieht. Dasselbe macht ihr jetzt mit eurer mitgebrachten Aufgabe.</p>
 </div>
 </div>
-<p>→ <a href="../03-praxis/5-fragen-framework/">5-Fragen-Framework: Handout</a></p>
+<blockquote class="blockquote">
+<p><a href="../03-praxis/5-fragen-framework/">5-Fragen-Framework: Handout</a></p>
+</blockquote>
 <hr>
 </section>
 </section>
@@ -651,11 +665,11 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <section id="für-das-selbststudium" class="level3">
 <h3 class="anchored" data-anchor-id="für-das-selbststudium">Für das Selbststudium</h3>
 <ul>
-<li><a href="../01-lernen-verstehen/arbeitsgedaechtnis/">Arbeitsgedächtnis und Instruktion</a> — Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten</li>
-<li><a href="../01-lernen-verstehen/gedaechtnis-und-lernen/">Gedächtnis und Lernen</a> — Rekonstruktives Gedächtnis, Schemas, und warum Abruf der stärkste Lernmechanismus ist</li>
-<li><a href="../01-lernen-verstehen/kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a> — Wissenschaftliche Grundlagen der Expertise-Entwicklung</li>
-<li><a href="../03-praxis/produktive-anstrengung/">Produktive Anstrengung durch Design</a> — Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen</li>
-<li><a href="https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning">The Curious Case of Transfer of Learning</a> — Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)</li>
+<li><a href="../01-lernen-verstehen/arbeitsgedaechtnis/">Arbeitsgedächtnis und Instruktion</a>. Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten</li>
+<li><a href="../01-lernen-verstehen/gedaechtnis-und-lernen/">Gedächtnis und Lernen</a>. Rekonstruktives Gedächtnis, Schemas, und warum Abruf Lernen erzeugt</li>
+<li><a href="../01-lernen-verstehen/kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a>. Wissenschaftliche Grundlagen der Expertise-Entwicklung</li>
+<li><a href="../03-praxis/produktive-anstrengung/">Produktive Anstrengung durch Design</a>. Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen</li>
+<li><a href="https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning">The Curious Case of Transfer of Learning</a>. Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)</li>
 </ul>
 
 

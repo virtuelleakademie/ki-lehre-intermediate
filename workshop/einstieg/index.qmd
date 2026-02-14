@@ -20,7 +20,7 @@ title: Aktivierender Einstieg
 
 > *Was sind deiner Erfahrung nach die wichtigsten Faktoren für effektives Lernen?*
 
-Notiere 3 kurze Aussagen auf einer Karte --- wir sammeln sie ein und kommen am Ende des Workshops darauf zurück.
+Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende des Workshops darauf zurück.
 
 *Diese Übung nutzt den **Generierungseffekt**: Eigene Vorhersagen zu formulieren, bevor man Neues lernt, verankert das Folgende besser im Gedächtnis.*
 :::
@@ -28,13 +28,13 @@ Notiere 3 kurze Aussagen auf einer Karte --- wir sammeln sie ein und kommen am E
 
 ## Rahmen für heute
 
-**Im Beginner-Workshop** haben wir gesehen: KI macht uns produktiver --- aber Produktivität ist nicht Lernen.
+**Im Beginner-Workshop** haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.
 
 **Heute verstehen wir warum:**
 
-- **Teil 1**: Wie Lernen funktioniert --- die kognitive Architektur
-- **Teil 2**: Was das für KI bedeutet --- wann KI hilft und wann sie schadet
-- **Teil 3**: Vom Wissen zum Handeln --- eure eigenen Aufgaben analysieren und einen Agent gestalten
+- **Teil 1**: Wie Lernen funktioniert, die kognitive Architektur
+- **Teil 2**: Was das für KI bedeutet, wann KI hilft und wann sie schadet
+- **Teil 3**: Vom Wissen zum Handeln, eure eigenen Aufgaben analysieren und einen Agent gestalten
 
 ### Was ihr mitgebracht habt
 

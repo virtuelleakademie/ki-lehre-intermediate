@@ -1,7 +1,7 @@
 ---
 title: "Produktive Anstrengung durch Design"
 subtitle: "Lehren im Zeitalter der KI"
-author: 
+author:
   - name: Andrew Ellis
     url: https://github.com/awellis
     affiliation: Virtuelle Akademie, Berner Fachhochschule
@@ -12,9 +12,9 @@ citation: true
 
 ## Zentrales Prinzip
 
-Wie James Lang in *Cheating Lessons* [@langCheatingLessons2013] argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert.“ Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass **produktives Ringen** der lohnendste Weg ist.
+Wie James Lang in *Cheating Lessons* [@langCheatingLessons2013] argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert." Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass **produktives Ringen** der lohnendste Weg ist.
 
-Forschung zu "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen kognitive Anstrengung erfordert—wenn wir den "struggle" entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
+Forschung zu "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen kognitive Anstrengung erfordert. Wenn wir den "struggle" entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
 
 ::: {.callout-important}
 ## Das Paradox des Lernens
@@ -26,7 +26,7 @@ Bedingungen, die die Leistung während des Trainings gut aussehen lassen, förde
 - **Testing-Effekt**: Wiederholtes Abrufen statt passivem Wiederholen nutzen
 - **Interleaving**: Verschiedene Aufgabentypen mischen statt zu blocken
 
-Diese „wünschenswerten Schwierigkeiten“ sind der eigentliche Lernmechanismus—nicht Hindernisse, die eliminiert werden sollten.
+Diese „wünschenswerten Schwierigkeiten" sind der eigentliche Lernmechanismus, nicht Hindernisse, die eliminiert werden sollten.
 :::
 
 ## Evidenzbasierte Umweltgestaltung
@@ -51,8 +51,8 @@ Dies reduziert von Angst getriebene Abkürzungen und fördert das Behalten durch
 
 Gestalte Kurse um bedeutungsvolle Probleme statt um reine Inhaltsabdeckung:
 
-**Inhaltsorientiert**: „Lies Kapitel 7 über Klimawandel“  
-**Problembasiert**: „Analysiere, wie sich das Klima in deinem Heimatort mit lokalen Wetterdaten verändert hat“
+**Inhaltsorientiert**: „Lies Kapitel 7 über Klimawandel"
+**Problembasiert**: „Analysiere, wie sich das Klima in deinem Heimatort mit lokalen Wetterdaten verändert hat"
 
 Probleme, die im Umfeld der Studierenden wurzeln, können intrinsische Motivation ansprechen und sind weniger anfällig für KI-Generierung.
 
@@ -80,7 +80,7 @@ Nutze Tests als Lernwerkzeug, nicht nur zur Bewertung:
 **Abruf mit geringem Risiko:**
 
 - Jede Sitzung mit einem 2-Minuten-Quiz zum Vorwissen starten
-- Wöchentliche „Brain Dumps“: alles aufschreiben, was man erinnert
+- Wöchentliche „Brain Dumps": alles aufschreiben, was man erinnert
 - Peer-Teaching-Übungen
 - Übungsaufgaben ohne Nachschlagen lösen
 
@@ -94,7 +94,7 @@ Mische verschiedene Aufgabentypen in Übungsaufgaben:
 Statt 20 Algebra- und dann 20 Geometrieaufgaben zu geben, mische sie:
 
 - Aufgaben 1, 4, 7: Algebra
-- Aufgaben 2, 5, 8: Geometrie  
+- Aufgaben 2, 5, 8: Geometrie
 - Aufgaben 3, 6, 9: Textaufgaben mit beidem
 
 Interleaving verbessert die Unterscheidung ähnlicher Konzepte und das Langzeitbehalten.
@@ -167,8 +167,8 @@ Schaffe strukturierte Gelegenheiten für anstrengende Verarbeitung, indem du den
 **Wünschenswerte Schwierigkeiten:**
 
 - Hypothesen generieren vor Wissensvermittlung
-- Phänomene erklären, bevor der Mechanismus gelehrt wird  
-- Mit „gescheiterten“ Experimenten ringen, die Fehlvorstellungen aufdecken
+- Phänomene erklären, bevor der Mechanismus gelehrt wird
+- Mit „gescheiterten" Experimenten ringen, die Fehlvorstellungen aufdecken
 
 ## Programmieren
 
@@ -188,17 +188,17 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 ::: {.callout-note}
 ## Schwierigkeit umdeuten
 
-**Statt:** „Das ist zu schwer“  
-**Umdeuten als:** „Mein Gehirn arbeitet hart, um neue Verbindungen zu schaffen“
+**Statt:** „Das ist zu schwer"
+**Umdeuten als:** „Mein Gehirn arbeitet hart, um neue Verbindungen zu schaffen"
 
-**Statt:** „Ich verstehe es nicht“  
-**Umdeuten als:** „Ich bin in der produktiven Ringen-Zone, wo Lernen passiert“
+**Statt:** „Ich verstehe es nicht"
+**Umdeuten als:** „Ich bin in der produktiven Ringen-Zone, wo Lernen passiert"
 
-**Statt:** „Ich habe einen Fehler gemacht“  
-**Umdeuten als:** „Ich habe nützliche Information über meinen aktuellen Stand erzeugt“
+**Statt:** „Ich habe einen Fehler gemacht"
+**Umdeuten als:** „Ich habe nützliche Information über meinen aktuellen Stand erzeugt"
 
-**Statt:** „Es sollte einfacher sein“  
-**Umdeuten als:** „Passende Schwierigkeit ist notwendig für Wachstum“
+**Statt:** „Es sollte einfacher sein"
+**Umdeuten als:** „Passende Schwierigkeit ist notwendig für Wachstum"
 :::
 
 ### Dokumentation des Ringens
@@ -211,7 +211,7 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 - **Verwirrungsprotokolle**: Was hat verwirrt, warum war das wertvoll?
 - **Fehleranalysebögen**: Systematische Reflexion über Fehler und Fehlkonzepte
 - **Zeitaufzeichnung fürs Ringen**: Produktive Ringen-Zeit protokollieren (und feiern!)
-- **„Aha!“-Momente dokumentieren**: Verknüpfe Ringen mit Durchbrüchen
+- **„Aha!"-Momente dokumentieren**: Verknüpfe Ringen mit Durchbrüchen
 - **Methoden-Evolutionskarten**: Zeigen, wie Lösungswege sich verbessert haben
 :::
 
@@ -236,16 +236,16 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 
 **Visuelle Umgebung:**
 
-- **„Schöne Fehler“-Wand**: Lehrreiche Fehler mit Analyse ausstellen
-- **Ringen-Tracker-Diagramme**: Fortschritt durch schwierige Konzepte sichtbar machen  
-- **Problemlöse-Reisekarten**: Zeigen den „unordentlichen“ Weg zum Verständnis
+- **„Schöne Fehler"-Wand**: Lehrreiche Fehler mit Analyse ausstellen
+- **Ringen-Tracker-Diagramme**: Fortschritt durch schwierige Konzepte sichtbar machen
+- **Problemlöse-Reisekarten**: Zeigen den „unordentlichen" Weg zum Verständnis
 
 **Sprachliche Umgebung:**
 
-- **„Ich bin verwirrt und das ist perfekt“**: Verwirrung als Lernen normalisieren
-- **„Was für ein schöner Fehler!“**: Fehler feiern, die Denken offenbaren
-- **„Das Ringen ist dein Gehirn, das wächst“**: Anstrengung mit Wachstum verbinden
-- **„Fehler sind Daten“**: Fehler als Information, nicht als Versagen rahmen
+- **„Ich bin verwirrt und das ist perfekt"**: Verwirrung als Lernen normalisieren
+- **„Was für ein schöner Fehler!"**: Fehler feiern, die Denken offenbaren
+- **„Das Ringen ist dein Gehirn, das wächst"**: Anstrengung mit Wachstum verbinden
+- **„Fehler sind Daten"**: Fehler als Information, nicht als Versagen rahmen
 
 **Aktivitätsumgebung:**
 
@@ -260,7 +260,7 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 **Vor dem Lernen (Generationseffekt):**
 
 - Probleme vor der Instruktion versuchen
-- Lösungen zu unbekannten Herausforderungen generieren  
+- Lösungen zu unbekannten Herausforderungen generieren
 - Ergebnisse vor Demonstrationen vorhersagen
 - Fragen zum neuen Stoff entwickeln
 
@@ -289,13 +289,11 @@ Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, s
 
 **Strategisches Hinweis-System:**
 
-- **Prozesshinweise** (keine Inhalte): „Was für ein Aufgabentyp ist das?“
-- **Strategievorschläge**: „Was hat bei ähnlichen Problemen geholfen?“
-- **Fehleralarme**: „Überprüfe Schritt drei“ (ohne Lösung zu geben)
-- **Metakognitive Impulse**: „Was denkst du gerade?“
+- **Prozesshinweise** (keine Inhalte): „Was für ein Aufgabentyp ist das?"
+- **Strategievorschläge**: „Was hat bei ähnlichen Problemen geholfen?"
+- **Fehleralarme**: „Überprüfe Schritt drei" (ohne Lösung zu geben)
+- **Metakognitive Impulse**: „Was denkst du gerade?"
 
 ## Die Lernumgebungs-Perspektive
 
 Das Ziel ist nicht, den "Struggle" zu beseitigen, sondern Lernumgebungen so zu gestalten, dass produktives "Struggling" der lohnendste und unterstützte Weg zum gewünschten Ergebnis ist: den Aufbau von tiefem Verständnis und Expertise.
-
-

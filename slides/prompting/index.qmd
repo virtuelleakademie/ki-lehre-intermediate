@@ -46,10 +46,10 @@ callout-appearance: minimal
 - Gib relevanten Kontext und Details an
 - Unterteile komplexe Aufgaben in kleinere Schritte
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Beschreibe, wie KI in der Musikproduktion eingesetzt wird.
 :::
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Beschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren.
 :::
 
@@ -59,11 +59,11 @@ Beschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum 
 
 Beispiel 1:
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Entwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.
 :::
 
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Erstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.
 :::
 
@@ -77,11 +77,11 @@ Erstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenb
 Beispiel 2:
 
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Erstelle einen umfassenden, mehrstufigen Behandlungsplan für einen Patienten mit chronischer Hypertonie, einschließlich Medikamentenregime, Lebensstiländerungen, Nachsorgezeitplan und möglichen Komplikationen.
 :::
 
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Schlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem kürzlich eine leichte Hypertonie diagnostiziert wurde.
 :::
 
@@ -97,11 +97,11 @@ Schlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem k�
 Beschreibe, welche Art von Output du erwartest
 Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Erkläre, wie man eine Skulptur restauriert.
 :::
 
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Erkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:
 
   + Sichtung und Dokumentation des Schadens
@@ -116,11 +116,11 @@ Gib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schr
 Bitte ChatGPT/Copilot, "Schritt für Schritt" zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.
 
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Restauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.
 :::
 
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Lass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbverlust Schritt für Schritt angehen:
 
   1. Zuerst beschreibe die Art und das Ausmass der Schäden.
@@ -138,11 +138,11 @@ Lass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbv
 - Frage nach Erklärungen oder Hintergrundinformationen
 - Gib relevanten Kontext an, damit ChatGPT/Copilot gezielter antworten kann
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Erkläre, wie ein Orchester funktioniert.
 :::
 
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Erkläre, wie ein Sinfonieorchester funktioniert, als würdest du Musikstudierenden im ersten Semester eine Einführung geben. 
 
 Vergleiche dabei die Struktur eines Orchesters mit einem gut koordinierten Team, bei dem jede Gruppe eine spezifische Aufgabe übernimmt. 
@@ -164,11 +164,11 @@ Immer den Output eines LLM anhand externer Quellen überprüfen. **Sprachmodelle
 - Bitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen
 - Dies kann zu spezifischeren und relevanteren Antworten führen
 
-::: {.callout-tip title="❌"}
+::: {.callout-tip title="Nicht so"}
 Gib Tipps zur Verbesserung der Bühnenpräsenz.
 :::
 
-::: {.callout-tip title="✅"}
+::: {.callout-tip title="Besser"}
 Du bist eine erfahrene Theaterregisseurin, die seit über 15 Jahren mit Schauspielstudierenden arbeitet. 
 
 Was sind deine drei wichtigsten Tipps für junge Schauspieler, um ihre Bühnenpräsenz zu stärken? 

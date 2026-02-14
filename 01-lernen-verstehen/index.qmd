@@ -2,7 +2,7 @@
 title: "Wie Menschen lernen"
 ---
 
-Warum Anstrengung beim Lernen kein Bug ist --- sondern das Feature.
+Warum Anstrengung beim Lernen kein Bug ist, sondern das Feature.
 
 In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus der Perspektive der kognitiven Psychologie? Was passiert im Gehirn, wenn wir Neues lernen? Und warum ist das, was sich wie Lernen *anfühlt*, oft das Gegenteil?
 
@@ -18,7 +18,7 @@ Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen �
 
 ### Arbeitsgedächtnis: Der Flaschenhals
 
-Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Jeder Denkakt --- Verstehen, Problemlösen, Entscheiden --- muss durch diesen Flaschenhals.
+Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Jeder Denkakt (Verstehen, Problemlösen, Entscheiden) muss durch diesen Flaschenhals.
 
 ::: {.active-processing}
 ### Arbeitsgedächtnis erleben (3 Min)
@@ -35,27 +35,27 @@ Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Je
 ::: {.callout-tip}
 ### Meta-Moment
 
-Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses --- genau das Konzept, das sie vermitteln soll. Die direkte Erfahrung macht das Konzept konkreter als jede Erklärung. Das ist **Elaboration durch Erleben**. *Der Workshop modelliert, was er lehrt.*
+Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses, also genau das Konzept, das sie vermitteln soll. Die direkte Erfahrung macht das Konzept konkreter als jede Erklärung. Das ist **Elaboration durch Erleben**. *Der Workshop modelliert, was er lehrt.*
 :::
 
-Wichtig: Die Zahl "4±1" gilt für einfache, unverbundene Elemente. Die *effektive* Kapazität hängt stark vom Vorwissen ab --- Experten verarbeiten "F = ma" als **einen** Chunk, Anfänger als drei separate Elemente. @cowanMagicalMysteryFour2010 beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung --- fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.
+Wichtig: Die Zahl "4±1" gilt für einfache, unverbundene Elemente. Die *effektive* Kapazität hängt stark vom Vorwissen ab. Experten verarbeiten "F = ma" als **einen** Chunk, Anfänger als drei separate Elemente. @cowanMagicalMysteryFour2010 beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung, aber eine fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.
 
 Und: **Pausen sind keine verlorene Zeit.** Das TBRS-Modell [@barrouilletWorkingMemoryLoss2015] zeigt, dass Aufmerksamkeit zwischen Verarbeitung und Auffrischung von Gedächtnisspuren geteilt werden muss. Schon kurze Mikropausen (30--60 Sekunden) zwischen Instruktionssegmenten geben dem Gehirn Zeit, zerfallende Spuren aufzufrischen. Ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen.
 
-→ [Vertiefung: Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/) --- Die vier Modelle des Arbeitsgedächtnisses und was sie für die Lehre bedeuten
+> [Vertiefung: Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für die Lehre bedeuten
 
 ### Langzeitgedächtnis: Der unbegrenzte Speicher
 
-Das Langzeitgedächtnis ist praktisch unbegrenzt --- aber die Eintrittskarte ist *Anstrengung*. Passives Aufnehmen genügt nicht; aktives Abrufen, Elaborieren und Verknüpfen sind nötig.
+Das Langzeitgedächtnis ist praktisch unbegrenzt, aber die Eintrittskarte ist *Anstrengung*. Passives Aufnehmen genügt nicht; aktives Abrufen, Elaborieren und Verknüpfen sind nötig.
 
-Dabei ist "Gedächtnis" kein einheitliches System: Deklaratives Wissen (Fakten, Konzepte) und prozedurales Wissen (Fertigkeiten, Abläufe) folgen unterschiedlichen Regeln und erfordern unterschiedliche Instruktionsansätze. Und der Übergang von episodischem Erinnern ("die Dienstags-Vorlesung in Raum 204") zu semantischem Wissen ("Regression minimiert quadrierte Residuen") geschieht nicht automatisch --- er erfordert variierende Begegnungen und aktiven Abruf.
+Dabei ist "Gedächtnis" kein einheitliches System: Deklaratives Wissen (Fakten, Konzepte) und prozedurales Wissen (Fertigkeiten, Abläufe) folgen unterschiedlichen Regeln und erfordern unterschiedliche Instruktionsansätze. Und der Übergang von episodischem Erinnern ("die Dienstags-Vorlesung in Raum 204") zu semantischem Wissen ("Regression minimiert quadrierte Residuen") geschieht nicht automatisch, sondern erfordert variierende Begegnungen und aktiven Abruf.
 
 
 ## Vom Anfänger zum Experten
 
 ### Was unterscheidet Anfänger von Experten?
 
-Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organisiertes Langzeitgedächtnis** --- mit reichen, vernetzten Schemas, die als "Chunks" funktionieren.
+Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organisiertes Langzeitgedächtnis** mit reichen, vernetzten Schemas, die als "Chunks" funktionieren.
 
 | | Anfänger | Experte |
 |---|---|---|
@@ -69,13 +69,13 @@ Der Weg vom Anfänger zum Experten erfordert **tausende Zyklen** von:
 
 > Vorhersage → Versuch → Fehler → Anpassung
 
-Dieses Prinzip --- **Prediction Error Learning** --- ist einer der wichtigsten neuronalen Mechanismen, durch die Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte interne Modelle baut. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklärt dieser Mechanismus, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
+Dieses Prinzip, **Prediction Error Learning**, ist einer der wichtigsten neuronalen Mechanismen, durch die Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte interne Modelle baut. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklärt dieser Mechanismus, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
 
-**Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu* --- allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.
+**Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.
 
 ### Expertise Reversal Effect
 
-Was Anfängern hilft, schadet Experten --- und umgekehrt:
+Was Anfängern hilft, schadet Experten, und umgekehrt:
 
 - **Worked Examples** sind für Anfänger effektiver als Problemlösen
 - Für Experten kehrt sich dieser Effekt um
@@ -100,7 +100,7 @@ Die drei Ebenen des Lernens:
 
 1. **Das Ziel** (Was Lernende tun): Ein internes Modell aufbauen, das Vorhersagen, Erklärungen und Lösungen generieren kann
 2. **Der Mechanismus** (Wie das Gehirn aktualisiert): Durch Vorhersagefehler, Elaboration und Konsolidierung
-3. **Das Design** (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen --- durch Abrufpraxis, Spacing, Interleaving, Generierung
+3. **Das Design** (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen, etwa durch Abrufpraxis, Spacing, Interleaving und Generierung
 
 Die Strategien sind das *Wie*, Desirable Difficulties das *Was*, und der Aufbau eines generativen internen Modells das *Warum*.
 :::
@@ -113,12 +113,12 @@ Die Strategien sind das *Wie*, Desirable Difficulties das *Was*, und der Aufbau 
 - Was sind die 4 Formen wünschenswerter Schwierigkeiten?
 - Welche davon setzt du bereits in deiner Lehre ein?
 
-*Wenn das schwierig ist --- gut. Das ist der Punkt.*
+*Wenn das schwierig ist: gut. Das ist der Punkt.*
 :::
 
 ### Warum Kontext das Erinnern bestimmt
 
-Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeigt: Gedächtnisabruf funktioniert am besten, wenn der Abrufkontext mit dem Lernkontext übereinstimmt. Studierende "wissen" oft etwas im Vorlesungskontext, können aber in der Prüfung nicht darauf zugreifen --- weil der Abrufpfad kontextabhängig ist. Das ist ein starkes Argument für *variierende Kontexte* beim Üben und für *Interleaving*: Jeder neue Kontext schafft zusätzliche Abrufpfade und macht Wissen transferierbarer.
+Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeigt: Gedächtnisabruf funktioniert am besten, wenn der Abrufkontext mit dem Lernkontext übereinstimmt. Studierende "wissen" oft etwas im Vorlesungskontext, können aber in der Prüfung nicht darauf zugreifen, weil der Abrufpfad kontextabhängig ist. Das ist ein starkes Argument für *variierende Kontexte* beim Üben und für *Interleaving*: Jeder neue Kontext schafft zusätzliche Abrufpfade und macht Wissen transferierbarer.
 
 ### Die metakognitive Falle
 
@@ -133,14 +133,14 @@ Zwei Quellen kognitiver Belastung:
 | Typ | Beschreibung | Ziel |
 |-----|-------------|------|
 | **Intrinsisch** | Komplexität des Materials selbst (abhängig von Elementinteraktivität und Vorwissen) | Angemessen dosieren |
-| **Extrinsisch** | Schlechtes Design, Ablenkung --- trägt nicht zum Lernen bei | **Minimieren** |
+| **Extrinsisch** | Schlechtes Design, Ablenkung, trägt nicht zum Lernen bei | **Minimieren** |
 
-**Das Designprinzip:** Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung "germane load"; heute spricht man präziser von **germane processing** --- der lernrelevanten Auseinandersetzung mit dem Material.
+**Das Designprinzip:** Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung "germane load"; heute spricht man präziser von **germane processing**, also der lernrelevanten Auseinandersetzung mit dem Material.
 
 ::: {.callout-tip}
 ### Meta-Moment
 
-Sie werden das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die Agent-Design-Aktivität ist bewusst herausfordernd gestaltet. Wenn es sich schwierig anfühlt --- das ist das Feature, nicht der Bug.
+Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die Agent-Design-Aktivität ist bewusst herausfordernd gestaltet. Wenn es sich schwierig anfühlt, ist das das Feature, nicht der Bug.
 :::
 
 
@@ -149,7 +149,7 @@ Sie werden das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach
 ::: {.pair}
 ### Case Study Analysis (10 Min)
 
-Analysiert in Paaren zwei Szenarien --- ein effektives und ein ineffektives Beispiel für KI-Integration in der Lehre.
+Analysiert in Paaren zwei Szenarien, ein effektives und ein ineffektives Beispiel für KI-Integration in der Lehre.
 
 **Leitfrage:** *Welches Szenario erzeugt mehr Lernen? Warum?*
 
@@ -160,7 +160,7 @@ Nutzt die Konzepte aus Teil 1:
 - Desirable Difficulties & metakognitive Falle
 - Cognitive Load Theory (extrinsisch vs. germane)
 
-→ [Fallstudien-Material](../03-praxis/fallstudien/)
+> [Fallstudien-Material](../03-praxis/fallstudien/)
 :::
 
 
@@ -170,6 +170,6 @@ Nutzt die Konzepte aus Teil 1:
 
 ### Für das Selbststudium
 
-- [Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/) --- Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
-- [Gedächtnis und Lernen](./gedaechtnis-und-lernen/) --- Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist
-- [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/) --- Wissenschaftliche Grundlagen der Expertise-Entwicklung
+- [Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
+- [Gedächtnis und Lernen](./gedaechtnis-und-lernen/). Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist
+- [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung

@@ -89,6 +89,17 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -111,15 +122,15 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -131,17 +142,6 @@ div.callout-pro-tip.callout-style-default > .callout-header {
 div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
   content: '💡';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -355,19 +355,19 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <blockquote class="blockquote">
 <p><em>Was sind deiner Erfahrung nach die wichtigsten Faktoren für effektives Lernen?</em></p>
 </blockquote>
-<p>Notiere 3 kurze Aussagen auf einer Karte — wir sammeln sie ein und kommen am Ende des Workshops darauf zurück.</p>
+<p>Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende des Workshops darauf zurück.</p>
 <p><em>Diese Übung nutzt den <strong>Generierungseffekt</strong>: Eigene Vorhersagen zu formulieren, bevor man Neues lernt, verankert das Folgende besser im Gedächtnis.</em></p>
 </div>
 </div>
 </section>
 <section id="rahmen-für-heute" class="level2">
 <h2 class="anchored" data-anchor-id="rahmen-für-heute">Rahmen für heute</h2>
-<p><strong>Im Beginner-Workshop</strong> haben wir gesehen: KI macht uns produktiver — aber Produktivität ist nicht Lernen.</p>
+<p><strong>Im Beginner-Workshop</strong> haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.</p>
 <p><strong>Heute verstehen wir warum:</strong></p>
 <ul>
-<li><strong>Teil 1</strong>: Wie Lernen funktioniert — die kognitive Architektur</li>
-<li><strong>Teil 2</strong>: Was das für KI bedeutet — wann KI hilft und wann sie schadet</li>
-<li><strong>Teil 3</strong>: Vom Wissen zum Handeln — eure eigenen Aufgaben analysieren und einen Agent gestalten</li>
+<li><strong>Teil 1</strong>: Wie Lernen funktioniert, die kognitive Architektur</li>
+<li><strong>Teil 2</strong>: Was das für KI bedeutet, wann KI hilft und wann sie schadet</li>
+<li><strong>Teil 3</strong>: Vom Wissen zum Handeln, eure eigenen Aufgaben analysieren und einen Agent gestalten</li>
 </ul>
 <section id="was-ihr-mitgebracht-habt" class="level3">
 <h3 class="anchored" data-anchor-id="was-ihr-mitgebracht-habt">Was ihr mitgebracht habt</h3>

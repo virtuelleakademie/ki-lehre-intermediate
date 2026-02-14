@@ -31,7 +31,7 @@ Which mode built lasting understanding? Let's explore the science behind skill a
 
 ## The Journey from Novice to Expert
 
-When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why offloading cognitive processing to AI can prevent genuine expertise development—and why _expert-level tools can actively harm novice learning_.
+When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why offloading cognitive processing to AI can prevent genuine expertise development, and why _expert-level tools can actively harm novice learning_.
 
 ## The Weak-to-Strong Methods Progression
 
@@ -146,7 +146,7 @@ Humans can acquire new biologically secondary information through two routes:
 1. **Discovery During Problem Solving**: Working through challenges independently
 2. **Learning From Others**: Receiving information through instruction
 
-**Crucially**: Both these acquisition skills are themselves *biologically primary*—we evolved to be excellent at discovering things and learning from others. This is why humans dominate the mammalian world.
+**Crucially**: Both these acquisition skills are themselves *biologically primary*. We evolved to be excellent at discovering things and learning from others. This is why humans dominate the mammalian world.
 
 #### The Processing Bottleneck
 
@@ -286,7 +286,7 @@ This isn't just "not learning"---it's **unlearning** existing capabilities.
 
 #### Principle 1: Respect the Developmental Sequence
 
-- Weak methods must come first—they're not a bug, they're a feature
+- Weak methods must come first. They're not a bug, they're a feature
 - Proceduralization requires extensive practice with deliberative processes
 - Compilation happens automatically after sufficient repetition
 

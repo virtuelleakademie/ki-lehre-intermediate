@@ -1,9 +1,9 @@
 ---
 title: "How Humans Learn"
 ---
-This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R [@andersonAdaptiveCharacterThought2013; @andersonHowCanHuman2007] theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.
+This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R [@andersonAdaptiveCharacterThought2013; @andersonHowCanHuman2007] theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies, all steps that are easily bypassed when using AI.
 
-**The key takeaway:** Struggling, confusion and effort aren't obstacles to learning---they're the very mechanisms that
+**The key takeaway:** Struggling, confusion and effort aren't obstacles to learning. They're the very mechanisms that
   build lasting expertise.
 
 

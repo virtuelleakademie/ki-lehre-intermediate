@@ -41,7 +41,7 @@ Erinnert euch an eure 3 Vorhersagen vom Anfang: *"Was sind die wichtigsten Fakto
 ::: {.callout-tip}
 ## Take-Away Message
 
-**Die Schwierigkeit des Lernens ist nicht das Problem --- sie ist der Mechanismus.**
+**Die Schwierigkeit des Lernens ist nicht das Problem, sondern der Mechanismus.**
 
-Gute KI-Integration in der Lehre bedeutet: Lernumgebungen gestalten, in denen produktive Anstrengung der natürliche Weg ist --- nicht Kontrolle darüber, ob Studierende KI nutzen.
+Gute KI-Integration in der Lehre bedeutet, Lernumgebungen zu gestalten, in denen produktive Anstrengung der natürliche Weg ist, statt zu kontrollieren, ob Studierende KI nutzen.
 :::

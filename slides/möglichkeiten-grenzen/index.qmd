@@ -30,7 +30,7 @@ Zwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen
 
 ## Rechtliche Aspekte 
 
-- KI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben---dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.
+- KI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben. Dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.
 
 - Der Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.
 
@@ -47,13 +47,13 @@ Zwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen
 
 ## Empfehlung
 
-KI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann: 
+KI-Policy: Gib deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass niemand dies übersehen oder missverstehen kann:
 
 :::{.callout-tip title="Deklaration"}
 Der/die Autor\*in hat diesen Text teilweise mit `[Modell]` erstellt. Nach der Erstellung des Entwurfs hat der/die Autor\*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.
 :::
 
-Zitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden.
+Zitiere das verwendete Modell in ähnlicher Weise, wie du Software zitieren würdest.
 
 ## Datenschutz {.smaller}
 

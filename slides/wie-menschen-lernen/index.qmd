@@ -6,7 +6,7 @@ subtitle: "Cognitive effort isn't a bug---it's the feature"
 
 ## KI kann uns produktiver machen
 
-**Forschung zeigt**: KI steigert Produktivität und Qualität bei kognitiven Aufgaben --- aber mit Nebenwirkungen.
+**Forschung zeigt**: KI steigert Produktivität und Qualität bei kognitiven Aufgaben, aber mit Nebenwirkungen.
 
 :::{.fragment}
 - Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
@@ -24,7 +24,7 @@ subtitle: "Cognitive effort isn't a bug---it's the feature"
 
 Aber halt...
 
-🤔
+...
 
 :::{.fragment}
 ### Sollten **Lernende** überhaupt produktiver sein?
@@ -57,7 +57,7 @@ Wir unterscheiden zwischen [@gearyEvolutionarilyInformedEducation2008; @swellerD
 
 :::{.fragment}
 ::: {.callout-important}
-Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben --- sie entstehen nicht durch Entdeckung allein [@kirschnerWhyMinimalGuidance2006].
+Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein [@kirschnerWhyMinimalGuidance2006].
 :::
 :::
 
@@ -68,7 +68,7 @@ Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben 
 
 ::: {.column width="50%"}
 ::: {.callout-important}
-Experten haben eine **kognitive Architektur** --- besser organisierte Wissensstrukturen --- die Anfänger erst aufbauen müssen.
+Experten haben eine **kognitive Architektur**, also besser organisierte Wissensstrukturen, die Anfänger erst aufbauen müssen.
 :::
 :::
 
@@ -124,8 +124,8 @@ Experten haben eine **kognitive Architektur** --- besser organisierte Wissensstr
 | Art | Definition | Beispiel | Gestaltbar? |
 |-----|------------|----------|-------------|
 | **Intrinsisch** | Komplexität des Lernstoffs selbst | Quantenphysik hat höhere intrinsische Last als Addition | Begrenzt (Sequenzierung) |
-| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | ✅ Durch gutes Design minimierbar |
-| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | ✅ Raum dafür schaffen |
+| **Extrinsisch** | Wie Material präsentiert wird | Text und Grafik getrennt vs. integriert | Durch gutes Design minimierbar |
+| **Lernrelevant** | Mentaler Aufwand für Schemabildung | Verbindungen herstellen, Muster erkennen | Raum dafür schaffen |
 
 :::{.fragment}
 ::: {.callout-warning}
@@ -140,18 +140,18 @@ Experten haben eine **kognitive Architektur** --- besser organisierte Wissensstr
 
 ## Der Expertise Reversal Effect
 
-**Was Anfängern hilft, schadet Experten --- und umgekehrt** [@kalyugaExpertiseReversalEffect2009]
+**Was Anfängern hilft, schadet Experten, und umgekehrt** [@kalyugaExpertiseReversalEffect2009]
 
 | Prinzip | Für Anfänger | Für Fortgeschrittene |
 |---------|--------------|----------------------|
-| **Worked Examples** | ✅ Reduziert kognitive Last | ❌ Langweilt und hemmt |
-| **Problem Solving** | ❌ Überfordert Arbeitsgedächtnis | ✅ Fördert Schemabildung |
+| **Worked Examples** | Reduziert kognitive Last | Langweilt und hemmt |
+| **Problem Solving** | Überfordert Arbeitsgedächtnis | Fördert Schemabildung |
 
 :::{.fragment}
 ::: {.callout-important}
 **Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
 
-**Die KI-Falle**: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird --- sie verletzen das Fading-Prinzip systematisch.
+**Die KI-Falle**: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.
 :::
 :::
 
@@ -163,8 +163,8 @@ Experten haben eine **kognitive Architektur** --- besser organisierte Wissensstr
 | Kognitive Last | Ohne KI | Mit KI (Outsourcing) | Konsequenz |
 |--------|---------|--------|------------|
 | **Intrinsisch** | Bleibt konstant | Scheint reduziert | Komplexität wird versteckt, nicht bewältigt |
-| **Extrinsisch** | Variabel | ✅ Minimiert | Gut für Effizienz |
-| **Lernrelevant** | Wird aufgebracht | ❌ Eliminiert | Keine Schemabildung |
+| **Extrinsisch** | Variabel | Minimiert | Gut für Effizienz |
+| **Lernrelevant** | Wird aufgebracht | Eliminiert | Keine Schemabildung |
 
 :::{.fragment}
 ::: {.callout-note}
@@ -184,7 +184,7 @@ Experten haben eine **kognitive Architektur** --- besser organisierte Wissensstr
 
 :::{.fragment}
 ::: {.callout-warning}
-**Die CLT-Perspektive**: Schwierigkeit ist kein Bug --- sie ist das zentrale Feature für Expertise-Entwicklung
+**Die CLT-Perspektive**: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung
 :::
 :::
 
@@ -216,7 +216,7 @@ Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Sche
 :::{.column width="50%"}
 **Wie es sich anfühlt:**
 
-- Frustration 😣
+- Frustration
 - "Ich kann das nicht"
 - Langsamer Fortschritt
 - Unsicherheit
@@ -229,14 +229,14 @@ Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Sche
 - Tiefes Verständnis bildet sich
 - Schemata werden aufgebaut
 - Langzeitgedächtnis wird aktiviert
-- **Echtes Lernen** 🧠
+- **Echtes Lernen**
 :::
 :::
 ::::
 
 :::{.fragment}
 ::: {.callout-note}
-**Der Trugschluss**: "Wenn es schwer ist, lerne ich nicht" ❌
+**Der Trugschluss**: "Wenn es schwer ist, lerne ich nicht"
 :::
 :::
 
@@ -249,7 +249,7 @@ Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Sche
 :::{.column width="50%"}
 **Wie es sich anfühlt:**
 
-- Erfolgsgefühl 😊
+- Erfolgsgefühl
 - "Ich bin produktiv"
 - Schnelle Ergebnisse
 - Selbstvertrauen
@@ -262,14 +262,14 @@ Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Sche
 - Oberflächliche Verarbeitung
 - Keine Schemabildung
 - Arbeitsgedächtnis kaum aktiv
-- **Illusion des Lernens** 🃏
+- **Illusion des Lernens**
 :::
 :::
 ::::
 
 :::{.fragment}
 ::: {.callout-warning}
-**Der Trugschluss**: "Wenn ich etwas produziere, lerne ich" ❌
+**Der Trugschluss**: "Wenn ich etwas produziere, lerne ich"
 :::
 :::
 
@@ -286,7 +286,7 @@ Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Le
 
 <br>
 
-Produktive Anstrengung **fühlt sich schwierig an** --- aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **ist die Schwierigkeit der Mechanismus**.
+Produktive Anstrengung **fühlt sich schwierig an**, aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **ist die Schwierigkeit der Mechanismus**.
 
 . . .
 

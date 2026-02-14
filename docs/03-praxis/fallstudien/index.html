@@ -89,6 +89,39 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -111,17 +144,6 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -131,28 +153,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
   background-image: none;
 }
 div.callout-group.callout {
@@ -170,7 +170,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 
 
 <meta property="og:title" content="Fallstudien: KI-Integration in der Lehre – KI in der Lehre: Intermediate">
-<meta property="og:description" content="Effektiv vs.&nbsp;ineffektiv — und warum">
+<meta property="og:description" content="Effektiv vs.&nbsp;ineffektiv, und warum">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
@@ -342,7 +342,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Fallstudien: KI-Integration in der Lehre</h1>
-<p class="subtitle lead">Effektiv vs.&nbsp;ineffektiv — und warum</p>
+<p class="subtitle lead">Effektiv vs.&nbsp;ineffektiv, und warum</p>
 </div>
 
 
@@ -361,7 +361,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 
 <section id="übersicht" class="level2">
 <h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
-<p>Diese Fallstudien dienen als Material für die <strong>Paaranalyse in Teil 1</strong> des Workshops. Jedes Paar enthält ein effektives und ein ineffektives Beispiel für KI-Integration — analysiert mit den Konzepten der kognitiven Lernpsychologie.</p>
+<p>Diese Fallstudien dienen als Material für die <strong>Paaranalyse in Teil 1</strong> des Workshops. Jedes Paar enthält ein effektives und ein ineffektives Beispiel für KI-Integration, analysiert mit den Konzepten der kognitiven Lernpsychologie.</p>
 </section>
 <section id="fallstudie-a-einführung-in-die-programmierung" class="level2">
 <h2 class="anchored" data-anchor-id="fallstudie-a-einführung-in-die-programmierung">Fallstudie A: Einführung in die Programmierung</h2>
@@ -371,7 +371,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </section>
 <section id="szenario-a2-ki-als-debugging-partner" class="level3">
 <h3 class="anchored" data-anchor-id="szenario-a2-ki-als-debugging-partner">Szenario A2: “KI als Debugging-Partner”</h3>
-<p>Dieselbe Dozentin ändert die Struktur: Studierende müssen <em>zuerst</em> eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst <em>nach</em> einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: “Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft — aber gib mir nicht die Lösung.”</p>
+<p>Dieselbe Dozentin ändert die Struktur: Studierende müssen <em>zuerst</em> eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst <em>nach</em> einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: “Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft, aber gib mir nicht die Lösung.”</p>
 <div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -384,7 +384,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <div class="callout-body-container callout-body">
 <ul>
 <li>Welches Szenario erzeugt mehr <strong>Prediction Errors</strong> bei den Studierenden?</li>
-<li>Wo findet <strong>Wissenskompilation</strong> statt — und wo nicht?</li>
+<li>Wo findet <strong>Wissenskompilation</strong> statt, und wo nicht?</li>
 <li>Wie verteilt sich die <strong>kognitive Last</strong> in beiden Szenarien (extrinsisch vs.&nbsp;germane)?</li>
 <li>Was passiert mit der <strong>Expertise-Entwicklung</strong> in beiden Fällen?</li>
 </ul>
@@ -415,7 +415,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>Wo liegt das <strong>Evaluationsparadox</strong>? Können Studierende in Szenario B1 die KI-Outputs tatsächlich kritisch bewerten?</li>
 <li>Inwiefern ist Szenario B1 ein Beispiel für <strong>Cargo Cult Scholarship</strong>?</li>
 <li>Welche Rolle spielt die <strong>Versuch-dann-Prüfe-Struktur</strong> in Szenario B2?</li>
-<li>Wie wirkt sich jedes Szenario auf die <strong>Equity</strong> aus — werden schwächere Studierende gleich oder unterschiedlich betroffen?</li>
+<li>Wie wirkt sich jedes Szenario auf die <strong>Equity</strong> aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?</li>
 </ul>
 </div>
 </div>
@@ -429,7 +429,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </section>
 <section id="szenario-c2-hypothese-vor-konsultation" class="level3">
 <h3 class="anchored" data-anchor-id="szenario-c2-hypothese-vor-konsultation">Szenario C2: “Hypothese vor Konsultation”</h3>
-<p>Im gleichen Kurs müssen Studierende <em>zuerst</em> ihre eigene Differenzialdiagnose formulieren — mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: “Was habe ich übersehen? Warum?”</p>
+<p>Im gleichen Kurs müssen Studierende <em>zuerst</em> ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: “Was habe ich übersehen? Warum?”</p>
 <div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -453,7 +453,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </section>
 <section id="allgemeine-reflexionsfragen" class="level2">
 <h2 class="anchored" data-anchor-id="allgemeine-reflexionsfragen">Allgemeine Reflexionsfragen</h2>
-<p>Nach der Paaranalyse — für die Plenumsrunde:</p>
+<p>Nach der Paaranalyse, für die Plenumsrunde:</p>
 <ol type="1">
 <li>Was unterscheidet die effektiven von den ineffektiven Szenarien?</li>
 <li>Gibt es ein gemeinsames <strong>Designprinzip</strong>, das alle effektiven Szenarien teilen?</li>

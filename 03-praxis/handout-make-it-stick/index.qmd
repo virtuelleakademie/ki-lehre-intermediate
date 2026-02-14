@@ -5,19 +5,19 @@ title: "Die 8 Make it Stick Strategien"
 
 ## Kernprinzip
 
-**Effortful Learning ist effektiver**---Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
+**Effortful Learning ist effektiver**: Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
 
 
 ::: {.callout-note}
 ### Wie die Strategien zusammenhängen
 
-Die 8 Strategien sind nicht unabhängig --- sie überlappen und verstärken sich:
+Die 8 Strategien sind nicht unabhängig, sondern sie überlappen und verstärken sich:
 
 - **Wünschenswerte Schwierigkeiten** (Nr. 5) ist das übergeordnete Prinzip
 - **Abrufpraxis** (Nr. 1), **Spacing** (Nr. 2) und **Interleaving** (Nr. 3) sind konkrete Instanzen davon
-- **Variation** (Nr. 4) ändert den *Kontext* (verschiedene Anwendungen), **Interleaving** (Nr. 3) ändert die *Sequenz* (Konzepte durchmischen) --- beide fördern Transfer, aber auf unterschiedliche Weise
+- **Variation** (Nr. 4) ändert den *Kontext* (verschiedene Anwendungen), **Interleaving** (Nr. 3) ändert die *Sequenz* (Konzepte durchmischen). Beide fördern Transfer, aber auf unterschiedliche Weise
 
-In der Praxis nutzen Sie oft mehrere Strategien gleichzeitig.
+In der Praxis nutzt du oft mehrere Strategien gleichzeitig.
 :::
 
 ## Die 8 bewährten Lernstrategien
@@ -125,7 +125,7 @@ Adaptive Schwierigkeit, Challenge-Generierung, "Productive Struggle" fördern[^2
 
 [^2]: Productive Struggle implementiert mehrere der 8 Strategien
   gleichzeitig: Retrieval Practice, Elaboration, Generation, Reflection.
-  
+
 ### 6. Verstehen vs. Vertrautheit
 
 **Prinzip**: In eigenen Worten erklären = echtes Verständnis
@@ -153,7 +153,7 @@ Feynman-Technik[^3], Erklärungen bewerten, Verständnis testen
   Quellmaterial zurück, (4) Vereinfache und verwende Analogien.
   Der Kern: Wenn du etwas nicht einfach erklären kannst,
   verstehst du es nicht wirklich. Die Technik funktioniert als
-  *Forcing Function*---sie zwingt zur Übersetzung von Fachwissen
+  *Forcing Function*, denn sie zwingt zur Übersetzung von Fachwissen
   in Alltagssprache und deckt dabei Verständnislücken
   schonungslos auf.
 
@@ -199,13 +199,13 @@ Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching
 
 ## KI-Tool Design Prinzipien
 
-### ✅ **Gute KI-Unterstützung:**
+### Gute KI-Unterstützung
 - **Fördert** die 8 Strategien
 - **Erhält** lernrelevante Anstrengung
 - **Unterstützt** ohne zu ersetzen
 - **Personalisiert** den Lernprozess
 
-### ❌ **Problematische KI-Nutzung:**
+### Problematische KI-Nutzung
 - **Eliminiert** kognitive Anstrengung
 - **Übernimmt** das Denken
 - **Erzeugt** Illusion of Knowing

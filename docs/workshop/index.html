@@ -89,6 +89,28 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-pro-tip.callout {
   border-left-color: gold;
 }
@@ -111,17 +133,6 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -131,17 +142,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -155,15 +155,15 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 </style>
@@ -300,10 +300,10 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   <ul>
   <li><a href="#workshop-ablauf-ki-in-der-lehre-intermediate-3-stunden" id="toc-workshop-ablauf-ki-in-der-lehre-intermediate-3-stunden" class="nav-link active" data-scroll-target="#workshop-ablauf-ki-in-der-lehre-intermediate-3-stunden">Workshop-Ablauf: KI in der Lehre: Intermediate (3 Stunden)</a></li>
   <li><a href="#lernziele" id="toc-lernziele" class="nav-link" data-scroll-target="#lernziele">Lernziele</a></li>
-  <li><a href="#vorbereitung" id="toc-vorbereitung" class="nav-link" data-scroll-target="#vorbereitung">Vorbereitung</a>
+  <li><a href="#vorbereitung-deine-aufgabe-unter-der-ki-lupe-ca.-20-min." id="toc-vorbereitung-deine-aufgabe-unter-der-ki-lupe-ca.-20-min." class="nav-link" data-scroll-target="#vorbereitung-deine-aufgabe-unter-der-ki-lupe-ca.-20-min.">Vorbereitung: Deine Aufgabe unter der KI-Lupe (ca. 20 Min.)</a>
   <ul class="collapse">
-  <li><a href="#inhaltliche-vorbereitung-10-min." id="toc-inhaltliche-vorbereitung-10-min." class="nav-link" data-scroll-target="#inhaltliche-vorbereitung-10-min.">Inhaltliche Vorbereitung (10 Min.)</a></li>
-  <li><a href="#lektüre-und-reflexion-15-min." id="toc-lektüre-und-reflexion-15-min." class="nav-link" data-scroll-target="#lektüre-und-reflexion-15-min.">Lektüre und Reflexion (15 Min.)</a></li>
+  <li><a href="#schritt-1-aufgabe-auswählen-und-mitbringen-5-min." id="toc-schritt-1-aufgabe-auswählen-und-mitbringen-5-min." class="nav-link" data-scroll-target="#schritt-1-aufgabe-auswählen-und-mitbringen-5-min.">Schritt 1: Aufgabe auswählen und mitbringen (5 Min.)</a></li>
+  <li><a href="#schritt-2-kurze-selbstanalyse-15-min." id="toc-schritt-2-kurze-selbstanalyse-15-min." class="nav-link" data-scroll-target="#schritt-2-kurze-selbstanalyse-15-min.">Schritt 2: Kurze Selbstanalyse (15 Min.)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -429,26 +429,28 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li><strong>Praxis umsetzen</strong>: Einen KI-Agent gestalten, der produktive Anstrengung fördert statt ersetzt</li>
 </ol>
 </section>
-<section id="vorbereitung" class="level2">
-<h2 class="anchored" data-anchor-id="vorbereitung">Vorbereitung</h2>
-<section id="inhaltliche-vorbereitung-10-min." class="level3">
-<h3 class="anchored" data-anchor-id="inhaltliche-vorbereitung-10-min.">Inhaltliche Vorbereitung (10 Min.)</h3>
-<p><strong>Bringe eine eigene Aufgabe oder Prüfung mit</strong>, die du im Workshop analysieren und überarbeiten möchtest (z.B. eine Hausaufgabe, eine Seminararbeit, eine Übungsaufgabe).</p>
-<p>Überlege dir dazu:</p>
+<section id="vorbereitung-deine-aufgabe-unter-der-ki-lupe-ca.-20-min." class="level2">
+<h2 class="anchored" data-anchor-id="vorbereitung-deine-aufgabe-unter-der-ki-lupe-ca.-20-min.">Vorbereitung: Deine Aufgabe unter der KI-Lupe (ca. 20 Min.)</h2>
+<p>Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.</p>
+<section id="schritt-1-aufgabe-auswählen-und-mitbringen-5-min." class="level3">
+<h3 class="anchored" data-anchor-id="schritt-1-aufgabe-auswählen-und-mitbringen-5-min.">Schritt 1: Aufgabe auswählen und mitbringen (5 Min.)</h3>
+<p><strong>Wähle eine konkrete Aufgabe oder Prüfung aus deiner Lehre</strong>, die Studierende eigenständig bearbeiten, z.B. eine Hausaufgabe, eine Seminararbeit, eine Übungsaufgabe oder eine Selbststudiums-Aufgabe.</p>
+<p>Am besten eignet sich eine Aufgabe, die:</p>
 <ul>
-<li>Welche Hürden haben meine Studierenden beim Lernen?</li>
-<li>Wo könnten Studierende KI-Tools einsetzen — hilfreich oder problematisch?</li>
-<li>Was sollen die Studierenden <em>wirklich können</em> nach dieser Aufgabe?</li>
+<li>ausserhalb des Unterrichts bearbeitet wird (ohne direkte Aufsicht)</li>
+<li>bei der KI-Tools eine Rolle spielen könnten</li>
+<li>die du idealerweise schon einmal eingesetzt hast</li>
 </ul>
+<p>Bringe die <strong>Aufgabenstellung</strong> mit (digital oder ausgedruckt).</p>
 </section>
-<section id="lektüre-und-reflexion-15-min." class="level3">
-<h3 class="anchored" data-anchor-id="lektüre-und-reflexion-15-min.">Lektüre und Reflexion (15 Min.)</h3>
-<p>Lies diesen <a href="https://barbarageyer.substack.com/p/von-zetteln-zu-prompts">Blog Post</a> von Barbara Geyer zum Thema Künstliche Intelligenz und Lernstrategien. Notiere dir:</p>
-<ul>
-<li>Welche der Strategien sind für deine Lehre spannend?</li>
-<li>Wie wirken die gezeigten Prompting-Ansätze auf dich?</li>
-<li>Was würdest du verbessern oder anders formulieren?</li>
-</ul>
+<section id="schritt-2-kurze-selbstanalyse-15-min." class="level3">
+<h3 class="anchored" data-anchor-id="schritt-2-kurze-selbstanalyse-15-min.">Schritt 2: Kurze Selbstanalyse (15 Min.)</h3>
+<p>Beantworte diese drei Fragen in Stichworten und bringe deine Notizen in den Workshop mit.</p>
+<ol type="1">
+<li><strong>Was sollen Studierende durch diese Aufgabe <em>lernen</em>?</strong> Nicht: Was sollen sie abgeben, sondern: Was soll sich in ihren Köpfen verändern?</li>
+<li><strong>Was passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen?</strong> Probiere es nach Möglichkeit selbst aus. Gib die Aufgabenstellung in ein KI-Tool ein und schau, was herauskommt.</li>
+<li><strong>Wo siehst du die grösste Gefahr</strong>, dass Studierende zu wenig lernen, weil die KI die Denkarbeit übernimmt?</li>
+</ol>
 
 
 </section>

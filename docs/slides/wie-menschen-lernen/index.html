@@ -159,17 +159,6 @@
     }
   </style>
   <style>
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
   div.callout-individual.callout {
     border-left-color: steelblue;
   }
@@ -181,14 +170,25 @@
     content: '💻';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-reflect.callout {
+    border-left-color: purple;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  div.callout-group.callout {
+    border-left-color: purple;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
     content: '👥';
     background-image: none;
   }
@@ -203,6 +203,28 @@
     content: '💡';
     background-image: none;
   }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
   div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
@@ -212,28 +234,6 @@
   div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
     content: '🤖';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: purple;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
     background-image: none;
   }
   </style>
@@ -260,7 +260,7 @@ Andrew Ellis
 </section>
 <section id="ki-kann-uns-produktiver-machen" class="slide level2">
 <h2>KI kann uns produktiver machen</h2>
-<p><strong>Forschung zeigt</strong>: KI steigert Produktivität und Qualität bei kognitiven Aufgaben — aber mit Nebenwirkungen.</p>
+<p><strong>Forschung zeigt</strong>: KI steigert Produktivität und Qualität bei kognitiven Aufgaben, aber mit Nebenwirkungen.</p>
 <div class="fragment">
 <ul>
 <li>Automatisierung von routinemässigen kognitiven Aufgaben ist möglich</li>
@@ -276,7 +276,7 @@ Andrew Ellis
 <section id="section" class="slide level2 center">
 <h2></h2>
 <p>Aber halt…</p>
-<p>🤔</p>
+<p>…</p>
 <div class="fragment">
 <h3 id="sollten-lernende-überhaupt-produktiver-sein">Sollten <strong>Lernende</strong> überhaupt produktiver sein?</h3>
 </div>
@@ -306,7 +306,7 @@ Andrew Ellis
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben — sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, and and Clark 2006</a>)</span>.</p>
+<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, and and Clark 2006</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -319,7 +319,7 @@ Andrew Ellis
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Experten haben eine <strong>kognitive Architektur</strong> — besser organisierte Wissensstrukturen — die Anfänger erst aufbauen müssen.</p>
+<p>Experten haben eine <strong>kognitive Architektur</strong>, also besser organisierte Wissensstrukturen, die Anfänger erst aufbauen müssen.</p>
 </div>
 </div>
 </div>
@@ -422,13 +422,13 @@ Andrew Ellis
 <td><strong>Extrinsisch</strong></td>
 <td>Wie Material präsentiert wird</td>
 <td>Text und Grafik getrennt vs.&nbsp;integriert</td>
-<td>✅ Durch gutes Design minimierbar</td>
+<td>Durch gutes Design minimierbar</td>
 </tr>
 <tr class="odd">
 <td><strong>Lernrelevant</strong></td>
 <td>Mentaler Aufwand für Schemabildung</td>
 <td>Verbindungen herstellen, Muster erkennen</td>
-<td>✅ Raum dafür schaffen</td>
+<td>Raum dafür schaffen</td>
 </tr>
 </tbody>
 </table>
@@ -449,7 +449,7 @@ Andrew Ellis
 </section>
 <section id="der-expertise-reversal-effect" class="slide level2">
 <h2>Der Expertise Reversal Effect</h2>
-<p><strong>Was Anfängern hilft, schadet Experten — und umgekehrt</strong> <span class="citation" data-cites="kalyugaExpertiseReversalEffect2009">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kalyuga 2009</a>)</span></p>
+<p><strong>Was Anfängern hilft, schadet Experten, und umgekehrt</strong> <span class="citation" data-cites="kalyugaExpertiseReversalEffect2009">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kalyuga 2009</a>)</span></p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 20%">
@@ -466,13 +466,13 @@ Andrew Ellis
 <tbody>
 <tr class="odd">
 <td><strong>Worked Examples</strong></td>
-<td>✅ Reduziert kognitive Last</td>
-<td>❌ Langweilt und hemmt</td>
+<td>Reduziert kognitive Last</td>
+<td>Langweilt und hemmt</td>
 </tr>
 <tr class="even">
 <td><strong>Problem Solving</strong></td>
-<td>❌ Überfordert Arbeitsgedächtnis</td>
-<td>✅ Fördert Schemabildung</td>
+<td>Überfordert Arbeitsgedächtnis</td>
+<td>Fördert Schemabildung</td>
 </tr>
 </tbody>
 </table>
@@ -481,7 +481,7 @@ Andrew Ellis
 <div class="callout-body">
 <div class="callout-content">
 <p><strong>Praktische Regel</strong>: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.</p>
-<p><strong>Die KI-Falle</strong>: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird — sie verletzen das Fading-Prinzip systematisch.</p>
+<p><strong>Die KI-Falle</strong>: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.</p>
 </div>
 </div>
 </div>
@@ -515,13 +515,13 @@ Andrew Ellis
 <tr class="even">
 <td><strong>Extrinsisch</strong></td>
 <td>Variabel</td>
-<td>✅ Minimiert</td>
+<td>Minimiert</td>
 <td>Gut für Effizienz</td>
 </tr>
 <tr class="odd">
 <td><strong>Lernrelevant</strong></td>
 <td>Wird aufgebracht</td>
-<td>❌ Eliminiert</td>
+<td>Eliminiert</td>
 <td>Keine Schemabildung</td>
 </tr>
 </tbody>
@@ -574,7 +574,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug — sie ist das zentrale Feature für Expertise-Entwicklung</p>
+<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung</p>
 </div>
 </div>
 </div>
@@ -622,7 +622,7 @@ Andrew Ellis
 <div class="column" style="width:50%;">
 <p><strong>Wie es sich anfühlt:</strong></p>
 <ul>
-<li>Frustration 😣</li>
+<li>Frustration</li>
 <li>“Ich kann das nicht”</li>
 <li>Langsamer Fortschritt</li>
 <li>Unsicherheit</li>
@@ -634,7 +634,7 @@ Andrew Ellis
 <li>Tiefes Verständnis bildet sich</li>
 <li>Schemata werden aufgebaut</li>
 <li>Langzeitgedächtnis wird aktiviert</li>
-<li><strong>Echtes Lernen</strong> 🧠</li>
+<li><strong>Echtes Lernen</strong></li>
 </ul>
 </div>
 </div></div>
@@ -642,7 +642,7 @@ Andrew Ellis
 <div class="callout callout-note no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Der Trugschluss</strong>: “Wenn es schwer ist, lerne ich nicht” ❌</p>
+<p><strong>Der Trugschluss</strong>: “Wenn es schwer ist, lerne ich nicht”</p>
 </div>
 </div>
 </div>
@@ -655,7 +655,7 @@ Andrew Ellis
 <div class="column" style="width:50%;">
 <p><strong>Wie es sich anfühlt:</strong></p>
 <ul>
-<li>Erfolgsgefühl 😊</li>
+<li>Erfolgsgefühl</li>
 <li>“Ich bin produktiv”</li>
 <li>Schnelle Ergebnisse</li>
 <li>Selbstvertrauen</li>
@@ -667,7 +667,7 @@ Andrew Ellis
 <li>Oberflächliche Verarbeitung</li>
 <li>Keine Schemabildung</li>
 <li>Arbeitsgedächtnis kaum aktiv</li>
-<li><strong>Illusion des Lernens</strong> 🃏</li>
+<li><strong>Illusion des Lernens</strong></li>
 </ul>
 </div>
 </div></div>
@@ -675,7 +675,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Der Trugschluss</strong>: “Wenn ich etwas produziere, lerne ich” ❌</p>
+<p><strong>Der Trugschluss</strong>: “Wenn ich etwas produziere, lerne ich”</p>
 </div>
 </div>
 </div>
@@ -688,7 +688,7 @@ Andrew Ellis
 <p>Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.</p>
 <div class="fragment">
 <p><br></p>
-<p>Produktive Anstrengung <strong>fühlt sich schwierig an</strong> — aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) <strong>ist die Schwierigkeit der Mechanismus</strong>.</p>
+<p>Produktive Anstrengung <strong>fühlt sich schwierig an</strong>, aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) <strong>ist die Schwierigkeit der Mechanismus</strong>.</p>
 </div>
 <div class="fragment">
 <p><br></p>

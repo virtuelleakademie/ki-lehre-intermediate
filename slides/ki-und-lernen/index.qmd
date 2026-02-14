@@ -1,12 +1,12 @@
 ---
 title: "KI & Lernen"
-subtitle: "Wann KI das Lernen unterstützt --- und wann sie es verhindert"
+subtitle: "Wann KI das Lernen unterstützt, und wann sie es verhindert"
 ---
 
 
 ## Offloading vs. Outsourcing {.smaller}
 
-**Die entscheidende Unterscheidung --- kategorial, nicht graduell**
+**Die entscheidende Unterscheidung: kategorial, nicht graduell**
 
 | | **Cognitive Offloading** | **Cognitive Outsourcing** |
 |---|---|---|
@@ -16,7 +16,7 @@ subtitle: "Wann KI das Lernen unterstützt --- und wann sie es verhindert"
 | **Expertise** | Wird unterstützt | **Wird verhindert** |
 
 ::: {.callout-warning}
-**Outsourcing eliminiert germane load --- das ist keine Nebenwirkung, das ist der Mechanismus.**
+**Outsourcing eliminiert germane load. Das ist keine Nebenwirkung, das ist der Mechanismus.**
 :::
 
 
@@ -65,13 +65,13 @@ Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etw
 
 . . .
 
-Und: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf --- es fehlt die Grundlage für **Wissenstransfer** auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
+Und: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf. Es fehlt auch die Grundlage für **Wissenstransfer** auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
 . . .
 
 ### Cargo Cult Scholarship
 
-Texte mit allen **Oberflächenmerkmalen** akademischer Arbeit --- Hedging, Zitationen, Fachvokabular --- ohne die zugrundeliegende intellektuelle Arbeit.
+Texte mit allen **Oberflächenmerkmalen** akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.
 
 . . .
 
@@ -100,12 +100,12 @@ Sondern:
 Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
 
 - **Stärkere** Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
-- **Schwächere** Studierende: werden am meisten geschädigt --- ihnen fehlt die Grundlage für kritische Nutzung
+- **Schwächere** Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt
 
 . . .
 
 ::: {.callout-warning}
-KI-Policy ist nicht nur eine Frage der akademischen Integrität --- es ist eine **pädagogische Gerechtigkeitsfrage**.
+KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**.
 :::
 
 
@@ -140,4 +140,4 @@ Studierende bilden Vorhersagen → scheitern an der Realität → lernen daraus
 
 ## Jetzt seid ihr dran {.center}
 
-Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an --- und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*.
+Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*.

@@ -18,28 +18,28 @@ citation: true
 Diese Seite vertieft den Abschnitt zur kognitiven Architektur aus dem Workshop. Empfohlene Reihenfolge:
 
 - **Essentiell**: Was ist das Arbeitsgedächtnis? + Das Problem neuer Inhalte + Cognitive Load Theory
-- **Vertiefung**: Die vier Modelle --- ergänzt die Workshop-Inhalte mit wissenschaftlicher Tiefe
-- **Optional**: Slots vs. Ressourcen --- aktuelle Debatte in der Forschung
+- **Vertiefung**: Die vier Modelle, die die Workshop-Inhalte mit wissenschaftlicher Tiefe ergänzen
+- **Optional**: Slots vs. Ressourcen, also die aktuelle Debatte in der Forschung
 
-Die Seite enthält Abrufübungen. Nutzen Sie diese --- aktives Erinnern ist wirksamer als Weiterlesen.
+Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksamer als Weiterlesen.
 :::
 
 
 ## Zentrale Erkenntnisse
 
-1. **Arbeitsgedächtnis ist der Flaschenhals**, durch den alles Lernen hindurch muss --- ca. 4 Elemente, 15--30 Sekunden ohne Auffrischung
+1. **Arbeitsgedächtnis ist der Flaschenhals**, durch den alles Lernen hindurch muss: ca. 4 Elemente, 15--30 Sekunden ohne Auffrischung
 2. **Vorwissen verändert den Flaschenhals**: Schemas komprimieren Elemente; die effektive Kapazität variiert mit der Expertise
 3. **Pausen sind keine verlorene Zeit**: Schon kurze Mikropausen ermöglichen die Auffrischung zerfallender Gedächtnisspuren
-4. **Das eigentliche Limit ist Bindung**: Nicht nur Elemente halten, sondern deren *Beziehungen zueinander* --- das ist die anspruchsvollste Operation
+4. **Das eigentliche Limit ist Bindung**: Nicht nur Elemente halten, sondern deren *Beziehungen zueinander* verarbeiten, das ist die anspruchsvollste Operation
 5. **Neue Inhalte belasten fundamental anders**: Ohne Schemas fehlen alle Mechanismen, die das Arbeitsgedächtnis normalerweise entlasten
 6. **Cognitive Load Theory übersetzt die Forschung in Lehrdesign**: Extrinsische Last eliminieren, um Raum für die produktive Verarbeitung der intrinsischen Komplexität zu schaffen
 
 
 ## Was ist das Arbeitsgedächtnis?
 
-Das Arbeitsgedächtnis ist nicht dasselbe wie das Kurzzeitgedächtnis. Kurzzeitgedächtnis meint passives Speichern --- eine Telefonnummer für ein paar Sekunden behalten. Das Arbeitsgedächtnis fügt eine aktive Verarbeitungskomponente hinzu: Es ist der mentale Arbeitsplatz, auf dem man Informationen hält *und gleichzeitig etwas damit tut* --- vergleichen, schlussfolgern, integrieren, lösen.
+Das Arbeitsgedächtnis ist nicht dasselbe wie das Kurzzeitgedächtnis. Kurzzeitgedächtnis meint passives Speichern, also eine Telefonnummer für ein paar Sekunden behalten. Das Arbeitsgedächtnis fügt eine aktive Verarbeitungskomponente hinzu: Es ist der mentale Arbeitsplatz, auf dem man Informationen hält *und gleichzeitig etwas damit tut*, also vergleichen, schlussfolgern, integrieren und lösen.
 
-Eine nützliche Analogie: Stellen Sie sich das Arbeitsgedächtnis als **kleinen Schreibtisch** vor. Man kann nur wenige Dokumente gleichzeitig geöffnet haben. Werden es zu viele, fallen Dinge vom Rand. Das Langzeitgedächtnis ist der Aktenschrank --- riesige Kapazität, aber man muss Dokumente erst zum Schreibtisch holen, bevor man damit arbeiten kann.
+Eine nützliche Analogie: Stell dir das Arbeitsgedächtnis als **kleinen Schreibtisch** vor. Man kann nur wenige Dokumente gleichzeitig geöffnet haben. Werden es zu viele, fallen Dinge vom Rand. Das Langzeitgedächtnis ist der Aktenschrank mit riesiger Kapazität, aber man muss Dokumente erst zum Schreibtisch holen, bevor man damit arbeiten kann.
 
 ### Zentrale Eigenschaften
 
@@ -55,18 +55,18 @@ Das Arbeitsgedächtnis ist der **Flaschenhals**, durch den alles Lernen hindurch
 ::: {.reflect}
 ### Selbsttest: Arbeitsgedächtnis
 
-**Ohne zurückzuschauen:** Erklären Sie in eigenen Worten:
+**Ohne zurückzuschauen:** Erkläre in eigenen Worten:
 
 - Was ist der Unterschied zwischen Kurzzeitgedächtnis und Arbeitsgedächtnis?
 - Warum ist die Zahl "4 &plusmn; 1" eine Vereinfachung?
 
-*Wenn Sie sich unsicher fühlen, ist das ein gutes Zeichen --- es bedeutet, dass Ihr Gehirn gerade aktiv rekonstruiert statt nur wiederzuerkennen.*
+*Wenn du dich unsicher fühlst, ist das ein gutes Zeichen. Es bedeutet, dass dein Gehirn gerade aktiv rekonstruiert statt nur wiederzuerkennen.*
 :::
 
 
 ## Modelle des Arbeitsgedächtnisses
 
-Forschende haben verschiedene Modelle vorgeschlagen, die unterschiedliche Aspekte des Systems erfassen --- und unterschiedliche Implikationen für die Lehre haben.
+Forschende haben verschiedene Modelle vorgeschlagen, die unterschiedliche Aspekte des Systems erfassen und unterschiedliche Implikationen für die Lehre haben.
 
 ### Baddeleys Mehrkomponenten-Modell [-@baddeleyEpisodicBufferNew2000]
 
@@ -77,9 +77,9 @@ Das bekannteste Modell beschreibt das Arbeitsgedächtnis als System mit getrennt
 - **Visuell-räumlicher Notizblock**: Verarbeitung visueller und räumlicher Information
 - **Episodischer Puffer**: Integration von Information und Verbindung zum Langzeitgedächtnis
 
-Die Subsysteme werden von der zentralen Exekutive *gesteuert*, sind aber eigenständige Komponenten --- sie sind nicht "in" der Exekutive enthalten.
+Die Subsysteme werden von der zentralen Exekutive *gesteuert*, sind aber eigenständige Komponenten, die nicht "in" der Exekutive enthalten sind.
 
-**Lehrimplikation**: Sie haben **zwei Eingangskanäle** --- verbal und visuell. Beide gleichzeitig nutzen (z.B. Diagramm mit gesprochener Erklärung) reduziert die gegenseitige Interferenz und unterstützt eine effektivere Verarbeitung. Aber: Zwei verbale Ströme (Folientext lesen und gleichzeitig denselben Inhalt hören) konkurrieren um *denselben* Kanal und erzeugen Redundanz, keine Erweiterung. **Lesen Sie nie Ihre Folien vor.**
+**Lehrimplikation**: Du hast **zwei Eingangskanäle**, einen verbalen und einen visuellen. Beide gleichzeitig nutzen (z.B. Diagramm mit gesprochener Erklärung) reduziert die gegenseitige Interferenz und unterstützt eine effektivere Verarbeitung. Aber: Zwei verbale Ströme (Folientext lesen und gleichzeitig denselben Inhalt hören) konkurrieren um *denselben* Kanal und erzeugen Redundanz, keine Erweiterung. **Lies nie deine Folien vor.**
 
 ### Cowans Modell der eingebetteten Prozesse [@cowanMagicalMysteryFour2010]
 
@@ -87,16 +87,16 @@ Nelson Cowan schlug eine sparsamere Sicht vor: Arbeitsgedächtnis ist kein separ
 
 Die Schlüsselidee: Die Grenze zwischen Arbeits- und Langzeitgedächtnis ist fliessend. Wenn Studierende relevantes Vorwissen haben, kann dieses schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Vorwissen **verändert die effektive Kapazität** des Arbeitsgedächtnisses.
 
-**Lehrimplikation**: Das ist der Grund, warum Vorwissensdiagnostik so wichtig ist. Dieselbe Vorlesung, dasselbe Material --- fundamental unterschiedliche kognitive Aufgabe, je nachdem, was Studierende bereits wissen. Ein Experte verarbeitet "F = ma" als **einen Chunk** in einem Arbeitsgedächtnis-Slot. Ein Anfänger verarbeitet es als **drei unverbundene Elemente**, die 3+ Slots beanspruchen, ohne Schema, das die Bindungen stabilisiert.
+**Lehrimplikation**: Das ist der Grund, warum Vorwissensdiagnostik so wichtig ist. Dieselbe Vorlesung, dasselbe Material, und dennoch eine fundamental unterschiedliche kognitive Aufgabe, je nachdem, was Studierende bereits wissen. Ein Experte verarbeitet "F = ma" als **einen Chunk** in einem Arbeitsgedächtnis-Slot. Ein Anfänger verarbeitet es als **drei unverbundene Elemente**, die 3+ Slots beanspruchen, ohne Schema, das die Bindungen stabilisiert.
 
 ::: {.reflect}
 ### Verbindung zur Praxis
 
-Denken Sie an ein Konzept aus Ihrem Fach, das Studierende regelmässig als "schwer" beschreiben:
+Denke an ein Konzept aus deinem Fach, das Studierende regelmässig als "schwer" beschreiben:
 
 - Wie viele Elemente muss ein Anfänger gleichzeitig im Arbeitsgedächtnis halten?
 - Wie viele "Slots" benötigt ein Experte für dasselbe Konzept?
-- Was sagt dieser Unterschied über Ihre Instruktionsstrategie?
+- Was sagt dieser Unterschied über deine Instruktionsstrategie?
 :::
 
 
@@ -106,26 +106,26 @@ Das TBRS-Modell bietet eine fundamental andere Erklärung für die Grenzen des A
 
 - Das Modell behandelt **Aufmerksamkeit als eine einzelne Ressource**, die zwischen *Verarbeitung* (kognitive Arbeit) und *Aufrechterhaltung* (Elemente am Leben halten) geteilt werden muss
 - Gedächtnisspuren **zerfallen über die Zeit** und müssen aktiv aufgefrischt werden
-- Das Gehirn **wechselt** schnell zwischen Verarbeitung und Auffrischung --- wie ein Jongleur, der mehrere Bälle in der Luft hält
+- Das Gehirn **wechselt** schnell zwischen Verarbeitung und Auffrischung, wie ein Jongleur, der mehrere Bälle in der Luft hält
 - **Kognitive Last** = der Anteil der Zeit, den die Verarbeitung beansprucht, sodass nichts für die Auffrischung übrig bleibt
 
 Was passiert bei unterschiedlicher Last:
 
-- **Niedrige Last**: Pausen zwischen Verarbeitungsschritten --- Spuren werden aufgefrischt --- Elemente überleben
-- **Hohe Last**: Ununterbrochene Verarbeitung --- keine Zeit zum Auffrischen --- Elemente zerfallen und gehen verloren
+- **Niedrige Last**: Pausen zwischen Verarbeitungsschritten ermöglichen das Auffrischen, und die Elemente überleben
+- **Hohe Last**: Ununterbrochene Verarbeitung lässt keine Zeit zum Auffrischen, und die Elemente zerfallen und gehen verloren
 
-**Lehrimplikation**: *Das Tempo ist entscheidend.* Selbst kurze Mikropausen zwischen Instruktionssegmenten geben dem Gehirn der Studierenden Zeit, zerfallende Gedächtnisspuren aufzufrischen. Schnelle, ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen. Dies ist ein mechanistisch plausibles Argument für die Segmentierung von Vorlesungen und den Einbau kurzer Reflexionspausen --- unterstützt durch die allgemeine Forschung zu segmentierter Instruktion (Mayers Segmentierungsprinzip) und konsistent mit dem TBRS-Mechanismus, obwohl die spezifische TBRS-zu-Hörsaal-Kausalkette nicht direkt getestet wurde.
+**Lehrimplikation**: *Das Tempo ist entscheidend.* Selbst kurze Mikropausen zwischen Instruktionssegmenten geben dem Gehirn der Studierenden Zeit, zerfallende Gedächtnisspuren aufzufrischen. Schnelle, ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen. Dies ist ein mechanistisch plausibles Argument für die Segmentierung von Vorlesungen und den Einbau kurzer Reflexionspausen, unterstützt durch die allgemeine Forschung zu segmentierter Instruktion (Mayers Segmentierungsprinzip) und konsistent mit dem TBRS-Mechanismus, obwohl die spezifische TBRS-zu-Hörsaal-Kausalkette nicht direkt getestet wurde.
 
 ::: {.pro-tip}
 ### 30-Sekunden-Regel
 
-Bauen Sie nach jedem Schlüsselkonzept eine 30--60-Sekunden-Pause ein:
+Baue nach jedem Schlüsselkonzept eine 30--60-Sekunden-Pause ein:
 
-- "Notieren Sie in einem Satz, was Sie gerade verstanden haben"
-- "Wenden Sie sich an Ihren Nachbarn und erklären Sie das Konzept"
+- "Notiere in einem Satz, was du gerade verstanden hast"
+- "Wende dich an deinen Nachbarn und erkläre das Konzept"
 - Oder einfach: Schweigen. Das Gehirn arbeitet weiter.
 
-Diese Pausen sind keine verlorene Lehrzeit --- sie sind Lehrzeit für das Arbeitsgedächtnis.
+Diese Pausen sind keine verlorene Lehrzeit, sondern Lehrzeit für das Arbeitsgedächtnis.
 :::
 
 
@@ -137,9 +137,9 @@ Klaus Oberauer erweiterte Cowans Modell zu drei konzentrischen Ebenen:
 2. **Region des direkten Zugriffs**: ~4 Elemente, die für die Verarbeitung verfügbar sind
 3. **Aufmerksamkeitsfokus**: 1 Element, das gerade bearbeitet wird
 
-Oberauers besondere Einsicht: Die eigentliche Engstelle ist nicht die Speicherung --- sie ist die **Bindung**. Es geht nicht nur darum, vier Elemente zu halten; es geht darum, zu behalten, *welches Element zu welchem gehört*, *was auf was folgt* und *wie die Dinge zusammenhängen*.
+Oberauers besondere Einsicht: Die eigentliche Engstelle ist nicht die Speicherung, sondern die **Bindung**. Es geht nicht nur darum, vier Elemente zu halten; es geht darum, zu behalten, *welches Element zu welchem gehört*, *was auf was folgt* und *wie die Dinge zusammenhängen*.
 
-**Lehrimplikation**: Verstehen ist fundamental eine Frage der **relationalen Struktur**. Wenn Sie ein Konzept unterrichten, müssen Studierende nicht nur die einzelnen Elemente halten --- sie müssen die Bindungen zwischen ihnen aufrechterhalten. Deshalb ist Material mit hoher **Elementinteraktivität** (bei dem viele Elemente gleichzeitig in Beziehung zueinander verstanden werden müssen) so anspruchsvoll.
+**Lehrimplikation**: Verstehen ist fundamental eine Frage der **relationalen Struktur**. Wenn du ein Konzept unterrichtest, müssen Studierende nicht nur die einzelnen Elemente halten, sondern auch die Bindungen zwischen ihnen aufrechterhalten. Deshalb ist Material mit hoher **Elementinteraktivität** (bei dem viele Elemente gleichzeitig in Beziehung zueinander verstanden werden müssen) so anspruchsvoll.
 
 
 ### Slots vs. Ressourcen: Eine aktuelle Debatte
@@ -154,45 +154,45 @@ Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Gena
 ::: {.reflect}
 ### Selbsttest: Modelle vergleichen
 
-**Ohne zurückzuschauen**, ordnen Sie zu:
+**Ohne zurückzuschauen**, ordne zu:
 
 1. Welches Modell erklärt, warum Pausen so wichtig sind?
 2. Welches Modell erklärt, warum Vorwissen die effektive Kapazität verändert?
 3. Welches Modell erklärt, warum "in Beziehung setzen" schwieriger ist als "merken"?
 4. Welches Modell erklärt, warum zwei Eingangskanäle besser sind als einer?
 
-*Vergleichen Sie anschliessend mit dem Text. Wo lagen Sie richtig? Wo müssen Sie nochmals lesen?*
+*Vergleiche anschliessend mit dem Text. Wo lagst du richtig? Wo musst du nochmals lesen?*
 :::
 
 
 ## Das Problem neuer Inhalte
 
-Hier wird es für die Lehre entscheidend. Alle Mechanismen, die das Arbeitsgedächtnis effektiver machen --- Chunking, Schema-Aktivierung, Langzeit-Arbeitsgedächtnis --- sind **Produkte früheren Lernens**. Wenn Inhalte für Studierende wirklich neu sind, steht keiner dieser Mechanismen zur Verfügung.
+Hier wird es für die Lehre entscheidend. Alle Mechanismen, die das Arbeitsgedächtnis effektiver machen (Chunking, Schema-Aktivierung, Langzeit-Arbeitsgedächtnis) sind **Produkte früheren Lernens**. Wenn Inhalte für Studierende wirklich neu sind, steht keiner dieser Mechanismen zur Verfügung.
 
 ### Das Bootstrapping-Problem
 
-Für den Experten ist "F = ma" ein einziger, reichhaltiger Chunk im Langzeitgedächtnis --- verknüpft mit Konzepten, Beispielen und Intuitionen. Verwendet ~1 Arbeitsgedächtnis-Slot. Hohe Präzision. Leicht aufzufrischen.
+Für den Experten ist "F = ma" ein einziger, reichhaltiger Chunk im Langzeitgedächtnis, verknüpft mit Konzepten, Beispielen und Intuitionen. Verwendet ~1 Arbeitsgedächtnis-Slot. Hohe Präzision. Leicht aufzufrischen.
 
 Für den Anfänger sind "F", "m" und "a" drei separate Elemente ohne Verbindung. Wie hängen sie zusammen? Was bedeutet "=" hier? Es werden 3+ Arbeitsgedächtnis-Slots verwendet. Niedrige Präzision. Schwer aufrechtzuerhalten.
 
 Bei neuen Inhalten:
 
-- **Chunking kann nicht helfen** --- es gibt keine vorhandenen Schemas zum Komprimieren
+- **Chunking kann nicht helfen**, weil es keine vorhandenen Schemas zum Komprimieren gibt
 - **Aktiviertes LTM hat nichts Relevantes** zur Unterstützung der aktuellen Verarbeitung
-- **Auffrischung ist weniger effektiv** --- keine LTM-Anker zum Stabilisieren der Spuren
-- **Jede Bindung ist willkürlich** --- die relationale Struktur muss durch rohe Anstrengung aufrechterhalten werden
-- **Präzisionsanforderungen sind höher** --- degradierte Repräsentationen können nicht aus Hintergrundwissen rekonstruiert werden
+- **Auffrischung ist weniger effektiv**, weil keine LTM-Anker die Spuren stabilisieren
+- **Jede Bindung ist willkürlich**, und die relationale Struktur muss durch rohe Anstrengung aufrechterhalten werden
+- **Präzisionsanforderungen sind höher**, weil degradierte Repräsentationen nicht aus Hintergrundwissen rekonstruiert werden können
 
-Die Modelle legen nahe, dass der initiale Erwerb **qualitativ unterschiedlichen kognitiven Einschränkungen** unterliegen könnte als die spätere Verfeinerung --- nicht nur langsamer, sondern fundamental anders.
+Die Modelle legen nahe, dass der initiale Erwerb **qualitativ unterschiedlichen kognitiven Einschränkungen** unterliegen könnte als die spätere Verfeinerung, also nicht nur langsamer, sondern fundamental anders.
 
 ### Der Expertise Reversal Effect
 
 Instruktionshilfen, die Anfängern helfen (z.B. durchgearbeitete Beispiele), können Experten sogar *schaden*:
 
 - Für **Anfänger** reduzieren durchgearbeitete Beispiele die extrinsische Last, indem sie vororganisierte relationale Struktur liefern
-- Für **Experten** ist dieselbe Strukturierung redundant --- sie zwingt sie, Information zu verarbeiten, die sie bereits geChunkt haben
+- Für **Experten** ist dieselbe Strukturierung redundant, weil sie sie zwingt, Information zu verarbeiten, die sie bereits geChunkt haben
 
-**Lehrimplikation**: Bieten Sie Scaffolding als *optionales* Material an, nicht als Pflicht --- damit fortgeschrittene Studierende nicht gezwungen werden, redundante Struktur zu verarbeiten.
+**Lehrimplikation**: Biete Scaffolding als *optionales* Material an, nicht als Pflicht, damit fortgeschrittene Studierende nicht gezwungen werden, redundante Struktur zu verarbeiten.
 
 
 ## Cognitive Load Theory: Vom Labor ins Klassenzimmer
@@ -203,34 +203,34 @@ Die Cognitive Load Theory [CLT; @swellerCognitiveLoadTheory2011], entwickelt von
 
 | Art | Beschreibung | Ziel |
 |-----|-------------|------|
-| **Intrinsisch** | Inhärente Komplexität des Materials (Elementinteraktivität) | Angemessen dosieren --- durch Sequenzierung und Vorwissensaufbau |
+| **Intrinsisch** | Inhärente Komplexität des Materials (Elementinteraktivität) | Angemessen dosieren, und zwar durch Sequenzierung und Vorwissensaufbau |
 | **Extrinsisch** | Verursacht durch schlechtes Instruktionsdesign | **Minimieren** |
 | **Germane Processing*** | Produktive Verarbeitung: Schemabildung, Integration, Elaboration | **Raum dafür schaffen** |
 
-\* In der aktuellen CLT wurde "germane load" als *germane processing* rekonzeptualisiert --- nicht als separater Belastungstyp, sondern als der produktive Anteil der intrinsischen Verarbeitung, der der Schemakonstruktion gewidmet ist [@swellerDevelopmentCognitiveLoad2023].
+\* In der aktuellen CLT wurde "germane load" als *germane processing* rekonzeptualisiert, nicht als separater Belastungstyp, sondern als der produktive Anteil der intrinsischen Verarbeitung, der der Schemakonstruktion gewidmet ist [@swellerDevelopmentCognitiveLoad2023].
 
 ### Vier behebbare Quellen extrinsischer Last
 
 | Problem | Was passiert | Lösung |
 |---------|------------|--------|
-| **Split Attention** | Diagramm hier, Erklärung dort --- Studierende integrieren mental | Labels ins Diagramm. Verbal erklären, während man zeigt. |
-| **Redundanz** | Text auf Folie wird vorgelesen --- zwei verbale Ströme konkurrieren | Visuals auf Folien. Verbal erklären. **Nie Folien vorlesen.** |
-| **Seductive Details** | Interessante, aber irrelevante Anekdote --- bindet Aufmerksamkeit ohne Lernfortschritt | Streichen. Engagement &ne; Lernen. |
-| **Transiente Information** | Lange gesprochene Erklärung --- frühere Schritte vergessen | Persistente visuelle Referenz bereitstellen. |
+| **Split Attention** | Diagramm hier, Erklärung dort: Studierende integrieren mental | Labels ins Diagramm. Verbal erklären, während man zeigt. |
+| **Redundanz** | Text auf Folie wird vorgelesen, und zwei verbale Ströme konkurrieren | Visuals auf Folien. Verbal erklären. **Nie Folien vorlesen.** |
+| **Seductive Details** | Interessante, aber irrelevante Anekdote, die Aufmerksamkeit bindet ohne Lernfortschritt | Streichen. Engagement &ne; Lernen. |
+| **Transiente Information** | Lange gesprochene Erklärung, bei der frühere Schritte vergessen werden | Persistente visuelle Referenz bereitstellen. |
 
 **Das Designprinzip**: Extrinsische Last eliminieren &rarr; Arbeitsgedächtniskapazität freisetzen &rarr; damit sie für die produktive Verarbeitung (germane processing) der intrinsisch komplexen Inhalte zur Verfügung steht.
 
 ::: {.reflect}
 ### Anwendung auf die eigene Lehre
 
-Denken Sie an Ihre letzte Vorlesung oder Lehrveranstaltung:
+Denke an deine letzte Vorlesung oder Lehrveranstaltung:
 
-1. Wo gab es **Split Attention** --- mussten Studierende zwischen verschiedenen Quellen hin- und herspringen?
-2. Wo gab es **Redundanz** --- haben Sie Folientext vorgelesen?
-3. Gab es **Seductive Details** --- interessante, aber irrelevante Einschübe?
-4. Gab es **transiente Information** --- lange gesprochene Erklärungen ohne visuelle Unterstützung?
+1. Wo gab es **Split Attention**, also mussten Studierende zwischen verschiedenen Quellen hin- und herspringen?
+2. Wo gab es **Redundanz**, hast du Folientext vorgelesen?
+3. Gab es **Seductive Details**, also interessante, aber irrelevante Einschübe?
+4. Gab es **transiente Information**, also lange gesprochene Erklärungen ohne visuelle Unterstützung?
 
-Identifizieren Sie eine konkrete Änderung, die Sie beim nächsten Mal umsetzen würden.
+Identifiziere eine konkrete Änderung, die du beim nächsten Mal umsetzen würdest.
 :::
 
 
@@ -242,7 +242,7 @@ Inhalte mit hoher Elementinteraktivität in handhabbare Teile zerlegen. Komponen
 
 ### 2. Dual Coding nutzen
 
-Informationen über beide Kanäle gleichzeitig präsentieren --- Diagramm mit gesprochener Erklärung. Nicht den Folientext vorlesen.
+Informationen über beide Kanäle gleichzeitig präsentieren, also Diagramm mit gesprochener Erklärung. Nicht den Folientext vorlesen.
 
 ### 3. Extrinsische Last eliminieren
 
@@ -258,7 +258,7 @@ Maximale externe Struktur für neue Inhalte (durchgearbeitete Beispiele, Prozess
 
 ### 6. Elementinteraktivität explizit managen
 
-Nicht nur "langsamer" machen --- aktiv die Anzahl der Elemente reduzieren, die gleichzeitig verarbeitet werden müssen.
+Nicht nur "langsamer" machen, sondern aktiv die Anzahl der Elemente reduzieren, die gleichzeitig verarbeitet werden müssen.
 
 ### 7. Instruktion an das Expertise-Niveau anpassen
 
@@ -276,5 +276,3 @@ Die Prinzipien auf dieser Seite bilden die kognitive Grundlage für:
 
 Das Arbeitsgedächtnis erklärt, *warum* die Gestaltungsprinzipien funktionieren.
 :::
-
-

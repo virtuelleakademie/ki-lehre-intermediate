@@ -5,7 +5,7 @@ subtitle: "Aufgaben für das KI-Zeitalter gestalten"
 
 ## Überblick
 
-Dieses Framework hilft, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie **lernrelevante kognitive Verarbeitung** bewahren --- oder ob KI-Tools das Denken der Studierenden ersetzen können.
+Dieses Framework hilft, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie **lernrelevante kognitive Verarbeitung** bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.
 
 Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wird, folgt eine klare Handlungsempfehlung.
 
@@ -27,7 +27,7 @@ Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wir
 **Wo stehen die Studierenden auf dem Anfänger-Experten-Kontinuum?**
 
 - **Grundlagenphase** (Anfänger:innen): Interne Verarbeitung ist essentiell für Schemabildung → KI erst *nach* dem eigenen Versuch
-- **Fortgeschrittene Phase**: Expert:innen haben die Schemas bereits --- KI kann als Verstärker dienen
+- **Fortgeschrittene Phase**: Expert:innen haben die Schemas bereits, und KI kann als Verstärker dienen
 
 > **Wenn ja**: Interne Verarbeitung verlangen. Studierende müssen die Grundlagen *selbst* aufbauen, bevor KI-Tools sinnvoll eingesetzt werden können (→ Evaluationsparadox).
 
@@ -59,7 +59,7 @@ Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wir
 1. Studierende machen *zuerst* einen eigenen Versuch (Hypothese generieren, Lösung skizzieren, Argument formulieren)
 2. *Dann* wird mit KI verglichen, geprüft oder erweitert
 
-> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt den Prediction-Error-Mechanismus: Studierende bilden Vorhersagen, die an der Realität (oder am KI-Output) scheitern --- und daraus lernen.
+> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt den Prediction-Error-Mechanismus: Studierende bilden Vorhersagen, die an der Realität (oder am KI-Output) scheitern und daraus lernen.
 
 ::: {.callout-tip}
 ## Praxistipp: Relevante Merkmale signalisieren
@@ -69,7 +69,7 @@ In der Prüfphase brauchen Studierende **explizite Hinweise, worauf sie achten s
 **Statt:** "Vergleiche deinen Text mit dem KI-Text"
 **Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
 
-Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig --- mit ihm wird der Vergleich zum gezielten Lernmoment.
+Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig; mit ihm wird der Vergleich zum gezielten Lernmoment.
 :::
 
 
@@ -79,29 +79,29 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 
 | Frage | Theoretische Grundlage |
 |-------|------------------------|
-| 1. Geht es ums **Lernen**? | Lernen ≠ Leisten --- Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau |
-| 2. Werden **Grundlagen** aufgebaut? | Novizen-Experten-Progression & Expertise Reversal Effect --- was Anfängern hilft, schadet Experten |
-| 3. Muss **internes Wissen** nachgewiesen werden? | Schemabildung & Langzeitgedächtnis --- Wissen muss intern aufgebaut, nicht extern geliefert werden |
-| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Cargo Cult Scholarship --- Oberflächenprodukte ohne Denkprozess |
-| 5. Gibt es **Versuch-dann-Prüfe**? | Vorhersagefehler & Desirable Difficulties --- informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback |
+| 1. Geht es ums **Lernen**? | Lernen ≠ Leisten, denn Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau |
+| 2. Werden **Grundlagen** aufgebaut? | Novizen-Experten-Progression & Expertise Reversal Effect: Was Anfängern hilft, schadet Experten |
+| 3. Muss **internes Wissen** nachgewiesen werden? | Schemabildung & Langzeitgedächtnis, also Wissen muss intern aufgebaut, nicht extern geliefert werden |
+| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Cargo Cult Scholarship: Oberflächenprodukte ohne Denkprozess |
+| 5. Gibt es **Versuch-dann-Prüfe**? | Vorhersagefehler & Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback |
 
 
 ## Anwendungsbeispiel: Volkswirtschaftslehre
 
-**Ursprüngliche Aufgabe**: "Analysieren Sie die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
+**Ursprüngliche Aufgabe**: "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
 
 | Frage | Analyse |
 |-------|---------|
-| 1. Lernen? | Ja --- Hausaufgabe im 2. Semester |
-| 2. Grundlagen? | Ja --- makroökonomische Modelle werden gerade aufgebaut |
-| 3. Internes Wissen? | Nein --- Text kann mit KI produziert werden |
-| 4. KI ohne Denkarbeit? | Ja --- ChatGPT liefert eine solide Analyse |
-| 5. Versuch-dann-Prüfe? | Nein --- keine Struktur dafür |
+| 1. Lernen? | Ja, denn es ist eine Hausaufgabe im 2. Semester |
+| 2. Grundlagen? | Ja, denn makroökonomische Modelle werden gerade aufgebaut |
+| 3. Internes Wissen? | Nein, der Text kann mit KI produziert werden |
+| 4. KI ohne Denkarbeit? | Ja, ChatGPT liefert eine solide Analyse |
+| 5. Versuch-dann-Prüfe? | Nein, keine Struktur dafür |
 
 **Redesign:**
 
 - **Phase 1**: Studierende skizzieren *zuerst* ihre eigene kausale Argumentationskette (handschriftlich oder zeitbegrenzt)
-- **Phase 2**: KI-generierte Analyse als Vergleich --- Studierende identifizieren Unterschiede und bewerten beide Argumentationen
+- **Phase 2**: KI-generierte Analyse als Vergleich, wobei Studierende Unterschiede identifizieren und beide Argumentationen bewerten
 - **Phase 3**: Mündliche Kurzpräsentation der Synthese (2 Min)
 
 → Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
@@ -144,24 +144,24 @@ Die 5 Fragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach,
 | Sonde | Frage an Studierende | Was sie diagnostiziert | Theoretischer Anker |
 |-------|---------------------|----------------------|---------------------|
 | **Vorher** | "Was hast du versucht, bevor du KI gefragt hast?" | Gab es einen eigenen Versuch? (Generation) | Generierungseffekt, Desirable Difficulties |
-| **Während** | "Wo hat dich die KI überrascht --- und warum?" | War das interne Modell aktiv? (Vorhersagefehler) | Prediction Error Learning, Evaluationsparadox |
-| **Nachher** | "Was machst du nächstes Mal anders --- ohne KI?" | Hat sich das Schema aktualisiert? (Transfer) | Wissenskompilation, Schemabildung |
+| **Während** | "Wo hat dich die KI überrascht, und warum?" | War das interne Modell aktiv? (Vorhersagefehler) | Prediction Error Learning, Evaluationsparadox |
+| **Nachher** | "Was machst du nächstes Mal anders, ohne KI?" | Hat sich das Schema aktualisiert? (Transfer) | Wissenskompilation, Schemabildung |
 
 ### So klingen die Antworten
 
 | Sonde | Outsourcing (Denken ausgelagert) | Genuine Verarbeitung (Denken geblieben) |
 |-------|--------------------------------|---------------------------------------|
 | **Vorher** | "Ich hab direkt ChatGPT gefragt" / vages "Ich hab mal überlegt" | "Ich hab zuerst X probiert, bin bei Y steckengeblieben, weil..." |
-| **Während** | "Nichts hat mich überrascht" / "Die KI hat gut geschrieben" | "Ich dachte, der Zusammenhang sei A, aber die KI hat B argumentiert --- das hat mich zum Nachdenken gebracht, weil..." |
+| **Während** | "Nichts hat mich überrascht" / "Die KI hat gut geschrieben" | "Ich dachte, der Zusammenhang sei A, aber die KI hat B argumentiert, und das hat mich zum Nachdenken gebracht, weil..." |
 | **Nachher** | "Keine Ahnung" / "Ich würde es genauso machen" | "Beim nächsten Mal würde ich zuerst X klären, weil ich gemerkt habe, dass..." |
 
-**Die Schlüsselsonde ist "Während":** Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten --- es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.
+**Die Schlüsselsonde ist "Während":** Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten, denn es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.
 
 ### Zwei Einsatzmodi
 
-**Modus 1 --- Einbauen:** Die Sonden als Teil der Aufgabe verlangen. Z.B.: *"Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?"* So wird die Diagnostik zum strukturellen Bestandteil --- der Strand zwingt die Ameise durch den Checkpoint.
+**Modus 1, Einbauen:** Die Sonden als Teil der Aufgabe verlangen. Z.B.: *"Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?"* So wird die Diagnostik zum strukturellen Bestandteil, und der Strand zwingt die Ameise durch den Checkpoint.
 
-**Modus 2 --- Nachfragen:** In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächssonden nutzen. Keine Vorbereitung nötig --- die Fragen funktionieren in jedem Fach.
+**Modus 2, Nachfragen:** In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächssonden nutzen. Keine Vorbereitung nötig, denn die Fragen funktionieren in jedem Fach.
 
 ::: {.callout-warning}
 ### Vorsicht vor Fehldiagnosen

@@ -33,26 +33,26 @@ Am Ende des Workshops können die Teilnehmer:innen:
 4. **Praxis umsetzen**: Einen KI-Agent gestalten, der produktive Anstrengung fördert statt ersetzt
 
 
-## Vorbereitung: Ihre Aufgabe unter der KI-Lupe (ca. 20 Min.)
+## Vorbereitung: Deine Aufgabe unter der KI-Lupe (ca. 20 Min.)
 
-Im Workshop werden Sie eine eigene Aufgabe aus Ihrer Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringen Sie bitte Folgendes vorbereitet mit.
+Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.
 
 ### Schritt 1: Aufgabe auswählen und mitbringen (5 Min.)
 
-**Wählen Sie eine konkrete Aufgabe oder Prüfung aus Ihrer Lehre**, die Studierende eigenständig bearbeiten --- z.B. eine Hausaufgabe, eine Seminararbeit, eine Übungsaufgabe oder eine Selbststudiums-Aufgabe.
+**Wähle eine konkrete Aufgabe oder Prüfung aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. eine Hausaufgabe, eine Seminararbeit, eine Übungsaufgabe oder eine Selbststudiums-Aufgabe.
 
 Am besten eignet sich eine Aufgabe, die:
 
 - ausserhalb des Unterrichts bearbeitet wird (ohne direkte Aufsicht)
 - bei der KI-Tools eine Rolle spielen könnten
-- die Sie idealerweise schon einmal eingesetzt haben
+- die du idealerweise schon einmal eingesetzt hast
 
-Bringen Sie die **Aufgabenstellung** mit (digital oder ausgedruckt).
+Bringe die **Aufgabenstellung** mit (digital oder ausgedruckt).
 
 ### Schritt 2: Kurze Selbstanalyse (15 Min.)
 
-Beantworten Sie diese drei Fragen --- in Stichworten genügt. Bringen Sie Ihre Notizen in den Workshop mit.
+Beantworte diese drei Fragen in Stichworten und bringe deine Notizen in den Workshop mit.
 
-1. **Was sollen Studierende durch diese Aufgabe *lernen*?** Nicht: Was sollen sie abgeben --- sondern: Was soll sich in ihren Köpfen verändern?
-2. **Was passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen?** Probieren Sie es nach Möglichkeit selbst aus: Geben Sie die Aufgabenstellung in ein KI-Tool ein und schauen Sie, was herauskommt.
-3. **Wo sehen Sie die grösste Gefahr**, dass Studierende zu wenig lernen, weil die KI die Denkarbeit übernimmt?
+1. **Was sollen Studierende durch diese Aufgabe *lernen*?** Nicht: Was sollen sie abgeben, sondern: Was soll sich in ihren Köpfen verändern?
+2. **Was passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen?** Probiere es nach Möglichkeit selbst aus. Gib die Aufgabenstellung in ein KI-Tool ein und schau, was herauskommt.
+3. **Wo siehst du die grösste Gefahr**, dass Studierende zu wenig lernen, weil die KI die Denkarbeit übernimmt?
