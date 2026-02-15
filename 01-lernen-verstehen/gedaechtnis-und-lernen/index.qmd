@@ -10,6 +10,12 @@ author:
 citation: true
 ---
 
+```{r}
+#| label: setup
+#| include: false
+source("../../resources/viz-setup.R")
+```
+
 ::: {.callout-note}
 ## Lesehinweise
 
@@ -220,18 +226,9 @@ Exakte Werte variieren über Studien hinweg, aber das Muster ist robust: Das Ers
 
 ```{r}
 #| label: fig-testing-effect
-#| fig-cap: "Daten basierend auf Roediger & Karpicke (2006). Wiederholtes Testen führt zu deutlich besserer Langzeiterinnerung als wiederholtes Studieren."
+#| echo: false
 #| fig-width: 9
 #| fig-height: 6
-#| echo: false
-
-library(tidyverse)
-library(showtext)
-font_add_google("Lato", "Lato")
-showtext_auto()
-
-brand_dark <- "#222222"
-brand_accent <- "#9A4665"
 
 testing_effect_data <- tibble(
   condition = factor(
@@ -242,29 +239,36 @@ testing_effect_data <- tibble(
 )
 
 ggplot(testing_effect_data, aes(x = condition, y = retention)) +
-  geom_col(aes(fill = retention), width = 0.65,
-           color = brand_dark, linewidth = 0.3) +
-  geom_text(aes(label = paste0(retention, "%")),
-            vjust = -0.5, size = 5, fontface = "bold",
-            color = brand_dark, family = "Lato") +
+  geom_col(
+    aes(fill = retention),
+    width = 0.65,
+    color = brand_dark,
+    linewidth = 0.3
+  ) +
+  geom_text(
+    aes(label = paste0(retention, "%")),
+    vjust = -0.5,
+    size = 5,
+    fontface = "bold",
+    color = brand_dark,
+  ) +
   scale_fill_gradient(low = "#f0a5bb", high = brand_accent, guide = "none") +
-  scale_y_continuous(limits = c(0, 70), breaks = seq(0, 60, 20),
-                     labels = paste0(seq(0, 60, 20), "%"),
-                     expand = expansion(mult = c(0, 0.05))) +
-  labs(title = "Testing Effekt",
-       subtitle = "Aktives Abrufen führt zu besserem Langzeitlernen als wiederholtes Studieren",
-       x = NULL, y = "Erinnerung nach 1 Woche (%)",
-       caption = "Daten basierend auf Roediger & Karpicke (2006)") +
-  theme_minimal(base_size = 13, base_family = "Lato") +
+  scale_y_continuous(
+    limits = c(0, 70),
+    breaks = seq(0, 60, 20),
+    labels = paste0(seq(0, 60, 20), "%"),
+    expand = expansion(mult = c(0, 0.05))
+  ) +
+  labs(
+    title = "Testing Effekt",
+    subtitle = "Aktives Abrufen führt zu besserem Langzeitlernen als wiederholtes Studieren",
+    x = NULL,
+    y = "Erinnerung nach 1 Woche (%)",
+    caption = "Daten basierend auf Roediger & Karpicke (2006)"
+  ) +
+  theme_workshop() +
   theme(
-    plot.title = element_text(face = "bold", size = 16, color = brand_dark),
-    plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
-    plot.caption = element_text(size = 9, color = "#666666", hjust = 0, margin = margin(t = 10)),
-    axis.title = element_text(face = "bold", size = 11),
-    axis.text = element_text(size = 10, color = brand_dark),
     axis.text.x = element_text(size = 11, face = "bold", lineheight = 1.1),
-    panel.grid.minor = element_blank(),
-    panel.grid.major = element_line(color = "#e5e7eb", linewidth = 0.3),
     panel.grid.major.x = element_blank()
   )
 ```
@@ -321,7 +325,6 @@ Diese Unterscheidung ist kritisch, weil **Studierende und Dozierende ihr eigenes
 ```{r}
 #| label: fig-lernparadox
 #| echo: false
-#| fig-cap: "Das Lernparadox: Subjektives Gefühl und tatsächliches Lernen können in unterschiedliche Richtungen weisen. Die metakognitive Falle liegt im unteren rechten Quadranten."
 #| fig-width: 10
 #| fig-height: 8
 
@@ -336,7 +339,7 @@ quadrants <- tibble(
     "Unproduktive\nFrustration",
     "Illusion des\nLernens"
   ),
-  fill_color = c("#16a34a", "#2563eb", "#9ca3af", "#dc2626"),
+  fill_color = c(color_positive, color_sky, "#9ca3af", color_negative),
   importance = c("ZIEL", "OK für Fortgeschrittene", "Vermeiden", "FALLE")
 )
 
@@ -357,7 +360,6 @@ ggplot(quadrants) +
     fontface = "bold",
     lineheight = 0.9,
     color = brand_dark,
-    family = "Lato"
   ) +
   geom_text(
     aes(
@@ -368,7 +370,6 @@ ggplot(quadrants) +
     size = 3.8,
     fontface = "italic",
     color = brand_dark,
-    family = "Lato"
   ) +
   geom_curve(
     data = tibble(x = 8.2, y = 1.8, xend = 1.8, yend = 8.2),
@@ -385,7 +386,6 @@ ggplot(quadrants) +
     size = 4.2,
     fontface = "bold.italic",
     color = brand_accent,
-    family = "Lato"
   ) +
   scale_x_continuous(
     breaks = c(2.5, 7.5),
@@ -403,10 +403,8 @@ ggplot(quadrants) +
     x = "\nSubjektives Gefühl beim Lernen",
     y = "Tatsächliches Lernen\n"
   ) +
-  theme_minimal(base_size = 13, base_family = "Lato") +
+  theme_workshop() +
   theme(
-    plot.title = element_text(face = "bold", size = 16, color = brand_dark),
-    plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
     panel.grid = element_blank(),
     axis.line = element_line(color = brand_dark, linewidth = 0.8),
     axis.text = element_text(size = 12, face = "bold"),

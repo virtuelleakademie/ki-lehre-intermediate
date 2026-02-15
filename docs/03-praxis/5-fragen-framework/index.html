@@ -82,26 +82,26 @@ ul.task-list li input[type="checkbox"] {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -115,28 +115,6 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '💭';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
 div.callout-facilitator.callout {
   border-left-color: #d97706;
 }
@@ -146,17 +124,6 @@ div.callout-facilitator.callout-style-default > .callout-header {
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
   content: '📋';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -170,15 +137,48 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 </style>
@@ -336,9 +336,9 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   </ul>
 </li>
   <li>
-<a href="#vom-design-zur-praxis-3-sonden-f%C3%BCr-den-lehralltag" id="toc-vom-design-zur-praxis-3-sonden-für-den-lehralltag" class="nav-link" data-scroll-target="#vom-design-zur-praxis-3-sonden-f%C3%BCr-den-lehralltag">Vom Design zur Praxis: 3 Sonden für den Lehralltag</a>
+<a href="#vom-design-zur-praxis-3-diagnose-fragen-f%C3%BCr-den-lehralltag" id="toc-vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag" class="nav-link" data-scroll-target="#vom-design-zur-praxis-3-diagnose-fragen-f%C3%BCr-den-lehralltag">Vom Design zur Praxis: 3 Diagnose-Fragen für den Lehralltag</a>
   <ul class="collapse">
-<li><a href="#die-3-sonden" id="toc-die-3-sonden" class="nav-link" data-scroll-target="#die-3-sonden">Die 3 Sonden</a></li>
+<li><a href="#die-3-diagnose-fragen" id="toc-die-3-diagnose-fragen" class="nav-link" data-scroll-target="#die-3-diagnose-fragen">Die 3 Diagnose-Fragen</a></li>
   <li><a href="#so-klingen-die-antworten" id="toc-so-klingen-die-antworten" class="nav-link" data-scroll-target="#so-klingen-die-antworten">So klingen die Antworten</a></li>
   <li><a href="#zwei-einsatzmodi" id="toc-zwei-einsatzmodi" class="nav-link" data-scroll-target="#zwei-einsatzmodi">Zwei Einsatzmodi</a></li>
   </ul>
@@ -460,7 +460,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </tr>
 <tr class="even">
 <td>4. Kann KI <strong>ohne Denkarbeit</strong> erledigen?</td>
-<td>Cognitive Outsourcing &amp; Cargo Cult Scholarship: Oberflächenprodukte ohne Denkprozess</td>
+<td>Cognitive Outsourcing &amp; Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess</td>
 </tr>
 <tr class="odd">
 <td>5. Gibt es <strong>Versuch-dann-Prüfe</strong>?</td>
@@ -553,18 +553,18 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li>Spontane mündliche Interaktion maximieren</li>
 <li>Zeitbegrenzte Schreibübungen</li>
 <li>KI als Post-Produktions-Check, nicht als Produktionstool</li>
-</ul></section></section><section id="vom-design-zur-praxis-3-sonden-für-den-lehralltag" class="level2"><h2 class="anchored" data-anchor-id="vom-design-zur-praxis-3-sonden-für-den-lehralltag">Vom Design zur Praxis: 3 Sonden für den Lehralltag</h2>
-<p>Die 5 Fragen helfen beim <strong>Gestalten</strong> von Aufgaben. Aber wie prüft man danach, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:</p>
-<section id="die-3-sonden" class="level3"><h3 class="anchored" data-anchor-id="die-3-sonden">Die 3 Sonden</h3>
+</ul></section></section><section id="vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag" class="level2"><h2 class="anchored" data-anchor-id="vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag">Vom Design zur Praxis: 3 Diagnose-Fragen für den Lehralltag</h2>
+<p>Die 5 Fragen helfen beim <strong>Gestalten</strong> von Aufgaben. Aber wie prüft man danach, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Diagnose-Fragen, die den Versuch-dann-Prüfe-Bogen abbilden:</p>
+<section id="die-3-diagnose-fragen" class="level3"><h3 class="anchored" data-anchor-id="die-3-diagnose-fragen">Die 3 Diagnose-Fragen</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 9%">
+<col style="width: 14%">
+<col style="width: 28%">
 <col style="width: 29%">
-<col style="width: 30%">
-<col style="width: 29%">
+<col style="width: 28%">
 </colgroup>
 <thead><tr class="header">
-<th>Sonde</th>
+<th>Zeitpunkt</th>
 <th>Frage an Studierende</th>
 <th>Was sie diagnostiziert</th>
 <th>Theoretischer Anker</th>
@@ -592,12 +592,12 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </table></section><section id="so-klingen-die-antworten" class="level3"><h3 class="anchored" data-anchor-id="so-klingen-die-antworten">So klingen die Antworten</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 8%">
-<col style="width: 41%">
-<col style="width: 50%">
+<col style="width: 13%">
+<col style="width: 39%">
+<col style="width: 47%">
 </colgroup>
 <thead><tr class="header">
-<th>Sonde</th>
+<th>Zeitpunkt</th>
 <th>Outsourcing (Denken ausgelagert)</th>
 <th>Genuine Verarbeitung (Denken geblieben)</th>
 </tr></thead>
@@ -619,10 +619,10 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </tr>
 </tbody>
 </table>
-<p><strong>Die Schlüsselsonde ist “Während”:</strong> Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten, denn es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.</p>
+<p><strong>Die Schlüsselfrage ist “Während”:</strong> Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten, denn es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.</p>
 </section><section id="zwei-einsatzmodi" class="level3"><h3 class="anchored" data-anchor-id="zwei-einsatzmodi">Zwei Einsatzmodi</h3>
-<p><strong>Modus 1, Einbauen:</strong> Die Sonden als Teil der Aufgabe verlangen. Z.B.: <em>“Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?”</em> So wird die Diagnostik zum strukturellen Bestandteil, und der Strand zwingt die Ameise durch den Checkpoint.</p>
-<p><strong>Modus 2, Nachfragen:</strong> In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächssonden nutzen. Keine Vorbereitung nötig, denn die Fragen funktionieren in jedem Fach.</p>
+<p><strong>Modus 1, Einbauen:</strong> Die Fragen als Teil der Aufgabe verlangen. Z.B.: <em>“Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?”</em> So wird die Diagnostik zum strukturellen Bestandteil, und der Strand zwingt die Ameise durch den Checkpoint.</p>
+<p><strong>Modus 2, Nachfragen:</strong> In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächswerkzeug nutzen. Keine Vorbereitung nötig, denn die Fragen funktionieren in jedem Fach.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -635,7 +635,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <div class="callout-body-container callout-body">
 <ul>
 <li>
-<strong>Flüssige Leistung ≠ Outsourcing.</strong> Fortgeschrittene Studierende produzieren glatte Arbeit <em>und</em> bestehen die Sonden. Kompetenz nicht mit Outsourcing verwechseln.</li>
+<strong>Flüssige Leistung ≠ Outsourcing.</strong> Fortgeschrittene Studierende produzieren glatte Arbeit <em>und</em> bestehen die Diagnose-Fragen. Kompetenz nicht mit Outsourcing verwechseln.</li>
 <li>
 <strong>KI-Nutzung ≠ Outsourcing.</strong> Wer KI für Formatierung, Sprachkorrektur oder Literatursuche nutzt, während die konzeptuelle Arbeit intern bleibt, betreibt legitimes Offloading.</li>
 <li>
@@ -647,8 +647,8 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <div class="cell">
 <div id="fig-5-fragen-summary" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-5-fragen-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-7af9bd0a300845747a83" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-7af9bd0a300845747a83">{"x":{"diagram":"\ndigraph five_questions {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#2563eb\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#2563eb\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#2563eb\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#2563eb\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#2563eb\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#16a34a\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#16a34a\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#dc2626\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#dc2626\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#f59e0b\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"Aufgabe bereit ✓\n(mit oder ohne KI)\"\n    fillcolor = \"#16a34a\"\n    fontsize = 14\n  ]\n\n  noai [\n    label = \"Keine KI nötig ✓\nAufgabe funktioniert bereits\"\n    fillcolor = \"#16a34a\"\n    fontsize = 12\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q4 -> noai [label = \"  Nein +\n  bewahrt Anstrengung  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4; noai}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-491f614965af47895843" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-491f614965af47895843">{"x":{"diagram":"\ndigraph five_questions_summary {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#0072B2\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#0072B2\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#0072B2\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#0072B2\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#0072B2\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#0072B2\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#0072B2\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#D55E00\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#D55E00\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"Aufgabe bereit ✓\\n(mit oder ohne KI)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 14\n  ]\n\n  noai [\n    label = \"Keine KI nötig ✓\\nAufgabe funktioniert bereits\"\n    fillcolor = \"#0072B2\"\n    fontsize = 12\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q4 -> noai [label = \"  Nein +\\n  bewahrt Anstrengung  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4; noai}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-5-fragen-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;1

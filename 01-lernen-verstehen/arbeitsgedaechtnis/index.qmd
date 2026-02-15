@@ -10,6 +10,12 @@ author:
 citation: true
 ---
 
+```{r}
+#| label: setup
+#| include: false
+source("../../resources/viz-setup.R")
+```
+
 ::: {.callout-note}
 ## Lesehinweise
 
@@ -94,7 +100,7 @@ digraph bottleneck {
 
   wm [
     label = 'Arbeitsgedächtnis\\n\\n~4 Elemente\\n15–30 Sekunden\\nAktives Lernen'
-    fillcolor = '#f59e0b'
+    fillcolor = '#E69F00'
     fontsize = 13
     fontcolor = '#222222'
     margin = '0.3,0.2'
@@ -103,7 +109,7 @@ digraph bottleneck {
 
   ltm [
     label = 'Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas'
-    fillcolor = '#16a34a'
+    fillcolor = '#0072B2'
     fontsize = 13
     margin = '0.3,0.2'
     width = 2.8
@@ -260,77 +266,71 @@ Instruktionshilfen, die Anfängern helfen (z.B. durchgearbeitete Beispiele), kö
 
 ```{r}
 #| label: fig-expertise-reversal
-#| fig-cap: "Der Expertise Reversal Effekt: Optimale Unterstützung hängt vom Vorwissen ab. Permanentes KI-Scaffolding (gestrichelt) verhindert die Expertise-Entwicklung."
+#| echo: false
+#| fig-cap: "Expertise Reversal Effekt nach @kalyugaExpertiseReversalEffect2009: Worked Examples (hohe Anleitung) führen bei Anfängern zu besseren Lernergebnissen, weil sie die extrinsische kognitive Last senken. Mit zunehmender Expertise kehrt sich der Effekt um: Dieselbe Anleitung wird redundant und belastet das Arbeitsgedächtnis zusätzlich. Am Kreuzungspunkt überholt eigenständiges Problemlösen die angeleitete Instruktion. Ab diesem Punkt sollten Worked Examples schrittweise durch offenere Aufgabenformate ersetzt werden (Fading)."
 #| fig-width: 10
 #| fig-height: 6
-#| echo: false
 
-library(tidyverse)
-library(showtext)
-font_add_google("Lato", "Lato")
-showtext_auto()
-
-brand_dark <- "#222222"
-
-expertise_data <- tibble(expertise = seq(0, 10, 0.5)) |>
+expertise_data <- tibble(
+  expertise = seq(0, 10, 0.5)
+) |>
   mutate(
     worked_examples = 85 - 7 * expertise,
-    problem_solving = 35 + 4.5 * expertise,
-    permanent_scaffolding = 40 + 0.5 * expertise
+    problem_solving = 35 + 4.5 * expertise
   ) |>
   pivot_longer(
-    cols = c(worked_examples, problem_solving, permanent_scaffolding),
-    names_to = "condition", values_to = "outcome"
+    cols = c(worked_examples, problem_solving),
+    names_to = "condition",
+    values_to = "outcome"
   ) |>
   mutate(
-    condition = factor(condition,
-      levels = c("worked_examples", "problem_solving", "permanent_scaffolding"),
-      labels = c("Worked Examples / Hohe Anleitung",
-                 "Problemlösen / Niedrige Anleitung",
-                 "Permanentes KI-Scaffolding"))
+    condition = factor(
+      condition,
+      levels = c("worked_examples", "problem_solving"),
+      labels = c(
+        "Worked Examples / Hohe Anleitung",
+        "Problemlösen / Niedrige Anleitung"
+      )
+    )
   )
 
 crossing_x <- (85 - 35) / (7 + 4.5)
 crossing_y <- 85 - 7 * crossing_x
 
-ggplot(expertise_data, aes(x = expertise, y = outcome, color = condition, linetype = condition)) +
+ggplot(expertise_data, aes(x = expertise, y = outcome, color = condition)) +
   geom_line(linewidth = 1.2) +
   geom_point(
     data = tibble(x = crossing_x, y = crossing_y),
-    aes(x = x, y = y), color = brand_dark,
-    size = 4, shape = 21, fill = "white", stroke = 1.5, inherit.aes = FALSE
+    aes(x = x, y = y),
+    color = brand_dark,
+    size = 4, shape = 21, fill = "white", stroke = 1.5,
+    inherit.aes = FALSE
   ) +
-  annotate("text", x = crossing_x + 0.3, y = crossing_y + 7,
-           label = "Fading Point", size = 3.8, hjust = 0,
-           fontface = "italic", family = "Lato") +
-  scale_color_manual(values = c(
-    "Worked Examples / Hohe Anleitung" = "#2563eb",
-    "Problemlösen / Niedrige Anleitung" = "#16a34a",
-    "Permanentes KI-Scaffolding" = "#dc2626"), name = NULL) +
-  scale_linetype_manual(values = c(
-    "Worked Examples / Hohe Anleitung" = "solid",
-    "Problemlösen / Niedrige Anleitung" = "solid",
-    "Permanentes KI-Scaffolding" = "dashed"), name = NULL) +
-  scale_x_continuous(breaks = c(0, 5, 10),
-                     labels = c("Anfänger", "Mittel", "Experte")) +
-  scale_y_continuous(limits = c(20, 90), breaks = seq(20, 80, 20)) +
-  labs(title = "Expertise Reversal Effekt",
-       subtitle = "Optimale Unterstützung hängt vom Vorwissen ab",
-       x = "Expertise-Level", y = "Lernergebnis") +
-  theme_minimal(base_size = 13, base_family = "Lato") +
+  scale_color_manual(
+    values = c(
+      "Worked Examples / Hohe Anleitung" = color_positive,
+      "Problemlösen / Niedrige Anleitung" = color_attention
+    ),
+    name = NULL
+  ) +
+  scale_x_continuous(
+    breaks = c(0, 5, 10),
+    labels = c("Anfänger", "Mittel", "Experte")
+  ) +
+  scale_y_continuous(breaks = seq(20, 80, 20)) +
+  coord_cartesian(ylim = c(20, 90)) +
+  labs(
+    title = "Expertise Reversal Effekt",
+    subtitle = "Optimale Unterstützung hängt vom Vorwissen ab",
+    x = "Expertise-Level",
+    y = "Lernergebnis"
+  ) +
+  theme_workshop() +
   theme(
-    plot.title = element_text(face = "bold", size = 16, color = brand_dark),
-    plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
-    axis.title = element_text(face = "bold", size = 11),
-    axis.text = element_text(size = 10, color = brand_dark),
-    panel.grid.minor = element_blank(),
-    panel.grid.major = element_line(color = "#e5e7eb", linewidth = 0.3),
     legend.position = "bottom",
     legend.text = element_text(size = 10),
     legend.key.width = unit(2, "cm")
-  ) +
-  guides(color = guide_legend(nrow = 2, byrow = TRUE),
-         linetype = guide_legend(nrow = 2, byrow = TRUE))
+  )
 ```
 
 
@@ -361,17 +361,10 @@ Die Cognitive Load Theory [CLT; @swellerCognitiveLoadTheory2011], entwickelt von
 
 ```{r}
 #| label: fig-cognitive-load
-#| fig-cap: "Verteilung der kognitiven Belastung in drei Szenarien. Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität."
+#| echo: false
+#| fig-cap: "Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
 #| fig-width: 10
 #| fig-height: 6
-#| echo: false
-
-library(tidyverse)
-library(showtext)
-font_add_google("Lato", "Lato")
-showtext_auto()
-
-brand_dark <- "#222222"
 
 cognitive_load_data <- tibble(
   scenario = factor(
@@ -399,9 +392,9 @@ cognitive_load_data <- tibble(
   ungroup()
 
 load_colors <- c(
-  "Intrinsische Belastung" = "#64748b",
-  "Extrinsische Belastung" = "#dc2626",
-  "Lernrelevante Verarbeitung" = "#16a34a",
+  "Intrinsische Belastung" = color_neutral,
+  "Extrinsische Belastung" = color_negative,
+  "Lernrelevante Verarbeitung" = color_positive,
   "Ungenutzte Kapazität" = "#e5e7eb"
 )
 
@@ -410,29 +403,30 @@ ggplot(cognitive_load_data, aes(x = scenario, y = percentage, fill = load_type))
   geom_hline(yintercept = 100, linetype = "dashed", color = brand_dark, linewidth = 0.8) +
   geom_text(
     aes(y = y_pos, label = label),
-    color = "white", size = 4, fontface = "bold", family = "Lato"
+    color = "white",
+    size = 4,
+    fontface = "bold"
   ) +
-  annotate("text", x = 3.45, y = 102, label = "Kapazitätsgrenze",
-           size = 3.5, hjust = 0, family = "Lato") +
+  annotate(
+    "text",
+    x = 3.45, y = 102,
+    label = "Kapazitätsgrenze",
+    size = 3.5, hjust = 0  ) +
   scale_fill_manual(values = load_colors, name = "Belastungsart") +
   scale_y_continuous(
-    limits = c(0, 108), breaks = seq(0, 100, 25),
+    limits = c(0, 108),
+    breaks = seq(0, 100, 25),
     labels = paste0(seq(0, 100, 25), "%")
   ) +
   labs(
     title = "Verteilung der kognitiven Belastung",
-    subtitle = "Arbeitsgedächtniskapazität ist begrenzt \u2013 die Verteilung macht den Unterschied",
-    x = NULL, y = "Arbeitsgedächtniskapazität"
+    subtitle = "Arbeitsgedächtniskapazität ist begrenzt\u2002\u2013\u2002die Verteilung macht den Unterschied",
+    x = NULL,
+    y = "Arbeitsgedächtniskapazität"
   ) +
-  theme_minimal(base_size = 13, base_family = "Lato") +
+  theme_workshop() +
   theme(
-    plot.title = element_text(face = "bold", size = 16, color = brand_dark),
-    plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
-    axis.title = element_text(face = "bold", size = 11),
-    axis.text = element_text(size = 10, color = brand_dark),
     axis.text.x = element_text(size = 11, face = "bold"),
-    panel.grid.minor = element_blank(),
-    panel.grid.major = element_line(color = "#e5e7eb", linewidth = 0.3),
     panel.grid.major.x = element_blank(),
     legend.position = "bottom",
     legend.title = element_text(face = "bold", size = 10),

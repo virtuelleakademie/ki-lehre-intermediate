@@ -78,7 +78,7 @@ Tausche dich mit einem Partner aus:
 
 > "Muss die studierende Person nach deiner Änderung immer noch *selbst denken*, oder kann sie das Denken immer noch an die KI delegieren?"
 
-**Praxistest mit den 3 Sonden:** Könnte eine Studierende nach der Aufgabe konkret beantworten: *"Was hast du versucht, bevor du KI gefragt hast?"* und *"Wo hat dich die KI überrascht?"* Wenn nicht, schützt das Redesign den Denkprozess noch nicht ausreichend.
+**Praxistest mit den 3 Diagnose-Fragen:** Könnte eine Studierende nach der Aufgabe konkret beantworten: *"Was hast du versucht, bevor du KI gefragt hast?"* und *"Wo hat dich die KI überrascht?"* Wenn nicht, schützt das Redesign den Denkprozess noch nicht ausreichend.
 :::
 
 ### SHARE Phase (5 Min)
