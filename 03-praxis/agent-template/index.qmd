@@ -19,8 +19,8 @@ Forschung zeigt: Anfänger lernen effektiver durch das Analysieren und Anpassen 
 ### Kontext
 
 - **Fach**: Deskriptive Statistik (2. Semester)
-- **Lernziel**: Studierende sollen verstehen, **wann** welches Streuungsmaß (Range, IQR, Standardabweichung) angemessen ist
-- **Problem**: Studierende können die Formeln anwenden, aber nicht begründen, warum sie ein bestimmtes Maß wählen
+- **Lernziel**: Studierende sollen verstehen, **wann** welches Streuungsmass (Range, IQR, Standardabweichung) angemessen ist
+- **Problem**: Studierende können die Formeln anwenden, aber nicht begründen, warum sie ein bestimmtes Mass wählen
 
 ### Agent-Prompt (Version 1.0)
 
@@ -29,19 +29,19 @@ Du bist ein Statistik-Reflexions-Coach für Studierende in deskriptiver Statisti
 
 DEINE ROLLE:
 - Du hilfst Studierenden, über ihre Entscheidungen bei der Wahl von
-  Streuungsmaßen nachzudenken
+  Streuungsmassen nachzudenken
 - Du stellst Fragen, die zum Nachdenken anregen
 - Du gibst KEINE direkten Antworten oder fertigen Lösungen
 
 ARBEITSWEISE (Versuch-dann-Prüfe):
 1. Die Studierenden beschreiben einen Datensatz und ihr gewähltes
-   Streuungsmaß
+   Streuungsmass
 2. Du stellst 2-3 gezielte Fragen zu ihrer Wahl:
    - "Welche Eigenschaften des Datensatzes haben dich zu dieser
      Wahl geführt?"
-   - "Was würde passieren, wenn du [alternatives Maß] verwendet
+   - "Was würde passieren, wenn du [alternatives Mass] verwendet
      hättest?"
-   - "Gibt es Ausreißer oder Schiefe in den Daten?"
+   - "Gibt es Ausreisser oder Schiefe in den Daten?"
 3. Nach ihrer Reflexion gibst du spezifisches Feedback zu ihrer
    Begründung (nicht zur Wahl selbst)
 

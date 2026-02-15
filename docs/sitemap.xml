@@ -2,142 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/wie-menschen-lernen/index.html</loc>
-    <lastmod>2026-02-14T23:05:01.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/was-sind-agenten/index.html</loc>
-    <lastmod>2026-02-14T13:13:21.575Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/timer-1.html</loc>
-    <lastmod>2025-09-18T10:21:52.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/möglichkeiten-grenzen/index.html</loc>
-    <lastmod>2026-02-14T14:34:16.707Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/visualizations.html</loc>
-    <lastmod>2026-02-15T00:30:24.701Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/prompting/index.html</loc>
-    <lastmod>2026-02-14T13:05:04.088Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/learning-environment/index.html</loc>
-    <lastmod>2026-02-14T13:05:04.070Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/handout-make-it-stick/index.html</loc>
-    <lastmod>2026-02-14T15:50:48.319Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/agent-template/index.html</loc>
-    <lastmod>2026-02-14T22:30:13.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/5-fragen-framework/index.html</loc>
-    <lastmod>2026-02-15T19:21:22.201Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/02-ki-und-lernen/index.html</loc>
-    <lastmod>2026-02-15T19:26:02.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/02-ki-und-lernen/aktive-verarbeitung/index.html</loc>
-    <lastmod>2026-02-14T14:29:56.218Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/index.html</loc>
-    <lastmod>2026-02-15T19:22:38.762Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/arbeitsgedaechtnis/index.html</loc>
-    <lastmod>2026-02-15T16:55:44.009Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/einstieg/index.html</loc>
-    <lastmod>2026-02-15T20:13:41.936Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/index.html</loc>
-    <lastmod>2026-02-15T16:39:48.133Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/diskussion/index.html</loc>
-    <lastmod>2026-02-15T16:54:44.030Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/index.html</loc>
-    <lastmod>2026-02-15T20:13:41.936Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/gedaechtnis-und-lernen/index.html</loc>
-    <lastmod>2026-02-15T01:07:47.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/kompetenz-erwerben/index.html</loc>
-    <lastmod>2026-02-15T16:55:55.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/02-ki-und-lernen/how-humans-learn/index.html</loc>
-    <lastmod>2026-02-14T13:05:04.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/02-ki-und-lernen/skill-acquisition/index.html</loc>
-    <lastmod>2026-02-14T15:50:46.042Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/agent-beispiele/index.html</loc>
-    <lastmod>2026-02-14T15:51:26.976Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/fallstudien/index.html</loc>
-    <lastmod>2026-02-14T23:05:01.462Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/index.html</loc>
-    <lastmod>2026-02-15T19:41:50.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/produktive-anstrengung/index.html</loc>
-    <lastmod>2026-02-14T15:57:57.443Z</lastmod>
+    <lastmod>2026-02-15T22:08:25.084Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/resources.html</loc>
     <lastmod>2025-08-16T19:16:25.374Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/ki-und-lernen/index.html</loc>
-    <lastmod>2026-02-14T23:05:01.554Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/produktive-anstrengung/index.html</loc>
+    <lastmod>2026-02-15T22:17:51.989Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/prompting/index.html</loc>
-    <lastmod>2026-02-14T15:52:09.275Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/agent-beispiele/index.html</loc>
+    <lastmod>2026-02-14T23:05:01.542Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/was-ist-ki/index.html</loc>
-    <lastmod>2026-02-14T15:51:56.781Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/fallstudien/index.html</loc>
+    <lastmod>2026-02-14T23:05:01.462Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/was-sind-chatbots/index.html</loc>
-    <lastmod>2026-02-14T15:52:01.468Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/5-fragen-framework/index.html</loc>
+    <lastmod>2026-02-15T22:19:02.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/kompetenz-erwerben/index.html</loc>
+    <lastmod>2026-02-15T22:16:04.142Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/gedaechtnis-und-lernen/index.html</loc>
+    <lastmod>2026-02-15T20:41:51.313Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/moderation/index.html</loc>
     <lastmod>2026-02-15T20:13:41.936Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/produktive-anstrengung/index.html</loc>
-    <lastmod>2026-02-14T23:05:01.542Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/einstieg/index.html</loc>
+    <lastmod>2026-02-15T22:18:22.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/index.html</loc>
+    <lastmod>2026-02-15T21:30:08.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/diskussion/index.html</loc>
+    <lastmod>2026-02-15T22:18:42.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/index.html</loc>
+    <lastmod>2026-02-15T22:18:17.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/arbeitsgedaechtnis/index.html</loc>
+    <lastmod>2026-02-15T20:41:19.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/index.html</loc>
+    <lastmod>2026-02-15T22:15:00.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/02-ki-und-lernen/index.html</loc>
+    <lastmod>2026-02-15T22:16:52.847Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/agent-template/index.html</loc>
+    <lastmod>2026-02-15T21:22:16.340Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/03-praxis/index.html</loc>
+    <lastmod>2026-02-15T20:13:41.930Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/handout-make-it-stick/index.html</loc>
-    <lastmod>2026-02-14T23:05:01.542Z</lastmod>
+    <lastmod>2026-02-15T22:18:00.345Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/agent-beispiele/index.html</loc>
-    <lastmod>2026-02-14T23:05:01.542Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/resources/prompting/index.html</loc>
+    <lastmod>2026-02-14T13:05:04.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/slides/ki-und-lernen/index.html</loc>
+    <lastmod>2026-02-15T22:17:06.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-lehre-intermediate/vorbereitung/index.html</loc>
+    <lastmod>2026-02-15T21:37:02.718Z</lastmod>
   </url>
 </urlset>

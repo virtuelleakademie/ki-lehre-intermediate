@@ -138,6 +138,7 @@ digraph bottleneck {
 
 Forschende haben verschiedene Modelle vorgeschlagen, die unterschiedliche Aspekte des Systems erfassen und unterschiedliche Implikationen für die Lehre haben.
 
+::: {.callout-tip collapse="true"}
 ### Baddeleys Mehrkomponenten-Modell [-@baddeleyEpisodicBufferNew2000]
 
 Das bekannteste Modell beschreibt das Arbeitsgedächtnis als System mit getrennten Subsystemen, die von einer zentralen Exekutive gesteuert werden:
@@ -150,7 +151,9 @@ Das bekannteste Modell beschreibt das Arbeitsgedächtnis als System mit getrennt
 Die Subsysteme werden von der zentralen Exekutive *gesteuert*, sind aber eigenständige Komponenten, die nicht "in" der Exekutive enthalten sind.
 
 **Lehrimplikation**: Du hast **zwei Eingangskanäle**, einen verbalen und einen visuellen. Beide gleichzeitig nutzen (z.B. Diagramm mit gesprochener Erklärung) reduziert die gegenseitige Interferenz und unterstützt eine effektivere Verarbeitung. Aber: Zwei verbale Ströme (Folientext lesen und gleichzeitig denselben Inhalt hören) konkurrieren um *denselben* Kanal und erzeugen Redundanz, keine Erweiterung. **Lies nie deine Folien vor.**
+:::
 
+::: {.callout-tip collapse="true"}
 ### Cowans Modell der eingebetteten Prozesse [@cowanMagicalMysteryFour2010]
 
 Nelson Cowan schlug eine sparsamere Sicht vor: Arbeitsgedächtnis ist kein separates System. Es besteht aus **aktivierten Teilen des Langzeitgedächtnisses**, wobei eine kleine Teilmenge im **Aufmerksamkeitsfokus** gehalten wird (~4 Elemente).
@@ -160,7 +163,7 @@ Die Schlüsselidee: Die Grenze zwischen Arbeits- und Langzeitgedächtnis ist fli
 **Lehrimplikation**: Das ist der Grund, warum Vorwissensdiagnostik so wichtig ist. Dieselbe Vorlesung, dasselbe Material, und dennoch eine fundamental unterschiedliche kognitive Aufgabe, je nachdem, was Studierende bereits wissen. Ein Experte verarbeitet "F = ma" als **einen Chunk** in einem Arbeitsgedächtnis-Slot. Ein Anfänger verarbeitet es als **drei unverbundene Elemente**, die 3+ Slots beanspruchen, ohne Schema, das die Bindungen stabilisiert.
 
 ::: {.reflect}
-### Verbindung zur Praxis
+#### Verbindung zur Praxis
 
 Denke an ein Konzept aus deinem Fach, das Studierende regelmässig als "schwer" beschreiben:
 
@@ -168,8 +171,10 @@ Denke an ein Konzept aus deinem Fach, das Studierende regelmässig als "schwer" 
 - Wie viele "Slots" benötigt ein Experte für dasselbe Konzept?
 - Was sagt dieser Unterschied über deine Instruktionsstrategie?
 :::
+:::
 
 
+::: {.callout-tip collapse="true"}
 ### TBRS-Modell: Zeitbasierte Ressourcenteilung [@barrouilletWorkingMemoryLoss2015]
 
 Das TBRS-Modell bietet eine fundamental andere Erklärung für die Grenzen des Arbeitsgedächtnisses. Statt einer festen Anzahl von "Slots" schlägt es vor:
@@ -187,7 +192,7 @@ Was passiert bei unterschiedlicher Last:
 **Lehrimplikation**: *Das Tempo ist entscheidend.* Selbst kurze Mikropausen zwischen Instruktionssegmenten geben dem Gehirn der Studierenden Zeit, zerfallende Gedächtnisspuren aufzufrischen. Schnelle, ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen. Dies ist ein mechanistisch plausibles Argument für die Segmentierung von Vorlesungen und den Einbau kurzer Reflexionspausen, unterstützt durch die allgemeine Forschung zu segmentierter Instruktion (Mayers Segmentierungsprinzip) und konsistent mit dem TBRS-Mechanismus, obwohl die spezifische TBRS-zu-Hörsaal-Kausalkette nicht direkt getestet wurde.
 
 ::: {.pro-tip}
-### 30-Sekunden-Regel
+#### 30-Sekunden-Regel
 
 Baue nach jedem Schlüsselkonzept eine 30--60-Sekunden-Pause ein:
 
@@ -197,8 +202,10 @@ Baue nach jedem Schlüsselkonzept eine 30--60-Sekunden-Pause ein:
 
 Diese Pausen sind keine verlorene Lehrzeit, sondern Lehrzeit für das Arbeitsgedächtnis.
 :::
+:::
 
 
+::: {.callout-tip collapse="true"}
 ### Oberauers konzentrisches Modell [-@oberauerAccessInformationWorking2002]
 
 Klaus Oberauer erweiterte Cowans Modell zu drei konzentrischen Ebenen:
@@ -210,8 +217,9 @@ Klaus Oberauer erweiterte Cowans Modell zu drei konzentrischen Ebenen:
 Oberauers besondere Einsicht: Die eigentliche Engstelle ist nicht die Speicherung, sondern die **Bindung**. Es geht nicht nur darum, vier Elemente zu halten; es geht darum, zu behalten, *welches Element zu welchem gehört*, *was auf was folgt* und *wie die Dinge zusammenhängen*.
 
 **Lehrimplikation**: Verstehen ist fundamental eine Frage der **relationalen Struktur**. Wenn du ein Konzept unterrichtest, müssen Studierende nicht nur die einzelnen Elemente halten, sondern auch die Bindungen zwischen ihnen aufrechterhalten. Deshalb ist Material mit hoher **Elementinteraktivität** (bei dem viele Elemente gleichzeitig in Beziehung zueinander verstanden werden müssen) so anspruchsvoll.
+:::
 
-
+::: {.callout-tip collapse="true"}
 ### Slots vs. Ressourcen: Eine aktuelle Debatte
 
 Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Genauigkeit (**Slots**) oder verteilt es eine kontinuierliche Ressource über Elemente (**Ressourcen**)? Neuere Evidenz favorisiert zunehmend **Hybridmodelle**, die Elemente beider Ansätze kombinieren, aber die Debatte hat praktische Implikationen:
@@ -220,6 +228,7 @@ Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Gena
 - **Ressourcen-Modell**: Mehr Elemente = weniger Präzision für jedes einzelne; weniger Elemente = höhere Präzision
 
 **Lehrimplikation**: Eine Überladung des Arbeitsgedächtnisses führt möglicherweise nicht dazu, dass Elemente einfach *verschwinden*. Stattdessen werden alle Repräsentationen *verrauschter und weniger präzise*. Das entspricht der Erfahrung mit Studierenden, die "so ungefähr" mehrere Dinge verstehen, aber keines davon sicher beherrschen. Manchmal ist es besser, weniger Dinge gründlich zu lehren als viele Dinge oberflächlich.
+:::
 
 ::: {.reflect}
 ### Selbsttest: Modelle vergleichen

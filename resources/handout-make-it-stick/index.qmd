@@ -5,7 +5,7 @@ title: "Die 8 Make it Stick Strategien"
 
 ## Kernprinzip
 
-**Effortful Learning ist effektiver**: Anstrengung beim Lernen ist ein Feature, nicht ein Bug. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
+**Effortful Learning ist effektiver**: Wenn Lernen sich anstrengend anfühlt, signalisiert das oft, dass lernrelevante Prozesse (Abruf, Elaboration, Schemabildung) aktiv sind. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
 
 
 ::: {.callout-note}

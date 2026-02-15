@@ -1,6 +1,6 @@
  ---
 title: "Wie Menschen lernen"
-subtitle: "Cognitive effort isn't a bug---it's the feature"
+subtitle: "The right kind of cognitive effort is not a bug---it's a signal that learning is happening"
 ---
 
 
@@ -31,7 +31,7 @@ Aber halt...
 :::
 
 :::{.fragment}
-Was ist, wenn **Anstrengung** beim Lernen wichtiger ist als das **Ergebnis**?
+Was ist, wenn der **kognitive Prozess** beim Lernen wichtiger ist als das **Ergebnis**?
 :::
 
 
@@ -68,7 +68,7 @@ Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben.
 
 ::: {.column width="50%"}
 ::: {.callout-important}
-Experten haben eine **kognitive Architektur**, also besser organisierte Wissensstrukturen, die Anfänger erst aufbauen müssen.
+Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich.
 :::
 :::
 
@@ -79,7 +79,7 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 ::::
 
 
-**Zwei verschiedene Betriebssysteme**
+**Gleiche Hardware, unterschiedliche Software**
 
 | Dimension       | **Anfänger**                                                              | **Experten**                                                 |
 | --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -98,8 +98,7 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 
 - **Begrenzt**: ~4 Elemente gleichzeitig
 - **Flüchtig**: Sekunden ohne Wiederholung
-- **Bottleneck**: Hier findet aktives Lernen statt
-- **Problem**: Schnell überlastet bei komplexen Aufgaben
+- **Nadelöhr**: Bewusste Verarbeitung findet hier statt
 :::
 
 :::{.column width="50%"}
@@ -107,8 +106,7 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 
 - **Unbegrenzt**: Keine bekannte Obergrenze
 - **Dauerhaft**: Jahre bis lebenslang
-- **Organisiert**: Schemata und Chunks
-- **Lösung**: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht
+- **Organisiert**: Schemata und automatisierte Prozesse
 :::
 ::::
 
@@ -119,18 +117,18 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 :::
 
 
-## Die drei Arten kognitiver Belastung
+## Zwei Quellen kognitiver Belastung
 
 ::::{.columns}
-:::{.column width="33%"}
+:::{.column width="50%"}
 **Intrinsisch**
 
-Komplexität des Lernstoffs selbst
+Komplexität des Lernstoffs selbst (Elementinteraktivität)
 
 *Begrenzt steuerbar (Sequenzierung)*
 :::
 
-:::{.column width="33%"}
+:::{.column width="50%"}
 :::{.fragment}
 **Extrinsisch**
 
@@ -139,17 +137,13 @@ Wie Material präsentiert wird
 *Durch Design **minimierbar***
 :::
 :::
-
-:::{.column width="33%"}
-:::{.fragment}
-**Lernrelevant**
-
-Mentaler Aufwand für Schemabildung
-
-***Raum dafür schaffen***
-:::
-:::
 ::::
+
+:::{.fragment}
+::: {.callout-tip}
+**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.
+:::
+:::
 
 
 ## Das Lerndilemma
@@ -157,7 +151,7 @@ Mentaler Aufwand für Schemabildung
 Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.
 
 :::{.fragment}
-Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklung.
+Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für Expertise-Entwicklung.
 :::
 
 :::{.fragment}
@@ -173,8 +167,8 @@ Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklun
 
 | Prinzip | Für Anfänger | Für Fortgeschrittene |
 |---------|--------------|----------------------|
-| **Worked Examples** | Reduziert kognitive Last | Langweilt und hemmt |
-| **Problem Solving** | Überfordert Arbeitsgedächtnis | Fördert Schemabildung |
+| **Worked Examples** | Reduziert kognitive Last | Redundante Information erzeugt extrinsische Last |
+| **Problem Solving** | Überfordert Arbeitsgedächtnis | Verfeinert und vernetzt bestehende Schemata |
 
 :::{.fragment}
 ::: {.callout-important}
@@ -191,9 +185,9 @@ Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklun
 
 | Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
 |--------|---------|--------|
-| **Intrinsisch** | Bleibt konstant | Wird umgangen |
+| **Intrinsisch** | Bleibt konstant | Lernende begegnen der Komplexität nicht |
 | **Extrinsisch** | Variabel | Minimiert |
-| **Lernrelevant** | Wird aufgebracht | **Eliminiert** |
+| **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
 
 ::: {.fragment}
 Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
@@ -203,41 +197,32 @@ Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr
 ## CLT und KI: Die Nuance
 
 ::: {.callout-note}
-Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
+Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
 :::
 
 :::{.fragment}
-Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last **erhalten bleiben**.
+Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung **erhalten bleiben**.
 :::
 
 :::{.fragment}
 Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 :::
 
-## Drei Lernmechanismen, die Outsourcing ausschaltet
+## Warum Outsourcing Schemabildung verhindert
 
-**1. Vorhersagefehler**
-
-- Normal: Lücke zwischen Erwartung & Realität = Lernsignal
-- Outsourcing: Keine Erwartungen → kein Lernen
+Schemabildung erfordert **aktive Verarbeitung** interagierender Elemente im Arbeitsgedächtnis. Outsourcing eliminiert diese Verarbeitung.
 
 :::{.fragment}
-**2. Gedächtniskonsolidierung**
+Das zeigt sich in drei Mechanismen:
 
-- Normal: Aktive Verarbeitung → Speicherung
-- Outsourcing: Passive Konsumption → Vergessen
-:::
-
-:::{.fragment}
-**3. Prozedurale Entwicklung**
-
-- Normal: Tausende Wiederholungen → Automatismen
-- Outsourcing: Überspringen → keine Expertise
+1. **Fehlende Modellaktivierung**: Ohne eigenen Versuch wird das interne Wissensmodell nicht aktiviert, und Feedback bleibt uninformativ
+2. **Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung im Langzeitgedächtnis
+3. **Prozedurale Entwicklung**: Ohne Übungszyklen keine Automatisierung
 :::
 
 :::{.fragment}
 ::: {.callout-warning}
-**Die CLT-Perspektive**: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
+Die kognitive Verarbeitung, die sich als Schwierigkeit anfühlt (Schemabildung, Abruf, Elaboration), ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
 :::
 :::
 
@@ -249,15 +234,15 @@ Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 | Gedächtnissystem | Beschreibung | Beispiel |
 | ---------------- | ------------ | -------- |
 | **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
-| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $3x + 5 = 20$ sehen → direkt wissen: $x = 5$ |
+| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $3x + 5 = 20$ sehen → automatisch umstellen, ohne bewusst über die Schritte nachzudenken |
 
 :::{.fragment}
 
 ### Der Weg zur Expertise
 
-**Deklarative Fakten** → Tausende Übungszyklen mit Vorhersagefehlern → **Prozedurale Automatismen**
+**Deklarative Fakten** → Tausende Übungszyklen mit Feedback → **Prozedurale Automatismen**
 
-Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Schemata
+Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln
 :::
 
 
@@ -277,7 +262,7 @@ Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Sche
 
 :::{.column width="50%"}
 :::{.fragment}
-**Was tatsächlich passiert:**
+**Was tatsächlich passiert (bei angemessener Herausforderung):**
 
 - Tiefes Verständnis bildet sich
 - Schemata werden aufgebaut
@@ -331,21 +316,21 @@ Jeder Zyklus: Vorhersage → Versuch → Fehler → Anpassung → stärkere Sche
 
 <br>
 
-**Unser metakognitives Urteil täuscht uns:**
+**Unser metakognitives Urteil führt uns systematisch in die Irre:**
 
-Was sich wie Lernen anfühlt (mühelose Produktion) ist oft das Gegenteil von Lernen.
-
-. . .
-
-<br>
-
-Produktive Anstrengung **fühlt sich schwierig an**, aber unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **ist die Schwierigkeit der Mechanismus**.
+Wir verwechseln Verarbeitungsflüssigkeit (wie leicht sich etwas anfühlt) mit Lernerfolg. Was sich mühelos anfühlt, fühlt sich wie Lernen an, ist es aber oft nicht.
 
 . . .
 
 <br>
 
-**Merksatz:** "Cognitive effort isn't a bug---it's the feature."
+Produktive Anstrengung **fühlt sich schwierig an**. Unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **signalisiert diese Schwierigkeit, dass lernrelevante Prozesse aktiv sind**: Schemabildung, Abruf, Elaboration.
+
+. . .
+
+<br>
+
+**Merksatz:** "The right kind of cognitive effort is not a bug---it's a signal that learning is happening."
 
 
 ## Bibliographie

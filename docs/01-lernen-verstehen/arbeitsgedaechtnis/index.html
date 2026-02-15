@@ -103,6 +103,72 @@ div.csl-indent {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-individual.callout {
   border-left-color: steelblue;
 }
@@ -134,72 +200,6 @@ div.callout-facilitator.callout-style-default > .callout-header {
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
   content: '📋';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -348,16 +348,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li><a href="#zentrale-eigenschaften" id="toc-zentrale-eigenschaften" class="nav-link" data-scroll-target="#zentrale-eigenschaften">Zentrale Eigenschaften</a></li>
   </ul>
 </li>
-  <li>
-<a href="#modelle-des-arbeitsged%C3%A4chtnisses" id="toc-modelle-des-arbeitsgedächtnisses" class="nav-link" data-scroll-target="#modelle-des-arbeitsged%C3%A4chtnisses">Modelle des Arbeitsgedächtnisses</a>
-  <ul class="collapse">
-<li><a href="#baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" id="toc-baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" class="nav-link" data-scroll-target="#baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000">Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(2000)</span></a></li>
-  <li><a href="#cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" id="toc-cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" class="nav-link" data-scroll-target="#cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010">Cowans Modell der eingebetteten Prozesse <span class="citation" data-cites="cowanMagicalMysteryFour2010">(Cowan 2010)</span></a></li>
-  <li><a href="#tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" id="toc-tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" class="nav-link" data-scroll-target="#tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015">TBRS-Modell: Zeitbasierte Ressourcenteilung <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(Barrouillet und Camos 2015)</span></a></li>
-  <li><a href="#oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" id="toc-oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" class="nav-link" data-scroll-target="#oberauers-konzentrisches-modell--oberaueraccessinformationworking2002">Oberauers konzentrisches Modell <span class="citation" data-cites="oberauerAccessInformationWorking2002">(2002)</span></a></li>
-  <li><a href="#slots-vs.-ressourcen-eine-aktuelle-debatte" id="toc-slots-vs.-ressourcen-eine-aktuelle-debatte" class="nav-link" data-scroll-target="#slots-vs.-ressourcen-eine-aktuelle-debatte">Slots vs.&nbsp;Ressourcen: Eine aktuelle Debatte</a></li>
-  </ul>
-</li>
+  <li><a href="#modelle-des-arbeitsged%C3%A4chtnisses" id="toc-modelle-des-arbeitsgedächtnisses" class="nav-link" data-scroll-target="#modelle-des-arbeitsged%C3%A4chtnisses">Modelle des Arbeitsgedächtnisses</a></li>
   <li>
 <a href="#das-problem-neuer-inhalte" id="toc-das-problem-neuer-inhalte" class="nav-link" data-scroll-target="#das-problem-neuer-inhalte">Das Problem neuer Inhalte</a>
   <ul class="collapse">
@@ -519,8 +510,18 @@ Abbildung&nbsp;1
 </div>
 </section></section><section id="modelle-des-arbeitsgedächtnisses" class="level2"><h2 class="anchored" data-anchor-id="modelle-des-arbeitsgedächtnisses">Modelle des Arbeitsgedächtnisses</h2>
 <p>Forschende haben verschiedene Modelle vorgeschlagen, die unterschiedliche Aspekte des Systems erfassen und unterschiedliche Implikationen für die Lehre haben.</p>
-<section id="baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000" class="level3"><h3 class="anchored" data-anchor-id="baddeleys-mehrkomponenten-modell--baddeleyepisodicbuffernew2000">Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(<a href="#ref-baddeleyEpisodicBufferNew2000" role="doc-biblioref">2000</a>)</span>
-</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tipp</span>Baddeleys Mehrkomponenten-Modell <span class="citation" data-cites="baddeleyEpisodicBufferNew2000">(<a href="#ref-baddeleyEpisodicBufferNew2000" role="doc-biblioref">2000</a>)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Das bekannteste Modell beschreibt das Arbeitsgedächtnis als System mit getrennten Subsystemen, die von einer zentralen Exekutive gesteuert werden:</p>
 <ul>
 <li>
@@ -534,8 +535,21 @@ Abbildung&nbsp;1
 </ul>
 <p>Die Subsysteme werden von der zentralen Exekutive <em>gesteuert</em>, sind aber eigenständige Komponenten, die nicht “in” der Exekutive enthalten sind.</p>
 <p><strong>Lehrimplikation</strong>: Du hast <strong>zwei Eingangskanäle</strong>, einen verbalen und einen visuellen. Beide gleichzeitig nutzen (z.B. Diagramm mit gesprochener Erklärung) reduziert die gegenseitige Interferenz und unterstützt eine effektivere Verarbeitung. Aber: Zwei verbale Ströme (Folientext lesen und gleichzeitig denselben Inhalt hören) konkurrieren um <em>denselben</em> Kanal und erzeugen Redundanz, keine Erweiterung. <strong>Lies nie deine Folien vor.</strong></p>
-</section><section id="cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010" class="level3"><h3 class="anchored" data-anchor-id="cowans-modell-der-eingebetteten-prozesse-cowanmagicalmysteryfour2010">Cowans Modell der eingebetteten Prozesse <span class="citation" data-cites="cowanMagicalMysteryFour2010">(<a href="#ref-cowanMagicalMysteryFour2010" role="doc-biblioref">Cowan 2010</a>)</span>
-</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tipp</span>Cowans Modell der eingebetteten Prozesse <span class="citation" data-cites="cowanMagicalMysteryFour2010">(<a href="#ref-cowanMagicalMysteryFour2010" role="doc-biblioref">Cowan 2010</a>)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Nelson Cowan schlug eine sparsamere Sicht vor: Arbeitsgedächtnis ist kein separates System. Es besteht aus <strong>aktivierten Teilen des Langzeitgedächtnisses</strong>, wobei eine kleine Teilmenge im <strong>Aufmerksamkeitsfokus</strong> gehalten wird (~4 Elemente).</p>
 <p>Die Schlüsselidee: Die Grenze zwischen Arbeits- und Langzeitgedächtnis ist fliessend. Wenn Studierende relevantes Vorwissen haben, kann dieses schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Vorwissen <strong>verändert die effektive Kapazität</strong> des Arbeitsgedächtnisses.</p>
 <p><strong>Lehrimplikation</strong>: Das ist der Grund, warum Vorwissensdiagnostik so wichtig ist. Dieselbe Vorlesung, dasselbe Material, und dennoch eine fundamental unterschiedliche kognitive Aufgabe, je nachdem, was Studierende bereits wissen. Ein Experte verarbeitet “F = ma” als <strong>einen Chunk</strong> in einem Arbeitsgedächtnis-Slot. Ein Anfänger verarbeitet es als <strong>drei unverbundene Elemente</strong>, die 3+ Slots beanspruchen, ohne Schema, das die Bindungen stabilisiert.</p>
@@ -557,8 +571,21 @@ Abbildung&nbsp;1
 </ul>
 </div>
 </div>
-</section><section id="tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015" class="level3"><h3 class="anchored" data-anchor-id="tbrs-modell-zeitbasierte-ressourcenteilung-barrouilletworkingmemoryloss2015">TBRS-Modell: Zeitbasierte Ressourcenteilung <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(<a href="#ref-barrouilletWorkingMemoryLoss2015" role="doc-biblioref">Barrouillet und Camos 2015</a>)</span>
-</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tipp</span>TBRS-Modell: Zeitbasierte Ressourcenteilung <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(<a href="#ref-barrouilletWorkingMemoryLoss2015" role="doc-biblioref">Barrouillet und Camos 2015</a>)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Das TBRS-Modell bietet eine fundamental andere Erklärung für die Grenzen des Arbeitsgedächtnisses. Statt einer festen Anzahl von “Slots” schlägt es vor:</p>
 <ul>
 <li>Das Modell behandelt <strong>Aufmerksamkeit als eine einzelne Ressource</strong>, die zwischen <em>Verarbeitung</em> (kognitive Arbeit) und <em>Aufrechterhaltung</em> (Elemente am Leben halten) geteilt werden muss</li>
@@ -576,7 +603,7 @@ Abbildung&nbsp;1
 </ul>
 <p><strong>Lehrimplikation</strong>: <em>Das Tempo ist entscheidend.</em> Selbst kurze Mikropausen zwischen Instruktionssegmenten geben dem Gehirn der Studierenden Zeit, zerfallende Gedächtnisspuren aufzufrischen. Schnelle, ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen. Dies ist ein mechanistisch plausibles Argument für die Segmentierung von Vorlesungen und den Einbau kurzer Reflexionspausen, unterstützt durch die allgemeine Forschung zu segmentierter Instruktion (Mayers Segmentierungsprinzip) und konsistent mit dem TBRS-Mechanismus, obwohl die spezifische TBRS-zu-Hörsaal-Kausalkette nicht direkt getestet wurde.</p>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -585,7 +612,7 @@ Abbildung&nbsp;1
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Baue nach jedem Schlüsselkonzept eine 30–60-Sekunden-Pause ein:</p>
 <ul>
@@ -597,8 +624,21 @@ Abbildung&nbsp;1
 </div>
 </div>
 </div>
-</section><section id="oberauers-konzentrisches-modell--oberaueraccessinformationworking2002" class="level3"><h3 class="anchored" data-anchor-id="oberauers-konzentrisches-modell--oberaueraccessinformationworking2002">Oberauers konzentrisches Modell <span class="citation" data-cites="oberauerAccessInformationWorking2002">(<a href="#ref-oberauerAccessInformationWorking2002" role="doc-biblioref">2002</a>)</span>
-</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tipp</span>Oberauers konzentrisches Modell <span class="citation" data-cites="oberauerAccessInformationWorking2002">(<a href="#ref-oberauerAccessInformationWorking2002" role="doc-biblioref">2002</a>)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Klaus Oberauer erweiterte Cowans Modell zu drei konzentrischen Ebenen:</p>
 <ol type="1">
 <li>
@@ -610,7 +650,21 @@ Abbildung&nbsp;1
 </ol>
 <p>Oberauers besondere Einsicht: Die eigentliche Engstelle ist nicht die Speicherung, sondern die <strong>Bindung</strong>. Es geht nicht nur darum, vier Elemente zu halten; es geht darum, zu behalten, <em>welches Element zu welchem gehört</em>, <em>was auf was folgt</em> und <em>wie die Dinge zusammenhängen</em>.</p>
 <p><strong>Lehrimplikation</strong>: Verstehen ist fundamental eine Frage der <strong>relationalen Struktur</strong>. Wenn du ein Konzept unterrichtest, müssen Studierende nicht nur die einzelnen Elemente halten, sondern auch die Bindungen zwischen ihnen aufrechterhalten. Deshalb ist Material mit hoher <strong>Elementinteraktivität</strong> (bei dem viele Elemente gleichzeitig in Beziehung zueinander verstanden werden müssen) so anspruchsvoll.</p>
-</section><section id="slots-vs.-ressourcen-eine-aktuelle-debatte" class="level3"><h3 class="anchored" data-anchor-id="slots-vs.-ressourcen-eine-aktuelle-debatte">Slots vs.&nbsp;Ressourcen: Eine aktuelle Debatte</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tipp</span>Slots vs.&nbsp;Ressourcen: Eine aktuelle Debatte
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Genauigkeit (<strong>Slots</strong>) oder verteilt es eine kontinuierliche Ressource über Elemente (<strong>Ressourcen</strong>)? Neuere Evidenz favorisiert zunehmend <strong>Hybridmodelle</strong>, die Elemente beider Ansätze kombinieren, aber die Debatte hat praktische Implikationen:</p>
 <ul>
 <li>
@@ -619,6 +673,9 @@ Abbildung&nbsp;1
 <strong>Ressourcen-Modell</strong>: Mehr Elemente = weniger Präzision für jedes einzelne; weniger Elemente = höhere Präzision</li>
 </ul>
 <p><strong>Lehrimplikation</strong>: Eine Überladung des Arbeitsgedächtnisses führt möglicherweise nicht dazu, dass Elemente einfach <em>verschwinden</em>. Stattdessen werden alle Repräsentationen <em>verrauschter und weniger präzise</em>. Das entspricht der Erfahrung mit Studierenden, die “so ungefähr” mehrere Dinge verstehen, aber keines davon sicher beherrschen. Manchmal ist es besser, weniger Dinge gründlich zu lehren als viele Dinge oberflächlich.</p>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-reflect callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -639,7 +696,7 @@ Abbildung&nbsp;1
 <p><em>Vergleiche anschliessend mit dem Text. Wo lagst du richtig? Wo musst du nochmals lesen?</em></p>
 </div>
 </div>
-</section></section><section id="das-problem-neuer-inhalte" class="level2"><h2 class="anchored" data-anchor-id="das-problem-neuer-inhalte">Das Problem neuer Inhalte</h2>
+</section><section id="das-problem-neuer-inhalte" class="level2"><h2 class="anchored" data-anchor-id="das-problem-neuer-inhalte">Das Problem neuer Inhalte</h2>
 <p>Hier wird es für die Lehre entscheidend. Alle Mechanismen, die das Arbeitsgedächtnis effektiver machen (Chunking, Schema-Aktivierung, Langzeit-Arbeitsgedächtnis) sind <strong>Produkte früheren Lernens</strong>. Wenn Inhalte für Studierende wirklich neu sind, steht keiner dieser Mechanismen zur Verfügung.</p>
 <section id="das-bootstrapping-problem" class="level3"><h3 class="anchored" data-anchor-id="das-bootstrapping-problem">Das Bootstrapping-Problem</h3>
 <p>Für den Experten ist “F = ma” ein einziger, reichhaltiger Chunk im Langzeitgedächtnis, verknüpft mit Konzepten, Beispielen und Intuitionen. Verwendet ~1 Arbeitsgedächtnis-Slot. Hohe Präzision. Leicht aufzufrischen.</p>

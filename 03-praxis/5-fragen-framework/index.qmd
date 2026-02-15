@@ -27,7 +27,7 @@ Dieses Framework ist kein etabliertes Modell aus der Literatur, sondern eine Syn
 - **Lernkontext** (Übungen, Hausaufgaben, Selbststudium): Der Prozess zählt, nicht das Produkt → KI-Outsourcing *verhindern*
 - **Leistungskontext** (Prüfungen, professionelle Aufgaben): Das Ergebnis zählt → KI-Unterstützung kann sinnvoll sein
 
-> **Wenn ja**: Outsourcing verhindern. Die kognitive Anstrengung *ist* das Lernziel.
+> **Wenn ja**: Outsourcing verhindern. Die lernrelevante kognitive Verarbeitung (Abruf, Elaboration, Schemabildung) ist das eigentliche Lernziel, nicht das Produkt.
 
 
 ### Frage 2: Werden noch Grundlagen aufgebaut?
@@ -67,7 +67,7 @@ Dieses Framework ist kein etabliertes Modell aus der Literatur, sondern eine Syn
 1. Studierende machen *zuerst* einen eigenen Versuch (Hypothese generieren, Lösung skizzieren, Argument formulieren)
 2. *Dann* wird mit KI verglichen, geprüft oder erweitert
 
-> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt den Prediction-Error-Mechanismus: Studierende bilden Vorhersagen, die an der Realität (oder am KI-Output) scheitern und daraus lernen.
+> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt die aktive Verarbeitung: Studierende aktivieren ihr internes Modell, bilden Vorhersagen und können aus der Diskrepanz zum KI-Output lernen.
 
 ::: {.callout-tip}
 ## Praxistipp: Relevante Merkmale signalisieren
@@ -121,7 +121,7 @@ Die ersten drei Fragen sind analysiert. Versuche, Fragen 4 und 5 selbst zu beant
 - **Phase 2**: KI-generierte Analyse als Vergleich, wobei Studierende Unterschiede identifizieren und beide Argumentationen bewerten
 - **Phase 3**: Mündliche Kurzpräsentation der Synthese (2 Min)
 
-Die Versuch-dann-Prüfe-Struktur bewahrt den Prediction-Error-Mechanismus. Die mündliche Komponente macht Outsourcing unmöglich.
+Die Versuch-dann-Prüfe-Struktur bewahrt die aktive Verarbeitung: Studierende aktivieren ihr Wissen, bilden Erwartungen und lernen aus der Diskrepanz. Die mündliche Komponente macht Outsourcing unmöglich.
 :::
 
 
