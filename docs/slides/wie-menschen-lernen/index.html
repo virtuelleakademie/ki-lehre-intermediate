@@ -181,6 +181,28 @@
     content: '📋';
     background-image: none;
   }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: steelblue;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
   div.callout-nachlesen.callout {
     border-left-color: #64748b;
   }
@@ -192,15 +214,15 @@
     content: '📖';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-agent-potential.callout {
@@ -223,28 +245,6 @@
   div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
     content: '💡';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
-    background-image: none;
-  }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
     background-image: none;
   }
   div.callout-group.callout {
@@ -394,16 +394,14 @@ Andrew Ellis
 <ul>
 <li><strong>Begrenzt</strong>: ~4 Elemente gleichzeitig</li>
 <li><strong>Flüchtig</strong>: Sekunden ohne Wiederholung</li>
-<li><strong>Bottleneck</strong>: Hier findet aktives Lernen statt</li>
-<li><strong>Problem</strong>: Schnell überlastet bei komplexen Aufgaben</li>
+<li><strong>Bottleneck</strong>: Hier findet Lernen statt</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <h3 id="langzeitgedächtnis">Langzeitgedächtnis</h3>
 <ul>
 <li><strong>Unbegrenzt</strong>: Keine bekannte Obergrenze</li>
 <li><strong>Dauerhaft</strong>: Jahre bis lebenslang</li>
-<li><strong>Organisiert</strong>: Schemata und Chunks</li>
-<li><strong>Lösung</strong>: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht</li>
+<li><strong>Organisiert</strong>: Schemata und automatisierte Prozesse</li>
 </ul>
 </div></div>
 <div class="fragment">
@@ -416,32 +414,35 @@ Andrew Ellis
 </div>
 </div>
 </section>
-<section id="die-drei-arten-kognitiver-belastung" class="slide level2">
-<h2>Die drei Arten kognitiver Belastung</h2>
+<section id="zwei-quellen-kognitiver-belastung" class="slide level2">
+<h2>Zwei Quellen kognitiver Belastung</h2>
 <div class="columns">
-<div class="column" style="width:33%;">
+<div class="column" style="width:50%;">
 <p><strong>Intrinsisch</strong></p>
-<p>Komplexität des Lernstoffs selbst</p>
+<p>Komplexität des Lernstoffs selbst (Elementinteraktivität)</p>
 <p><em>Begrenzt steuerbar (Sequenzierung)</em></p>
-</div><div class="column" style="width:33%;">
+</div><div class="column" style="width:50%;">
 <div class="fragment">
 <p><strong>Extrinsisch</strong></p>
 <p>Wie Material präsentiert wird</p>
 <p><em>Durch Design <strong>minimierbar</strong></em></p>
 </div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<p><strong>Lernrelevant</strong></p>
-<p>Mentaler Aufwand für Schemabildung</p>
-<p><strong><em>Raum dafür schaffen</em></strong></p>
-</div>
 </div></div>
+<div class="fragment">
+<div class="callout callout-tip no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Das Ziel:</strong> Raum schaffen für <em>germane processing</em>, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="das-lerndilemma" class="slide level2">
 <h2>Das Lerndilemma</h2>
 <p>Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.</p>
 <div class="fragment">
-<p>Aber: Lernrelevanter cognitive load ist <strong>essentiell</strong> für Expertise-Entwicklung.</p>
+<p>Aber: Lernrelevante Verarbeitung (<em>germane processing</em>) ist <strong>essentiell</strong> für Expertise-Entwicklung.</p>
 </div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
@@ -516,7 +517,7 @@ Andrew Ellis
 <td>Minimiert</td>
 </tr>
 <tr class="odd">
-<td><strong>Lernrelevant</strong></td>
+<td><strong>Lernrelevante Verarbeitung</strong></td>
 <td>Wird aufgebracht</td>
 <td><strong>Eliminiert</strong></td>
 </tr>
@@ -531,43 +532,33 @@ Andrew Ellis
 <div class="callout callout-note no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing).</p>
+<p>Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing).</p>
 </div>
 </div>
 </div>
 <div class="fragment">
-<p>Wenn KI <em>nach eigenem Versuch</em> als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last <strong>erhalten bleiben</strong>.</p>
+<p>Wenn KI <em>nach eigenem Versuch</em> als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung <strong>erhalten bleiben</strong>.</p>
 </div>
 <div class="fragment">
 <p>Die Reihenfolge entscheidet: <strong>Versuch → dann → KI-Feedback</strong></p>
 </div>
 </section>
-<section id="drei-lernmechanismen-die-outsourcing-ausschaltet" class="slide level2">
-<h2>Drei Lernmechanismen, die Outsourcing ausschaltet</h2>
-<p><strong>1. Vorhersagefehler</strong></p>
-<ul>
-<li>Normal: Lücke zwischen Erwartung &amp; Realität = Lernsignal</li>
-<li>Outsourcing: Keine Erwartungen → kein Lernen</li>
-</ul>
+<section id="warum-outsourcing-schemabildung-verhindert" class="slide level2">
+<h2>Warum Outsourcing Schemabildung verhindert</h2>
+<p>Schemabildung erfordert <strong>aktive Verarbeitung</strong> interagierender Elemente im Arbeitsgedächtnis. Outsourcing eliminiert diese Verarbeitung.</p>
 <div class="fragment">
-<p><strong>2. Gedächtniskonsolidierung</strong></p>
-<ul>
-<li>Normal: Aktive Verarbeitung → Speicherung</li>
-<li>Outsourcing: Passive Konsumption → Vergessen</li>
-</ul>
-</div>
-<div class="fragment">
-<p><strong>3. Prozedurale Entwicklung</strong></p>
-<ul>
-<li>Normal: Tausende Wiederholungen → Automatismen</li>
-<li>Outsourcing: Überspringen → keine Expertise</li>
-</ul>
+<p>Das zeigt sich in drei Mechanismen:</p>
+<ol type="1">
+<li><strong>Vorhersagefehler</strong>: Ohne eigenen Versuch keine Erwartungen, ohne Erwartungen kein Lernsignal</li>
+<li><strong>Konsolidierung</strong>: Ohne aktive Verarbeitung keine Speicherung im Langzeitgedächtnis</li>
+<li><strong>Prozedurale Entwicklung</strong>: Ohne Übungszyklen keine Automatisierung</li>
+</ol>
 </div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Die CLT-Perspektive</strong>: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.</p>
+<p>Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.</p>
 </div>
 </div>
 </div>

@@ -104,6 +104,7 @@ Dieser Übergang geschieht nicht automatisch. Er erfordert:
 - **Abstraktion**, also explizites Identifizieren der Tiefenstruktur über Beispiele hinweg
 
 
+::: {.callout-tip collapse="true"}
 ### Encoding Specificity und das Transfer-Problem
 
 Endel Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] besagt: Gedächtnisabruf ist am effektivsten, wenn der Abrufkontext mit dem Enkodierungskontext übereinstimmt. Dies ist einer der am besten gesicherten Befunde der Gedächtnisforschung, und er hat eine weitreichende Implikation für die Lehre:
@@ -115,13 +116,14 @@ Das erklärt, warum Studierende bei Hausaufgaben, die Vorlesungsbeispielen ähne
 **Lehrimplikation**: Um transferierbares Wissen aufzubauen, musst du bewusst die **Kontexte variieren**, in denen Studierende Konzepte begegnen und üben. Verschiedene Beispiele, verschiedene Oberflächenmerkmale, verschiedene Aufgabenformate verwenden. Jeder neue Kontext schafft zusätzliche Abrufpfade. Das ist auch ein starkes Argument für **Interleaving**, also das Mischen verschiedener Aufgabentypen statt ihrer Blockung, weil Interleaving Studierende zwingt, die *Auswahl* des richtigen Wissens zu üben, nicht nur dessen Ausführung.
 
 ::: {.reflect}
-### Anwendung: Transfer in deiner Lehre
+#### Anwendung: Transfer in deiner Lehre
 
 Denke an eine Prüfungsfrage, bei der viele Studierende überraschend schlecht abschneiden, obwohl das Material "behandelt" wurde:
 
 - In wie vielen verschiedenen Kontexten haben Studierende dieses Konzept geübt?
 - Wie ähnlich waren die Übungsaufgaben den Prüfungsaufgaben (Oberflächenmerkmale, nicht nur Tiefenstruktur)?
 - Was könntest du ändern, um mehr Transferpfade zu schaffen?
+:::
 :::
 
 
@@ -188,6 +190,7 @@ Enkodierung ist nicht das Ende der Geschichte. Nach dem initialen Lernen durchla
 
 **Lehrimplikation**: Die Struktur deines Kurses *über die Zeit* ist genauso wichtig wie der Inhalt einzelner Sitzungen. Lernen auf mehrere Sitzungen mit Schlaf dazwischen verteilen, Abrufgelegenheiten einbauen, die Tage und Wochen überspannen, und Schlüsselkonzepte in wachsenden Abständen wieder aufgreifen: All das nutzt Konsolidierung, um dauerhafteres, integrierteres, transferierbareres Wissen zu produzieren.
 
+::: {.callout-tip collapse="true"}
 ### Gestaffelter Abrufzeitplan
 
 Ein bewährtes Prinzip für die Kursgestaltung:
@@ -204,6 +207,7 @@ C:      .  .  *  R  .  R  .  .  .  R   .   R
 Jeder Abruf beinhaltet teilweises Vergessen &rarr; anstrengungsreiches Erinnern &rarr; Restabilisierung. Die Abstände wachsen, weil jeder erfolgreiche Abruf die Spur dauerhafter macht.
 
 *Hinweis*: Der optimale Spacing-Zeitplan wird diskutiert; einige Studien finden, dass gleichmässige Abstände vergleichbar wirksam sind. Der wichtigste Faktor ist, dass Spacing überhaupt stattfindet.
+:::
 
 
 ## Abruf ist ein Lernereignis

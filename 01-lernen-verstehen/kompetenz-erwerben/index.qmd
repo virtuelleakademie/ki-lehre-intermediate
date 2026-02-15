@@ -140,6 +140,8 @@ Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschließ
 **Das Grundproblem**: KI bietet die Vorteile von Expertise (sofortiger Zugriff auf organisiertes Wissen), ohne den Prozess, der Expertise schafft (Arbeitsgedächtnisanstrengung → Speicherung im Langzeitgedächtnis).
 :::
 
+Diese Risiken sind am gravierendsten bei systematischem, undifferenziertem Outsourcing. Gelegentliche KI-Nutzung nach eigenem Versuch kann den Lernprozess unterstützen, wie die Versuch-dann-Prüfe-Struktur in Teil 2 zeigt.
+
 ### Die Experten-Anfänger-Unterrichtsfalle
 
 Der gefährlichste Fehler in der Bildung ist anzunehmen, dass Anfänger so lernen sollten, wie Experten arbeiten. Kirschner [@kirschnerHowTeachingHappens2022] bezeichnet das als Verwechslung der **„Epistemologie des Experten mit der Pädagogik für Lernende"**.

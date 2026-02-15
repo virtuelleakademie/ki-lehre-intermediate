@@ -16,7 +16,7 @@ Tool reduziert Arbeitsgedächtnis-Last, **während** die Person denkt
 
 *Beispiel:* Taschenrechner bei Problemlösung
 
-Lernrelevante Last: **erhalten**
+Lernrelevante Verarbeitung: **erhalten**
 :::
 
 :::{.column width="4%"}
@@ -30,15 +30,19 @@ Tool **übernimmt** das Denken
 
 *Beispiel:* KI schreibt den Aufsatz
 
-Lernrelevante Last: **eliminiert**
+Lernrelevante Verarbeitung: **eliminiert**
 :::
 :::
 ::::
 
 :::{.fragment}
 ::: {.callout-warning}
-**Outsourcing eliminiert germane load. Das ist keine Nebenwirkung, das ist der Mechanismus.**
+**Outsourcing eliminiert die lernrelevante Verarbeitung. Das ist keine Nebenwirkung, das ist der Mechanismus.**
 :::
+:::
+
+:::{.fragment}
+Akademische Fähigkeiten sind **biologisch sekundäres Wissen** (vgl. Teil 1). Für solches Wissen gibt es keinen alternativen Erwerbsmechanismus: Anstrengende Verarbeitung ist der *einzige* Weg.
 :::
 
 
@@ -155,11 +159,9 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 
 . . .
 
-Die Reihenfolge bewahrt den **Prediction-Error-Mechanismus**:
-
-Studierende bilden Vorhersagen → scheitern an der Realität → lernen daraus
+Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende verarbeiten das Material im Arbeitsgedächtnis, bilden Vorhersagen und lernen aus Vorhersagefehlern.
 
 
 ## Jetzt seid ihr dran {.center}
 
-Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*.
+Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an. Ein Template für einen lernförderlichen Agent findet ihr als Ressource auf der Website.

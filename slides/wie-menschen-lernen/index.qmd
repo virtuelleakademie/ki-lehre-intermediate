@@ -98,8 +98,7 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 
 - **Begrenzt**: ~4 Elemente gleichzeitig
 - **Flüchtig**: Sekunden ohne Wiederholung
-- **Bottleneck**: Hier findet aktives Lernen statt
-- **Problem**: Schnell überlastet bei komplexen Aufgaben
+- **Bottleneck**: Hier findet Lernen statt
 :::
 
 :::{.column width="50%"}
@@ -107,8 +106,7 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 
 - **Unbegrenzt**: Keine bekannte Obergrenze
 - **Dauerhaft**: Jahre bis lebenslang
-- **Organisiert**: Schemata und Chunks
-- **Lösung**: Automatisierte Prozesse belasten Arbeitsgedächtnis nicht
+- **Organisiert**: Schemata und automatisierte Prozesse
 :::
 ::::
 
@@ -119,18 +117,18 @@ Experten haben eine **kognitive Architektur**, also besser organisierte Wissenss
 :::
 
 
-## Die drei Arten kognitiver Belastung
+## Zwei Quellen kognitiver Belastung
 
 ::::{.columns}
-:::{.column width="33%"}
+:::{.column width="50%"}
 **Intrinsisch**
 
-Komplexität des Lernstoffs selbst
+Komplexität des Lernstoffs selbst (Elementinteraktivität)
 
 *Begrenzt steuerbar (Sequenzierung)*
 :::
 
-:::{.column width="33%"}
+:::{.column width="50%"}
 :::{.fragment}
 **Extrinsisch**
 
@@ -139,17 +137,13 @@ Wie Material präsentiert wird
 *Durch Design **minimierbar***
 :::
 :::
-
-:::{.column width="33%"}
-:::{.fragment}
-**Lernrelevant**
-
-Mentaler Aufwand für Schemabildung
-
-***Raum dafür schaffen***
-:::
-:::
 ::::
+
+:::{.fragment}
+::: {.callout-tip}
+**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.
+:::
+:::
 
 
 ## Das Lerndilemma
@@ -157,7 +151,7 @@ Mentaler Aufwand für Schemabildung
 Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.
 
 :::{.fragment}
-Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklung.
+Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für Expertise-Entwicklung.
 :::
 
 :::{.fragment}
@@ -193,7 +187,7 @@ Aber: Lernrelevanter cognitive load ist **essentiell** für Expertise-Entwicklun
 |--------|---------|--------|
 | **Intrinsisch** | Bleibt konstant | Wird umgangen |
 | **Extrinsisch** | Variabel | Minimiert |
-| **Lernrelevant** | Wird aufgebracht | **Eliminiert** |
+| **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
 
 ::: {.fragment}
 Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
@@ -203,41 +197,32 @@ Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr
 ## CLT und KI: Die Nuance
 
 ::: {.callout-note}
-Lernrelevante Last wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
+Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
 :::
 
 :::{.fragment}
-Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann lernrelevante Last **erhalten bleiben**.
+Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung **erhalten bleiben**.
 :::
 
 :::{.fragment}
 Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 :::
 
-## Drei Lernmechanismen, die Outsourcing ausschaltet
+## Warum Outsourcing Schemabildung verhindert
 
-**1. Vorhersagefehler**
-
-- Normal: Lücke zwischen Erwartung & Realität = Lernsignal
-- Outsourcing: Keine Erwartungen → kein Lernen
+Schemabildung erfordert **aktive Verarbeitung** interagierender Elemente im Arbeitsgedächtnis. Outsourcing eliminiert diese Verarbeitung.
 
 :::{.fragment}
-**2. Gedächtniskonsolidierung**
+Das zeigt sich in drei Mechanismen:
 
-- Normal: Aktive Verarbeitung → Speicherung
-- Outsourcing: Passive Konsumption → Vergessen
-:::
-
-:::{.fragment}
-**3. Prozedurale Entwicklung**
-
-- Normal: Tausende Wiederholungen → Automatismen
-- Outsourcing: Überspringen → keine Expertise
+1. **Vorhersagefehler**: Ohne eigenen Versuch keine Erwartungen, ohne Erwartungen kein Lernsignal
+2. **Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung im Langzeitgedächtnis
+3. **Prozedurale Entwicklung**: Ohne Übungszyklen keine Automatisierung
 :::
 
 :::{.fragment}
 ::: {.callout-warning}
-**Die CLT-Perspektive**: Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
+Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
 :::
 :::
 

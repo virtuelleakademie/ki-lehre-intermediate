@@ -187,7 +187,7 @@ Zwei Quellen kognitiver Belastung:
 **Das Designprinzip:** Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung "germane load"; heute spricht man präziser von **germane processing**, also der lernrelevanten Auseinandersetzung mit dem Material.
 :::
 
-::: {.pro-tip collapse="true"}
+::: {.callout-important}
 ### Wie die Konzepte zusammenhängen
 
 Die drei Ebenen des Lernens:

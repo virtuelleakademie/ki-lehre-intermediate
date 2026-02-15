@@ -46,4 +46,4 @@ Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende
 - Warum **kognitive Anstrengung** der Mechanismus für Lernen ist
 - Wann KI-Nutzung **Offloading** (hilfreich) und wann **Outsourcing** (schädlich) ist
 - Wie ihr eure Aufgaben mit dem **5-Fragen-Framework** analysieren könnt
-- Wie ihr einen Agent gestaltet, der **produktive Anstrengung fördert**
+- Wie ein Agent aussieht, der **produktive Anstrengung fördert** (Ressource für danach)
