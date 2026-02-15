@@ -169,9 +169,9 @@ Das Ergebnis ist nicht "Verlernen" im engeren Sinne, sondern **Fähigkeitsatroph
 Diese Prinzipien bilden die Grundlage für:
 
 - Das **5-Fragen-Framework** in Teil 3 (Fragen 2 & 5 behandeln den Kompetenzaufbau und die Versuch-dann-Prüfe-Struktur)
-- Die **Agent-Design-Aktivität** in Teil 3 (Leitfrage: "Was tut der Agent? Was tut der Lernende?")
+- Die **Kollegiale Kurzberatung** in Teil 3: Die Advocatus-Diaboli-Frage ("Könnte eine Studierende das Denken nach deiner Änderung immer noch delegieren?") prüft, ob der Kompetenzaufbauprozess geschützt ist
 
-Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigene Aufgabe analysierst.
+Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigenen Aufgaben analysierst.
 :::
 
 ### Lehren im Einklang mit dem Gehirn

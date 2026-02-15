@@ -10,8 +10,9 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 ### Materialien
 
 - Karten und Stifte auf den Tischen (für die Generierungsaktivität)
+- Karteikarten oder halbe A4-Blätter vorbereiten (für die kollegiale Kurzberatung in Teil 3)
 - Slides geladen: `wie-menschen-lernen` und `ki-und-lernen`
-- Browser-Tabs vorbereitet: [Teil 1](../../01-lernen-verstehen/), [Teil 2](../../02-ki-und-lernen/), [Teil 3](../../03-praxis/), [Fallstudien](../../03-praxis/fallstudien/), [Agent-Template](../../03-praxis/agent-template/)
+- Browser-Tabs vorbereitet: [Teil 1](../../01-lernen-verstehen/), [Teil 2](../../02-ki-und-lernen/), [Teil 3](../../03-praxis/), [Fallstudien](../../03-praxis/fallstudien/)
 - Timer-App bereit (oder das Timer-Shortcode auf den Seiten nutzen)
 - Zahlenfolgen für die Digit Span Demo vorbereiten (4, 5, 6, 7, 8 Ziffern)
 
@@ -26,7 +27,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 
 ### Vorstellungsrunde (5 Min)
 
-- Name, Institut, KI-Erfahrung (0-10), mitgebrachte Aufgabe
+- Name, Institut, KI-Erfahrung (0-10), mitgebrachte Aufgaben
 - Kurz halten: max. 30 Sekunden pro Person
 - Die KI-Erfahrungsskala gibt dir einen schnellen Überblick über die Gruppe
 
@@ -42,7 +43,9 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 - "Im Beginner-Workshop: KI macht produktiver. Heute: Ist Produktivität Lernen?"
 - 3 Teile kurz vorstellen: Lernen verstehen → KI einordnen → Praxis
 
-**Übergang:** "Beginnen wir mit der Frage: Wie funktioniert Lernen eigentlich?"
+**Nachlesen-Boxen framen:** "Auf den Seiten findet ihr graue 'Zum Nachlesen'-Boxen. Die sind für *nach* dem Workshop. Während des Workshops konzentrieren wir uns auf die Aktivitäten. Die Boxen bleiben online für euch stehen."
+
+**Übergang (Advance Organizer):** "In den nächsten 50 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das ist keine Theorie um der Theorie willen, sondern das Werkzeug, mit dem ihr in Teil 3 eure eigenen Aufgaben analysiert."
 
 
 ## 09:10--10:00: Teil 1 -- Lernen verstehen (50 Min) {#teil1}
@@ -72,22 +75,33 @@ Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis.
 4. **Pointe herausarbeiten:** "Dieses Erlebnis IST die Lernarchitektur. Jeder Gedanke eurer Studierenden durchläuft genau diesen Flaschenhals."
 5. Den Meta-Moment kurz ansprechen: "Der Workshop modelliert, was er lehrt."
 
-### Kurzcheck (1 Min)
+### Gedächtnis-Aktivierung 1 (1 Min)
 
-- "Ohne zurückzuschauen: Expertise Reversal Effect in einem Satz?"
-- Nicht auflösen, nur generieren lassen. Das ist Abrufpraxis.
+- "Versuche aus dem Gedächtnis: Expertise Reversal Effect in einem Satz?"
+- Nicht auflösen, nur generieren lassen. Lücken normalisieren: "Lücken sind willkommen, sie zeigen, worauf ihr beim Weiterhören achten könnt."
 
-### Kurz-Abruf (2 Min)
+### Gedächtnis-Aktivierung 2 (2 Min)
 
-- "4 Formen wünschenswerter Schwierigkeiten, ohne Notizen"
-- "Wenn das schwierig ist: gut. Das ist der Punkt."
+- "4 Formen wünschenswerter Schwierigkeiten, aus dem Gedächtnis"
+- "Wenn das schwierig ist: gut. Die Anstrengung beim Abruf ist der Mechanismus, der Gelerntes festigt."
+
+### Mikropausen während der Slides
+
+Zwei kurze Atempausen (je 30 Sekunden) einbauen:
+
+- **Mikropause 1:** Nach den Cognitive Load Theory Slides (drei Lastarten), bevor es zum Expertise Reversal Effect geht. "Pause. Schaut 30 Sekunden vom Bildschirm weg. Was bleibt hängen?"
+- **Mikropause 2:** Nach dem Lernparadox (Folie "Wie fühlt sich effektives Lernen an?"), bevor die Zusammenfassung kommt. Kurze Stille lassen.
+
+Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedächtnisspuren (TBRS-Modell) und modellieren das Prinzip, das die eigenen Materialien empfehlen.
 
 ### Fallstudien-Analyse (10 Min)
 
 1. Paare bilden
 2. Material: [Fallstudien](../../03-praxis/fallstudien/) (Browser-Tab oder ausgedruckt)
 3. Leitfrage vorlesen: "Welches Szenario erzeugt mehr Lernen? Warum?"
-4. Nach 8 Min: 2 Min Kurzaustausch im Plenum. "Was war euer Urteil?"
+4. Konkretes Ergebnis verlangen: "Formuliert gemeinsam 2-3 Sätze: Welcher kognitive Mechanismus wird im ineffektiven Szenario umgangen, und wie stellt das effektive Szenario ihn wieder her?"
+5. Nach 8 Min: 2 Min Kurzaustausch im Plenum. 2-3 Paare stellen ihre Sätze vor (je 30 Sekunden).
+6. Falls die Gruppe Disziplinen enthält, die in den Fallstudien nicht vertreten sind (z.B. Pflege, Technik, Design, Soziale Arbeit): in der Plenumsphase gezielt nach diesen Perspektiven fragen.
 
 ### Wichtigste Erkenntnis (1 Min)
 
@@ -97,7 +111,7 @@ Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis.
 **Timing-Check:** Du solltest bei ca. 09:55--10:00 sein.
 
 - **Wenn du früher fertig bist:** Fallstudien-Diskussion vertiefen oder Pro-Tip "Wie die Konzepte zusammenhängen" gemeinsam anschauen.
-- **Wenn du später dran bist:** Kurzcheck und Kurz-Abruf können auf je 30 Sekunden gekürzt werden. Die Fallstudien-Analyse nicht kürzen, sie ist die wichtigste Anwendung.
+- **Wenn du später dran bist:** Die Gedächtnis-Aktivierungen können auf je 30 Sekunden gekürzt werden. Die Fallstudien-Analyse nicht kürzen, sie ist die wichtigste Anwendung.
 
 
 ## 10:00--10:15: Pause (15 Min) {#pause}
@@ -107,13 +121,13 @@ Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis.
 - Browser-Tab auf [Teil 2](../../02-ki-und-lernen/) vorbereiten
 
 
-## 10:15--10:20: Retrieval Activation (5 Min) {#retrieval}
+## 10:15--10:20: Gedächtnis-Aktivierung (5 Min) {#retrieval}
 
 **Seite:** [KI & Lernen](../../02-ki-und-lernen/) (ganz oben)
 
-1. "Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen."
+1. "Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen. Lücken sind willkommen: Sie zeigen, wo ihr beim Weiterhören besonders aufmerksam sein könnt."
 2. 2 Min individuell schreiben
-3. 2 Min zu zweit vergleichen: "Was habt ihr vergessen?"
+3. 2 Min zu zweit vergleichen: "Wo sind die grössten Unterschiede?"
 4. Kurz im Plenum: "Was war überraschend schwierig zu erinnern?"
 5. Meta-Moment: "Diese Übung demonstriert genau das Prinzip, das sie testet."
 
@@ -153,7 +167,14 @@ Präsentiere die Slides. Kernbotschaften:
 4. Redesign-Tabelle zeigen und besprechen
 5. Drei Erkenntnisse herausarbeiten: Produkt ≠ Prozess, Offloading am richtigen Punkt, Versuch-dann-Prüfe
 
-**Übergang:** "Jetzt seid ihr dran. Dasselbe macht ihr mit eurer eigenen Aufgabe."
+### Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min)
+
+Direkt nach den drei Erkenntnissen aus dem Worked Example:
+
+- "Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?"
+- Optional (wenn 30 Sekunden übrig): "Vergleicht eure Formulierungen kurz mit dem Nachbarn."
+
+**Übergang:** "Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende habt ihr eine konkrete Analyse, kollegiales Feedback und einen 1-Satz-Redesign-Plan."
 
 **Timing-Check:** Du solltest bei ca. 10:50 sein.
 
@@ -161,21 +182,27 @@ Präsentiere die Slides. Kernbotschaften:
 - **Wenn du später dran bist:** Die Aktivität zu den 3 Diagnose-Fragen kann entfallen (ist nur 1 Min). Das Worked Example nicht kürzen.
 
 
-## 10:50--10:55: Puffer / Übergang (5 Min) {#puffer}
+## 10:50--10:53: Puffer / Übergang (3 Min) {#puffer}
 
 - Kurze Verschnaufpause
-- Sicherstellen, dass alle ihre mitgebrachte Aufgabe griffbereit haben
-- Wer keine Aufgabe hat: [Fallstudien](../../03-praxis/fallstudien/) verteilen
+- "Bildschirme für einen Moment schliessen. Durchatmen."
+- Sicherstellen, dass alle ihre beiden mitgebrachten Aufgaben griffbereit haben
+- Wer keine oder nur eine hat: [Fallstudien](../../03-praxis/fallstudien/) als Ergänzung verteilen
 
 
-## 10:55--11:45: Teil 3 -- Vom Wissen zum Handeln (50 Min) {#teil3}
+## 10:53--11:45: Teil 3 -- Vom Wissen zum Handeln (52 Min) {#teil3}
 
 **Seite:** [Vom Wissen zum Handeln](../../03-praxis/)
 
-### Retrieval Check (2 Min)
+### Gedächtnis-Aktivierung (2 Min)
 
-- "Schreibe die 5 Fragen des Frameworks aus dem Gedächtnis auf."
+- "Versucht, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren. Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage. Lücken sind willkommen: Sie zeigen euch, wo ihr bei der Anwendung besonders aufmerksam sein solltet."
 - Dann vergleichen mit dem [5-Fragen-Framework](../../03-praxis/5-fragen-framework/)
+- "Wo sind die grössten Unterschiede? Genau diese Stellen sind die produktivsten Lernmomente."
+
+### Framing (1 Min)
+
+- "Ihr werdet eure eigene Aufgabe analysieren, dann die Analyse einer Kollegin diagnostizieren. Am Ende habt ihr ein konkretes Redesign."
 
 ### Aktivität 1: THINK-PAIR-SHARE (23 Min)
 
@@ -184,6 +211,11 @@ Präsentiere die Slides. Kernbotschaften:
 - Alle arbeiten individuell an ihrer eigenen Aufgabe
 - Wer keine hat: Fallstudien-Szenario nehmen
 - Geh durch den Raum und hilf bei Fragen zum Framework
+- Für Disziplinen, die nicht in den Fallstudien vorkommen, bei Bedarf Brücken bauen:
+    - Pflege: "Klinisches Reasoning funktioniert gleich wie die medizinische Fallstudie: Erst eigene Hypothese, dann vergleichen."
+    - Technik: "Versuch-dann-Prüfe entspricht dem Engineering Design Cycle: Prototyp, testen, iterieren."
+    - Design: "Kann KI das *visuelle Ergebnis* erzeugen, ohne das Design-Reasoning, das die Aufgabe entwickeln soll?"
+    - Soziale Arbeit: "Das 'Beach, Not the Ant'-Prinzip entspricht dem systemischen Denken, das euer Fach prägt."
 
 **PAIR (10 Min)**
 
@@ -196,30 +228,46 @@ Präsentiere die Slides. Kernbotschaften:
 
 - 2-3 Beispiele im Plenum
 - Muster herausarbeiten: "Welche Schwachstellen tauchen wiederholt auf?"
-- Reflexionsfrage: "Benennt ein Prinzip aus Teil 1, das in der THINK-PAIR-SHARE-Struktur steckt."
+- Reflexionsfrage: "Benennt ein Prinzip aus Teil 1, das in der THINK-PAIR-SHARE-Struktur steckt." (Kann auch nur kurz verbal angetippt werden: "Übrigens: Was wir gerade gemacht haben, nutzt selbst drei Prinzipien aus Teil 1. Wir kommen am Schluss darauf zurück.")
 
-### Aktivität 2: Agent-Design (20 Min)
+### Reflexive Brücke (2 Min)
 
-**THINK (8 Min)**
+- "Schreibe in einem Satz auf: Was war die wichtigste Erkenntnis aus deiner Analyse? Und dann: Für welche *andere* Aufgabe aus deiner Lehre wäre die Analyse vermutlich ganz anders ausgefallen? Denke bewusst an einen anderen Aufgabentyp."
+- Diese Brücke primed die zweite Aufgabe für Aktivität 2.
 
-- Zum [Agent-Template](../../03-praxis/agent-template/) verlinken
-- Erklären: "Ihr analysiert ein bestehendes Template und passt es an. Nicht von Null anfangen."
-- Das ist bewusst ein Worked-Example-Ansatz (Expertise Reversal Effect!)
+### Aktivität 2: Kollegiale Kurzberatung (20 Min)
 
-**PAIR (10 Min)**
+**Überleitung:** "Bildschirme zu, Stifte raus. Ab jetzt arbeiten wir analog." Karteikarten oder halbe A4-Blätter verteilen. **Neue Paare** bilden (nicht dieselben wie bei Aktivität 1).
 
-- Cross-Testing: Person A testet Agent von Person B und umgekehrt
-- Entscheidende Frage: "Outsourct dieser Agent das Denken, oder unterstützt er es?"
+**Abruf und Analyse (8 Min, individuell, still)**
 
-**Synthese (4 Min)**
+- Schritt 1 (3 Min): Framework-Fragen aus dem Gedächtnis auf die Karte schreiben, zweite Aufgabe wählen
+- Schritt 2 (5 Min): Zweite Aufgabe analysieren. Grösste Schwachstelle, eine Änderung, welche Diagnose-Frage Studierende nicht beantworten könnten
 
-- Gemeinsame Auswertung: Welche Designmuster? Wo war die Grenze Offloading/Outsourcing am schwierigsten?
-- Zentrale Erkenntnis: "Gutes KI-Design erfordert tiefes Verständnis davon, wie Lernen funktioniert."
+**Kollegiale Kurzberatung (10 Min, neue Paare)**
+
+- Person A stellt vor (2 Min): Aufgabe, Schwachstelle, Änderung
+- Person B als Advocatus Diaboli (2 Min): "Könnte eine Studierende das Denken nach deiner Änderung immer noch delegieren? Wie?" und "Welche Diagnose-Frage würde sie bestehen, welche nicht?"
+- Rollen tauschen (4 Min)
+- Gemeinsam (2 Min): Einen 1-Satz-Redesign pro Aufgabe formulieren
+
+**Meta-Moment:** "Ihr habt gerade Interleaving am eigenen Leib erlebt: Dasselbe Framework auf zwei verschiedene Aufgabentypen anwenden fühlt sich schwieriger an, produziert aber besseren Transfer."
+
+### Muster & Synthese (6 Min)
+
+- "Welche Muster tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?"
+- "Wo war die Grenze zwischen Offloading und Outsourcing am schwierigsten zu ziehen?"
+- Equity-Dimension ansprechen: "Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das verdient eine eigene Vertiefung auf Departementsebene."
+
+### Konsolidierung (5 Min, individuell)
+
+- "Schreibe auf: Welche *eine* Änderung setzt ihr als erstes um? Und: Welches Konzept hat eure Haltung zu KI am meisten verändert?"
+- "Diese Notiz nehmt ihr mit. Sie ist euer Umsetzungsplan."
 
 **Timing-Check:** Du solltest bei ca. 11:45 sein.
 
 - **Wenn du früher fertig bist:** Synthese vertiefen, Meta-Moment besprechen.
-- **Wenn du später dran bist:** Agent-Design PAIR auf 5 Min kürzen (reicht für erste Eindrücke). Synthese auf 2 Min.
+- **Wenn du später dran bist:** Kollegiale Kurzberatung PAIR auf 6 Min kürzen (1.5 Min pro Rolle statt 2). Synthese auf 4 Min.
 
 
 ## 11:45--12:00: Transfer & Abschluss (15 Min) {#abschluss}
@@ -241,6 +289,7 @@ Präsentiere die Slides. Kernbotschaften:
 ### Blitzlicht (5 Min)
 
 - Erst: "Erkläre in zwei Sätzen, warum kognitive Anstrengung der Mechanismus für Lernen ist."
+- Dann: "Welches Lernprinzip hast du heute am eigenen Leib erlebt, und in welchem Moment?" (Meta-Reflexion über das Self-Modeling des Workshops)
 - Dann: 30 Sekunden pro Person: eine Erkenntnis, ein nächster Schritt
 - Take-Away: "Die Schwierigkeit des Lernens ist nicht das Problem, sondern der Mechanismus."
 
@@ -253,7 +302,7 @@ Ja, und dafür brauchen sie Fachkompetenz. Das Evaluationsparadox zeigt: Kompete
 
 ### "Das funktioniert in meinem Fach nicht."
 
-Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft und Sozialarbeit gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall.
+Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In der kollegialen Kurzberatung (Teil 3) werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
 
 ### "Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?"
 
@@ -274,17 +323,17 @@ Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe da
 
 - Teil 1 auf 30 Min kürzen: Slides straffen, Fallstudien-Analyse auf 5 Min
 - Teil 2 auf 20 Min: Slides + Worked Example (ohne Diagnose-Fragen-Aktivität)
-- Teil 3 auf 30 Min: Nur THINK-PAIR-SHARE, ohne Agent-Design
+- Teil 3 auf 30 Min: Nur THINK-PAIR-SHARE mit einer Aufgabe, ohne kollegiale Kurzberatung
 - Abschluss auf 10 Min
 
 ### Wenn die Gruppe sehr KI-erfahren ist
 
 - Teil 1 kann etwas gestrafft werden (die Lernwissenschaft ist für viele neu, auch wenn KI vertraut ist)
 - Im Worked Example: statt annotierte Bibliografie ein komplexeres Szenario aus den Fallstudien nehmen
-- Agent-Design vertiefen: mehr Zeit für Cross-Testing und Iteration
+- Kollegiale Kurzberatung vertiefen: mehr Zeit für die Advocatus-Diaboli-Phase
 
 ### Wenn die Gruppe KI-skeptisch ist
 
 - Teil 1 betonen: "Es geht um Lernen, nicht um KI"
 - Im Worked Example: herausarbeiten, dass das Framework auch "Keine KI nötig" als Ergebnis validiert
-- Agent-Design ggf. durch vertiefte Aufgaben-Analyse ersetzen (THINK-PAIR-SHARE mit zwei Aufgaben statt einer)
+- Kollegiale Kurzberatung funktioniert besonders gut mit KI-skeptischen Gruppen, da sie komplett analog ist und den Fokus auf Aufgabendesign legt

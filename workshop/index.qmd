@@ -12,13 +12,13 @@ title: "Ablauf"
 |                            | [Wie Menschen lernen](../01-lernen-verstehen/index.qmd)                 | 50 min                           |
 | **10:00 - 10:15**          | {{< bi cup-hot-fill >}} **Pause**                                      |                                  |
 |                            | Kaffee                                                                  | 15 min                           |
-| **10:15 - 10:20**          | {{< bi arrow-repeat >}} **Retrieval Activation** (Übergang)            |                                  |
+| **10:15 - 10:20**          | {{< bi arrow-repeat >}} **Gedächtnis-Aktivierung** (Übergang)          |                                  |
 |                            | Abrufpraxis: 3 Konzepte ohne Notizen                                   | 5 min                            |
 | **10:20 - 10:50**          | {{< bi collection-play >}} **Teil 2: KI & Lernen**                     |                                  |
 |                            | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 30 min                           |
-| **10:50 - 10:55**          | {{< bi hourglass-split >}} **Puffer / Übergang**                       | 5 min                            |
-| **10:55 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
-|                            | [Aufgaben analysieren & Agent gestalten](../03-praxis/index.qmd)        | 50 min                           |
+| **10:50 - 10:53**          | {{< bi hourglass-split >}} **Puffer / Übergang**                       | 3 min                            |
+| **10:53 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
+|                            | [Aufgaben analysieren & kollegial beraten](../03-praxis/index.qmd)      | 52 min                           |
 | **11:45 - 12:00**          | {{< bi collection-play >}} **Transfer & Abschluss**                    |                                  |
 |                            | [Umsetzung & nächste Schritte](diskussion/index.qmd)                   | 15 min                           |
 
@@ -30,28 +30,30 @@ Am Ende des Workshops können die Teilnehmer:innen:
 1. **Lernen verstehen**: Erklären, warum kognitive Anstrengung der Mechanismus für Expertise-Entwicklung ist
 2. **KI einordnen**: Unterscheiden, wann KI-Nutzung Lernen unterstützt (Offloading) und wann sie es verhindert (Outsourcing)
 3. **Aufgaben analysieren**: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen
-4. **Praxis umsetzen**: Einen KI-Agent gestalten, der produktive Anstrengung fördert statt ersetzt
+4. **Praxis umsetzen**: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist
 
 
 ## Vorbereitung: Deine Aufgabe unter der KI-Lupe (ca. 20 Min.)
 
 Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.
 
-### Schritt 1: Aufgabe auswählen und mitbringen (5 Min.)
+### Schritt 1: Zwei Aufgaben auswählen und mitbringen (5 Min.)
 
-**Wähle eine konkrete Aufgabe oder Prüfung aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. eine Hausaufgabe, eine Seminararbeit, eine Übungsaufgabe oder eine Selbststudiums-Aufgabe.
+**Wähle zwei konkrete Aufgaben oder Prüfungen aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.
 
-Am besten eignet sich eine Aufgabe, die:
+Am besten eignen sich Aufgaben, die:
 
-- ausserhalb des Unterrichts bearbeitet wird (ohne direkte Aufsicht)
-- bei der KI-Tools eine Rolle spielen könnten
+- ausserhalb des Unterrichts bearbeitet werden (ohne direkte Aufsicht)
+- bei denen KI-Tools eine Rolle spielen könnten
 - die du idealerweise schon einmal eingesetzt hast
 
-Bringe die **Aufgabenstellung** mit (digital oder ausgedruckt).
+Wähle bewusst **zwei unterschiedliche Aufgabentypen** (z.B. eine schriftliche Arbeit und eine mündliche Prüfung, oder eine Einzelaufgabe und eine Gruppenarbeit). Im Workshop analysierst du die erste Aufgabe selbst und wendest das Framework dann auf die zweite in einer kollegialen Beratung an.
 
-### Schritt 2: Kurze Selbstanalyse (15 Min.)
+Bringe beide **Aufgabenstellungen** mit (digital oder ausgedruckt).
 
-Beantworte diese drei Fragen in Stichworten und bringe deine Notizen in den Workshop mit.
+### Schritt 2: Kurze Selbstanalyse der ersten Aufgabe (15 Min.)
+
+Beantworte diese drei Fragen für deine **erste Aufgabe** in Stichworten und bringe deine Notizen in den Workshop mit. Die zweite Aufgabe analysierst du im Workshop selbst.
 
 1. **Was sollen Studierende durch diese Aufgabe *lernen*?** Nicht: Was sollen sie abgeben, sondern: Was soll sich in ihren Köpfen verändern?
 2. **Was passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen?** Probiere es nach Möglichkeit selbst aus. Gib die Aufgabenstellung in ein KI-Tool ein und schau, was herauskommt.

@@ -88,15 +88,26 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-individual.callout {
+  border-left-color: steelblue;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -110,37 +121,15 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
+div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
-div.callout-agent-potential.callout-style-default > .callout-header {
+div.callout-active-processing.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -154,37 +143,48 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
-div.callout-active-processing.callout {
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
+div.callout-agent-potential.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 </style>
@@ -338,17 +338,21 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   <li><a href="#pair-phase-10-min" id="toc-pair-phase-10-min" class="nav-link" data-scroll-target="#pair-phase-10-min">PAIR Phase (10 Min)</a></li>
   <li><a href="#share-phase-5-min" id="toc-share-phase-5-min" class="nav-link" data-scroll-target="#share-phase-5-min">SHARE Phase (5 Min)</a></li>
   </ul></li>
-  <li><a href="#aktivität-2-agent-design-für-produktive-anstrengung-20-min" id="toc-aktivität-2-agent-design-für-produktive-anstrengung-20-min" class="nav-link" data-scroll-target="#aktivität-2-agent-design-für-produktive-anstrengung-20-min">Aktivität 2: Agent-Design für produktive Anstrengung (20 Min)</a>
+  <li><a href="#reflexive-brücke-2-min" id="toc-reflexive-brücke-2-min" class="nav-link" data-scroll-target="#reflexive-brücke-2-min">Reflexive Brücke (2 Min)</a></li>
+  <li><a href="#aktivität-2-kollegiale-kurzberatung-20-min" id="toc-aktivität-2-kollegiale-kurzberatung-20-min" class="nav-link" data-scroll-target="#aktivität-2-kollegiale-kurzberatung-20-min">Aktivität 2: Kollegiale Kurzberatung (20 Min)</a>
   <ul class="collapse">
-  <li><a href="#think-phase-template-analysieren-anpassen-8-min" id="toc-think-phase-template-analysieren-anpassen-8-min" class="nav-link" data-scroll-target="#think-phase-template-analysieren-anpassen-8-min">THINK Phase: Template analysieren &amp; anpassen (8 Min)</a></li>
-  <li><a href="#pair-phase-cross-testing-10-min" id="toc-pair-phase-cross-testing-10-min" class="nav-link" data-scroll-target="#pair-phase-cross-testing-10-min">PAIR Phase: Cross-Testing (10 Min)</a></li>
+  <li><a href="#abruf-und-analyse-8-min" id="toc-abruf-und-analyse-8-min" class="nav-link" data-scroll-target="#abruf-und-analyse-8-min">Abruf und Analyse (8 Min)</a></li>
+  <li><a href="#kollegiale-kurzberatung-10-min" id="toc-kollegiale-kurzberatung-10-min" class="nav-link" data-scroll-target="#kollegiale-kurzberatung-10-min">Kollegiale Kurzberatung (10 Min)</a></li>
   </ul></li>
-  <li><a href="#muster-synthese-4-min" id="toc-muster-synthese-4-min" class="nav-link" data-scroll-target="#muster-synthese-4-min">Muster &amp; Synthese (4 Min)</a></li>
+  <li><a href="#muster-synthese-6-min" id="toc-muster-synthese-6-min" class="nav-link" data-scroll-target="#muster-synthese-6-min">Muster &amp; Synthese (6 Min)</a>
+  <ul class="collapse">
+  <li><a href="#konsolidierung-5-min" id="toc-konsolidierung-5-min" class="nav-link" data-scroll-target="#konsolidierung-5-min">Konsolidierung (5 Min)</a></li>
+  </ul></li>
   <li><a href="#ressourcen" id="toc-ressourcen" class="nav-link" data-scroll-target="#ressourcen">Ressourcen</a>
   <ul class="collapse">
   <li><a href="#handouts" id="toc-handouts" class="nav-link" data-scroll-target="#handouts">Handouts</a></li>
   <li><a href="#vertiefung" id="toc-vertiefung" class="nav-link" data-scroll-target="#vertiefung">Vertiefung</a></li>
-  <li><a href="#beispiele" id="toc-beispiele" class="nav-link" data-scroll-target="#beispiele">Beispiele</a></li>
+  <li><a href="#beispiele-werkzeuge" id="toc-beispiele-werkzeuge" class="nav-link" data-scroll-target="#beispiele-werkzeuge">Beispiele &amp; Werkzeuge</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -381,16 +385,16 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; Agent gestalten (50 Min)
+<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; kollegial beraten (50 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:</p>
 <ol type="1">
 <li><strong>Aufgaben-Analyse</strong> mit dem 5-Fragen-Framework (23 Min)</li>
-<li><strong>Agent-Design</strong> für produktive Anstrengung (20 Min)</li>
+<li><strong>Kollegiale Kurzberatung</strong>: Eine zweite Aufgabe analysieren und gegenseitig Feedback geben (20 Min)</li>
 </ol>
-<p><strong>Ziel</strong>: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen <em>fördern</em> kann und wo die Fallstricke liegen.</p>
+<p><strong>Ziel</strong>: Das Framework auf unterschiedliche Aufgabentypen anwenden, kollegiales Feedback nutzen und mit einem konkreten Umsetzungsplan nach Hause gehen.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
@@ -399,11 +403,12 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Retrieval Check (2 Min)
+<span class="screen-reader-only">Active-processing</span>Gedächtnis-Aktivierung (2 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Bevor wir starten:</strong> Schreibe die 5 Fragen des Frameworks aus dem Gedächtnis auf, ohne zurückzuschauen.</p>
+<p>Das ist keine Prüfung, sondern eine Lernübung. Lücken beim Abruf sind nicht peinlich, sie sind die produktivsten Lernmomente: Was du jetzt nicht abrufen kannst, wirst du dir nach dem Vergleich besonders gut merken.</p>
+<p><strong>Versuche, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren.</strong> Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage.</p>
 <ol type="1">
 <li><hr></li>
 <li><hr></li>
@@ -411,7 +416,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li><hr></li>
 <li><hr></li>
 </ol>
-<p>Vergleiche dann mit dem <a href="./5-fragen-framework/">5-Fragen-Framework</a>. Was hattest du vergessen? Genau diese Lücken sind die produktivsten Lernmomente.</p>
+<p>Vergleiche dann mit dem <a href="./5-fragen-framework/">5-Fragen-Framework</a>. Wo sind die grössten Unterschiede zwischen deiner Version und dem Original? Genau diese Stellen sind die produktivsten Lernmomente.</p>
 </div>
 </div>
 <section id="aktivität-1-aufgaben-analyse-mit-dem-5-fragen-framework-23-min" class="level2">
@@ -428,7 +433,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Sicherstellen, dass alle eine Aufgabe haben. Wer keine mitgebracht hat, nutzt die Fallstudien-Szenarien. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.</p>
+<p>Sicherstellen, dass alle zwei Aufgaben haben. Wer keine oder nur eine mitgebracht hat, nutzt die Fallstudien-Szenarien als Ergänzung. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.</p>
 </div>
 </div>
 </div>
@@ -535,79 +540,88 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 </section>
 </section>
-<section id="aktivität-2-agent-design-für-produktive-anstrengung-20-min" class="level2">
-<h2 class="anchored" data-anchor-id="aktivität-2-agent-design-für-produktive-anstrengung-20-min">Aktivität 2: Agent-Design für produktive Anstrengung (20 Min)</h2>
-<div class="callout callout-style-default callout-facilitator callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Facilitator</span>Agent-Design Aktivität (20 Min)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Kurze Überleitung: “Jetzt wenden wir die Analyse in ein konkretes Tool um.” Zum Template verlinken und kurz erklären, dass sie ein bestehendes Template analysieren und anpassen, nicht von Grund auf erstellen. Paare beibehalten oder neu bilden.</p>
-</div>
-</div>
-</div>
-<p>Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen <strong>unterstützt</strong>, nicht <em>ersetzt</em>.</p>
-<section id="think-phase-template-analysieren-anpassen-8-min" class="level3">
-<h3 class="anchored" data-anchor-id="think-phase-template-analysieren-anpassen-8-min">THINK Phase: Template analysieren &amp; anpassen (8 Min)</h3>
+<section id="reflexive-brücke-2-min" class="level2">
+<h2 class="anchored" data-anchor-id="reflexive-brücke-2-min">Reflexive Brücke (2 Min)</h2>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>Agent-Template evaluieren und modifizieren
+<span class="screen-reader-only">Individual</span>Erkenntnis und Transfer
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Statt einen Agent von Grund auf zu erstellen, arbeitet ihr mit einem <strong>vorgefertigten Template</strong>, das ihr analysiert und an eure Aufgabe anpasst.</p>
-<p><strong>Warum ein Template?</strong> Freie Generierung belastet das Arbeitsgedächtnis stark. Analyse + Modifikation ist für den Einstieg effektiver und entspricht dem Prinzip der “Worked Examples” aus Teil 1.</p>
-<p><strong>Zum Template:</strong> <a href="./agent-template/">Agent-Template: Statistik-Reflexions-Coach</a></p>
-<p><strong>Eure Aufgabe (8 Min):</strong></p>
-<ol type="1">
-<li><strong>Analysieren</strong> (3 Min): Evaluiert das Template. Bewahrt es die Versuch-dann-Prüfe-Struktur?</li>
-<li><strong>Anpassen</strong> (5 Min): Wählt eine Option (A, B oder C) aus dem Template</li>
-</ol>
-<p><strong>Leitfrage:</strong></p>
-<blockquote class="blockquote">
-<p>“Was tut der Agent? Was tut der Lernende?”</p>
-</blockquote>
+<p>Schreibe in einem Satz auf: <strong>Was war die wichtigste Erkenntnis aus deiner Analyse?</strong></p>
+<p>Und dann: <strong>Was erwartest du, wenn du dieselbe Analyse auf deine zweite mitgebrachte Aufgabe anwendest?</strong> Wird das Ergebnis ähnlich ausfallen oder ganz anders? Wo vermutest du die grösste Schwachstelle?</p>
+<p><em>Du brauchst deine zweite Aufgabe gleich für die nächste Aktivität.</em></p>
 </div>
 </div>
 </section>
-<section id="pair-phase-cross-testing-10-min" class="level3">
-<h3 class="anchored" data-anchor-id="pair-phase-cross-testing-10-min">PAIR Phase: Cross-Testing (10 Min)</h3>
+<section id="aktivität-2-kollegiale-kurzberatung-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="aktivität-2-kollegiale-kurzberatung-20-min">Aktivität 2: Kollegiale Kurzberatung (20 Min)</h2>
+<div class="callout callout-style-default callout-facilitator callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Facilitator</span>Kollegiale Kurzberatung (20 Min)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Überleitung: “Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und geben uns gegenseitig kollegiales Feedback. <strong>Bildschirme zu, Stifte raus.</strong> Ab jetzt arbeiten wir analog.”</p>
+<p>Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.</p>
+</div>
+</div>
+</div>
+<p><strong>Bildschirme schliessen.</strong> Diese Aktivität funktioniert bewusst mit Papier und Stift. Das reduziert Ablenkung, erzwingt den Abruf aus dem Gedächtnis und schafft einen spürbaren Rhythmuswechsel im Workshop.</p>
+<section id="abruf-und-analyse-8-min" class="level3">
+<h3 class="anchored" data-anchor-id="abruf-und-analyse-8-min">Abruf und Analyse (8 Min)</h3>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Zweite Aufgabe analysieren
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Arbeite auf einer Karteikarte oder einem halben Blatt Papier. Die physische Begrenzung ist Absicht: Sie zwingt zur Verdichtung.</p>
+<p><strong>Schritt 1 (3 Min):</strong> Schreibe so viele der 5 Framework-Fragen auf, wie du aus dem Gedächtnis abrufen kannst. Dann nimm deine <strong>zweite mitgebrachte Aufgabe</strong> zur Hand.</p>
+<p><strong>Schritt 2 (5 Min):</strong> Analysiere diese Aufgabe mit dem Framework. Notiere:</p>
+<ul>
+<li>Welche der 5 Fragen deckt die <strong>grösste Schwachstelle</strong> auf?</li>
+<li>Welche <strong>eine Änderung</strong> würde die lernrelevante kognitive Verarbeitung schützen?</li>
+<li>Welche der 3 Diagnose-Fragen würden Studierende bei dieser Aufgabe in der jetzigen Form <strong>nicht beantworten können</strong>?</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="kollegiale-kurzberatung-10-min" class="level3">
+<h3 class="anchored" data-anchor-id="kollegiale-kurzberatung-10-min">Kollegiale Kurzberatung (10 Min)</h3>
 <div class="callout callout-style-default callout-pair callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Pair</span>Agents gegenseitig testen
+<span class="screen-reader-only">Pair</span>Advocatus Diaboli
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Beide Partner testen gleichzeitig:</strong></p>
-<ul>
-<li><strong>Person A</strong> testet Agent von Person B</li>
-<li><strong>Person B</strong> testet Agent von Person A</li>
-</ul>
-<p><strong>Worauf achten:</strong></p>
-<ul>
-<li>Fördert der Agent wirklich die produktive Anstrengung?</li>
-<li>Wo gibt der Agent <strong>zu viel</strong> preis? Wo nimmt er <strong>zu viel</strong> ab?</li>
-<li>Bewahrt er die Versuch-dann-Prüfe-Struktur?</li>
-</ul>
-<p><strong>Die entscheidende Frage:</strong></p>
-<blockquote class="blockquote">
-<p>“Outsourct dieser Agent das Denken, oder unterstützt er es?”</p>
-</blockquote>
+<p>Bildet <strong>neue Paare</strong> (nicht dieselben wie bei Aktivität 1).</p>
+<p><strong>Person A stellt vor (2 Min):</strong> Aufgabe, grösste Schwachstelle, vorgeschlagene Änderung.</p>
+<p><strong>Person B als Advocatus Diaboli (2 Min):</strong> Fordere die Analyse heraus mit zwei gezielten Fragen:</p>
+<ol type="1">
+<li><em>“Könnte eine Studierende nach deiner Änderung das Denken immer noch an die KI delegieren? Wie?”</em></li>
+<li><em>“Welche der 3 Diagnose-Fragen würde die Studierende nach deiner Änderung bestehen, und welche nicht?”</em></li>
+</ol>
+<p><strong>Rollen tauschen (4 Min).</strong></p>
+<p><strong>Gemeinsam (2 Min):</strong> Formuliert einen <strong>1-Satz-Redesign</strong> pro Aufgabe: die wichtigste Änderung in einem Satz.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -620,21 +634,41 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Warum ein Template statt freier Gestaltung? Das entspricht dem <strong>Expertise Reversal Effect</strong>: Für Novizen sind Worked Examples effektiver als freies Problemlösen. Dieselbe Logik gilt für eure Studierenden. Gebt ihnen Gerüste, bevor ihr offene Aufgaben stellt.</p>
+<p>Ihr habt gerade <strong>Interleaving</strong> am eigenen Leib erlebt: Dasselbe Framework auf zwei verschiedene Aufgabentypen anwenden fühlt sich schwieriger an als die zweite Analyse derselben Aufgabe, produziert aber besseren Transfer. Genau das Prinzip aus Teil 1.</p>
 </div>
 </div>
 </section>
 </section>
-<section id="muster-synthese-4-min" class="level2">
-<h2 class="anchored" data-anchor-id="muster-synthese-4-min">Muster &amp; Synthese (4 Min)</h2>
+<section id="muster-synthese-6-min" class="level2">
+<h2 class="anchored" data-anchor-id="muster-synthese-6-min">Muster &amp; Synthese (6 Min)</h2>
 <p><strong>Gemeinsame Auswertung:</strong></p>
 <ul>
-<li>Welche <strong>Designmuster</strong> tauchen wiederholt auf?</li>
+<li>Welche <strong>Muster</strong> tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?</li>
 <li>Wo war die Grenze zwischen <em>Offloading</em> und <em>Outsourcing</em> am schwierigsten zu ziehen?</li>
-<li>Was haben wir über die Grenzen von Agent-Design gelernt?</li>
+<li>Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das ist die <strong>Equity-Dimension</strong> aus Teil 2: Schwächer vorbereitete Studierende brauchen mehr Struktur in der Versuch-Phase. Das verdient eine eigene Vertiefung auf Departementsebene.</li>
 </ul>
+<section id="konsolidierung-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="konsolidierung-5-min">Konsolidierung (5 Min)</h3>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Was nehme ich mit?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Schreibe auf:</p>
+<ol type="1">
+<li><strong>Welche eine Änderung</strong> setze ich als erstes um? (Nicht “ich denke darüber nach”, sondern “bei Aufgabe X baue ich Phase Y ein.”)</li>
+<li><strong>Welches Konzept</strong> aus dem Workshop hat meine Haltung zu KI in der Lehre am meisten verändert?</li>
+</ol>
+<p><em>Diese Notiz nimmst du mit. Sie ist dein Umsetzungsplan.</em></p>
+</div>
+</div>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -643,12 +677,13 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
+<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gestaltung zu verstehen: <strong>Gutes KI-Design für Lernen erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.</strong></p>
+<p>Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und kollegiale Beratung zu verstehen: <strong>Gute KI-Integration in der Lehre erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.</strong></p>
 </div>
 </div>
 </div>
+</section>
 </section>
 <section id="ressourcen" class="level2">
 <h2 class="anchored" data-anchor-id="ressourcen">Ressourcen</h2>
@@ -666,10 +701,10 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li><a href="./fallstudien/">Fallstudien</a></li>
 </ul>
 </section>
-<section id="beispiele" class="level3">
-<h3 class="anchored" data-anchor-id="beispiele">Beispiele</h3>
+<section id="beispiele-werkzeuge" class="level3">
+<h3 class="anchored" data-anchor-id="beispiele-werkzeuge">Beispiele &amp; Werkzeuge</h3>
 <ul>
-<li><a href="./agent-template/">Agent-Template: Statistik-Reflexions-Coach</a></li>
+<li><a href="./agent-template/">Agent-Template: Statistik-Reflexions-Coach</a> (Beispiel für KI-Agent-Design)</li>
 <li><a href="../resources/agent-beispiele/">Agent-Beispiele für jede Strategie</a></li>
 </ul>
 
