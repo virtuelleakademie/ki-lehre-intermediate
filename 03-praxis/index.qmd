@@ -3,21 +3,23 @@ title: "Vom Wissen zum Handeln"
 ---
 
 ::: {.active-processing}
-## Praxis: Aufgaben analysieren & Agent gestalten (50 Min)
+## Praxis: Aufgaben analysieren & kollegial beraten (50 Min)
 
 In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:
 
 1. **Aufgaben-Analyse** mit dem 5-Fragen-Framework (23 Min)
-2. **Agent-Design** für produktive Anstrengung (20 Min)
+2. **Kollegiale Kurzberatung**: Eine zweite Aufgabe analysieren und gegenseitig Feedback geben (20 Min)
 
-**Ziel**: Nicht den perfekten Agent bauen, sondern durch Analyse und Gestaltung verstehen, wie KI Lernen *fördern* kann und wo die Fallstricke liegen.
+**Ziel**: Das Framework auf unterschiedliche Aufgabentypen anwenden, kollegiales Feedback nutzen und mit einem konkreten Umsetzungsplan nach Hause gehen.
 :::
 
 
 ::: {.active-processing}
-### Retrieval Check (2 Min)
+### Gedächtnis-Aktivierung (2 Min)
 
-**Bevor wir starten:** Schreibe die 5 Fragen des Frameworks aus dem Gedächtnis auf, ohne zurückzuschauen.
+Das ist keine Prüfung, sondern eine Lernübung. Lücken beim Abruf sind nicht peinlich, sie sind die produktivsten Lernmomente: Was du jetzt nicht abrufen kannst, wirst du dir nach dem Vergleich besonders gut merken.
+
+**Versuche, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren.** Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage.
 
 1. ________________________
 2. ________________________
@@ -25,7 +27,7 @@ In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Tei
 4. ________________________
 5. ________________________
 
-Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Was hattest du vergessen? Genau diese Lücken sind die produktivsten Lernmomente.
+Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Wo sind die grössten Unterschiede zwischen deiner Version und dem Original? Genau diese Stellen sind die produktivsten Lernmomente.
 :::
 
 
@@ -93,77 +95,98 @@ Diskutiert 30 Sekunden mit eurem Nachbarn: **Benennt mindestens drei Prinzipien 
 :::
 
 
-## Aktivität 2: Agent-Design für produktive Anstrengung (20 Min)
-
-::: {.facilitator}
-### Agent-Design Aktivität (20 Min)
-
-Kurze Überleitung: "Jetzt wenden wir die Analyse in ein konkretes Tool um." Zum Template verlinken und kurz erklären, dass sie ein bestehendes Template analysieren und anpassen, nicht von Grund auf erstellen. Paare beibehalten oder neu bilden.
-:::
-
-Basierend auf der analysierten Aufgabe: Gestalte einen Agent, der das Lernen **unterstützt**, nicht *ersetzt*.
-
-### THINK Phase: Template analysieren & anpassen (8 Min)
+## Reflexive Brücke (2 Min)
 
 ::: {.individual}
-### Agent-Template evaluieren und modifizieren
+### Erkenntnis und Transfer
 
-Statt einen Agent von Grund auf zu erstellen, arbeitet ihr mit einem **vorgefertigten Template**, das ihr analysiert und an eure Aufgabe anpasst.
+Schreibe in einem Satz auf: **Was war die wichtigste Erkenntnis aus deiner Analyse?**
 
-**Warum ein Template?** Freie Generierung belastet das Arbeitsgedächtnis stark. Analyse + Modifikation ist für den Einstieg effektiver und entspricht dem Prinzip der "Worked Examples" aus Teil 1.
+Und dann: **Für welche *andere* Aufgabe aus deiner Lehre wäre die Analyse vermutlich ganz anders ausgefallen?** Denke dabei bewusst an einen anderen Aufgabentyp (z.B. mündliche Prüfung statt schriftlicher Arbeit, Gruppenarbeit statt Einzelaufgabe, Laborübung statt Essay).
 
-**Zum Template:** [Agent-Template: Statistik-Reflexions-Coach](./agent-template/)
-
-**Eure Aufgabe (8 Min):**
-
-1. **Analysieren** (3 Min): Evaluiert das Template. Bewahrt es die Versuch-dann-Prüfe-Struktur?
-2. **Anpassen** (5 Min): Wählt eine Option (A, B oder C) aus dem Template
-
-**Leitfrage:**
-
-> "Was tut der Agent? Was tut der Lernende?"
+*Du brauchst diese zweite Aufgabe gleich für die nächste Aktivität.*
 :::
 
-### PAIR Phase: Cross-Testing (10 Min)
+
+## Aktivität 2: Kollegiale Kurzberatung (20 Min)
+
+::: {.facilitator}
+### Kollegiale Kurzberatung (20 Min)
+
+Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eine zweite, andere Aufgabe an und geben uns gegenseitig kollegiales Feedback. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
+
+Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.
+:::
+
+**Bildschirme schliessen.** Diese Aktivität funktioniert bewusst mit Papier und Stift. Das reduziert Ablenkung, erzwingt den Abruf aus dem Gedächtnis und schafft einen spürbaren Rhythmuswechsel im Workshop.
+
+### Abruf und Analyse (8 Min)
+
+::: {.individual}
+### Zweite Aufgabe analysieren
+
+Arbeite auf einer Karteikarte oder einem halben Blatt Papier. Die physische Begrenzung ist Absicht: Sie zwingt zur Verdichtung.
+
+**Schritt 1 (3 Min):** Schreibe so viele der 5 Framework-Fragen auf, wie du aus dem Gedächtnis abrufen kannst. Dann wähle die **zweite Aufgabe** aus deiner Lehre, die du gerade identifiziert hast.
+
+**Schritt 2 (5 Min):** Analysiere diese Aufgabe mit dem Framework. Notiere:
+
+- Welche der 5 Fragen deckt die **grösste Schwachstelle** auf?
+- Welche **eine Änderung** würde die lernrelevante kognitive Verarbeitung schützen?
+- Welche der 3 Diagnose-Fragen würden Studierende bei dieser Aufgabe in der jetzigen Form **nicht beantworten können**?
+:::
+
+### Kollegiale Kurzberatung (10 Min)
 
 ::: {.pair}
-### Agents gegenseitig testen
+### Advocatus Diaboli
 
-**Beide Partner testen gleichzeitig:**
+Bildet **neue Paare** (nicht dieselben wie bei Aktivität 1).
 
-- **Person A** testet Agent von Person B
-- **Person B** testet Agent von Person A
+**Person A stellt vor (2 Min):** Aufgabe, grösste Schwachstelle, vorgeschlagene Änderung.
 
-**Worauf achten:**
+**Person B als Advocatus Diaboli (2 Min):** Fordere die Analyse heraus mit zwei gezielten Fragen:
 
-- Fördert der Agent wirklich die produktive Anstrengung?
-- Wo gibt der Agent **zu viel** preis? Wo nimmt er **zu viel** ab?
-- Bewahrt er die Versuch-dann-Prüfe-Struktur?
+1. *"Könnte eine Studierende nach deiner Änderung das Denken immer noch an die KI delegieren? Wie?"*
+2. *"Welche der 3 Diagnose-Fragen würde die Studierende nach deiner Änderung bestehen, und welche nicht?"*
 
-**Die entscheidende Frage:**
+**Rollen tauschen (4 Min).**
 
-> "Outsourct dieser Agent das Denken, oder unterstützt er es?"
+**Gemeinsam (2 Min):** Formuliert einen **1-Satz-Redesign** pro Aufgabe: die wichtigste Änderung in einem Satz.
 :::
 
 ::: {.callout-tip}
 ### Meta-Moment
 
-Warum ein Template statt freier Gestaltung? Das entspricht dem **Expertise Reversal Effect**: Für Novizen sind Worked Examples effektiver als freies Problemlösen. Dieselbe Logik gilt für eure Studierenden. Gebt ihnen Gerüste, bevor ihr offene Aufgaben stellt.
+Ihr habt gerade **Interleaving** am eigenen Leib erlebt: Dasselbe Framework auf zwei verschiedene Aufgabentypen anwenden fühlt sich schwieriger an als die zweite Analyse derselben Aufgabe, produziert aber besseren Transfer. Genau das Prinzip aus Teil 1.
 :::
 
 
-## Muster & Synthese (4 Min)
+## Muster & Synthese (6 Min)
 
 **Gemeinsame Auswertung:**
 
-- Welche **Designmuster** tauchen wiederholt auf?
+- Welche **Muster** tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?
 - Wo war die Grenze zwischen *Offloading* und *Outsourcing* am schwierigsten zu ziehen?
-- Was haben wir über die Grenzen von Agent-Design gelernt?
+- Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das ist die **Equity-Dimension** aus Teil 2: Schwächer vorbereitete Studierende brauchen mehr Struktur in der Versuch-Phase. Das verdient eine eigene Vertiefung auf Departementsebene.
+
+### Konsolidierung (5 Min)
+
+::: {.individual}
+### Was nehme ich mit?
+
+Schreibe auf:
+
+1. **Welche eine Änderung** setze ich als erstes um? (Nicht "ich denke darüber nach", sondern "bei Aufgabe X baue ich Phase Y ein.")
+2. **Welches Konzept** aus dem Workshop hat meine Haltung zu KI in der Lehre am meisten verändert?
+
+*Diese Notiz nimmst du mit. Sie ist dein Umsetzungsplan.*
+:::
 
 ::: {.pro-tip collapse=false}
 ### Zentrale Erkenntnis
 
-Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gestaltung zu verstehen: **Gutes KI-Design für Lernen erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.**
+Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und kollegiale Beratung zu verstehen: **Gute KI-Integration in der Lehre erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.**
 :::
 
 
@@ -179,7 +202,7 @@ Das Ziel war nicht, den perfekten Agent zu bauen, sondern durch Analyse und Gest
 - [Produktive Anstrengung durch Design](../resources/produktive-anstrengung/)
 - [Fallstudien](./fallstudien/)
 
-### Beispiele
+### Beispiele & Werkzeuge
 
-- [Agent-Template: Statistik-Reflexions-Coach](./agent-template/)
+- [Agent-Template: Statistik-Reflexions-Coach](./agent-template/) (Beispiel für KI-Agent-Design)
 - [Agent-Beispiele für jede Strategie](../resources/agent-beispiele/)

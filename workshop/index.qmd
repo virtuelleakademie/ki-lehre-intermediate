@@ -12,13 +12,13 @@ title: "Ablauf"
 |                            | [Wie Menschen lernen](../01-lernen-verstehen/index.qmd)                 | 50 min                           |
 | **10:00 - 10:15**          | {{< bi cup-hot-fill >}} **Pause**                                      |                                  |
 |                            | Kaffee                                                                  | 15 min                           |
-| **10:15 - 10:20**          | {{< bi arrow-repeat >}} **Retrieval Activation** (Übergang)            |                                  |
+| **10:15 - 10:20**          | {{< bi arrow-repeat >}} **Gedächtnis-Aktivierung** (Übergang)          |                                  |
 |                            | Abrufpraxis: 3 Konzepte ohne Notizen                                   | 5 min                            |
 | **10:20 - 10:50**          | {{< bi collection-play >}} **Teil 2: KI & Lernen**                     |                                  |
 |                            | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 30 min                           |
-| **10:50 - 10:55**          | {{< bi hourglass-split >}} **Puffer / Übergang**                       | 5 min                            |
-| **10:55 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
-|                            | [Aufgaben analysieren & Agent gestalten](../03-praxis/index.qmd)        | 50 min                           |
+| **10:50 - 10:53**          | {{< bi hourglass-split >}} **Puffer / Übergang**                       | 3 min                            |
+| **10:53 - 11:45**          | {{< bi collection-play >}} **Teil 3: Vom Wissen zum Handeln**          |                                  |
+|                            | [Aufgaben analysieren & kollegial beraten](../03-praxis/index.qmd)      | 52 min                           |
 | **11:45 - 12:00**          | {{< bi collection-play >}} **Transfer & Abschluss**                    |                                  |
 |                            | [Umsetzung & nächste Schritte](diskussion/index.qmd)                   | 15 min                           |
 
@@ -30,7 +30,7 @@ Am Ende des Workshops können die Teilnehmer:innen:
 1. **Lernen verstehen**: Erklären, warum kognitive Anstrengung der Mechanismus für Expertise-Entwicklung ist
 2. **KI einordnen**: Unterscheiden, wann KI-Nutzung Lernen unterstützt (Offloading) und wann sie es verhindert (Outsourcing)
 3. **Aufgaben analysieren**: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen
-4. **Praxis umsetzen**: Einen KI-Agent gestalten, der produktive Anstrengung fördert statt ersetzt
+4. **Praxis umsetzen**: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist
 
 
 ## Vorbereitung: Deine Aufgabe unter der KI-Lupe (ca. 20 Min.)

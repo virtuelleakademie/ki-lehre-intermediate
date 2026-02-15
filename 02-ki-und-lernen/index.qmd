@@ -11,13 +11,13 @@ source("../resources/viz-setup.R")
 Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen, und wann verhindert sie es?
 
 ::: {.active-processing}
-### Retrieval Activation (5 Min)
+### Gedächtnis-Aktivierung (5 Min)
 
 Bevor wir weitergehen: **Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen.** Ergänze bei jedem Konzept in einem Satz, *warum es für den KI-Einsatz in der Lehre relevant ist*.
 
-Was fällt dir ein? Was musst du nachschlagen?
+Lücken sind willkommen: Sie zeigen dir, wo du beim Weiterhören besonders aufmerksam sein kannst.
 
-**Dann (2 Min):** Vergleicht zu zweit eure Konzepte. Was habt ihr vergessen? Was war überraschend schwierig zu erinnern?
+**Dann (2 Min):** Vergleicht zu zweit eure Konzepte. Wo sind die grössten Unterschiede? Was war überraschend schwierig zu erinnern?
 
 *Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung. Dass es sich anstrengend anfühlt, ist kein Zeichen für schlechtes Lernen, sondern es ist das Lernen.*
 :::
@@ -558,10 +558,25 @@ digraph try_then_check {
 ")
 ```
 
+::: {.active-processing}
+### Gedächtnis-Aktivierung (1 Min)
+
+Bevor wir weitergehen, notiere in Stichworten:
+
+- Was ist der Unterschied zwischen **Offloading** und **Outsourcing**?
+- Was ist das **Evaluationsparadox** in einem Satz?
+
+*Du hast beides gerade im Worked Example gesehen. Wenn du es jetzt abrufen kannst, bleibt es haften.*
+:::
+
 ::: {.callout-tip}
 ### Überleitung zur Praxis
 
-**Jetzt seid ihr dran**: Im nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an und gestaltet dann einen Agent, der produktive Anstrengung *fördert* statt *ersetzt*. Ihr habt gerade gesehen, wie die Analyse Schritt für Schritt aussieht. Dasselbe macht ihr jetzt mit eurer mitgebrachten Aufgabe.
+Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr:
+
+- Eine **konkrete Analyse** eurer eigenen Aufgabe
+- **Kollegiales Feedback** auf euer Redesign
+- Einen **1-Satz-Redesign-Plan**, den ihr sofort umsetzen könnt
 :::
 
 > [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)

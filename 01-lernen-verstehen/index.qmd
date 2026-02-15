@@ -16,7 +16,7 @@ Ohne dieses Grundverständnis lassen sich später kaum informierte Entscheidunge
 ::: {.facilitator}
 ### Slides + Aktivitäten (ca. 50 Min gesamt)
 
-Präsentiere die Slides (ca. 20-25 Min). Die Digit Span Demo kommt nach dem Abschnitt über Arbeitsgedächtnis. Nach den Slides folgen die Kurzcheck- und Kurz-Abruf-Aktivitäten, dann die Fallstudien-Analyse in Paaren. Den umgebenden Text nicht vorlesen; er dient als Nachlese-Material für die Teilnehmenden.
+Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): eine nach den CLT-Slides, eine nach dem Lernparadox. Die Digit Span Demo kommt nach dem Abschnitt über Arbeitsgedächtnis. Nach den Slides folgen die Gedächtnis-Aktivierungen, dann die Fallstudien-Analyse in Paaren. Den umgebenden Text nicht vorlesen; er dient als Nachlese-Material für die Teilnehmenden.
 :::
 
 
@@ -94,9 +94,11 @@ Was Anfängern hilft, schadet Experten, und umgekehrt:
 
 
 ::: {.active-processing}
-### Kurzcheck (1 Min)
+### Gedächtnis-Aktivierung (1 Min)
 
-**Ohne zurückzuschauen:** Was ist der Expertise Reversal Effect in einem Satz? Warum ist er für KI in der Lehre relevant?
+**Versuche aus dem Gedächtnis:** Was ist der Expertise Reversal Effect in einem Satz? Warum ist er für KI in der Lehre relevant?
+
+*Das ist keine Prüfung. Lücken sind willkommen: Sie zeigen dir, worauf du beim Weiterhören besonders achten kannst.*
 :::
 
 
@@ -132,14 +134,14 @@ Zwei Quellen kognitiver Belastung:
 
 
 ::: {.active-processing}
-### Kurz-Abruf (2 Min)
+### Gedächtnis-Aktivierung (2 Min)
 
-**Ohne zurückzuschauen:** Notiere in Stichworten:
+**Versuche aus dem Gedächtnis** zu notieren:
 
 - Was sind die 4 Formen wünschenswerter Schwierigkeiten?
 - Wähle eine davon und erkläre in einem Satz, *warum* sie funktioniert (welcher kognitive Mechanismus steckt dahinter?)
 
-*Wenn das schwierig ist: gut. Das ist der Punkt.*
+*Wenn das schwierig ist: gut. Genau diese Anstrengung beim Abruf ist der Mechanismus, der Gelerntes festigt. Das ist Abrufpraxis in Aktion.*
 :::
 
 ::: {.pro-tip collapse="true"}
@@ -163,7 +165,7 @@ Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeig
 ::: {.callout-tip}
 ### Meta-Moment
 
-Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die Agent-Design-Aktivität ist bewusst herausfordernd gestaltet. Wenn es sich schwierig anfühlt, ist das das Feature, nicht der Bug.
+Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die kollegiale Kurzberatung in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, ist das das Feature, nicht der Bug.
 :::
 
 
@@ -172,7 +174,7 @@ Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach
 ::: {.pair}
 ### Fallstudien-Analyse (10 Min)
 
-Analysiert in Paaren zwei Szenarien, ein effektives und ein ineffektives Beispiel für KI-Integration in der Lehre.
+Analysiert in Paaren ein Szenario-Paar (z.B. A1 und A2, oder B1 und B2), ein effektives und ein ineffektives Beispiel für KI-Integration in der Lehre.
 
 **Leitfrage:** *Welches Szenario erzeugt mehr Lernen? Warum?*
 
@@ -182,6 +184,8 @@ Nutzt die Konzepte aus Teil 1:
 - Prediction Error Learning
 - Desirable Difficulties & metakognitive Falle
 - Cognitive Load Theory (extrinsisch vs. germane)
+
+**Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Welcher kognitive Mechanismus wird im ineffektiven Szenario umgangen? (2) Wie stellt das effektive Szenario diesen Mechanismus wieder her? Seid bereit, eure Antwort in 30 Sekunden im Plenum vorzustellen.
 
 > [Fallstudien-Material](../03-praxis/fallstudien/)
 :::
