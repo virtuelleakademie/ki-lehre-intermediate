@@ -2,10 +2,6 @@
 # Source this file in every setup chunk that produces figures.
 
 library(tidyverse)
-library(showtext)
-
-font_add_google("Lato", "Lato")
-showtext_auto()
 
 # Brand colors
 brand_dark <- "#222222"
@@ -21,7 +17,7 @@ color_sky <- "#56B4E9"         # Sky blue
 
 # Common theme
 theme_workshop <- function(base_size = 13) {
-  theme_minimal(base_size = base_size, base_family = "Lato") +
+  theme_minimal(base_size = base_size) +
     theme(
       plot.title = element_text(face = "bold", size = 16, color = brand_dark),
       plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),

@@ -251,7 +251,6 @@ ggplot(testing_effect_data, aes(x = condition, y = retention)) +
     size = 5,
     fontface = "bold",
     color = brand_dark,
-    family = "Lato"
   ) +
   scale_fill_gradient(low = "#f0a5bb", high = brand_accent, guide = "none") +
   scale_y_continuous(
@@ -361,7 +360,6 @@ ggplot(quadrants) +
     fontface = "bold",
     lineheight = 0.9,
     color = brand_dark,
-    family = "Lato"
   ) +
   geom_text(
     aes(
@@ -372,7 +370,6 @@ ggplot(quadrants) +
     size = 3.8,
     fontface = "italic",
     color = brand_dark,
-    family = "Lato"
   ) +
   geom_curve(
     data = tibble(x = 8.2, y = 1.8, xend = 1.8, yend = 8.2),
@@ -389,7 +386,6 @@ ggplot(quadrants) +
     size = 4.2,
     fontface = "bold.italic",
     color = brand_accent,
-    family = "Lato"
   ) +
   scale_x_continuous(
     breaks = c(2.5, 7.5),

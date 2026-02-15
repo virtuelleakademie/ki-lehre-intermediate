@@ -87,17 +87,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
 div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
@@ -109,15 +98,26 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-reflect.callout {
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-group.callout {
   border-left-color: purple;
 }
-div.callout-reflect.callout-style-default > .callout-header {
+div.callout-group.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -129,6 +129,17 @@ div.callout-pro-tip.callout-style-default > .callout-header {
 div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
   content: '💡';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -173,17 +184,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -301,6 +301,188 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <section id="website" class="level2">
 <h2 data-anchor-id="website">Website</h2>
 <p><i class="bi-link " style="" role="img" aria-hidden="true"></i> <a href="https://virtuelleakademie.github.io/ki-lehre-intermediate/">virtuelleakademie.github.io/ki-lehre-intermediate/</a></p>
+</section>
+<section id="wie-du-diese-website-nutzt" class="level2">
+<h2 data-anchor-id="wie-du-diese-website-nutzt"><i class="bi-compass " style="" role="img" aria-hidden="true"></i> Wie du diese Website nutzt</h2>
+<p>Diese Website begleitet dich durch den Workshop und steht dir danach als Nachschlagewerk zur Verfügung. So findest du dich zurecht:</p>
+<ul>
+<li><strong>Navigation oben:</strong> Die drei Workshop-Teile (Lernen verstehen, KI &amp; Lernen, Praxis) erreichst du über die Navigationsleiste. Innerhalb jedes Teils zeigt die Seitenleiste links die Unterseiten.</li>
+<li><strong>Eingebettete Slides:</strong> Auf vielen Seiten sind Präsentationen eingebettet. Du kannst sie direkt auf der Seite durchblättern oder mit dem Button rechts unten im Vollbild öffnen.</li>
+<li><strong>Suche:</strong> Über die Suchfunktion oben rechts findest du Inhalte auf allen Seiten.</li>
+<li><strong>Kommentare:</strong> Am rechten Rand kannst du mit <a href="https://web.hypothes.is/">Hypothesis</a> eigene Notizen und Markierungen hinterlassen. Die erscheinen beim Markieren von Text.</li>
+</ul>
+</section>
+<section id="vor-während-und-nach-dem-workshop" class="level2">
+<h2 data-anchor-id="vor-während-und-nach-dem-workshop"><i class="bi-signpost-split " style="" role="img" aria-hidden="true"></i> Vor, während und nach dem Workshop</h2>
+<p>Die Website funktioniert auf zwei Ebenen: als Live-Begleitung während des Workshops und als Nachschlagewerk für das Selbststudium.</p>
+<p><strong>Vor dem Workshop</strong></p>
+<ul>
+<li>Arbeite den <a href="./workshop/index.html">Vorbereitungsauftrag</a> durch (ca. 20 Min.)</li>
+<li>Bring eine eigene Aufgabe oder Prüfung mit, die wir gemeinsam analysieren</li>
+</ul>
+<p><strong>Während des Workshops</strong></p>
+<ul>
+<li>Folge den Präsentationen und Aktivitäten</li>
+<li>Der umgebende Text auf den Seiten liefert Kontext, wird aber nicht vorgelesen</li>
+<li>Die grauen “Zum Nachlesen”-Boxen sind für später, du musst sie jetzt nicht lesen</li>
+</ul>
+<p><strong>Nach dem Workshop</strong></p>
+<ul>
+<li>Komm zu den Seiten zurück und lies in deinem Tempo</li>
+<li>Öffne die zusammengeklappten Abschnitte (Pro-Tipps, Nachlesen)</li>
+<li>Die “Vertiefenden Ressourcen” am Ende jedes Teils erweitern die Workshop-Inhalte</li>
+</ul>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Hinweis</span><i class="bi-palette " style="" role="img" aria-hidden="true"></i> Was die farbigen Boxen bedeuten
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Auf den Workshop-Seiten findest du verschiedene farbige Boxen, die dir anzeigen, welche Art von Aktivität oder Information folgt.</p>
+<section id="aktivitäten" class="level3">
+<h3 data-anchor-id="aktivitäten">Aktivitäten</h3>
+<div class="callout callout-style-default callout-active-processing callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Active-processing</span>Aktive Verarbeitung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Allgemeine Aktivitäten, bei denen du selbst denkst und arbeitest.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Einzelarbeit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Aufgaben, die du allein bearbeitest.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-pair callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pair</span>Partnerarbeit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Aufgaben, die du mit einer anderen Person zusammen bearbeitest.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-group callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Group</span>Gruppenarbeit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Aktivitäten in grösseren Gruppen.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Reflexion und Selbsttest
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fragen zum Nachdenken oder Selbstüberprüfung. Versuche, sie zu beantworten, bevor du weiterliest.</p>
+</div>
+</div>
+</section>
+<section id="zusatzinformationen" class="level3">
+<h3 data-anchor-id="zusatzinformationen">Zusatzinformationen</h3>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Pro-Tipp
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Vertiefende Tipps, die du bei Interesse öffnen kannst.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-nachlesen callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nachlesen</span>Zum Nachlesen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Ausführlichere Texte für das Selbststudium. Im Workshop werden sie nicht vorgelesen.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-facilitator callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Facilitator</span>Moderationshinweis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Hinweise für die Kursleitung. Als Teilnehmende kannst du sie ignorieren oder reinschauen, wenn du neugierig bist.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="spezialboxen" class="level3">
+<h3 data-anchor-id="spezialboxen">Spezialboxen</h3>
+<div class="callout callout-style-default callout-agent-potential callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Agent-potential</span>Agent-Potential
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Stellen, an denen KI-Agents sinnvoll eingesetzt werden könnten.</p>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
 
 
 </section>
