@@ -2,6 +2,12 @@
 title: "KI & Lernen"
 ---
 
+```{r}
+#| label: setup
+#| include: false
+source("../resources/viz-setup.R")
+```
+
 Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen, und wann verhindert sie es?
 
 ::: {.active-processing}
@@ -24,7 +30,7 @@ Was fällt dir ein? Was musst du nachschlagen?
 ::: {.facilitator}
 ### Slides und Übergang zum Worked Example (ca. 10 Min)
 
-Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", Equity, 5-Fragen-Framework. Nach den Slides kurz die 3 Sonden zeigen (Tabelle unten) und die Sonden-Aktivität durchführen, dann direkt zum Worked Example übergehen. Den Text zwischen Slides und Worked Example nicht vorlesen.
+Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", Equity, 5-Fragen-Framework. Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen. Den Text zwischen Slides und Worked Example nicht vorlesen.
 :::
 
 
@@ -53,18 +59,8 @@ Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Fra
 ```{r}
 #| label: fig-offloading-spectrum
 #| echo: false
-#| fig-cap: "Das Spektrum von Cognitive Offloading (lernförderlich) bis Cognitive Outsourcing (lernhinderlich), mit konkreten Beispielen."
 #| fig-width: 12
 #| fig-height: 6
-
-library(tidyverse)
-library(showtext)
-
-font_add_google("Lato", "Lato")
-showtext_auto()
-
-brand_dark <- "#222222"
-brand_accent <- "#9A4665"
 
 spectrum_examples <- tibble(
   position = c(0.12, 0.30, 0.50, 0.75, 0.92),
@@ -89,7 +85,7 @@ ggplot() +
     aes(x = x, y = 0.2, fill = fill_value, width = 0.006, height = 0.15),
     show.legend = FALSE
   ) +
-  scale_fill_gradient(low = "#16a34a", high = "#dc2626") +
+  scale_fill_gradient(low = color_positive, high = color_negative) +
   annotate(
     "rect",
     xmin = 0, xmax = 1,
@@ -117,13 +113,13 @@ ggplot() +
     "text", x = 0, y = 0.04,
     label = "Cognitive Offloading",
     hjust = 0, size = 4.5, fontface = "bold",
-    color = "#16a34a", family = "Lato"
+    color = color_positive, family = "Lato"
   ) +
   annotate(
     "text", x = 1, y = 0.04,
     label = "Cognitive Outsourcing",
     hjust = 1, size = 4.5, fontface = "bold",
-    color = "#dc2626", family = "Lato"
+    color = color_negative, family = "Lato"
   ) +
   annotate(
     "segment",
@@ -135,13 +131,13 @@ ggplot() +
     "text", x = 0, y = -0.15,
     label = "Lernrelevante Verarbeitung: Erhalten",
     hjust = 0, size = 3.8, fontface = "italic",
-    color = "#16a34a", family = "Lato"
+    color = color_positive, family = "Lato"
   ) +
   annotate(
     "text", x = 1, y = -0.15,
     label = "Lernrelevante Verarbeitung: Eliminiert",
     hjust = 1, size = 3.8, fontface = "italic",
-    color = "#dc2626", family = "Lato"
+    color = color_negative, family = "Lato"
   ) +
   scale_x_continuous(limits = c(-0.05, 1.05), expand = c(0, 0)) +
   scale_y_continuous(limits = c(-0.22, 0.95), expand = c(0, 0)) +
@@ -167,20 +163,20 @@ ggplot() +
 
 ### Wie erkennt man, wo auf dem Spektrum man steht?
 
-Das 5-Fragen-Framework (→ Teil 3) hilft beim **Gestalten** von Aufgaben. Aber wie prüft man im Lehralltag, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Sonden, die den Versuch-dann-Prüfe-Bogen abbilden:
+Das 5-Fragen-Framework (→ Teil 3) hilft beim **Gestalten** von Aufgaben. Aber wie prüft man im Lehralltag, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Diagnose-Fragen, die den Versuch-dann-Prüfe-Bogen abbilden:
 
-| Sonde | Frage an Studierende | Was sie zeigt |
-|-------|---------------------|---------------|
+| Zeitpunkt | Frage an Studierende | Was sie zeigt |
+|-----------|---------------------|---------------|
 | **Vorher** | "Was hast du versucht, bevor du KI gefragt hast?" | Gab es einen eigenen Versuch? |
 | **Während** | "Wo hat dich die KI überrascht, und warum?" | War das interne Modell aktiv? |
 | **Nachher** | "Was machst du nächstes Mal anders, ohne KI?" | Hat sich das Verständnis aktualisiert? |
 
-Wer outsourct, hat auf Sonde 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → [Ausführliche Anleitung mit Beispielen](../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-sonden-für-den-lehralltag)
+Wer outsourct, hat auf Frage 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → [Ausführliche Anleitung mit Beispielen](../03-praxis/5-fragen-framework/#vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag)
 
 ::: {.pair}
-### Die 3 Sonden ausprobieren (1 Min)
+### Die 3 Diagnose-Fragen ausprobieren (1 Min)
 
-Wähle eine der 3 Sonden. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
+Wähle eine der 3 Fragen. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
 :::
 
 
@@ -212,7 +208,7 @@ digraph evaluation_paradox {
     bgcolor = 'transparent'
     nodesep = 0.8
     ranksep = 1.0
-    label = 'Das Evaluationsparadox\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht'
+    label = 'Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht'
     labelloc = t
     fontsize = 14
     fontcolor = '#666666'
@@ -236,8 +232,8 @@ digraph evaluation_paradox {
   ]
 
   evaluate [
-    label = 'KI-Output\nbewerten'
-    fillcolor = '#dc2626'
+    label = 'KI-Output\\nbewerten'
+    fillcolor = '#D55E00'
   ]
 
   competence [
@@ -246,17 +242,17 @@ digraph evaluation_paradox {
   ]
 
   learning [
-    label = 'Eigenes\nLernen'
+    label = 'Eigenes\\nLernen'
     fillcolor = '#64748b'
   ]
 
   thinking [
-    label = 'Eigenes\nDenken'
-    fillcolor = '#16a34a'
+    label = 'Eigenes\\nDenken'
+    fillcolor = '#0072B2'
   ]
 
   center [
-    label = 'Internes Modell\nnoch nicht aufgebaut'
+    label = 'Internes Modell\\nnoch nicht aufgebaut'
     fillcolor = '#F5F5F5'
     fontcolor = '#9A4665'
     style = 'filled'
@@ -267,7 +263,7 @@ digraph evaluation_paradox {
   evaluate -> competence [label = '  erfordert  ']
   competence -> learning [label = '  entsteht durch  ']
   learning -> thinking [label = '  erfordert  ']
-  thinking -> evaluate [label = '  wird ersetzt\n  durch KI  ' style = dashed color = '#dc2626']
+  thinking -> evaluate [label = '  wird ersetzt\\n  durch KI  ' style = dashed color = '#D55E00']
 }
 ")
 ```
@@ -307,36 +303,36 @@ digraph expert_novice {
     label = 'Expert:in'
     fontname = 'Helvetica'
     fontsize = 13
-    fontcolor = '#16a34a'
+    fontcolor = '#0072B2'
     style = 'rounded,filled'
-    fillcolor = '#e8f5e9'
-    color = '#16a34a'
+    fillcolor = '#dce8f5'
+    color = '#0072B2'
     penwidth = 1.5
 
-    e_model [label = 'Starkes internes\nModell' fillcolor = '#16a34a']
+    e_model [label = 'Starkes internes\\nModell' fillcolor = '#0072B2']
     e_ki [label = 'KI-Output' fillcolor = '#64748b']
-    e_result [label = 'Korrektur' fillcolor = '#16a34a']
+    e_result [label = 'Korrektur' fillcolor = '#0072B2']
 
-    e_model -> e_ki [label = '  Vergleich\n  möglich  ' color = '#222222']
-    e_ki -> e_result [label = '  Fehler\n  erkennbar  ' color = '#222222']
+    e_model -> e_ki [label = '  Vergleich\\n  möglich  ' color = '#222222']
+    e_ki -> e_result [label = '  Fehler\\n  erkennbar  ' color = '#222222']
   }
 
   subgraph cluster_novice {
     label = 'Anfänger:in'
     fontname = 'Helvetica'
     fontsize = 13
-    fontcolor = '#dc2626'
+    fontcolor = '#D55E00'
     style = 'rounded,filled'
-    fillcolor = '#fce4ec'
-    color = '#dc2626'
+    fillcolor = '#fde8d8'
+    color = '#D55E00'
     penwidth = 1.5
 
-    n_model [label = 'Schwaches internes\nModell' fillcolor = '#dc2626']
+    n_model [label = 'Schwaches internes\\nModell' fillcolor = '#D55E00']
     n_ki [label = 'KI-Output' fillcolor = '#64748b']
-    n_result [label = 'Übernahme' fillcolor = '#dc2626']
+    n_result [label = 'Übernahme' fillcolor = '#D55E00']
 
-    n_model -> n_ki [label = '  Kein Vergleichs-\n  massstab  ' color = '#999999' style = dashed]
-    n_ki -> n_result [label = '  Fehler\n  unsichtbar  ' color = '#999999' style = dashed]
+    n_model -> n_ki [label = '  Kein Vergleichs-\\n  massstab  ' color = '#999999' style = dashed]
+    n_ki -> n_result [label = '  Fehler\\n  unsichtbar  ' color = '#999999' style = dashed]
   }
 }
 ")
@@ -531,15 +527,15 @@ digraph try_then_check {
     label = 'Produktiver Weg'
     fontname = 'Helvetica'
     fontsize = 14
-    fontcolor = '#16a34a'
+    fontcolor = '#0072B2'
     style = 'rounded,filled'
-    fillcolor = '#e8f5e9'
-    color = '#16a34a'
+    fillcolor = '#dce8f5'
+    color = '#0072B2'
     penwidth = 1.5
 
-    try [label = '1. Versuch\nEigenen Ansatz\ngenerieren' fillcolor = '#16a34a']
-    compare [label = '2. Vergleich\nMit KI-Output\nabgleichen' fillcolor = '#2563eb']
-    reflect [label = '3. Reflexion\nSchema\naktualisieren' fillcolor = '#f59e0b' fontcolor = '#222222']
+    try [label = '1. Versuch\\nEigenen Ansatz\\ngenerieren' fillcolor = '#0072B2']
+    compare [label = '2. Vergleich\\nMit KI-Output\\nabgleichen' fillcolor = '#56B4E9']
+    reflect [label = '3. Reflexion\\nSchema\\naktualisieren' fillcolor = '#E69F00' fontcolor = '#222222']
 
     try -> compare [label = '  Prediction Error  ' color = '#666666']
     compare -> reflect [label = '  Analyse  ' color = '#666666']
@@ -550,18 +546,18 @@ digraph try_then_check {
     label = 'Unproduktiver Weg'
     fontname = 'Helvetica'
     fontsize = 14
-    fontcolor = '#dc2626'
+    fontcolor = '#D55E00'
     style = 'rounded,filled'
-    fillcolor = '#fce4ec'
-    color = '#dc2626'
+    fillcolor = '#fde8d8'
+    color = '#D55E00'
     penwidth = 1.5
 
-    direct [label = 'KI-Output\ndirekt nutzen' fillcolor = '#dc2626']
-    passive [label = 'Passives\nÜbernehmen' fillcolor = '#dc2626']
-    nolearn [label = 'Kein\nLerneffekt' fillcolor = '#dc2626']
+    direct [label = 'KI-Output\\ndirekt nutzen' fillcolor = '#D55E00']
+    passive [label = 'Passives\\nÜbernehmen' fillcolor = '#D55E00']
+    nolearn [label = 'Kein\\nLerneffekt' fillcolor = '#D55E00']
 
     direct -> passive [color = '#999999' style = dashed]
-    passive -> nolearn [color = '#999999' style = dashed label = '  Keine Reflexion\n  möglich  ']
+    passive -> nolearn [color = '#999999' style = dashed label = '  Keine Reflexion\\n  möglich  ']
   }
 }
 ")

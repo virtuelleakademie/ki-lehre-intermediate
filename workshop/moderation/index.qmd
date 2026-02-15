@@ -137,10 +137,10 @@ Präsentiere die Slides. Kernbotschaften:
 7. **Equity**: Expertise Reversal Effect → Schwächere werden überproportional geschädigt
 8. **5-Fragen-Framework**: Kurzübersicht als Brücke zu Teil 3
 
-### 3 Sonden (2 Min)
+### 3 Diagnose-Fragen (2 Min)
 
-1. Sonden-Tabelle kurz zeigen (auf der Seite unter den Slides)
-2. Aktivität: "Wähle eine Sonde. Wie würdest du sie in deinem Fach einsetzen?"
+1. Tabelle mit den Diagnose-Fragen kurz zeigen (auf der Seite unter den Slides)
+2. Aktivität: "Wähle eine Frage. Wie würdest du sie in deinem Fach einsetzen?"
 3. 1 Min mit Nachbar:in austauschen
 
 ### Worked Example: Annotierte Bibliografie (12--15 Min)
@@ -158,7 +158,7 @@ Präsentiere die Slides. Kernbotschaften:
 **Timing-Check:** Du solltest bei ca. 10:50 sein.
 
 - **Wenn du früher fertig bist:** Mehr Diskussion beim Worked Example, oder eine der Nachlesen-Abschnitte kurz ansprechen (Equity-Dimension eignet sich gut).
-- **Wenn du später dran bist:** Die 3-Sonden-Aktivität kann entfallen (ist nur 1 Min). Das Worked Example nicht kürzen.
+- **Wenn du später dran bist:** Die Aktivität zu den 3 Diagnose-Fragen kann entfallen (ist nur 1 Min). Das Worked Example nicht kürzen.
 
 
 ## 10:50--10:55: Puffer / Übergang (5 Min) {#puffer}
@@ -257,7 +257,7 @@ Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierun
 
 ### "Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?"
 
-Das ist die falsche Frage (Beach, Not the Ant). Statt Kontrolle: Aufgaben so gestalten, dass der eigene Denkprozess der natürliche Weg zum Ziel ist. Die 3 Sonden helfen beim Erkennen, nicht beim Kontrollieren. Und: Die Versuch-dann-Prüfe-Struktur macht Eigenarbeit zum Bestandteil der Aufgabe, nicht zur Ehrensache.
+Das ist die falsche Frage (Beach, Not the Ant). Statt Kontrolle: Aufgaben so gestalten, dass der eigene Denkprozess der natürliche Weg zum Ziel ist. Die 3 Diagnose-Fragen helfen beim Erkennen, nicht beim Kontrollieren. Und: Die Versuch-dann-Prüfe-Struktur macht Eigenarbeit zum Bestandteil der Aufgabe, nicht zur Ehrensache.
 
 ### "Meine Kolleg:innen machen das nicht. Bringt es etwas, wenn nur ich das umsetze?"
 
@@ -265,7 +265,7 @@ Ja, aber begrenzt. Eine gut gestaltete Aufgabe in einem Kurs ist besser als kein
 
 ### "Wie viel Mehrarbeit bedeutet das?"
 
-Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe dauert 15-20 Minuten. Das Redesign kann aufwändiger sein (Suchprotokoll, In-Class-Synthese). Strategie: Mit einer Aufgabe anfangen, nicht alle gleichzeitig umstellen. Und: Templates und Sonden wiederverwenden.
+Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe dauert 15-20 Minuten. Das Redesign kann aufwändiger sein (Suchprotokoll, In-Class-Synthese). Strategie: Mit einer Aufgabe anfangen, nicht alle gleichzeitig umstellen. Und: Templates und Diagnose-Fragen wiederverwenden.
 
 
 ## Varianten
@@ -273,7 +273,7 @@ Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe da
 ### Wenn nur 90 Minuten verfügbar
 
 - Teil 1 auf 30 Min kürzen: Slides straffen, Fallstudien-Analyse auf 5 Min
-- Teil 2 auf 20 Min: Slides + Worked Example (ohne 3-Sonden-Aktivität)
+- Teil 2 auf 20 Min: Slides + Worked Example (ohne Diagnose-Fragen-Aktivität)
 - Teil 3 auf 30 Min: Nur THINK-PAIR-SHARE, ohne Agent-Design
 - Abschluss auf 10 Min
 
