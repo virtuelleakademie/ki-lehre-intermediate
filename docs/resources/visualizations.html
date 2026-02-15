@@ -92,6 +92,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script>
 <style>
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: purple;
 }
@@ -100,50 +111,6 @@ div.callout-group.callout-style-default > .callout-header {
 }
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
@@ -158,15 +125,26 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-pair.callout {
+  border-left-color: forestgreen;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -178,6 +156,28 @@ div.callout-facilitator.callout-style-default > .callout-header {
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
   content: '📋';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -296,12 +296,12 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#kognitive-belastung-verteilung-im-arbeitsgedaechtnis" id="toc-kognitive-belastung-verteilung-im-arbeitsgedaechtnis" class="nav-link active" data-scroll-target="#kognitive-belastung-verteilung-im-arbeitsgedaechtnis">1. Kognitive Belastung: Verteilung im Arbeitsgedaechtnis</a></li>
+  <li><a href="#kognitive-belastung-verteilung-im-arbeitsgedächtnis" id="toc-kognitive-belastung-verteilung-im-arbeitsgedächtnis" class="nav-link active" data-scroll-target="#kognitive-belastung-verteilung-im-arbeitsgedächtnis">1. Kognitive Belastung: Verteilung im Arbeitsgedächtnis</a></li>
   <li><a href="#expertise-reversal-effekt" id="toc-expertise-reversal-effekt" class="nav-link" data-scroll-target="#expertise-reversal-effekt">2. Expertise Reversal Effekt</a></li>
   <li><a href="#testing-effekt" id="toc-testing-effekt" class="nav-link" data-scroll-target="#testing-effekt">3. Testing Effekt</a></li>
   <li><a href="#das-lernparadox" id="toc-das-lernparadox" class="nav-link" data-scroll-target="#das-lernparadox">4. Das Lernparadox</a></li>
   <li><a href="#offloading-vs.-outsourcing-ein-spektrum" id="toc-offloading-vs.-outsourcing-ein-spektrum" class="nav-link" data-scroll-target="#offloading-vs.-outsourcing-ein-spektrum">5. Offloading vs.&nbsp;Outsourcing: Ein Spektrum</a></li>
-  <li><a href="#arbeitsgedaechtnis-flaschenhals" id="toc-arbeitsgedaechtnis-flaschenhals" class="nav-link" data-scroll-target="#arbeitsgedaechtnis-flaschenhals">6. Arbeitsgedaechtnis-Flaschenhals</a></li>
+  <li><a href="#arbeitsgedächtnis-flaschenhals" id="toc-arbeitsgedächtnis-flaschenhals" class="nav-link" data-scroll-target="#arbeitsgedächtnis-flaschenhals">6. Arbeitsgedächtnis-Flaschenhals</a></li>
   <li><a href="#das-evaluationsparadox" id="toc-das-evaluationsparadox" class="nav-link" data-scroll-target="#das-evaluationsparadox">7. Das Evaluationsparadox</a></li>
   <li><a href="#versuch-dann-prüfe-zyklus" id="toc-versuch-dann-prüfe-zyklus" class="nav-link" data-scroll-target="#versuch-dann-prüfe-zyklus">8. Versuch-dann-Prüfe Zyklus</a></li>
   <li><a href="#das-5-fragen-framework" id="toc-das-5-fragen-framework" class="nav-link" data-scroll-target="#das-5-fragen-framework">9. Das 5-Fragen-Framework</a></li>
@@ -332,9 +332,9 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </header>
 
 
-<section id="kognitive-belastung-verteilung-im-arbeitsgedaechtnis" class="level2">
-<h2 class="anchored" data-anchor-id="kognitive-belastung-verteilung-im-arbeitsgedaechtnis">1. Kognitive Belastung: Verteilung im Arbeitsgedaechtnis</h2>
-<p>Die Arbeitsgedaechtniskapazitaet ist begrenzt. Entscheidend ist, wie die drei Arten kognitiver Belastung diesen begrenzten Raum aufteilen.</p>
+<section id="kognitive-belastung-verteilung-im-arbeitsgedächtnis" class="level2">
+<h2 class="anchored" data-anchor-id="kognitive-belastung-verteilung-im-arbeitsgedächtnis">1. Kognitive Belastung: Verteilung im Arbeitsgedächtnis</h2>
+<p>Die Arbeitsgedächtniskapazität ist begrenzt. Entscheidend ist, wie die drei Arten kognitiver Belastung diesen begrenzten Raum aufteilen.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-cognitive-load" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -343,7 +343,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <img src="visualizations_files/figure-html/fig-cognitive-load-1.png" class="img-fluid figure-img" width="960">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cognitive-load-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1: Die Gesamthoehe repraesentiert die fixe Arbeitsgedaechtniskapazitaet. Entscheidend ist, wie viel Raum fuer lernrelevante Verarbeitung bleibt.
+Abbildung&nbsp;1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt.
 </figcaption>
 </figure>
 </div>
@@ -352,7 +352,7 @@ Abbildung&nbsp;1: Die Gesamthoehe repraesentiert die fixe Arbeitsgedaechtniskapa
 </section>
 <section id="expertise-reversal-effekt" class="level2">
 <h2 class="anchored" data-anchor-id="expertise-reversal-effekt">2. Expertise Reversal Effekt</h2>
-<p>Optimale Unterstuetzung haengt vom Vorwissen ab. Was Anfaengern hilft, schadet Experten, und umgekehrt. Permanentes KI-Scaffolding verhindert den Uebergang.</p>
+<p>Optimale Unterstützung hängt vom Vorwissen ab. Was Anfängern hilft, schadet Experten, und umgekehrt. Permanentes KI-Scaffolding verhindert den Übergang.</p>
 <div class="cell">
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
@@ -374,7 +374,7 @@ Abbildung&nbsp;2: Permanentes KI-Scaffolding (gestrichelt) verhindert die Expert
 </section>
 <section id="testing-effekt" class="level2">
 <h2 class="anchored" data-anchor-id="testing-effekt">3. Testing Effekt</h2>
-<p>Aktives Abrufen fuehrt zu besserem Langzeitlernen als wiederholtes Studieren, selbst wenn die Gesamtlernzeit gleich bleibt.</p>
+<p>Aktives Abrufen führt zu besserem Langzeitlernen als wiederholtes Studieren, selbst wenn die Gesamtlernzeit gleich bleibt.</p>
 <div class="cell">
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : no
@@ -598,7 +598,7 @@ Abbildung&nbsp;3
 </section>
 <section id="das-lernparadox" class="level2">
 <h2 class="anchored" data-anchor-id="das-lernparadox">4. Das Lernparadox</h2>
-<p>Subjektives Gefuehl und tatsaechliches Lernen koennen auseinanderklaffen. Die metakognitive Falle: Was sich leicht anfuehlt, fuehlt sich nach Lernen an, ist es aber oft nicht.</p>
+<p>Subjektives Gefühl und tatsächliches Lernen können auseinanderklaffen. Die metakognitive Falle: Was sich leicht anfühlt, fühlt sich nach Lernen an, ist es aber oft nicht.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-lernparadox" class="quarto-float quarto-figure quarto-figure-center anchored" width="960">
@@ -632,9 +632,9 @@ Abbildung&nbsp;5
 </div>
 </div>
 </section>
-<section id="arbeitsgedaechtnis-flaschenhals" class="level2">
-<h2 class="anchored" data-anchor-id="arbeitsgedaechtnis-flaschenhals">6. Arbeitsgedaechtnis-Flaschenhals</h2>
-<p>Informationen muessen durch das begrenzte Arbeitsgedaechtnis, bevor sie im Langzeitgedaechtnis verankert werden koennen.</p>
+<section id="arbeitsgedächtnis-flaschenhals" class="level2">
+<h2 class="anchored" data-anchor-id="arbeitsgedächtnis-flaschenhals">6. Arbeitsgedächtnis-Flaschenhals</h2>
+<p>Informationen müssen durch das begrenzte Arbeitsgedächtnis, bevor sie im Langzeitgedächtnis verankert werden können.</p>
 <div class="cell">
 <div id="fig-bottleneck" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -651,7 +651,7 @@ Abbildung&nbsp;6
 </section>
 <section id="das-evaluationsparadox" class="level2">
 <h2 class="anchored" data-anchor-id="das-evaluationsparadox">7. Das Evaluationsparadox</h2>
-<p>Das Evaluationsparadox als zirkulaere Abhaengigkeit: Um KI-Outputs zu bewerten, braucht man Fachkompetenz, die erst durch eigenes Lernen entsteht.</p>
+<p>Das Evaluationsparadox als zirkuläre Abhängigkeit: Um KI-Outputs zu bewerten, braucht man Fachkompetenz, die erst durch eigenes Lernen entsteht.</p>
 <div class="cell">
 <div id="fig-evaluation-paradox" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -665,7 +665,7 @@ Abbildung&nbsp;7
 </figure>
 </div>
 </div>
-<p><strong>Kontrast: Experten vs.&nbsp;Anfaenger</strong></p>
+<p><strong>Kontrast: Experten vs.&nbsp;Anfänger</strong></p>
 <div class="cell">
 <div id="fig-expert-novice" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -682,7 +682,7 @@ Abbildung&nbsp;8
 </section>
 <section id="versuch-dann-prüfe-zyklus" class="level2">
 <h2 class="anchored" data-anchor-id="versuch-dann-prüfe-zyklus">8. Versuch-dann-Prüfe Zyklus</h2>
-<p>Das zentrale Designprinzip fuer KI im Lernkontext: Studierende generieren zuerst eigene Loesungen, dann vergleichen sie mit KI-Output.</p>
+<p>Das zentrale Designprinzip für KI im Lernkontext: Studierende generieren zuerst eigene Lösungen, dann vergleichen sie mit KI-Output.</p>
 <div class="cell">
 <div id="fig-try-then-check" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -699,7 +699,7 @@ Abbildung&nbsp;9
 </section>
 <section id="das-5-fragen-framework" class="level2">
 <h2 class="anchored" data-anchor-id="das-5-fragen-framework">9. Das 5-Fragen-Framework</h2>
-<p>Der vollstaendige Entscheidungsbaum fuer die Aufgabenanalyse im KI-Zeitalter.</p>
+<p>Der vollständige Entscheidungsbaum für die Aufgabenanalyse im KI-Zeitalter.</p>
 <div class="cell">
 <div id="fig-5-fragen" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -716,7 +716,7 @@ Abbildung&nbsp;10
 </section>
 <section id="das-5-fragen-framework-zusammenfassung" class="level2">
 <h2 class="anchored" data-anchor-id="das-5-fragen-framework-zusammenfassung">10. Das 5-Fragen-Framework (Zusammenfassung)</h2>
-<p>Die erweiterte Version des Entscheidungsbaums mit explizitem “Keine KI noetig”-Pfad.</p>
+<p>Die erweiterte Version des Entscheidungsbaums mit explizitem “Keine KI nötig”-Pfad.</p>
 <div class="cell">
 <div id="fig-5-fragen-summary" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
