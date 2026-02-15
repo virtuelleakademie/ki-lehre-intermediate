@@ -37,3 +37,93 @@ about:
 ## Website
 
 {{< bi link >}} [virtuelleakademie.github.io/ki-lehre-intermediate/](https://virtuelleakademie.github.io/ki-lehre-intermediate/)
+
+
+## {{< bi compass >}} Wie du diese Website nutzt
+
+Diese Website begleitet dich durch den Workshop und steht dir danach als Nachschlagewerk zur Verfügung. So findest du dich zurecht:
+
+- **Navigation oben:** Die drei Workshop-Teile (Lernen verstehen, KI & Lernen, Praxis) erreichst du über die Navigationsleiste. Innerhalb jedes Teils zeigt die Seitenleiste links die Unterseiten.
+- **Eingebettete Slides:** Auf vielen Seiten sind Präsentationen eingebettet. Du kannst sie direkt auf der Seite durchblättern oder mit dem Button rechts unten im Vollbild öffnen.
+- **Suche:** Über die Suchfunktion oben rechts findest du Inhalte auf allen Seiten.
+- **Kommentare:** Am rechten Rand kannst du mit [Hypothesis](https://web.hypothes.is/) eigene Notizen und Markierungen hinterlassen. Die erscheinen beim Markieren von Text.
+
+
+## {{< bi signpost-split >}} Vor, während und nach dem Workshop
+
+Die Website funktioniert auf zwei Ebenen: als Live-Begleitung während des Workshops und als Nachschlagewerk für das Selbststudium.
+
+**Vor dem Workshop**
+
+- Arbeite den [Vorbereitungsauftrag](workshop/index.qmd) durch (ca. 20 Min.)
+- Bring eine eigene Aufgabe oder Prüfung mit, die wir gemeinsam analysieren
+
+**Während des Workshops**
+
+- Folge den Präsentationen und Aktivitäten
+- Der umgebende Text auf den Seiten liefert Kontext, wird aber nicht vorgelesen
+- Die grauen "Zum Nachlesen"-Boxen sind für später, du musst sie jetzt nicht lesen
+
+**Nach dem Workshop**
+
+- Komm zu den Seiten zurück und lies in deinem Tempo
+- Öffne die zusammengeklappten Abschnitte (Pro-Tipps, Nachlesen)
+- Die "Vertiefenden Ressourcen" am Ende jedes Teils erweitern die Workshop-Inhalte
+
+
+::::::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## {{< bi palette >}} Was die farbigen Boxen bedeuten
+
+Auf den Workshop-Seiten findest du verschiedene farbige Boxen, die dir anzeigen, welche Art von Aktivität oder Information folgt.
+
+### Aktivitäten
+
+::: {.active-processing}
+### Aktive Verarbeitung
+Allgemeine Aktivitäten, bei denen du selbst denkst und arbeitest.
+:::
+
+::: {.individual}
+### Einzelarbeit
+Aufgaben, die du allein bearbeitest.
+:::
+
+::: {.pair}
+### Partnerarbeit
+Aufgaben, die du mit einer anderen Person zusammen bearbeitest.
+:::
+
+::: {.group}
+### Gruppenarbeit
+Aktivitäten in grösseren Gruppen.
+:::
+
+::: {.reflect}
+### Reflexion und Selbsttest
+Fragen zum Nachdenken oder Selbstüberprüfung. Versuche, sie zu beantworten, bevor du weiterliest.
+:::
+
+### Zusatzinformationen
+
+::: {.pro-tip}
+### Pro-Tipp
+Vertiefende Tipps, die du bei Interesse öffnen kannst.
+:::
+
+::: {.nachlesen}
+### Zum Nachlesen
+Ausführlichere Texte für das Selbststudium. Im Workshop werden sie nicht vorgelesen.
+:::
+
+::: {.facilitator}
+### Moderationshinweis
+Hinweise für die Kursleitung. Als Teilnehmende kannst du sie ignorieren oder reinschauen, wenn du neugierig bist.
+:::
+
+### Spezialboxen
+
+::: {.agent-potential}
+### Agent-Potential
+Stellen, an denen KI-Agents sinnvoll eingesetzt werden könnten.
+:::
+:::::

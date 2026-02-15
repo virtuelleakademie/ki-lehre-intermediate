@@ -157,6 +157,7 @@ execute:
   cache: true
   freeze: auto
   execute-dir: project
+  warning: false
 
 editor:
   render-on-save: true
