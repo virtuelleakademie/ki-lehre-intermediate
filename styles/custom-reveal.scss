@@ -9,13 +9,18 @@
 $font-family-sans-serif: Lato, sans-serif !default;
 $presentation-font-size-root : 32px !default;
 
-// colors (aligned with _brand.yml)
+// Brand palette (from _brand.yml)
+$brand-dark: #222222;
+$brand-light: #F5F5F5;
+$brand-accent: #9A4665;
+
+// colors
 $body-bg: #fff !default;
-$body-color: #222222 !default;
-$link-color: #9A4665 !default;
+$body-color: $brand-dark !default;
+$link-color: $brand-accent !default;
 $selection-bg: rgba(0, 0, 0, 0.99);
 
-// headings (Jura from brand, Lato as fallback for slides)
+// headings (Jura from brand, Lato body for readability)
 $presentation-heading-font: "Jura", "Lato", sans-serif !default;
 
 .columns {
@@ -23,67 +28,14 @@ $presentation-heading-font: "Jura", "Lato", sans-serif !default;
   justify-content: space-between;
 }
 
-.discussion {
-  border-left: solid 5px rgb(198, 234, 241);
-  background-color: rgb(231, 251, 255);
-  margin-top: 50px;
-}
-
-.discussion:before {
-  content: "🤔";
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 .reveal h2 {
   margin-bottom: 20px;
   margin-top: -10px;
 }
 
-.your-turn {
-  border-left: solid 5px #f4dbb3;
-  background-color: #fdf8f1;
-}
-
-.your-turn:before {
-  content: "✍️";
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.larger {
-  font-size: 2.4rem;
-}
-
-.even-smaller :not(h2) {
-  font-size: 1.6rem;
-}
-
-.even-even-smaller :not(h2) {
-  font-size: 1.4rem;
-}
-
-.topic-number {
-  font-size: 25rem;
-  margin-top: 4rem;
-}
-
-.topic-text {
-  font-size: 5rem;
-  margin-top: 11rem;
-}
-
-.width-75 {
-  width: 75%;
-}
-
-.width-80 {
-  width: 80%;
-}
-
 .reveal .footer {
   a {
-    color: black;
+    color: $brand-dark;
   }
 }
 

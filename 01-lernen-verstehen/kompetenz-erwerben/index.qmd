@@ -98,7 +98,7 @@ Experte sieht die Gleichung und erkennt sofort → $x = 5$
 
 Wenn nach Erklärung gefragt:
 
-- "Ich weiß es einfach..."
+- "Ich weiss es einfach..."
 - "Du subtrahierst 5 und teilst durch 3"
 - "Wie wusste ich das? Ich bin mir nicht sicher..."
 
@@ -129,7 +129,7 @@ Expertise verändert die kognitive Belastung grundlegend. Was für Anfänger 7+ 
 
 ### Wie KI die kognitive Architektur stört
 
-Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschließen:
+Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen:
 
 1. **Umgeht Verarbeitung im Arbeitsgedächtnis**: Keine kognitive Anstrengung bedeutet keine Kodierung
 2. **Verhindert Speicherung im Langzeitgedächtnis**: Unverarbeitete Informationen werden nicht gespeichert
@@ -247,7 +247,7 @@ Das Gehirn nutzt diese Fehler zur Anpassung des Wissens:
 
 - **Neuronale Signale** markieren Vorhersagefehler als wichtige Lernmomente
 - **Neuronale Pfade**, die am Fehler beteiligt waren, werden verstärkt
-- **Synaptische Verbindungen** werden je nach Fehlergröße angepasst
+- **Synaptische Verbindungen** werden je nach Fehlergrösse angepasst
 - **Konsolidierung im Schlaf** macht diese Änderungen dauerhaft
 
 ::: {.pro-tip collapse="true"}
@@ -284,7 +284,7 @@ Für die Lehrpraxis ist entscheidend: **Der Vorhersagefehler-Zyklus funktioniert
 Denke an eine Aufgabe in deiner Lehre:
 
 - Wo generieren Studierende Vorhersagen, bevor sie Feedback bekommen?
-- Wo könnte KI diesen Vorhersagefehler-Zyklus kurzschließen?
+- Wo könnte KI diesen Vorhersagefehler-Zyklus kurzschliessen?
 - Wie könntest du die "Versuch-dann-Prüfe"-Struktur einbauen?
 :::
 
@@ -328,7 +328,7 @@ Bevor du weiterliest, fasse für dich zusammen:
 
 - Was sind die drei wichtigsten Erkenntnisse für deine Lehre?
 - Welche **eine Änderung** an einer Aufgabe wirst du zuerst umsetzen?
-- Wo erwartest du den größten Widerstand von Studierenden?
+- Wo erwartest du den grössten Widerstand von Studierenden?
 
 *Diese Selbsterklärung ist der Übergang vom Verstehen zum Anwenden.*
 :::

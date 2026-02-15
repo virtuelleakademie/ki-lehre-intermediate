@@ -10,6 +10,7 @@ project:
   output-dir: docs
   render:
     - index.qmd
+    - vorbereitung/index.qmd
     - workshop/**/*.qmd
     - 01-lernen-verstehen/**/*.qmd
     - 02-ki-und-lernen/**/*.qmd
@@ -87,6 +88,7 @@ website:
       search: true
       background: light
       contents:
+        - vorbereitung/index.qmd
         - workshop/index.qmd
         - workshop/einstieg/index.qmd
         # - 01-lernen-verstehen/index.qmd
