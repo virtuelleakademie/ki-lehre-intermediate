@@ -27,7 +27,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 
 ### Vorstellungsrunde (5 Min)
 
-- Name, Institut, KI-Erfahrung (0-10), mitgebrachte Aufgabe
+- Name, Institut, KI-Erfahrung (0-10), mitgebrachte Aufgaben
 - Kurz halten: max. 30 Sekunden pro Person
 - Die KI-Erfahrungsskala gibt dir einen schnellen Überblick über die Gruppe
 
@@ -186,9 +186,8 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 
 - Kurze Verschnaufpause
 - "Bildschirme für einen Moment schliessen. Durchatmen."
-- Sicherstellen, dass alle ihre mitgebrachte Aufgabe griffbereit haben
-- Wer keine Aufgabe hat: [Fallstudien](../../03-praxis/fallstudien/) verteilen
-- "Denkt schon einmal an eine *zweite* Aufgabe aus eurer Lehre, möglichst eine andere Art als die, die ihr gleich analysiert. Ihr braucht sie später."
+- Sicherstellen, dass alle ihre beiden mitgebrachten Aufgaben griffbereit haben
+- Wer keine oder nur eine hat: [Fallstudien](../../03-praxis/fallstudien/) als Ergänzung verteilen
 
 
 ## 10:53--11:45: Teil 3 -- Vom Wissen zum Handeln (52 Min) {#teil3}

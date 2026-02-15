@@ -8,7 +8,7 @@ title: Aktivierender Einstieg
 
 1. **Name & Institut**
 2. **KI-Erfahrung** (Skala 0-10)
-3. **Aufgabe/Prüfung**, die du heute mitgebracht hast
+3. **Aufgaben/Prüfungen**, die du heute mitgebracht hast
 
 
 ## Generierungsaktivität (5 Min)
@@ -38,7 +38,7 @@ Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende
 
 ### Was ihr mitgebracht habt
 
-- **Eine eigene Aufgabe oder Prüfung** (aus der Vorbereitung)
+- **Zwei eigene Aufgaben oder Prüfungen** (aus der Vorbereitung), möglichst unterschiedliche Typen
 - **Fragen und Erfahrungen** aus eurer Lehre
 
 ### Was ihr heute lernt

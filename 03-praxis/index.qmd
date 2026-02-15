@@ -36,7 +36,7 @@ Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Wo sind die
 ::: {.facilitator}
 ### THINK-PAIR-SHARE Aktivität (23 Min)
 
-Sicherstellen, dass alle eine Aufgabe haben. Wer keine mitgebracht hat, nutzt die Fallstudien-Szenarien. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.
+Sicherstellen, dass alle zwei Aufgaben haben. Wer keine oder nur eine mitgebracht hat, nutzt die Fallstudien-Szenarien als Ergänzung. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.
 :::
 
 ### THINK Phase (8 Min)
@@ -102,9 +102,9 @@ Diskutiert 30 Sekunden mit eurem Nachbarn: **Benennt mindestens drei Prinzipien 
 
 Schreibe in einem Satz auf: **Was war die wichtigste Erkenntnis aus deiner Analyse?**
 
-Und dann: **Für welche *andere* Aufgabe aus deiner Lehre wäre die Analyse vermutlich ganz anders ausgefallen?** Denke dabei bewusst an einen anderen Aufgabentyp (z.B. mündliche Prüfung statt schriftlicher Arbeit, Gruppenarbeit statt Einzelaufgabe, Laborübung statt Essay).
+Und dann: **Was erwartest du, wenn du dieselbe Analyse auf deine zweite mitgebrachte Aufgabe anwendest?** Wird das Ergebnis ähnlich ausfallen oder ganz anders? Wo vermutest du die grösste Schwachstelle?
 
-*Du brauchst diese zweite Aufgabe gleich für die nächste Aktivität.*
+*Du brauchst deine zweite Aufgabe gleich für die nächste Aktivität.*
 :::
 
 
@@ -113,7 +113,7 @@ Und dann: **Für welche *andere* Aufgabe aus deiner Lehre wäre die Analyse verm
 ::: {.facilitator}
 ### Kollegiale Kurzberatung (20 Min)
 
-Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eine zweite, andere Aufgabe an und geben uns gegenseitig kollegiales Feedback. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
+Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und geben uns gegenseitig kollegiales Feedback. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
 
 Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.
 :::
@@ -127,7 +127,7 @@ Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halb
 
 Arbeite auf einer Karteikarte oder einem halben Blatt Papier. Die physische Begrenzung ist Absicht: Sie zwingt zur Verdichtung.
 
-**Schritt 1 (3 Min):** Schreibe so viele der 5 Framework-Fragen auf, wie du aus dem Gedächtnis abrufen kannst. Dann wähle die **zweite Aufgabe** aus deiner Lehre, die du gerade identifiziert hast.
+**Schritt 1 (3 Min):** Schreibe so viele der 5 Framework-Fragen auf, wie du aus dem Gedächtnis abrufen kannst. Dann nimm deine **zweite mitgebrachte Aufgabe** zur Hand.
 
 **Schritt 2 (5 Min):** Analysiere diese Aufgabe mit dem Framework. Notiere:
 
