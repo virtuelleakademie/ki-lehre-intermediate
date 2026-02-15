@@ -20,7 +20,7 @@ Lücken sind willkommen: Sie zeigen dir, wo du beim Weiterhören besonders aufme
 
 **Dann (2 Min):** Vergleicht zu zweit eure Konzepte. Wo sind die grössten Unterschiede? Was war überraschend schwierig zu erinnern?
 
-*Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung. Dass es sich anstrengend anfühlt, ist kein Zeichen für schlechtes Lernen, sondern es ist das Lernen.*
+*Diese Übung demonstriert genau das Prinzip, das sie testet: Abrufpraxis nach einer Verzögerung. Dass es sich anstrengend anfühlt, signalisiert, dass Abrufprozesse aktiv sind, und genau diese Prozesse festigen das Gelernte.*
 :::
 
 
@@ -252,9 +252,9 @@ Offloading und Outsourcing markieren die Endpunkte eines Spektrums:
 
 Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der einen KI-generierten Entwurf gründlich überarbeitet; eine Studierende, die nach eigenem Versuch gezielt eine Frage an die KI stellt. Die entscheidende Variable ist nicht, *ob* KI genutzt wird, sondern **wie viel eigene Denkarbeit die Lernenden geleistet haben, bevor sie dem KI-Output begegnen**. Je aktiver das interne Modell, desto informativer das Feedback.
 
-> **Outsourcing eliminiert die lernrelevante kognitive Verarbeitung. Das ist keine Nebenwirkung, das ist der Mechanismus.**
+> **Outsourcing eliminiert die lernrelevante kognitive Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.**
 
-Erinnere dich an die Unterscheidung zwischen biologisch primärem und sekundärem Wissen aus Teil 1: Akademische Kompetenzen (Lesen, Schreiben, fachliches Denken) sind biologisch sekundär. Sie können *nur* durch bewusste Anstrengung erworben werden. Outsourcing eliminiert genau diesen einzigen verfügbaren Erwerbsmechanismus.
+Erinnere dich an die Unterscheidung zwischen biologisch primärem und sekundärem Wissen aus Teil 1: Akademische Kompetenzen (Lesen, Schreiben, fachliches Denken) sind biologisch sekundär. Sie erfordern bewusste, aktive Verarbeitung. Outsourcing umgeht genau die Prozesse, die für diesen Erwerb nötig sind.
 
 Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht "Dürfen Studierende KI nutzen?", sondern "Wird das Denken ausgelagert oder nur unterstützt?" Hier braucht es das Urteil der Lehrperson.
 

@@ -15,7 +15,7 @@ citation: true
 
 Wie James Lang in *Cheating Lessons* [@langCheatingLessons2013] argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert." Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass **produktive Anstrengung** der lohnendste Weg ist.
 
-Forschung zu "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen kognitive Anstrengung erfordert. Wenn wir den "struggle" entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
+Forschung zu "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen aktive kognitive Verarbeitung erfordert: Abrufen, Elaborieren, Verknüpfen, Generieren. Wenn wir diese Prozesse entfernen, entfernen wir das Lernen. Dass sich diese Prozesse anstrengend anfühlen, ist ein Signal dafür, dass sie aktiv sind. Doch Studierende erhalten oft keinen Anreiz, sich auf diese Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende diese Prozesse durchlaufen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
 
 ::: {.callout-important}
 ## Das Paradox des Lernens
@@ -27,7 +27,7 @@ Bedingungen, die die Leistung während des Trainings gut aussehen lassen, förde
 - **Testing-Effekt**: Wiederholtes Abrufen statt passivem Wiederholen nutzen
 - **Interleaving**: Verschiedene Aufgabentypen mischen statt zu blocken
 
-Diese „wünschenswerten Schwierigkeiten" sind der eigentliche Lernmechanismus, nicht Hindernisse, die eliminiert werden sollten.
+Diese „wünschenswerten Schwierigkeiten" lösen die kognitiven Prozesse aus, die Lernen erzeugen (Schemabildung, Abruf, Elaboration). Sie sind keine Hindernisse, die eliminiert werden sollten.
 :::
 
 ## Evidenzbasierte Umweltgestaltung
@@ -69,7 +69,7 @@ Woche 10: A & B mit Konzept C verknüpfen
 ```
 
 
-Forschung zeigt, dass verteilte Übung das Langzeitbehalten um 200–300% verbessert.
+Forschung zeigt, dass verteilte Übung das Langzeitbehalten substanziell verbessert [@cepedaDistributedPracticeVerbal2006], wobei die Effektgrösse je nach Aufgabentyp und Intervall variiert.
 
 ### 4. Abrufübung [@roedigerTestenhancedLearningTaking2006]
 
@@ -184,7 +184,7 @@ Schaffe strukturierte Gelegenheiten für anstrengende Verarbeitung, indem du den
 
 ### Schwierigkeit für Lernende umdeuten
 
-Hilf Lernenden zu verstehen, dass kognitive Anstrengung kein Designfehler ist, sondern der eigentliche Lernmechanismus:
+Hilf Lernenden zu verstehen, dass kognitive Anstrengung signalisiert, dass lernrelevante Prozesse aktiv sind:
 
 ::: {.callout-note}
 ## Schwierigkeit umdeuten

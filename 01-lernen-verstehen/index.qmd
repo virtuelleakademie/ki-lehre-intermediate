@@ -2,14 +2,14 @@
 title: "Wie Menschen lernen"
 ---
 
-Warum Anstrengung beim Lernen kein Bug ist, sondern das Feature.
+Warum sich effektives Lernen oft anstrengend anfühlt, und was dabei tatsächlich im Kopf passiert.
 
 In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus der Perspektive der kognitiven Psychologie? Was passiert im Gehirn, wenn wir Neues lernen? Und warum ist das, was sich wie Lernen *anfühlt*, oft das Gegenteil?
 
 Ohne dieses Grundverständnis lassen sich später kaum informierte Entscheidungen über den Einsatz von KI in der Lehre treffen.
 
 
-## {{< bi file-slides >}} Vom Wissen zum Können: Wie durch kognitive Anstrengung Expertise entsteht
+## {{< bi file-slides >}} Vom Wissen zum Können: Was beim Aufbau von Expertise im Kopf passiert
 
 {{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
@@ -56,13 +56,13 @@ Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses, also genau
 - Was sind die 4 Formen wünschenswerter Schwierigkeiten?
 - Wähle eine davon und erkläre in einem Satz, *warum* sie funktioniert (welcher kognitive Mechanismus steckt dahinter?)
 
-*Wenn das schwierig ist: gut. Genau diese Anstrengung beim Abruf ist der Mechanismus, der Gelerntes festigt. Das ist Abrufpraxis in Aktion.*
+*Wenn das schwierig ist: gut. Diese Anstrengung signalisiert, dass Abrufprozesse aktiv sind, und genau diese Prozesse (nicht die Anstrengung selbst) festigen das Gelernte. Das ist Abrufpraxis in Aktion.*
 :::
 
 ::: {.callout-tip}
 ### Meta-Moment
 
-Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die kollegiale Kurzberatung in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, ist das das Feature, nicht der Bug.
+Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die kollegiale Kurzberatung in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse (Abruf, Schemabildung, Elaboration) aktiv sind.
 :::
 
 
@@ -118,7 +118,7 @@ Und: **Pausen sind keine verlorene Zeit.** Das TBRS-Modell [@barrouilletWorkingM
 
 #### Langzeitgedächtnis: Der unbegrenzte Speicher
 
-Das Langzeitgedächtnis ist praktisch unbegrenzt, aber die Eintrittskarte ist *Anstrengung*. Passives Aufnehmen genügt nicht; aktives Abrufen, Elaborieren und Verknüpfen sind nötig.
+Das Langzeitgedächtnis ist praktisch unbegrenzt, aber passives Aufnehmen genügt nicht. Die Eintrittskarte sind aktive kognitive Prozesse: Abrufen, Elaborieren und Verknüpfen.
 
 Dabei ist "Gedächtnis" kein einheitliches System: Deklaratives Wissen (Fakten, Konzepte) und prozedurales Wissen (Fertigkeiten, Abläufe) folgen unterschiedlichen Regeln und erfordern unterschiedliche Instruktionsansätze. Und der Übergang von episodischem Erinnern ("die Dienstags-Vorlesung in Raum 204") zu semantischem Wissen ("Regression minimiert quadrierte Residuen") geschieht nicht automatisch, sondern erfordert variierende Begegnungen und aktiven Abruf.
 :::
@@ -139,11 +139,9 @@ Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organi
 
 #### Wissenskompilation: Der Lernprozess
 
-Der Weg vom Anfänger zum Experten erfordert **tausende Zyklen** von:
+Der Weg vom Anfänger zum Experten verläuft nach ACT-R [@andersonAcquisitionCognitiveSkill1982] über **Wissenskompilation**: Deklaratives Wissen (Regeln, die man bewusst anwendet) wird durch tausende Übungszyklen mit Feedback zu prozeduralem Wissen (automatisierte Produktionsregeln). Dieser Prozess erfordert aktive Verarbeitung, Übung und Rückmeldung.
 
-> Vorhersage → Versuch → Fehler → Anpassung
-
-Dieses Prinzip, **Prediction Error Learning**, ist einer der wichtigsten neuronalen Mechanismen, durch die Expertise entsteht. Das Gehirn lernt, indem es Vorhersagen macht, die an der Realität scheitern, und daraus aktualisierte interne Modelle baut. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklärt dieser Mechanismus, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
+Ergänzend dazu beschreibt die Forschung zu **Vorhersagefehlern** (aus einer anderen theoretischen Tradition) einen weiteren wichtigen Lernmechanismus: Das Gehirn bildet Erwartungen, vergleicht sie mit der Realität und aktualisiert seine internen Modelle bei Diskrepanzen. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklären diese Mechanismen, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
 
 **Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.
 
@@ -158,7 +156,7 @@ Was Anfängern hilft, schadet Experten, und umgekehrt:
 
 
 ::: {.nachlesen}
-### Warum Anstrengung das Feature ist
+### Warum sich effektives Lernen anstrengend anfühlt
 
 #### Wünschenswerte Schwierigkeiten (Desirable Difficulties)
 
@@ -190,13 +188,14 @@ Zwei Quellen kognitiver Belastung:
 ::: {.callout-important}
 ### Wie die Konzepte zusammenhängen
 
-Die drei Ebenen des Lernens:
+Die Konzepte aus Teil 1 stammen aus verschiedenen Forschungstraditionen, ergänzen sich aber für die Lehrpraxis:
 
-1. **Das Ziel** (Was Lernende tun): Ein internes Modell aufbauen, das Vorhersagen, Erklärungen und Lösungen generieren kann
-2. **Der Mechanismus** (Wie das Gehirn aktualisiert): Durch Vorhersagefehler, Elaboration und Konsolidierung
-3. **Das Design** (Wie wir Lernen gestalten): Umgebungen schaffen, die informative Vorhersagefehler erzeugen, etwa durch Abrufpraxis, Spacing, Interleaving und Generierung
+- **Cognitive Load Theory** erklärt, wie Instruktionsdesign die Arbeitsgedächtnisbelastung optimieren kann (extrinsische Last minimieren, produktive Verarbeitung ermöglichen)
+- **Desirable Difficulties** beschreiben Lernbedingungen, die sich schwierig anfühlen, aber langfristiges Behalten fördern (Abrufpraxis, Spacing, Interleaving, Generierung)
+- **Wissenskompilation** (ACT-R) modelliert den Übergang von deklarativem zu prozeduralem Wissen durch Übung und Feedback
+- **Vorhersagefehler** beschreiben, wie das Gehirn aus Diskrepanzen zwischen Erwartung und Erfahrung lernt
 
-Die Strategien sind das *Wie*, Desirable Difficulties das *Was*, und der Aufbau eines generativen internen Modells das *Warum*.
+Gemeinsam ist diesen Ansätzen: Lernende müssen aktiv verarbeiten (abrufen, elaborieren, vergleichen, anwenden). Diese Prozesse fühlen sich oft anstrengend an, und genau das signalisiert, dass Lernen stattfinden kann.
 :::
 
 ::: {.pro-tip collapse="true"}

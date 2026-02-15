@@ -37,12 +37,12 @@ Lernrelevante Verarbeitung: **eliminiert**
 
 :::{.fragment}
 ::: {.callout-warning}
-**Outsourcing eliminiert die lernrelevante Verarbeitung. Das ist keine Nebenwirkung, das ist der Mechanismus.**
+**Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.**
 :::
 :::
 
 :::{.fragment}
-Akademische Fähigkeiten sind **biologisch sekundäres Wissen** (vgl. Teil 1). Für solches Wissen gibt es keinen alternativen Erwerbsmechanismus: Anstrengende Verarbeitung ist der *einzige* Weg.
+Akademische Fähigkeiten sind **biologisch sekundäres Wissen** (vgl. Teil 1). Solches Wissen erfordert aktive kognitive Verarbeitung: Abrufen, Elaborieren, Verknüpfen. Ohne diese Prozesse findet kein Erwerb statt.
 :::
 
 

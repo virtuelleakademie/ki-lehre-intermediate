@@ -18,7 +18,7 @@ citation: true
 Diese Seite vertieft die wissenschaftlichen Grundlagen des Workshops mit Fokus auf zwei Themen, die hier exklusiv behandelt werden:
 
 - **Kernthema 1**: Die Progression von schwachen zu starken Methoden (Newell & Simon, Anderson)
-- **Kernthema 2**: Der Vorhersagefehler-Mechanismus und das interne generative Modell
+- **Kernthema 2**: Vorhersagefehler als Lernmechanismus und die Idee des internen Modells
 
 Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsgedaechtnis/) | [Gedächtnis & Lernstrategien](../gedaechtnis-und-lernen/)
 :::
@@ -26,7 +26,7 @@ Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsged
 ## Zentrale Erkenntnisse
 
 1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
-2. **Kognitive Anstrengung ist kein Fehler, sondern die Funktion**, die Lernen durch Vorhersagefehler, Elaboration und Konsolidierung ermöglicht
+2. **Kognitive Anstrengung signalisiert, dass lernrelevante Prozesse aktiv sind** (Schemabildung, Abruf, Elaboration, Konsolidierung). Nicht die Anstrengung selbst, sondern diese Prozesse sind die Lernmechanismen
 3. **Expertise bedeutet: ein internes generatives Modell aufbauen**, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann
 4. **KI-Outsourcing liefert Ergebnisse ohne den Prozess**, der dieses interne Modell aufbaut
 5. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
@@ -37,7 +37,7 @@ Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswert
 
 ## Die Progression von schwachen zu starken Methoden
 
-Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert dann, **wie** dieser Übergang durch Wissenskompilation geschieht. Expertise entwickelt sich durch eine vorhersehbare Progression:
+Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert, **wie** dieser Übergang durch Wissenskompilation geschieht: Deklaratives Wissen wird durch Übung und Feedback zu automatisierten Produktionsregeln. Expertise entwickelt sich durch eine vorhersehbare Progression:
 
 ### 1. **Schwache Methoden** (Anfänger-Stadium)
 
@@ -221,7 +221,7 @@ Der folgende Abschnitt vertieft das Konzept des "Prediction Error Learning", das
 
 ### Vorhersagefehler: Ein wichtiger Lernmechanismus
 
-Prediction Error Learning ist einer der wichtigsten neuronalen Mechanismen für den Kompetenzaufbau. Die Forschung zu Vorhersagefehlern umfasst verschiedene Systeme, darunter dopaminerge Belohnungssignale, sensorische Vorhersagefehler und Überraschung im Bayesianischen Sinne. Für die Lehrpraxis ist die gemeinsame Grundidee entscheidend: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.*
+Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Die Forschung dazu umfasst mehrere **unterschiedliche theoretische Traditionen**: dopaminerge Belohnungssignale (Rescorla-Wagner-Tradition), sensorische Vorhersagefehler (Predictive Processing) und Überraschung im Bayesianischen Sinne. Diese Traditionen teilen eine Grundidee, unterscheiden sich aber in Mechanismen und Geltungsbereich. Für die Lehrpraxis ist die gemeinsame Grundidee nützlich: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.*
 
 #### Der Vorhersagefehler-Zyklus
 
@@ -302,9 +302,9 @@ Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert
 
 ### Das interne Modell: Was Expertise eigentlich ist
 
-Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, ein **internes generatives Modell** aufgebaut zu haben, ein Modell, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann. Dieses Modell ist es, was sich durch tausende Übungszyklen entwickelt.
+Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Die Metapher des **"internen generativen Modells"** fasst diese Idee zusammen, sie ist allerdings eine **didaktische Synthese** aus verschiedenen Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), kein etablierter Fachbegriff einer einzelnen Theorie.
 
-Warum ist diese Perspektive hilfreich? Sie erklärt auf einen Blick:
+Warum ist diese Perspektive trotzdem hilfreich? Sie erklärt auf einen Blick:
 
 - **Warum aktives Problemlösen so wirksam ist**: Es zwingt Lernende, ihr internes Modell zu aktivieren, es "laufen zu lassen" und konkrete Vorhersagen zu generieren, die dann an der Realität scheitern oder bestätigt werden können.
 - **Warum Experten von KI-Feedback profitieren**: Ihr Modell ist differenziert genug, um spezifische Vorhersagen zu machen. Feedback dockt an konkreten Erwartungen an und ist deshalb *informativ*.

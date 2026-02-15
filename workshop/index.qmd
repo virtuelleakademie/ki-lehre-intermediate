@@ -26,7 +26,7 @@ title: "Ablauf"
 
 Am Ende des Workshops können die Teilnehmer:innen:
 
-1. **Lernen verstehen**: Erklären, warum kognitive Anstrengung der Mechanismus für Expertise-Entwicklung ist
+1. **Lernen verstehen**: Erklären, welche kognitiven Prozesse (Schemabildung, Abruf, Elaboration) Expertise aufbauen und warum sich diese Prozesse anstrengend anfühlen
 2. **KI einordnen**: Unterscheiden, wann KI-Nutzung Lernen unterstützt (Offloading) und wann sie es verhindert (Outsourcing)
 3. **Aufgaben analysieren**: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen
 4. **Praxis umsetzen**: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist
