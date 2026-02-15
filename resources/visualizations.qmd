@@ -6,47 +6,17 @@ subtitle: "Diagramme und Plots zu zentralen Workshop-Konzepten"
 ```{r}
 #| label: setup
 #| include: false
-library(tidyverse)
-library(showtext)
-
-font_add_google("Lato", "Lato")
-showtext_auto()
-
-# Brand colors
-brand_dark <- "#222222"
-brand_light <- "#F5F5F5"
-brand_accent <- "#9A4665"
-
-# Colorblind-safe palette (Okabe-Ito)
-color_positive <- "#0072B2"    # Blue
-color_negative <- "#D55E00"    # Vermillion
-color_neutral <- "#64748b"     # Slate grey
-color_attention <- "#E69F00"   # Amber
-color_sky <- "#56B4E9"         # Sky blue
-
-# Common theme
-theme_workshop <- function(base_size = 13) {
-  theme_minimal(base_size = base_size, base_family = "Lato") +
-    theme(
-      plot.title = element_text(face = "bold", size = 16, color = brand_dark),
-      plot.subtitle = element_text(size = 11, color = "#666666", margin = margin(b = 15)),
-      plot.caption = element_text(size = 9, color = "#666666", hjust = 0, margin = margin(t = 10)),
-      axis.title = element_text(face = "bold", size = 11),
-      axis.text = element_text(size = 10, color = brand_dark),
-      panel.grid.minor = element_blank(),
-      panel.grid.major = element_line(color = "#e5e7eb", linewidth = 0.3)
-    )
-}
+source("viz-setup.R")
 ```
 
-## 1. Kognitive Belastung: Verteilung im Arbeitsgedaechtnis
+## 1. Kognitive Belastung: Verteilung im Arbeitsgedächtnis
 
-Die Arbeitsgedaechtniskapazitaet ist begrenzt. Entscheidend ist, wie die drei Arten kognitiver Belastung diesen begrenzten Raum aufteilen.
+Die Arbeitsgedächtniskapazität ist begrenzt. Entscheidend ist, wie die drei Arten kognitiver Belastung diesen begrenzten Raum aufteilen.
 
 ```{r}
 #| label: fig-cognitive-load
 #| echo: false
-#| fig-cap: "Die Gesamthoehe repraesentiert die fixe Arbeitsgedaechtniskapazitaet. Entscheidend ist, wie viel Raum fuer lernrelevante Verarbeitung bleibt."
+#| fig-cap: "Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
 #| fig-width: 10
 #| fig-height: 6
 
@@ -124,7 +94,7 @@ ggplot(cognitive_load_data, aes(x = scenario, y = percentage, fill = load_type))
 
 ## 2. Expertise Reversal Effekt
 
-Optimale Unterstuetzung haengt vom Vorwissen ab. Was Anfaengern hilft, schadet Experten, und umgekehrt. Permanentes KI-Scaffolding verhindert den Uebergang.
+Optimale Unterstützung hängt vom Vorwissen ab. Was Anfängern hilft, schadet Experten, und umgekehrt. Permanentes KI-Scaffolding verhindert den Übergang.
 
 ```{r}
 #| label: fig-expertise-reversal
@@ -227,7 +197,7 @@ ggplot(expertise_data, aes(x = expertise, y = outcome, color = condition, linety
 
 ## 3. Testing Effekt
 
-Aktives Abrufen fuehrt zu besserem Langzeitlernen als wiederholtes Studieren, selbst wenn die Gesamtlernzeit gleich bleibt.
+Aktives Abrufen führt zu besserem Langzeitlernen als wiederholtes Studieren, selbst wenn die Gesamtlernzeit gleich bleibt.
 
 ```{r}
 #| label: fig-testing-effect
@@ -281,7 +251,7 @@ ggplot(testing_effect_data, aes(x = condition, y = retention)) +
 
 ## 4. Das Lernparadox
 
-Subjektives Gefuehl und tatsaechliches Lernen koennen auseinanderklaffen. Die metakognitive Falle: Was sich leicht anfuehlt, fuehlt sich nach Lernen an, ist es aber oft nicht.
+Subjektives Gefühl und tatsächliches Lernen können auseinanderklaffen. Die metakognitive Falle: Was sich leicht anfühlt, fühlt sich nach Lernen an, ist es aber oft nicht.
 
 ```{r}
 #| label: fig-lernparadox
@@ -486,9 +456,9 @@ ggplot() +
 ```
 
 
-## 6. Arbeitsgedaechtnis-Flaschenhals
+## 6. Arbeitsgedächtnis-Flaschenhals
 
-Informationen muessen durch das begrenzte Arbeitsgedaechtnis, bevor sie im Langzeitgedaechtnis verankert werden koennen.
+Informationen müssen durch das begrenzte Arbeitsgedächtnis, bevor sie im Langzeitgedächtnis verankert werden können.
 
 ```{r}
 #| label: fig-bottleneck
@@ -557,7 +527,7 @@ digraph bottleneck {
 
 ## 7. Das Evaluationsparadox
 
-Das Evaluationsparadox als zirkulaere Abhaengigkeit: Um KI-Outputs zu bewerten, braucht man Fachkompetenz, die erst durch eigenes Lernen entsteht.
+Das Evaluationsparadox als zirkuläre Abhängigkeit: Um KI-Outputs zu bewerten, braucht man Fachkompetenz, die erst durch eigenes Lernen entsteht.
 
 ```{r}
 #| label: fig-evaluation-paradox
@@ -630,7 +600,7 @@ digraph evaluation_paradox {
 ")
 ```
 
-**Kontrast: Experten vs. Anfaenger**
+**Kontrast: Experten vs. Anfänger**
 
 ```{r}
 #| label: fig-expert-novice
@@ -705,7 +675,7 @@ digraph expert_novice {
 
 ## 8. Versuch-dann-Prüfe Zyklus
 
-Das zentrale Designprinzip fuer KI im Lernkontext: Studierende generieren zuerst eigene Loesungen, dann vergleichen sie mit KI-Output.
+Das zentrale Designprinzip für KI im Lernkontext: Studierende generieren zuerst eigene Lösungen, dann vergleichen sie mit KI-Output.
 
 ```{r}
 #| label: fig-try-then-check
@@ -780,7 +750,7 @@ digraph try_then_check {
 
 ## 9. Das 5-Fragen-Framework
 
-Der vollstaendige Entscheidungsbaum fuer die Aufgabenanalyse im KI-Zeitalter.
+Der vollständige Entscheidungsbaum für die Aufgabenanalyse im KI-Zeitalter.
 
 ```{r}
 #| label: fig-5-fragen
@@ -858,6 +828,99 @@ digraph five_questions {
   {rank = same; q2; e2}
   {rank = same; q3; e3}
   {rank = same; q4; e4}
+  {rank = same; q5; e5}
+}
+")
+```
+
+
+## 10. Das 5-Fragen-Framework (Zusammenfassung)
+
+Die erweiterte Version des Entscheidungsbaums mit explizitem "Keine KI nötig"-Pfad.
+
+```{r}
+#| label: fig-5-fragen-summary
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph five_questions_summary {
+  graph [
+    rankdir = TB
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.6
+    ranksep = 0.7
+    margin = 0.2
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 13
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 11
+    color = '#999999'
+    arrowsize = 0.8
+  ]
+
+  start [
+    label = 'Aufgabe analysieren'
+    fillcolor = '#64748b'
+    fontsize = 14
+  ]
+
+  q1 [label = '1. Geht es primär\\nums Lernen?' fillcolor = '#0072B2']
+  q2 [label = '2. Werden noch\\nGrundlagen aufgebaut?' fillcolor = '#0072B2']
+  q3 [label = '3. Muss internes Wissen\\nnachgewiesen werden?' fillcolor = '#0072B2']
+  q4 [label = '4. Kann KI ohne\\nDenkarbeit erledigen?' fillcolor = '#0072B2']
+  q5 [label = '5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?' fillcolor = '#0072B2']
+
+  e1 [label = 'KI-Unterstützung\\nkann sinnvoll sein' fillcolor = '#0072B2']
+  e2 [label = 'KI als Verstärker\\nmöglich' fillcolor = '#0072B2']
+  e3 [label = 'Aufgabenformat\\nändern' fillcolor = '#D55E00']
+  e4 [label = 'Aufgabe\\numgestalten' fillcolor = '#D55E00']
+  e5 [label = 'Struktur\\neinbauen' fillcolor = '#E69F00' fontcolor = '#222222']
+
+  success [
+    label = 'Aufgabe bereit ✓\\n(mit oder ohne KI)'
+    fillcolor = '#0072B2'
+    fontsize = 14
+  ]
+
+  noai [
+    label = 'Keine KI nötig ✓\\nAufgabe funktioniert bereits'
+    fillcolor = '#0072B2'
+    fontsize = 12
+  ]
+
+  start -> q1
+
+  q1 -> q2 [label = '  Ja  ']
+  q2 -> q3 [label = '  Ja  ']
+  q3 -> q4 [label = '  Ja  ']
+  q4 -> q5 [label = '  Nein  ']
+  q4 -> noai [label = '  Nein +\\n  bewahrt Anstrengung  ']
+  q5 -> success [label = '  Ja  ']
+
+  q1 -> e1 [label = '  Nein  ']
+  q2 -> e2 [label = '  Nein  ']
+  q3 -> e3 [label = '  Nein  ']
+  q4 -> e4 [label = '  Ja  ']
+  q5 -> e5 [label = '  Nein  ']
+
+  {rank = same; q1; e1}
+  {rank = same; q2; e2}
+  {rank = same; q3; e3}
+  {rank = same; q4; e4; noai}
   {rank = same; q5; e5}
 }
 ")
