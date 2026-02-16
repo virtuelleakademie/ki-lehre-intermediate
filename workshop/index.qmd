@@ -6,18 +6,19 @@ title: "Ablauf"
 
 | Zeit               | Thema                                                                   | Dauer  |
 |--------------------|-------------------------------------------------------------------------|--------|
-| **09:00 - 09:10**  | **Einstieg**                                                            |        |
-|                    | [Aktivierende Begrüssung](einstieg/index.qmd)                          | 10 min |
-| **09:10 - 10:00**  | **Teil 1: Lernen verstehen**                                            |        |
-|                    | [Wie Menschen lernen](../01-lernen-verstehen/index.qmd)                 | 50 min |
-| **10:00 - 10:15**  | *Pause*                                                                 | 15 min |
-| **10:15 - 10:20**  | **Gedächtnis-Aktivierung** (Übergang)                                   |        |
+| **09:00 - 09:05**  | **Einstieg**                                                            |        |
+|                    | [Generierungsaktivität](einstieg/index.qmd)                            | 5 min  |
+| **09:05 - 09:50**  | **Teil 1: Lernen verstehen**                                            |        |
+|                    | [Wie Menschen lernen](../01-lernen-verstehen/index.qmd)                 | 45 min |
+| **09:50 - 10:05**  | *Pause*                                                                 | 15 min |
+| **10:05 - 10:10**  | **Gedächtnis-Aktivierung** (Übergang)                                   |        |
 |                    | Abrufpraxis: 3 Konzepte ohne Notizen                                   | 5 min  |
-| **10:20 - 10:50**  | **Teil 2: KI & Lernen**                                                 |        |
+| **10:10 - 10:40**  | **Teil 2: KI & Lernen**                                                 |        |
 |                    | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 30 min |
-| **10:50 - 10:53**  | *Übergang*                                                     | 3 min  |
-| **10:53 - 11:45**  | **Teil 3: Vom Wissen zum Handeln**                                      |        |
-|                    | [Aufgaben analysieren & Peer-Diagnose](../03-praxis/index.qmd)      | 52 min |
+| **10:40 - 10:50**  | *Buffer*                                                                | 10 min |
+| **10:50 - 11:25**  | **Teil 3: Vom Wissen zum Handeln**                                      |        |
+|                    | [Aufgaben analysieren & Peer-Diagnose](../03-praxis/index.qmd)         | 35 min |
+| **11:25 - 11:45**  | *Buffer / Overflow*                                                     | 20 min |
 | **11:45 - 12:00**  | **Transfer & Abschluss**                                                |        |
 |                    | [Umsetzung & nächste Schritte](diskussion/index.qmd)                   | 15 min |
 
@@ -31,4 +32,4 @@ Am Ende des Workshops können die Teilnehmer:innen:
 3. **Aufgaben analysieren**: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen
 4. **Praxis umsetzen**: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist
 
-{{< bi arrow-right >}} [Zur Vorbereitung](../vorbereitung/index.qmd) (ca. 20 Min.)
+{{< bi arrow-right >}} [Zur Vorbereitung](../vorbereitung/index.qmd) (ca. 30 Min.)

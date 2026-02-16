@@ -44,7 +44,7 @@ digraph try_then_check {
     compare [label = '2. Vergleich\\nMit KI-Output\\nabgleichen' fillcolor = '#56B4E9']
     reflect [label = '3. Reflexion\\nSchema\\naktualisieren' fillcolor = '#E69F00' fontcolor = '#222222']
 
-    try -> compare [label = '  Prediction Error  ' color = '#666666']
+    try -> compare [label = '  Diskrepanz  ' color = '#666666']
     compare -> reflect [label = '  Analyse  ' color = '#666666']
     reflect -> try [label = '  Nächster Zyklus  ' color = '#666666' style = dashed]
   }

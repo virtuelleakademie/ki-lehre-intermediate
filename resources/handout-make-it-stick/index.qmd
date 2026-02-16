@@ -1,11 +1,13 @@
 ---
-title: "Die 8 Make it Stick Strategien"
+title: "Lernstrategien aus Make it Stick"
 # subtitle: "Handout für Workshop-Teilnehmer"
 ---
 
 ## Kernprinzip
 
 **Effortful Learning ist effektiver**: Wenn Lernen sich anstrengend anfühlt, signalisiert das oft, dass lernrelevante Prozesse (Abruf, Elaboration, Schemabildung) aktiv sind. Schwieriges Lernen führt zu tieferem, dauerhafterem Wissen [@brownMakeItStick2014].
+
+Die folgenden 8 Strategien stammen aus *Make it Stick* von Brown, Roediger und McDaniel, einer praxisorientierten Zusammenfassung der kognitionspsychologischen Forschung zu effektivem Lernen. Es gibt andere Synthesen derselben Forschungsliteratur [z.B. @dunloskyImprovingStudentsLearning2013; @weinsteinUnderstandingHowWe2019], die zu ähnlichen Kernprinzipien kommen, aber andere Kategorisierungen und Schwerpunkte setzen. Diese Liste ist also keine kanonische Taxonomie, sondern ein nützliches Ordnungsraster.
 
 
 ::: {.callout-note}

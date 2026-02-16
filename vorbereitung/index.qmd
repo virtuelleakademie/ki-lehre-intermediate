@@ -5,9 +5,11 @@ subtitle: "Deine Aufgabe unter der KI-Lupe"
 
 Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.
 
-## Schritt 1: Zwei Aufgaben auswählen und mitbringen (10 Min.)
+{{< bi compass >}} Neu auf dieser Website? Unter [Wie du diese Website nutzt](../index.qmd#wie-du-diese-website-nutzt) findest du eine kurze Orientierung.
 
-**Wähle zwei konkrete Aufgaben oder Prüfungen aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.
+## Schritt 1: Eine Aufgabe auswählen und mitbringen (10 Min.)
+
+**Wähle eine konkrete Aufgabe oder Prüfung aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.
 
 Am besten eignen sich Aufgaben, die:
 
@@ -15,13 +17,11 @@ Am besten eignen sich Aufgaben, die:
 - bei denen KI-Tools eine Rolle spielen könnten
 - die du idealerweise schon einmal eingesetzt hast
 
-Wähle wenn möglich **zwei unterschiedliche Aufgabentypen**. Im Workshop analysierst du die erste Aufgabe selbst und wendest das Framework dann auf die zweite in einer Peer-Diagnose an.
+Bringe die **Aufgabenstellung** mit (digital oder ausgedruckt).
 
-Bringe beide **Aufgabenstellungen** mit (digital oder ausgedruckt).
+## Schritt 2: Kurze Selbstanalyse der Aufgabe (20 Min.)
 
-## Schritt 2: Kurze Selbstanalyse der ersten Aufgabe (20 Min.)
-
-Beantworte diese drei Fragen für deine **erste Aufgabe** in Stichworten und bringe deine Notizen in den Workshop mit. Die zweite Aufgabe analysierst du im Workshop selbst.
+Beantworte diese drei Fragen für deine Aufgabe in Stichworten und bringe deine Notizen in den Workshop mit.
 
 1. **Was sollen Studierende durch diese Aufgabe *lernen*?** Nicht: Was sollen sie abgeben, sondern: Was soll sich in ihren Köpfen verändern?
 2. **Was passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen?** Probiere es nach Möglichkeit selbst aus. Gib die Aufgabenstellung in ein KI-Tool ein und schau, was herauskommt.

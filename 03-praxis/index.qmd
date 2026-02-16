@@ -3,14 +3,11 @@ title: "Vom Wissen zum Handeln"
 ---
 
 ::: {.active-processing}
-## Praxis: Aufgaben analysieren & Peer-Diagnose (50 Min)
+## Praxis: Aufgaben analysieren & Peer-Diagnose (35 Min)
 
-In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:
+Wir wenden die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an: Erst analysierst du deine Aufgabe mit dem 5-Fragen-Framework, dann fordert dein Partner deine Analyse als Advocatus Diaboli heraus.
 
-1. **Aufgaben-Analyse** mit dem 5-Fragen-Framework (23 Min)
-2. **Peer-Diagnose**: Eine zweite Aufgabe analysieren und gegenseitig diagnostizieren (20 Min)
-
-**Ziel**: Das Framework auf unterschiedliche Aufgabentypen anwenden, gegenseitig Schwachstellen diagnostizieren und mit einem konkreten Umsetzungsplan nach Hause gehen.
+**Ziel**: Die eigene Aufgabe kritisch analysieren, gegenseitig Schwachstellen diagnostizieren und mit einem konkreten Umsetzungsplan nach Hause gehen.
 :::
 
 
@@ -31,17 +28,17 @@ Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Wo sind die
 :::
 
 
-## Aktivität 1: Aufgaben-Analyse mit dem 5-Fragen-Framework (23 Min)
+## Aufgaben-Analyse mit Peer-Diagnose (33 Min)
 
 ::: {.facilitator}
-### THINK-PAIR-SHARE Aktivität (23 Min)
+### Aktivität: THINK-PAIR-SHARE mit Advocatus Diaboli (33 Min)
 
-Sicherstellen, dass alle zwei Aufgaben haben. Wer keine oder nur eine mitgebracht hat, nutzt die Fallstudien-Szenarien als Ergänzung. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.
+Sicherstellen, dass alle eine Aufgabe haben. Wer keine mitgebracht hat, nutzt die Fallstudien-Szenarien als Ersatz. Timer für jede Phase starten und sichtbar machen. Die THINK-Phase funktioniert analog (Papier, keine Bildschirme), um den Abruf aus dem Gedächtnis zu erzwingen.
 
-**Zeitcheck:** Falls Aktivität 1 länger dauert als geplant, die SHARE-Phase auf 2 Min kürzen (1 Beispiel statt 2-3) und die Reflexionsfrage weglassen. Die THINK- und PAIR-Phasen nicht kürzen, sie sind der Kern.
+**Zeitcheck:** Falls die Aktivität länger dauert als geplant, die SHARE-Phase auf 3 Min kürzen (1 Beispiel statt 2-3). Die THINK- und PAIR-Phasen nicht kürzen, sie sind der Kern.
 :::
 
-### THINK Phase (8 Min)
+### THINK Phase (10 Min)
 
 ::: {.individual}
 ### Eigene Aufgabe analysieren
@@ -68,111 +65,29 @@ Sicherstellen, dass alle zwei Aufgaben haben. Wer keine oder nur eine mitgebrach
 - **Meine Änderung**: ________________________
 :::
 
-### PAIR Phase (10 Min)
+### PAIR Phase: Advocatus Diaboli (12 Min)
 
 ::: {.pair}
-### Peer-Konsultation
+### Peer-Diagnose
 
-Tausche dich mit einem Partner aus:
+**Person A stellt vor (2--3 Min):** Aufgabe, Analyse, grösste Schwachstelle, vorgeschlagene Änderung.
 
-1. **Vorstellen** (3 Min pro Person): Stelle deine Aufgabe, deine Analyse und deine vorgeschlagene Änderung vor
-2. **Rückmeldung geben**: Bewahrt die Änderung tatsächlich die interne kognitive Verarbeitung? Oder wird nur die Form geändert, während das Outsourcing weiter möglich ist?
+**Person B als Advocatus Diaboli (2--3 Min):** Fordere die Analyse heraus:
 
-**Leitfragen für das Feedback:**
+1. *"Könnte eine Studierende nach deiner Änderung das Denken immer noch an die KI delegieren? Wie?"*
+2. *"Welche der 3 Diagnose-Fragen würde die Studierende nach deiner Änderung bestehen, und welche nicht?"*
 
-> "Muss die studierende Person nach deiner Änderung immer noch *selbst denken*, oder kann sie das Denken immer noch an die KI delegieren?"
+**Rollen tauschen (4--6 Min).**
 
-**Praxistest mit den 3 Diagnose-Fragen:** Könnte eine Studierende nach der Aufgabe konkret beantworten: *"Was hast du versucht, bevor du KI gefragt hast?"* und *"Wo hat dich die KI überrascht?"* Wenn nicht, schützt das Redesign den Denkprozess noch nicht ausreichend.
+**Gemeinsam (2 Min):** Formuliert einen **1-Satz-Redesign** pro Aufgabe: die wichtigste Änderung in einem Satz.
 :::
 
 ### SHARE Phase (5 Min)
 
 - 2--3 Beispiele im Plenum vorstellen
-- Welche **Muster** zeigen sich? Gibt es wiederkehrende Schwachstellen?
-
-::: {.reflect}
-### Welches Lernprinzip haben wir gerade angewendet?
-
-Diskutiert 30 Sekunden mit eurem Nachbarn: **Benennt mindestens drei Prinzipien aus Teil 1, die in der THINK-PAIR-SHARE-Struktur stecken, und erklärt bei einem davon, *warum* es funktioniert.** *Tipp: Es sind mindestens drei Prinzipien.*
-:::
-
-
-## Reflexive Brücke (2 Min)
-
-::: {.individual}
-### Erkenntnis und Transfer
-
-Schreibe in einem Satz auf: **Was war die wichtigste Erkenntnis aus deiner Analyse?**
-
-Und dann: **Was erwartest du, wenn du dieselbe Analyse auf deine zweite mitgebrachte Aufgabe anwendest?** Wird das Ergebnis ähnlich ausfallen oder ganz anders? Wo vermutest du die grösste Schwachstelle?
-
-*Du brauchst deine zweite Aufgabe gleich für die nächste Aktivität.*
-:::
-
-
-## Aktivität 2: Peer-Diagnose (20 Min)
-
-::: {.facilitator}
-### Peer-Diagnose (20 Min)
-
-Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und diagnostizieren gegenseitig die Schwachstellen. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
-
-Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.
-
-**Zeitcheck:** Falls weniger als 20 Min bleiben vor dem Closing (11:45), den Advocatus-Diaboli-Teil auf eine Runde kürzen (nur Person A stellt vor, Person B diagnostiziert, dann direkt zum 1-Satz-Redesign). Die gemeinsame Muster-&-Synthese-Phase (6 Min) kann notfalls auf 3 Min gekürzt werden, aber die individuelle Konsolidierung (5 Min) ist essenziell als Transfersicherung.
-:::
-
-**Bildschirme schliessen.** Diese Aktivität funktioniert bewusst mit Papier und Stift. Das reduziert Ablenkung, erzwingt den Abruf aus dem Gedächtnis und schafft einen spürbaren Rhythmuswechsel im Workshop.
-
-### Abruf und Analyse (8 Min)
-
-::: {.individual}
-### Zweite Aufgabe analysieren
-
-Arbeite auf einer Karteikarte oder einem halben Blatt Papier. Die physische Begrenzung ist Absicht: Sie zwingt zur Verdichtung.
-
-**Schritt 1 (3 Min):** Schreibe so viele der 5 Framework-Fragen auf, wie du aus dem Gedächtnis abrufen kannst. Dann nimm deine **zweite mitgebrachte Aufgabe** zur Hand.
-
-**Schritt 2 (5 Min):** Analysiere diese Aufgabe mit dem Framework. Notiere:
-
-- Welche der 5 Fragen deckt die **grösste Schwachstelle** auf?
-- Welche **eine Änderung** würde die lernrelevante kognitive Verarbeitung schützen?
-- Welche der 3 Diagnose-Fragen würden Studierende bei dieser Aufgabe in der jetzigen Form **nicht beantworten können**?
-:::
-
-### Peer-Diagnose (10 Min)
-
-::: {.pair}
-### Advocatus Diaboli
-
-Bildet **neue Paare** (nicht dieselben wie bei Aktivität 1).
-
-**Person A stellt vor (2 Min):** Aufgabe, grösste Schwachstelle, vorgeschlagene Änderung.
-
-**Person B als Advocatus Diaboli (2 Min):** Fordere die Analyse heraus mit zwei gezielten Fragen:
-
-1. *"Könnte eine Studierende nach deiner Änderung das Denken immer noch an die KI delegieren? Wie?"*
-2. *"Welche der 3 Diagnose-Fragen würde die Studierende nach deiner Änderung bestehen, und welche nicht?"*
-
-**Rollen tauschen (4 Min).**
-
-**Gemeinsam (2 Min):** Formuliert einen **1-Satz-Redesign** pro Aufgabe: die wichtigste Änderung in einem Satz.
-:::
-
-::: {.callout-tip}
-### Meta-Moment
-
-Ihr habt gerade **Interleaving** am eigenen Leib erlebt: Dasselbe Framework auf zwei verschiedene Aufgabentypen anwenden fühlt sich schwieriger an als die zweite Analyse derselben Aufgabe, produziert aber besseren Transfer. Genau das Prinzip aus Teil 1.
-:::
-
-
-## Muster & Synthese (6 Min)
-
-**Gemeinsame Auswertung:**
-
 - Welche **Muster** tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?
 - Wo war die Grenze zwischen *Offloading* und *Outsourcing* am schwierigsten zu ziehen?
-- Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das ist die **ungleiche Wirkung** aus Teil 2: Schwächer vorbereitete Studierende brauchen mehr Struktur in der Versuch-Phase. Das verdient eine eigene Vertiefung auf Departementsebene.
+- Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das ist die **ungleiche Wirkung** aus Teil 2, die eine eigene Vertiefung auf Departementsebene verdient.
 
 ### Konsolidierung (5 Min)
 
@@ -199,7 +114,7 @@ Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und
 ### Handouts
 
 - [Das 5-Fragen-Framework](./5-fragen-framework/)
-- [Die 8 Make it Stick Strategien](../resources/handout-make-it-stick/)
+- [Lernstrategien aus Make it Stick](../resources/handout-make-it-stick/)
 
 ### Vertiefung
 

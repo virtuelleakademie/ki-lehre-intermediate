@@ -65,7 +65,7 @@ Der folgende Absatz enthält **einen sachlich falschen Satz.** Welcher?
 
 **Der Fehler:** "...weshalb kleine Studien die tatsächliche Effektgrösse tendenziell *unterschätzen*." Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, *überschätzen* die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert (*Winner's Curse*).
 
-Du hast den Fehler wahrscheinlich nicht gefunden, weil dir die Schemata in quantitativer Methodenlehre fehlen. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Bewertungskriterien gibt es keine Grundlage, Richtiges von Falschem zu unterscheiden. In deinem eigenen Fach hättest du einen vergleichbaren Fehler sofort erkannt.
+Du hast den Fehler wahrscheinlich nicht gefunden, weil dir die Schemata in Statistik fehlen. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Bewertungskriterien gibt es keine Grundlage, Richtiges von Falschem zu unterscheiden. In deinem eigenen Fach hättest du einen vergleichbaren Fehler sofort erkannt.
 
 Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
 :::
@@ -75,7 +75,7 @@ Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu könne
 
 Gleich analysieren wir gemeinsam eine typische Aufgabe ("Annotierte Bibliografie"). Bevor wir starten:
 
-**Schreibe in einem Satz auf:** Was passiert, wenn ein Studierender den Aufgabentext direkt als Prompt an ein LLM gibt? Was liefert die KI, und was fehlt?
+**Schreibe in einem Satz auf:** Was passiert, wenn ein Studierender die Aufgabenstellung "Annotierte Bibliografie" direkt als Prompt an ein LLM gibt? Was liefert die KI, und was fehlt?
 
 *Halte deine Vorhersage fest. Wir kommen darauf zurück.*
 :::

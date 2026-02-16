@@ -10,7 +10,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 ### Materialien
 
 - Karten und Stifte auf den Tischen (für die Generierungsaktivität)
-- Karteikarten oder halbe A4-Blätter vorbereiten (für die Peer-Diagnose in Teil 3)
+- Karteikarten oder halbe A4-Blätter vorbereiten (für Teil 3)
 - Slides geladen: `wie-menschen-lernen` und `ki-und-lernen`
 - Browser-Tabs vorbereitet: [Teil 1](../../01-lernen-verstehen/), [Teil 2](../../02-ki-und-lernen/), [Teil 3](../../03-praxis/), [Fallstudien](../../03-praxis/fallstudien/)
 - Timer-App bereit (oder das Timer-Shortcode auf den Seiten nutzen)
@@ -23,13 +23,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 - WLAN-Zugang für Teilnehmende sicherstellen
 
 
-## 09:00--09:10: Einstieg (10 Min) {#einstieg}
-
-### Vorstellungsrunde (5 Min)
-
-- Name, Institut, KI-Erfahrung (0-10), mitgebrachte Aufgaben
-- Kurz halten: max. 30 Sekunden pro Person
-- Die KI-Erfahrungsskala gibt dir einen schnellen Überblick über die Gruppe
+## 09:00--09:05: Einstieg (5 Min) {#einstieg}
 
 ### Generierungsaktivität (5 Min)
 
@@ -45,10 +39,10 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 
 **Nachlesen-Boxen framen:** "Auf den Seiten findet ihr graue 'Zum Nachlesen'-Boxen. Die sind für *nach* dem Workshop. Während des Workshops konzentrieren wir uns auf die Aktivitäten. Die Boxen bleiben online für euch stehen."
 
-**Übergang (Advance Organizer):** "In den nächsten 50 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das ist keine Theorie um der Theorie willen, sondern das Werkzeug, mit dem ihr in Teil 3 eure eigenen Aufgaben analysiert."
+**Übergang (Advance Organizer):** "In den nächsten 45 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das ist keine Theorie um der Theorie willen, sondern das Werkzeug, mit dem ihr in Teil 3 eure eigenen Aufgaben analysiert."
 
 
-## 09:10--10:00: Teil 1 -- Lernen verstehen (50 Min) {#teil1}
+## 09:05--09:50: Teil 1 -- Lernen verstehen (45 Min) {#teil1}
 
 **Seite:** [Wie Menschen lernen](../../01-lernen-verstehen/)
 
@@ -59,7 +53,7 @@ Präsentiere die Slides im Vollbild. Kernbotschaften:
 1. **Biologisch primäres vs. sekundäres Wissen**: Sprache lernen wir mühelos, Statistik nicht
 2. **Arbeitsgedächtnis als Flaschenhals**: 4±1 Elemente, alles muss hier durch
 3. **Experten vs. Anfänger**: Nicht mehr Kapazität, bessere Organisation (Chunking)
-4. **Prediction Error Learning**: Vorhersage → Fehler → Korrektur = Lernen
+4. **Versuch-dann-Prüfe-Zyklus**: Eigener Versuch → Diskrepanz erkennen → Schema aktualisieren
 5. **Expertise Reversal Effect**: Was Novizen hilft, schadet Experten
 6. **Cognitive Load Theory**: Extrinsische Last reduzieren, germane processing ermöglichen
 7. **Desirable Difficulties**: Anstrengung fühlt sich falsch an, ist aber der Mechanismus
@@ -79,11 +73,6 @@ Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis.
 
 - "Versuche aus dem Gedächtnis: Expertise Reversal Effect in einem Satz?"
 - Nicht auflösen, nur generieren lassen. Lücken normalisieren: "Lücken sind willkommen, sie zeigen, worauf ihr beim Weiterhören achten könnt."
-
-### Gedächtnis-Aktivierung 2 (2 Min)
-
-- "4 Formen wünschenswerter Schwierigkeiten, aus dem Gedächtnis"
-- "Wenn das schwierig ist: gut. Die Anstrengung beim Abruf ist der Mechanismus, der Gelerntes festigt."
 
 ### Mikropausen während der Slides
 
@@ -108,20 +97,20 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 - "Schreibe einen Satz auf, bevor wir in die Pause gehen."
 - Das ist Konsolidierung vor dem Kontextwechsel.
 
-**Timing-Check:** Du solltest bei ca. 09:55--10:00 sein.
+**Timing-Check:** Du solltest bei ca. 09:45--09:50 sein.
 
 - **Wenn du früher fertig bist:** Fallstudien-Diskussion vertiefen oder Pro-Tip "Wie die Konzepte zusammenhängen" gemeinsam anschauen.
-- **Wenn du später dran bist:** Die Gedächtnis-Aktivierungen können auf je 30 Sekunden gekürzt werden. Die Fallstudien-Analyse nicht kürzen, sie ist die wichtigste Anwendung.
+- **Wenn du später dran bist:** Die Gedächtnis-Aktivierung kann auf 30 Sekunden gekürzt werden. Die Fallstudien-Analyse nicht kürzen, sie ist die wichtigste Anwendung.
 
 
-## 10:00--10:15: Pause (15 Min) {#pause}
+## 09:50--10:05: Pause (15 Min) {#pause}
 
 - Karten aus der Generierungsaktivität aufbewahren (brauchst du am Schluss)
 - Slides für Teil 2 laden
 - Browser-Tab auf [Teil 2](../../02-ki-und-lernen/) vorbereiten
 
 
-## 10:15--10:20: Gedächtnis-Aktivierung (5 Min) {#retrieval}
+## 10:05--10:10: Gedächtnis-Aktivierung (5 Min) {#retrieval}
 
 **Seite:** [KI & Lernen](../../02-ki-und-lernen/) (ganz oben)
 
@@ -134,7 +123,7 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 **Übergang:** "Jetzt die Frage: Was bedeutet das alles für KI?"
 
 
-## 10:20--10:50: Teil 2 -- KI & Lernen (30 Min) {#teil2}
+## 10:10--10:40: Teil 2 -- KI & Lernen (30 Min) {#teil2}
 
 **Seite:** [KI & Lernen](../../02-ki-und-lernen/)
 
@@ -174,23 +163,25 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 - "Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?"
 - Optional (wenn 30 Sekunden übrig): "Vergleicht eure Formulierungen kurz mit dem Nachbarn."
 
-**Übergang:** "Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr gegenseitig die Schwachstellen eurer Aufgaben. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
+**Übergang:** "Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
 
-**Timing-Check:** Du solltest bei ca. 10:50 sein.
+**Timing-Check:** Du solltest bei ca. 10:40 sein.
 
 - **Wenn du früher fertig bist:** Mehr Diskussion beim Worked Example, oder eine der Nachlesen-Abschnitte kurz ansprechen (ungleiche Wirkung eignet sich gut).
 - **Wenn du später dran bist:** Die Aktivität zu den 3 Diagnose-Fragen kann entfallen (ist nur 1 Min). Das Worked Example nicht kürzen.
 
 
-## 10:50--10:53: Puffer / Übergang (3 Min) {#puffer}
+## 10:40--10:50: Buffer (10 Min) {#buffer}
 
-- Kurze Verschnaufpause
-- "Bildschirme für einen Moment schliessen. Durchatmen."
-- Sicherstellen, dass alle ihre beiden mitgebrachten Aufgaben griffbereit haben
-- Wer keine oder nur eine hat: [Fallstudien](../../03-praxis/fallstudien/) als Ergänzung verteilen
+Genuine Pause. Nichts geplant.
+
+- Durchatmen. Wasser holen.
+- Sicherstellen, dass alle ihre mitgebrachte Aufgabe griffbereit haben
+- Wer keine hat: [Fallstudien](../../03-praxis/fallstudien/) als Ersatz verteilen
+- Falls du Zeit übrig hast: Das ist gut. Nutze sie nicht.
 
 
-## 10:53--11:45: Teil 3 -- Vom Wissen zum Handeln (52 Min) {#teil3}
+## 10:50--11:25: Teil 3 -- Vom Wissen zum Handeln (35 Min) {#teil3}
 
 **Seite:** [Vom Wissen zum Handeln](../../03-praxis/)
 
@@ -200,15 +191,12 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 - Dann vergleichen mit dem [5-Fragen-Framework](../../03-praxis/5-fragen-framework/)
 - "Wo sind die grössten Unterschiede? Genau diese Stellen sind die produktivsten Lernmomente."
 
-### Framing (1 Min)
+### Aktivität: THINK-PAIR-SHARE mit Advocatus Diaboli (33 Min)
 
-- "Ihr werdet eure eigene Aufgabe analysieren, dann die Analyse einer Kollegin diagnostizieren. Am Ende habt ihr ein konkretes Redesign."
+**THINK (10 Min, analog)**
 
-### Aktivität 1: THINK-PAIR-SHARE (23 Min)
-
-**THINK (8 Min)**
-
-- Alle arbeiten individuell an ihrer eigenen Aufgabe
+- "Bildschirme für einen Moment schliessen. Analysiert eure Aufgabe auf Papier."
+- Alle arbeiten individuell an ihrer eigenen Aufgabe mit dem 5-Fragen-Framework
 - Wer keine hat: Fallstudien-Szenario nehmen
 - Geh durch den Raum und hilf bei Fragen zum Framework
 - Für Disziplinen, die nicht in den Fallstudien vorkommen, bei Bedarf Brücken bauen:
@@ -217,57 +205,34 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
     - Design: "Kann KI das *visuelle Ergebnis* erzeugen, ohne das Design-Reasoning, das die Aufgabe entwickeln soll?"
     - Soziale Arbeit: "Das 'Beach, Not the Ant'-Prinzip entspricht dem systemischen Denken, das euer Fach prägt."
 
-**PAIR (10 Min)**
+**PAIR: Advocatus Diaboli (12 Min)**
 
 - Paare bilden, Timer starten
-- 3 Min pro Person: Aufgabe und Analyse vorstellen
-- Dann Rückmeldung: "Bewahrt die Änderung die interne Verarbeitung?"
-- Die Leitfrage ist: "Muss die Person nach deiner Änderung immer noch selbst denken?"
+- Person A stellt vor (2-3 Min): Aufgabe, Analyse, grösste Schwachstelle, vorgeschlagene Änderung
+- Person B als Advocatus Diaboli (2-3 Min): "Könnte eine Studierende das Denken nach deiner Änderung immer noch delegieren? Wie?" und "Welche Diagnose-Frage würde sie bestehen, welche nicht?"
+- Rollen tauschen (4-6 Min)
+- Gemeinsam (2 Min): Einen 1-Satz-Redesign pro Aufgabe formulieren
 
 **SHARE (5 Min)**
 
 - 2-3 Beispiele im Plenum
 - Muster herausarbeiten: "Welche Schwachstellen tauchen wiederholt auf?"
-- Reflexionsfrage: "Benennt ein Prinzip aus Teil 1, das in der THINK-PAIR-SHARE-Struktur steckt." (Kann auch nur kurz verbal angetippt werden: "Übrigens: Was wir gerade gemacht haben, nutzt selbst drei Prinzipien aus Teil 1. Wir kommen am Schluss darauf zurück.")
-
-### Reflexive Brücke (2 Min)
-
-- "Schreibe in einem Satz auf: Was war die wichtigste Erkenntnis aus deiner Analyse? Und dann: Für welche *andere* Aufgabe aus deiner Lehre wäre die Analyse vermutlich ganz anders ausgefallen? Denke bewusst an einen anderen Aufgabentyp."
-- Diese Brücke primed die zweite Aufgabe für Aktivität 2.
-
-### Aktivität 2: Peer-Diagnose (20 Min)
-
-**Überleitung:** "Bildschirme zu, Stifte raus. Ab jetzt arbeiten wir analog." Karteikarten oder halbe A4-Blätter verteilen. **Neue Paare** bilden (nicht dieselben wie bei Aktivität 1).
-
-**Abruf und Analyse (8 Min, individuell, still)**
-
-- Schritt 1 (3 Min): Framework-Fragen aus dem Gedächtnis auf die Karte schreiben, zweite Aufgabe wählen
-- Schritt 2 (5 Min): Zweite Aufgabe analysieren. Grösste Schwachstelle, eine Änderung, welche Diagnose-Frage Studierende nicht beantworten könnten
-
-**Peer-Diagnose (10 Min, neue Paare)**
-
-- Person A stellt vor (2 Min): Aufgabe, Schwachstelle, Änderung
-- Person B als Advocatus Diaboli (2 Min): "Könnte eine Studierende das Denken nach deiner Änderung immer noch delegieren? Wie?" und "Welche Diagnose-Frage würde sie bestehen, welche nicht?"
-- Rollen tauschen (4 Min)
-- Gemeinsam (2 Min): Einen 1-Satz-Redesign pro Aufgabe formulieren
-
-**Meta-Moment:** "Ihr habt gerade Interleaving am eigenen Leib erlebt: Dasselbe Framework auf zwei verschiedene Aufgabentypen anwenden fühlt sich schwieriger an, produziert aber besseren Transfer."
-
-### Muster & Synthese (6 Min)
-
-- "Welche Muster tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?"
 - "Wo war die Grenze zwischen Offloading und Outsourcing am schwierigsten zu ziehen?"
-- Ungleiche Wirkung ansprechen: "Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das verdient eine eigene Vertiefung auf Departementsebene."
+- Ungleiche Wirkung ansprechen: "Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt?"
 
 ### Konsolidierung (5 Min, individuell)
 
 - "Schreibe auf: Welche *eine* Änderung setzt ihr als erstes um? Und: Welches Konzept hat eure Haltung zu KI am meisten verändert?"
 - "Diese Notiz nehmt ihr mit. Sie ist euer Umsetzungsplan."
 
-**Timing-Check:** Du solltest bei ca. 11:45 sein.
+**Timing-Check:** Du solltest bei ca. 11:25 sein. Falls du früher fertig bist: Muster-Diskussion vertiefen oder direkt zum Closing übergehen. Falls du später dran bist: SHARE auf 3 Min kürzen (1 Beispiel). Die Konsolidierung nicht kürzen, sie ist die Transfersicherung.
 
-- **Wenn du früher fertig bist:** Synthese vertiefen, Meta-Moment besprechen.
-- **Wenn du später dran bist:** Peer-Diagnose PAIR auf 6 Min kürzen (1.5 Min pro Rolle statt 2). Synthese auf 4 Min.
+
+## 11:25--11:45: Buffer / Overflow (20 Min) {#overflow}
+
+- Falls Teil 3 pünktlich fertig: Durchatmen, Raum für spontane Fragen, früher ins Closing starten
+- Falls Teil 3 länger dauert: Diese Zeit absorbiert die Verzögerung
+- Falls die Gruppe engagiert diskutiert: Muster-Diskussion hier vertiefen
 
 
 ## 11:45--12:00: Transfer & Abschluss (15 Min) {#abschluss}
@@ -302,7 +267,7 @@ Ja, und dafür brauchen sie Fachkompetenz. Das Evaluationsparadox zeigt: Kompete
 
 ### "Das funktioniert in meinem Fach nicht."
 
-Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In der Peer-Diagnose (Teil 3) werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
+Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
 
 ### "Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?"
 
@@ -321,19 +286,19 @@ Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe da
 
 ### Wenn nur 90 Minuten verfügbar
 
-- Teil 1 auf 30 Min kürzen: Slides straffen, Fallstudien-Analyse auf 5 Min
+- Teil 1 auf 25 Min kürzen: Slides straffen, Fallstudien-Analyse auf 5 Min
 - Teil 2 auf 20 Min: Slides + Worked Example (ohne Diagnose-Fragen-Aktivität)
-- Teil 3 auf 30 Min: Nur THINK-PAIR-SHARE mit einer Aufgabe, ohne Peer-Diagnose
+- Teil 3 auf 25 Min: THINK (8 Min) + PAIR Advocatus Diaboli (10 Min) + kurze Konsolidierung (3 Min), ohne SHARE
 - Abschluss auf 10 Min
 
 ### Wenn die Gruppe sehr KI-erfahren ist
 
 - Teil 1 kann etwas gestrafft werden (die Lernwissenschaft ist für viele neu, auch wenn KI vertraut ist)
 - Im Worked Example: statt annotierte Bibliografie ein komplexeres Szenario aus den Fallstudien nehmen
-- Peer-Diagnose vertiefen: mehr Zeit für die Advocatus-Diaboli-Phase
+- Advocatus-Diaboli-Phase vertiefen: mehr Zeit für die gegenseitige Diagnose
 
 ### Wenn die Gruppe KI-skeptisch ist
 
 - Teil 1 betonen: "Es geht um Lernen, nicht um KI"
 - Im Worked Example: herausarbeiten, dass das Framework auch "Keine KI nötig" als Ergebnis validiert
-- Peer-Diagnose funktioniert besonders gut mit KI-skeptischen Gruppen, da sie komplett analog ist und den Fokus auf Aufgabendesign legt
+- Die Advocatus-Diaboli-Phase funktioniert besonders gut mit KI-skeptischen Gruppen, da sie den Fokus auf Aufgabendesign legt
