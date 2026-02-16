@@ -69,6 +69,32 @@ Lernrelevante Verarbeitung: **eliminiert**
 ### Sondern: "Wird das Denken ausgelagert oder nur unterstützt?"
 
 
+## Finde den Fehler {.smaller}
+
+Der folgende Absatz enthält **einen sachlich falschen Satz.** Welcher?
+
+> Der p-Wert ist eines der meistverwendeten und meistmissverstandenen Konzepte der empirischen Forschung. Er gibt die Wahrscheinlichkeit an, die beobachteten Daten (oder extremere) zu erhalten, unter der Annahme, dass die Nullhypothese zutrifft. Ein häufig übersehenes Problem: Statistische Signifikanz hängt stark von der Stichprobengrösse ab. Mit genügend grossen Stichproben wird praktisch jeder noch so kleine Effekt signifikant. Umgekehrt gilt: Je kleiner die Stichprobe, desto grösser muss der beobachtete Effekt sein, um Signifikanz zu erreichen, weshalb kleine Studien die tatsächliche Effektgrösse tendenziell unterschätzen.
+
+:::{.fragment}
+{{< fa arrow-right >}} **Schwierig?** Genau das ist der Punkt.
+:::
+
+
+## Der Fehler {.smaller}
+
+> "[...] weshalb kleine Studien die tatsächliche Effektgrösse tendenziell **unterschätzen**."
+
+Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, **überschätzen** die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert (*Winner's Curse*).
+
+:::{.fragment}
+### Warum du ihn wahrscheinlich nicht gefunden hast
+
+Dir fehlen die **Schemata** in quantitativer Methodenlehre. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Kriterien kannst du Richtiges nicht von Falschem unterscheiden.
+
+**So geht es deinen Studierenden mit KI-generierten Texten in ihrem Fach.**
+:::
+
+
 ## Das Evaluationsparadox
 
 **Ein verbreiteter Vorschlag:**

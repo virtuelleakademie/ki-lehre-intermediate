@@ -53,19 +53,21 @@ Wähle eine der 3 Fragen. Wie würdest du sie in deiner Lehre konkret einsetzen?
 :::
 
 ::: {.active-processing}
-### Das Evaluationsparadox erleben (2 Min)
+### Das Evaluationsparadox erleben (1 Min)
 
-Du siehst gleich einen kurzen, gut formulierten Absatz zu einem Fachthema *ausserhalb* deines Fachgebiets. Ein Satz darin ist sachlich falsch.
+Der folgende Absatz enthält **einen sachlich falschen Satz.** Welcher?
 
-**Aufgabe:** Finde den Fehler.
-
-Dann siehst du einen ähnlichen Absatz *innerhalb* deines Fachgebiets, ebenfalls mit einem Fehler.
+> Der p-Wert ist eines der meistverwendeten und meistmissverstandenen Konzepte der empirischen Forschung. Er gibt die Wahrscheinlichkeit an, die beobachteten Daten (oder extremere) zu erhalten, unter der Annahme, dass die Nullhypothese zutrifft. Ein häufig übersehenes Problem: Statistische Signifikanz hängt stark von der Stichprobengrösse ab. Mit genügend grossen Stichproben wird praktisch jeder noch so kleine Effekt signifikant. Umgekehrt gilt: Je kleiner die Stichprobe, desto grösser muss der beobachtete Effekt sein, um Signifikanz zu erreichen, weshalb kleine Studien die tatsächliche Effektgrösse tendenziell unterschätzen.
 :::
 
 ::: {.pro-tip collapse="true"}
 ### Die Pointe: Evaluationsparadox
 
-Im fremden Fach fehlen dir die Schemata, um Plausibles von Falschem zu unterscheiden. Im eigenen Fach springt der Fehler ins Auge. Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
+**Der Fehler:** "...weshalb kleine Studien die tatsächliche Effektgrösse tendenziell *unterschätzen*." Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, *überschätzen* die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert (*Winner's Curse*).
+
+Du hast den Fehler wahrscheinlich nicht gefunden, weil dir die Schemata in quantitativer Methodenlehre fehlen. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Bewertungskriterien gibt es keine Grundlage, Richtiges von Falschem zu unterscheiden. In deinem eigenen Fach hättest du einen vergleichbaren Fehler sofort erkannt.
+
+Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
 :::
 
 ::: {.active-processing}
