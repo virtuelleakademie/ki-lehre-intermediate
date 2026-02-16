@@ -1,5 +1,5 @@
 ```{r}
-#| label: fig-offloading-spectrum
+#| label: offloading-spectrum
 #| echo: false
 #| fig-width: 12
 #| fig-height: 6

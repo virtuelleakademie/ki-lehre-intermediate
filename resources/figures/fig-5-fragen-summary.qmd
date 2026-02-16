@@ -1,5 +1,5 @@
 ```{r}
-#| label: fig-5-fragen-summary
+#| label: 5-fragen-summary
 #| echo: false
 
 library(DiagrammeR)

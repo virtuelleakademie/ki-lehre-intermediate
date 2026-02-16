@@ -1,5 +1,5 @@
 ```{r}
-#| label: fig-try-then-check
+#| label: try-then-check
 #| echo: false
 
 library(DiagrammeR)

@@ -1,5 +1,5 @@
 ```{r}
-#| label: fig-expert-novice
+#| label: expert-novice
 #| echo: false
 
 library(DiagrammeR)

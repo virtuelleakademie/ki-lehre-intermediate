@@ -1,5 +1,5 @@
 ```{r}
-#| label: fig-lernparadox
+#| label: lernparadox
 #| echo: false
 #| fig-width: 10
 #| fig-height: 8

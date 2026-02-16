@@ -1,5 +1,5 @@
 ```{r}
-#| label: fig-bottleneck
+#| label: bottleneck
 #| echo: false
 
 library(DiagrammeR)
