@@ -158,7 +158,6 @@ comments:
 execute:
   cache: true
   freeze: auto
-  execute-dir: project
   warning: false
 
 editor:

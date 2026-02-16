@@ -1,0 +1,19 @@
+{
+  "hash": "e41763fc237b1f725bccdbe38ea716e5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n::: {.cell}\n::: {#fig-workshop-flow .cell-output-display}\n\n```{=html}\n<div class=\"grViz html-widget html-fill-item\" id=\"htmlwidget-6a387cf61971d9464697\" style=\"width:100%;height:227px;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-6a387cf61971d9464697\">{\"x\":{\"diagram\":\"\\ndigraph workshop_flow {\\n  graph [\\n    rankdir = LR\\n    fontname = \\\"Helvetica\\\"\\n    bgcolor = \\\"transparent\\\"\\n    nodesep = 0.6\\n    ranksep = 0.9\\n    margin = \\\"0.2,0.1\\\"\\n  ]\\n\\n  node [\\n    fontname = \\\"Helvetica\\\"\\n    style = \\\"filled,rounded\\\"\\n    fontcolor = \\\"white\\\"\\n    penwidth = 0\\n    shape = box\\n  ]\\n\\n  edge [\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 9\\n    color = \\\"#b0b0b0\\\"\\n    arrowsize = 0.7\\n  ]\\n\\n  einstieg [\\n    label = \\\"Einstieg\\n10 min\\\"\\n    fillcolor = \\\"#64748b\\\"\\n    fontsize = 11\\n    margin = \\\"0.2,0.15\\\"\\n  ]\\n\\n  teil1 [\\n    label = \\\"Teil 1\\nLernen verstehen\\n\\nKognitive Architektur\\nSchemas & Expertise\\n\\n50 min\\\"\\n    fillcolor = \\\"#0072B2\\\"\\n    fontsize = 12\\n    margin = \\\"0.25,0.18\\\"\\n    width = 2.2\\n  ]\\n\\n  pause [\\n    label = \\\"Pause\\n15 min\\\"\\n    fillcolor = \\\"#e5e7eb\\\"\\n    fontcolor = \\\"#64748b\\\"\\n    fontsize = 10\\n    margin = \\\"0.15,0.12\\\"\\n    style = \\\"filled\\\"\\n    shape = ellipse\\n  ]\\n\\n  teil2 [\\n    label = \\\"Teil 2\\nKI & Lernen\\n\\nOffloading vs. Outsourcing\\nEvaluationsparadox\\n\\n30 min\\\"\\n    fillcolor = \\\"#E69F00\\\"\\n    fontcolor = \\\"#222222\\\"\\n    fontsize = 12\\n    margin = \\\"0.25,0.18\\\"\\n    width = 2.2\\n  ]\\n\\n  teil3 [\\n    label = \\\"Teil 3\\nPraxis\\n\\n5-Fragen-Framework\\nKollegiale Kurzberatung\\n\\n55 min\\\"\\n    fillcolor = \\\"#9A4665\\\"\\n    fontsize = 12\\n    margin = \\\"0.25,0.18\\\"\\n    width = 2.2\\n  ]\\n\\n  abschluss [\\n    label = \\\"Abschluss\\n15 min\\\"\\n    fillcolor = \\\"#64748b\\\"\\n    fontsize = 11\\n    margin = \\\"0.2,0.15\\\"\\n  ]\\n\\n  einstieg -> teil1\\n  teil1 -> pause\\n  pause -> teil2 [label = \\\"  Abrufpraxis  \\\"]\\n  teil2 -> teil3\\n  teil3 -> abschluss\\n}\\n\",\"config\":{\"engine\":\"dot\",\"options\":null}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"../../site_libs/viz-1.8.2/viz.js\"></script>\n<link href=\"../../site_libs/DiagrammeR-styles-0.2/styles.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/grViz-binding-1.0.11/grViz.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
