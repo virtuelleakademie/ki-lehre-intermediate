@@ -24,7 +24,9 @@ ipython_config.py
 
 # Quarto
 /.quarto/
-pages/*_cache/
+/_freeze/
+*_cache/
+__packages/
 pages/*_files/
 /notes/
 /_do-not-build/**

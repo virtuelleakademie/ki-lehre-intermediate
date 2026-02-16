@@ -1,30 +1,38 @@
- ---
+---
 title: "Wie Menschen lernen"
 subtitle: "The right kind of cognitive effort is not a bug---it's a signal that learning is happening"
 ---
 
 
-## KI kann uns produktiver machen
+## KI steigert Produktivität
 
-**Forschung zeigt**: KI steigert Produktivität und Qualität bei kognitiven Aufgaben, aber mit Nebenwirkungen.
+**Forschung zeigt:** KI verbessert Leistung bei kognitiven Aufgaben
+
+- Routineaufgaben werden schneller erledigt
+- Kreative Arbeit wird unterstützt
+- Qualität steigt (bei Expert:innen)
+
+::: aside
+@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific2025
+:::
+
+
+## Aber es gibt Nebenwirkungen
 
 :::{.fragment}
-- Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
-- Unterstützung kreativer Arbeit ist möglich
-- **Deskilling**: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
-- Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt
+**Deskilling**: Eigene Fähigkeiten verkümmern bei dauerhafter KI-Nutzung
+:::
+
+:::{.fragment}
+Ohne Training setzen Menschen KI für ungeeignete Aufgaben ein
 :::
 
 ::: aside
-@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific2025; @cuiEffectsGenerativeAI2024
+@cuiEffectsGenerativeAI2024
 :::
 
 
 ## {.center}
-
-Aber halt...
-
-...
 
 :::{.fragment}
 ### Sollten **Lernende** überhaupt produktiver sein?
@@ -41,23 +49,26 @@ Wir unterscheiden zwischen [@gearyEvolutionarilyInformedEducation2008; @swellerD
 
 ::::{.columns}
 :::{.column width="50%"}
-**Biologisch primärem Wissen**:
+### {{< fa baby >}} Biologisch primär
 
-- Entwickelt sich bei normaler Umgebung ohne formale Instruktion
-- Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion
+- Entwickelt sich natürlich
+- Keine formale Instruktion nötig
+
+**Beispiele:** Sprechen, Gesichtserkennung, soziale Interaktion
 :::
-:::{.column width=50%}
-**Biologisch sekundärem Wissen**:
+:::{.column width="50%"}
+### {{< fa graduation-cap >}} Biologisch sekundär
 
-- Kulturelle Errungenschaften ohne evolutionäre Anpassung
-- Erfordert bewusste Anstrengung und Instruktion
-- Beispiele: Lesen, Schreiben, Mathematik, Programmieren
+- Kulturelle Errungenschaften
+- Erfordert bewusste Anstrengung
+
+**Beispiele:** Lesen, Schreiben, Mathematik, Programmieren
 :::
 ::::
 
 :::{.fragment}
 ::: {.callout-important}
-Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein [@kirschnerWhyMinimalGuidance2006].
+Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben [@kirschnerWhyMinimalGuidance2006].
 :::
 :::
 
@@ -79,41 +90,23 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 ::::
 
 
-**Gleiche Hardware, unterschiedliche Software**
+## Gleiche Hardware, unterschiedliche Software {.smaller}
 
-| Dimension       | **Anfänger**                                                              | **Experten**                                                 |
-| --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Sehen**       | Einzelne Teile                                                                | Bedeutungsvolle Muster                                |
-| **Verarbeiten** | Schritt-für-Schritt, deliberativ, bewusst | Automatische Prozeduren, intuitiv |
-| **Wissen**      | Isolierte Fakten, Bahnen im Aufbau                                 | Vernetzte Schemata, tausende Stunden geübt        |
+| Dimension       | **Anfänger**              | **Experten**                        |
+| --------------- | ------------------------- | ----------------------------------- |
+| **Sehen**       | Einzelne Teile            | Bedeutungsvolle Muster              |
+| **Verarbeiten** | Schritt-für-Schritt       | Automatische Prozeduren             |
+| **Wissen**      | Isolierte Fakten          | Vernetzte Schemata                  |
 
 
-## Cognitive Load Theory
+## Das Nadelöhr des Lernens {.smaller}
 
-**Warum Anfänger anders lernen müssen als Experten** [@swellerDevelopmentCognitiveLoad2023]
+**Cognitive Load Theory** [@swellerDevelopmentCognitiveLoad2023]
 
-::::{.columns}
-:::{.column width="50%"}
-### Arbeitsgedächtnis
+{{< include ../../resources/figures/fig-bottleneck.qmd >}}
 
-- **Begrenzt**: ~4 Elemente gleichzeitig
-- **Flüchtig**: Sekunden ohne Wiederholung
-- **Nadelöhr**: Bewusste Verarbeitung findet hier statt
-:::
-
-:::{.column width="50%"}
-### Langzeitgedächtnis
-
-- **Unbegrenzt**: Keine bekannte Obergrenze
-- **Dauerhaft**: Jahre bis lebenslang
-- **Organisiert**: Schemata und automatisierte Prozesse
-:::
-::::
-
-:::{.fragment}
 ::: {.callout-tip}
-**Kernprinzip**: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung
-:::
+**Kernprinzip**: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung.
 :::
 
 
@@ -129,21 +122,24 @@ Komplexität des Lernstoffs selbst (Elementinteraktivität)
 :::
 
 :::{.column width="50%"}
-:::{.fragment}
 **Extrinsisch**
 
 Wie Material präsentiert wird
 
 *Durch Design **minimierbar***
 :::
-:::
 ::::
 
 :::{.fragment}
 ::: {.callout-tip}
-**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.
+**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut.
 :::
 :::
+
+
+## Verteilung der kognitiven Belastung
+
+{{< include ../../resources/figures/fig-cognitive-load.qmd >}}
 
 
 ## Das Lerndilemma
@@ -172,14 +168,26 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 
 :::{.fragment}
 ::: {.callout-important}
-**Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
-
-**Die KI-Falle**: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.
+**Praktische Regel**: Beginne mit hoher Unterstützung und reduziere sie graduell mit wachsender Expertise (Fading).
 :::
 :::
 
 
-## CLT und KI: Was passiert bei Outsourcing?
+## Die KI-Falle {.center}
+
+KI-Tools bieten **permanentes Scaffolding**, das nie abgebaut wird.
+
+:::{.fragment}
+Sie verletzen das Fading-Prinzip systematisch.
+:::
+
+
+## Expertise Reversal Effect
+
+{{< include ../../resources/figures/fig-expertise-reversal.qmd >}}
+
+
+## CLT und KI: Was passiert bei Outsourcing? {.smaller}
 
 **KI optimiert für Produktion statt Lernen**
 
@@ -189,7 +197,7 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 | **Extrinsisch** | Variabel | Minimiert |
 | **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
 
-::: {.fragment}
+:::{.fragment}
 Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
 :::
 
@@ -208,41 +216,50 @@ Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann di
 Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 :::
 
+
 ## Warum Outsourcing Schemabildung verhindert
 
-Schemabildung erfordert **aktive Verarbeitung** interagierender Elemente im Arbeitsgedächtnis. Outsourcing eliminiert diese Verarbeitung.
+Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
 
-:::{.fragment}
-Das zeigt sich in drei Mechanismen:
-
-1. **Fehlende Modellaktivierung**: Ohne eigenen Versuch wird das interne Wissensmodell nicht aktiviert, und Feedback bleibt uninformativ
-2. **Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung im Langzeitgedächtnis
-3. **Prozedurale Entwicklung**: Ohne Übungszyklen keine Automatisierung
-:::
+1. **Keine Modellaktivierung**: Ohne eigenen Versuch bleibt Feedback uninformativ
+2. **Keine Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung
+3. **Keine Automatisierung**: Ohne Übungszyklen keine prozeduralen Fertigkeiten
 
 :::{.fragment}
 ::: {.callout-warning}
-Die kognitive Verarbeitung, die sich als Schwierigkeit anfühlt (Schemabildung, Abruf, Elaboration), ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
+Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
 :::
 :::
 
 
-## Wie Expertise entwickelt wird
+## Wie Expertise entwickelt wird {.smaller}
 
 **Von Fakten zu automatisierten Prozeduren** [@andersonAcquisitionCognitiveSkill1982]
 
 | Gedächtnissystem | Beschreibung | Beispiel |
 | ---------------- | ------------ | -------- |
-| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
-| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $3x + 5 = 20$ sehen → automatisch umstellen, ohne bewusst über die Schritte nachzudenken |
+| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | Regel kennen: "5 von beiden Seiten subtrahieren" |
+| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | Gleichung sehen → sofort umstellen |
 
 :::{.fragment}
-
 ### Der Weg zur Expertise
 
-**Deklarative Fakten** → Tausende Übungszyklen mit Feedback → **Prozedurale Automatismen**
+**Deklarativ** → Übungszyklen mit Feedback → **Prozedural**
+:::
 
-Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln
+
+## Drei verbreitete Missverständnisse {.center}
+
+:::{.fragment}
+"Wenn es **schwer** ist, lerne ich nicht."
+:::
+
+:::{.fragment}
+"Wenn ich etwas **produziere**, lerne ich."
+:::
+
+:::{.fragment}
+"KI macht mich **produktiver**, also lerne ich **mehr**."
 :::
 
 
@@ -314,23 +331,28 @@ Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln
 
 ## Die gefährliche Umkehrung {.center}
 
-<br>
-
-**Unser metakognitives Urteil führt uns systematisch in die Irre:**
-
-Wir verwechseln Verarbeitungsflüssigkeit (wie leicht sich etwas anfühlt) mit Lernerfolg. Was sich mühelos anfühlt, fühlt sich wie Lernen an, ist es aber oft nicht.
+Wir verwechseln **Verarbeitungsflüssigkeit** (wie leicht sich etwas anfühlt) mit **Lernerfolg**.
 
 . . .
 
-<br>
-
-Produktive Anstrengung **fühlt sich schwierig an**. Unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **signalisiert diese Schwierigkeit, dass lernrelevante Prozesse aktiv sind**: Schemabildung, Abruf, Elaboration.
+Produktive Anstrengung **fühlt sich schwierig an**, signalisiert aber, dass lernrelevante Prozesse aktiv sind.
 
 . . .
-
-<br>
 
 **Merksatz:** "The right kind of cognitive effort is not a bug---it's a signal that learning is happening."
+
+
+## Was wir jetzt wissen {.center}
+
+Lernen = **Schemabildung** im Langzeitgedächtnis
+
+Erfordert **aktive kognitive Verarbeitung**
+
+Fühlt sich **anstrengend** an (metakognitive Falle)
+
+:::{.fragment}
+### Jetzt die Frage: Was macht KI mit diesen Prozessen?
+:::
 
 
 ## Bibliographie

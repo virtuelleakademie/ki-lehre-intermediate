@@ -1,0 +1,71 @@
+```{r}
+#| label: expert-novice
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph expert_novice {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    rankdir = LR
+    nodesep = 0.6
+    ranksep = 1.0
+    compound = true
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 10
+    arrowsize = 0.8
+  ]
+
+  subgraph cluster_expert {
+    label = 'Expert:in'
+    fontname = 'Helvetica'
+    fontsize = 13
+    fontcolor = '#0072B2'
+    style = 'rounded,filled'
+    fillcolor = '#dce8f5'
+    color = '#0072B2'
+    penwidth = 1.5
+
+    e_model [label = 'Starkes internes\\nModell' fillcolor = '#0072B2']
+    e_ki [label = 'KI-Output' fillcolor = '#64748b']
+    e_result [label = 'Korrektur' fillcolor = '#0072B2']
+
+    e_model -> e_ki [label = '  Vergleich\\n  möglich  ' color = '#222222']
+    e_ki -> e_result [label = '  Fehler\\n  erkennbar  ' color = '#222222']
+  }
+
+  subgraph cluster_novice {
+    label = 'Anfänger:in'
+    fontname = 'Helvetica'
+    fontsize = 13
+    fontcolor = '#D55E00'
+    style = 'rounded,filled'
+    fillcolor = '#fde8d8'
+    color = '#D55E00'
+    penwidth = 1.5
+
+    n_model [label = 'Schwaches internes\\nModell' fillcolor = '#D55E00']
+    n_ki [label = 'KI-Output' fillcolor = '#64748b']
+    n_result [label = 'Übernahme' fillcolor = '#D55E00']
+
+    n_model -> n_ki [label = '  Kein Vergleichs-\\n  massstab  ' color = '#999999' style = dashed]
+    n_ki -> n_result [label = '  Fehler\\n  unsichtbar  ' color = '#999999' style = dashed]
+  }
+}
+")
+```

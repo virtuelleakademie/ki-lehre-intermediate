@@ -1,0 +1,89 @@
+```{r}
+#| label: workshop-flow
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph workshop_flow {
+  graph [
+    rankdir = LR
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.6
+    ranksep = 0.9
+    margin = '0.2,0.1'
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 9
+    color = '#b0b0b0'
+    arrowsize = 0.7
+  ]
+
+  einstieg [
+    label = 'Einstieg\n10 min'
+    fillcolor = '#64748b'
+    fontsize = 11
+    margin = '0.2,0.15'
+  ]
+
+  teil1 [
+    label = 'Teil 1\nLernen verstehen\n\nKognitive Architektur\nSchemas & Expertise\n\n50 min'
+    fillcolor = '#0072B2'
+    fontsize = 12
+    margin = '0.25,0.18'
+    width = 2.2
+  ]
+
+  pause [
+    label = 'Pause\n15 min'
+    fillcolor = '#e5e7eb'
+    fontcolor = '#64748b'
+    fontsize = 10
+    margin = '0.15,0.12'
+    style = 'filled'
+    shape = ellipse
+  ]
+
+  teil2 [
+    label = 'Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n\n30 min'
+    fillcolor = '#E69F00'
+    fontcolor = '#222222'
+    fontsize = 12
+    margin = '0.25,0.18'
+    width = 2.2
+  ]
+
+  teil3 [
+    label = 'Teil 3\nPraxis\n\n5-Fragen-Framework\nPeer-Diagnose\n\n55 min'
+    fillcolor = '#9A4665'
+    fontsize = 12
+    margin = '0.25,0.18'
+    width = 2.2
+  ]
+
+  abschluss [
+    label = 'Abschluss\n15 min'
+    fillcolor = '#64748b'
+    fontsize = 11
+    margin = '0.2,0.15'
+  ]
+
+  einstieg -> teil1
+  teil1 -> pause
+  pause -> teil2 [label = '  Abrufpraxis  ']
+  teil2 -> teil3
+  teil3 -> abschluss
+}
+")
+```

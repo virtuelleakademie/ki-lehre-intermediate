@@ -39,6 +39,13 @@ about:
 {{< bi link >}} [virtuelleakademie.github.io/ki-lehre-intermediate/](https://virtuelleakademie.github.io/ki-lehre-intermediate/)
 
 
+## {{< bi signpost-split >}} Workshop-Struktur
+
+Der Workshop besteht aus drei aufeinander aufbauenden Teilen. Zuerst legst du die kognitionswissenschaftliche Grundlage, dann wendest du sie auf KI an, und zum Schluss gestaltest du eigene Aufgaben um.
+
+{{< include resources/figures/fig-workshop-flow.qmd >}}
+
+
 ## {{< bi compass >}} Wie du diese Website nutzt
 
 Diese Website begleitet dich durch den Workshop und steht dir danach als Nachschlagewerk zur Verfügung. So findest du dich zurecht:
@@ -55,7 +62,7 @@ Die Website funktioniert auf zwei Ebenen: als Live-Begleitung während des Works
 
 **Vor dem Workshop**
 
-- Arbeite den [Vorbereitungsauftrag](vorbereitung/index.qmd) durch (ca. 20 Min.)
+- Arbeite den [Vorbereitungsauftrag](vorbereitung/index.qmd) durch (ca. 30 Min.)
 - Bring eine eigene Aufgabe oder Prüfung mit, die wir gemeinsam analysieren
 
 **Während des Workshops**

@@ -3,14 +3,14 @@ title: "Vom Wissen zum Handeln"
 ---
 
 ::: {.active-processing}
-## Praxis: Aufgaben analysieren & kollegial beraten (50 Min)
+## Praxis: Aufgaben analysieren & Peer-Diagnose (50 Min)
 
 In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:
 
 1. **Aufgaben-Analyse** mit dem 5-Fragen-Framework (23 Min)
-2. **Kollegiale Kurzberatung**: Eine zweite Aufgabe analysieren und gegenseitig Feedback geben (20 Min)
+2. **Peer-Diagnose**: Eine zweite Aufgabe analysieren und gegenseitig diagnostizieren (20 Min)
 
-**Ziel**: Das Framework auf unterschiedliche Aufgabentypen anwenden, kollegiales Feedback nutzen und mit einem konkreten Umsetzungsplan nach Hause gehen.
+**Ziel**: Das Framework auf unterschiedliche Aufgabentypen anwenden, gegenseitig Schwachstellen diagnostizieren und mit einem konkreten Umsetzungsplan nach Hause gehen.
 :::
 
 
@@ -108,12 +108,12 @@ Und dann: **Was erwartest du, wenn du dieselbe Analyse auf deine zweite mitgebra
 :::
 
 
-## Aktivität 2: Kollegiale Kurzberatung (20 Min)
+## Aktivität 2: Peer-Diagnose (20 Min)
 
 ::: {.facilitator}
-### Kollegiale Kurzberatung (20 Min)
+### Peer-Diagnose (20 Min)
 
-Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und geben uns gegenseitig kollegiales Feedback. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
+Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und diagnostizieren gegenseitig die Schwachstellen. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
 
 Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.
 :::
@@ -136,7 +136,7 @@ Arbeite auf einer Karteikarte oder einem halben Blatt Papier. Die physische Begr
 - Welche der 3 Diagnose-Fragen würden Studierende bei dieser Aufgabe in der jetzigen Form **nicht beantworten können**?
 :::
 
-### Kollegiale Kurzberatung (10 Min)
+### Peer-Diagnose (10 Min)
 
 ::: {.pair}
 ### Advocatus Diaboli
@@ -186,7 +186,7 @@ Schreibe auf:
 ::: {.pro-tip collapse=false}
 ### Zentrale Erkenntnis
 
-Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und kollegiale Beratung zu verstehen: **Gute KI-Integration in der Lehre erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.**
+Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und Peer-Diagnose zu verstehen: **Gute KI-Integration in der Lehre erfordert ein tiefes Verständnis davon, wie Lernen funktioniert.**
 :::
 
 

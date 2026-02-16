@@ -88,50 +88,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
 div.callout-facilitator.callout {
   border-left-color: #d97706;
 }
@@ -155,10 +111,10 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   background-image: none;
 }
 div.callout-individual.callout {
-  border-left-color: steelblue;
+  border-left-color: #0072B2;
 }
 div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+  background-color: rgba(0, 114, 178, 0.13);
 }
 div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
@@ -176,15 +132,59 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-reflect.callout {
-  border-left-color: purple;
+  border-left-color: #64748b;
 }
 div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+  background-color: rgba(100, 116, 139, 0.13);
 }
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 </style>
@@ -339,10 +339,10 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   <li><a href="#share-phase-5-min" id="toc-share-phase-5-min" class="nav-link" data-scroll-target="#share-phase-5-min">SHARE Phase (5 Min)</a></li>
   </ul></li>
   <li><a href="#reflexive-brücke-2-min" id="toc-reflexive-brücke-2-min" class="nav-link" data-scroll-target="#reflexive-brücke-2-min">Reflexive Brücke (2 Min)</a></li>
-  <li><a href="#aktivität-2-kollegiale-kurzberatung-20-min" id="toc-aktivität-2-kollegiale-kurzberatung-20-min" class="nav-link" data-scroll-target="#aktivität-2-kollegiale-kurzberatung-20-min">Aktivität 2: Kollegiale Kurzberatung (20 Min)</a>
+  <li><a href="#aktivität-2-peer-diagnose-20-min" id="toc-aktivität-2-peer-diagnose-20-min" class="nav-link" data-scroll-target="#aktivität-2-peer-diagnose-20-min">Aktivität 2: Peer-Diagnose (20 Min)</a>
   <ul class="collapse">
   <li><a href="#abruf-und-analyse-8-min" id="toc-abruf-und-analyse-8-min" class="nav-link" data-scroll-target="#abruf-und-analyse-8-min">Abruf und Analyse (8 Min)</a></li>
-  <li><a href="#kollegiale-kurzberatung-10-min" id="toc-kollegiale-kurzberatung-10-min" class="nav-link" data-scroll-target="#kollegiale-kurzberatung-10-min">Kollegiale Kurzberatung (10 Min)</a></li>
+  <li><a href="#peer-diagnose-10-min" id="toc-peer-diagnose-10-min" class="nav-link" data-scroll-target="#peer-diagnose-10-min">Peer-Diagnose (10 Min)</a></li>
   </ul></li>
   <li><a href="#muster-synthese-6-min" id="toc-muster-synthese-6-min" class="nav-link" data-scroll-target="#muster-synthese-6-min">Muster &amp; Synthese (6 Min)</a>
   <ul class="collapse">
@@ -385,16 +385,16 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; kollegial beraten (50 Min)
+<span class="screen-reader-only">Active-processing</span>Praxis: Aufgaben analysieren &amp; Peer-Diagnose (50 Min)
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>In zwei aufeinander aufbauenden Aktivitäten wenden wir die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an:</p>
 <ol type="1">
 <li><strong>Aufgaben-Analyse</strong> mit dem 5-Fragen-Framework (23 Min)</li>
-<li><strong>Kollegiale Kurzberatung</strong>: Eine zweite Aufgabe analysieren und gegenseitig Feedback geben (20 Min)</li>
+<li><strong>Peer-Diagnose</strong>: Eine zweite Aufgabe analysieren und gegenseitig diagnostizieren (20 Min)</li>
 </ol>
-<p><strong>Ziel</strong>: Das Framework auf unterschiedliche Aufgabentypen anwenden, kollegiales Feedback nutzen und mit einem konkreten Umsetzungsplan nach Hause gehen.</p>
+<p><strong>Ziel</strong>: Das Framework auf unterschiedliche Aufgabentypen anwenden, gegenseitig Schwachstellen diagnostizieren und mit einem konkreten Umsetzungsplan nach Hause gehen.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
@@ -558,21 +558,21 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 </section>
-<section id="aktivität-2-kollegiale-kurzberatung-20-min" class="level2">
-<h2 class="anchored" data-anchor-id="aktivität-2-kollegiale-kurzberatung-20-min">Aktivität 2: Kollegiale Kurzberatung (20 Min)</h2>
+<section id="aktivität-2-peer-diagnose-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="aktivität-2-peer-diagnose-20-min">Aktivität 2: Peer-Diagnose (20 Min)</h2>
 <div class="callout callout-style-default callout-facilitator callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Facilitator</span>Kollegiale Kurzberatung (20 Min)
+<span class="screen-reader-only">Facilitator</span>Peer-Diagnose (20 Min)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Überleitung: “Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und geben uns gegenseitig kollegiales Feedback. <strong>Bildschirme zu, Stifte raus.</strong> Ab jetzt arbeiten wir analog.”</p>
+<p>Überleitung: “Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und diagnostizieren gegenseitig die Schwachstellen. <strong>Bildschirme zu, Stifte raus.</strong> Ab jetzt arbeiten wir analog.”</p>
 <p>Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.</p>
 </div>
 </div>
@@ -601,8 +601,8 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 </section>
-<section id="kollegiale-kurzberatung-10-min" class="level3">
-<h3 class="anchored" data-anchor-id="kollegiale-kurzberatung-10-min">Kollegiale Kurzberatung (10 Min)</h3>
+<section id="peer-diagnose-10-min" class="level3">
+<h3 class="anchored" data-anchor-id="peer-diagnose-10-min">Peer-Diagnose (10 Min)</h3>
 <div class="callout callout-style-default callout-pair callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

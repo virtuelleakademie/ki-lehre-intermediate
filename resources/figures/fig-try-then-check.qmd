@@ -1,0 +1,71 @@
+```{r}
+#| label: try-then-check
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph try_then_check {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    compound = true
+    nodesep = 0.5
+    ranksep = 0.8
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 10
+    arrowsize = 0.8
+  ]
+
+  subgraph cluster_productive {
+    label = 'Produktiver Weg'
+    fontname = 'Helvetica'
+    fontsize = 14
+    fontcolor = '#0072B2'
+    style = 'rounded,filled'
+    fillcolor = '#dce8f5'
+    color = '#0072B2'
+    penwidth = 1.5
+
+    try [label = '1. Versuch\\nEigenen Ansatz\\ngenerieren' fillcolor = '#0072B2']
+    compare [label = '2. Vergleich\\nMit KI-Output\\nabgleichen' fillcolor = '#56B4E9']
+    reflect [label = '3. Reflexion\\nSchema\\naktualisieren' fillcolor = '#E69F00' fontcolor = '#222222']
+
+    try -> compare [label = '  Prediction Error  ' color = '#666666']
+    compare -> reflect [label = '  Analyse  ' color = '#666666']
+    reflect -> try [label = '  Nächster Zyklus  ' color = '#666666' style = dashed]
+  }
+
+  subgraph cluster_unproductive {
+    label = 'Unproduktiver Weg'
+    fontname = 'Helvetica'
+    fontsize = 14
+    fontcolor = '#D55E00'
+    style = 'rounded,filled'
+    fillcolor = '#fde8d8'
+    color = '#D55E00'
+    penwidth = 1.5
+
+    direct [label = 'KI-Output\\ndirekt nutzen' fillcolor = '#D55E00']
+    passive [label = 'Passives\\nÜbernehmen' fillcolor = '#D55E00']
+    nolearn [label = 'Kein\\nLerneffekt' fillcolor = '#D55E00']
+
+    direct -> passive [color = '#999999' style = dashed]
+    passive -> nolearn [color = '#999999' style = dashed label = '  Keine Reflexion\\n  möglich  ']
+  }
+}
+")
+```

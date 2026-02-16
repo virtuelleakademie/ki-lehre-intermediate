@@ -2,12 +2,6 @@
 title: "KI & Lernen"
 ---
 
-```{r}
-#| label: setup
-#| include: false
-source("../resources/viz-setup.R")
-library(DiagrammeR)
-```
 
 Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen, und wann verhindert sie es?
 
@@ -51,6 +45,28 @@ Wer outsourct, hat auf Frage 2 keine Antwort: Es gab keine spezifischen Erwartun
 ### Die 3 Diagnose-Fragen ausprobieren (1 Min)
 
 Wähle eine der 3 Fragen. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
+:::
+
+::: {.active-processing}
+### Das Evaluationsparadox erleben (2 Min)
+
+Du siehst gleich einen kurzen, gut formulierten Absatz zu einem Fachthema *ausserhalb* deines Fachgebiets. Ein Satz darin ist sachlich falsch.
+
+**Aufgabe:** Finde den Fehler.
+
+Dann siehst du einen ähnlichen Absatz *innerhalb* deines Fachgebiets, ebenfalls mit einem Fehler.
+
+**Die Pointe**: Im fremden Fach fehlen dir die Schemas, um Plausibles von Falschem zu unterscheiden. Im eigenen Fach springt der Fehler ins Auge. Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
+:::
+
+::: {.active-processing}
+### Vorhersage vor der Analyse (1 Min)
+
+Gleich analysieren wir gemeinsam eine typische Aufgabe ("Annotierte Bibliografie"). Bevor wir starten:
+
+**Schreibe in einem Satz auf:** Was passiert, wenn ein Studierender den Aufgabentext direkt als Prompt an ein LLM gibt? Was liefert die KI, und was fehlt?
+
+*Halte deine Vorhersage fest. Wir kommen darauf zurück.*
 :::
 
 
@@ -133,75 +149,17 @@ Drei Erkenntnisse für die eigene Praxis:
 2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe **Elementinteraktivität** hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Ohne die Schemas, die diese Komplexität organisieren, ist die intrinsische Last hoch. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemas, die später die Last reduzieren würden
 3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Dieses Prinzip ist theoretisch gut fundiert durch die Forschung zu Abrufeffekten und Vorhersagefehlern, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
-```{r}
-#| label: fig-try-then-check
-#| echo: false
+{{< include ../resources/figures/fig-try-then-check.qmd >}}
 
-grViz("
-digraph try_then_check {
-  graph [
-    fontname = 'Helvetica'
-    bgcolor = 'transparent'
-    compound = true
-    nodesep = 0.5
-    ranksep = 0.8
-  ]
+::: {.active-processing}
+### Rückkehr zur Vorhersage (1 Min)
 
-  node [
-    fontname = 'Helvetica'
-    fontsize = 12
-    style = 'filled,rounded'
-    fontcolor = 'white'
-    penwidth = 0
-    shape = box
-    margin = '0.25,0.12'
-  ]
+Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender den Aufgabentext als Prompt eingibt?
 
-  edge [
-    fontname = 'Helvetica'
-    fontsize = 10
-    arrowsize = 0.8
-  ]
+**Vergleiche:** Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?
 
-  subgraph cluster_productive {
-    label = 'Produktiver Weg'
-    fontname = 'Helvetica'
-    fontsize = 14
-    fontcolor = '#0072B2'
-    style = 'rounded,filled'
-    fillcolor = '#dce8f5'
-    color = '#0072B2'
-    penwidth = 1.5
-
-    try [label = '1. Versuch\\nEigenen Ansatz\\ngenerieren' fillcolor = '#0072B2']
-    compare [label = '2. Vergleich\\nMit KI-Output\\nabgleichen' fillcolor = '#56B4E9']
-    reflect [label = '3. Reflexion\\nSchema\\naktualisieren' fillcolor = '#E69F00' fontcolor = '#222222']
-
-    try -> compare [label = '  Prediction Error  ' color = '#666666']
-    compare -> reflect [label = '  Analyse  ' color = '#666666']
-    reflect -> try [label = '  Nächster Zyklus  ' color = '#666666' style = dashed]
-  }
-
-  subgraph cluster_unproductive {
-    label = 'Unproduktiver Weg'
-    fontname = 'Helvetica'
-    fontsize = 14
-    fontcolor = '#D55E00'
-    style = 'rounded,filled'
-    fillcolor = '#fde8d8'
-    color = '#D55E00'
-    penwidth = 1.5
-
-    direct [label = 'KI-Output\\ndirekt nutzen' fillcolor = '#D55E00']
-    passive [label = 'Passives\\nÜbernehmen' fillcolor = '#D55E00']
-    nolearn [label = 'Kein\\nLerneffekt' fillcolor = '#D55E00']
-
-    direct -> passive [color = '#999999' style = dashed]
-    passive -> nolearn [color = '#999999' style = dashed label = '  Keine Reflexion\\n  möglich  ']
-  }
-}
-")
-```
+*Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist **Prediction Error Learning** in Aktion, und genau das Prinzip hinter "Versuch-dann-Prüfe".*
+:::
 
 ::: {.active-processing}
 ### Gedächtnis-Aktivierung (1 Min)
@@ -220,7 +178,7 @@ Bevor wir weitergehen, notiere in Stichworten:
 Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr:
 
 - Eine **konkrete Analyse** eurer eigenen Aufgabe
-- **Kollegiales Feedback** auf euer Redesign
+- Eine **Peer-Diagnose** eures Redesigns
 - Einen **1-Satz-Redesign-Plan**, den ihr sofort umsetzen könnt
 :::
 
@@ -258,103 +216,7 @@ Erinnere dich an die Unterscheidung zwischen biologisch primärem und sekundäre
 
 Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht "Dürfen Studierende KI nutzen?", sondern "Wird das Denken ausgelagert oder nur unterstützt?" Hier braucht es das Urteil der Lehrperson.
 
-```{r}
-#| label: fig-offloading-spectrum
-#| echo: false
-#| fig-width: 12
-#| fig-height: 6
-
-spectrum_examples <- tibble(
-  position = c(0.12, 0.30, 0.50, 0.75, 0.92),
-  label = c(
-    "Taschenrechner\nfür Arithmetik",
-    "KI prüft\nZitationsformat",
-    "Studierender\nüberarbeitet\nKI-Entwurf",
-    "Frage an KI ohne\neigenen Versuch",
-    "KI schreibt\nden Aufsatz"
-  ),
-  y_offset = c(0.72, 0.72, 0.76, 0.72, 0.72)
-)
-
-gradient_data <- tibble(
-  x = seq(0, 1, length.out = 200)
-) |>
-  mutate(fill_value = x)
-
-ggplot() +
-  geom_tile(
-    data = gradient_data,
-    aes(x = x, y = 0.2, fill = fill_value, width = 0.006, height = 0.15),
-    show.legend = FALSE
-  ) +
-  scale_fill_gradient(low = color_positive, high = color_negative) +
-  annotate(
-    "rect",
-    xmin = 0, xmax = 1,
-    ymin = 0.125, ymax = 0.275,
-    fill = NA, color = brand_dark, linewidth = 0.8
-  ) +
-  geom_segment(
-    data = spectrum_examples,
-    aes(x = position, xend = position, y = 0.30, yend = 0.50),
-    color = brand_dark, linewidth = 0.6
-  ) +
-  geom_point(
-    data = spectrum_examples,
-    aes(x = position, y = 0.50),
-    size = 5, color = brand_dark, fill = "white",
-    shape = 21, stroke = 1.5
-  ) +
-  geom_text(
-    data = spectrum_examples,
-    aes(x = position, y = y_offset, label = label),
-    size = 3.3, lineheight = 0.9, fontface = "bold",
-    color = brand_dark  ) +
-  annotate(
-    "text", x = 0, y = 0.04,
-    label = "Cognitive Offloading",
-    hjust = 0, size = 4.5, fontface = "bold",
-    color = color_positive  ) +
-  annotate(
-    "text", x = 1, y = 0.04,
-    label = "Cognitive Outsourcing",
-    hjust = 1, size = 4.5, fontface = "bold",
-    color = color_negative  ) +
-  annotate(
-    "segment",
-    x = 0, xend = 1, y = -0.08, yend = -0.08,
-    arrow = arrow(length = unit(0.2, "cm"), ends = "both", type = "closed"),
-    color = brand_dark, linewidth = 0.8
-  ) +
-  annotate(
-    "text", x = 0, y = -0.15,
-    label = "Lernrelevante Verarbeitung: Erhalten",
-    hjust = 0, size = 3.8, fontface = "italic",
-    color = color_positive  ) +
-  annotate(
-    "text", x = 1, y = -0.15,
-    label = "Lernrelevante Verarbeitung: Eliminiert",
-    hjust = 1, size = 3.8, fontface = "italic",
-    color = color_negative  ) +
-  scale_x_continuous(limits = c(-0.05, 1.05), expand = c(0, 0)) +
-  scale_y_continuous(limits = c(-0.22, 0.95), expand = c(0, 0)) +
-  labs(
-    title = "Spektrum: Cognitive Offloading vs. Cognitive Outsourcing",
-    subtitle = "Nicht jede KI-Nutzung hat die gleiche Auswirkung auf das Lernen"
-  ) +
-  theme_void() +
-  theme(
-    plot.title = element_text(
-      face = "bold", size = 16, color = brand_dark,
-      hjust = 0.5, margin = margin(b = 5)
-    ),
-    plot.subtitle = element_text(
-      size = 11, color = "#666666",
-      hjust = 0.5, margin = margin(b = 20)
-    ),
-    plot.margin = margin(20, 20, 20, 20)
-  )
-```
+{{< include ../resources/figures/fig-offloading-spectrum.qmd >}}
 :::
 
 
@@ -373,146 +235,9 @@ Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert
 
 **Wichtige Differenzierung:** Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.
 
-```{r}
-#| label: fig-evaluation-paradox
-#| echo: false
+{{< include ../resources/figures/fig-evaluation-paradox.qmd >}}
 
-grViz("
-digraph evaluation_paradox {
-  graph [
-    fontname = 'Helvetica'
-    bgcolor = 'transparent'
-    nodesep = 0.8
-    ranksep = 1.0
-    label = 'Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht'
-    labelloc = t
-    fontsize = 14
-    fontcolor = '#666666'
-  ]
-
-  node [
-    fontname = 'Helvetica'
-    fontsize = 12
-    style = 'filled,rounded'
-    fontcolor = 'white'
-    penwidth = 0
-    shape = box
-    margin = '0.25,0.15'
-  ]
-
-  edge [
-    fontname = 'Helvetica'
-    fontsize = 11
-    color = '#999999'
-    arrowsize = 0.8
-  ]
-
-  evaluate [
-    label = 'KI-Output\\nbewerten'
-    fillcolor = '#D55E00'
-  ]
-
-  competence [
-    label = 'Fachkompetenz'
-    fillcolor = '#64748b'
-  ]
-
-  learning [
-    label = 'Eigenes\\nLernen'
-    fillcolor = '#64748b'
-  ]
-
-  thinking [
-    label = 'Eigenes\\nDenken'
-    fillcolor = '#0072B2'
-  ]
-
-  center [
-    label = 'Internes Modell\\nnoch nicht aufgebaut'
-    fillcolor = '#F5F5F5'
-    fontcolor = '#9A4665'
-    style = 'filled'
-    shape = plaintext
-    fontsize = 11
-  ]
-
-  evaluate -> competence [label = '  erfordert  ']
-  competence -> learning [label = '  entsteht durch  ']
-  learning -> thinking [label = '  erfordert  ']
-  thinking -> evaluate [label = '  wird ersetzt\\n  durch KI  ' style = dashed color = '#D55E00']
-}
-")
-```
-
-```{r}
-#| label: fig-expert-novice
-#| echo: false
-
-grViz("
-digraph expert_novice {
-  graph [
-    fontname = 'Helvetica'
-    bgcolor = 'transparent'
-    rankdir = LR
-    nodesep = 0.6
-    ranksep = 1.0
-    compound = true
-  ]
-
-  node [
-    fontname = 'Helvetica'
-    fontsize = 12
-    style = 'filled,rounded'
-    fontcolor = 'white'
-    penwidth = 0
-    shape = box
-    margin = '0.25,0.12'
-  ]
-
-  edge [
-    fontname = 'Helvetica'
-    fontsize = 10
-    arrowsize = 0.8
-  ]
-
-  subgraph cluster_expert {
-    label = 'Expert:in'
-    fontname = 'Helvetica'
-    fontsize = 13
-    fontcolor = '#0072B2'
-    style = 'rounded,filled'
-    fillcolor = '#dce8f5'
-    color = '#0072B2'
-    penwidth = 1.5
-
-    e_model [label = 'Starkes internes\\nModell' fillcolor = '#0072B2']
-    e_ki [label = 'KI-Output' fillcolor = '#64748b']
-    e_result [label = 'Korrektur' fillcolor = '#0072B2']
-
-    e_model -> e_ki [label = '  Vergleich\\n  möglich  ' color = '#222222']
-    e_ki -> e_result [label = '  Fehler\\n  erkennbar  ' color = '#222222']
-  }
-
-  subgraph cluster_novice {
-    label = 'Anfänger:in'
-    fontname = 'Helvetica'
-    fontsize = 13
-    fontcolor = '#D55E00'
-    style = 'rounded,filled'
-    fillcolor = '#fde8d8'
-    color = '#D55E00'
-    penwidth = 1.5
-
-    n_model [label = 'Schwaches internes\\nModell' fillcolor = '#D55E00']
-    n_ki [label = 'KI-Output' fillcolor = '#64748b']
-    n_result [label = 'Übernahme' fillcolor = '#D55E00']
-
-    n_model -> n_ki [label = '  Kein Vergleichs-\\n  massstab  ' color = '#999999' style = dashed]
-    n_ki -> n_result [label = '  Fehler\\n  unsichtbar  ' color = '#999999' style = dashed]
-  }
-}
-")
-```
+{{< include ../resources/figures/fig-expert-novice.qmd >}}
 :::
 
 

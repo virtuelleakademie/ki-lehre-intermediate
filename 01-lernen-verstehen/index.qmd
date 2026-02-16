@@ -21,21 +21,46 @@ Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): 
 
 
 ::: {.active-processing}
-### Arbeitsgedächtnis erleben (3 Min)
+### Arbeitsgedächtnis erleben, Variante A: Rechenketten (3 Min)
 
-**Digit Span Demo:** Wie viele Zahlen kannst du dir merken?
+**Elementinteraktivität spüren:** Dieselben Zahlen, zwei verschiedene Aufgaben.
 
-1. Die Kursleitung liest Zahlenfolgen vor (beginnend mit 4 Ziffern)
-2. Nach jeder Folge: aufschreiben, was du behalten hast
-3. Wann wird es schwierig?
+1. **Aufgabe 1** (Speichern): Du hörst vier Zahlen (z.B. 3, 7, 2, 5). Schreibe sie nach einer kurzen Pause auf.
+2. **Aufgabe 2** (Verarbeiten): Du hörst eine Rechenaufgabe mit denselben vier Zahlen: "Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5." Löse im Kopf und notiere das Ergebnis.
+3. **Bonusrunde**: Zwei Rechenketten gleichzeitig, abwechselnd ein Schritt pro Kette.
 
-**Die Pointe**: Dieses Erlebnis *ist* die Lernarchitektur. Jeder Gedanke eurer Studierenden durchläuft genau diesen Flaschenhals.
+**Die Pointe**: In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig voneinander. In Aufgabe 2 musste jede Zahl mit den vorherigen *in Beziehung* verarbeitet werden. Genau das passiert beim Verstehen neuer Konzepte: Studierende müssen Elemente und ihre Beziehungen gleichzeitig im Arbeitsgedächtnis halten. Nicht die *Menge*, sondern die *Interaktion* zwischen den Elementen erzeugt die kognitive Belastung.
+:::
+
+::: {.active-processing}
+### Arbeitsgedächtnis erleben, Variante B: Sortieraufgabe (3 Min)
+
+**Elementinteraktivität spüren:** Dieselben Begriffe, zwei verschiedene Aufgaben.
+
+1. **Aufgabe 1** (Speichern): Merke dir diese vier Begriffe: *Hund, Tisch, Wolke, Ring*. Schreibe sie nach einer kurzen Pause auf.
+2. **Aufgabe 2** (Verarbeiten): Ordne dieselben vier Begriffe gleichzeitig in eine logische Reihenfolge vom Kleinsten zum Grössten und erkläre deinem Nachbarn, warum deine Reihenfolge stimmt.
+
+**Die Pointe**: Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht verändert. Was sich verändert hat, ist die **Elementinteraktivität**: In Aufgabe 2 müssen die Elemente gleichzeitig zueinander in Beziehung gesetzt werden. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen, bei dem alles mit allem zusammenhängt. Der Flaschenhals ist nicht die Anzahl der Elemente, sondern die Anzahl der *Verbindungen*, die gleichzeitig verarbeitet werden müssen.
 :::
 
 ::: {.callout-tip}
 ### Meta-Moment
 
-Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses, also genau das Konzept, das sie vermitteln soll. Die direkte Erfahrung macht das Konzept konkreter als jede Erklärung. Das ist **Elaboration durch Erleben**. *Der Workshop modelliert, was er lehrt.*
+Diese Übung demonstriert **Elementinteraktivität**, das zentrale Konzept der Cognitive Load Theory. Die Kapazitätsgrenze des Arbeitsgedächtnisses wird nicht durch die Anzahl isolierter Elemente bestimmt, sondern durch die Anzahl der *Beziehungen zwischen Elementen*, die gleichzeitig verarbeitet werden müssen. Dieselbe Erfahrung, die hier in drei Minuten spürbar wird, findet in jeder Lehrveranstaltung statt, wenn Studierende neue Konzepte verstehen sollen. *Der Workshop macht erlebbar, was er erklärt.*
+:::
+
+
+::: {.active-processing}
+### Schemas erleben (2 Min)
+
+Du hörst gleich einen kurzen Text, der ein vertrautes Verfahren beschreibt, aber ohne Schlüsselbegriffe: Alle Fachbegriffe sind durch vage Pronomen und generische Beschreibungen ersetzt.
+
+1. Höre zu und versuche zu verstehen, worum es geht
+2. Schreibe in einem Satz auf, was der Text beschreibt
+
+Dann hörst du denselben Text nochmals, diesmal mit dem Schlüsselwort vorab.
+
+**Die Pointe**: Der Text war identisch. Was sich verändert hat: Dein Langzeitgedächtnis hat ein **Schema** aktiviert, das die Elemente organisiert. Ohne Schema muss jedes Detail einzeln im Arbeitsgedächtnis verarbeitet werden. Mit Schema kollabieren die Details zu einer vertrauten Struktur. So klingt jede Vorlesung für Erstsemester in deinem Fach.
 :::
 
 
@@ -45,6 +70,18 @@ Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses, also genau
 **Versuche aus dem Gedächtnis:** Was ist der Expertise Reversal Effect in einem Satz? Warum ist er für KI in der Lehre relevant?
 
 *Das ist keine Prüfung. Lücken sind willkommen: Sie zeigen dir, worauf du beim Weiterhören besonders achten kannst.*
+:::
+
+::: {.active-processing}
+### Expertise Reversal spüren (2 Min)
+
+Du siehst gleich eine Schritt-für-Schritt-Anleitung für etwas, das du sicher beherrschst (z.B. "Wie man ein Lernziel formuliert" oder "Wie man eine Quellenangabe erstellt").
+
+**Frage:** War die Anleitung hilfreich oder eher störend?
+
+Jetzt stell dir vor, dieselbe Anleitung geht an Studierende im ersten Semester.
+
+**Die Pointe**: Was für dich redundant war, wäre für Novizen essenziell. Das ist der **Expertise Reversal Effect**: Hilfe, die Anfängern nützt, belastet Experten mit unnötiger extrinsischer Last. Dasselbe gilt für KI-Scaffolding: Was Anfänger brauchen und was Fortgeschrittene brauchen, ist nicht dasselbe.
 :::
 
 
@@ -62,7 +99,17 @@ Diese Übung demonstriert den Flaschenhals des Arbeitsgedächtnisses, also genau
 ::: {.callout-tip}
 ### Meta-Moment
 
-Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die kollegiale Kurzberatung in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse (Abruf, Schemabildung, Elaboration) aktiv sind.
+Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die Peer-Diagnose in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse (Abruf, Schemabildung, Elaboration) aktiv sind.
+:::
+
+::: {.active-processing}
+### Vertrautheit ≠ Verständnis (1 Min)
+
+Schätze ehrlich: Wie gut hast du die Cognitive Load Theory verstanden? (1 = gar nicht, 5 = könnte sie erklären)
+
+Jetzt: Erkläre deinem Nachbarn in 30 Sekunden den Unterschied zwischen intrinsischer und extrinsischer Last, ohne in die Slides zu schauen.
+
+**Die Pointe**: Die Lücke zwischen deiner Einschätzung und deiner tatsächlichen Erklärfähigkeit ist die **metakognitive Falle**. Fliessend zuhören erzeugt Vertrautheit, nicht Verständnis. Eure Studierenden erleben das nach jeder Vorlesung.
 :::
 
 

@@ -1,0 +1,98 @@
+```{r}
+#| label: offloading-spectrum
+#| echo: false
+#| fig-width: 12
+#| fig-height: 6
+source(here::here("resources/viz-setup.R"))
+
+spectrum_examples <- tibble(
+  position = c(0.12, 0.30, 0.50, 0.75, 0.92),
+  label = c(
+    "Taschenrechner\nfür Arithmetik",
+    "KI prüft\nZitationsformat",
+    "Studierender\nüberarbeitet\nKI-Entwurf",
+    "Frage an KI ohne\neigenen Versuch",
+    "KI schreibt\nden Aufsatz"
+  ),
+  y_offset = c(0.72, 0.72, 0.76, 0.72, 0.72)
+)
+
+gradient_data <- tibble(
+  x = seq(0, 1, length.out = 200)
+) |>
+  mutate(fill_value = x)
+
+ggplot() +
+  geom_tile(
+    data = gradient_data,
+    aes(x = x, y = 0.2, fill = fill_value, width = 0.006, height = 0.15),
+    show.legend = FALSE
+  ) +
+  scale_fill_gradient(low = color_positive, high = color_negative) +
+  annotate(
+    "rect",
+    xmin = 0, xmax = 1,
+    ymin = 0.125, ymax = 0.275,
+    fill = NA, color = brand_dark, linewidth = 0.8
+  ) +
+  geom_segment(
+    data = spectrum_examples,
+    aes(x = position, xend = position, y = 0.30, yend = 0.50),
+    color = brand_dark, linewidth = 0.6
+  ) +
+  geom_point(
+    data = spectrum_examples,
+    aes(x = position, y = 0.50),
+    size = 5, color = brand_dark, fill = "white",
+    shape = 21, stroke = 1.5
+  ) +
+  geom_text(
+    data = spectrum_examples,
+    aes(x = position, y = y_offset, label = label),
+    size = 3.3, lineheight = 0.9, fontface = "bold",
+    color = brand_dark  ) +
+  annotate(
+    "text", x = 0, y = 0.04,
+    label = "Cognitive Offloading",
+    hjust = 0, size = 4.5, fontface = "bold",
+    color = color_positive  ) +
+  annotate(
+    "text", x = 1, y = 0.04,
+    label = "Cognitive Outsourcing",
+    hjust = 1, size = 4.5, fontface = "bold",
+    color = color_negative  ) +
+  annotate(
+    "segment",
+    x = 0, xend = 1, y = -0.08, yend = -0.08,
+    arrow = arrow(length = unit(0.2, "cm"), ends = "both", type = "closed"),
+    color = brand_dark, linewidth = 0.8
+  ) +
+  annotate(
+    "text", x = 0, y = -0.15,
+    label = "Lernrelevante Verarbeitung: Erhalten",
+    hjust = 0, size = 3.8, fontface = "italic",
+    color = color_positive  ) +
+  annotate(
+    "text", x = 1, y = -0.15,
+    label = "Lernrelevante Verarbeitung: Eliminiert",
+    hjust = 1, size = 3.8, fontface = "italic",
+    color = color_negative  ) +
+  scale_x_continuous(limits = c(-0.05, 1.05), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(-0.22, 0.95), expand = c(0, 0)) +
+  labs(
+    title = "Spektrum: Cognitive Offloading vs. Cognitive Outsourcing",
+    subtitle = "Nicht jede KI-Nutzung hat die gleiche Auswirkung auf das Lernen"
+  ) +
+  theme_void() +
+  theme(
+    plot.title = element_text(
+      face = "bold", size = 16, color = brand_dark,
+      hjust = 0.5, margin = margin(b = 5)
+    ),
+    plot.subtitle = element_text(
+      size = 11, color = "#666666",
+      hjust = 0.5, margin = margin(b = 20)
+    ),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+```
