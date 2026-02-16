@@ -11,7 +11,7 @@ digraph beach_ant {
     bgcolor = 'transparent'
     nodesep = 0.6
     ranksep = 0.8
-    label = '\"The Beach, Not the Ant\" (Herbert Simon)\nDie Lernumgebung bestimmt das Verhalten mehr als die Motivation der Lernenden'
+    label = 'The Beach, Not the Ant (Herbert Simon)\\nDie Lernumgebung bestimmt das Verhalten mehr als die Motivation der Lernenden'
     labelloc = t
     fontsize = 14
     fontcolor = '#666666'
@@ -36,35 +36,35 @@ digraph beach_ant {
 
   // The beach (environment)
   beach [
-    label = 'Der Strand\n(Lernumgebung)'
+    label = 'Der Strand\\n(Lernumgebung)'
     fillcolor = '#0072B2'
     fontsize = 14
     margin = '0.3,0.2'
   ]
 
   terrain1 [
-    label = 'Aufgabendesign\nWas wird verlangt?'
+    label = 'Aufgabendesign\\nWas wird verlangt?'
     fillcolor = '#56B4E9'
   ]
 
   terrain2 [
-    label = 'Prüfungsformat\nWas wird gemessen?'
+    label = 'Prüfungsformat\\nWas wird gemessen?'
     fillcolor = '#56B4E9'
   ]
 
   terrain3 [
-    label = 'KI-Zugänglichkeit\nWas ist verfügbar?'
+    label = 'KI-Zugänglichkeit\\nWas ist verfügbar?'
     fillcolor = '#56B4E9'
   ]
 
   terrain4 [
-    label = 'Strukturelle Anreize\nWas ist der einfachste Weg?'
+    label = 'Strukturelle Anreize\\nWas ist der einfachste Weg?'
     fillcolor = '#56B4E9'
   ]
 
   // The ant (student)
   ant [
-    label = 'Die Ameise\n(Studierende)'
+    label = 'Die Ameise\\n(Studierende)'
     fillcolor = '#64748b'
     fontsize = 14
     margin = '0.3,0.2'
@@ -72,12 +72,12 @@ digraph beach_ant {
 
   // Behavior
   path_good [
-    label = 'Produktiver Weg\nEigenes Denken → Lernen'
+    label = 'Produktiver Weg\\nEigenes Denken'
     fillcolor = '#0072B2'
   ]
 
   path_easy [
-    label = 'Einfacher Weg\nKI-Outsourcing → kein Lernen'
+    label = 'Einfacher Weg\\nKI-Outsourcing'
     fillcolor = '#D55E00'
   ]
 
@@ -89,8 +89,8 @@ digraph beach_ant {
   terrain1 -> ant [style = invis]
   terrain4 -> ant [style = invis]
 
-  ant -> path_good [label = '  Wenn Umgebung\\n  Anstrengung belohnt  ' color = '#0072B2']
-  ant -> path_easy [label = '  Wenn Umgebung\\n  Abkürzung ermöglicht  ' color = '#D55E00']
+  ant -> path_good [label = '  Wenn Umgebung\\nAnstrengung belohnt  ' color = '#0072B2']
+  ant -> path_easy [label = '  Wenn Umgebung\\nAbkürzung ermöglicht  ' color = '#D55E00']
 
   // Key insight
   insight [

@@ -11,7 +11,7 @@ digraph primaer_sekundaer {
     bgcolor = 'transparent'
     nodesep = 0.8
     ranksep = 0.9
-    label = 'Biologisch primäres vs. sekundäres Wissen\nWarum Schulen existieren: Sekundäres Wissen erfordert bewusste Instruktion'
+    label = 'Biologisch primäres vs. sekundäres Wissen\\nWarum Schulen existieren: Sekundäres Wissen erfordert bewusste Instruktion'
     labelloc = t
     fontsize = 14
     fontcolor = '#666666'
@@ -52,20 +52,20 @@ digraph primaer_sekundaer {
   ]
 
   p_examples [
-    label = 'Sprechen\nGesichtserkennung\nSoziale Interaktion'
+    label = 'Sprechen\\nGesichtserkennung\\nSoziale Interaktion'
     fillcolor = '#56B4E9'
     fontsize = 11
   ]
 
   s_examples [
-    label = 'Lesen & Schreiben\nMathematik\nProgrammieren'
+    label = 'Lesen & Schreiben\\nMathematik\\nProgrammieren'
     fillcolor = '#E69F00'
     fontcolor = '#222222'
     fontsize = 11
   ]
 
   p_how [
-    label = 'Entwickelt sich\nnaturlich'
+    label = 'Entwickelt sich\\nnatürlich'
     fillcolor = '#dce8f5'
     fontcolor = '#0072B2'
     style = 'filled'
@@ -74,7 +74,7 @@ digraph primaer_sekundaer {
   ]
 
   s_how [
-    label = 'Erfordert bewusste\nInstruktion & Übung'
+    label = 'Erfordert bewusste\\nInstruktion & Übung'
     fillcolor = '#fde8d8'
     fontcolor = '#D55E00'
     style = 'filled'
@@ -83,7 +83,7 @@ digraph primaer_sekundaer {
   ]
 
   barrier [
-    label = '⚠ Kein Selbstläufer\nKI-Outsourcing umgeht\ndiesen notwendigen Prozess'
+    label = 'Kein Selbstläufer!\\nKI-Outsourcing umgeht\\ndiesen notwendigen Prozess'
     fillcolor = '#F5F5F5'
     fontcolor = '#9A4665'
     style = 'filled'
