@@ -20,7 +20,15 @@ Diese Grundlagen helfen dir, in Teil 2 und 3 informierte Entscheidungen über de
 ::: {.facilitator}
 ### Slides + Aktivitäten (ca. 50 Min gesamt)
 
-Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): eine nach den CLT-Slides, eine nach dem Lernparadox. Die Digit Span Demo kommt nach dem Abschnitt über Arbeitsgedächtnis. Nach den Slides folgen die Gedächtnis-Aktivierungen, dann die Fallstudien-Analyse in Paaren.
+Präsentiere die Slides (Richtwert: 25 Min). Zwei Mikropausen einbauen (je 30 Sek): eine nach den CLT-Slides, eine nach dem Lernparadox. Die Digit Span Demo kommt nach dem Abschnitt über Arbeitsgedächtnis.
+
+**Zeitcheck nach den Slides:**
+
+- **Vor 09:35 fertig?** Alle Aktivitäten: Arbeitsgedächtnis-Übung (3 Min) + Schemata erleben (2 Min) + Expertise Reversal spüren (2 Min) + Gedächtnis-Aktivierungen + Fallstudien-Analyse (10 Min) + Wichtigste Erkenntnis (1 Min)
+- **Um 09:40 fertig?** Arbeitsgedächtnis-Übung (3 Min) + Gedächtnis-Aktivierungen + Fallstudien-Analyse (10 Min) + Wichtigste Erkenntnis (1 Min)
+- **Nach 09:40 fertig?** Nur Fallstudien-Analyse (10 Min) + Wichtigste Erkenntnis (1 Min)
+
+Die Gedächtnis-Aktivierungen (Retrieval Practice) sind nicht optional, sie demonstrieren das Prinzip, das der Slide "Warum Abrufpraxis funktioniert" erklärt. Die Fallstudien-Analyse ist die zentrale Transferaktivität und darf nicht gekürzt werden.
 :::
 
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-German-language Quarto website for a 135-minute BFH (Bern University of Applied Sciences) workshop on AI in higher education teaching. Part of a multi-workshop suite (beginner, intermediate, advanced, refresher). The workshop is pedagogically self-modeling: it teaches learning science principles while using those same principles in its delivery.
+German-language Quarto website for a 180-minute (3 Stunden) BFH (Bern University of Applied Sciences) workshop on AI in higher education teaching. Part of a multi-workshop suite (beginner, intermediate, advanced, refresher). The workshop is pedagogically self-modeling: it teaches learning science principles while using those same principles in its delivery.
 
 - **Site URL:** https://virtuelleakademie.github.io/ki-lehre-intermediate/
 - **Language:** German (content), English (code/config)
