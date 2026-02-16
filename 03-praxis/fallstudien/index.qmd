@@ -45,7 +45,7 @@ Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit d
 ::: {.pro-tip collapse="true"}
 ### Vertiefung: Theoretische Analyse
 
-- Welches Szenario erzeugt mehr **Prediction Errors** bei den Studierenden?
+- Welches Szenario erzeugt mehr **Diskrepanzen** zwischen Erwartung und Ergebnis bei den Studierenden?
 - Wo findet **Wissenskompilation** statt, und wo nicht?
 - Wie verteilt sich die **kognitive Last** in beiden Szenarien (extrinsisch vs. germane)?
 - Was passiert mit der **Expertise-Entwicklung** in beiden Fällen?

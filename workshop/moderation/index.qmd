@@ -53,7 +53,7 @@ Präsentiere die Slides im Vollbild. Kernbotschaften:
 1. **Biologisch primäres vs. sekundäres Wissen**: Sprache lernen wir mühelos, Statistik nicht
 2. **Arbeitsgedächtnis als Flaschenhals**: 4±1 Elemente, alles muss hier durch
 3. **Experten vs. Anfänger**: Nicht mehr Kapazität, bessere Organisation (Chunking)
-4. **Prediction Error Learning**: Vorhersage → Fehler → Korrektur = Lernen
+4. **Versuch-dann-Prüfe-Zyklus**: Eigener Versuch → Diskrepanz erkennen → Schema aktualisieren
 5. **Expertise Reversal Effect**: Was Novizen hilft, schadet Experten
 6. **Cognitive Load Theory**: Extrinsische Last reduzieren, germane processing ermöglichen
 7. **Desirable Difficulties**: Anstrengung fühlt sich falsch an, ist aber der Mechanismus
