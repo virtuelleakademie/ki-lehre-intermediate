@@ -18,7 +18,7 @@ citation: true
 Diese Seite vertieft die Themen Langzeitgedächtnis, Abrufpraxis und wünschenswerte Schwierigkeiten aus dem Workshop. Empfohlene Reihenfolge:
 
 - **Essentiell**: Gedächtnissysteme + Der Testing Effect + Wünschenswerte Schwierigkeiten
-- **Vertiefung**: Rekonstruktives Gedächtnis & Schemas + Konsolidierung
+- **Vertiefung**: Rekonstruktives Gedächtnis & Schemata + Konsolidierung
 - **Optional**: Encoding Specificity + Spacing-Zeitpläne
 
 Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksamer als Weiterlesen.
@@ -32,7 +32,7 @@ Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksam
 3. **Der Übergang von episodischem zu semantischem Wissen** erfordert aktive, variierende Begegnungen und geschieht nicht von allein
 4. **Abruf *erzeugt* Lernen**, nicht nur misst es. Das ist der wirksamste verfügbare Lernmechanismus
 5. **Was sich leicht anfühlt, produziert oft schwaches Lernen**: Spacing, Interleaving und Generation fühlen sich schwieriger an, produzieren aber dauerhafteres Wissen
-6. **Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben**, weil Schemas neue Information still umschreiben
+6. **Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben**, weil Schemata neue Information still umschreiben
 
 
 ## Gedächtnis ist nicht ein System
@@ -125,18 +125,18 @@ Denke an eine Prüfungsfrage, bei der viele Studierende überraschend schlecht a
 
 Vielleicht der kontraintuitivste Befund der Gedächtniswissenschaft [@schacterAdaptiveConstructiveProcesses2012]: **Gedächtnis ist nicht reproduktiv, es ist rekonstruktiv.** Wenn man sich an etwas erinnert, spielt man keine Aufnahme ab, sondern rekonstruiert eine Erfahrung aus gespeicherten Fragmenten, ergänzt durch Vorwissen, aktuelle Überzeugungen und kontextuelle Hinweise.
 
-### Schemas: Das zweischneidige Schwert
+### Schemata: Das zweischneidige Schwert
 
-Schemas, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werden, sind gleichzeitig der grösste Vorteil des Gedächtnisses und seine systematischste Fehlerquelle.
+Schemata, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werden, sind gleichzeitig der grösste Vorteil des Gedächtnisses und seine systematischste Fehlerquelle.
 
-**Vorteile von Schemas:**
+**Vorteile von Schemata:**
 
 - Fehlende Details werden korrekt ergänzt
 - Neue Information wird organisiert
 - Schnelles Verstehen wird ermöglicht
 - Inferenz und Vorhersage werden unterstützt
 
-**Kosten von Schemas:**
+**Kosten von Schemata:**
 
 - Dinge werden ergänzt, die *nicht da waren*
 - Erinnerungen werden an Erwartungen angepasst (verzerrt)
@@ -145,11 +145,11 @@ Schemas, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werden
 
 **Beispiel**: Studierende hören von einem Experiment mit "Kontrollgruppe" und "Interventionsgruppe". Schema-konsistentes Detail (gut erinnert): "Die Interventionsgruppe erhielt die Behandlung." Schema-fabriziertes Detail (fälschlich erinnert): "Die Teilnehmenden wurden randomisiert zugewiesen", obwohl das nie gesagt wurde, weil das Schema es erwartet.
 
-**Lehrimplikation**: Studierende werden neue Information systematisch **an ihre bestehenden Schemas anpassen**. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu *präsentieren* reicht oft nicht; du musst das Missverständnis **explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen**.
+**Lehrimplikation**: Studierende werden neue Information systematisch **an ihre bestehenden Schemata anpassen**. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu *präsentieren* reicht oft nicht; du musst das Missverständnis **explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen**.
 
 ### Activate --- Conflict --- Resolve
 
-Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemas schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.
+Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemata schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.
 
 **Beispiel**: Student glaubt "Schwerere Objekte fallen schneller". Dozent präsentiert: "Alle Objekte fallen im Vakuum gleich schnell." Schema schreibt um: "Also ist der Unterschied im Vakuum kleiner." **Falsch, das Missverständnis überlebt.**
 
@@ -427,7 +427,7 @@ Investiere **15 Minuten** in der ersten Sitzung, um die Performance-Learning-Unt
 Die Prinzipien auf dieser Seite bilden die wissenschaftliche Grundlage für:
 
 - Die **wünschenswerten Schwierigkeiten** (→ [Teil 1](../../01-lernen-verstehen/)): Die vier Strategien und warum Anstrengung das Feature ist
-- Das **Evaluationsparadox** (→ [Teil 2](../../02-ki-und-lernen/)): Schemas, die KI-Output still umschreiben, sind derselbe Mechanismus wie Schemas, die Vorlesungsinhalte umschreiben
+- Das **Evaluationsparadox** (→ [Teil 2](../../02-ki-und-lernen/)): Schemata, die KI-Output still umschreiben, sind derselbe Mechanismus wie Schemata, die Vorlesungsinhalte umschreiben
 - Die **Versuch-dann-Prüfe-Struktur** (→ [5-Fragen-Framework](../../03-praxis/5-fragen-framework/)): Der Generierungseffekt erklärt, warum die Reihenfolge, *zuerst selbst denken, dann KI konsultieren*, entscheidend ist
 - Das **rekonstruktive Gedächtnis** erklärt, warum Schein-Kompetenz (→ [Teil 2](../../02-ki-und-lernen/)) so tückisch ist: Studierende *glauben*, sie hätten nachgedacht, weil ihr Schema die Rekonstruktion plausibel erscheinen lässt
 

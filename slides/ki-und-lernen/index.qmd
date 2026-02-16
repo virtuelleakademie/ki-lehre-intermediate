@@ -105,7 +105,7 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 
 ## Lernen ≠ Leisten {.smaller}
 
-Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für **Transfer** auf neue Situationen.
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für **Transfer** auf neue Situationen.
 
 :::{.fragment}
 ### Schein-Kompetenz
@@ -193,7 +193,7 @@ KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **
 {{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
 
 
-## Die goldene Regel {.center}
+## Die Minimalanforderung {.center}
 
 ### Versuch → dann → Prüfe
 
@@ -212,4 +212,8 @@ Die Reihenfolge bewahrt die **aktive Schemabildung** und ermöglicht Lernen aus 
 
 ## Jetzt seid ihr dran {.center}
 
-Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an. Ein Template für einen lernförderlichen Agent findet ihr als Ressource auf der Website.
+Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an.
+
+:::{.fragment}
+Auf der Website findet ihr ein **Agent-Template**, das die Versuch-dann-Prüfe-Struktur in einen KI-Agent übersetzt: Studierende arbeiten zuerst selbst, der Agent gibt erst danach gezieltes Feedback.
+:::

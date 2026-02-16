@@ -92,15 +92,37 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
 <style>
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -125,28 +147,6 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -169,26 +169,26 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #64748b;
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: #059669;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 </style>
@@ -297,16 +297,9 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 
 
 <div class="cell">
-<div id="fig-evaluation-paradox" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-evaluation-paradox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-efb041d3cb271b8ed427" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-efb041d3cb271b8ed427">{"x":{"diagram":"\ndigraph evaluation_paradox {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 1.0\n    label = \"Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht\"\n    labelloc = t\n    fontsize = 14\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  evaluate [\n    label = \"KI-Output\\nbewerten\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  competence [\n    label = \"Fachkompetenz\"\n    fillcolor = \"#64748b\"\n  ]\n\n  learning [\n    label = \"Eigenes\\nLernen\"\n    fillcolor = \"#64748b\"\n  ]\n\n  thinking [\n    label = \"Eigenes\\nDenken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  center [\n    label = \"Internes Modell\\nnoch nicht aufgebaut\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  evaluate -> competence [label = \"  erfordert  \"]\n  competence -> learning [label = \"  entsteht durch  \"]\n  learning -> thinking [label = \"  erfordert  \"]\n  thinking -> evaluate [label = \"  wird ersetzt\\n  durch KI  \" style = dashed color = \"#D55E00\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-evaluation-paradox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1
-</figcaption>
-</figure>
+<div class="cell-output-display">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-f865f8aadeafb57ec5de" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-f865f8aadeafb57ec5de">{"x":{"diagram":"\ndigraph evaluation_paradox {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 1.0\n    label = \"Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht\"\n    labelloc = t\n    fontsize = 16\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  evaluate [\n    label = \"KI-Output\\nbewerten\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  competence [\n    label = \"Fachkompetenz\"\n    fillcolor = \"#64748b\"\n  ]\n\n  learning [\n    label = \"Eigenes\\nLernen\"\n    fillcolor = \"#64748b\"\n  ]\n\n  thinking [\n    label = \"Eigenes\\nDenken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  center [\n    label = \"Internes Modell\\nnoch nicht aufgebaut\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 13\n  ]\n\n  evaluate -> competence [label = \"  erfordert  \"]\n  competence -> learning [label = \"  entsteht durch  \"]\n  learning -> thinking [label = \"  erfordert  \"]\n  thinking -> evaluate [label = \"  wird ersetzt\\n  durch KI  \" style = dashed color = \"#D55E00\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

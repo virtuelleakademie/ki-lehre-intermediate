@@ -49,7 +49,7 @@ ggplot() +
   geom_text(
     data = spectrum_examples,
     aes(x = position, y = y_offset, label = label),
-    size = 3.3, lineheight = 0.9, fontface = "bold",
+    size = 3.8, lineheight = 0.9, fontface = "bold",
     color = brand_dark  ) +
   annotate(
     "text", x = 0, y = 0.04,

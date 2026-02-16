@@ -17,7 +17,7 @@ digraph expert_novice {
 
   node [
     fontname = 'Helvetica'
-    fontsize = 12
+    fontsize = 14
     style = 'filled,rounded'
     fontcolor = 'white'
     penwidth = 0
@@ -27,14 +27,14 @@ digraph expert_novice {
 
   edge [
     fontname = 'Helvetica'
-    fontsize = 10
+    fontsize = 12
     arrowsize = 0.8
   ]
 
   subgraph cluster_expert {
     label = 'Expert:in'
     fontname = 'Helvetica'
-    fontsize = 13
+    fontsize = 15
     fontcolor = '#0072B2'
     style = 'rounded,filled'
     fillcolor = '#dce8f5'
@@ -52,7 +52,7 @@ digraph expert_novice {
   subgraph cluster_novice {
     label = 'Anfänger:in'
     fontname = 'Helvetica'
-    fontsize = 13
+    fontsize = 15
     fontcolor = '#D55E00'
     style = 'rounded,filled'
     fillcolor = '#fde8d8'

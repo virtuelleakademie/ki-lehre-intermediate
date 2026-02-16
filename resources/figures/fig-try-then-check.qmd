@@ -16,7 +16,7 @@ digraph try_then_check {
 
   node [
     fontname = 'Helvetica'
-    fontsize = 12
+    fontsize = 14
     style = 'filled,rounded'
     fontcolor = 'white'
     penwidth = 0
@@ -26,14 +26,14 @@ digraph try_then_check {
 
   edge [
     fontname = 'Helvetica'
-    fontsize = 10
+    fontsize = 12
     arrowsize = 0.8
   ]
 
   subgraph cluster_productive {
     label = 'Produktiver Weg'
     fontname = 'Helvetica'
-    fontsize = 14
+    fontsize = 16
     fontcolor = '#0072B2'
     style = 'rounded,filled'
     fillcolor = '#dce8f5'
@@ -52,7 +52,7 @@ digraph try_then_check {
   subgraph cluster_unproductive {
     label = 'Unproduktiver Weg'
     fontname = 'Helvetica'
-    fontsize = 14
+    fontsize = 16
     fontcolor = '#D55E00'
     style = 'rounded,filled'
     fillcolor = '#fde8d8'

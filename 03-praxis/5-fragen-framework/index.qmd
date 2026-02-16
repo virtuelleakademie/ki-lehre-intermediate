@@ -30,7 +30,7 @@ Dieses Framework ist kein etabliertes Modell aus der Literatur, sondern eine Syn
 **Wo stehen die Studierenden auf dem Anfänger-Experten-Kontinuum?**
 
 - **Grundlagenphase** (Anfänger:innen): Interne Verarbeitung ist essentiell für Schemabildung → KI erst *nach* dem eigenen Versuch
-- **Fortgeschrittene Phase**: Expert:innen haben die Schemas bereits, und KI kann als Verstärker dienen
+- **Fortgeschrittene Phase**: Expert:innen haben die Schemata bereits, und KI kann als Verstärker dienen
 
 > **Wenn ja**: Interne Verarbeitung verlangen. Studierende müssen die Grundlagen *selbst* aufbauen, bevor KI-Tools sinnvoll eingesetzt werden können (→ Evaluationsparadox).
 
