@@ -3,6 +3,10 @@ title: "Agent-Beispiele: Lernstrategien illustriert"
 subtitle: "Konzeptillustrationen, keine fertigen Werkzeuge"
 ---
 
+## Was ist ein "Agent"?
+
+Mit "Agent" meinen wir einen Chatbot, der mit einem **System-Prompt** so konfiguriert wurde, dass er sich auf eine bestimmte Weise verhält, z.B. als Reflexions-Coach, der nur Fragen stellt. In Copilot lassen sich solche Agents direkt erstellen. Die pädagogische Analyse, wann ein Agent Sinn ergibt und wann nicht, findest du auf der Seite [Agent-Template: Analyse & Anpassung](../../03-praxis/agent-template/).
+
 ## Wie diese Beispiele nutzen
 
 Jedes Beispiel zeigt das Zusammenspiel von Lernstrategie und Agent-Design:

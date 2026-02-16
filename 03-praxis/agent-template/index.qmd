@@ -1,13 +1,21 @@
 ---
 title: "Agent-Template: Analyse & Anpassung"
-subtitle: "Vom pädagogischen Urteil zum technischen Design"
+subtitle: "Von der Aufgaben-Analyse zur KI-Entscheidung"
 ---
+
+## Was ist ein "Agent"?
+
+Im Kontext dieses Workshops meint "Agent" etwas Einfaches: einen Chatbot, der mit spezifischen Anweisungen konfiguriert wurde, um sich auf eine bestimmte Weise zu verhalten. Der Statistik-Coach weiter unten auf dieser Seite ist ein Beispiel: ein Chatbot, der so eingestellt ist, dass er nur Rückfragen stellt statt Antworten zu liefern. Die Anweisungen, die dieses Verhalten definieren, heissen **System-Prompt**.
+
+Einen solchen Agent kannst du z.B. in Copilot erstellen (dort heissen sie ebenfalls "Agents"). Wer tiefer einsteigen will und eigene Anwendungen mit den APIs von LLM-Anbietern bauen möchte, findet das im [Advanced Workshop](https://virtuelleakademie.github.io/ki-lehre-advanced/).
+
+Diese Seite hilft dir, die **pädagogische Entscheidung** zu treffen: Ergibt ein Agent für deine Aufgabe überhaupt Sinn? Wie man Agents technisch baut und einsetzt, ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
 
 ## Voraussetzung: Die pädagogische Diagnose
 
 Du hast eine Aufgabe mit dem [5-Fragen-Framework](../5-fragen-framework/) analysiert und festgestellt, dass eine **Versuch-dann-Prüfe-Struktur** sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?
 
-Diese Seite ist ein **optionaler nächster Schritt** nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Oft reicht eine klare Aufgabenstellung mit manueller Vergleichsphase. Ein Agent lohnt sich, wenn:
+Diese Seite ist ein **optionaler nächster Schritt** nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Für die Prüfe-Phase gibt es oft einfachere Wege: eine Musterlösung zum Selbstvergleich, strukturiertes Peer-Feedback, oder eine Checkliste zur Selbstbewertung. Ein Agent lohnt sich, wenn:
 
 - Die Prüfphase **personalisiertes Feedback** erfordert, das du als Lehrperson nicht für alle Studierenden leisten kannst
 - Der Agent die **Versuch-Phase schützt**, indem er erst reagiert, nachdem Studierende einen eigenen Versuch dokumentiert haben
@@ -73,7 +81,7 @@ Evaluiere das Template mit dieser Checkliste:
 - [ ] Wo gibt der Agent **zu viel** preis?
 - [ ] Wo gibt der Agent **zu wenig** Orientierung?
 
-### Phase 2: Anpassen (5 Min)
+### Phase 2: Pädagogisch bewerten (5 Min)
 
 Wähle **eine** der folgenden Optionen:
 
@@ -86,17 +94,25 @@ Identifiziere **zwei Situationen**, in denen dieser Agent sein eigenes Designpri
 - Welche Art von Studierendenfrage könnte den Agent dazu bringen, doch direkte Antworten zu liefern?
 - Was passiert, wenn Studierende den Agent in einer Schleife befragen, bis er schrittweise die Lösung offenlegt?
 
-## Option B: Das Template verbessern
+## Option B: Lücke zwischen Absicht und Anweisung
 
-- Identifiziere eine Schwachstelle
-- Formuliere eine Verbesserung
-- Begründe, warum das den Agent besser macht
+Lies den System-Prompt noch einmal mit der Frage: **Wo stimmen pädagogische Absicht und tatsächliche Anweisung nicht überein?**
 
-## Option C: Eine Strategie explizit einbauen
+- Welches Lernziel wird im Kontext beschrieben, aber im Prompt nicht geschützt?
+- Wo ist eine Anweisung so vage, dass der Chatbot sie auf verschiedene Weisen interpretieren könnte?
+- Was müsste der Prompt *zusätzlich* adressieren, um die Versuch-dann-Prüfe-Struktur wirklich zu schützen?
 
-- Wähle eine der [8 Make-it-Stick-Strategien](../../resources/handout-make-it-stick/)
-- Integriere sie explizit in den Prompt
-- Teste, ob die Versuch-dann-Prüfe-Struktur erhalten bleibt
+Beschreibe die Lücke und erkläre, warum sie pädagogisch problematisch ist. Du musst den Prompt nicht umschreiben.
+
+## Option C: Welche Lernstrategie fehlt?
+
+Schau dir die [8 Make-it-Stick-Strategien](../../resources/handout-make-it-stick/) an:
+
+- Welche Strategie würde das Agent-Design pädagogisch stärken, und warum?
+- Wie müsste sich das *Verhalten* des Agents ändern, um diese Strategie zu unterstützen?
+- Bleibt die Versuch-dann-Prüfe-Struktur dabei erhalten?
+
+Beschreibe die pädagogische Logik. Die technische Umsetzung im Prompt ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
 :::
 
 
@@ -129,6 +145,17 @@ Du hast gerade in wenigen Minuten einen System-Prompt analysiert oder angepasst.
 Du befindest dich jetzt in derselben Position wie deine Studierenden gegenüber dem Evaluationsparadox: Ein System-Prompt *beschreibt* gewünschtes Verhalten, er *garantiert* es nicht. Ob der Agent tatsächlich die Denkarbeit bei den Studierenden belässt, zeigt sich erst im iterativen Testen mit echten Studierenden.
 
 Das ist kein Argument gegen Agents, sondern ein Argument für Bescheidenheit beim Design und systematisches Testen vor dem Einsatz.
+:::
+
+
+## Weiter
+
+::: {.callout-note}
+### Vom Entscheiden zum Bauen
+
+Diese Seite hilft dir bei der **pädagogischen Entscheidung**: Braucht meine Aufgabe einen Agent, und wenn ja, welches Verhalten muss er zeigen? Das ist die Kernkompetenz dieses Workshops.
+
+Wenn du einen Agent tatsächlich **technisch umsetzen** willst, mit strukturierten Prompts, Qualitätskontrolle und Deployment, findest du das im [Advanced Workshop: KI-Werkzeuge für die Lehre bauen](https://virtuelleakademie.github.io/ki-lehre-advanced/).
 :::
 
 {{< bi lightbulb >}} [Illustrierte Beispiele: Agents für verschiedene Lernstrategien](../../resources/agent-beispiele/)
