@@ -99,7 +99,7 @@ Jetzt stell dir vor, dieselbe Anleitung geht an Studierende im ersten Semester.
 ::: {.callout-tip}
 ### Meta-Moment
 
-Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die kollegiale Kurzberatung in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse (Abruf, Schemabildung, Elaboration) aktiv sind.
+Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach erleben: Die Abrufpraxis nach der Pause fühlt sich anstrengend an, die Peer-Diagnose in Teil 3 wendet dasselbe Framework auf einen neuen Aufgabentyp an (Interleaving). Wenn es sich schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse (Abruf, Schemabildung, Elaboration) aktiv sind.
 :::
 
 ::: {.active-processing}

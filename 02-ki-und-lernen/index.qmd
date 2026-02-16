@@ -178,7 +178,7 @@ Bevor wir weitergehen, notiere in Stichworten:
 Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr:
 
 - Eine **konkrete Analyse** eurer eigenen Aufgabe
-- **Kollegiales Feedback** auf euer Redesign
+- Eine **Peer-Diagnose** eures Redesigns
 - Einen **1-Satz-Redesign-Plan**, den ihr sofort umsetzen könnt
 :::
 

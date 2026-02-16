@@ -287,7 +287,7 @@ Die Prinzipien auf dieser Seite bilden die kognitive Grundlage für:
 
 - Das **5-Fragen-Framework** (→ [Teil 3](../../03-praxis/5-fragen-framework/)): Frage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt
 - Die **Offloading-vs.-Outsourcing-Unterscheidung** (→ [Teil 2](../../02-ki-und-lernen/)): Offloading reduziert extrinsische Last; Outsourcing eliminiert germane processing
-- Die **Kollegiale Kurzberatung** (→ [Teil 3](../../03-praxis/)): Die Analyse einer zweiten Aufgabe auf Papier ist bewusst analog gestaltet, um extrinsische Last zu reduzieren
+- Die **Peer-Diagnose** (→ [Teil 3](../../03-praxis/)): Die Analyse einer zweiten Aufgabe auf Papier ist bewusst analog gestaltet, um extrinsische Last zu reduzieren
 
 Das Arbeitsgedächtnis erklärt, *warum* die Gestaltungsprinzipien funktionieren.
 :::
