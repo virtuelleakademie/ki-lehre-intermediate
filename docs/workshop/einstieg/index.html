@@ -82,26 +82,15 @@ ul.task-list li input[type="checkbox"] {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-individual.callout {
+  border-left-color: #0072B2;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 div.callout-group.callout {
@@ -115,6 +104,28 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
@@ -124,17 +135,6 @@ div.callout-nachlesen.callout-style-default > .callout-header {
 div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
   content: '📖';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -148,15 +148,15 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -170,15 +170,15 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '💭';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: #0072B2;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 </style>
@@ -233,6 +233,10 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li>
     <a class="dropdown-item" href="../../resources/handout-make-it-stick/index.html">
  <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../03-praxis/agent-template/index.html">
+ <span class="dropdown-text">Agent-Template (Analyse &amp; Anpassung)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/agent-beispiele/index.html">
@@ -290,7 +294,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../vorbereitung/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vorbereitung (ca. 30 Min.)</span></a>
+ <span class="menu-text">Vorbereitung (ca. 20 Min.)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -319,8 +323,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-<li><a href="#kurze-vorstellungsrunde-5-min" id="toc-kurze-vorstellungsrunde-5-min" class="nav-link active" data-scroll-target="#kurze-vorstellungsrunde-5-min">Kurze Vorstellungsrunde (5 Min)</a></li>
-  <li><a href="#generierungsaktivit%C3%A4t-5-min" id="toc-generierungsaktivität-5-min" class="nav-link" data-scroll-target="#generierungsaktivit%C3%A4t-5-min">Generierungsaktivität (5 Min)</a></li>
+<li><a href="#generierungsaktivit%C3%A4t-5-min" id="toc-generierungsaktivität-5-min" class="nav-link active" data-scroll-target="#generierungsaktivit%C3%A4t-5-min">Generierungsaktivität (5 Min)</a></li>
   <li>
 <a href="#rahmen-f%C3%BCr-heute" id="toc-rahmen-für-heute" class="nav-link" data-scroll-target="#rahmen-f%C3%BCr-heute">Rahmen für heute</a>
   <ul class="collapse">
@@ -346,15 +349,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   
 
 
-</header><section id="kurze-vorstellungsrunde-5-min" class="level2"><h2 class="anchored" data-anchor-id="kurze-vorstellungsrunde-5-min">Kurze Vorstellungsrunde (5 Min)</h2>
-<p><strong>Stelle dich kurz vor:</strong></p>
-<ol type="1">
-<li><strong>Name &amp; Institut</strong></li>
-<li>
-<strong>KI-Erfahrung</strong> (Skala 0-10)</li>
-<li>
-<strong>Aufgaben/Prüfungen</strong>, die du heute mitgebracht hast</li>
-</ol></section><section id="generierungsaktivität-5-min" class="level2"><h2 class="anchored" data-anchor-id="generierungsaktivität-5-min">Generierungsaktivität (5 Min)</h2>
+</header><section id="generierungsaktivität-5-min" class="level2"><h2 class="anchored" data-anchor-id="generierungsaktivität-5-min">Generierungsaktivität (5 Min)</h2>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -388,12 +383,12 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li>
 <strong>Teil 2</strong>: Was das für KI bedeutet, wann KI hilft und wann sie schadet</li>
 <li>
-<strong>Teil 3</strong>: Vom Wissen zum Handeln, eure eigenen Aufgaben analysieren und einen Agent gestalten</li>
+<strong>Teil 3</strong>: Vom Wissen zum Handeln, eure eigene Aufgabe analysieren und gegenseitig diagnostizieren</li>
 </ul>
 <section id="was-ihr-mitgebracht-habt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-mitgebracht-habt">Was ihr mitgebracht habt</h3>
 <ul>
 <li>
-<strong>Zwei eigene Aufgaben oder Prüfungen</strong> (aus der Vorbereitung), möglichst unterschiedliche Typen</li>
+<strong>Eine eigene Aufgabe oder Prüfung</strong> (aus der Vorbereitung)</li>
 <li>
 <strong>Fragen und Erfahrungen</strong> aus eurer Lehre</li>
 </ul></section><section id="was-ihr-heute-lernt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-heute-lernt">Was ihr heute lernt</h3>

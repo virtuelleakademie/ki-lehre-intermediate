@@ -2,15 +2,6 @@
 title: Aktivierender Einstieg
 ---
 
-## Kurze Vorstellungsrunde (5 Min)
-
-**Stelle dich kurz vor:**
-
-1. **Name & Institut**
-2. **KI-Erfahrung** (Skala 0-10)
-3. **Aufgaben/Prüfungen**, die du heute mitgebracht hast
-
-
 ## Generierungsaktivität (5 Min)
 
 ::: {.active-processing}
@@ -36,11 +27,11 @@ Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende
 
 - **Teil 1**: Wie Lernen funktioniert, die kognitive Architektur
 - **Teil 2**: Was das für KI bedeutet, wann KI hilft und wann sie schadet
-- **Teil 3**: Vom Wissen zum Handeln, eure eigenen Aufgaben analysieren und einen Agent gestalten
+- **Teil 3**: Vom Wissen zum Handeln, eure eigene Aufgabe analysieren und gegenseitig diagnostizieren
 
 ### Was ihr mitgebracht habt
 
-- **Zwei eigene Aufgaben oder Prüfungen** (aus der Vorbereitung), möglichst unterschiedliche Typen
+- **Eine eigene Aufgabe oder Prüfung** (aus der Vorbereitung)
 - **Fragen und Erfahrungen** aus eurer Lehre
 
 ### Was ihr heute lernt
