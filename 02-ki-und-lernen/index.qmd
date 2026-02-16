@@ -47,6 +47,28 @@ Wer outsourct, hat auf Frage 2 keine Antwort: Es gab keine spezifischen Erwartun
 Wähle eine der 3 Fragen. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
 :::
 
+::: {.active-processing}
+### Das Evaluationsparadox erleben (2 Min)
+
+Du siehst gleich einen kurzen, gut formulierten Absatz zu einem Fachthema *ausserhalb* deines Fachgebiets. Ein Satz darin ist sachlich falsch.
+
+**Aufgabe:** Finde den Fehler.
+
+Dann siehst du einen ähnlichen Absatz *innerhalb* deines Fachgebiets, ebenfalls mit einem Fehler.
+
+**Die Pointe**: Im fremden Fach fehlen dir die Schemas, um Plausibles von Falschem zu unterscheiden. Im eigenen Fach springt der Fehler ins Auge. Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
+:::
+
+::: {.active-processing}
+### Vorhersage vor der Analyse (1 Min)
+
+Gleich analysieren wir gemeinsam eine typische Aufgabe ("Annotierte Bibliografie"). Bevor wir starten:
+
+**Schreibe in einem Satz auf:** Was passiert, wenn ein Studierender den Aufgabentext direkt als Prompt an ein LLM gibt? Was liefert die KI, und was fehlt?
+
+*Halte deine Vorhersage fest. Wir kommen darauf zurück.*
+:::
+
 
 ## Worked Example: Das Framework in Aktion
 
@@ -128,6 +150,16 @@ Drei Erkenntnisse für die eigene Praxis:
 3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Dieses Prinzip ist theoretisch gut fundiert durch die Forschung zu Abrufeffekten und Vorhersagefehlern, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
 {{< include ../resources/figures/fig-try-then-check.qmd >}}
+
+::: {.active-processing}
+### Rückkehr zur Vorhersage (1 Min)
+
+Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender den Aufgabentext als Prompt eingibt?
+
+**Vergleiche:** Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?
+
+*Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist **Prediction Error Learning** in Aktion, und genau das Prinzip hinter "Versuch-dann-Prüfe".*
+:::
 
 ::: {.active-processing}
 ### Gedächtnis-Aktivierung (1 Min)
