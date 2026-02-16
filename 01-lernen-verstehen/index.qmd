@@ -242,6 +242,8 @@ Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lerne
 3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
 4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
 
+{{< include ../resources/figures/fig-testing-effect.qmd >}}
+
 #### Die metakognitive Falle
 
 > Was sich wie Lernen *anfühlt*, ist oft keines. Was sich *schwierig anfühlt*, produziert oft das beste Lernen.

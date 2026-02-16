@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Aktivierender Einstieg – KI in der Lehre: Intermediate</title>
+
+
+<title>fig-primaer-sekundaer – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
+
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
@@ -26,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../workshop/diskussion/index.html" rel="next">
-<link href="../../workshop/index.html" rel="prev">
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -45,7 +47,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -70,71 +73,34 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
   }
-}</script><style>html{ scroll-behavior: smooth; }</style>
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
 <script type="application/json" class="js-hypothesis-config">
 {
   "theme": "clean"
 }
-</script><script async="" src="https://hypothes.is/embed.js"></script><script>
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-<script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
+</script>
+<link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/viz-1.8.2/viz.js"></script>
+<link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
+<style>
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -159,17 +125,6 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
 div.callout-group.callout {
   border-left-color: #7c3aed;
 }
@@ -181,15 +136,74 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 </style>
-<meta property="og:title" content="Aktivierender Einstieg – KI in der Lehre: Intermediate">
-<meta property="og:description" content="">
+
+
+<meta property="og:title" content="KI in der Lehre: Intermediate">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
-<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
@@ -201,8 +215,8 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
-    <a class="nav-link active" href="../../workshop/index.html" aria-current="page"> <i class="bi bi-card-list" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../../workshop/index.html"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
@@ -222,15 +236,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item dropdown ">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-book" role="img">
 </i> 
  <span class="menu-text">Dokumente</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">
-<li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
+        <li>
     <a class="dropdown-item" href="../../resources/handout-make-it-stick/index.html">
  <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
   </li>  
@@ -260,152 +274,39 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
   </li>  
     </ul>
-</li>
+  </li>
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://virtuelleakademie.ch/knowledge-base/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/einstieg/index.html">Aktivierender Einstieg</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Suchen"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../vorbereitung/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vorbereitung (ca. 30 Min.)</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ablauf</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/einstieg/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Aktivierender Einstieg</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../workshop/diskussion/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Transfer &amp; Abschluss</span></a>
-  </div>
-</li>
-    </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-<li><a href="#kurze-vorstellungsrunde-5-min" id="toc-kurze-vorstellungsrunde-5-min" class="nav-link active" data-scroll-target="#kurze-vorstellungsrunde-5-min">Kurze Vorstellungsrunde (5 Min)</a></li>
-  <li><a href="#generierungsaktivit%C3%A4t-5-min" id="toc-generierungsaktivität-5-min" class="nav-link" data-scroll-target="#generierungsaktivit%C3%A4t-5-min">Generierungsaktivität (5 Min)</a></li>
-  <li>
-<a href="#rahmen-f%C3%BCr-heute" id="toc-rahmen-für-heute" class="nav-link" data-scroll-target="#rahmen-f%C3%BCr-heute">Rahmen für heute</a>
-  <ul class="collapse">
-<li><a href="#was-ihr-mitgebracht-habt" id="toc-was-ihr-mitgebracht-habt" class="nav-link" data-scroll-target="#was-ihr-mitgebracht-habt">Was ihr mitgebracht habt</a></li>
-  <li><a href="#was-ihr-heute-lernt" id="toc-was-ihr-heute-lernt" class="nav-link" data-scroll-target="#was-ihr-heute-lernt">Was ihr heute lernt</a></li>
-  </ul>
-</li>
-  </ul></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Aktivierender Einstieg</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header><section id="kurze-vorstellungsrunde-5-min" class="level2"><h2 class="anchored" data-anchor-id="kurze-vorstellungsrunde-5-min">Kurze Vorstellungsrunde (5 Min)</h2>
-<p><strong>Stelle dich kurz vor:</strong></p>
-<ol type="1">
-<li><strong>Name &amp; Institut</strong></li>
-<li>
-<strong>KI-Erfahrung</strong> (Skala 0-10)</li>
-<li>
-<strong>Aufgaben/Prüfungen</strong>, die du heute mitgebracht hast</li>
-</ol></section><section id="generierungsaktivität-5-min" class="level2"><h2 class="anchored" data-anchor-id="generierungsaktivität-5-min">Generierungsaktivität (5 Min)</h2>
-<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Was macht Lernen effektiv?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Schreibe 3 Vorhersagen auf:</strong></p>
-<blockquote class="blockquote">
-<p><em>Was sind deiner Erfahrung nach die wichtigsten Faktoren für effektives Lernen?</em></p>
-</blockquote>
-<p>Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende des Workshops darauf zurück.</p>
-<p><em>Diese Übung nutzt den <strong>Generierungseffekt</strong>: Eigene Vorhersagen zu formulieren, bevor man Neues lernt, verankert das Folgende besser im Gedächtnis.</em></p>
-</div>
-</div>
-</section><section id="rahmen-für-heute" class="level2"><h2 class="anchored" data-anchor-id="rahmen-für-heute">Rahmen für heute</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-334ea1c5bd146e67239b" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-334ea1c5bd146e67239b">{"x":{"diagram":"\ndigraph workshop_flow {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.9\n    margin = \"0.2,0.1\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 9\n    color = \"#b0b0b0\"\n    arrowsize = 0.7\n  ]\n\n  einstieg [\n    label = \"Einstieg\n10 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  teil1 [\n    label = \"Teil 1\nLernen verstehen\n\nKognitive Architektur\nSchemas & Expertise\n\n50 min\"\n    fillcolor = \"#0072B2\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  pause [\n    label = \"Pause\n15 min\"\n    fillcolor = \"#e5e7eb\"\n    fontcolor = \"#64748b\"\n    fontsize = 10\n    margin = \"0.15,0.12\"\n    style = \"filled\"\n    shape = ellipse\n  ]\n\n  teil2 [\n    label = \"Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n\n30 min\"\n    fillcolor = \"#E69F00\"\n    fontcolor = \"#222222\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  teil3 [\n    label = \"Teil 3\nPraxis\n\n5-Fragen-Framework\nPeer-Diagnose\n\n55 min\"\n    fillcolor = \"#9A4665\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  abschluss [\n    label = \"Abschluss\n15 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  einstieg -> teil1\n  teil1 -> pause\n  pause -> teil2 [label = \"  Abrufpraxis  \"]\n  teil2 -> teil3\n  teil3 -> abschluss\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-a614b9357ccfe2cbd17b" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-a614b9357ccfe2cbd17b">{"x":{"diagram":"\ndigraph primaer_sekundaer {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 0.9\n    label = \"Biologisch primäres vs. sekundäres Wissen\nWarum Schulen existieren: Sekundäres Wissen erfordert bewusste Instruktion\"\n    labelloc = t\n    fontsize = 14\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  origin [\n    label = \"Menschliche Fähigkeiten\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  primary [\n    label = \"Biologisch primär\"\n    fillcolor = \"#0072B2\"\n    fontsize = 13\n  ]\n\n  secondary [\n    label = \"Biologisch sekundär\"\n    fillcolor = \"#D55E00\"\n    fontsize = 13\n  ]\n\n  p_examples [\n    label = \"Sprechen\nGesichtserkennung\nSoziale Interaktion\"\n    fillcolor = \"#56B4E9\"\n    fontsize = 11\n  ]\n\n  s_examples [\n    label = \"Lesen & Schreiben\nMathematik\nProgrammieren\"\n    fillcolor = \"#E69F00\"\n    fontcolor = \"#222222\"\n    fontsize = 11\n  ]\n\n  p_how [\n    label = \"Entwickelt sich\nnaturlich\"\n    fillcolor = \"#dce8f5\"\n    fontcolor = \"#0072B2\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  s_how [\n    label = \"Erfordert bewusste\nInstruktion & Übung\"\n    fillcolor = \"#fde8d8\"\n    fontcolor = \"#D55E00\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  barrier [\n    label = \"⚠ Kein Selbstläufer\nKI-Outsourcing umgeht\ndiesen notwendigen Prozess\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  origin -> primary [label = \"  Evolution  \" color = \"#0072B2\"]\n  origin -> secondary [label = \"  Kultur  \" color = \"#D55E00\"]\n\n  primary -> p_examples [color = \"#0072B2\"]\n  secondary -> s_examples [color = \"#D55E00\"]\n\n  primary -> p_how [color = \"#0072B2\" style = dashed]\n  secondary -> s_how [color = \"#D55E00\" style = dashed]\n\n  s_how -> barrier [color = \"#9A4665\" style = dashed]\n\n  {rank = same; primary; secondary}\n  {rank = same; p_examples; s_examples}\n  {rank = same; p_how; s_how}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<p><strong>Im Beginner-Workshop</strong> haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.</p>
-<p><strong>Heute verstehen wir warum:</strong></p>
-<ul>
-<li>
-<strong>Teil 1</strong>: Wie Lernen funktioniert, die kognitive Architektur</li>
-<li>
-<strong>Teil 2</strong>: Was das für KI bedeutet, wann KI hilft und wann sie schadet</li>
-<li>
-<strong>Teil 3</strong>: Vom Wissen zum Handeln, eure eigenen Aufgaben analysieren und einen Agent gestalten</li>
-</ul>
-<section id="was-ihr-mitgebracht-habt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-mitgebracht-habt">Was ihr mitgebracht habt</h3>
-<ul>
-<li>
-<strong>Zwei eigene Aufgaben oder Prüfungen</strong> (aus der Vorbereitung), möglichst unterschiedliche Typen</li>
-<li>
-<strong>Fragen und Erfahrungen</strong> aus eurer Lehre</li>
-</ul></section><section id="was-ihr-heute-lernt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-heute-lernt">Was ihr heute lernt</h3>
-<ul>
-<li>Welche kognitiven Prozesse Lernen erzeugen und warum sich das anstrengend anfühlt</li>
-<li>Wann KI-Nutzung <strong>Offloading</strong> (hilfreich) und wann <strong>Outsourcing</strong> (schädlich) ist</li>
-<li>Wie ihr eure Aufgaben mit dem <strong>5-Fragen-Framework</strong> analysieren könnt</li>
-<li>Wie ein Agent aussieht, der <strong>produktive Anstrengung fördert</strong> (Ressource für danach)</li>
-</ul>
 
 
-</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -811,18 +712,9 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
       }
     }
   });
-  </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="../../workshop/index.html" class="pagination-link" aria-label="Ablauf">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Ablauf</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../workshop/diskussion/index.html" class="pagination-link" aria-label="Transfer &amp; Abschluss">
-        <span class="nav-page-text">Transfer &amp; Abschluss</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
+  </script>
 </div> <!-- /content -->
+
 
 
 

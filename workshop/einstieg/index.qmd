@@ -28,6 +28,8 @@ Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende
 
 ## Rahmen für heute
 
+{{< include ../../resources/figures/fig-workshop-flow.qmd >}}
+
 **Im Beginner-Workshop** haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.
 
 **Heute verstehen wir warum:**

@@ -1,0 +1,78 @@
+```{r}
+#| label: outsourcing-comparison
+#| echo: false
+#| fig-width: 10
+#| fig-height: 6
+source(here::here("resources/viz-setup.R"))
+
+load_data <- tibble(
+  scenario = factor(
+    c(
+      rep("Gutes Design\n(ohne KI)", 3),
+      rep("KI-Outsourcing", 3)
+    ),
+    levels = c("Gutes Design\n(ohne KI)", "KI-Outsourcing")
+  ),
+  load_type = factor(
+    rep(c("Extrinsische Last", "Intrinsische Last", "Lernrelevante\nVerarbeitung"), 2),
+    levels = c("Lernrelevante\nVerarbeitung", "Intrinsische Last", "Extrinsische Last")
+  ),
+  value = c(
+    15, 35, 50,   # Gutes Design
+    5, 10, 0      # KI-Outsourcing
+  ),
+  fill_color = rep(c(color_neutral, color_attention, color_positive), 2)
+)
+
+# Add unused capacity for outsourcing
+unused <- tibble(
+  scenario = factor("KI-Outsourcing", levels = c("Gutes Design\n(ohne KI)", "KI-Outsourcing")),
+  load_type = factor("Ungenutzte Kapazität",
+    levels = c("Ungenutzte Kapazität", "Lernrelevante\nVerarbeitung", "Intrinsische Last", "Extrinsische Last")),
+  value = 85,
+  fill_color = "#e5e7eb"
+)
+
+load_data <- load_data |>
+  mutate(load_type = factor(load_type,
+    levels = c("Ungenutzte Kapazität", "Lernrelevante\nVerarbeitung", "Intrinsische Last", "Extrinsische Last")))
+
+all_data <- bind_rows(load_data, unused)
+
+fill_colors <- c(
+  "Extrinsische Last" = color_neutral,
+  "Intrinsische Last" = color_attention,
+  "Lernrelevante\nVerarbeitung" = color_positive,
+  "Ungenutzte Kapazität" = "#e5e7eb"
+)
+
+ggplot(all_data, aes(x = scenario, y = value, fill = load_type)) +
+  geom_col(width = 0.6, color = brand_dark, linewidth = 0.3) +
+  geom_hline(yintercept = 100, linetype = "dashed", color = brand_dark, linewidth = 0.4) +
+  annotate("text", x = 2.4, y = 100, label = "Arbeitsgedächtnis-Kapazität",
+           hjust = 1, vjust = -0.5, size = 3.2, color = color_neutral, fontface = "italic") +
+  scale_fill_manual(
+    values = fill_colors,
+    name = NULL,
+    guide = guide_legend(reverse = TRUE)
+  ) +
+  scale_y_continuous(
+    limits = c(0, 110),
+    breaks = seq(0, 100, 25),
+    labels = paste0(seq(0, 100, 25), "%"),
+    expand = expansion(mult = c(0, 0.02))
+  ) +
+  labs(
+    title = "Was KI-Outsourcing mit der kognitiven Belastung macht",
+    subtitle = "Outsourcing eliminiert die lernrelevante Verarbeitung, statt nur die extrinsische Last zu reduzieren",
+    x = NULL,
+    y = "Anteil der Arbeitsgedächtnis-Kapazität"
+  ) +
+  theme_workshop() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    axis.text.x = element_text(size = 12, face = "bold", lineheight = 1.1),
+    legend.position = "bottom",
+    legend.text = element_text(size = 10)
+  )
+```

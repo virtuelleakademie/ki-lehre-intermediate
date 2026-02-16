@@ -53,6 +53,11 @@ Lernrelevante Verarbeitung: **eliminiert**
 
 
 
+## Das Offloading-Outsourcing-Spektrum
+
+{{< include ../../resources/figures/fig-offloading-spectrum.qmd >}}
+
+
 ## Die Frage ist nicht... {.center}
 
 . . .
@@ -93,6 +98,11 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 :::
 
 
+## Das Evaluationsparadox: Der Kreislauf
+
+{{< include ../../resources/figures/fig-evaluation-paradox.qmd >}}
+
+
 ## Lernen ≠ Leisten {.smaller}
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für **Transfer** auf neue Situationen.
@@ -121,6 +131,11 @@ Die richtige Frage ist nicht:
 Sondern:
 
 **"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
+
+
+## Den Strand gestalten, nicht die Ameise
+
+{{< include ../../resources/figures/fig-beach-ant.qmd >}}
 
 
 ## Die Equity-Dimension {.smaller}
@@ -173,6 +188,11 @@ KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **
 :::
 
 
+## Das 5-Fragen-Framework: Übersicht
+
+{{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
+
+
 ## Die goldene Regel {.center}
 
 ### Versuch → dann → Prüfe
@@ -183,6 +203,11 @@ KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **
 :::{.fragment}
 Die Reihenfolge bewahrt die **aktive Schemabildung** und ermöglicht Lernen aus Vorhersagefehlern.
 :::
+
+
+## Versuch → dann → Prüfe
+
+{{< include ../../resources/figures/fig-try-then-check.qmd >}}
 
 
 ## Jetzt seid ihr dran {.center}
