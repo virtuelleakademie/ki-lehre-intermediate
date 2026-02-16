@@ -3,9 +3,7 @@ title: "Agent-Beispiele: Lernstrategien illustriert"
 subtitle: "Konzeptillustrationen, keine fertigen Werkzeuge"
 ---
 
-## Was ist ein "Agent"?
-
-Mit "Agent" meinen wir einen Chatbot, der mit einem **System-Prompt** so konfiguriert wurde, dass er sich auf eine bestimmte Weise verhält, z.B. als Reflexions-Coach, der nur Fragen stellt. In Copilot lassen sich solche Agents direkt erstellen. Die pädagogische Analyse, wann ein Agent Sinn ergibt und wann nicht, findest du auf der Seite [Agent-Template: Analyse & Anpassung](../../03-praxis/agent-template/).
+Was mit "Agent" gemeint ist und wann ein Agent pädagogisch Sinn ergibt, findest du auf der Seite [Agent-Template: Analyse & Anpassung](../../03-praxis/agent-template/).
 
 ## Wie diese Beispiele nutzen
 
@@ -71,7 +69,7 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 3. **Reflektieren**: Wo wich die eigene Logik ab? Flüchtigkeitsfehler oder Konzeptfehler?
 4. **Selbsteinschätzung**: Eigenes Verständnis bewerten, bevor das nächste Feedback kommt
 
-**Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Vorhersagefehler-Zyklus.
+**Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Generierungseffekt: Lernende aktivieren erst ihr eigenes Wissen, dann vergleichen und erklären sie die Diskrepanz.
 
 
 ## 2. Abwechslung (Interleaving)

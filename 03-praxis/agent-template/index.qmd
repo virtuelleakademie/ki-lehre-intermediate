@@ -81,6 +81,8 @@ Evaluiere das Template mit dieser Checkliste:
 - [ ] Wo gibt der Agent **zu viel** preis?
 - [ ] Wo gibt der Agent **zu wenig** Orientierung?
 
+*Beispiel zu "zu viel preisgeben": Die Frage "Gibt es Ausreisser oder Schiefe in den Daten?" lenkt die Aufmerksamkeit direkt auf das entscheidende Kriterium für die Wahl des Streuungsmasses. Der Agent signalisiert damit, worauf es ankommt, statt die Studierenden das selbst herausfinden zu lassen. Ist das in diesem Kontext gewollt, oder gibt der Agent hier zu viel preis? Suche nach weiteren solchen Stellen.*
+
 ### Phase 2: Pädagogisch bewerten (5 Min)
 
 Wähle **eine** der folgenden Optionen:
@@ -106,13 +108,21 @@ Beschreibe die Lücke und erkläre, warum sie pädagogisch problematisch ist. Du
 
 ## Option C: Welche Lernstrategie fehlt?
 
-Schau dir die [8 Make-it-Stick-Strategien](../../resources/handout-make-it-stick/) an:
+Der Statistik-Coach nutzt vor allem **Abrufpraxis** und **Feedback**. Welche weitere Strategie würde das Design stärken? Hier sind vier Kandidaten:
 
-- Welche Strategie würde das Agent-Design pädagogisch stärken, und warum?
+| Strategie | Kernidee |
+|-----------|----------|
+| **Abwechslung (Interleaving)** | Verschiedene Aufgabentypen mischen statt blockweise üben |
+| **Variation** | Gleiche Konzepte in unterschiedlichen Kontexten anwenden |
+| **Wünschenswerte Schwierigkeiten** | Anstrengung und Fehler als Lernhilfe nutzen |
+| **Verstehen vs. Vertrautheit** | In eigenen Worten erklären statt nur wiedererkennen |
+
+Wähle eine Strategie und beantworte:
+
 - Wie müsste sich das *Verhalten* des Agents ändern, um diese Strategie zu unterstützen?
 - Bleibt die Versuch-dann-Prüfe-Struktur dabei erhalten?
 
-Beschreibe die pädagogische Logik. Die technische Umsetzung im Prompt ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
+Beschreibe die pädagogische Logik. Die technische Umsetzung im Prompt ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/). Alle 8 Strategien im Detail: [Make-it-Stick-Handout](../../resources/handout-make-it-stick/).
 :::
 
 
@@ -122,13 +132,13 @@ Gute Agents für Lernen:
 
 1. **Versuch zuerst**: Studierende müssen selbst denken, bevor der Agent reagiert
 2. **Fragen statt Antworten**: Der Agent provoziert Nachdenken
-3. **Prozess über Produkt**: Fördert *wie* Studierende denken, nicht nur *was* sie produzieren
+3. **Prozess über Produkt**: Fördert *wie* Studierende denken, nicht nur *was* sie produzieren (besonders wichtig in der Aufbauphase; bei fortgeschrittenen Studierenden kann übermässige Prozessreflexion auch kontraproduktiv sein)
 4. **Explizite Signale**: Lenkt Aufmerksamkeit auf lernrelevante Merkmale
 
 ::: {.callout-warning}
 ### "Fragen statt Antworten" hat eine Grenze
 
-Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Frage 2 des 5-Fragen-Frameworks) kann ein rein fragenbasierter Agent die extrinsische kognitive Belastung *erhöhen* statt produktives Nachdenken auszulösen: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.
+Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Frage 2 des 5-Fragen-Frameworks) kann ein rein fragenbasierter Agent die kognitive Belastung erhöhen, ohne dass produktives Nachdenken entsteht: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.
 
 Cognitive Load Theory legt einen anderen Weg nahe: Für echte Anfänger ist **direkte Instruktion** wirksamer, z.B. ein ausgearbeitetes Beispiel mit Selbsterklärungs-Prompts oder ein teilweise gelöstes Problem zum Vervollständigen. Erst mit wachsender Kompetenz wird ein fragenbasierter Agent zum produktiven Werkzeug. Die VERBOTEN-Regeln im Template oben setzen Studierende voraus, die bereits über Grundlagenwissen verfügen.
 :::
@@ -142,7 +152,7 @@ Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden S
 
 **Wenn Studierende in der Grundlagenphase sind.** Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Frage 2 des 5-Fragen-Frameworks), können den Agent-Output nicht nur nicht *bewerten*, sie profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.
 
-**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.
+**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt (zusätzliche kognitive Belastung ohne Lerngewinn), ohne den Lernprozess zu verbessern.
 
 ::: {.callout-note}
 ### Aber: Ein Agent *für* Worked Examples?
