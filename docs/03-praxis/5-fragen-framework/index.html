@@ -17,7 +17,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -104,37 +124,15 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-reflect.callout {
+div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
-div.callout-reflect.callout-style-default > .callout-header {
+div.callout-nachlesen.callout-style-default > .callout-header {
   background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
   background-image: none;
 }
 div.callout-group.callout {
@@ -148,6 +146,17 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 div.callout-pro-tip.callout {
   border-left-color: gold;
 }
@@ -159,6 +168,28 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -168,17 +199,6 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
   background-image: none;
 }
 </style>
@@ -233,6 +253,10 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <li>
     <a class="dropdown-item" href="../../resources/handout-make-it-stick/index.html">
  <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../03-praxis/agent-template/index.html">
+ <span class="dropdown-text">Agent-Template (Analyse &amp; Anpassung)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/agent-beispiele/index.html">
@@ -303,6 +327,12 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   <div class="sidebar-item-container"> 
   <a href="../../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/agent-template/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Agent-Template: Analyse &amp; Anpassung</span></a>
   </div>
 </li>
     </ul>
@@ -418,7 +448,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <em>Dann</em> wird mit KI verglichen, geprüft oder erweitert</li>
 </ol>
 <blockquote class="blockquote">
-<p><strong>Wenn ja</strong>: KI für die Prüfphase nutzen. Die Reihenfolge “Versuch → Prüfung” bewahrt die aktive Verarbeitung: Studierende aktivieren ihr internes Modell, bilden Vorhersagen und können aus der Diskrepanz zum KI-Output lernen.</p>
+<p><strong>Wenn ja</strong>: KI für die Prüfphase nutzen. Die Reihenfolge “Versuch → Prüfung” bewahrt die aktive Verarbeitung: Der eigene Versuch aktiviert den Generierungseffekt (internes Wissen wird abgerufen und organisiert), und der anschliessende Vergleich erzeugt Selbsterklärung (Studierende müssen Unterschiede identifizieren und einordnen).</p>
 </blockquote>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -433,6 +463,43 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <p>In der Prüfphase brauchen Studierende <strong>explizite Hinweise, worauf sie achten sollen</strong>. Ohne Signale vergleichen sie Oberflächenmerkmale (Länge, Stil, Vokabular) statt der lernrelevanten Strukturen (Argumentationslogik, Annahmen, Kausalität).</p>
 <p><strong>Statt:</strong> “Vergleiche deinen Text mit dem KI-Text” <strong>Besser:</strong> “Vergleiche die <em>kausale Argumentationskette</em> deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?”</p>
 <p>Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig; mit ihm wird der Vergleich zum gezielten Lernmoment.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warnung</span>Wann Versuch-dann-Prüfe nicht funktioniert
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.</strong> Versuch-dann-Prüfe setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Frage 2 des Frameworks), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen <span class="citation" data-cites="swellerCognitiveLoadTheory2024">(<a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>. Hier liegt auch eine Chance für KI: Ein Agent, der <strong>ausgearbeitete Beispiele generiert</strong> (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des <a href="https://virtuelleakademie.github.io/ki-lehre-advanced/">Advanced Workshops</a>.</p>
+<p><strong>Wenn die Qualität des Versuchs nicht gesichert ist.</strong> Der Mechanismus funktioniert nur, wenn der Versuch echte kognitive Anstrengung erfordert. Ein oberflächlicher “erster Versuch”, der die formale Anforderung erfüllt, ohne dass Studierende tatsächlich nachdenken, verfehlt den Zweck. Gestalte die Versuch-Phase so, dass das Denken sichtbar wird: handschriftlich, zeitbegrenzt, mit Prozessdokumentation, oder mündlich.</p>
+<p><strong>Wenn die Referenz in der Prüfe-Phase nicht verlässlich ist.</strong> Versuch-dann-Prüfe setzt voraus, dass der Vergleichsmassstab korrekt ist. Eine Musterlösung erfüllt das. KI-Output tut es nicht immer: Sprachmodelle produzieren plausible, aber potenziell falsche Antworten. Wer die Fachkompetenz nicht hat, um den Fehler zu erkennen (Evaluationsparadox), kann aus einem fehlerhaften Vergleich das Falsche lernen. Für kritische Lerninhalte kann eine geprüfte Musterlösung die bessere Wahl sein.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tipp</span>Prüfe-Phase: Nicht alle Formate sind gleichwertig
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Verschiedene Prüfe-Formate stellen unterschiedliche kognitive Anforderungen:</p>
+<ul>
+<li>
+<strong>Musterlösung zum Selbstvergleich</strong>: Niedrigste Belastung. Studierende vergleichen fokussiert, brauchen aber explizite Hinweise, worauf sie achten sollen (siehe Praxistipp oben).</li>
+<li>
+<strong>Strukturiertes Peer-Feedback</strong>: Mittlere Belastung. Der soziale Austausch erzeugt zusätzliche Elaboration, erfordert aber Kommunikationskompetenz.</li>
+<li>
+<strong>KI-Agent, der Rückfragen stellt</strong>: Höchste Belastung. Studierende müssen <em>erneut</em> generieren (Antworten auf die Fragen), was für Fortgeschrittene produktiv ist, Anfänger aber überfordern kann.</li>
+</ul>
+<p>Wähle das Prüfe-Format passend zum Kompetenzniveau der Studierenden.</p>
 </div>
 </div>
 </section></section><section id="theoretische-fundierung" class="level2"><h2 class="anchored" data-anchor-id="theoretische-fundierung">Theoretische Fundierung</h2>
@@ -465,7 +532,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </tr>
 <tr class="odd">
 <td>5. Gibt es <strong>Versuch-dann-Prüfe</strong>?</td>
-<td>Vorhersagefehler &amp; Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback</td>
+<td>Generierungseffekt &amp; Selbsterklärung: Der eigene Versuch aktiviert interne Verarbeitung; der Vergleich erzeugt Selbsterklärung. Die Diskrepanz zwischen eigenem und externem Ergebnis kann zusätzlich als informativer Vergleich wirken</td>
 </tr>
 </tbody>
 </table></section><section id="teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre" class="level2"><h2 class="anchored" data-anchor-id="teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre">Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre</h2>
@@ -506,7 +573,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </tbody>
 </table>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -515,7 +582,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?</strong> Ja. “Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt” ist ein einfacher Prompt. ChatGPT liefert eine solide Analyse mit korrekter ökonomischer Logik.</p>
 <p><strong>Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</strong> Nein. Es gibt keine eingebaute Phase, in der Studierende zuerst selbst analysieren, bevor sie KI konsultieren.</p>
@@ -580,8 +647,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <tr class="even">
 <td><strong>Während</strong></td>
 <td>“Wo hat dich die KI überrascht, und warum?”</td>
-<td>War das interne Modell aktiv? (Vorhersagefehler)</td>
-<td>Prediction Error Learning, Evaluationsparadox</td>
+<td>War das interne Modell aktiv? (Selbsterklärung durch Vergleich)</td>
+<td>Generierungseffekt, Selbsterklärung, Evaluationsparadox</td>
 </tr>
 <tr class="odd">
 <td><strong>Nachher</strong></td>
@@ -647,8 +714,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </section></section><section id="zusammenfassung" class="level2"><h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-ad599fe06d446705ff11" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-ad599fe06d446705ff11">{"x":{"diagram":"\ndigraph five_questions_summary {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#0072B2\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#0072B2\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#0072B2\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#0072B2\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#0072B2\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#0072B2\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#0072B2\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#D55E00\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#D55E00\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"Aufgabe bereit ✓\\n(mit oder ohne KI)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 14\n  ]\n\n  noai [\n    label = \"Keine KI nötig ✓\\nAufgabe funktioniert bereits\"\n    fillcolor = \"#0072B2\"\n    fontsize = 12\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q4 -> noai [label = \"  Nein +\\n  bewahrt Anstrengung  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4; noai}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-1d2e86d61e0ced74952e" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-1d2e86d61e0ced74952e">{"x":{"diagram":"\ndigraph five_questions_summary {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 15\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 16\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#0072B2\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#0072B2\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#0072B2\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#0072B2\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#0072B2\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#0072B2\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#0072B2\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#D55E00\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#D55E00\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"Aufgabe bereit ✓\\n(mit oder ohne KI)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 16\n  ]\n\n  noai [\n    label = \"Keine KI nötig ✓\\nAufgabe funktioniert bereits\"\n    fillcolor = \"#0072B2\"\n    fontsize = 14\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q4 -> noai [label = \"  Nein +\\n  bewahrt Anstrengung  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4; noai}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="callout callout-style-simple callout-note callout-titled" title="Nicht jede Aufgabe braucht KI">
@@ -666,7 +733,12 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </div>
 
 
-</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+
+</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-swellerCognitiveLoadTheory2024" class="csl-entry" role="listitem">
+Sweller, John. 2024. <span>„Cognitive Load Theory and Individual Differences“</span>. <em>Learning and Individual Differences</em> 110 (Februar): 102423. <a href="https://doi.org/10.1016/j.lindif.2024.102423">https://doi.org/10.1016/j.lindif.2024.102423</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();

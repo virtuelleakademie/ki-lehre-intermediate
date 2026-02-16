@@ -62,7 +62,7 @@ Dieses Framework ist kein etabliertes Modell aus der Literatur, sondern eine Syn
 1. Studierende machen *zuerst* einen eigenen Versuch (Hypothese generieren, Lösung skizzieren, Argument formulieren)
 2. *Dann* wird mit KI verglichen, geprüft oder erweitert
 
-> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt die aktive Verarbeitung: Studierende aktivieren ihr internes Modell, bilden Vorhersagen und können aus der Diskrepanz zum KI-Output lernen.
+> **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt die aktive Verarbeitung: Der eigene Versuch aktiviert den Generierungseffekt (internes Wissen wird abgerufen und organisiert), und der anschliessende Vergleich erzeugt Selbsterklärung (Studierende müssen Unterschiede identifizieren und einordnen).
 
 ::: {.callout-tip}
 ## Praxistipp: Relevante Merkmale signalisieren
@@ -73,6 +73,28 @@ In der Prüfphase brauchen Studierende **explizite Hinweise, worauf sie achten s
 **Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
 
 Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig; mit ihm wird der Vergleich zum gezielten Lernmoment.
+:::
+
+::: {.callout-warning}
+### Wann Versuch-dann-Prüfe nicht funktioniert
+
+**Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.** Versuch-dann-Prüfe setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Frage 2 des Frameworks), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen [@swellerCognitiveLoadTheory2024]. Hier liegt auch eine Chance für KI: Ein Agent, der **ausgearbeitete Beispiele generiert** (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
+
+**Wenn die Qualität des Versuchs nicht gesichert ist.** Der Mechanismus funktioniert nur, wenn der Versuch echte kognitive Anstrengung erfordert. Ein oberflächlicher "erster Versuch", der die formale Anforderung erfüllt, ohne dass Studierende tatsächlich nachdenken, verfehlt den Zweck. Gestalte die Versuch-Phase so, dass das Denken sichtbar wird: handschriftlich, zeitbegrenzt, mit Prozessdokumentation, oder mündlich.
+
+**Wenn die Referenz in der Prüfe-Phase nicht verlässlich ist.** Versuch-dann-Prüfe setzt voraus, dass der Vergleichsmassstab korrekt ist. Eine Musterlösung erfüllt das. KI-Output tut es nicht immer: Sprachmodelle produzieren plausible, aber potenziell falsche Antworten. Wer die Fachkompetenz nicht hat, um den Fehler zu erkennen (Evaluationsparadox), kann aus einem fehlerhaften Vergleich das Falsche lernen. Für kritische Lerninhalte kann eine geprüfte Musterlösung die bessere Wahl sein.
+:::
+
+::: {.callout-tip}
+### Prüfe-Phase: Nicht alle Formate sind gleichwertig
+
+Verschiedene Prüfe-Formate stellen unterschiedliche kognitive Anforderungen:
+
+- **Musterlösung zum Selbstvergleich**: Niedrigste Belastung. Studierende vergleichen fokussiert, brauchen aber explizite Hinweise, worauf sie achten sollen (siehe Praxistipp oben).
+- **Strukturiertes Peer-Feedback**: Mittlere Belastung. Der soziale Austausch erzeugt zusätzliche Elaboration, erfordert aber Kommunikationskompetenz.
+- **KI-Agent, der Rückfragen stellt**: Höchste Belastung. Studierende müssen *erneut* generieren (Antworten auf die Fragen), was für Fortgeschrittene produktiv ist, Anfänger aber überfordern kann.
+
+Wähle das Prüfe-Format passend zum Kompetenzniveau der Studierenden.
 :::
 
 
@@ -86,7 +108,7 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | 2. Werden **Grundlagen** aufgebaut? | Novizen-Experten-Progression & Expertise Reversal Effect: Was Anfängern hilft, schadet Experten |
 | 3. Muss **internes Wissen** nachgewiesen werden? | Schemabildung & Langzeitgedächtnis, also Wissen muss intern aufgebaut, nicht extern geliefert werden |
 | 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess |
-| 5. Gibt es **Versuch-dann-Prüfe**? | Vorhersagefehler & Desirable Difficulties: Informative Fehler erzeugen durch eigenen Versuch vor KI-Feedback |
+| 5. Gibt es **Versuch-dann-Prüfe**? | Generierungseffekt & Selbsterklärung: Der eigene Versuch aktiviert interne Verarbeitung; der Vergleich erzeugt Selbsterklärung. Die Diskrepanz zwischen eigenem und externem Ergebnis kann zusätzlich als informativer Vergleich wirken |
 
 
 ## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
@@ -157,7 +179,7 @@ Die 5 Fragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach,
 | Zeitpunkt | Frage an Studierende | Was sie diagnostiziert | Theoretischer Anker |
 |-----------|---------------------|----------------------|---------------------|
 | **Vorher** | "Was hast du versucht, bevor du KI gefragt hast?" | Gab es einen eigenen Versuch? (Generation) | Generierungseffekt, Desirable Difficulties |
-| **Während** | "Wo hat dich die KI überrascht, und warum?" | War das interne Modell aktiv? (Vorhersagefehler) | Prediction Error Learning, Evaluationsparadox |
+| **Während** | "Wo hat dich die KI überrascht, und warum?" | War das interne Modell aktiv? (Selbsterklärung durch Vergleich) | Generierungseffekt, Selbsterklärung, Evaluationsparadox |
 | **Nachher** | "Was machst du nächstes Mal anders, ohne KI?" | Hat sich das Schema aktualisiert? (Transfer) | Wissenskompilation, Schemabildung |
 
 ### So klingen die Antworten

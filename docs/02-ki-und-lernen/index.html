@@ -101,6 +101,17 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -110,39 +121,6 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #7c3aed;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -156,26 +134,26 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: #059669;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-group.callout {
+  border-left-color: #7c3aed;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -189,6 +167,17 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -198,6 +187,17 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 </style>
@@ -612,7 +612,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <li>
 <strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe <strong>Elementinteraktivität</strong> hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Ohne die Schemata, die diese Komplexität organisieren, ist die intrinsische Last hoch. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden</li>
 <li>
-<strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet: <em>zuerst selbst denken, dann KI konsultieren</em>. Dieses Prinzip ist theoretisch gut fundiert durch die Forschung zu Abrufeffekten und Vorhersagefehlern, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
+<strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet: <em>zuerst selbst denken, dann KI konsultieren</em>. Der eigene Versuch aktiviert den <strong>Generierungseffekt</strong> (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt <strong>Selbsterklärung</strong> (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
 </ol>
 <div class="cell">
 <div class="cell-output-display">
@@ -636,7 +636,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <div class="callout-body-container callout-body">
 <p>Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender den Aufgabentext als Prompt eingibt?</p>
 <p><strong>Vergleiche:</strong> Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?</p>
-<p><em>Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist <strong>Prediction Error Learning</strong> in Aktion, und genau das Prinzip hinter “Versuch-dann-Prüfe”.</em></p>
+<p><em>Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der <strong>Generierungseffekt</strong> in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Genau das Prinzip hinter “Versuch-dann-Prüfe”.</em></p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
@@ -827,7 +827,7 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <p><strong>Konkrete Gegenmassnahmen:</strong></p>
 <ul>
 <li>
-<strong>Differenziertes Scaffolding in der Versuch-Phase</strong>: Studierende mit schwächerem Vorwissen erhalten strukturiertere Ausgangspunkte (z.B. teilweise bearbeitete Beispiele), damit der eigenständige Versuch produktiv bleibt statt überfordernd</li>
+<strong>Differenziertes Scaffolding in der Versuch-Phase</strong>: Versuch-dann-Prüfe setzt voraus, dass Studierende genug Vorwissen haben, um einen sinnvollen Versuch zu generieren. Für Studierende mit dem schwächsten Vorwissen kann es nötig sein, <em>vor</em> dem eigenen Versuch ein ausgearbeitetes Beispiel zu studieren (der <strong>Worked Example Effect</strong> aus der Cognitive Load Theory). Der nächste Schritt wäre dann ein teilweise bearbeitetes Problem zum Vervollständigen (Completion Problem), bevor der freie Versuch möglich wird. Diese Abstufung stellt sicher, dass die Versuch-Phase produktiv bleibt statt überfordernd</li>
 <li>
 <strong>Strategische Paarung in der Prüfe-Phase</strong>: Bewusste Zusammensetzung von Tandems, die unterschiedliche Stärken einbringen, damit die Vergleichsphase für alle informativ ist</li>
 <li>
