@@ -90,13 +90,13 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 ::::
 
 
-**Gleiche Hardware, unterschiedliche Software**
+## Gleiche Hardware, unterschiedliche Software {.smaller}
 
-| Dimension       | **Anfänger**                                                              | **Experten**                                                 |
-| --------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Sehen**       | Einzelne Teile                                                                | Bedeutungsvolle Muster                                |
-| **Verarbeiten** | Schritt-für-Schritt, deliberativ, bewusst | Automatische Prozeduren, intuitiv |
-| **Wissen**      | Isolierte Fakten, Bahnen im Aufbau                                 | Vernetzte Schemata, tausende Stunden geübt        |
+| Dimension       | **Anfänger**              | **Experten**                        |
+| --------------- | ------------------------- | ----------------------------------- |
+| **Sehen**       | Einzelne Teile            | Bedeutungsvolle Muster              |
+| **Verarbeiten** | Schritt-für-Schritt       | Automatische Prozeduren             |
+| **Wissen**      | Isolierte Fakten          | Vernetzte Schemata                  |
 
 
 ## Das Nadelöhr des Lernens {.smaller}
@@ -132,7 +132,7 @@ Wie Material präsentiert wird
 
 :::{.fragment}
 ::: {.callout-tip}
-**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.
+**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut.
 :::
 :::
 
@@ -168,10 +168,17 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 
 :::{.fragment}
 ::: {.callout-important}
-**Praktische Regel**: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.
-
-**Die KI-Falle**: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.
+**Praktische Regel**: Beginne mit hoher Unterstützung und reduziere sie graduell mit wachsender Expertise (Fading).
 :::
+:::
+
+
+## Die KI-Falle {.center}
+
+KI-Tools bieten **permanentes Scaffolding**, das nie abgebaut wird.
+
+:::{.fragment}
+Sie verletzen das Fading-Prinzip systematisch.
 :::
 
 
@@ -180,7 +187,7 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 {{< include ../../resources/figures/fig-expertise-reversal.qmd >}}
 
 
-## CLT und KI: Was passiert bei Outsourcing?
+## CLT und KI: Was passiert bei Outsourcing? {.smaller}
 
 **KI optimiert für Produktion statt Lernen**
 
@@ -212,39 +219,32 @@ Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 
 ## Warum Outsourcing Schemabildung verhindert
 
-Schemabildung erfordert **aktive Verarbeitung** interagierender Elemente im Arbeitsgedächtnis. Outsourcing eliminiert diese Verarbeitung.
+Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
 
-:::{.fragment}
-Das zeigt sich in drei Mechanismen:
-
-1. **Fehlende Modellaktivierung**: Ohne eigenen Versuch wird das interne Wissensmodell nicht aktiviert, und Feedback bleibt uninformativ
-2. **Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung im Langzeitgedächtnis
-3. **Prozedurale Entwicklung**: Ohne Übungszyklen keine Automatisierung
-:::
+1. **Keine Modellaktivierung**: Ohne eigenen Versuch bleibt Feedback uninformativ
+2. **Keine Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung
+3. **Keine Automatisierung**: Ohne Übungszyklen keine prozeduralen Fertigkeiten
 
 :::{.fragment}
 ::: {.callout-warning}
-Die kognitive Verarbeitung, die sich als Schwierigkeit anfühlt (Schemabildung, Abruf, Elaboration), ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
+Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
 :::
 :::
 
 
-## Wie Expertise entwickelt wird
+## Wie Expertise entwickelt wird {.smaller}
 
 **Von Fakten zu automatisierten Prozeduren** [@andersonAcquisitionCognitiveSkill1982]
 
 | Gedächtnissystem | Beschreibung | Beispiel |
 | ---------------- | ------------ | -------- |
-| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | "Um $3x + 5 = 20$ zu lösen, $5$ von beiden Seiten subtrahieren." |
-| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $3x + 5 = 20$ sehen → automatisch umstellen, ohne bewusst über die Schritte nachzudenken |
+| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | Regel kennen: "5 von beiden Seiten subtrahieren" |
+| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | Gleichung sehen → sofort umstellen |
 
 :::{.fragment}
-
 ### Der Weg zur Expertise
 
-**Deklarative Fakten** → Tausende Übungszyklen mit Feedback → **Prozedurale Automatismen**
-
-Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln
+**Deklarativ** → Übungszyklen mit Feedback → **Prozedural**
 :::
 
 
@@ -331,21 +331,13 @@ Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln
 
 ## Die gefährliche Umkehrung {.center}
 
-<br>
-
-**Unser metakognitives Urteil führt uns systematisch in die Irre:**
-
-Wir verwechseln Verarbeitungsflüssigkeit (wie leicht sich etwas anfühlt) mit Lernerfolg. Was sich mühelos anfühlt, fühlt sich wie Lernen an, ist es aber oft nicht.
+Wir verwechseln **Verarbeitungsflüssigkeit** (wie leicht sich etwas anfühlt) mit **Lernerfolg**.
 
 . . .
 
-<br>
-
-Produktive Anstrengung **fühlt sich schwierig an**. Unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) **signalisiert diese Schwierigkeit, dass lernrelevante Prozesse aktiv sind**: Schemabildung, Abruf, Elaboration.
+Produktive Anstrengung **fühlt sich schwierig an**, signalisiert aber, dass lernrelevante Prozesse aktiv sind.
 
 . . .
-
-<br>
 
 **Merksatz:** "The right kind of cognitive effort is not a bug---it's a signal that learning is happening."
 

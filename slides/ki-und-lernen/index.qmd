@@ -51,9 +51,6 @@ Lernrelevante Verarbeitung: **eliminiert**
 :::
 :::
 
-:::{.fragment}
-Akademische Fähigkeiten sind **biologisch sekundäres Wissen** (vgl. Teil 1). Solches Wissen erfordert aktive kognitive Verarbeitung: Abrufen, Elaborieren, Verknüpfen. Ohne diese Prozesse findet kein Erwerb statt.
-:::
 
 
 ## Die Frage ist nicht... {.center}
@@ -80,7 +77,7 @@ Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, di
 :::
 
 
-## Das Evaluationsparadox
+## Das Evaluationsparadox {.smaller}
 
 | | Expert:innen | Anfänger:innen |
 |---|---|---|
@@ -98,9 +95,7 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 
 ## Lernen ≠ Leisten {.smaller}
 
-Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben.
-
-Und: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf. Es fehlt auch die Grundlage für **Wissenstransfer** auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für **Transfer** auf neue Situationen.
 
 :::{.fragment}
 ### Schein-Kompetenz
@@ -186,7 +181,7 @@ KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **
 2. **Dann** wird mit KI verglichen, geprüft, oder erweitert
 
 :::{.fragment}
-Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende verarbeiten das Material im Arbeitsgedächtnis, bilden Vorhersagen und lernen aus Vorhersagefehlern.
+Die Reihenfolge bewahrt die **aktive Schemabildung** und ermöglicht Lernen aus Vorhersagefehlern.
 :::
 
 
