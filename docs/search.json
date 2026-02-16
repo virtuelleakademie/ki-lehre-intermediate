@@ -799,7 +799,7 @@
   {
     "objectID": "vorbereitung/index.html",
     "href": "vorbereitung/index.html",
-    "title": "Vorbereitung (ca. 20 Min.)",
+    "title": "Vorbereitung (ca. 30 Min.)",
     "section": "",
     "text": "Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.",
     "crumbs": [
@@ -1336,7 +1336,7 @@
     "href": "slides/ki-und-lernen/index.html#offloading-vs.-outsourcing",
     "title": "KI & Lernen",
     "section": "Offloading vs. Outsourcing",
-    "text": "Offloading vs. Outsourcing\nDie entscheidende Unterscheidung\n\n\nCognitive Offloading\nTool reduziert Arbeitsgedächtnis-Last, während die Person denkt\nBeispiel: Taschenrechner bei Problemlösung\nLernrelevante Verarbeitung: erhalten\n\n\nCognitive Outsourcing\nTool übernimmt das Denken\nBeispiel: KI schreibt den Aufsatz\nLernrelevante Verarbeitung: eliminiert\n\n\n\n\n\n\nOutsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.\n\n\n\n\n\nAkademische Fähigkeiten sind biologisch sekundäres Wissen (vgl. Teil 1). Solches Wissen erfordert aktive kognitive Verarbeitung: Abrufen, Elaborieren, Verknüpfen. Ohne diese Prozesse findet kein Erwerb statt."
+    "text": "Offloading vs. Outsourcing\nDie entscheidende Unterscheidung\n\n\nCognitive Offloading\nTool reduziert Arbeitsgedächtnis-Last, während die Person denkt\nBeispiel: Taschenrechner bei Problemlösung\nLernrelevante Verarbeitung: erhalten\n\n\nCognitive Outsourcing\nTool übernimmt das Denken\nBeispiel: KI schreibt den Aufsatz\nLernrelevante Verarbeitung: eliminiert\n\n\n\n\n\n\nOutsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#die-frage-ist-nicht",
@@ -1357,7 +1357,7 @@
     "href": "slides/ki-und-lernen/index.html#lernen-leisten",
     "title": "KI & Lernen",
     "section": "Lernen ≠ Leisten",
-    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben.\nUnd: Wer die Denkarbeit auslagert, baut nicht nur dieses Wissen nicht auf. Es fehlt auch die Grundlage für Wissenstransfer auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, was transferiert werden könnte.\n\nSchein-Kompetenz\nTexte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.\nTückischer als Plagiat, weil es Selbsttäuschung ist."
+    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für Transfer auf neue Situationen.\n\nSchein-Kompetenz\nTexte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.\nTückischer als Plagiat, weil es Selbsttäuschung ist."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#the-beach-not-the-ant",
@@ -1385,7 +1385,7 @@
     "href": "slides/ki-und-lernen/index.html#die-goldene-regel",
     "title": "KI & Lernen",
     "section": "Die goldene Regel",
-    "text": "Die goldene Regel\nVersuch → dann → Prüfe\n\nStudierende machen zuerst einen eigenen Versuch\nDann wird mit KI verglichen, geprüft, oder erweitert\n\n\nDie Reihenfolge bewahrt die aktive Schemabildung: Studierende verarbeiten das Material im Arbeitsgedächtnis, bilden Vorhersagen und lernen aus Vorhersagefehlern."
+    "text": "Die goldene Regel\nVersuch → dann → Prüfe\n\nStudierende machen zuerst einen eigenen Versuch\nDann wird mit KI verglichen, geprüft, oder erweitert\n\n\nDie Reihenfolge bewahrt die aktive Schemabildung und ermöglicht Lernen aus Vorhersagefehlern."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#jetzt-seid-ihr-dran",
@@ -1462,10 +1462,10 @@
     "href": "vorbereitung/index.html#schritt-1-zwei-aufgaben-auswählen-und-mitbringen-10-min.",
     "title": "Vorbereitung (ca. 30 Min.)",
     "section": "Schritt 1: Zwei Aufgaben auswählen und mitbringen (10 Min.)",
-    "text": "Schritt 1: Zwei Aufgaben auswählen und mitbringen (10 Min.)\nWähle zwei konkrete Aufgaben oder Prüfungen aus deiner Lehre, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.\nAm besten eignen sich Aufgaben, die:\n\nausserhalb des Unterrichts bearbeitet werden (ohne direkte Aufsicht)\nbei denen KI-Tools eine Rolle spielen könnten\ndie du idealerweise schon einmal eingesetzt hast\n\nWähle wenn möglich zwei unterschiedliche Aufgabentypen. Im Workshop analysierst du die erste Aufgabe selbst und wendest das Framework dann auf die zweite in einer kollegialen Beratung an.\nBringe beide Aufgabenstellungen mit (digital oder ausgedruckt).",
+    "text": "Schritt 1: Zwei Aufgaben auswählen und mitbringen (10 Min.)\nWähle zwei konkrete Aufgaben oder Prüfungen aus deiner Lehre, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.\nAm besten eignen sich Aufgaben, die:\n\nausserhalb des Unterrichts bearbeitet werden (ohne direkte Aufsicht)\nbei denen KI-Tools eine Rolle spielen könnten\ndie du idealerweise schon einmal eingesetzt hast\n\nWähle wenn möglich zwei unterschiedliche Aufgabentypen. Im Workshop analysierst du die erste Aufgabe selbst und wendest das Framework dann auf die zweite in einer Peer-Diagnose an.\nBringe beide Aufgabenstellungen mit (digital oder ausgedruckt).",
     "crumbs": [
       "Workshop",
-      "Vorbereitung (ca. 20 Min.)"
+      "Vorbereitung (ca. 30 Min.)"
     ]
   },
   {
@@ -1476,7 +1476,7 @@
     "text": "Schritt 2: Kurze Selbstanalyse der ersten Aufgabe (20 Min.)\nBeantworte diese drei Fragen für deine erste Aufgabe in Stichworten und bringe deine Notizen in den Workshop mit. Die zweite Aufgabe analysierst du im Workshop selbst.\n\nWas sollen Studierende durch diese Aufgabe lernen? Nicht: Was sollen sie abgeben, sondern: Was soll sich in ihren Köpfen verändern?\nWas passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen? Probiere es nach Möglichkeit selbst aus. Gib die Aufgabenstellung in ein KI-Tool ein und schau, was herauskommt.\nWo siehst du die grösste Gefahr, dass Studierende zu wenig lernen, weil die KI die Denkarbeit übernimmt?",
     "crumbs": [
       "Workshop",
-      "Vorbereitung (ca. 20 Min.)"
+      "Vorbereitung (ca. 30 Min.)"
     ]
   },
   {
