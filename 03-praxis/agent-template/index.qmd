@@ -125,6 +125,14 @@ Gute Agents für Lernen:
 3. **Prozess über Produkt**: Fördert *wie* Studierende denken, nicht nur *was* sie produzieren
 4. **Explizite Signale**: Lenkt Aufmerksamkeit auf lernrelevante Merkmale
 
+::: {.callout-warning}
+### "Fragen statt Antworten" hat eine Grenze
+
+Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Frage 2 des 5-Fragen-Frameworks) kann ein rein fragenbasierter Agent die extrinsische kognitive Belastung *erhöhen* statt produktives Nachdenken auszulösen: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.
+
+Cognitive Load Theory legt einen anderen Weg nahe: Für echte Anfänger ist **direkte Instruktion** wirksamer, z.B. ein ausgearbeitetes Beispiel mit Selbsterklärungs-Prompts oder ein teilweise gelöstes Problem zum Vervollständigen. Erst mit wachsender Kompetenz wird ein fragenbasierter Agent zum produktiven Werkzeug. Die VERBOTEN-Regeln im Template oben setzen Studierende voraus, die bereits über Grundlagenwissen verfügen.
+:::
+
 
 ## Wann kein Agent die richtige Antwort ist
 
@@ -132,9 +140,17 @@ Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden S
 
 **Wenn der Versuch das gesamte Lernziel ist.** Bei Aufgaben, in denen der eigenständige Versuch selbst die Kompetenz aufbaut (z.B. freies Schreiben, klinische Ersteinschätzung, mathematische Beweisführung), fügt ein Agent in der Prüfphase keinen Mehrwert hinzu, der über manuelles Peer-Feedback oder eine Musterlösung hinausgeht.
 
-**Wenn Studierende den Agent-Output nicht bewerten können.** Das Evaluationsparadox gilt auch hier: Wenn Studierende in der Grundlagenphase sind (Frage 2 des 5-Fragen-Frameworks), fehlt ihnen die Fachkompetenz, um zu beurteilen, ob der Agent tatsächlich hilfreiche Fragen stellt oder sie in die Irre führt. Strukturiertes Peer-Feedback kann in dieser Phase wirksamer sein.
+**Wenn Studierende in der Grundlagenphase sind.** Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Frage 2 des 5-Fragen-Frameworks), können den Agent-Output nicht nur nicht *bewerten*, sie profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.
 
 **Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.
+
+::: {.callout-note}
+### Aber: Ein Agent *für* Worked Examples?
+
+Die Aussage "kein fragenbasierter Agent für Anfänger" heisst nicht "keine KI für Anfänger". Ein Agent, der **ausgearbeitete Beispiele generiert**, mit Selbsterklärungs-Prompts und angepasst an das Kompetenzniveau, ist ein ganz anderer Typ: Er *liefert* direkte Instruktion statt sie zu verweigern. Solche Agents können gerade für Anfänger wertvoll sein, weil sie personalisierte Worked Examples in grossem Massstab ermöglichen.
+
+Der Haken: Ein Worked-Example-Generator erfordert sorgfältiges Design und Qualitätskontrolle, denn die generierten Beispiele müssen fachlich korrekt und didaktisch sinnvoll aufgebaut sein. Das Design und die technische Umsetzung solcher Agents ist ein Schwerpunkt des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
+:::
 
 
 ::: {.reflect}
@@ -145,6 +161,12 @@ Du hast gerade in wenigen Minuten einen System-Prompt analysiert oder angepasst.
 Du befindest dich jetzt in derselben Position wie deine Studierenden gegenüber dem Evaluationsparadox: Ein System-Prompt *beschreibt* gewünschtes Verhalten, er *garantiert* es nicht. Ob der Agent tatsächlich die Denkarbeit bei den Studierenden belässt, zeigt sich erst im iterativen Testen mit echten Studierenden.
 
 Das ist kein Argument gegen Agents, sondern ein Argument für Bescheidenheit beim Design und systematisches Testen vor dem Einsatz.
+:::
+
+::: {.callout-warning}
+### Die Referenz muss stimmen
+
+Anders als eine geprüfte Musterlösung kann ein KI-Agent in der Prüfe-Phase selbst falsch liegen. Sprachmodelle produzieren plausiblen, aber nicht immer korrekten Output. Wenn Studierende ihren eigenen Versuch gegen eine fehlerhafte Referenz vergleichen und die Fachkompetenz fehlt, den Fehler zu erkennen, lernen sie möglicherweise das Falsche. Für kritische Lerninhalte, bei denen Genauigkeit entscheidend ist, kann eine von der Lehrperson geprüfte Musterlösung die sicherere Wahl sein.
 :::
 
 
