@@ -1,0 +1,96 @@
+```{r}
+#| label: wissenskompilation
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph wissenskompilation {
+  graph [
+    rankdir = LR
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.7
+    ranksep = 1.2
+    label = 'Wissenskompilation: Der Weg zur Expertise\\nDeklaratives Wissen wird durch Übungszyklen zu prozeduralem Wissen'
+    labelloc = t
+    fontsize = 14
+    fontcolor = '#666666'
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.15'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 10
+    arrowsize = 0.8
+  ]
+
+  deklarativ [
+    label = 'Deklarativ\\n(Wissen dass)\\n\\nRegeln kennen\\nBewusster Abruf\\nLangsam, fehleranfällig'
+    fillcolor = '#D55E00'
+    fontsize = 11
+    margin = '0.3,0.2'
+  ]
+
+  uebung [
+    label = 'Übungszyklen\\nmit Feedback\\n\\nTausende Wiederholungen\\nVariierende Kontexte\\nKorrektives Feedback'
+    fillcolor = '#E69F00'
+    fontcolor = '#222222'
+    fontsize = 11
+    margin = '0.3,0.2'
+  ]
+
+  prozedural [
+    label = 'Prozedural\\n(Wissen wie)\\n\\nAutomatisiert\\nSchnelle Ausführung\\nFlexibel anwendbar'
+    fillcolor = '#0072B2'
+    fontsize = 11
+    margin = '0.3,0.2'
+  ]
+
+  deklarativ -> uebung [
+    label = '  Aktive\\n  Verarbeitung  '
+    color = '#666666'
+    penwidth = 2
+  ]
+
+  uebung -> prozedural [
+    label = '  Kompilation &\\n  Automatisierung  '
+    color = '#666666'
+    penwidth = 2
+  ]
+
+  // KI bypass
+  bypass [
+    label = 'KI-Outsourcing\\nüberspringt diesen Prozess'
+    fillcolor = '#F5F5F5'
+    fontcolor = '#9A4665'
+    style = 'filled'
+    shape = plaintext
+    fontsize = 11
+  ]
+
+  deklarativ -> bypass [
+    style = dashed
+    color = '#9A4665'
+    label = '  Shortcut  '
+    fontcolor = '#9A4665'
+  ]
+
+  bypass -> prozedural [
+    style = dashed
+    color = '#9A4665'
+    label = '  X Nicht möglich  '
+    fontcolor = '#9A4665'
+  ]
+}
+")
+```

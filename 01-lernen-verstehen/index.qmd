@@ -9,7 +9,11 @@ In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioni
 Ohne dieses Grundverständnis lassen sich später kaum informierte Entscheidungen über den Einsatz von KI in der Lehre treffen.
 
 
-## {{< bi file-slides >}} Vom Wissen zum Können: Was beim Aufbau von Expertise im Kopf passiert
+:::: {.panel-tabset}
+
+## {{< bi file-slides >}} Slides
+
+### Vom Wissen zum Können: Was beim Aufbau von Expertise im Kopf passiert
 
 {{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
@@ -20,6 +24,12 @@ Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): 
 :::
 
 
+## {{< bi pencil-square >}} Aktivitäten
+
+::: {.facilitator}
+Wähle Variante A oder B für die Arbeitsgedächtnis-Übung. Die restlichen Aktivitäten folgen in der angegebenen Reihenfolge.
+:::
+
 ::: {.active-processing}
 ### Arbeitsgedächtnis erleben, Variante A: Rechenketten (3 Min)
 
@@ -28,8 +38,12 @@ Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): 
 1. **Aufgabe 1** (Speichern): Du hörst vier Zahlen (z.B. 3, 7, 2, 5). Schreibe sie nach einer kurzen Pause auf.
 2. **Aufgabe 2** (Verarbeiten): Du hörst eine Rechenaufgabe mit denselben vier Zahlen: "Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5." Löse im Kopf und notiere das Ergebnis.
 3. **Bonusrunde**: Zwei Rechenketten gleichzeitig, abwechselnd ein Schritt pro Kette.
+:::
 
-**Die Pointe**: In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig voneinander. In Aufgabe 2 musste jede Zahl mit den vorherigen *in Beziehung* verarbeitet werden. Genau das passiert beim Verstehen neuer Konzepte: Studierende müssen Elemente und ihre Beziehungen gleichzeitig im Arbeitsgedächtnis halten. Nicht die *Menge*, sondern die *Interaktion* zwischen den Elementen erzeugt die kognitive Belastung.
+::: {.pro-tip collapse="true"}
+### Die Pointe: Rechenketten
+
+In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig voneinander. In Aufgabe 2 musste jede Zahl mit den vorherigen *in Beziehung* verarbeitet werden. Genau das passiert beim Verstehen neuer Konzepte: Studierende müssen Elemente und ihre Beziehungen gleichzeitig im Arbeitsgedächtnis halten. Nicht die *Menge*, sondern die *Interaktion* zwischen den Elementen erzeugt die kognitive Belastung.
 :::
 
 ::: {.active-processing}
@@ -39,8 +53,12 @@ Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): 
 
 1. **Aufgabe 1** (Speichern): Merke dir diese vier Begriffe: *Hund, Tisch, Wolke, Ring*. Schreibe sie nach einer kurzen Pause auf.
 2. **Aufgabe 2** (Verarbeiten): Ordne dieselben vier Begriffe gleichzeitig in eine logische Reihenfolge vom Kleinsten zum Grössten und erkläre deinem Nachbarn, warum deine Reihenfolge stimmt.
+:::
 
-**Die Pointe**: Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht verändert. Was sich verändert hat, ist die **Elementinteraktivität**: In Aufgabe 2 müssen die Elemente gleichzeitig zueinander in Beziehung gesetzt werden. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen, bei dem alles mit allem zusammenhängt. Der Flaschenhals ist nicht die Anzahl der Elemente, sondern die Anzahl der *Verbindungen*, die gleichzeitig verarbeitet werden müssen.
+::: {.pro-tip collapse="true"}
+### Die Pointe: Sortieraufgabe
+
+Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht verändert. Was sich verändert hat, ist die **Elementinteraktivität**: In Aufgabe 2 müssen die Elemente gleichzeitig zueinander in Beziehung gesetzt werden. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen, bei dem alles mit allem zusammenhängt. Der Flaschenhals ist nicht die Anzahl der Elemente, sondern die Anzahl der *Verbindungen*, die gleichzeitig verarbeitet werden müssen.
 :::
 
 ::: {.callout-tip}
@@ -59,8 +77,12 @@ Du hörst gleich einen kurzen Text, der ein vertrautes Verfahren beschreibt, abe
 2. Schreibe in einem Satz auf, was der Text beschreibt
 
 Dann hörst du denselben Text nochmals, diesmal mit dem Schlüsselwort vorab.
+:::
 
-**Die Pointe**: Der Text war identisch. Was sich verändert hat: Dein Langzeitgedächtnis hat ein **Schema** aktiviert, das die Elemente organisiert. Ohne Schema muss jedes Detail einzeln im Arbeitsgedächtnis verarbeitet werden. Mit Schema kollabieren die Details zu einer vertrauten Struktur. So klingt jede Vorlesung für Erstsemester in deinem Fach.
+::: {.pro-tip collapse="true"}
+### Die Pointe: Schemas
+
+Der Text war identisch. Was sich verändert hat: Dein Langzeitgedächtnis hat ein **Schema** aktiviert, das die Elemente organisiert. Ohne Schema muss jedes Detail einzeln im Arbeitsgedächtnis verarbeitet werden. Mit Schema kollabieren die Details zu einer vertrauten Struktur. So klingt jede Vorlesung für Erstsemester in deinem Fach.
 :::
 
 
@@ -80,8 +102,12 @@ Du siehst gleich eine Schritt-für-Schritt-Anleitung für etwas, das du sicher b
 **Frage:** War die Anleitung hilfreich oder eher störend?
 
 Jetzt stell dir vor, dieselbe Anleitung geht an Studierende im ersten Semester.
+:::
 
-**Die Pointe**: Was für dich redundant war, wäre für Novizen essenziell. Das ist der **Expertise Reversal Effect**: Hilfe, die Anfängern nützt, belastet Experten mit unnötiger extrinsischer Last. Dasselbe gilt für KI-Scaffolding: Was Anfänger brauchen und was Fortgeschrittene brauchen, ist nicht dasselbe.
+::: {.pro-tip collapse="true"}
+### Die Pointe: Expertise Reversal
+
+Was für dich redundant war, wäre für Novizen essenziell. Das ist der **Expertise Reversal Effect**: Hilfe, die Anfängern nützt, belastet Experten mit unnötiger extrinsischer Last. Dasselbe gilt für KI-Scaffolding: Was Anfänger brauchen und was Fortgeschrittene brauchen, ist nicht dasselbe.
 :::
 
 
@@ -108,12 +134,16 @@ Ihr werdet das Paradox der wünschenswerten Schwierigkeiten im Workshop mehrfach
 Schätze ehrlich: Wie gut hast du die Cognitive Load Theory verstanden? (1 = gar nicht, 5 = könnte sie erklären)
 
 Jetzt: Erkläre deinem Nachbarn in 30 Sekunden den Unterschied zwischen intrinsischer und extrinsischer Last, ohne in die Slides zu schauen.
+:::
 
-**Die Pointe**: Die Lücke zwischen deiner Einschätzung und deiner tatsächlichen Erklärfähigkeit ist die **metakognitive Falle**. Fliessend zuhören erzeugt Vertrautheit, nicht Verständnis. Eure Studierenden erleben das nach jeder Vorlesung.
+::: {.pro-tip collapse="true"}
+### Die Pointe: Metakognitive Falle
+
+Die Lücke zwischen deiner Einschätzung und deiner tatsächlichen Erklärfähigkeit ist die **metakognitive Falle**. Fliessend zuhören erzeugt Vertrautheit, nicht Verständnis. Eure Studierenden erleben das nach jeder Vorlesung.
 :::
 
 
-## {{< bi megaphone >}} Fallstudien-Analyse
+## {{< bi megaphone >}} Fallstudien
 
 ::: {.pair}
 ### Fallstudien-Analyse (10 Min)
@@ -143,9 +173,7 @@ Schreibe in einem Satz auf: **Was ist die wichtigste Erkenntnis aus Teil 1 für 
 :::
 
 
----
-
-## {{< bi book >}} Zum Nachlesen
+## {{< bi book >}} Nachlesen
 
 Die folgenden Abschnitte vertiefen die Konzepte aus den Slides. Sie sind als Nachlese-Material für das Selbststudium gedacht.
 
@@ -214,6 +242,8 @@ Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lerne
 3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
 4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
 
+{{< include ../resources/figures/fig-testing-effect.qmd >}}
+
 #### Die metakognitive Falle
 
 > Was sich wie Lernen *anfühlt*, ist oft keines. Was sich *schwierig anfühlt*, produziert oft das beste Lernen.
@@ -252,10 +282,12 @@ Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeig
 :::
 
 
-## Vertiefende Ressourcen
+## {{< bi journals >}} Ressourcen
 
 ### Für das Selbststudium
 
 - [Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten
 - [Gedächtnis und Lernen](./gedaechtnis-und-lernen/). Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist
 - [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung
+
+::::

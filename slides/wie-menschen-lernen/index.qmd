@@ -73,6 +73,11 @@ Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben 
 :::
 
 
+## Biologisch primär vs. sekundär
+
+{{< include ../../resources/figures/fig-primaer-sekundaer.qmd >}}
+
+
 ## Experten vs. Anfänger
 
 :::: {.columns}
@@ -97,6 +102,11 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 | **Sehen**       | Einzelne Teile            | Bedeutungsvolle Muster              |
 | **Verarbeiten** | Schritt-für-Schritt       | Automatische Prozeduren             |
 | **Wissen**      | Isolierte Fakten          | Vernetzte Schemata                  |
+
+
+## Gleiche Hardware, unterschiedliche Software
+
+{{< include ../../resources/figures/fig-novice-expert-schemas.qmd >}}
 
 
 ## Das Nadelöhr des Lernens {.smaller}
@@ -202,6 +212,11 @@ Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr
 :::
 
 
+## CLT und KI: Der Vergleich
+
+{{< include ../../resources/figures/fig-outsourcing-comparison.qmd >}}
+
+
 ## CLT und KI: Die Nuance
 
 ::: {.callout-note}
@@ -246,6 +261,11 @@ Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entw
 
 **Deklarativ** → Übungszyklen mit Feedback → **Prozedural**
 :::
+
+
+## Der Weg zur Expertise
+
+{{< include ../../resources/figures/fig-wissenskompilation.qmd >}}
 
 
 ## Drei verbreitete Missverständnisse {.center}
@@ -327,6 +347,11 @@ Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entw
 **Der Trugschluss**: "Wenn ich etwas produziere, lerne ich"
 :::
 :::
+
+
+## Das Lernparadox: Die Übersicht
+
+{{< include ../../resources/figures/fig-lernparadox.qmd >}}
 
 
 ## Die gefährliche Umkehrung {.center}

@@ -1,0 +1,110 @@
+```{r}
+#| label: primaer-sekundaer
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph primaer_sekundaer {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.8
+    ranksep = 0.9
+    label = 'Biologisch primäres vs. sekundäres Wissen\\nWarum Schulen existieren: Sekundäres Wissen erfordert bewusste Instruktion'
+    labelloc = t
+    fontsize = 14
+    fontcolor = '#666666'
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.15'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 10
+    arrowsize = 0.8
+  ]
+
+  origin [
+    label = 'Menschliche Fähigkeiten'
+    fillcolor = '#64748b'
+    fontsize = 14
+  ]
+
+  primary [
+    label = 'Biologisch primär'
+    fillcolor = '#0072B2'
+    fontsize = 13
+  ]
+
+  secondary [
+    label = 'Biologisch sekundär'
+    fillcolor = '#D55E00'
+    fontsize = 13
+  ]
+
+  p_examples [
+    label = 'Sprechen\\nGesichtserkennung\\nSoziale Interaktion'
+    fillcolor = '#56B4E9'
+    fontsize = 11
+  ]
+
+  s_examples [
+    label = 'Lesen & Schreiben\\nMathematik\\nProgrammieren'
+    fillcolor = '#E69F00'
+    fontcolor = '#222222'
+    fontsize = 11
+  ]
+
+  p_how [
+    label = 'Entwickelt sich\\nnatürlich'
+    fillcolor = '#dce8f5'
+    fontcolor = '#0072B2'
+    style = 'filled'
+    shape = plaintext
+    fontsize = 11
+  ]
+
+  s_how [
+    label = 'Erfordert bewusste\\nInstruktion & Übung'
+    fillcolor = '#fde8d8'
+    fontcolor = '#D55E00'
+    style = 'filled'
+    shape = plaintext
+    fontsize = 11
+  ]
+
+  barrier [
+    label = 'Kein Selbstläufer!\\nKI-Outsourcing umgeht\\ndiesen notwendigen Prozess'
+    fillcolor = '#F5F5F5'
+    fontcolor = '#9A4665'
+    style = 'filled'
+    shape = plaintext
+    fontsize = 11
+  ]
+
+  origin -> primary [label = '  Evolution  ' color = '#0072B2']
+  origin -> secondary [label = '  Kultur  ' color = '#D55E00']
+
+  primary -> p_examples [color = '#0072B2']
+  secondary -> s_examples [color = '#D55E00']
+
+  primary -> p_how [color = '#0072B2' style = dashed]
+  secondary -> s_how [color = '#D55E00' style = dashed]
+
+  s_how -> barrier [color = '#9A4665' style = dashed]
+
+  {rank = same; primary; secondary}
+  {rank = same; p_examples; s_examples}
+  {rank = same; p_how; s_how}
+}
+")
+```

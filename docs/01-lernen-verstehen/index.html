@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
 <title>Wie Menschen lernen – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
@@ -42,7 +39,6 @@ div.csl-indent {
   margin-left: 2em;
 }</style>
 
-
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -69,8 +65,7 @@ div.csl-indent {
 <link href="../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
-<script id="quarto-search-options" type="application/json">{
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -95,31 +90,16 @@ div.csl-indent {
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
+}</script><style>html{ scroll-behavior: smooth; }</style>
 <script type="application/json" class="js-hypothesis-config">
 {
   "theme": "clean"
 }
-</script>
-<script async="" src="https://hypothes.is/embed.js"></script>
-<script>
+</script><script async="" src="https://hypothes.is/embed.js"></script><script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script>
-<style>
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
+</script><style>
 div.callout-group.callout {
   border-left-color: #7c3aed;
 }
@@ -131,6 +111,17 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -140,17 +131,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -186,6 +166,17 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
 div.callout-facilitator.callout {
   border-left-color: #d97706;
 }
@@ -209,27 +200,23 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   background-image: none;
 }
 </style>
- 
-  <style>
+<style>
   .slide-deck {
       border: 3px solid #dee2e6;
       width: 100%;
   }
   </style>
-  
-
-
 <meta property="og:title" content="Wie Menschen lernen – KI in der Lehre: Intermediate">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://virtuelleakademie.github.io/ki-lehre-intermediate/01-lernen-verstehen/index_files/figure-html/testing-effect-1.png">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
+<meta property="og:image:height" content="1152">
+<meta property="og:image:width" content="1728">
 </head>
-
 <body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">KI in der Lehre: Intermediate</span>
@@ -241,7 +228,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
+<li class="nav-item">
     <a class="nav-link" href="../workshop/index.html"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
@@ -262,15 +249,15 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <span class="menu-text">3: Praxis</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dokumente" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-book" role="img">
 </i> 
  <span class="menu-text">Dokumente</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dokumente">
+<li>
     <a class="dropdown-item" href="../resources/handout-make-it-stick/index.html">
  <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
   </li>  
@@ -300,16 +287,14 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
  <span class="dropdown-text">Begleitdokument: Orientierungshilfe (PDF)</span></a>
   </li>  
     </ul>
-  </li>
+</li>
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://virtuelleakademie.ch/knowledge-base/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
+    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
@@ -320,20 +305,16 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Suchen"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../01-lernen-verstehen/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Wie Menschen lernen</span></a>
@@ -358,30 +339,14 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   </div>
 </li>
     </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-  <li><a href="#vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert" id="toc-vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert" class="nav-link active" data-scroll-target="#vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Vom Wissen zum Können: Was beim Aufbau von Expertise im Kopf passiert</a></li>
-  <li><a href="#fallstudien-analyse" id="toc-fallstudien-analyse" class="nav-link" data-scroll-target="#fallstudien-analyse"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Fallstudien-Analyse</a></li>
-  <li><a href="#zum-nachlesen" id="toc-zum-nachlesen" class="nav-link" data-scroll-target="#zum-nachlesen"><i class="bi-book " style="" role="img" aria-hidden="true"></i> Zum Nachlesen</a></li>
-  <li><a href="#vertiefende-ressourcen" id="toc-vertiefende-ressourcen" class="nav-link" data-scroll-target="#vertiefende-ressourcen">Vertiefende Ressourcen</a>
-  <ul class="collapse">
-  <li><a href="#für-das-selbststudium" id="toc-für-das-selbststudium" class="nav-link" data-scroll-target="#für-das-selbststudium">Für das Selbststudium</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Wie Menschen lernen</h1>
 </div>
 
@@ -396,14 +361,20 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   
 
 
-</header>
-
-
-<p>Warum sich effektives Lernen oft anstrengend anfühlt, und was dabei tatsächlich im Kopf passiert.</p>
+</header><p>Warum sich effektives Lernen oft anstrengend anfühlt, und was dabei tatsächlich im Kopf passiert.</p>
 <p>In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus der Perspektive der kognitiven Psychologie? Was passiert im Gehirn, wenn wir Neues lernen? Und warum ist das, was sich wie Lernen <em>anfühlt</em>, oft das Gegenteil?</p>
 <p>Ohne dieses Grundverständnis lassen sich später kaum informierte Entscheidungen über den Einsatz von KI in der Lehre treffen.</p>
-<section id="vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert" class="level2">
-<h2 class="anchored" data-anchor-id="vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Vom Wissen zum Können: Was beim Aufbau von Expertise im Kopf passiert</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist">
+<li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Slides</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><i class="bi-pencil-square " style="" role="img" aria-hidden="true"></i> Aktivitäten</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href=""><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Fallstudien</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""><i class="bi-book " style="" role="img" aria-hidden="true"></i> Nachlesen</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href=""><i class="bi-journals " style="" role="img" aria-hidden="true"></i> Ressourcen</a></li>
+</ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert" class="level3"><h3 class="anchored" data-anchor-id="vom-wissen-zum-können-was-beim-aufbau-von-expertise-im-kopf-passiert">Vom Wissen zum Können: Was beim Aufbau von Expertise im Kopf passiert</h3>
     <p><a href="../slides/wie-menschen-lernen/index.html" target="_blank">View slides in full screen</a></p>
        <div class="ratio ratio-16x9">
       <iframe class="slide-deck" src="../slides/wie-menschen-lernen/index.html" height="500px"></iframe>
@@ -425,6 +396,25 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 </div>
 </div>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="callout callout-style-default callout-facilitator callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Facilitator</span>Moderationshinweis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Wähle Variante A oder B für die Arbeitsgedächtnis-Übung. Die restlichen Aktivitäten folgen in der angegebenen Reihenfolge.</p>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -437,11 +427,29 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <div class="callout-body-container callout-body">
 <p><strong>Elementinteraktivität spüren:</strong> Dieselben Zahlen, zwei verschiedene Aufgaben.</p>
 <ol type="1">
-<li><strong>Aufgabe 1</strong> (Speichern): Du hörst vier Zahlen (z.B. 3, 7, 2, 5). Schreibe sie nach einer kurzen Pause auf.</li>
-<li><strong>Aufgabe 2</strong> (Verarbeiten): Du hörst eine Rechenaufgabe mit denselben vier Zahlen: “Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5.” Löse im Kopf und notiere das Ergebnis.</li>
-<li><strong>Bonusrunde</strong>: Zwei Rechenketten gleichzeitig, abwechselnd ein Schritt pro Kette.</li>
+<li>
+<strong>Aufgabe 1</strong> (Speichern): Du hörst vier Zahlen (z.B. 3, 7, 2, 5). Schreibe sie nach einer kurzen Pause auf.</li>
+<li>
+<strong>Aufgabe 2</strong> (Verarbeiten): Du hörst eine Rechenaufgabe mit denselben vier Zahlen: “Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5.” Löse im Kopf und notiere das Ergebnis.</li>
+<li>
+<strong>Bonusrunde</strong>: Zwei Rechenketten gleichzeitig, abwechselnd ein Schritt pro Kette.</li>
 </ol>
-<p><strong>Die Pointe</strong>: In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig voneinander. In Aufgabe 2 musste jede Zahl mit den vorherigen <em>in Beziehung</em> verarbeitet werden. Genau das passiert beim Verstehen neuer Konzepte: Studierende müssen Elemente und ihre Beziehungen gleichzeitig im Arbeitsgedächtnis halten. Nicht die <em>Menge</em>, sondern die <em>Interaktion</em> zwischen den Elementen erzeugt die kognitive Belastung.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Die Pointe: Rechenketten
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig voneinander. In Aufgabe 2 musste jede Zahl mit den vorherigen <em>in Beziehung</em> verarbeitet werden. Genau das passiert beim Verstehen neuer Konzepte: Studierende müssen Elemente und ihre Beziehungen gleichzeitig im Arbeitsgedächtnis halten. Nicht die <em>Menge</em>, sondern die <em>Interaktion</em> zwischen den Elementen erzeugt die kognitive Belastung.</p>
+</div>
 </div>
 </div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
@@ -456,10 +464,27 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <div class="callout-body-container callout-body">
 <p><strong>Elementinteraktivität spüren:</strong> Dieselben Begriffe, zwei verschiedene Aufgaben.</p>
 <ol type="1">
-<li><strong>Aufgabe 1</strong> (Speichern): Merke dir diese vier Begriffe: <em>Hund, Tisch, Wolke, Ring</em>. Schreibe sie nach einer kurzen Pause auf.</li>
-<li><strong>Aufgabe 2</strong> (Verarbeiten): Ordne dieselben vier Begriffe gleichzeitig in eine logische Reihenfolge vom Kleinsten zum Grössten und erkläre deinem Nachbarn, warum deine Reihenfolge stimmt.</li>
+<li>
+<strong>Aufgabe 1</strong> (Speichern): Merke dir diese vier Begriffe: <em>Hund, Tisch, Wolke, Ring</em>. Schreibe sie nach einer kurzen Pause auf.</li>
+<li>
+<strong>Aufgabe 2</strong> (Verarbeiten): Ordne dieselben vier Begriffe gleichzeitig in eine logische Reihenfolge vom Kleinsten zum Grössten und erkläre deinem Nachbarn, warum deine Reihenfolge stimmt.</li>
 </ol>
-<p><strong>Die Pointe</strong>: Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht verändert. Was sich verändert hat, ist die <strong>Elementinteraktivität</strong>: In Aufgabe 2 müssen die Elemente gleichzeitig zueinander in Beziehung gesetzt werden. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen, bei dem alles mit allem zusammenhängt. Der Flaschenhals ist nicht die Anzahl der Elemente, sondern die Anzahl der <em>Verbindungen</em>, die gleichzeitig verarbeitet werden müssen.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Die Pointe: Sortieraufgabe
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht verändert. Was sich verändert hat, ist die <strong>Elementinteraktivität</strong>: In Aufgabe 2 müssen die Elemente gleichzeitig zueinander in Beziehung gesetzt werden. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen, bei dem alles mit allem zusammenhängt. Der Flaschenhals ist nicht die Anzahl der Elemente, sondern die Anzahl der <em>Verbindungen</em>, die gleichzeitig verarbeitet werden müssen.</p>
+</div>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -491,7 +516,22 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li>Schreibe in einem Satz auf, was der Text beschreibt</li>
 </ol>
 <p>Dann hörst du denselben Text nochmals, diesmal mit dem Schlüsselwort vorab.</p>
-<p><strong>Die Pointe</strong>: Der Text war identisch. Was sich verändert hat: Dein Langzeitgedächtnis hat ein <strong>Schema</strong> aktiviert, das die Elemente organisiert. Ohne Schema muss jedes Detail einzeln im Arbeitsgedächtnis verarbeitet werden. Mit Schema kollabieren die Details zu einer vertrauten Struktur. So klingt jede Vorlesung für Erstsemester in deinem Fach.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Die Pointe: Schemas
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Der Text war identisch. Was sich verändert hat: Dein Langzeitgedächtnis hat ein <strong>Schema</strong> aktiviert, das die Elemente organisiert. Ohne Schema muss jedes Detail einzeln im Arbeitsgedächtnis verarbeitet werden. Mit Schema kollabieren die Details zu einer vertrauten Struktur. So klingt jede Vorlesung für Erstsemester in deinem Fach.</p>
+</div>
 </div>
 </div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
@@ -521,7 +561,22 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <p>Du siehst gleich eine Schritt-für-Schritt-Anleitung für etwas, das du sicher beherrschst (z.B. “Wie man ein Lernziel formuliert” oder “Wie man eine Quellenangabe erstellt”).</p>
 <p><strong>Frage:</strong> War die Anleitung hilfreich oder eher störend?</p>
 <p>Jetzt stell dir vor, dieselbe Anleitung geht an Studierende im ersten Semester.</p>
-<p><strong>Die Pointe</strong>: Was für dich redundant war, wäre für Novizen essenziell. Das ist der <strong>Expertise Reversal Effect</strong>: Hilfe, die Anfängern nützt, belastet Experten mit unnötiger extrinsischer Last. Dasselbe gilt für KI-Scaffolding: Was Anfänger brauchen und was Fortgeschrittene brauchen, ist nicht dasselbe.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Die Pointe: Expertise Reversal
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Was für dich redundant war, wäre für Novizen essenziell. Das ist der <strong>Expertise Reversal Effect</strong>: Hilfe, die Anfängern nützt, belastet Experten mit unnötiger extrinsischer Last. Dasselbe gilt für KI-Scaffolding: Was Anfänger brauchen und was Fortgeschrittene brauchen, ist nicht dasselbe.</p>
+</div>
 </div>
 </div>
 <div class="callout callout-style-default callout-active-processing callout-titled">
@@ -567,12 +622,26 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <div class="callout-body-container callout-body">
 <p>Schätze ehrlich: Wie gut hast du die Cognitive Load Theory verstanden? (1 = gar nicht, 5 = könnte sie erklären)</p>
 <p>Jetzt: Erkläre deinem Nachbarn in 30 Sekunden den Unterschied zwischen intrinsischer und extrinsischer Last, ohne in die Slides zu schauen.</p>
-<p><strong>Die Pointe</strong>: Die Lücke zwischen deiner Einschätzung und deiner tatsächlichen Erklärfähigkeit ist die <strong>metakognitive Falle</strong>. Fliessend zuhören erzeugt Vertrautheit, nicht Verständnis. Eure Studierenden erleben das nach jeder Vorlesung.</p>
 </div>
 </div>
-</section>
-<section id="fallstudien-analyse" class="level2">
-<h2 class="anchored" data-anchor-id="fallstudien-analyse"><i class="bi-megaphone " style="" role="img" aria-hidden="true"></i> Fallstudien-Analyse</h2>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Die Pointe: Metakognitive Falle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Die Lücke zwischen deiner Einschätzung und deiner tatsächlichen Erklärfähigkeit ist die <strong>metakognitive Falle</strong>. Fliessend zuhören erzeugt Vertrautheit, nicht Verständnis. Eure Studierenden erleben das nach jeder Vorlesung.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="callout callout-style-default callout-pair callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -612,13 +681,11 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <p><em>Diese Konsolidierung vor der Pause hilft, das Gelernte zu verankern, bevor neuer Input kommt.</em></p>
 </div>
 </div>
-<hr>
-</section>
-<section id="zum-nachlesen" class="level2">
-<h2 class="anchored" data-anchor-id="zum-nachlesen"><i class="bi-book " style="" role="img" aria-hidden="true"></i> Zum Nachlesen</h2>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p>Die folgenden Abschnitte vertiefen die Konzepte aus den Slides. Sie sind als Nachlese-Material für das Selbststudium gedacht.</p>
 <div class="callout callout-style-default callout-nachlesen callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -627,19 +694,16 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="arbeitsgedächtnis-der-flaschenhals" class="level4">
-<h4 class="anchored" data-anchor-id="arbeitsgedächtnis-der-flaschenhals">Arbeitsgedächtnis: Der Flaschenhals</h4>
+<section id="arbeitsgedächtnis-der-flaschenhals" class="level4"><h4 class="anchored" data-anchor-id="arbeitsgedächtnis-der-flaschenhals">Arbeitsgedächtnis: Der Flaschenhals</h4>
 <p>Unser Arbeitsgedächtnis kann nur <strong>4±1 Elemente</strong> gleichzeitig verarbeiten. Jeder Denkakt (Verstehen, Problemlösen, Entscheiden) muss durch diesen Flaschenhals.</p>
 <p>Wichtig: Die Zahl “4±1” gilt für einfache, unverbundene Elemente. Die <em>effektive</em> Kapazität hängt stark vom Vorwissen ab. Experten verarbeiten “F = ma” als <strong>einen</strong> Chunk, Anfänger als drei separate Elemente. <span class="citation" data-cites="cowanMagicalMysteryFour2010">Cowan (<a href="#ref-cowanMagicalMysteryFour2010" role="doc-biblioref">2010</a>)</span> beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung, aber eine fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.</p>
 <p>Und: <strong>Pausen sind keine verlorene Zeit.</strong> Das TBRS-Modell <span class="citation" data-cites="barrouilletWorkingMemoryLoss2015">(<a href="#ref-barrouilletWorkingMemoryLoss2015" role="doc-biblioref">Barrouillet und Camos 2015</a>)</span> zeigt, dass Aufmerksamkeit zwischen Verarbeitung und Auffrischung von Gedächtnisspuren geteilt werden muss. Schon kurze Mikropausen (30–60 Sekunden) zwischen Instruktionssegmenten geben dem Gehirn Zeit, zerfallende Spuren aufzufrischen. Ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen.</p>
 <blockquote class="blockquote">
 <p><a href="./arbeitsgedaechtnis/">Vertiefung: Arbeitsgedächtnis und Instruktion</a>. Die vier Modelle des Arbeitsgedächtnisses und was sie für die Lehre bedeuten</p>
 </blockquote>
-</section>
-<section id="langzeitgedächtnis-der-unbegrenzte-speicher" class="level4">
-<h4 class="anchored" data-anchor-id="langzeitgedächtnis-der-unbegrenzte-speicher">Langzeitgedächtnis: Der unbegrenzte Speicher</h4>
+</section><section id="langzeitgedächtnis-der-unbegrenzte-speicher" class="level4"><h4 class="anchored" data-anchor-id="langzeitgedächtnis-der-unbegrenzte-speicher">Langzeitgedächtnis: Der unbegrenzte Speicher</h4>
 <p>Das Langzeitgedächtnis ist praktisch unbegrenzt, aber passives Aufnehmen genügt nicht. Die Eintrittskarte sind aktive kognitive Prozesse: Abrufen, Elaborieren und Verknüpfen.</p>
 <p>Dabei ist “Gedächtnis” kein einheitliches System: Deklaratives Wissen (Fakten, Konzepte) und prozedurales Wissen (Fertigkeiten, Abläufe) folgen unterschiedlichen Regeln und erfordern unterschiedliche Instruktionsansätze. Und der Übergang von episodischem Erinnern (“die Dienstags-Vorlesung in Raum 204”) zu semantischem Wissen (“Regression minimiert quadrierte Residuen”) geschieht nicht automatisch, sondern erfordert variierende Begegnungen und aktiven Abruf.</p>
 </section>
@@ -647,7 +711,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 </div>
 <div class="callout callout-style-default callout-nachlesen callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -656,10 +720,9 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="was-unterscheidet-anfänger-von-experten" class="level4">
-<h4 class="anchored" data-anchor-id="was-unterscheidet-anfänger-von-experten">Was unterscheidet Anfänger von Experten?</h4>
+<section id="was-unterscheidet-anfänger-von-experten" class="level4"><h4 class="anchored" data-anchor-id="was-unterscheidet-anfänger-von-experten">Was unterscheidet Anfänger von Experten?</h4>
 <p>Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein <strong>besser organisiertes Langzeitgedächtnis</strong> mit reichen, vernetzten Schemas, die als “Chunks” funktionieren.</p>
 <table class="caption-top table">
 <colgroup>
@@ -667,13 +730,11 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <col style="width: 33%">
 <col style="width: 33%">
 </colgroup>
-<thead>
-<tr class="header">
+<thead><tr class="header">
 <th></th>
 <th>Anfänger</th>
 <th>Experte</th>
-</tr>
-</thead>
+</tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Wissen</strong></td>
@@ -691,28 +752,23 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <td>Effizient durch Chunking</td>
 </tr>
 </tbody>
-</table>
-</section>
-<section id="wissenskompilation-der-lernprozess" class="level4">
-<h4 class="anchored" data-anchor-id="wissenskompilation-der-lernprozess">Wissenskompilation: Der Lernprozess</h4>
+</table></section><section id="wissenskompilation-der-lernprozess" class="level4"><h4 class="anchored" data-anchor-id="wissenskompilation-der-lernprozess">Wissenskompilation: Der Lernprozess</h4>
 <p>Der Weg vom Anfänger zum Experten verläuft nach ACT-R <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982">(<a href="#ref-andersonAcquisitionCognitiveSkill1982" role="doc-biblioref">Anderson 1982</a>)</span> über <strong>Wissenskompilation</strong>: Deklaratives Wissen (Regeln, die man bewusst anwendet) wird durch tausende Übungszyklen mit Feedback zu prozeduralem Wissen (automatisierte Produktionsregeln). Dieser Prozess erfordert aktive Verarbeitung, Übung und Rückmeldung.</p>
 <p>Ergänzend dazu beschreibt die Forschung zu <strong>Vorhersagefehlern</strong> (aus einer anderen theoretischen Tradition) einen weiteren wichtigen Lernmechanismus: Das Gehirn bildet Erwartungen, vergleicht sie mit der Realität und aktualisiert seine internen Modelle bei Diskrepanzen. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklären diese Mechanismen, <em>warum</em> die didaktischen Strategien funktionieren, die wir gleich kennenlernen.</p>
 <p><strong>Überraschung aus der Motorik-Forschung:</strong> Explizites, strategisches Denken <em>nimmt mit Expertise zu</em>, allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.</p>
-</section>
-<section id="expertise-reversal-effect" class="level4">
-<h4 class="anchored" data-anchor-id="expertise-reversal-effect">Expertise Reversal Effect</h4>
+</section><section id="expertise-reversal-effect" class="level4"><h4 class="anchored" data-anchor-id="expertise-reversal-effect">Expertise Reversal Effect</h4>
 <p>Was Anfängern hilft, schadet Experten, und umgekehrt:</p>
 <ul>
-<li><strong>Worked Examples</strong> sind für Anfänger effektiver als Problemlösen</li>
+<li>
+<strong>Worked Examples</strong> sind für Anfänger effektiver als Problemlösen</li>
 <li>Für Experten kehrt sich dieser Effekt um</li>
 <li>Die Asymmetrie zwischen Anfängern und Experten wird ein zentrales Thema für KI in der Lehre</li>
-</ul>
-</section>
+</ul></section>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-nachlesen callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -721,27 +777,34 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="wünschenswerte-schwierigkeiten-desirable-difficulties" class="level4">
-<h4 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-desirable-difficulties">Wünschenswerte Schwierigkeiten (Desirable Difficulties)</h4>
+<section id="wünschenswerte-schwierigkeiten-desirable-difficulties" class="level4"><h4 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-desirable-difficulties">Wünschenswerte Schwierigkeiten (Desirable Difficulties)</h4>
 <p>Vier Strategien, die sich <em>schwerer anfühlen</em>, aber nachweislich besseres Lernen erzeugen:</p>
 <ol type="1">
-<li><strong>Abrufpraxis (Retrieval Practice)</strong>: Aktives Erinnern statt Wiederlesen</li>
-<li><strong>Verteiltes Lernen (Spacing)</strong>: Über Zeit verteilen statt Pauken</li>
-<li><strong>Abwechslung (Interleaving)</strong>: Aufgabentypen mischen statt blockweise üben</li>
-<li><strong>Generierungseffekt</strong>: Selbst produzieren statt passiv aufnehmen</li>
+<li>
+<strong>Abrufpraxis (Retrieval Practice)</strong>: Aktives Erinnern statt Wiederlesen</li>
+<li>
+<strong>Verteiltes Lernen (Spacing)</strong>: Über Zeit verteilen statt Pauken</li>
+<li>
+<strong>Abwechslung (Interleaving)</strong>: Aufgabentypen mischen statt blockweise üben</li>
+<li>
+<strong>Generierungseffekt</strong>: Selbst produzieren statt passiv aufnehmen</li>
 </ol>
-</section>
-<section id="die-metakognitive-falle" class="level4">
-<h4 class="anchored" data-anchor-id="die-metakognitive-falle">Die metakognitive Falle</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="index_files/figure-html/testing-effect-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="die-metakognitive-falle" class="level4"><h4 class="anchored" data-anchor-id="die-metakognitive-falle">Die metakognitive Falle</h4>
 <blockquote class="blockquote">
 <p>Was sich wie Lernen <em>anfühlt</em>, ist oft keines. Was sich <em>schwierig anfühlt</em>, produziert oft das beste Lernen.</p>
 </blockquote>
 <p>Fliessend lesen = “Ich verstehe das”. Aber: Vertrautheit ist nicht Verständnis. Die metakognitive Falle: Subjektive Leichtigkeit ist ein schlechter Indikator für tatsächliches Lernen.</p>
-</section>
-<section id="cognitive-load-theory" class="level4">
-<h4 class="anchored" data-anchor-id="cognitive-load-theory">Cognitive Load Theory</h4>
+</section><section id="cognitive-load-theory" class="level4"><h4 class="anchored" data-anchor-id="cognitive-load-theory">Cognitive Load Theory</h4>
 <p>Zwei Quellen kognitiver Belastung:</p>
 <table class="caption-top table">
 <colgroup>
@@ -749,13 +812,11 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <col style="width: 54%">
 <col style="width: 25%">
 </colgroup>
-<thead>
-<tr class="header">
+<thead><tr class="header">
 <th>Typ</th>
 <th>Beschreibung</th>
 <th>Ziel</th>
-</tr>
-</thead>
+</tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Intrinsisch</strong></td>
@@ -786,16 +847,20 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <div class="callout-body-container callout-body">
 <p>Die Konzepte aus Teil 1 stammen aus verschiedenen Forschungstraditionen, ergänzen sich aber für die Lehrpraxis:</p>
 <ul>
-<li><strong>Cognitive Load Theory</strong> erklärt, wie Instruktionsdesign die Arbeitsgedächtnisbelastung optimieren kann (extrinsische Last minimieren, produktive Verarbeitung ermöglichen)</li>
-<li><strong>Desirable Difficulties</strong> beschreiben Lernbedingungen, die sich schwierig anfühlen, aber langfristiges Behalten fördern (Abrufpraxis, Spacing, Interleaving, Generierung)</li>
-<li><strong>Wissenskompilation</strong> (ACT-R) modelliert den Übergang von deklarativem zu prozeduralem Wissen durch Übung und Feedback</li>
-<li><strong>Vorhersagefehler</strong> beschreiben, wie das Gehirn aus Diskrepanzen zwischen Erwartung und Erfahrung lernt</li>
+<li>
+<strong>Cognitive Load Theory</strong> erklärt, wie Instruktionsdesign die Arbeitsgedächtnisbelastung optimieren kann (extrinsische Last minimieren, produktive Verarbeitung ermöglichen)</li>
+<li>
+<strong>Desirable Difficulties</strong> beschreiben Lernbedingungen, die sich schwierig anfühlen, aber langfristiges Behalten fördern (Abrufpraxis, Spacing, Interleaving, Generierung)</li>
+<li>
+<strong>Wissenskompilation</strong> (ACT-R) modelliert den Übergang von deklarativem zu prozeduralem Wissen durch Übung und Feedback</li>
+<li>
+<strong>Vorhersagefehler</strong> beschreiben, wie das Gehirn aus Diskrepanzen zwischen Erwartung und Erfahrung lernt</li>
 </ul>
 <p>Gemeinsam ist diesen Ansätzen: Lernende müssen aktiv verarbeiten (abrufen, elaborieren, vergleichen, anwenden). Diese Prozesse fühlen sich oft anstrengend an, und genau das signalisiert, dass Lernen stattfinden kann.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-pro-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -804,27 +869,29 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Tulvings <strong>Encoding-Specificity-Prinzip</strong> <span class="citation" data-cites="tulvingEpisodicMemoryMind2002">(<a href="#ref-tulvingEpisodicMemoryMind2002" role="doc-biblioref">2002</a>)</span> zeigt: Gedächtnisabruf funktioniert am besten, wenn der Abrufkontext mit dem Lernkontext übereinstimmt. Studierende “wissen” oft etwas im Vorlesungskontext, können aber in der Prüfung nicht darauf zugreifen, weil der Abrufpfad kontextabhängig ist. Das ist ein starkes Argument für <em>variierende Kontexte</em> beim Üben und für <em>Interleaving</em>: Jeder neue Kontext schafft zusätzliche Abrufpfade und macht Wissen transferierbarer.</p>
 </div>
 </div>
 </div>
-</section>
-<section id="vertiefende-ressourcen" class="level2">
-<h2 class="anchored" data-anchor-id="vertiefende-ressourcen">Vertiefende Ressourcen</h2>
-<section id="für-das-selbststudium" class="level3">
-<h3 class="anchored" data-anchor-id="für-das-selbststudium">Für das Selbststudium</h3>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<section id="für-das-selbststudium" class="level3"><h3 class="anchored" data-anchor-id="für-das-selbststudium">Für das Selbststudium</h3>
 <ul>
-<li><a href="./arbeitsgedaechtnis/">Arbeitsgedächtnis und Instruktion</a>. Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten</li>
-<li><a href="./gedaechtnis-und-lernen/">Gedächtnis und Lernen</a>. Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist</li>
-<li><a href="./kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a>. Wissenschaftliche Grundlagen der Expertise-Entwicklung</li>
-</ul>
+<li>
+<a href="./arbeitsgedaechtnis/">Arbeitsgedächtnis und Instruktion</a>. Die vier Modelle des Arbeitsgedächtnisses und was sie für Lehrdesign bedeuten</li>
+<li>
+<a href="./gedaechtnis-und-lernen/">Gedächtnis und Lernen</a>. Wie Erinnerungen entstehen, sich verändern und warum Abruf der stärkste Lernmechanismus ist</li>
+<li>
+<a href="./kompetenz-erwerben/">Wie man Kompetenzen erwirbt</a>. Wissenschaftliche Grundlagen der Expertise-Entwicklung</li>
+</ul></section>
+</div>
+</div>
+</div>
 
 
 
-</section>
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-andersonAcquisitionCognitiveSkill1982" class="csl-entry" role="listitem">
@@ -839,8 +906,7 @@ Cowan, Nelson. 2010. <span>„The <span>Magical Mystery Four</span>: <span>How I
 <div id="ref-tulvingEpisodicMemoryMind2002" class="csl-entry" role="listitem">
 Tulving, Endel. 2002. <span>„Episodic Memory: From Mind to Brain“</span>. <em>Annual Review of Psychology</em> 53: 1–25. <a href="https://doi.org/10.1146/annurev.psych.53.100901.135114">https://doi.org/10.1146/annurev.psych.53.100901.135114</a>.
 </div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -1246,9 +1312,7 @@ Tulving, Endel. 2002. <span>„Episodic Memory: From Mind to Brain“</span>. <e
       }
     }
   });
-  </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
+  </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
       <a href="../01-lernen-verstehen/arbeitsgedaechtnis/index.html" class="pagination-link" aria-label="Arbeitsgedächtnis und Instruktion">
@@ -1257,7 +1321,6 @@ Tulving, Endel. 2002. <span>„Episodic Memory: From Mind to Brain“</span>. <e
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 
