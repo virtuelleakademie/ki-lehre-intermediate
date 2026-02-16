@@ -1,0 +1,87 @@
+```{r}
+#| label: fig-5-fragen-summary
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph five_questions_summary {
+  graph [
+    rankdir = TB
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.6
+    ranksep = 0.7
+    margin = 0.2
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 13
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.12'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 11
+    color = '#999999'
+    arrowsize = 0.8
+  ]
+
+  start [
+    label = 'Aufgabe analysieren'
+    fillcolor = '#64748b'
+    fontsize = 14
+  ]
+
+  q1 [label = '1. Geht es primär\\nums Lernen?' fillcolor = '#0072B2']
+  q2 [label = '2. Werden noch\\nGrundlagen aufgebaut?' fillcolor = '#0072B2']
+  q3 [label = '3. Muss internes Wissen\\nnachgewiesen werden?' fillcolor = '#0072B2']
+  q4 [label = '4. Kann KI ohne\\nDenkarbeit erledigen?' fillcolor = '#0072B2']
+  q5 [label = '5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?' fillcolor = '#0072B2']
+
+  e1 [label = 'KI-Unterstützung\\nkann sinnvoll sein' fillcolor = '#0072B2']
+  e2 [label = 'KI als Verstärker\\nmöglich' fillcolor = '#0072B2']
+  e3 [label = 'Aufgabenformat\\nändern' fillcolor = '#D55E00']
+  e4 [label = 'Aufgabe\\numgestalten' fillcolor = '#D55E00']
+  e5 [label = 'Struktur\\neinbauen' fillcolor = '#E69F00' fontcolor = '#222222']
+
+  success [
+    label = 'Aufgabe bereit ✓\\n(mit oder ohne KI)'
+    fillcolor = '#0072B2'
+    fontsize = 14
+  ]
+
+  noai [
+    label = 'Keine KI nötig ✓\\nAufgabe funktioniert bereits'
+    fillcolor = '#0072B2'
+    fontsize = 12
+  ]
+
+  start -> q1
+
+  q1 -> q2 [label = '  Ja  ']
+  q2 -> q3 [label = '  Ja  ']
+  q3 -> q4 [label = '  Ja  ']
+  q4 -> q5 [label = '  Nein  ']
+  q4 -> noai [label = '  Nein +\\n  bewahrt Anstrengung  ']
+  q5 -> success [label = '  Ja  ']
+
+  q1 -> e1 [label = '  Nein  ']
+  q2 -> e2 [label = '  Nein  ']
+  q3 -> e3 [label = '  Nein  ']
+  q4 -> e4 [label = '  Ja  ']
+  q5 -> e5 [label = '  Nein  ']
+
+  {rank = same; q1; e1}
+  {rank = same; q2; e2}
+  {rank = same; q3; e3}
+  {rank = same; q4; e4; noai}
+  {rank = same; q5; e5}
+}
+")
+```

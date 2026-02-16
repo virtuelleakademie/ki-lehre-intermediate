@@ -1,0 +1,4 @@
+# Figure source files: not standalone pages
+# Included via {{< include >}} in content pages and slides
+listing: false
+search: false

@@ -1,0 +1,19 @@
+{
+  "hash": "026d3f4384858f886e699ce8e9ca2055",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n::: {.cell}\n::: {#fig-expert-novice .cell-output-display}\n\n```{=html}\n<div class=\"grViz html-widget html-fill-item\" id=\"htmlwidget-9b2db6612b939b3c2389\" style=\"width:100%;height:464px;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-9b2db6612b939b3c2389\">{\"x\":{\"diagram\":\"\\ndigraph expert_novice {\\n  graph [\\n    fontname = \\\"Helvetica\\\"\\n    bgcolor = \\\"transparent\\\"\\n    rankdir = LR\\n    nodesep = 0.6\\n    ranksep = 1.0\\n    compound = true\\n  ]\\n\\n  node [\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 12\\n    style = \\\"filled,rounded\\\"\\n    fontcolor = \\\"white\\\"\\n    penwidth = 0\\n    shape = box\\n    margin = \\\"0.25,0.12\\\"\\n  ]\\n\\n  edge [\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 10\\n    arrowsize = 0.8\\n  ]\\n\\n  subgraph cluster_expert {\\n    label = \\\"Expert:in\\\"\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 13\\n    fontcolor = \\\"#0072B2\\\"\\n    style = \\\"rounded,filled\\\"\\n    fillcolor = \\\"#dce8f5\\\"\\n    color = \\\"#0072B2\\\"\\n    penwidth = 1.5\\n\\n    e_model [label = \\\"Starkes internes\\\\nModell\\\" fillcolor = \\\"#0072B2\\\"]\\n    e_ki [label = \\\"KI-Output\\\" fillcolor = \\\"#64748b\\\"]\\n    e_result [label = \\\"Korrektur\\\" fillcolor = \\\"#0072B2\\\"]\\n\\n    e_model -> e_ki [label = \\\"  Vergleich\\\\n  möglich  \\\" color = \\\"#222222\\\"]\\n    e_ki -> e_result [label = \\\"  Fehler\\\\n  erkennbar  \\\" color = \\\"#222222\\\"]\\n  }\\n\\n  subgraph cluster_novice {\\n    label = \\\"Anfänger:in\\\"\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 13\\n    fontcolor = \\\"#D55E00\\\"\\n    style = \\\"rounded,filled\\\"\\n    fillcolor = \\\"#fde8d8\\\"\\n    color = \\\"#D55E00\\\"\\n    penwidth = 1.5\\n\\n    n_model [label = \\\"Schwaches internes\\\\nModell\\\" fillcolor = \\\"#D55E00\\\"]\\n    n_ki [label = \\\"KI-Output\\\" fillcolor = \\\"#64748b\\\"]\\n    n_result [label = \\\"Übernahme\\\" fillcolor = \\\"#D55E00\\\"]\\n\\n    n_model -> n_ki [label = \\\"  Kein Vergleichs-\\\\n  massstab  \\\" color = \\\"#999999\\\" style = dashed]\\n    n_ki -> n_result [label = \\\"  Fehler\\\\n  unsichtbar  \\\" color = \\\"#999999\\\" style = dashed]\\n  }\\n}\\n\",\"config\":{\"engine\":\"dot\",\"options\":null}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"../../site_libs/viz-1.8.2/viz.js\"></script>\n<link href=\"../../site_libs/DiagrammeR-styles-0.2/styles.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/grViz-binding-1.0.11/grViz.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

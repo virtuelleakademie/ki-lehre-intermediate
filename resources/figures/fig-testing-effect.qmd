@@ -1,0 +1,49 @@
+```{r}
+#| label: fig-testing-effect
+#| echo: false
+#| fig-width: 9
+#| fig-height: 6
+source(here::here("resources/viz-setup.R"))
+
+testing_effect_data <- tibble(
+  condition = factor(
+    c("4\u00d7 Studieren", "3\u00d7 Studieren +\n1\u00d7 Test", "1\u00d7 Studieren +\n3\u00d7 Tests"),
+    levels = c("4\u00d7 Studieren", "3\u00d7 Studieren +\n1\u00d7 Test", "1\u00d7 Studieren +\n3\u00d7 Tests")
+  ),
+  retention = c(40, 56, 61)
+)
+
+ggplot(testing_effect_data, aes(x = condition, y = retention)) +
+  geom_col(
+    aes(fill = retention),
+    width = 0.65,
+    color = brand_dark,
+    linewidth = 0.3
+  ) +
+  geom_text(
+    aes(label = paste0(retention, "%")),
+    vjust = -0.5,
+    size = 5,
+    fontface = "bold",
+    color = brand_dark,
+  ) +
+  scale_fill_gradient(low = "#f0a5bb", high = brand_accent, guide = "none") +
+  scale_y_continuous(
+    limits = c(0, 70),
+    breaks = seq(0, 60, 20),
+    labels = paste0(seq(0, 60, 20), "%"),
+    expand = expansion(mult = c(0, 0.05))
+  ) +
+  labs(
+    title = "Testing Effekt",
+    subtitle = "Aktives Abrufen führt zu besserem Langzeitlernen als wiederholtes Studieren",
+    x = NULL,
+    y = "Erinnerung nach 1 Woche (%)",
+    caption = "Daten basierend auf Roediger & Karpicke (2006)"
+  ) +
+  theme_workshop() +
+  theme(
+    axis.text.x = element_text(size = 11, face = "bold", lineheight = 1.1),
+    panel.grid.major.x = element_blank()
+  )
+```

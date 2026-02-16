@@ -1,0 +1,69 @@
+```{r}
+#| label: fig-expertise-reversal
+#| echo: false
+#| fig-cap: "Expertise Reversal Effekt nach @kalyugaExpertiseReversalEffect2009: Worked Examples (hohe Anleitung) führen bei Anfängern zu besseren Lernergebnissen, weil sie die extrinsische kognitive Last senken. Mit zunehmender Expertise kehrt sich der Effekt um: Dieselbe Anleitung wird redundant und belastet das Arbeitsgedächtnis zusätzlich. Am Kreuzungspunkt überholt eigenständiges Problemlösen die angeleitete Instruktion. Ab diesem Punkt sollten Worked Examples schrittweise durch offenere Aufgabenformate ersetzt werden (Fading)."
+#| fig-width: 10
+#| fig-height: 6
+source(here::here("resources/viz-setup.R"))
+
+expertise_data <- tibble(
+  expertise = seq(0, 10, 0.5)
+) |>
+  mutate(
+    worked_examples = 85 - 7 * expertise,
+    problem_solving = 35 + 4.5 * expertise
+  ) |>
+  pivot_longer(
+    cols = c(worked_examples, problem_solving),
+    names_to = "condition",
+    values_to = "outcome"
+  ) |>
+  mutate(
+    condition = factor(
+      condition,
+      levels = c("worked_examples", "problem_solving"),
+      labels = c(
+        "Worked Examples / Hohe Anleitung",
+        "Problemlösen / Niedrige Anleitung"
+      )
+    )
+  )
+
+crossing_x <- (85 - 35) / (7 + 4.5)
+crossing_y <- 85 - 7 * crossing_x
+
+ggplot(expertise_data, aes(x = expertise, y = outcome, color = condition)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(
+    data = tibble(x = crossing_x, y = crossing_y),
+    aes(x = x, y = y),
+    color = brand_dark,
+    size = 4, shape = 21, fill = "white", stroke = 1.5,
+    inherit.aes = FALSE
+  ) +
+  scale_color_manual(
+    values = c(
+      "Worked Examples / Hohe Anleitung" = color_positive,
+      "Problemlösen / Niedrige Anleitung" = color_attention
+    ),
+    name = NULL
+  ) +
+  scale_x_continuous(
+    breaks = c(0, 5, 10),
+    labels = c("Anfänger", "Mittel", "Experte")
+  ) +
+  scale_y_continuous(breaks = seq(20, 80, 20)) +
+  coord_cartesian(ylim = c(20, 90)) +
+  labs(
+    title = "Expertise Reversal Effekt",
+    subtitle = "Optimale Unterstützung hängt vom Vorwissen ab",
+    x = "Expertise-Level",
+    y = "Lernergebnis"
+  ) +
+  theme_workshop() +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 10),
+    legend.key.width = unit(2, "cm")
+  )
+```

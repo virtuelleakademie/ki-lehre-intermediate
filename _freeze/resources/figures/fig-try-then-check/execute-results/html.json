@@ -1,0 +1,19 @@
+{
+  "hash": "31dfe43d005a4e4f7e512b5b6f1db7ec",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n::: {.cell}\n::: {#fig-try-then-check .cell-output-display}\n\n```{=html}\n<div class=\"grViz html-widget html-fill-item\" id=\"htmlwidget-0a08e39fb96983d081ce\" style=\"width:100%;height:464px;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-0a08e39fb96983d081ce\">{\"x\":{\"diagram\":\"\\ndigraph try_then_check {\\n  graph [\\n    fontname = \\\"Helvetica\\\"\\n    bgcolor = \\\"transparent\\\"\\n    compound = true\\n    nodesep = 0.5\\n    ranksep = 0.8\\n  ]\\n\\n  node [\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 12\\n    style = \\\"filled,rounded\\\"\\n    fontcolor = \\\"white\\\"\\n    penwidth = 0\\n    shape = box\\n    margin = \\\"0.25,0.12\\\"\\n  ]\\n\\n  edge [\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 10\\n    arrowsize = 0.8\\n  ]\\n\\n  subgraph cluster_productive {\\n    label = \\\"Produktiver Weg\\\"\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 14\\n    fontcolor = \\\"#0072B2\\\"\\n    style = \\\"rounded,filled\\\"\\n    fillcolor = \\\"#dce8f5\\\"\\n    color = \\\"#0072B2\\\"\\n    penwidth = 1.5\\n\\n    try [label = \\\"1. Versuch\\\\nEigenen Ansatz\\\\ngenerieren\\\" fillcolor = \\\"#0072B2\\\"]\\n    compare [label = \\\"2. Vergleich\\\\nMit KI-Output\\\\nabgleichen\\\" fillcolor = \\\"#56B4E9\\\"]\\n    reflect [label = \\\"3. Reflexion\\\\nSchema\\\\naktualisieren\\\" fillcolor = \\\"#E69F00\\\" fontcolor = \\\"#222222\\\"]\\n\\n    try -> compare [label = \\\"  Prediction Error  \\\" color = \\\"#666666\\\"]\\n    compare -> reflect [label = \\\"  Analyse  \\\" color = \\\"#666666\\\"]\\n    reflect -> try [label = \\\"  Nächster Zyklus  \\\" color = \\\"#666666\\\" style = dashed]\\n  }\\n\\n  subgraph cluster_unproductive {\\n    label = \\\"Unproduktiver Weg\\\"\\n    fontname = \\\"Helvetica\\\"\\n    fontsize = 14\\n    fontcolor = \\\"#D55E00\\\"\\n    style = \\\"rounded,filled\\\"\\n    fillcolor = \\\"#fde8d8\\\"\\n    color = \\\"#D55E00\\\"\\n    penwidth = 1.5\\n\\n    direct [label = \\\"KI-Output\\\\ndirekt nutzen\\\" fillcolor = \\\"#D55E00\\\"]\\n    passive [label = \\\"Passives\\\\nÜbernehmen\\\" fillcolor = \\\"#D55E00\\\"]\\n    nolearn [label = \\\"Kein\\\\nLerneffekt\\\" fillcolor = \\\"#D55E00\\\"]\\n\\n    direct -> passive [color = \\\"#999999\\\" style = dashed]\\n    passive -> nolearn [color = \\\"#999999\\\" style = dashed label = \\\"  Keine Reflexion\\\\n  möglich  \\\"]\\n  }\\n}\\n\",\"config\":{\"engine\":\"dot\",\"options\":null}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"../../site_libs/viz-1.8.2/viz.js\"></script>\n<link href=\"../../site_libs/DiagrammeR-styles-0.2/styles.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/grViz-binding-1.0.11/grViz.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

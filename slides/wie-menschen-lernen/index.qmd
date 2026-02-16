@@ -117,6 +117,11 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 :::
 
 
+## Das Nadelöhr des Lernens
+
+{{< include ../../resources/figures/fig-bottleneck.qmd >}}
+
+
 ## Zwei Quellen kognitiver Belastung
 
 ::::{.columns}
@@ -144,6 +149,11 @@ Wie Material präsentiert wird
 **Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.
 :::
 :::
+
+
+## Verteilung der kognitiven Belastung
+
+{{< include ../../resources/figures/fig-cognitive-load.qmd >}}
 
 
 ## Das Lerndilemma
@@ -177,6 +187,11 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 **Die KI-Falle**: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.
 :::
 :::
+
+
+## Expertise Reversal Effect
+
+{{< include ../../resources/figures/fig-expertise-reversal.qmd >}}
 
 
 ## CLT und KI: Was passiert bei Outsourcing?

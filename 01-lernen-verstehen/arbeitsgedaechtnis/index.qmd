@@ -10,12 +10,6 @@ author:
 citation: true
 ---
 
-```{r}
-#| label: setup
-#| include: false
-source("../../resources/viz-setup.R")
-```
-
 ::: {.callout-note}
 ## Lesehinweise
 
@@ -58,69 +52,7 @@ Eine nützliche Analogie: Stell dir das Arbeitsgedächtnis als **kleinen Schreib
 
 Das Arbeitsgedächtnis ist der **Flaschenhals**, durch den alles Lernen hindurch muss.
 
-```{r}
-#| label: fig-bottleneck
-#| echo: false
-
-library(DiagrammeR)
-
-grViz("
-digraph bottleneck {
-  graph [
-    rankdir = LR
-    fontname = 'Helvetica'
-    bgcolor = 'transparent'
-    nodesep = 1.0
-    ranksep = 1.2
-  ]
-
-  node [
-    fontname = 'Helvetica'
-    style = 'filled,rounded'
-    fontcolor = 'white'
-    penwidth = 0
-    shape = box
-  ]
-
-  edge [
-    fontname = 'Helvetica'
-    fontsize = 11
-    color = '#666666'
-    arrowsize = 0.9
-  ]
-
-  input [
-    label = 'Sensorischer Input\\n\\nUmwelt'
-    fillcolor = '#94a3b8'
-    fontsize = 13
-    fontcolor = '#222222'
-    margin = '0.3,0.2'
-    width = 2
-  ]
-
-  wm [
-    label = 'Arbeitsgedächtnis\\n\\n~4 Elemente\\n15–30 Sekunden\\nAktives Lernen'
-    fillcolor = '#E69F00'
-    fontsize = 13
-    fontcolor = '#222222'
-    margin = '0.3,0.2'
-    width = 2.5
-  ]
-
-  ltm [
-    label = 'Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas'
-    fillcolor = '#0072B2'
-    fontsize = 13
-    margin = '0.3,0.2'
-    width = 2.8
-  ]
-
-  input -> wm [label = '  Aufmerksamkeit  ']
-  wm -> ltm [label = '  Schemabildung\\n  & Übung  ']
-  ltm -> wm [label = '  Abruf &\\n  Aktivierung  ' style = dashed]
-}
-")
-```
+{{< include ../../resources/figures/fig-bottleneck.qmd >}}
 
 ::: {.reflect}
 ### Selbsttest: Arbeitsgedächtnis
@@ -273,74 +205,7 @@ Instruktionshilfen, die Anfängern helfen (z.B. durchgearbeitete Beispiele), kö
 
 **Lehrimplikation**: Biete Scaffolding als *optionales* Material an, nicht als Pflicht, damit fortgeschrittene Studierende nicht gezwungen werden, redundante Struktur zu verarbeiten.
 
-```{r}
-#| label: fig-expertise-reversal
-#| echo: false
-#| fig-cap: "Expertise Reversal Effekt nach @kalyugaExpertiseReversalEffect2009: Worked Examples (hohe Anleitung) führen bei Anfängern zu besseren Lernergebnissen, weil sie die extrinsische kognitive Last senken. Mit zunehmender Expertise kehrt sich der Effekt um: Dieselbe Anleitung wird redundant und belastet das Arbeitsgedächtnis zusätzlich. Am Kreuzungspunkt überholt eigenständiges Problemlösen die angeleitete Instruktion. Ab diesem Punkt sollten Worked Examples schrittweise durch offenere Aufgabenformate ersetzt werden (Fading)."
-#| fig-width: 10
-#| fig-height: 6
-
-expertise_data <- tibble(
-  expertise = seq(0, 10, 0.5)
-) |>
-  mutate(
-    worked_examples = 85 - 7 * expertise,
-    problem_solving = 35 + 4.5 * expertise
-  ) |>
-  pivot_longer(
-    cols = c(worked_examples, problem_solving),
-    names_to = "condition",
-    values_to = "outcome"
-  ) |>
-  mutate(
-    condition = factor(
-      condition,
-      levels = c("worked_examples", "problem_solving"),
-      labels = c(
-        "Worked Examples / Hohe Anleitung",
-        "Problemlösen / Niedrige Anleitung"
-      )
-    )
-  )
-
-crossing_x <- (85 - 35) / (7 + 4.5)
-crossing_y <- 85 - 7 * crossing_x
-
-ggplot(expertise_data, aes(x = expertise, y = outcome, color = condition)) +
-  geom_line(linewidth = 1.2) +
-  geom_point(
-    data = tibble(x = crossing_x, y = crossing_y),
-    aes(x = x, y = y),
-    color = brand_dark,
-    size = 4, shape = 21, fill = "white", stroke = 1.5,
-    inherit.aes = FALSE
-  ) +
-  scale_color_manual(
-    values = c(
-      "Worked Examples / Hohe Anleitung" = color_positive,
-      "Problemlösen / Niedrige Anleitung" = color_attention
-    ),
-    name = NULL
-  ) +
-  scale_x_continuous(
-    breaks = c(0, 5, 10),
-    labels = c("Anfänger", "Mittel", "Experte")
-  ) +
-  scale_y_continuous(breaks = seq(20, 80, 20)) +
-  coord_cartesian(ylim = c(20, 90)) +
-  labs(
-    title = "Expertise Reversal Effekt",
-    subtitle = "Optimale Unterstützung hängt vom Vorwissen ab",
-    x = "Expertise-Level",
-    y = "Lernergebnis"
-  ) +
-  theme_workshop() +
-  theme(
-    legend.position = "bottom",
-    legend.text = element_text(size = 10),
-    legend.key.width = unit(2, "cm")
-  )
-```
+{{< include ../../resources/figures/fig-expertise-reversal.qmd >}}
 
 
 ## Cognitive Load Theory: Vom Labor ins Klassenzimmer
@@ -368,82 +233,7 @@ Die Cognitive Load Theory [CLT; @swellerCognitiveLoadTheory2011], entwickelt von
 
 **Das Designprinzip**: Extrinsische Last eliminieren &rarr; Arbeitsgedächtniskapazität freisetzen &rarr; damit sie für die produktive Verarbeitung (germane processing) der intrinsisch komplexen Inhalte zur Verfügung steht.
 
-```{r}
-#| label: fig-cognitive-load
-#| echo: false
-#| fig-cap: "Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
-#| fig-width: 10
-#| fig-height: 6
-
-cognitive_load_data <- tibble(
-  scenario = factor(
-    rep(c("Schlechtes Design", "Gutes Design", "KI-Outsourcing"), each = 4),
-    levels = c("Schlechtes Design", "Gutes Design", "KI-Outsourcing")
-  ),
-  load_type = factor(
-    rep(c("Extrinsische Belastung", "Intrinsische Belastung",
-          "Lernrelevante Verarbeitung", "Ungenutzte Kapazität"), 3),
-    levels = c("Ungenutzte Kapazität", "Lernrelevante Verarbeitung",
-               "Intrinsische Belastung", "Extrinsische Belastung")
-  ),
-  percentage = c(
-    60, 30, 10, 0,
-    10, 30, 60, 0,
-    10, 30, 5, 55
-  )
-) |>
-  filter(percentage > 0) |>
-  group_by(scenario) |>
-  mutate(
-    y_pos = cumsum(percentage) - percentage / 2,
-    label = if_else(percentage >= 8, paste0(percentage, "%"), "")
-  ) |>
-  ungroup()
-
-load_colors <- c(
-  "Intrinsische Belastung" = color_neutral,
-  "Extrinsische Belastung" = color_negative,
-  "Lernrelevante Verarbeitung" = color_positive,
-  "Ungenutzte Kapazität" = "#e5e7eb"
-)
-
-ggplot(cognitive_load_data, aes(x = scenario, y = percentage, fill = load_type)) +
-  geom_col(width = 0.7, color = "white", linewidth = 0.5) +
-  geom_hline(yintercept = 100, linetype = "dashed", color = brand_dark, linewidth = 0.8) +
-  geom_text(
-    aes(y = y_pos, label = label),
-    color = "white",
-    size = 4,
-    fontface = "bold"
-  ) +
-  annotate(
-    "text",
-    x = 3.45, y = 102,
-    label = "Kapazitätsgrenze",
-    size = 3.5, hjust = 0  ) +
-  scale_fill_manual(values = load_colors, name = "Belastungsart") +
-  scale_y_continuous(
-    limits = c(0, 108),
-    breaks = seq(0, 100, 25),
-    labels = paste0(seq(0, 100, 25), "%")
-  ) +
-  labs(
-    title = "Verteilung der kognitiven Belastung",
-    subtitle = "Arbeitsgedächtniskapazität ist begrenzt\u2002\u2013\u2002die Verteilung macht den Unterschied",
-    x = NULL,
-    y = "Arbeitsgedächtniskapazität"
-  ) +
-  theme_workshop() +
-  theme(
-    axis.text.x = element_text(size = 11, face = "bold"),
-    panel.grid.major.x = element_blank(),
-    legend.position = "bottom",
-    legend.title = element_text(face = "bold", size = 10),
-    legend.text = element_text(size = 9),
-    plot.margin = margin(10, 50, 10, 10)
-  ) +
-  guides(fill = guide_legend(nrow = 2, byrow = TRUE))
-```
+{{< include ../../resources/figures/fig-cognitive-load.qmd >}}
 
 ::: {.reflect}
 ### Anwendung auf die eigene Lehre

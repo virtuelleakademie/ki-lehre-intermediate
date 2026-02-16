@@ -1,0 +1,72 @@
+```{r}
+#| label: fig-evaluation-paradox
+#| echo: false
+
+library(DiagrammeR)
+
+grViz("
+digraph evaluation_paradox {
+  graph [
+    fontname = 'Helvetica'
+    bgcolor = 'transparent'
+    nodesep = 0.8
+    ranksep = 1.0
+    label = 'Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht'
+    labelloc = t
+    fontsize = 14
+    fontcolor = '#666666'
+  ]
+
+  node [
+    fontname = 'Helvetica'
+    fontsize = 12
+    style = 'filled,rounded'
+    fontcolor = 'white'
+    penwidth = 0
+    shape = box
+    margin = '0.25,0.15'
+  ]
+
+  edge [
+    fontname = 'Helvetica'
+    fontsize = 11
+    color = '#999999'
+    arrowsize = 0.8
+  ]
+
+  evaluate [
+    label = 'KI-Output\\nbewerten'
+    fillcolor = '#D55E00'
+  ]
+
+  competence [
+    label = 'Fachkompetenz'
+    fillcolor = '#64748b'
+  ]
+
+  learning [
+    label = 'Eigenes\\nLernen'
+    fillcolor = '#64748b'
+  ]
+
+  thinking [
+    label = 'Eigenes\\nDenken'
+    fillcolor = '#0072B2'
+  ]
+
+  center [
+    label = 'Internes Modell\\nnoch nicht aufgebaut'
+    fillcolor = '#F5F5F5'
+    fontcolor = '#9A4665'
+    style = 'filled'
+    shape = plaintext
+    fontsize = 11
+  ]
+
+  evaluate -> competence [label = '  erfordert  ']
+  competence -> learning [label = '  entsteht durch  ']
+  learning -> thinking [label = '  erfordert  ']
+  thinking -> evaluate [label = '  wird ersetzt\\n  durch KI  ' style = dashed color = '#D55E00']
+}
+")
+```

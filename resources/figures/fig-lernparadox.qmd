@@ -1,0 +1,92 @@
+```{r}
+#| label: fig-lernparadox
+#| echo: false
+#| fig-width: 10
+#| fig-height: 8
+source(here::here("resources/viz-setup.R"))
+
+quadrants <- tibble(
+  xmin = c(0, 5, 0, 5),
+  xmax = c(5, 10, 5, 10),
+  ymin = c(5, 5, 0, 0),
+  ymax = c(10, 10, 5, 5),
+  quadrant = c(
+    "Produktive\nAnstrengung",
+    "Experten-\nEffizienz",
+    "Unproduktive\nFrustration",
+    "Illusion des\nLernens"
+  ),
+  fill_color = c(color_positive, color_sky, "#9ca3af", color_negative),
+  importance = c("ZIEL", "OK für Fortgeschrittene", "Vermeiden", "FALLE")
+)
+
+ggplot(quadrants) +
+  geom_rect(
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = I(fill_color)),
+    alpha = 0.3,
+    color = brand_dark,
+    linewidth = 0.8
+  ) +
+  geom_text(
+    aes(
+      x = (xmin + xmax) / 2,
+      y = (ymin + ymax) / 2 + 0.7,
+      label = quadrant
+    ),
+    size = 5.5,
+    fontface = "bold",
+    lineheight = 0.9,
+    color = brand_dark,
+  ) +
+  geom_text(
+    aes(
+      x = (xmin + xmax) / 2,
+      y = (ymin + ymax) / 2 - 0.9,
+      label = importance
+    ),
+    size = 3.8,
+    fontface = "italic",
+    color = brand_dark,
+  ) +
+  geom_curve(
+    data = tibble(x = 8.2, y = 1.8, xend = 1.8, yend = 8.2),
+    aes(x = x, y = y, xend = xend, yend = yend),
+    arrow = arrow(length = unit(0.3, "cm"), type = "closed"),
+    curvature = -0.3,
+    color = brand_accent,
+    linewidth = 1.2
+  ) +
+  annotate(
+    "text",
+    x = 5, y = 4.3,
+    label = "Metakognitive Falle",
+    size = 4.2,
+    fontface = "bold.italic",
+    color = brand_accent,
+  ) +
+  scale_x_continuous(
+    breaks = c(2.5, 7.5),
+    labels = c("Schwierig", "Leicht"),
+    expand = c(0, 0)
+  ) +
+  scale_y_continuous(
+    breaks = c(2.5, 7.5),
+    labels = c("Wenig", "Viel"),
+    expand = c(0, 0)
+  ) +
+  labs(
+    title = "Das Lernparadox",
+    subtitle = "Subjektives Gefühl und tatsächliches Lernen können auseinanderklaffen",
+    x = "\nSubjektives Gefühl beim Lernen",
+    y = "Tatsächliches Lernen\n"
+  ) +
+  theme_workshop() +
+  theme(
+    panel.grid = element_blank(),
+    axis.line = element_line(color = brand_dark, linewidth = 0.8),
+    axis.text = element_text(size = 12, face = "bold"),
+    axis.title = element_text(size = 12),
+    plot.margin = margin(15, 15, 15, 15)
+  ) +
+  coord_fixed(ratio = 1)
+```
