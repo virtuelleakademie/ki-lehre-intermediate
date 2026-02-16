@@ -5,6 +5,8 @@ subtitle: "Deine Aufgabe unter der KI-Lupe"
 
 Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.
 
+{{< bi compass >}} Neu auf dieser Website? Unter [Wie du diese Website nutzt](../index.qmd#wie-du-diese-website-nutzt) findest du eine kurze Orientierung.
+
 ## Schritt 1: Eine Aufgabe auswählen und mitbringen (10 Min.)
 
 **Wähle eine konkrete Aufgabe oder Prüfung aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.
