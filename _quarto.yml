@@ -192,19 +192,19 @@ custom-callout:
   individual:
     title: "Individual Work"
     icon-symbol: "💻"
-    color: "steelblue"
+    color: "#0072B2"
     collapse: false
 
   pair:
     title: "Pair Work"
     icon-symbol: "👥"
-    color: "forestgreen"
+    color: "#059669"
     collapse: false
 
   group:
     title: "Group Work"
     icon-symbol: "👥"
-    color: "purple"
+    color: "#7c3aed"
     collapse: false
 
   # screens-down:
@@ -229,7 +229,7 @@ custom-callout:
   reflect:
     title: "Reflection"
     icon-symbol: "💭"
-    color: "purple"
+    color: "#64748b"
     collapse: false
 
   # feedback:

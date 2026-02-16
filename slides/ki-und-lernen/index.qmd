@@ -4,12 +4,25 @@ subtitle: "Wann KI das Lernen unterstützt, und wann sie es verhindert"
 ---
 
 
+## Was wir bisher wissen {.center}
+
+Lernen = **Schemabildung** im Langzeitgedächtnis
+
+Erfordert **aktive kognitive Verarbeitung**
+
+Fühlt sich **anstrengend** an (metakognitive Falle)
+
+:::{.fragment}
+### Jetzt: Was macht KI mit diesen Prozessen?
+:::
+
+
 ## Offloading vs. Outsourcing
 
 **Die entscheidende Unterscheidung**
 
 ::::{.columns}
-:::{.column width="48%"}
+:::{.column width="50%"}
 ### Cognitive Offloading
 
 Tool reduziert Arbeitsgedächtnis-Last, **während** die Person denkt
@@ -19,10 +32,7 @@ Tool reduziert Arbeitsgedächtnis-Last, **während** die Person denkt
 Lernrelevante Verarbeitung: **erhalten**
 :::
 
-:::{.column width="4%"}
-:::
-
-:::{.column width="48%"}
+:::{.column width="50%"}
 :::{.fragment}
 ### Cognitive Outsourcing
 
@@ -57,19 +67,20 @@ Akademische Fähigkeiten sind **biologisch sekundäres Wissen** (vgl. Teil 1). S
 ### Sondern: "Wird das Denken ausgelagert oder nur unterstützt?"
 
 
-## Das Evaluationsparadox {.smaller}
+## Das Evaluationsparadox
 
 **Ein verbreiteter Vorschlag:**
 
 > *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
 
-. . .
-
+:::{.fragment}
 **Das Problem:**
 
 Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, die das Lernen erst entwickeln soll.
+:::
 
-. . .
+
+## Das Evaluationsparadox
 
 | | Expert:innen | Anfänger:innen |
 |---|---|---|
@@ -77,11 +88,11 @@ Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, di
 | **KI-Fehler** | Sofort erkennbar | Nicht erkennbar |
 | **"Kritische Nutzung"** | Echte Evaluation | Oberflächliches Prüfen |
 
-. . .
-
+:::{.fragment}
 ::: {.callout-important}
 ### Kompetente Nutzung setzt Kompetenz voraus
 Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.
+:::
 :::
 
 
@@ -89,19 +100,15 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben.
 
-. . .
-
 Und: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf. Es fehlt auch die Grundlage für **Wissenstransfer** auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
-. . .
-
+:::{.fragment}
 ### Schein-Kompetenz
 
 Texte mit allen **Oberflächenmerkmalen** akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.
 
-. . .
-
 Tückischer als Plagiat, weil es **Selbsttäuschung** ist.
+:::
 
 
 ## "The Beach, Not the Ant" {.center}
@@ -128,38 +135,59 @@ Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
 - **Stärkere** Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
 - **Schwächere** Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt
 
-. . .
-
+:::{.fragment}
 ::: {.callout-warning}
 KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**.
 :::
+:::
 
 
-## Das 5-Fragen-Framework {.smaller}
+## Das 5-Fragen-Framework (1/2) {.smaller}
 
-Ein praktisches Werkzeug für die Aufgabengestaltung:
+**Schützt die Aufgabe das Lernen?**
 
-| Frage | Wenn ja... |
-|-------|-----------|
-| 1. Geht es primär ums **Lernen**? | Outsourcing verhindern |
-| 2. Werden noch **Grundlagen** aufgebaut? | Interne Verarbeitung verlangen |
-| 3. Muss **internes Wissen** nachgewiesen werden? | Outsourcing unmöglich machen |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | Aufgabe umgestalten |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | KI für die Prüfphase nutzen |
+### 1. Geht es primär ums **Lernen**?
+
+[→ Ja: Outsourcing verhindern]{style="color: #64748b;"}
+
+:::{.fragment}
+### 2. Werden noch **Grundlagen** aufgebaut?
+
+[→ Ja: Interne Verarbeitung verlangen]{style="color: #64748b;"}
+:::
+
+:::{.fragment}
+### 3. Muss **internes Wissen** nachgewiesen werden?
+
+[→ Ja: Outsourcing unmöglich machen]{style="color: #64748b;"}
+:::
+
+
+## Das 5-Fragen-Framework (2/2) {.smaller}
+
+**Muss die Aufgabe angepasst werden?**
+
+### 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen?
+
+[→ Ja: Aufgabe umgestalten]{style="color: #64748b;"}
+
+:::{.fragment}
+### 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**?
+
+[→ Nein: Struktur einbauen]{style="color: #64748b;"}
+:::
 
 
 ## Die goldene Regel {.center}
 
 ### Versuch → dann → Prüfe
 
-. . .
-
 1. Studierende machen **zuerst** einen eigenen Versuch
 2. **Dann** wird mit KI verglichen, geprüft, oder erweitert
 
-. . .
-
+:::{.fragment}
 Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende verarbeiten das Material im Arbeitsgedächtnis, bilden Vorhersagen und lernen aus Vorhersagefehlern.
+:::
 
 
 ## Jetzt seid ihr dran {.center}

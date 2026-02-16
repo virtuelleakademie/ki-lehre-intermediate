@@ -9,11 +9,13 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Andrew Ellis">
-  <title>KI in der Lehre: Intermediate – index</title>
+  <title>KI in der Lehre: Intermediate – Wie Menschen lernen</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -52,7 +54,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-701c02e37985874ded8431f2a098005a.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-f5b30fe0a1365ca1d65202835e28cfaa.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -164,37 +166,15 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
     background-image: none;
   }
   div.callout-facilitator.callout {
@@ -208,37 +188,26 @@
     content: '📋';
     background-image: none;
   }
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
   }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
     background-image: none;
   }
-  div.callout-reflect.callout {
-    border-left-color: purple;
+  div.callout-pair.callout {
+    border-left-color: #059669;
   }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
   }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
-  div.callout-nachlesen.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-nachlesen.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-    content: '📖';
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   div.callout-active-processing.callout {
@@ -252,19 +221,53 @@
     content: '📝';
     background-image: none;
   }
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
+  div.callout-group.callout {
+    border-left-color: #7c3aed;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgba(124, 58, 237, 0.13);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: #0072B2;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgba(0, 114, 178, 0.13);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   </style>
-<meta property="og:title" content="KI in der Lehre: Intermediate">
+<meta property="og:title" content="Wie Menschen lernen – KI in der Lehre: Intermediate">
+<meta property="og:description" content="The right kind of cognitive effort is not a bug—it’s a signal that learning is happening">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 <body class="quarto-light">
@@ -285,25 +288,32 @@ Andrew Ellis
 
   <p class="date">20 Februar, 2026</p>
 </section>
-<section id="ki-kann-uns-produktiver-machen" class="slide level2">
-<h2>KI kann uns produktiver machen</h2>
-<p><strong>Forschung zeigt</strong>: KI steigert Produktivität und Qualität bei kognitiven Aufgaben, aber mit Nebenwirkungen.</p>
-<div class="fragment">
+<section id="ki-steigert-produktivität" class="slide level2">
+<h2>KI steigert Produktivität</h2>
+<p><strong>Forschung zeigt:</strong> KI verbessert Leistung bei kognitiven Aufgaben</p>
 <ul>
-<li>Automatisierung von routinemässigen kognitiven Aufgaben ist möglich</li>
-<li>Unterstützung kreativer Arbeit ist möglich</li>
-<li><strong>Deskilling</strong>: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren</li>
-<li>Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt</li>
+<li>Routineaufgaben werden schneller erledigt</li>
+<li>Kreative Arbeit wird unterstützt</li>
+<li>Qualität steigt (bei Expert:innen)</li>
 </ul>
+
+<aside><div>
+<p><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific2025">Toner-Rodgers (<a href="#/bibliographie" role="doc-biblioref" onclick="">2025</a>)</span></p>
+</div></aside></section>
+<section id="aber-es-gibt-nebenwirkungen" class="slide level2">
+<h2>Aber es gibt Nebenwirkungen</h2>
+<div class="fragment">
+<p><strong>Deskilling</strong>: Eigene Fähigkeiten verkümmern bei dauerhafter KI-Nutzung</p>
+</div>
+<div class="fragment">
+<p>Ohne Training setzen Menschen KI für ungeeignete Aufgaben ein</p>
 </div>
 
 <aside><div>
-<p><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">Dell’Acqua u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific2025">Toner-Rodgers (<a href="#/bibliographie" role="doc-biblioref" onclick="">2025</a>)</span>; <span class="citation" data-cites="cuiEffectsGenerativeAI2024">Cui u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2024</a>)</span></p>
+<p><span class="citation" data-cites="cuiEffectsGenerativeAI2024">Cui u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2024</a>)</span></p>
 </div></aside></section>
 <section id="section" class="slide level2 center">
 <h2></h2>
-<p>Aber halt…</p>
-<p>…</p>
 <div class="fragment">
 <h3 id="sollten-lernende-überhaupt-produktiver-sein">Sollten <strong>Lernende</strong> überhaupt produktiver sein?</h3>
 </div>
@@ -316,24 +326,25 @@ Andrew Ellis
 <p>Wir unterscheiden zwischen <span class="citation" data-cites="gearyEvolutionarilyInformedEducation2008 swellerDevelopmentCognitiveLoad2023">(<a href="#/bibliographie" role="doc-biblioref" onclick="">GEARY 2008</a>; <a href="#/bibliographie" role="doc-biblioref" onclick="">Sweller 2023</a>)</span>:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Biologisch primärem Wissen</strong>:</p>
+<h3 id="biologisch-primär"><i class="fa-solid fa-baby" aria-label="baby"></i> Biologisch primär</h3>
 <ul>
-<li>Entwickelt sich bei normaler Umgebung ohne formale Instruktion</li>
-<li>Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion</li>
+<li>Entwickelt sich natürlich</li>
+<li>Keine formale Instruktion nötig</li>
 </ul>
+<p><strong>Beispiele:</strong> Sprechen, Gesichtserkennung, soziale Interaktion</p>
 </div><div class="column" style="width:50%;">
-<p><strong>Biologisch sekundärem Wissen</strong>:</p>
+<h3 id="biologisch-sekundär"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Biologisch sekundär</h3>
 <ul>
-<li>Kulturelle Errungenschaften ohne evolutionäre Anpassung</li>
-<li>Erfordert bewusste Anstrengung und Instruktion</li>
-<li>Beispiele: Lesen, Schreiben, Mathematik, Programmieren</li>
+<li>Kulturelle Errungenschaften</li>
+<li>Erfordert bewusste Anstrengung</li>
 </ul>
+<p><strong>Beispiele:</strong> Lesen, Schreiben, Mathematik, Programmieren</p>
 </div></div>
 <div class="fragment">
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, und and Clark 2006</a>)</span>.</p>
+<p>Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben <span class="citation" data-cites="kirschnerWhyMinimalGuidance2006">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kirschner, und and Clark 2006</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -390,37 +401,9 @@ Andrew Ellis
 </tbody>
 </table>
 </section>
-<section id="cognitive-load-theory" class="slide level2">
-<h2>Cognitive Load Theory</h2>
-<p><strong>Warum Anfänger anders lernen müssen als Experten</strong> <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Sweller 2023</a>)</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="arbeitsgedächtnis">Arbeitsgedächtnis</h3>
-<ul>
-<li><strong>Begrenzt</strong>: ~4 Elemente gleichzeitig</li>
-<li><strong>Flüchtig</strong>: Sekunden ohne Wiederholung</li>
-<li><strong>Nadelöhr</strong>: Bewusste Verarbeitung findet hier statt</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h3 id="langzeitgedächtnis">Langzeitgedächtnis</h3>
-<ul>
-<li><strong>Unbegrenzt</strong>: Keine bekannte Obergrenze</li>
-<li><strong>Dauerhaft</strong>: Jahre bis lebenslang</li>
-<li><strong>Organisiert</strong>: Schemata und automatisierte Prozesse</li>
-</ul>
-</div></div>
-<div class="fragment">
-<div class="callout callout-tip no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p><strong>Kernprinzip</strong>: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="das-nadelöhr-des-lernens" class="slide level2">
+<section id="das-nadelöhr-des-lernens" class="slide level2 smaller">
 <h2>Das Nadelöhr des Lernens</h2>
+<p><strong>Cognitive Load Theory</strong> <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Sweller 2023</a>)</span></p>
 <div class="cell">
 <div id="fig-bottleneck" class="cell-output-display quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig">
@@ -434,6 +417,13 @@ Abbildung&nbsp;1
 </figure>
 </div>
 </div>
+<div class="callout callout-tip no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Kernprinzip</strong>: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="zwei-quellen-kognitiver-belastung" class="slide level2">
 <h2>Zwei Quellen kognitiver Belastung</h2>
@@ -443,11 +433,9 @@ Abbildung&nbsp;1
 <p>Komplexität des Lernstoffs selbst (Elementinteraktivität)</p>
 <p><em>Begrenzt steuerbar (Sequenzierung)</em></p>
 </div><div class="column" style="width:50%;">
-<div class="fragment">
 <p><strong>Extrinsisch</strong></p>
 <p>Wie Material präsentiert wird</p>
 <p><em>Durch Design <strong>minimierbar</strong></em></p>
-</div>
 </div></div>
 <div class="fragment">
 <div class="callout callout-tip no-icon callout-style-simple">
@@ -637,6 +625,18 @@ Abbildung&nbsp;3: Expertise Reversal Effekt nach <span class="citation" data-cit
 <p>Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln</p>
 </div>
 </section>
+<section id="drei-verbreitete-missverständnisse" class="slide level2 center">
+<h2>Drei verbreitete Missverständnisse</h2>
+<div class="fragment">
+<p>“Wenn es <strong>schwer</strong> ist, lerne ich nicht.”</p>
+</div>
+<div class="fragment">
+<p>“Wenn ich etwas <strong>produziere</strong>, lerne ich.”</p>
+</div>
+<div class="fragment">
+<p>“KI macht mich <strong>produktiver</strong>, also lerne ich <strong>mehr</strong>.”</p>
+</div>
+</section>
 <section id="das-lernparadox-12" class="slide level2">
 <h2>Das Lernparadox (1/2)</h2>
 <h3 id="beim-kämpfen-mit-einem-problem">Beim <strong>Kämpfen</strong> mit einem Problem</h3>
@@ -715,6 +715,15 @@ Abbildung&nbsp;3: Expertise Reversal Effekt nach <span class="citation" data-cit
 <div class="fragment">
 <p><br></p>
 <p><strong>Merksatz:</strong> “The right kind of cognitive effort is not a bug—it’s a signal that learning is happening.”</p>
+</div>
+</section>
+<section id="was-wir-jetzt-wissen" class="slide level2 center">
+<h2>Was wir jetzt wissen</h2>
+<p>Lernen = <strong>Schemabildung</strong> im Langzeitgedächtnis</p>
+<p>Erfordert <strong>aktive kognitive Verarbeitung</strong></p>
+<p>Fühlt sich <strong>anstrengend</strong> an (metakognitive Falle)</p>
+<div class="fragment">
+<h3 id="jetzt-die-frage-was-macht-ki-mit-diesen-prozessen">Jetzt die Frage: Was macht KI mit diesen Prozessen?</h3>
 </div>
 </section>
 <section id="bibliographie" class="slide level2 smaller scrollable">

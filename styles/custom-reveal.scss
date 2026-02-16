@@ -1,45 +1,154 @@
-/*-- scss:rules --*/
-
 /*-- scss:defaults --*/
 
 @import url(https://fonts.googleapis.com/css?family=Jura:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
-// fonts
+// Fonts
 $font-family-sans-serif: Lato, sans-serif !default;
-$presentation-font-size-root : 32px !default;
+$presentation-font-size-root: 32px !default;
 
 // Brand palette (from _brand.yml)
 $brand-dark: #222222;
 $brand-light: #F5F5F5;
 $brand-accent: #9A4665;
+$brand-accent-dark: #7a3552; // Darker burgundy for WCAG AAA links
 
-// colors
+// Mid-tones
+$brand-medium: #64748b;
+$brand-border: #e5e7eb;
+
+// Data colors (Okabe-Ito)
+$color-positive: #0072B2;
+$color-negative: #D55E00;
+$color-attention: #E69F00;
+
+// Base colors
 $body-bg: #fff !default;
 $body-color: $brand-dark !default;
-$link-color: $brand-accent !default;
+$link-color: $brand-accent-dark !default;
 $selection-bg: rgba(0, 0, 0, 0.99);
 
-// headings (Jura from brand, Lato body for readability)
+// Headings
 $presentation-heading-font: "Jura", "Lato", sans-serif !default;
 
+
+/*-- scss:rules --*/
+
+// Typography hierarchy — tighter letter-spacing and bolder weight for Jura
+.reveal h2 {
+  font-size: 1.6em;
+  font-weight: 700;
+  color: $brand-dark;
+  margin-bottom: 0.8em;
+  margin-top: 0.3em;
+  letter-spacing: -0.02em;
+}
+
+.reveal h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: $brand-accent;
+  margin-bottom: 0.6em;
+}
+
+// Columns layout
 .columns {
   display: flex;
   justify-content: space-between;
 }
 
-.reveal h2 {
-  margin-bottom: 20px;
-  margin-top: -10px;
+// Footer
+.reveal .footer a {
+  color: $brand-dark;
 }
 
-.reveal .footer {
-  a {
-    color: $brand-dark;
-  }
+// Links — hover restores original burgundy
+.reveal a:hover {
+  color: $brand-accent;
 }
 
+// Code blocks
 .reveal div.sourceCode {
   margin-bottom: 0.3rem !important;
   margin-top: 0.3rem !important;
+}
+
+// Callout boxes — subtle left-border styling for slides
+.reveal .callout {
+  border-left: 4px solid $brand-accent;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 0.6em 1em;
+  background: rgba(154, 70, 101, 0.06);
+  border-radius: 0;
+  margin: 0.8em 0;
+}
+
+.reveal .callout .callout-header {
+  font-weight: 700;
+  color: $brand-accent;
+}
+
+.reveal .callout-important {
+  border-left-color: $brand-accent;
+  background: rgba(154, 70, 101, 0.06);
+}
+
+.reveal .callout-warning {
+  border-left-color: $color-attention;
+  background: rgba(230, 159, 0, 0.06);
+}
+
+.reveal .callout-tip {
+  border-left-color: $color-positive;
+  background: rgba(0, 114, 178, 0.06);
+}
+
+.reveal .callout-note {
+  border-left-color: $brand-medium;
+  background: rgba(100, 116, 139, 0.06);
+}
+
+// Tables — polished with accent first-column
+.reveal table {
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+.reveal table thead {
+  border-bottom: 2px solid $brand-dark;
+}
+
+.reveal table thead th {
+  font-weight: 700;
+  color: $brand-dark;
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+
+.reveal table tbody tr {
+  border-bottom: 1px solid $brand-border;
+}
+
+.reveal table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.reveal table tbody td {
+  padding: 0.5em 0.8em;
+  vertical-align: top;
+}
+
+.reveal table tbody td:first-child {
+  font-weight: 600;
+  color: $brand-accent;
+}
+
+// Aside citations — smaller and greyer
+.reveal aside,
+.reveal .aside {
+  font-size: 0.6em;
+  color: $brand-medium;
+  margin-top: 1.5em;
 }

@@ -11,14 +11,14 @@
     "href": "slides/wie-menschen-lernen/index.html#section",
     "title": "Wie Menschen lernen",
     "section": "",
-    "text": "Aber halt…\n…\n\nSollten Lernende überhaupt produktiver sein?\n\n\nWas ist, wenn der kognitive Prozess beim Lernen wichtiger ist als das Ergebnis?"
+    "text": "Sollten Lernende überhaupt produktiver sein?\n\n\nWas ist, wenn der kognitive Prozess beim Lernen wichtiger ist als das Ergebnis?"
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
     "href": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
     "title": "Wie Menschen lernen",
     "section": "Warum existieren Schulen?",
-    "text": "Warum existieren Schulen?\nWir unterscheiden zwischen (GEARY 2008; Sweller 2023):\n\n\nBiologisch primärem Wissen:\n\nEntwickelt sich bei normaler Umgebung ohne formale Instruktion\nBeispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion\n\n\nBiologisch sekundärem Wissen:\n\nKulturelle Errungenschaften ohne evolutionäre Anpassung\nErfordert bewusste Anstrengung und Instruktion\nBeispiele: Lesen, Schreiben, Mathematik, Programmieren\n\n\n\n\n\n\nAkademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben. Sie entstehen nicht durch Entdeckung allein (Kirschner, und and Clark 2006)."
+    "text": "Warum existieren Schulen?\nWir unterscheiden zwischen (GEARY 2008; Sweller 2023):\n\n\n Biologisch primär\n\nEntwickelt sich natürlich\nKeine formale Instruktion nötig\n\nBeispiele: Sprechen, Gesichtserkennung, soziale Interaktion\n\n Biologisch sekundär\n\nKulturelle Errungenschaften\nErfordert bewusste Anstrengung\n\nBeispiele: Lesen, Schreiben, Mathematik, Programmieren\n\n\n\n\n\nAkademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben (Kirschner, und and Clark 2006)."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#experten-vs.-anfänger",
@@ -39,14 +39,14 @@
     "href": "slides/wie-menschen-lernen/index.html#das-nadelöhr-des-lernens",
     "title": "Wie Menschen lernen",
     "section": "Das Nadelöhr des Lernens",
-    "text": "Das Nadelöhr des Lernens\n\n\n\n\n\n\n\n\nAbbildung 1"
+    "text": "Das Nadelöhr des Lernens\nCognitive Load Theory (Sweller 2023)\n\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\nKernprinzip: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#zwei-quellen-kognitiver-belastung",
     "href": "slides/wie-menschen-lernen/index.html#zwei-quellen-kognitiver-belastung",
     "title": "Wie Menschen lernen",
     "section": "Zwei Quellen kognitiver Belastung",
-    "text": "Zwei Quellen kognitiver Belastung\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst (Elementinteraktivität)\nBegrenzt steuerbar (Sequenzierung)\n\n\nExtrinsisch\nWie Material präsentiert wird\nDurch Design minimierbar\n\n\n\n\n\n\nDas Ziel: Raum schaffen für germane processing, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung."
+    "text": "Zwei Quellen kognitiver Belastung\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst (Elementinteraktivität)\nBegrenzt steuerbar (Sequenzierung)\n\nExtrinsisch\nWie Material präsentiert wird\nDurch Design minimierbar\n\n\n\n\n\nDas Ziel: Raum schaffen für germane processing, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#verteilung-der-kognitiven-belastung",
@@ -1336,7 +1336,7 @@
     "href": "slides/ki-und-lernen/index.html#offloading-vs.-outsourcing",
     "title": "KI & Lernen",
     "section": "Offloading vs. Outsourcing",
-    "text": "Offloading vs. Outsourcing\nDie entscheidende Unterscheidung\n\n\nCognitive Offloading\nTool reduziert Arbeitsgedächtnis-Last, während die Person denkt\nBeispiel: Taschenrechner bei Problemlösung\nLernrelevante Verarbeitung: erhalten\n\n\n\n\nCognitive Outsourcing\nTool übernimmt das Denken\nBeispiel: KI schreibt den Aufsatz\nLernrelevante Verarbeitung: eliminiert\n\n\n\n\n\n\nOutsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.\n\n\n\n\n\nAkademische Fähigkeiten sind biologisch sekundäres Wissen (vgl. Teil 1). Solches Wissen erfordert aktive kognitive Verarbeitung: Abrufen, Elaborieren, Verknüpfen. Ohne diese Prozesse findet kein Erwerb statt."
+    "text": "Offloading vs. Outsourcing\nDie entscheidende Unterscheidung\n\n\nCognitive Offloading\nTool reduziert Arbeitsgedächtnis-Last, während die Person denkt\nBeispiel: Taschenrechner bei Problemlösung\nLernrelevante Verarbeitung: erhalten\n\n\nCognitive Outsourcing\nTool übernimmt das Denken\nBeispiel: KI schreibt den Aufsatz\nLernrelevante Verarbeitung: eliminiert\n\n\n\n\n\n\nOutsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.\n\n\n\n\n\nAkademische Fähigkeiten sind biologisch sekundäres Wissen (vgl. Teil 1). Solches Wissen erfordert aktive kognitive Verarbeitung: Abrufen, Elaborieren, Verknüpfen. Ohne diese Prozesse findet kein Erwerb statt."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#die-frage-ist-nicht",
@@ -1350,14 +1350,14 @@
     "href": "slides/ki-und-lernen/index.html#das-evaluationsparadox",
     "title": "KI & Lernen",
     "section": "Das Evaluationsparadox",
-    "text": "Das Evaluationsparadox\nEin verbreiteter Vorschlag:\n\n“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”\n\n\nDas Problem:\nUm KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.\n\n\n\n\n\n\nExpert:innen\nAnfänger:innen\n\n\n\n\nBewertungskriterien\nUnabhängig vorhanden\nFehlen\n\n\nKI-Fehler\nSofort erkennbar\nNicht erkennbar\n\n\n“Kritische Nutzung”\nEchte Evaluation\nOberflächliches Prüfen\n\n\n\n\n\n\n\n\nKompetente Nutzung setzt Kompetenz voraus\n\n\nExpert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit."
+    "text": "Das Evaluationsparadox\nEin verbreiteter Vorschlag:\n\n“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”\n\n\nDas Problem:\nUm KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#lernen-leisten",
     "href": "slides/ki-und-lernen/index.html#lernen-leisten",
     "title": "KI & Lernen",
     "section": "Lernen ≠ Leisten",
-    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben.\n\nUnd: Wer die Denkarbeit auslagert, baut nicht nur dieses Wissen nicht auf. Es fehlt auch die Grundlage für Wissenstransfer auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, was transferiert werden könnte.\n\n\nSchein-Kompetenz\nTexte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.\n. . .\nTückischer als Plagiat, weil es Selbsttäuschung ist."
+    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben.\nUnd: Wer die Denkarbeit auslagert, baut nicht nur dieses Wissen nicht auf. Es fehlt auch die Grundlage für Wissenstransfer auf neue Situationen. Ohne tiefe Wissensstrukturen gibt es nichts, was transferiert werden könnte.\n\nSchein-Kompetenz\nTexte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.\nTückischer als Plagiat, weil es Selbsttäuschung ist."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#the-beach-not-the-ant",
@@ -1385,7 +1385,7 @@
     "href": "slides/ki-und-lernen/index.html#die-goldene-regel",
     "title": "KI & Lernen",
     "section": "Die goldene Regel",
-    "text": "Die goldene Regel\nVersuch → dann → Prüfe\n. . .\n\nStudierende machen zuerst einen eigenen Versuch\nDann wird mit KI verglichen, geprüft, oder erweitert\n\n. . .\nDie Reihenfolge bewahrt die aktive Schemabildung: Studierende verarbeiten das Material im Arbeitsgedächtnis, bilden Vorhersagen und lernen aus Vorhersagefehlern."
+    "text": "Die goldene Regel\nVersuch → dann → Prüfe\n\nStudierende machen zuerst einen eigenen Versuch\nDann wird mit KI verglichen, geprüft, oder erweitert\n\n\nDie Reihenfolge bewahrt die aktive Schemabildung: Studierende verarbeiten das Material im Arbeitsgedächtnis, bilden Vorhersagen und lernen aus Vorhersagefehlern."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#jetzt-seid-ihr-dran",
@@ -1400,5 +1400,61 @@
     "title": "KI in der Lehre: Intermediate",
     "section": " Workshop-Struktur",
     "text": "Workshop-Struktur\nDer Workshop besteht aus drei aufeinander aufbauenden Teilen. Zuerst legst du die kognitionswissenschaftliche Grundlage, dann wendest du sie auf KI an, und zum Schluss gestaltest du eigene Aufgaben um.\n\n\n\n\n\n\n\n\nAbbildung 1"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#ki-steigert-produktivität",
+    "href": "slides/wie-menschen-lernen/index.html#ki-steigert-produktivität",
+    "title": "Wie Menschen lernen",
+    "section": "KI steigert Produktivität",
+    "text": "KI steigert Produktivität\nForschung zeigt: KI verbessert Leistung bei kognitiven Aufgaben\n\nRoutineaufgaben werden schneller erledigt\nKreative Arbeit wird unterstützt\nQualität steigt (bei Expert:innen)\n\n\n\nDell’Acqua u. a. (2023); Toner-Rodgers (2025)"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#aber-es-gibt-nebenwirkungen",
+    "href": "slides/wie-menschen-lernen/index.html#aber-es-gibt-nebenwirkungen",
+    "title": "Wie Menschen lernen",
+    "section": "Aber es gibt Nebenwirkungen",
+    "text": "Aber es gibt Nebenwirkungen\n\nDeskilling: Eigene Fähigkeiten verkümmern bei dauerhafter KI-Nutzung\n\n\nOhne Training setzen Menschen KI für ungeeignete Aufgaben ein\n\n\n\nCui u. a. (2024)"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#drei-verbreitete-missverständnisse",
+    "href": "slides/wie-menschen-lernen/index.html#drei-verbreitete-missverständnisse",
+    "title": "Wie Menschen lernen",
+    "section": "Drei verbreitete Missverständnisse",
+    "text": "Drei verbreitete Missverständnisse\n\n“Wenn es schwer ist, lerne ich nicht.”\n\n\n“Wenn ich etwas produziere, lerne ich.”\n\n\n“KI macht mich produktiver, also lerne ich mehr.”"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#was-wir-jetzt-wissen",
+    "href": "slides/wie-menschen-lernen/index.html#was-wir-jetzt-wissen",
+    "title": "Wie Menschen lernen",
+    "section": "Was wir jetzt wissen",
+    "text": "Was wir jetzt wissen\nLernen = Schemabildung im Langzeitgedächtnis\nErfordert aktive kognitive Verarbeitung\nFühlt sich anstrengend an (metakognitive Falle)\n\nJetzt die Frage: Was macht KI mit diesen Prozessen?"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#was-wir-bisher-wissen",
+    "href": "slides/ki-und-lernen/index.html#was-wir-bisher-wissen",
+    "title": "KI & Lernen",
+    "section": "Was wir bisher wissen",
+    "text": "Was wir bisher wissen\nLernen = Schemabildung im Langzeitgedächtnis\nErfordert aktive kognitive Verarbeitung\nFühlt sich anstrengend an (metakognitive Falle)\n\nJetzt: Was macht KI mit diesen Prozessen?"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#das-evaluationsparadox-1",
+    "href": "slides/ki-und-lernen/index.html#das-evaluationsparadox-1",
+    "title": "KI & Lernen",
+    "section": "Das Evaluationsparadox",
+    "text": "Das Evaluationsparadox\n\n\n\n\nExpert:innen\nAnfänger:innen\n\n\n\n\nBewertungskriterien\nUnabhängig vorhanden\nFehlen\n\n\nKI-Fehler\nSofort erkennbar\nNicht erkennbar\n\n\n“Kritische Nutzung”\nEchte Evaluation\nOberflächliches Prüfen\n\n\n\n\n\n\n\nKompetente Nutzung setzt Kompetenz voraus\n\n\nExpert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#das-5-fragen-framework-12",
+    "href": "slides/ki-und-lernen/index.html#das-5-fragen-framework-12",
+    "title": "KI & Lernen",
+    "section": "Das 5-Fragen-Framework (1/2)",
+    "text": "Das 5-Fragen-Framework (1/2)\nSchützt die Aufgabe das Lernen?\n1. Geht es primär ums Lernen?\n→ Ja: Outsourcing verhindern\n\n2. Werden noch Grundlagen aufgebaut?\n→ Ja: Interne Verarbeitung verlangen\n\n\n3. Muss internes Wissen nachgewiesen werden?\n→ Ja: Outsourcing unmöglich machen"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#das-5-fragen-framework-22",
+    "href": "slides/ki-und-lernen/index.html#das-5-fragen-framework-22",
+    "title": "KI & Lernen",
+    "section": "Das 5-Fragen-Framework (2/2)",
+    "text": "Das 5-Fragen-Framework (2/2)\nMuss die Aufgabe angepasst werden?\n4. Kann KI die Aufgabe ohne Denkarbeit erledigen?\n→ Ja: Aufgabe umgestalten\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\n→ Nein: Struktur einbauen"
   }
 ]
