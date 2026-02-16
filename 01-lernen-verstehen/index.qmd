@@ -25,8 +25,8 @@ Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): 
 
 **Elementinteraktivität spüren:** Dieselben Zahlen, zwei verschiedene Aufgaben.
 
-1. **Aufgabe 1** (Speichern): Die Kursleitung nennt vier Zahlen (z.B. 3, 7, 2, 5). Schreibe sie nach einer kurzen Pause auf.
-2. **Aufgabe 2** (Verarbeiten): Die Kursleitung gibt eine Rechenaufgabe mit denselben vier Zahlen: "Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5." Löse im Kopf und notiere das Ergebnis.
+1. **Aufgabe 1** (Speichern): Du hörst vier Zahlen (z.B. 3, 7, 2, 5). Schreibe sie nach einer kurzen Pause auf.
+2. **Aufgabe 2** (Verarbeiten): Du hörst eine Rechenaufgabe mit denselben vier Zahlen: "Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5." Löse im Kopf und notiere das Ergebnis.
 3. **Bonusrunde**: Zwei Rechenketten gleichzeitig, abwechselnd ein Schritt pro Kette.
 
 **Die Pointe**: In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig voneinander. In Aufgabe 2 musste jede Zahl mit den vorherigen *in Beziehung* verarbeitet werden. Genau das passiert beim Verstehen neuer Konzepte: Studierende müssen Elemente und ihre Beziehungen gleichzeitig im Arbeitsgedächtnis halten. Nicht die *Menge*, sondern die *Interaktion* zwischen den Elementen erzeugt die kognitive Belastung.
