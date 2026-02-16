@@ -114,7 +114,7 @@ Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und
 ### Handouts
 
 - [Das 5-Fragen-Framework](./5-fragen-framework/)
-- [Die 8 Make it Stick Strategien](../resources/handout-make-it-stick/)
+- [Lernstrategien aus Make it Stick](../resources/handout-make-it-stick/)
 
 ### Vertiefung
 
