@@ -32,4 +32,4 @@ Am Ende des Workshops können die Teilnehmer:innen:
 3. **Aufgaben analysieren**: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen
 4. **Praxis umsetzen**: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist
 
-{{< bi arrow-right >}} [Zur Vorbereitung](../vorbereitung/index.qmd) (ca. 20 Min.)
+{{< bi arrow-right >}} [Zur Vorbereitung](../vorbereitung/index.qmd) (ca. 30 Min.)

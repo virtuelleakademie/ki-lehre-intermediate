@@ -523,7 +523,7 @@
     "href": "workshop/index.html#lernziele",
     "title": "Ablauf",
     "section": "Lernziele",
-    "text": "Lernziele\nAm Ende des Workshops können die Teilnehmer:innen:\n\nLernen verstehen: Erklären, welche kognitiven Prozesse (Schemabildung, Abruf, Elaboration) Expertise aufbauen und warum sich diese Prozesse anstrengend anfühlen\nKI einordnen: Unterscheiden, wann KI-Nutzung Lernen unterstützt (Offloading) und wann sie es verhindert (Outsourcing)\nAufgaben analysieren: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen\nPraxis umsetzen: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist\n\n Zur Vorbereitung (ca. 20 Min.)",
+    "text": "Lernziele\nAm Ende des Workshops können die Teilnehmer:innen:\n\nLernen verstehen: Erklären, welche kognitiven Prozesse (Schemabildung, Abruf, Elaboration) Expertise aufbauen und warum sich diese Prozesse anstrengend anfühlen\nKI einordnen: Unterscheiden, wann KI-Nutzung Lernen unterstützt (Offloading) und wann sie es verhindert (Outsourcing)\nAufgaben analysieren: Eigene Aufgaben mit dem 5-Fragen-Framework auf lernrelevante kognitive Last prüfen\nPraxis umsetzen: Aufgaben so (um)gestalten, dass produktive Anstrengung der natürliche Weg ist\n\n Zur Vorbereitung (ca. 30 Min.)",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -618,12 +618,12 @@
   {
     "objectID": "vorbereitung/index.html",
     "href": "vorbereitung/index.html",
-    "title": "Vorbereitung (ca. 20 Min.)",
+    "title": "Vorbereitung (ca. 30 Min.)",
     "section": "",
     "text": "Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.",
     "crumbs": [
       "Workshop",
-      "Vorbereitung (ca. 20 Min.)"
+      "Vorbereitung (ca. 30 Min.)"
     ]
   },
   {
@@ -1376,5 +1376,27 @@
     "title": "KI & Lernen",
     "section": "Jetzt seid ihr dran",
     "text": "Jetzt seid ihr dran\nIm nächsten Teil wendet ihr dieses Framework auf eure eigenen Aufgaben an.\n\nAuf der Website findet ihr ein Agent-Template, das die Versuch-dann-Prüfe-Struktur in einen KI-Agent übersetzt: Studierende arbeiten zuerst selbst, der Agent gibt erst danach gezieltes Feedback.\n\n\n\n\n\nBjork, Robert A. 1994. „Memory and Metamemory Considerations in the Training of Human Beings“. In Metacognition: Knowing about Knowing, 185–205. Cambridge, MA, US: The MIT Press. https://doi.org/10.7551/mitpress/4561.001.0001."
+  },
+  {
+    "objectID": "vorbereitung/index.html#schritt-1-eine-aufgabe-auswählen-und-mitbringen-10-min.",
+    "href": "vorbereitung/index.html#schritt-1-eine-aufgabe-auswählen-und-mitbringen-10-min.",
+    "title": "Vorbereitung (ca. 30 Min.)",
+    "section": "Schritt 1: Eine Aufgabe auswählen und mitbringen (10 Min.)",
+    "text": "Schritt 1: Eine Aufgabe auswählen und mitbringen (10 Min.)\nWähle eine konkrete Aufgabe oder Prüfung aus deiner Lehre, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.\nAm besten eignen sich Aufgaben, die:\n\nausserhalb des Unterrichts bearbeitet werden (ohne direkte Aufsicht)\nbei denen KI-Tools eine Rolle spielen könnten\ndie du idealerweise schon einmal eingesetzt hast\n\nBringe die Aufgabenstellung mit (digital oder ausgedruckt).",
+    "crumbs": [
+      "Workshop",
+      "Vorbereitung (ca. 30 Min.)"
+    ]
+  },
+  {
+    "objectID": "vorbereitung/index.html#schritt-2-kurze-selbstanalyse-der-aufgabe-20-min.",
+    "href": "vorbereitung/index.html#schritt-2-kurze-selbstanalyse-der-aufgabe-20-min.",
+    "title": "Vorbereitung (ca. 30 Min.)",
+    "section": "Schritt 2: Kurze Selbstanalyse der Aufgabe (20 Min.)",
+    "text": "Schritt 2: Kurze Selbstanalyse der Aufgabe (20 Min.)\nBeantworte diese drei Fragen für deine Aufgabe in Stichworten und bringe deine Notizen in den Workshop mit.\n\nWas sollen Studierende durch diese Aufgabe lernen? Nicht: Was sollen sie abgeben, sondern: Was soll sich in ihren Köpfen verändern?\nWas passiert, wenn Studierende die Aufgabe komplett mit ChatGPT lösen? Probiere es nach Möglichkeit selbst aus. Gib die Aufgabenstellung in ein KI-Tool ein und schau, was herauskommt.\nWo siehst du die grösste Gefahr, dass Studierende zu wenig lernen, weil die KI die Denkarbeit übernimmt?",
+    "crumbs": [
+      "Workshop",
+      "Vorbereitung (ca. 30 Min.)"
+    ]
   }
 ]
