@@ -10,7 +10,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 ### Materialien
 
 - Karten und Stifte auf den Tischen (für die Generierungsaktivität)
-- Karteikarten oder halbe A4-Blätter vorbereiten (für die kollegiale Kurzberatung in Teil 3)
+- Karteikarten oder halbe A4-Blätter vorbereiten (für die Peer-Diagnose in Teil 3)
 - Slides geladen: `wie-menschen-lernen` und `ki-und-lernen`
 - Browser-Tabs vorbereitet: [Teil 1](../../01-lernen-verstehen/), [Teil 2](../../02-ki-und-lernen/), [Teil 3](../../03-praxis/), [Fallstudien](../../03-praxis/fallstudien/)
 - Timer-App bereit (oder das Timer-Shortcode auf den Seiten nutzen)
@@ -174,7 +174,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 - "Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?"
 - Optional (wenn 30 Sekunden übrig): "Vergleicht eure Formulierungen kurz mit dem Nachbarn."
 
-**Übergang:** "Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende habt ihr eine konkrete Analyse, kollegiales Feedback und einen 1-Satz-Redesign-Plan."
+**Übergang:** "Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr gegenseitig die Schwachstellen eurer Aufgaben. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
 
 **Timing-Check:** Du solltest bei ca. 10:50 sein.
 
@@ -235,7 +235,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 - "Schreibe in einem Satz auf: Was war die wichtigste Erkenntnis aus deiner Analyse? Und dann: Für welche *andere* Aufgabe aus deiner Lehre wäre die Analyse vermutlich ganz anders ausgefallen? Denke bewusst an einen anderen Aufgabentyp."
 - Diese Brücke primed die zweite Aufgabe für Aktivität 2.
 
-### Aktivität 2: Kollegiale Kurzberatung (20 Min)
+### Aktivität 2: Peer-Diagnose (20 Min)
 
 **Überleitung:** "Bildschirme zu, Stifte raus. Ab jetzt arbeiten wir analog." Karteikarten oder halbe A4-Blätter verteilen. **Neue Paare** bilden (nicht dieselben wie bei Aktivität 1).
 
@@ -244,7 +244,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 - Schritt 1 (3 Min): Framework-Fragen aus dem Gedächtnis auf die Karte schreiben, zweite Aufgabe wählen
 - Schritt 2 (5 Min): Zweite Aufgabe analysieren. Grösste Schwachstelle, eine Änderung, welche Diagnose-Frage Studierende nicht beantworten könnten
 
-**Kollegiale Kurzberatung (10 Min, neue Paare)**
+**Peer-Diagnose (10 Min, neue Paare)**
 
 - Person A stellt vor (2 Min): Aufgabe, Schwachstelle, Änderung
 - Person B als Advocatus Diaboli (2 Min): "Könnte eine Studierende das Denken nach deiner Änderung immer noch delegieren? Wie?" und "Welche Diagnose-Frage würde sie bestehen, welche nicht?"
@@ -267,7 +267,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 **Timing-Check:** Du solltest bei ca. 11:45 sein.
 
 - **Wenn du früher fertig bist:** Synthese vertiefen, Meta-Moment besprechen.
-- **Wenn du später dran bist:** Kollegiale Kurzberatung PAIR auf 6 Min kürzen (1.5 Min pro Rolle statt 2). Synthese auf 4 Min.
+- **Wenn du später dran bist:** Peer-Diagnose PAIR auf 6 Min kürzen (1.5 Min pro Rolle statt 2). Synthese auf 4 Min.
 
 
 ## 11:45--12:00: Transfer & Abschluss (15 Min) {#abschluss}
@@ -302,7 +302,7 @@ Ja, und dafür brauchen sie Fachkompetenz. Das Evaluationsparadox zeigt: Kompete
 
 ### "Das funktioniert in meinem Fach nicht."
 
-Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In der kollegialen Kurzberatung (Teil 3) werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
+Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In der Peer-Diagnose (Teil 3) werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
 
 ### "Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?"
 
@@ -323,17 +323,17 @@ Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe da
 
 - Teil 1 auf 30 Min kürzen: Slides straffen, Fallstudien-Analyse auf 5 Min
 - Teil 2 auf 20 Min: Slides + Worked Example (ohne Diagnose-Fragen-Aktivität)
-- Teil 3 auf 30 Min: Nur THINK-PAIR-SHARE mit einer Aufgabe, ohne kollegiale Kurzberatung
+- Teil 3 auf 30 Min: Nur THINK-PAIR-SHARE mit einer Aufgabe, ohne Peer-Diagnose
 - Abschluss auf 10 Min
 
 ### Wenn die Gruppe sehr KI-erfahren ist
 
 - Teil 1 kann etwas gestrafft werden (die Lernwissenschaft ist für viele neu, auch wenn KI vertraut ist)
 - Im Worked Example: statt annotierte Bibliografie ein komplexeres Szenario aus den Fallstudien nehmen
-- Kollegiale Kurzberatung vertiefen: mehr Zeit für die Advocatus-Diaboli-Phase
+- Peer-Diagnose vertiefen: mehr Zeit für die Advocatus-Diaboli-Phase
 
 ### Wenn die Gruppe KI-skeptisch ist
 
 - Teil 1 betonen: "Es geht um Lernen, nicht um KI"
 - Im Worked Example: herausarbeiten, dass das Framework auch "Keine KI nötig" als Ergebnis validiert
-- Kollegiale Kurzberatung funktioniert besonders gut mit KI-skeptischen Gruppen, da sie komplett analog ist und den Fokus auf Aufgabendesign legt
+- Peer-Diagnose funktioniert besonders gut mit KI-skeptischen Gruppen, da sie komplett analog ist und den Fokus auf Aufgabendesign legt

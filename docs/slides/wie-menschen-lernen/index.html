@@ -166,15 +166,48 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
   }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
+    background-image: none;
+  }
+  div.callout-group.callout {
+    border-left-color: #7c3aed;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgba(124, 58, 237, 0.13);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   div.callout-agent-potential.callout {
@@ -210,50 +243,6 @@
     content: '💻';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
-  div.callout-nachlesen.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-nachlesen.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-    content: '📖';
-    background-image: none;
-  }
-  div.callout-pair.callout {
-    border-left-color: #059669;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: #7c3aed;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgba(124, 58, 237, 0.13);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
   div.callout-facilitator.callout {
     border-left-color: #d97706;
   }
@@ -263,6 +252,17 @@
   div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
     content: '📋';
+    background-image: none;
+  }
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
     background-image: none;
   }
   </style>
@@ -368,12 +368,14 @@ Andrew Ellis
 </figure>
 </div>
 </div></div>
-<p><strong>Gleiche Hardware, unterschiedliche Software</strong></p>
+</section>
+<section id="gleiche-hardware-unterschiedliche-software" class="slide level2 smaller">
+<h2>Gleiche Hardware, unterschiedliche Software</h2>
 <table class="caption-top">
 <colgroup>
-<col style="width: 9%">
-<col style="width: 50%">
-<col style="width: 40%">
+<col style="width: 20%">
+<col style="width: 33%">
+<col style="width: 46%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -390,13 +392,13 @@ Andrew Ellis
 </tr>
 <tr class="even">
 <td><strong>Verarbeiten</strong></td>
-<td>Schritt-für-Schritt, deliberativ, bewusst</td>
-<td>Automatische Prozeduren, intuitiv</td>
+<td>Schritt-für-Schritt</td>
+<td>Automatische Prozeduren</td>
 </tr>
 <tr class="odd">
 <td><strong>Wissen</strong></td>
-<td>Isolierte Fakten, Bahnen im Aufbau</td>
-<td>Vernetzte Schemata, tausende Stunden geübt</td>
+<td>Isolierte Fakten</td>
+<td>Vernetzte Schemata</td>
 </tr>
 </tbody>
 </table>
@@ -405,16 +407,9 @@ Andrew Ellis
 <h2>Das Nadelöhr des Lernens</h2>
 <p><strong>Cognitive Load Theory</strong> <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Sweller 2023</a>)</span></p>
 <div class="cell">
-<div id="fig-bottleneck" class="cell-output-display quarto-float quarto-figure quarto-figure-center">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-8adcc254cb9f3799b634" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-8adcc254cb9f3799b634">{"x":{"diagram":"\ndigraph bottleneck {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 1.0\n    ranksep = 1.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#666666\"\n    arrowsize = 0.9\n  ]\n\n  input [\n    label = \"Sensorischer Input\\n\\nUmwelt\"\n    fillcolor = \"#94a3b8\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2\n  ]\n\n  wm [\n    label = \"Arbeitsgedächtnis\\n\\n~4 Elemente\\n15–30 Sekunden\\nAktives Lernen\"\n    fillcolor = \"#E69F00\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2.5\n  ]\n\n  ltm [\n    label = \"Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas\"\n    fillcolor = \"#0072B2\"\n    fontsize = 13\n    margin = \"0.3,0.2\"\n    width = 2.8\n  ]\n\n  input -> wm [label = \"  Aufmerksamkeit  \"]\n  wm -> ltm [label = \"  Schemabildung\\n  & Übung  \"]\n  ltm -> wm [label = \"  Abruf &\\n  Aktivierung  \" style = dashed]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1
-</figcaption>
-</figure>
+<div class="cell-output-display">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-fbf3f9df8cf2b7d22ef6" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-fbf3f9df8cf2b7d22ef6">{"x":{"diagram":"\ndigraph bottleneck {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 1.0\n    ranksep = 1.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 11\n    color = \"#666666\"\n    arrowsize = 0.9\n  ]\n\n  input [\n    label = \"Sensorischer Input\\n\\nUmwelt\"\n    fillcolor = \"#94a3b8\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2\n  ]\n\n  wm [\n    label = \"Arbeitsgedächtnis\\n\\n~4 Elemente\\n15–30 Sekunden\\nAktives Lernen\"\n    fillcolor = \"#E69F00\"\n    fontsize = 13\n    fontcolor = \"#222222\"\n    margin = \"0.3,0.2\"\n    width = 2.5\n  ]\n\n  ltm [\n    label = \"Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas\"\n    fillcolor = \"#0072B2\"\n    fontsize = 13\n    margin = \"0.3,0.2\"\n    width = 2.8\n  ]\n\n  input -> wm [label = \"  Aufmerksamkeit  \"]\n  wm -> ltm [label = \"  Schemabildung\\n  & Übung  \"]\n  ltm -> wm [label = \"  Abruf &\\n  Aktivierung  \" style = dashed]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="callout callout-tip no-icon callout-style-simple">
@@ -441,7 +436,7 @@ Abbildung&nbsp;1
 <div class="callout callout-tip no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Das Ziel:</strong> Raum schaffen für <em>germane processing</em>, die lernrelevante Verarbeitung, die Schemas aufbaut. Das ist kein dritter Belastungstyp, sondern der produktive Anteil der intrinsischen Verarbeitung.</p>
+<p><strong>Das Ziel:</strong> Raum schaffen für <em>germane processing</em>, die lernrelevante Verarbeitung, die Schemas aufbaut.</p>
 </div>
 </div>
 </div>
@@ -451,7 +446,7 @@ Abbildung&nbsp;1
 <h2>Verteilung der kognitiven Belastung</h2>
 
 <img data-src="index_files/figure-revealjs/fig-cognitive-load-1.png" width="960" class="r-stretch quarto-figure-center" id="fig-cognitive-load"><p class="caption">
-Abbildung&nbsp;2: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt.
+Abbildung&nbsp;1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt.
 </p></section>
 <section id="das-lerndilemma" class="slide level2">
 <h2>Das Lerndilemma</h2>
@@ -502,20 +497,26 @@ Abbildung&nbsp;2: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapa
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Praktische Regel</strong>: Beginne mit hoher Unterstützung (Scaffolding) und reduziere sie graduell mit wachsender Expertise.</p>
-<p><strong>Die KI-Falle</strong>: KI-Tools bieten permanentes Scaffolding, das nie abgebaut wird. Sie verletzen das Fading-Prinzip systematisch.</p>
+<p><strong>Praktische Regel</strong>: Beginne mit hoher Unterstützung und reduziere sie graduell mit wachsender Expertise (Fading).</p>
 </div>
 </div>
 </div>
+</div>
+</section>
+<section id="die-ki-falle" class="slide level2 center">
+<h2>Die KI-Falle</h2>
+<p>KI-Tools bieten <strong>permanentes Scaffolding</strong>, das nie abgebaut wird.</p>
+<div class="fragment">
+<p>Sie verletzen das Fading-Prinzip systematisch.</p>
 </div>
 </section>
 <section id="expertise-reversal-effect" class="slide level2">
 <h2>Expertise Reversal Effect</h2>
 
 <img data-src="index_files/figure-revealjs/fig-expertise-reversal-1.png" width="960" class="r-stretch quarto-figure-center" id="fig-expertise-reversal"><p class="caption">
-Abbildung&nbsp;3: Expertise Reversal Effekt nach <span class="citation" data-cites="kalyugaExpertiseReversalEffect2009">Kalyuga (<a href="#/bibliographie" role="doc-biblioref" onclick="">2009</a>)</span>: Worked Examples (hohe Anleitung) führen bei Anfängern zu besseren Lernergebnissen, weil sie die extrinsische kognitive Last senken. Mit zunehmender Expertise kehrt sich der Effekt um: Dieselbe Anleitung wird redundant und belastet das Arbeitsgedächtnis zusätzlich. Am Kreuzungspunkt überholt eigenständiges Problemlösen die angeleitete Instruktion. Ab diesem Punkt sollten Worked Examples schrittweise durch offenere Aufgabenformate ersetzt werden (Fading).
+Abbildung&nbsp;2: Expertise Reversal Effekt nach <span class="citation" data-cites="kalyugaExpertiseReversalEffect2009">Kalyuga (<a href="#/bibliographie" role="doc-biblioref" onclick="">2009</a>)</span>: Worked Examples (hohe Anleitung) führen bei Anfängern zu besseren Lernergebnissen, weil sie die extrinsische kognitive Last senken. Mit zunehmender Expertise kehrt sich der Effekt um: Dieselbe Anleitung wird redundant und belastet das Arbeitsgedächtnis zusätzlich. Am Kreuzungspunkt überholt eigenständiges Problemlösen die angeleitete Instruktion. Ab diesem Punkt sollten Worked Examples schrittweise durch offenere Aufgabenformate ersetzt werden (Fading).
 </p></section>
-<section id="clt-und-ki-was-passiert-bei-outsourcing" class="slide level2">
+<section id="clt-und-ki-was-passiert-bei-outsourcing" class="slide level2 smaller">
 <h2>CLT und KI: Was passiert bei Outsourcing?</h2>
 <p><strong>KI optimiert für Produktion statt Lernen</strong></p>
 <table class="caption-top">
@@ -571,26 +572,23 @@ Abbildung&nbsp;3: Expertise Reversal Effekt nach <span class="citation" data-cit
 </section>
 <section id="warum-outsourcing-schemabildung-verhindert" class="slide level2">
 <h2>Warum Outsourcing Schemabildung verhindert</h2>
-<p>Schemabildung erfordert <strong>aktive Verarbeitung</strong> interagierender Elemente im Arbeitsgedächtnis. Outsourcing eliminiert diese Verarbeitung.</p>
-<div class="fragment">
-<p>Das zeigt sich in drei Mechanismen:</p>
+<p>Schemabildung erfordert <strong>aktive Verarbeitung</strong> im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:</p>
 <ol type="1">
-<li><strong>Fehlende Modellaktivierung</strong>: Ohne eigenen Versuch wird das interne Wissensmodell nicht aktiviert, und Feedback bleibt uninformativ</li>
-<li><strong>Konsolidierung</strong>: Ohne aktive Verarbeitung keine Speicherung im Langzeitgedächtnis</li>
-<li><strong>Prozedurale Entwicklung</strong>: Ohne Übungszyklen keine Automatisierung</li>
+<li><strong>Keine Modellaktivierung</strong>: Ohne eigenen Versuch bleibt Feedback uninformativ</li>
+<li><strong>Keine Konsolidierung</strong>: Ohne aktive Verarbeitung keine Speicherung</li>
+<li><strong>Keine Automatisierung</strong>: Ohne Übungszyklen keine prozeduralen Fertigkeiten</li>
 </ol>
-</div>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Die kognitive Verarbeitung, die sich als Schwierigkeit anfühlt (Schemabildung, Abruf, Elaboration), ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.</p>
+<p>Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="wie-expertise-entwickelt-wird" class="slide level2">
+<section id="wie-expertise-entwickelt-wird" class="slide level2 smaller">
 <h2>Wie Expertise entwickelt wird</h2>
 <p><strong>Von Fakten zu automatisierten Prozeduren</strong> <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Anderson 1982</a>)</span></p>
 <table class="caption-top" style="width:100%;">
@@ -610,19 +608,18 @@ Abbildung&nbsp;3: Expertise Reversal Effekt nach <span class="citation" data-cit
 <tr class="odd">
 <td><strong>Deklarativ</strong> (“Wissen dass”)</td>
 <td>Fakten, Regeln; bewusster Abruf</td>
-<td>“Um <span class="math inline">\(3x + 5 = 20\)</span> zu lösen, <span class="math inline">\(5\)</span> von beiden Seiten subtrahieren.”</td>
+<td>Regel kennen: “5 von beiden Seiten subtrahieren”</td>
 </tr>
 <tr class="even">
 <td><strong>Prozedural</strong> (“Wissen wie”)</td>
 <td>Automatisiert; schnelle Ausführung</td>
-<td><span class="math inline">\(3x + 5 = 20\)</span> sehen → automatisch umstellen, ohne bewusst über die Schritte nachzudenken</td>
+<td>Gleichung sehen → sofort umstellen</td>
 </tr>
 </tbody>
 </table>
 <div class="fragment">
 <h3 id="der-weg-zur-expertise">Der Weg zur Expertise</h3>
-<p><strong>Deklarative Fakten</strong> → Tausende Übungszyklen mit Feedback → <strong>Prozedurale Automatismen</strong></p>
-<p>Jeder Zyklus: Versuch → Ergebnis → Anpassung → stärkere Produktionsregeln</p>
+<p><strong>Deklarativ</strong> → Übungszyklen mit Feedback → <strong>Prozedural</strong></p>
 </div>
 </section>
 <section id="drei-verbreitete-missverständnisse" class="slide level2 center">
@@ -705,15 +702,11 @@ Abbildung&nbsp;3: Expertise Reversal Effekt nach <span class="citation" data-cit
 </section>
 <section id="die-gefährliche-umkehrung" class="slide level2 center">
 <h2>Die gefährliche Umkehrung</h2>
-<p><br></p>
-<p><strong>Unser metakognitives Urteil führt uns systematisch in die Irre:</strong></p>
-<p>Wir verwechseln Verarbeitungsflüssigkeit (wie leicht sich etwas anfühlt) mit Lernerfolg. Was sich mühelos anfühlt, fühlt sich wie Lernen an, ist es aber oft nicht.</p>
+<p>Wir verwechseln <strong>Verarbeitungsflüssigkeit</strong> (wie leicht sich etwas anfühlt) mit <strong>Lernerfolg</strong>.</p>
 <div class="fragment">
-<p><br></p>
-<p>Produktive Anstrengung <strong>fühlt sich schwierig an</strong>. Unter den richtigen Bedingungen (angemessene Herausforderung, Feedback, Scaffolding) <strong>signalisiert diese Schwierigkeit, dass lernrelevante Prozesse aktiv sind</strong>: Schemabildung, Abruf, Elaboration.</p>
+<p>Produktive Anstrengung <strong>fühlt sich schwierig an</strong>, signalisiert aber, dass lernrelevante Prozesse aktiv sind.</p>
 </div>
 <div class="fragment">
-<p><br></p>
 <p><strong>Merksatz:</strong> “The right kind of cognitive effort is not a bug—it’s a signal that learning is happening.”</p>
 </div>
 </section>
