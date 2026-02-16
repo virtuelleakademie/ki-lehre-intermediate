@@ -164,7 +164,7 @@ Sondern:
 {{< include ../../resources/figures/fig-beach-ant.qmd >}}
 
 
-## Die Equity-Dimension {.smaller}
+## Ungleiche Wirkung {.smaller}
 
 Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
 

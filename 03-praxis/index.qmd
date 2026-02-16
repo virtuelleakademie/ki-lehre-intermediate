@@ -172,7 +172,7 @@ Ihr habt gerade **Interleaving** am eigenen Leib erlebt: Dasselbe Framework auf 
 
 - Welche **Muster** tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?
 - Wo war die Grenze zwischen *Offloading* und *Outsourcing* am schwierigsten zu ziehen?
-- Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das ist die **Equity-Dimension** aus Teil 2: Schwächer vorbereitete Studierende brauchen mehr Struktur in der Versuch-Phase. Das verdient eine eigene Vertiefung auf Departementsebene.
+- Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das ist die **ungleiche Wirkung** aus Teil 2: Schwächer vorbereitete Studierende brauchen mehr Struktur in der Versuch-Phase. Das verdient eine eigene Vertiefung auf Departementsebene.
 
 ### Konsolidierung (5 Min)
 
@@ -206,7 +206,9 @@ Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und
 - [Produktive Anstrengung durch Design](../resources/produktive-anstrengung/)
 - [Fallstudien](./fallstudien/)
 
-### Beispiele & Werkzeuge
+### Vertiefung: Agent-Design (optional)
 
-- [Agent-Template: Statistik-Reflexions-Coach](./agent-template/) (Beispiel für KI-Agent-Design)
-- [Agent-Beispiele für jede Strategie](../resources/agent-beispiele/)
+Wenn deine 5-Fragen-Analyse ergeben hat, dass eine Versuch-dann-Prüfe-Struktur mit KI-Unterstützung sinnvoll wäre:
+
+- [Agent-Template: Analyse & Anpassung](./agent-template/) -- Vom pädagogischen Urteil zum technischen Design
+- [Agent-Beispiele: Lernstrategien illustriert](../resources/agent-beispiele/) -- Konzeptillustrationen für verschiedene Strategien

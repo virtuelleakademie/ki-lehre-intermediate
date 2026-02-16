@@ -1,11 +1,17 @@
 ---
 title: "Agent-Template: Analyse & Anpassung"
-subtitle: "Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren"
+subtitle: "Vom pädagogischen Urteil zum technischen Design"
 ---
 
-## Warum ein Template?
+## Voraussetzung: Die pädagogische Diagnose
 
-Das Erstellen eines Agents von Grund auf ist kognitiv anspruchsvoll, besonders wenn man zum ersten Mal einen Agent-Prompt schreibt. Stattdessen nutzen wir **Analyse + Modifikation**: eine Strategie, die das Arbeitsgedächtnis weniger belastet und schneller zu produktiven Ergebnissen führt.
+Du hast eine Aufgabe mit dem [5-Fragen-Framework](../5-fragen-framework/) analysiert und festgestellt, dass eine **Versuch-dann-Prüfe-Struktur** sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?
+
+Diese Seite ist ein **optionaler nächster Schritt** nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Oft reicht eine klare Aufgabenstellung mit manueller Vergleichsphase. Ein Agent lohnt sich, wenn:
+
+- Die Prüfphase **personalisiertes Feedback** erfordert, das du als Lehrperson nicht für alle Studierenden leisten kannst
+- Der Agent die **Versuch-Phase schützt**, indem er erst reagiert, nachdem Studierende einen eigenen Versuch dokumentiert haben
+- Die Aufgabe **wiederholt** eingesetzt wird und sich die Investition in das Design lohnt
 
 ::: {.callout-note}
 ### Lernprinzip: Worked Examples
@@ -72,11 +78,13 @@ Evaluiere das Template mit dieser Checkliste:
 Wähle **eine** der folgenden Optionen:
 
 ::: {.panel-tabset}
-## Option A: Für deine Disziplin anpassen
+## Option A: Grenzen identifizieren
 
-- Ändere Kontext, Fach und Lernziel
-- Passe die Fragen an dein Thema an
-- Behalte die Versuch-dann-Prüfe-Struktur bei
+Identifiziere **zwei Situationen**, in denen dieser Agent sein eigenes Designprinzip verletzen würde:
+
+- In welcher Situation würde der Agent trotz der VERBOTEN-Regeln die Denkarbeit übernehmen?
+- Welche Art von Studierendenfrage könnte den Agent dazu bringen, doch direkte Antworten zu liefern?
+- Was passiert, wenn Studierende den Agent in einer Schleife befragen, bis er schrittweise die Lösung offenlegt?
 
 ## Option B: Das Template verbessern
 
@@ -101,4 +109,26 @@ Gute Agents für Lernen:
 3. **Prozess über Produkt**: Fördert *wie* Studierende denken, nicht nur *was* sie produzieren
 4. **Explizite Signale**: Lenkt Aufmerksamkeit auf lernrelevante Merkmale
 
-{{< bi lightbulb >}} [Weitere Agent-Beispiele für jede Strategie](../../resources/agent-beispiele/)
+
+## Wann kein Agent die richtige Antwort ist
+
+Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden Situationen ist ein Agent kontraproduktiv:
+
+**Wenn der Versuch das gesamte Lernziel ist.** Bei Aufgaben, in denen der eigenständige Versuch selbst die Kompetenz aufbaut (z.B. freies Schreiben, klinische Ersteinschätzung, mathematische Beweisführung), fügt ein Agent in der Prüfphase keinen Mehrwert hinzu, der über manuelles Peer-Feedback oder eine Musterlösung hinausgeht.
+
+**Wenn Studierende den Agent-Output nicht bewerten können.** Das Evaluationsparadox gilt auch hier: Wenn Studierende in der Grundlagenphase sind (Frage 2 des 5-Fragen-Frameworks), fehlt ihnen die Fachkompetenz, um zu beurteilen, ob der Agent tatsächlich hilfreiche Fragen stellt oder sie in die Irre führt. Strukturiertes Peer-Feedback kann in dieser Phase wirksamer sein.
+
+**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.
+
+
+::: {.reflect}
+### Das Evaluationsparadox, auf dich selbst angewendet
+
+Du hast gerade in wenigen Minuten einen System-Prompt analysiert oder angepasst. Wie sicher bist du, dass dein Agent tatsächlich so funktioniert, wie du es beabsichtigst?
+
+Du befindest dich jetzt in derselben Position wie deine Studierenden gegenüber dem Evaluationsparadox: Ein System-Prompt *beschreibt* gewünschtes Verhalten, er *garantiert* es nicht. Ob der Agent tatsächlich die Denkarbeit bei den Studierenden belässt, zeigt sich erst im iterativen Testen mit echten Studierenden.
+
+Das ist kein Argument gegen Agents, sondern ein Argument für Bescheidenheit beim Design und systematisches Testen vor dem Einsatz.
+:::
+
+{{< bi lightbulb >}} [Illustrierte Beispiele: Agents für verschiedene Lernstrategien](../../resources/agent-beispiele/)

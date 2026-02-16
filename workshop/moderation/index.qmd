@@ -148,7 +148,7 @@ Präsentiere die Slides. Kernbotschaften:
 4. **Schein-Kompetenz**: Oberfläche ohne Substanz
 5. **"The Beach, Not the Ant"**: Lernumgebung gestalten statt Studierende kontrollieren
 6. **Bounded Rationality**: Studierende sind rational. Den Strand umgestalten.
-7. **Equity**: Expertise Reversal Effect → Schwächere werden überproportional geschädigt
+7. **Ungleiche Wirkung**: Expertise Reversal Effect → Schwächere werden überproportional geschädigt
 8. **5-Fragen-Framework**: Kurzübersicht als Brücke zu Teil 3
 
 ### 3 Diagnose-Fragen (2 Min)
@@ -178,7 +178,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 
 **Timing-Check:** Du solltest bei ca. 10:50 sein.
 
-- **Wenn du früher fertig bist:** Mehr Diskussion beim Worked Example, oder eine der Nachlesen-Abschnitte kurz ansprechen (Equity-Dimension eignet sich gut).
+- **Wenn du früher fertig bist:** Mehr Diskussion beim Worked Example, oder eine der Nachlesen-Abschnitte kurz ansprechen (ungleiche Wirkung eignet sich gut).
 - **Wenn du später dran bist:** Die Aktivität zu den 3 Diagnose-Fragen kann entfallen (ist nur 1 Min). Das Worked Example nicht kürzen.
 
 
@@ -257,7 +257,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 
 - "Welche Muster tauchen über verschiedene Disziplinen und Aufgabentypen hinweg auf?"
 - "Wo war die Grenze zwischen Offloading und Outsourcing am schwierigsten zu ziehen?"
-- Equity-Dimension ansprechen: "Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das verdient eine eigene Vertiefung auf Departementsebene."
+- Ungleiche Wirkung ansprechen: "Wer hat festgestellt, dass die Änderung für verschiedene Studierendengruppen unterschiedlich wirkt? Das verdient eine eigene Vertiefung auf Departementsebene."
 
 ### Konsolidierung (5 Min, individuell)
 

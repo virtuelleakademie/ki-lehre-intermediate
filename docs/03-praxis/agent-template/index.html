@@ -50,6 +50,7 @@ div.csl-indent {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../03-praxis/fallstudien/index.html" rel="prev">
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -108,48 +109,15 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-individual.callout {
+  border-left-color: #0072B2;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -163,37 +131,15 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-group.callout {
@@ -207,15 +153,70 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
 </style>
 
 
 <meta property="og:title" content="Agent-Template: Analyse &amp; Anpassung – KI in der Lehre: Intermediate">
-<meta property="og:description" content="Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren">
+<meta property="og:description" content="Vom pädagogischen Urteil zum technischen Design">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -248,7 +249,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <span class="menu-text">2: KI &amp; Lernen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../03-praxis/index.html"> <i class="bi bi-marker-tip" role="img">
+    <a class="nav-link active" href="../../03-praxis/index.html" aria-current="page"> <i class="bi bi-marker-tip" role="img">
 </i> 
 <span class="menu-text">3: Praxis</span></a>
   </li>  
@@ -266,8 +267,12 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
  <span class="dropdown-text">Die 8 Make it Stick Strategien</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../../03-praxis/agent-template/index.html">
+ <span class="dropdown-text">Agent-Template (Analyse &amp; Anpassung)</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../../resources/agent-beispiele/index.html">
- <span class="dropdown-text">Agent-Beispiele</span></a>
+ <span class="dropdown-text">Agent-Beispiele (Illustrationen)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/produktive-anstrengung/index.html">
@@ -299,17 +304,66 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../03-praxis/agent-template/index.html">Agent-Template: Analyse &amp; Anpassung</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vom Wissen zum Handeln</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Das 5-Fragen-Framework</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../03-praxis/agent-template/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Agent-Template: Analyse &amp; Anpassung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#warum-ein-template" id="toc-warum-ein-template" class="nav-link active" data-scroll-target="#warum-ein-template">Warum ein Template?</a></li>
+  <li><a href="#voraussetzung-die-pädagogische-diagnose" id="toc-voraussetzung-die-pädagogische-diagnose" class="nav-link active" data-scroll-target="#voraussetzung-die-pädagogische-diagnose">Voraussetzung: Die pädagogische Diagnose</a></li>
   <li><a href="#template-statistik-reflexions-coach" id="toc-template-statistik-reflexions-coach" class="nav-link" data-scroll-target="#template-statistik-reflexions-coach">Template: Statistik-Reflexions-Coach</a>
   <ul class="collapse">
   <li><a href="#kontext" id="toc-kontext" class="nav-link" data-scroll-target="#kontext">Kontext</a></li>
@@ -321,6 +375,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   <li><a href="#phase-2-anpassen-5-min" id="toc-phase-2-anpassen-5-min" class="nav-link" data-scroll-target="#phase-2-anpassen-5-min">Phase 2: Anpassen (5 Min)</a></li>
   </ul></li>
   <li><a href="#designprinzipien-zur-orientierung" id="toc-designprinzipien-zur-orientierung" class="nav-link" data-scroll-target="#designprinzipien-zur-orientierung">Designprinzipien zur Orientierung</a></li>
+  <li><a href="#wann-kein-agent-die-richtige-antwort-ist" id="toc-wann-kein-agent-die-richtige-antwort-ist" class="nav-link" data-scroll-target="#wann-kein-agent-die-richtige-antwort-ist">Wann kein Agent die richtige Antwort ist</a></li>
   </ul>
 </nav>
     </div>
@@ -330,7 +385,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Agent-Template: Analyse &amp; Anpassung</h1>
-<p class="subtitle lead">Ein vorgefertigtes Beispiel zum Evaluieren und Modifizieren</p>
+<p class="subtitle lead">Vom pädagogischen Urteil zum technischen Design</p>
 </div>
 
 
@@ -347,9 +402,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </header>
 
 
-<section id="warum-ein-template" class="level2">
-<h2 class="anchored" data-anchor-id="warum-ein-template">Warum ein Template?</h2>
-<p>Das Erstellen eines Agents von Grund auf ist kognitiv anspruchsvoll, besonders wenn man zum ersten Mal einen Agent-Prompt schreibt. Stattdessen nutzen wir <strong>Analyse + Modifikation</strong>: eine Strategie, die das Arbeitsgedächtnis weniger belastet und schneller zu produktiven Ergebnissen führt.</p>
+<section id="voraussetzung-die-pädagogische-diagnose" class="level2">
+<h2 class="anchored" data-anchor-id="voraussetzung-die-pädagogische-diagnose">Voraussetzung: Die pädagogische Diagnose</h2>
+<p>Du hast eine Aufgabe mit dem <a href="../5-fragen-framework/">5-Fragen-Framework</a> analysiert und festgestellt, dass eine <strong>Versuch-dann-Prüfe-Struktur</strong> sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?</p>
+<p>Diese Seite ist ein <strong>optionaler nächster Schritt</strong> nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Oft reicht eine klare Aufgabenstellung mit manueller Vergleichsphase. Ein Agent lohnt sich, wenn:</p>
+<ul>
+<li>Die Prüfphase <strong>personalisiertes Feedback</strong> erfordert, das du als Lehrperson nicht für alle Studierenden leisten kannst</li>
+<li>Der Agent die <strong>Versuch-Phase schützt</strong>, indem er erst reagiert, nachdem Studierende einen eigenen Versuch dokumentiert haben</li>
+<li>Die Aufgabe <strong>wiederholt</strong> eingesetzt wird und sich die Investition in das Design lohnt</li>
+</ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -422,13 +483,14 @@ nur "richtige Antworten" zu produzieren.</code></pre>
 <h3 class="anchored" data-anchor-id="phase-2-anpassen-5-min">Phase 2: Anpassen (5 Min)</h3>
 <p>Wähle <strong>eine</strong> der folgenden Optionen:</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Option A: Für deine Disziplin anpassen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Option B: Das Template verbessern</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Option C: Eine Strategie explizit einbauen</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Option A: Grenzen identifizieren</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Option B: Das Template verbessern</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Option C: Eine Strategie explizit einbauen</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Identifiziere <strong>zwei Situationen</strong>, in denen dieser Agent sein eigenes Designprinzip verletzen würde:</p>
 <ul>
-<li>Ändere Kontext, Fach und Lernziel</li>
-<li>Passe die Fragen an dein Thema an</li>
-<li>Behalte die Versuch-dann-Prüfe-Struktur bei</li>
+<li>In welcher Situation würde der Agent trotz der VERBOTEN-Regeln die Denkarbeit übernehmen?</li>
+<li>Welche Art von Studierendenfrage könnte den Agent dazu bringen, doch direkte Antworten zu liefern?</li>
+<li>Was passiert, wenn Studierende den Agent in einer Schleife befragen, bis er schrittweise die Lösung offenlegt?</li>
 </ul>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
@@ -458,7 +520,29 @@ nur "richtige Antworten" zu produzieren.</code></pre>
 <li><strong>Prozess über Produkt</strong>: Fördert <em>wie</em> Studierende denken, nicht nur <em>was</em> sie produzieren</li>
 <li><strong>Explizite Signale</strong>: Lenkt Aufmerksamkeit auf lernrelevante Merkmale</li>
 </ol>
-<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i> <a href="../../resources/agent-beispiele/">Weitere Agent-Beispiele für jede Strategie</a></p>
+</section>
+<section id="wann-kein-agent-die-richtige-antwort-ist" class="level2">
+<h2 class="anchored" data-anchor-id="wann-kein-agent-die-richtige-antwort-ist">Wann kein Agent die richtige Antwort ist</h2>
+<p>Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden Situationen ist ein Agent kontraproduktiv:</p>
+<p><strong>Wenn der Versuch das gesamte Lernziel ist.</strong> Bei Aufgaben, in denen der eigenständige Versuch selbst die Kompetenz aufbaut (z.B. freies Schreiben, klinische Ersteinschätzung, mathematische Beweisführung), fügt ein Agent in der Prüfphase keinen Mehrwert hinzu, der über manuelles Peer-Feedback oder eine Musterlösung hinausgeht.</p>
+<p><strong>Wenn Studierende den Agent-Output nicht bewerten können.</strong> Das Evaluationsparadox gilt auch hier: Wenn Studierende in der Grundlagenphase sind (Frage 2 des 5-Fragen-Frameworks), fehlt ihnen die Fachkompetenz, um zu beurteilen, ob der Agent tatsächlich hilfreiche Fragen stellt oder sie in die Irre führt. Strukturiertes Peer-Feedback kann in dieser Phase wirksamer sein.</p>
+<p><strong>Wenn die Aufgabe bereits produktive Anstrengung erzeugt.</strong> Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.</p>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Das Evaluationsparadox, auf dich selbst angewendet
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Du hast gerade in wenigen Minuten einen System-Prompt analysiert oder angepasst. Wie sicher bist du, dass dein Agent tatsächlich so funktioniert, wie du es beabsichtigst?</p>
+<p>Du befindest dich jetzt in derselben Position wie deine Studierenden gegenüber dem Evaluationsparadox: Ein System-Prompt <em>beschreibt</em> gewünschtes Verhalten, er <em>garantiert</em> es nicht. Ob der Agent tatsächlich die Denkarbeit bei den Studierenden belässt, zeigt sich erst im iterativen Testen mit echten Studierenden.</p>
+<p>Das ist kein Argument gegen Agents, sondern ein Argument für Bescheidenheit beim Design und systematisches Testen vor dem Einsatz.</p>
+</div>
+</div>
+<p><i class="bi-lightbulb " style="" role="img" aria-hidden="true"></i> <a href="../../resources/agent-beispiele/">Illustrierte Beispiele: Agents für verschiedene Lernstrategien</a></p>
 
 
 
@@ -876,6 +960,15 @@ Sweller, John. 2024. <span>„Cognitive Load Theory and Individual Differences�
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../03-praxis/fallstudien/index.html" class="pagination-link" aria-label="Fallstudien: KI-Integration in der Lehre">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Fallstudien: KI-Integration in der Lehre</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

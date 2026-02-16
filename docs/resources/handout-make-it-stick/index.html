@@ -108,37 +108,15 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-group.callout {
@@ -163,26 +141,37 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
-div.callout-nachlesen.callout {
+div.callout-reflect.callout {
   border-left-color: #64748b;
 }
-div.callout-nachlesen.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -196,15 +185,26 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
-div.callout-reflect.callout {
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
-div.callout-reflect.callout-style-default > .callout-header {
+div.callout-nachlesen.callout-style-default > .callout-header {
   background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
   background-image: none;
 }
 </style>
@@ -267,7 +267,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/agent-beispiele/index.html">
- <span class="dropdown-text">Agent-Beispiele</span></a>
+ <span class="dropdown-text">Agent-Beispiele (Illustrationen)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/produktive-anstrengung/index.html">
@@ -333,7 +333,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../resources/agent-beispiele/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
+ <span class="menu-text">Agent-Beispiele: Lernstrategien illustriert</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -457,7 +457,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Quiz-Generierung, Adaptive Fragenerstellung, Spaced Repetition</p>
+<p>Würde ein KI-Agent hier helfen oder die produktive Abrufanstrengung eliminieren? Wenn ein Agent die Fragen generiert: Wer entscheidet, wann der Abruf “schwierig genug” ist, der Agent oder die Lernenden?</p>
 </div>
 </div>
 </section>
@@ -485,7 +485,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Intelligente Zeitplanung, Erinnerungen, Optimale Intervalle berechnen</p>
+<p>Ein Agent könnte Wiederholungsintervalle optimieren. Aber: Gehört die Planung der eigenen Lernzeit zur Kompetenz, die aufgebaut werden soll? Wann ist Zeitplanung Offloading, wann Outsourcing?</p>
 </div>
 </div>
 </section>
@@ -513,7 +513,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Intelligente Aufgabenmischung, Adaptive Sequenzierung</p>
+<p>Ein Agent könnte Aufgaben intelligent mischen. Welche Voraussetzung müssen Studierende erfüllen, damit sie den Nutzen der Mischung überhaupt bewerten können? (Hinweis: Evaluationsparadox)</p>
 </div>
 </div>
 </section>
@@ -541,7 +541,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Kontextvariation generieren, Neue Anwendungsszenarien erstellen</p>
+<p>Kontextvariation lässt sich gut automatisieren. Aber wer wählt die relevanten Variationsdimensionen aus? Wenn der Agent variiert, welche kognitive Arbeit bleibt bei den Studierenden?</p>
 </div>
 </div>
 </section>
@@ -570,7 +570,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Adaptive Schwierigkeit, Challenge-Generierung, “Productive Struggle” fördern<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Das ist die entscheidende Frage: Kann ein Agent “wünschenswerte Schwierigkeiten” erzeugen, ohne sie gleichzeitig aufzulösen? Wann würde ein Agent die Schwierigkeit <em>eliminieren</em> statt <em>bewahren</em>?<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 </div>
 </div>
 </section>
@@ -598,7 +598,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Feynman-Technik<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, Erklärungen bewerten, Verständnis testen</p>
+<p>Die Feynman-Technik lebt davon, dass Lernende ihre eigenen Verständnislücken entdecken. Wenn ein Agent Lücken identifiziert: Überspringt das den Entdeckungsmoment, der das Lernen auslöst?<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
 </div>
 </div>
 </section>
@@ -626,7 +626,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Personalisiertes Feedback, Reflexions-Prompts, Lernprozess-Tracking</p>
+<p>Personalisiertes Feedback ist einer der vielversprechendsten Einsatzbereiche für KI-Agents. Die Frage ist: Auf welcher Ebene gibt der Agent Feedback? Wenn er inhaltliche Fehler korrigiert, setzt das die Fachkompetenz voraus, die Studierende erst aufbauen.</p>
 </div>
 </div>
 </section>
@@ -654,7 +654,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Realitätsnahe Szenarien, Transfer-Aufgaben, Anwendungs-Coaching</p>
+<p>Szenario-Generierung ist ein starker Anwendungsfall. Aber: Wenn der Agent auch die Stakeholder-Perspektiven liefert, was bleibt als eigene Denkleistung der Studierenden? Wo verläuft die Grenze zwischen Kontextvariation (Offloading) und Analyseübernahme (Outsourcing)?</p>
 </div>
 </div>
 </section>
@@ -689,6 +689,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <li><strong>Macht der Agent das Lernen besser oder nur einfacher?</strong></li>
 <li><strong>Wie wird echter Lernfortschritt messbar?</strong></li>
 </ol>
+<p>Diese Leitfragen sind eine Kurzversion des <a href="../../03-praxis/5-fragen-framework/">5-Fragen-Frameworks</a>, das einen systematischeren Entscheidungsweg bietet.</p>
 
 
 
@@ -1118,8 +1119,8 @@ Brown, Peter C., Henry L. Roediger III, und Mark A. McDaniel. 2014. <em>Make <sp
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../resources/agent-beispiele/index.html" class="pagination-link" aria-label="Agent-Beispiele für die 8 Strategien">
-        <span class="nav-page-text">Agent-Beispiele für die 8 Strategien</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../resources/agent-beispiele/index.html" class="pagination-link" aria-label="Agent-Beispiele: Lernstrategien illustriert">
+        <span class="nav-page-text">Agent-Beispiele: Lernstrategien illustriert</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

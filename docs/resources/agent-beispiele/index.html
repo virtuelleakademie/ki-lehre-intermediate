@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Agent-Beispiele für die 8 Strategien – KI in der Lehre: Intermediate</title>
+<title>Agent-Beispiele: Lernstrategien illustriert – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -109,17 +109,6 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
 div.callout-reflect.callout {
   border-left-color: #64748b;
 }
@@ -129,17 +118,6 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-active-processing.callout {
@@ -164,15 +142,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -186,6 +164,28 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: #7c3aed;
 }
@@ -197,22 +197,22 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 </style>
 
 
-<meta property="og:title" content="Agent-Beispiele für die 8 Strategien – KI in der Lehre: Intermediate">
-<meta property="og:description" content="">
+<meta property="og:title" content="Agent-Beispiele: Lernstrategien illustriert – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Konzeptillustrationen, keine fertigen Werkzeuge">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 
@@ -268,7 +268,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/agent-beispiele/index.html">
- <span class="dropdown-text">Agent-Beispiele</span></a>
+ <span class="dropdown-text">Agent-Beispiele (Illustrationen)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/produktive-anstrengung/index.html">
@@ -305,7 +305,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../resources/agent-beispiele/index.html">Agent-Beispiele für die 8 Strategien</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../resources/agent-beispiele/index.html">Agent-Beispiele: Lernstrategien illustriert</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -334,7 +334,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../resources/agent-beispiele/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Agent-Beispiele für die 8 Strategien</span></a>
+ <span class="menu-text">Agent-Beispiele: Lernstrategien illustriert</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -358,33 +358,13 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   <ul class="collapse">
   <li><a href="#beispiel-statistik-tutor" id="toc-beispiel-statistik-tutor" class="nav-link" data-scroll-target="#beispiel-statistik-tutor"><strong>Beispiel: Statistik-Tutor</strong></a></li>
   </ul></li>
-  <li><a href="#verteiltes-lernen-spacing" id="toc-verteiltes-lernen-spacing" class="nav-link" data-scroll-target="#verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</a>
-  <ul class="collapse">
-  <li><a href="#beispiel-anatomie-coach" id="toc-beispiel-anatomie-coach" class="nav-link" data-scroll-target="#beispiel-anatomie-coach"><strong>Beispiel: Anatomie-Coach</strong></a></li>
-  </ul></li>
-  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">3. Abwechslung (Interleaving)</a>
+  <li><a href="#abwechslung-interleaving" id="toc-abwechslung-interleaving" class="nav-link" data-scroll-target="#abwechslung-interleaving">2. Abwechslung (Interleaving)</a>
   <ul class="collapse">
   <li><a href="#beispiel-programmier-mentor" id="toc-beispiel-programmier-mentor" class="nav-link" data-scroll-target="#beispiel-programmier-mentor"><strong>Beispiel: Programmier-Mentor</strong></a></li>
   </ul></li>
-  <li><a href="#variation" id="toc-variation" class="nav-link" data-scroll-target="#variation">4. Variation</a>
-  <ul class="collapse">
-  <li><a href="#beispiel-physik-simulator" id="toc-beispiel-physik-simulator" class="nav-link" data-scroll-target="#beispiel-physik-simulator"><strong>Beispiel: Physik-Simulator</strong></a></li>
-  </ul></li>
-  <li><a href="#wünschenswerte-schwierigkeiten" id="toc-wünschenswerte-schwierigkeiten" class="nav-link" data-scroll-target="#wünschenswerte-schwierigkeiten">5. Wünschenswerte Schwierigkeiten</a>
-  <ul class="collapse">
-  <li><a href="#beispiel-sozialpsychologie-challenger" id="toc-beispiel-sozialpsychologie-challenger" class="nav-link" data-scroll-target="#beispiel-sozialpsychologie-challenger"><strong>Beispiel: Sozialpsychologie-Challenger</strong></a></li>
-  </ul></li>
-  <li><a href="#verstehen-vs.-vertrautheit" id="toc-verstehen-vs.-vertrautheit" class="nav-link" data-scroll-target="#verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</a>
-  <ul class="collapse">
-  <li><a href="#beispiel-erklärungs-coach-feynman-technik" id="toc-beispiel-erklärungs-coach-feynman-technik" class="nav-link" data-scroll-target="#beispiel-erklärungs-coach-feynman-technik"><strong>Beispiel: Erklärungs-Coach (Feynman-Technik)</strong></a></li>
-  </ul></li>
-  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">7. Feedback &amp; Reflexion</a>
+  <li><a href="#feedback-reflexion" id="toc-feedback-reflexion" class="nav-link" data-scroll-target="#feedback-reflexion">3. Feedback &amp; Reflexion</a>
   <ul class="collapse">
   <li><a href="#beispiel-schreibtrainer-coach" id="toc-beispiel-schreibtrainer-coach" class="nav-link" data-scroll-target="#beispiel-schreibtrainer-coach"><strong>Beispiel: Schreibtrainer-Coach</strong></a></li>
-  </ul></li>
-  <li><a href="#anwendung" id="toc-anwendung" class="nav-link" data-scroll-target="#anwendung">8. Anwendung</a>
-  <ul class="collapse">
-  <li><a href="#beispiel-case-study-generator" id="toc-beispiel-case-study-generator" class="nav-link" data-scroll-target="#beispiel-case-study-generator"><strong>Beispiel: Case-Study-Generator</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -394,7 +374,8 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Agent-Beispiele für die 8 Strategien</h1>
+<h1 class="title">Agent-Beispiele: Lernstrategien illustriert</h1>
+<p class="subtitle lead">Konzeptillustrationen, keine fertigen Werkzeuge</p>
 </div>
 
 
@@ -413,7 +394,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 
 <section id="wie-diese-beispiele-nutzen" class="level2">
 <h2 class="anchored" data-anchor-id="wie-diese-beispiele-nutzen">Wie diese Beispiele nutzen</h2>
-<p>Jedes Beispiel zeigt:</p>
+<p>Jedes Beispiel zeigt das Zusammenspiel von Lernstrategie und Agent-Design:</p>
 <ul>
 <li><strong>Lehrthema &amp; Problem</strong></li>
 <li><strong>Gewählte Make-it-Stick-Strategie</strong></li>
@@ -421,6 +402,27 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li><strong>Lernende-Aktivität</strong> (Was bleibt beim Lernenden?)</li>
 <li><strong>Warum es funktioniert</strong></li>
 </ul>
+<p>Die drei Beispiele sind als <strong>Fading-Sequenz</strong> aufgebaut: Das erste ist vollständig ausgearbeitet, das zweite teilweise, das dritte gibt nur den Kontext vor. Diese Struktur spiegelt den Lernprozess vom Worked Example zur eigenständigen Generierung.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warnung</span>Was diese Beispiele sind und was nicht
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Diese Beispiele illustrieren, <strong>wie Lernstrategien in Agent-Designs übersetzt werden können</strong>. Sie sind Konzeptillustrationen, keine einsatzbereiten Werkzeuge.</p>
+<p><strong>Wichtig zu verstehen:</strong></p>
+<ul>
+<li>Ein <strong>System-Prompt beschreibt</strong> gewünschtes Verhalten, er <strong>garantiert</strong> es nicht. LLMs können Anweisungen ignorieren, kreativ uminterpretieren oder in unvorhergesehenen Situationen anders reagieren als beabsichtigt.</li>
+<li>Einige beschriebene Fähigkeiten (z.B. “berechnet optimale Wiederholungsintervalle”, “sendet personalisierte Erinnerungen”, “trackt Fortschritt über Zeit”) gehen über das hinaus, was ein System-Prompt allein leisten kann. Sie erfordern zusätzliche technische Infrastruktur.</li>
+<li>Vom Konzept zum funktionierenden Agent ist es ein Weg, der <strong>iteratives Testen, Qualitätsbewertung und laufendes Monitoring</strong> erfordert.</li>
+</ul>
+<p>Der Wert dieser Beispiele liegt darin, das Zusammenspiel von Lernstrategie und Agent-Rolle zu durchdenken, nicht darin, sie unverändert einzusetzen.</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -444,6 +446,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </section>
 <section id="abrufpraxis-retrieval-practice" class="level2">
 <h2 class="anchored" data-anchor-id="abrufpraxis-retrieval-practice">1. Abrufpraxis (Retrieval Practice)</h2>
+<p><em>Vollständig ausgearbeitetes Beispiel</em></p>
 <section id="beispiel-statistik-tutor" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-statistik-tutor"><strong>Beispiel: Statistik-Tutor</strong></h3>
 <ul>
@@ -467,33 +470,9 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <p><strong>Warum es funktioniert</strong>: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Vorhersagefehler-Zyklus.</p>
 </section>
 </section>
-<section id="verteiltes-lernen-spacing" class="level2">
-<h2 class="anchored" data-anchor-id="verteiltes-lernen-spacing">2. Verteiltes Lernen (Spacing)</h2>
-<section id="beispiel-anatomie-coach" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-anatomie-coach"><strong>Beispiel: Anatomie-Coach</strong></h3>
-<ul>
-<li><strong>Lehrthema</strong>: Medizin, Anatomische Strukturen</li>
-<li><strong>Problem</strong>: Bulimie-Lernen vor Prüfungen, schnelles Vergessen</li>
-</ul>
-<p><strong>Agent macht:</strong></p>
-<ul>
-<li>Berechnet optimale Wiederholungsintervalle</li>
-<li>Sendet personalisierte Erinnerungen</li>
-<li>Passt Timing basierend auf individuellem Vergessen an</li>
-<li>Visualisiert Lernfortschritt über Zeit</li>
-</ul>
-<p><strong>Lernende tun:</strong></p>
-<ul>
-<li>Anatomie aktiv benennen (ohne Hilfe)</li>
-<li>Strukturen zeichnen und beschriften</li>
-<li>Verbindungen zwischen Systemen erklären</li>
-<li>Langzeit-Commitment zum regelmässigen Üben</li>
-</ul>
-<p><strong>Warum es funktioniert</strong>: Agent optimiert wann gelernt wird, aber nicht was und wie.</p>
-</section>
-</section>
 <section id="abwechslung-interleaving" class="level2">
-<h2 class="anchored" data-anchor-id="abwechslung-interleaving">3. Abwechslung (Interleaving)</h2>
+<h2 class="anchored" data-anchor-id="abwechslung-interleaving">2. Abwechslung (Interleaving)</h2>
+<p><em>Teilweise ausgearbeitet: “Warum es funktioniert” als Selbsterklärung</em></p>
 <section id="beispiel-programmier-mentor" class="level3">
 <h3 class="anchored" data-anchor-id="beispiel-programmier-mentor"><strong>Beispiel: Programmier-Mentor</strong></h3>
 <ul>
@@ -514,13 +493,87 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li><strong>Prüfe</strong>: Agent zeigt Alternativen, Lernende vergleichen Effizienz und Lesbarkeit</li>
 <li><strong>Reflektieren</strong>: Warum ist Ansatz X hier besser? Pattern-Recognition entwickeln</li>
 </ol>
-<p><strong>Warum es funktioniert</strong>: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen. Die Versuch-dann-Prüfe-Struktur erzwingt eigenes Denken vor dem Vergleich.</p>
+<div class="callout callout-style-default callout-reflect callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Warum funktioniert es?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Formuliere in eigenen Worten: Welches Lernprinzip aus Teil 1 wird hier konkret angewendet? Und wo liegt die Grenze, an der der Agent die wünschenswerte Schwierigkeit eliminieren statt bewahren könnte?</p>
+</div>
+</div>
 </section>
 </section>
-<section id="variation" class="level2">
-<h2 class="anchored" data-anchor-id="variation">4. Variation</h2>
-<section id="beispiel-physik-simulator" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-physik-simulator"><strong>Beispiel: Physik-Simulator</strong></h3>
+<section id="feedback-reflexion" class="level2">
+<h2 class="anchored" data-anchor-id="feedback-reflexion">3. Feedback &amp; Reflexion</h2>
+<p><em>Nur Kontext gegeben: Agent- und Lernende-Rollen selbst gestalten</em></p>
+<section id="beispiel-schreibtrainer-coach" class="level3">
+<h3 class="anchored" data-anchor-id="beispiel-schreibtrainer-coach"><strong>Beispiel: Schreibtrainer-Coach</strong></h3>
+<ul>
+<li><strong>Lehrthema</strong>: Akademisches Schreiben</li>
+<li><strong>Problem</strong>: Wenig Bewusstsein für eigene Schreibprozesse und -qualität</li>
+</ul>
+<div class="callout callout-style-default callout-individual callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Dein Design
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Anhand der Muster aus den ersten beiden Beispielen:</p>
+<ol type="1">
+<li><strong>Agent-Rolle</strong>: Was sollte der Agent tun, und was explizit <em>nicht</em>? Wie bleibt die Versuch-dann-Prüfe-Struktur erhalten?</li>
+<li><strong>Lernende-Aktivität</strong>: Was bleibt bei den Studierenden? In welcher Reihenfolge?</li>
+<li><strong>Grenze</strong>: In welcher Situation würde dieser Agent das Evaluationsparadox verschärfen statt abmildern?</li>
+</ol>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Hinweis</span>Weitere Beispiele: 5 zusätzliche Strategien
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Die folgenden Beispiele sind zur Vertiefung gedacht. Sie folgen demselben Versuch-dann-Prüfe-Muster wie die Beispiele oben. Jedes Beispiel entspricht einer der <a href="../handout-make-it-stick/">8 Make-it-Stick-Strategien</a>.</em></p>
+<section id="verteiltes-lernen-spacing" class="level4">
+<h4 class="anchored" data-anchor-id="verteiltes-lernen-spacing">Verteiltes Lernen (Spacing)</h4>
+<p><strong>Beispiel: Anatomie-Coach</strong></p>
+<ul>
+<li><strong>Lehrthema</strong>: Medizin, Anatomische Strukturen</li>
+<li><strong>Problem</strong>: Bulimie-Lernen vor Prüfungen, schnelles Vergessen</li>
+</ul>
+<p><strong>Agent macht:</strong></p>
+<ul>
+<li>Berechnet optimale Wiederholungsintervalle</li>
+<li>Sendet personalisierte Erinnerungen</li>
+<li>Passt Timing basierend auf individuellem Vergessen an</li>
+<li>Visualisiert Lernfortschritt über Zeit</li>
+</ul>
+<p><strong>Lernende tun:</strong></p>
+<ul>
+<li>Anatomie aktiv benennen (ohne Hilfe)</li>
+<li>Strukturen zeichnen und beschriften</li>
+<li>Verbindungen zwischen Systemen erklären</li>
+<li>Langzeit-Commitment zum regelmässigen Üben</li>
+</ul>
+<p><strong>Warum es funktioniert</strong>: Agent optimiert wann gelernt wird, aber nicht was und wie.</p>
+</section>
+<section id="variation" class="level4">
+<h4 class="anchored" data-anchor-id="variation">Variation</h4>
+<p><strong>Beispiel: Physik-Simulator</strong></p>
 <ul>
 <li><strong>Lehrthema</strong>: Newtonsche Mechanik</li>
 <li><strong>Problem</strong>: Können Formeln anwenden, aber nicht in neuen Kontexten</li>
@@ -540,12 +593,13 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </ul>
 <p><strong>Warum es funktioniert</strong>: Agent variiert die Kontexte, Lernende müssen Prinzipien erkennen und anwenden.</p>
 </section>
-</section>
-<section id="wünschenswerte-schwierigkeiten" class="level2">
-<h2 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten">5. Wünschenswerte Schwierigkeiten</h2>
-<section id="beispiel-sozialpsychologie-challenger" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-sozialpsychologie-challenger"><strong>Beispiel: Sozialpsychologie-Challenger</strong></h3>
-<p><strong>Lehrthema</strong>: Kognitive Verzerrungen und Biases <strong>Problem</strong>: Oberflächliches Verständnis, keine kritische Anwendung</p>
+<section id="wünschenswerte-schwierigkeiten" class="level4">
+<h4 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten">Wünschenswerte Schwierigkeiten</h4>
+<p><strong>Beispiel: Sozialpsychologie-Challenger</strong></p>
+<ul>
+<li><strong>Lehrthema</strong>: Kognitive Verzerrungen und Biases</li>
+<li><strong>Problem</strong>: Oberflächliches Verständnis, keine kritische Anwendung</li>
+</ul>
 <p><strong>Agent macht:</strong></p>
 <ul>
 <li>Erstellt mehrdeutige Situationen</li>
@@ -562,11 +616,9 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </ol>
 <p><strong>Warum es funktioniert</strong>: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten. Die Versuch-dann-Prüfe-Struktur sorgt dafür, dass Lernende zuerst selbst denken.</p>
 </section>
-</section>
-<section id="verstehen-vs.-vertrautheit" class="level2">
-<h2 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">6. Verstehen vs.&nbsp;Vertrautheit</h2>
-<section id="beispiel-erklärungs-coach-feynman-technik" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-erklärungs-coach-feynman-technik"><strong>Beispiel: Erklärungs-Coach (Feynman-Technik)</strong></h3>
+<section id="verstehen-vs.-vertrautheit" class="level4">
+<h4 class="anchored" data-anchor-id="verstehen-vs.-vertrautheit">Verstehen vs.&nbsp;Vertrautheit</h4>
+<p><strong>Beispiel: Erklärungs-Coach (Feynman-Technik)</strong></p>
 <ul>
 <li><strong>Lehrthema</strong>: Computernetzwerke (TCP/IP-Protokoll)</li>
 <li><strong>Problem</strong>: Können Fachbegriffe verwenden, aber nicht einfach erklären was passiert</li>
@@ -587,38 +639,11 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </ul>
 <p><strong>Warum es funktioniert</strong>: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust, die ultimative Verstehens-Prüfung.</p>
 </section>
-</section>
-<section id="feedback-reflexion" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-reflexion">7. Feedback &amp; Reflexion</h2>
-<section id="beispiel-schreibtrainer-coach" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-schreibtrainer-coach"><strong>Beispiel: Schreibtrainer-Coach</strong></h3>
+<section id="anwendung" class="level4">
+<h4 class="anchored" data-anchor-id="anwendung">Anwendung</h4>
+<p><strong>Beispiel: Case-Study-Generator</strong></p>
 <ul>
-<li><strong>Lehrthema</strong>: Akademisches Schreiben</li>
-<li><strong>Problem</strong>: Wenig Bewusstsein für eigene Schreibprozesse und -qualität</li>
-</ul>
-<p><strong>Agent macht:</strong></p>
-<ul>
-<li>Analysiert Schreibmuster und gibt spezifisches Feedback</li>
-<li>Stellt Reflexionsfragen zum Schreibprozess</li>
-<li>Tracked Fortschritt in verschiedenen Dimensionen</li>
-<li>Gibt formatives (nicht summatives) Feedback</li>
-</ul>
-<p><strong>Lernende tun:</strong></p>
-<ol type="1">
-<li><strong>Versuch</strong>: Ersten Entwurf schreiben und eigene Schwächen identifizieren</li>
-<li><strong>Prüfe</strong>: Agent analysiert Schreibmuster (nicht Inhalt!) und stellt Fragen</li>
-<li><strong>Überarbeiten</strong>: Feedback in konkrete Änderungen umsetzen und dokumentieren</li>
-<li><strong>Reflektieren</strong>: “Was habe ich über meinen Schreibstil gelernt?”</li>
-</ol>
-<p><strong>Warum es funktioniert</strong>: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern. Die Versuch-dann-Prüfe-Struktur stellt sicher, dass Lernende zuerst selbst schreiben.</p>
-</section>
-</section>
-<section id="anwendung" class="level2">
-<h2 class="anchored" data-anchor-id="anwendung">8. Anwendung</h2>
-<section id="beispiel-case-study-generator" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-case-study-generator"><strong>Beispiel: Case-Study-Generator</strong></h3>
-<ul>
-<li><strong>Lehrthema</strong>: Betriebswirtschaft - Strategisches Management</li>
+<li><strong>Lehrthema</strong>: Betriebswirtschaft, Strategisches Management</li>
 <li><strong>Problem</strong>: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden</li>
 </ul>
 <p><strong>Agent macht:</strong></p>
@@ -636,6 +661,10 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <li><strong>Synthetisieren</strong>: Trade-offs und langfristige Konsequenzen durchdenken</li>
 </ol>
 <p><strong>Warum es funktioniert</strong>: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden. Die Versuch-dann-Prüfe-Struktur bewahrt die eigenständige Analyse.</p>
+</section>
+</div>
+</div>
+</div>
 
 
 

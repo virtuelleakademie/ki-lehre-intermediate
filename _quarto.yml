@@ -56,7 +56,9 @@ website:
         menu:
           - text: "Die 8 Make it Stick Strategien"
             file: resources/handout-make-it-stick/index.qmd
-          - text: "Agent-Beispiele"
+          - text: "Agent-Template (Analyse & Anpassung)"
+            file: 03-praxis/agent-template/index.qmd
+          - text: "Agent-Beispiele (Illustrationen)"
             file: resources/agent-beispiele/index.qmd
           - text: "Produktive Anstrengung durch Design"
             file: resources/produktive-anstrengung/index.qmd
@@ -121,6 +123,7 @@ website:
         - 03-praxis/index.qmd
         - 03-praxis/5-fragen-framework/index.qmd
         - 03-praxis/fallstudien/index.qmd
+        - 03-praxis/agent-template/index.qmd
 
     - title: "Ressourcen"
       style: "docked"

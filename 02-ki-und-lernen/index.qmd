@@ -30,7 +30,7 @@ Lücken sind willkommen: Sie zeigen dir, wo du beim Weiterhören besonders aufme
 ::: {.facilitator}
 ### Slides und Übergang zum Worked Example (ca. 10 Min)
 
-Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", Equity, 5-Fragen-Framework. Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.
+Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", ungleiche Wirkung, 5-Fragen-Framework. Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.
 :::
 
 
@@ -285,7 +285,7 @@ Die richtige Frage ist nicht *"Wie verhindern wir, dass Studierende schummeln?"*
 
 Herbert Simon nannte das zugrundeliegende Prinzip **Bounded Rationality** (begrenzte Rationalität): Menschen treffen Entscheidungen nicht durch Optimierung aller Möglichkeiten, sondern indem sie die erste akzeptable Lösung wählen (*Satisficing*). Wenn die Lernumgebung eine akzeptable Lösung ohne kognitive Anstrengung zulässt, werden begrenzt rationale Studierende diese Lösung wählen. Die Konsequenz für die Aufgabengestaltung: Wir müssen Aufgaben so entwerfen, dass die "befriedigende" Lösung die kognitive Anstrengung *einschliesst*, nicht umgeht.
 
-#### Die Equity-Dimension
+#### Ungleiche Wirkung
 
 Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtigkeit: Wenn das, was Novizen hilft, sich von dem unterscheidet, was Experten hilft, dann schadet unstrukturierter KI-Einsatz Studierenden mit schwächerem Vorwissen *überproportional*. Das ist keine empirische Spekulation, sondern eine logische Folge der Theorie, die wir bereits besprochen haben:
 
@@ -293,7 +293,7 @@ Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtig
 - Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde
 - KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**
 
-Die empirische Evidenzbasis zu KI-spezifischen Equity-Effekten wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
 
 **Konkrete Gegenmassnahmen:**
 
@@ -303,7 +303,7 @@ Die empirische Evidenzbasis zu KI-spezifischen Equity-Effekten wächst, und die 
 
 #### Was uns die Geschichte der Bildungstechnologie lehrt
 
-Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Equity-Lücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
+Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Gerechtigkeitslücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
 
 Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.
 

@@ -1,17 +1,33 @@
 ---
-title: "Agent-Beispiele für die 8 Strategien"
+title: "Agent-Beispiele: Lernstrategien illustriert"
+subtitle: "Konzeptillustrationen, keine fertigen Werkzeuge"
 ---
 
 ## Wie diese Beispiele nutzen
 
-Jedes Beispiel zeigt:
-
+Jedes Beispiel zeigt das Zusammenspiel von Lernstrategie und Agent-Design:
 
 - **Lehrthema & Problem**
 - **Gewählte Make-it-Stick-Strategie**
 - **Agent-Design** (Was tut der Agent?)
 - **Lernende-Aktivität** (Was bleibt beim Lernenden?)
 - **Warum es funktioniert**
+
+Die drei Beispiele sind als **Fading-Sequenz** aufgebaut: Das erste ist vollständig ausgearbeitet, das zweite teilweise, das dritte gibt nur den Kontext vor. Diese Struktur spiegelt den Lernprozess vom Worked Example zur eigenständigen Generierung.
+
+::: {.callout-warning}
+### Was diese Beispiele sind und was nicht
+
+Diese Beispiele illustrieren, **wie Lernstrategien in Agent-Designs übersetzt werden können**. Sie sind Konzeptillustrationen, keine einsatzbereiten Werkzeuge.
+
+**Wichtig zu verstehen:**
+
+- Ein **System-Prompt beschreibt** gewünschtes Verhalten, er **garantiert** es nicht. LLMs können Anweisungen ignorieren, kreativ uminterpretieren oder in unvorhergesehenen Situationen anders reagieren als beabsichtigt.
+- Einige beschriebene Fähigkeiten (z.B. "berechnet optimale Wiederholungsintervalle", "sendet personalisierte Erinnerungen", "trackt Fortschritt über Zeit") gehen über das hinaus, was ein System-Prompt allein leisten kann. Sie erfordern zusätzliche technische Infrastruktur.
+- Vom Konzept zum funktionierenden Agent ist es ein Weg, der **iteratives Testen, Qualitätsbewertung und laufendes Monitoring** erfordert.
+
+Der Wert dieser Beispiele liegt darin, das Zusammenspiel von Lernstrategie und Agent-Rolle zu durchdenken, nicht darin, sie unverändert einzusetzen.
+:::
 
 ::: {.callout-important}
 ## Designprinzip: Aufmerksamkeit gezielt lenken
@@ -29,6 +45,8 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 
 ## 1. Abrufpraxis (Retrieval Practice)
+
+*Vollständig ausgearbeitetes Beispiel*
 
 ### **Beispiel: Statistik-Tutor**
 
@@ -52,9 +70,64 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 **Warum es funktioniert**: Agent generiert die Übung, aber Lernende müssen aktiv abrufen und denken. Die Versuch-dann-Prüfe-Struktur bewahrt den Vorhersagefehler-Zyklus.
 
 
-## 2. Verteiltes Lernen (Spacing)
+## 2. Abwechslung (Interleaving)
 
-### **Beispiel: Anatomie-Coach**
+*Teilweise ausgearbeitet: "Warum es funktioniert" als Selbsterklärung*
+
+### **Beispiel: Programmier-Mentor**
+
+- **Lehrthema**: Algorithmen und Datenstrukturen
+- **Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
+
+**Agent macht:**
+
+- Mischt verschiedene Problemtypen intelligent
+- Erstellt "Mixed Practice" Sessions
+- Vermeidet predictable Patterns
+- Analysiert welche Kombinationen am besten funktionieren
+
+**Lernende tun:**
+
+1. **Versuch**: Identifizieren Algorithmus/Datenstruktur und erstellen eine Skizze
+2. **Implementieren**: Ersten Lösungsansatz programmieren
+3. **Prüfe**: Agent zeigt Alternativen, Lernende vergleichen Effizienz und Lesbarkeit
+4. **Reflektieren**: Warum ist Ansatz X hier besser? Pattern-Recognition entwickeln
+
+::: {.reflect}
+### Warum funktioniert es?
+
+Formuliere in eigenen Worten: Welches Lernprinzip aus Teil 1 wird hier konkret angewendet? Und wo liegt die Grenze, an der der Agent die wünschenswerte Schwierigkeit eliminieren statt bewahren könnte?
+:::
+
+
+## 3. Feedback & Reflexion
+
+*Nur Kontext gegeben: Agent- und Lernende-Rollen selbst gestalten*
+
+### **Beispiel: Schreibtrainer-Coach**
+
+- **Lehrthema**: Akademisches Schreiben
+- **Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
+
+::: {.individual}
+### Dein Design
+
+Anhand der Muster aus den ersten beiden Beispielen:
+
+1. **Agent-Rolle**: Was sollte der Agent tun, und was explizit *nicht*? Wie bleibt die Versuch-dann-Prüfe-Struktur erhalten?
+2. **Lernende-Aktivität**: Was bleibt bei den Studierenden? In welcher Reihenfolge?
+3. **Grenze**: In welcher Situation würde dieser Agent das Evaluationsparadox verschärfen statt abmildern?
+:::
+
+
+::: {.callout-note collapse="true"}
+### Weitere Beispiele: 5 zusätzliche Strategien
+
+*Die folgenden Beispiele sind zur Vertiefung gedacht. Sie folgen demselben Versuch-dann-Prüfe-Muster wie die Beispiele oben. Jedes Beispiel entspricht einer der [8 Make-it-Stick-Strategien](../handout-make-it-stick/).*
+
+#### Verteiltes Lernen (Spacing)
+
+**Beispiel: Anatomie-Coach**
 
 - **Lehrthema**: Medizin, Anatomische Strukturen
 - **Problem**: Bulimie-Lernen vor Prüfungen, schnelles Vergessen
@@ -76,33 +149,9 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 **Warum es funktioniert**: Agent optimiert wann gelernt wird, aber nicht was und wie.
 
 
-## 3. Abwechslung (Interleaving)
+#### Variation
 
-### **Beispiel: Programmier-Mentor**
-
-- **Lehrthema**: Algorithmen und Datenstrukturen
-- **Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
-
-**Agent macht:**
-
-- Mischt verschiedene Problemtypen intelligent
-- Erstellt "Mixed Practice" Sessions
-- Vermeidet predictable Patterns
-- Analysiert welche Kombinationen am besten funktionieren
-
-**Lernende tun:**
-
-1. **Versuch**: Identifizieren Algorithmus/Datenstruktur und erstellen eine Skizze
-2. **Implementieren**: Ersten Lösungsansatz programmieren
-3. **Prüfe**: Agent zeigt Alternativen, Lernende vergleichen Effizienz und Lesbarkeit
-4. **Reflektieren**: Warum ist Ansatz X hier besser? Pattern-Recognition entwickeln
-
-**Warum es funktioniert**: Agent mixt die Aufgaben, Lernende müssen Problem identifizieren und lösen. Die Versuch-dann-Prüfe-Struktur erzwingt eigenes Denken vor dem Vergleich.
-
-
-## 4. Variation
-
-### **Beispiel: Physik-Simulator**
+**Beispiel: Physik-Simulator**
 
 - **Lehrthema**: Newtonsche Mechanik
 - **Problem**: Können Formeln anwenden, aber nicht in neuen Kontexten
@@ -123,12 +172,12 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 **Warum es funktioniert**: Agent variiert die Kontexte, Lernende müssen Prinzipien erkennen und anwenden.
 
 
-## 5. Wünschenswerte Schwierigkeiten
+#### Wünschenswerte Schwierigkeiten
 
-### **Beispiel: Sozialpsychologie-Challenger**
+**Beispiel: Sozialpsychologie-Challenger**
 
-**Lehrthema**: Kognitive Verzerrungen und Biases
-**Problem**: Oberflächliches Verständnis, keine kritische Anwendung
+- **Lehrthema**: Kognitive Verzerrungen und Biases
+- **Problem**: Oberflächliches Verständnis, keine kritische Anwendung
 
 **Agent macht:**
 
@@ -147,9 +196,9 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 **Warum es funktioniert**: Agent erzeugt Struggle, Lernende müssen durch die Schwierigkeit durcharbeiten. Die Versuch-dann-Prüfe-Struktur sorgt dafür, dass Lernende zuerst selbst denken.
 
 
-## 6. Verstehen vs. Vertrautheit
+#### Verstehen vs. Vertrautheit
 
-### **Beispiel: Erklärungs-Coach (Feynman-Technik)**
+**Beispiel: Erklärungs-Coach (Feynman-Technik)**
 
 - **Lehrthema**: Computernetzwerke (TCP/IP-Protokoll)
 - **Problem**: Können Fachbegriffe verwenden, aber nicht einfach erklären was passiert
@@ -171,35 +220,11 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 **Warum es funktioniert**: Agent zwingt zur Vereinfachung ohne Bedeutungsverlust, die ultimative Verstehens-Prüfung.
 
 
-## 7. Feedback & Reflexion
+#### Anwendung
 
-### **Beispiel: Schreibtrainer-Coach**
+**Beispiel: Case-Study-Generator**
 
-- **Lehrthema**: Akademisches Schreiben
-- **Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
-
-**Agent macht:**
-
-- Analysiert Schreibmuster und gibt spezifisches Feedback
-- Stellt Reflexionsfragen zum Schreibprozess
-- Tracked Fortschritt in verschiedenen Dimensionen
-- Gibt formatives (nicht summatives) Feedback
-
-**Lernende tun:**
-
-1. **Versuch**: Ersten Entwurf schreiben und eigene Schwächen identifizieren
-2. **Prüfe**: Agent analysiert Schreibmuster (nicht Inhalt!) und stellt Fragen
-3. **Überarbeiten**: Feedback in konkrete Änderungen umsetzen und dokumentieren
-4. **Reflektieren**: "Was habe ich über meinen Schreibstil gelernt?"
-
-**Warum es funktioniert**: Agent analysiert und fragt, Lernende müssen reflektieren und verbessern. Die Versuch-dann-Prüfe-Struktur stellt sicher, dass Lernende zuerst selbst schreiben.
-
-
-## 8. Anwendung
-
-### **Beispiel: Case-Study-Generator**
-
-- **Lehrthema**: Betriebswirtschaft - Strategisches Management
+- **Lehrthema**: Betriebswirtschaft, Strategisches Management
 - **Problem**: Theoretisches Wissen kann nicht auf reale Situationen übertragen werden
 
 **Agent macht:**
@@ -217,4 +242,4 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 4. **Synthetisieren**: Trade-offs und langfristige Konsequenzen durchdenken
 
 **Warum es funktioniert**: Agent erstellt realistische Szenarien, Lernende müssen anwenden und entscheiden. Die Versuch-dann-Prüfe-Struktur bewahrt die eigenständige Analyse.
-
+:::
