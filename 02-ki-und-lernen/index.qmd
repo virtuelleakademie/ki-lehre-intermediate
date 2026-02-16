@@ -5,6 +5,11 @@ title: "KI & Lernen"
 
 Was bedeuten die Erkenntnisse aus der Lernforschung für den Einsatz von KI in der Lehre? In diesem Teil wenden wir die kognitive Architektur auf die zentrale Frage an: Wann unterstützt KI das Lernen, und wann verhindert sie es?
 
+
+:::: {.panel-tabset}
+
+## {{< bi file-slides >}} Slides
+
 ::: {.active-processing}
 ### Gedächtnis-Aktivierung (5 Min)
 
@@ -18,7 +23,7 @@ Lücken sind willkommen: Sie zeigen dir, wo du beim Weiterhören besonders aufme
 :::
 
 
-## {{< bi file-slides >}} Was bedeutet das für KI?
+### Was bedeutet das für KI?
 
 {{< revealjs file="../slides/ki-und-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
@@ -55,8 +60,12 @@ Du siehst gleich einen kurzen, gut formulierten Absatz zu einem Fachthema *ausse
 **Aufgabe:** Finde den Fehler.
 
 Dann siehst du einen ähnlichen Absatz *innerhalb* deines Fachgebiets, ebenfalls mit einem Fehler.
+:::
 
-**Die Pointe**: Im fremden Fach fehlen dir die Schemas, um Plausibles von Falschem zu unterscheiden. Im eigenen Fach springt der Fehler ins Auge. Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
+::: {.pro-tip collapse="true"}
+### Die Pointe: Evaluationsparadox
+
+Im fremden Fach fehlen dir die Schemas, um Plausibles von Falschem zu unterscheiden. Im eigenen Fach springt der Fehler ins Auge. Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
 :::
 
 ::: {.active-processing}
@@ -70,7 +79,7 @@ Gleich analysieren wir gemeinsam eine typische Aufgabe ("Annotierte Bibliografie
 :::
 
 
-## Worked Example: Das Framework in Aktion
+## {{< bi lightbulb >}} Worked Example
 
 ::: {.facilitator}
 ### Worked Example gemeinsam durchgehen (ca. 12 Min)
@@ -130,6 +139,7 @@ Das Framework zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfas
 *Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Genau das Prinzip, das wir gerade besprochen haben.*
 :::
 
+::: {.callout-note collapse="true"}
 ### Ein mögliches Redesign
 
 | Phase | Was Studierende tun | Rolle der KI |
@@ -141,7 +151,7 @@ Das Framework zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfas
 
 **Was sich ändert:** Die Studierenden müssen *den Prozess* durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.
 
-### Was zeigt dieses Beispiel?
+#### Was zeigt dieses Beispiel?
 
 Drei Erkenntnisse für die eigene Praxis:
 
@@ -150,6 +160,7 @@ Drei Erkenntnisse für die eigene Praxis:
 3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Dieses Prinzip ist theoretisch gut fundiert durch die Forschung zu Abrufeffekten und Vorhersagefehlern, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
 {{< include ../resources/figures/fig-try-then-check.qmd >}}
+:::
 
 ::: {.active-processing}
 ### Rückkehr zur Vorhersage (1 Min)
@@ -185,9 +196,7 @@ Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schr
 > [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)
 
 
----
-
-## {{< bi book >}} Zum Nachlesen
+## {{< bi book >}} Nachlesen
 
 Die folgenden Abschnitte vertiefen die Konzepte aus den Slides. Sie sind als Nachlese-Material für das Selbststudium gedacht.
 
@@ -315,7 +324,7 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 :::
 
 
-## Vertiefende Ressourcen
+## {{< bi journals >}} Ressourcen
 
 ### Für das Selbststudium
 
@@ -324,3 +333,5 @@ Ein praktisches Werkzeug für die Aufgabengestaltung:
 - [Wie man Kompetenzen erwirbt](../01-lernen-verstehen/kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung
 - [Produktive Anstrengung durch Design](../resources/produktive-anstrengung/). Lernumgebungen gestalten, die Anstrengung zum natürlichen Weg machen
 - [The Curious Case of Transfer of Learning](https://umesko.substack.com/p/the-curious-case-of-transfer-of-learning). Warum tiefes Wissen die Voraussetzung für Wissenstransfer ist (Shrestha, nach Haskell)
+
+::::
