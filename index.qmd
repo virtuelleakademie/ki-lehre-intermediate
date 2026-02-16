@@ -62,7 +62,7 @@ Die Website funktioniert auf zwei Ebenen: als Live-Begleitung während des Works
 
 **Vor dem Workshop**
 
-- Arbeite den [Vorbereitungsauftrag](vorbereitung/index.qmd) durch (ca. 20 Min.)
+- Arbeite den [Vorbereitungsauftrag](vorbereitung/index.qmd) durch (ca. 30 Min.)
 - Bring eine eigene Aufgabe oder Prüfung mit, die wir gemeinsam analysieren
 
 **Während des Workshops**
