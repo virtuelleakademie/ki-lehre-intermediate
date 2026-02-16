@@ -92,6 +92,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
 <style>
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -101,6 +112,17 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -114,6 +136,17 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
 div.callout-reflect.callout {
   border-left-color: #64748b;
 }
@@ -123,6 +156,17 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -145,50 +189,6 @@ div.callout-nachlesen.callout-style-default > .callout-header {
 div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
   content: '📖';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #7c3aed;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -298,8 +298,8 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-f84ad20b148cab8a217f" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-f84ad20b148cab8a217f">{"x":{"diagram":"\ndigraph beach_ant {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.8\n    label = \"The Beach, Not the Ant (Herbert Simon)\\nDie Lernumgebung bestimmt das Verhalten mehr als die Motivation der Lernenden\"\n    labelloc = t\n    fontsize = 14\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n    color = \"#999999\"\n  ]\n\n  // The beach (environment)\n  beach [\n    label = \"Der Strand\\n(Lernumgebung)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 14\n    margin = \"0.3,0.2\"\n  ]\n\n  terrain1 [\n    label = \"Aufgabendesign\\nWas wird verlangt?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain2 [\n    label = \"Prüfungsformat\\nWas wird gemessen?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain3 [\n    label = \"KI-Zugänglichkeit\\nWas ist verfügbar?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain4 [\n    label = \"Strukturelle Anreize\\nWas ist der einfachste Weg?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  // The ant (student)\n  ant [\n    label = \"Die Ameise\\n(Studierende)\"\n    fillcolor = \"#64748b\"\n    fontsize = 14\n    margin = \"0.3,0.2\"\n  ]\n\n  // Behavior\n  path_good [\n    label = \"Produktiver Weg\\nEigenes Denken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  path_easy [\n    label = \"Einfacher Weg\\nKI-Outsourcing\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  beach -> terrain1\n  beach -> terrain2\n  beach -> terrain3\n  beach -> terrain4\n\n  terrain1 -> ant [style = invis]\n  terrain4 -> ant [style = invis]\n\n  ant -> path_good [label = \"  Wenn Umgebung\\nAnstrengung belohnt  \" color = \"#0072B2\"]\n  ant -> path_easy [label = \"  Wenn Umgebung\\nAbkürzung ermöglicht  \" color = \"#D55E00\"]\n\n  // Key insight\n  insight [\n    label = \"Gestalte den Strand,\\nnicht die Ameise.\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 13\n    fontname = \"Helvetica Bold\"\n  ]\n\n  path_good -> insight [style = invis]\n  path_easy -> insight [style = invis]\n\n  {rank = same; terrain1; terrain2; terrain3; terrain4}\n  {rank = same; path_good; path_easy}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-1ce66e475d1c31714004" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-1ce66e475d1c31714004">{"x":{"diagram":"\ndigraph beach_ant {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.8\n    label = \"The Beach, Not the Ant (Herbert Simon)\\nDie Lernumgebung bestimmt das Verhalten mehr als die Motivation der Lernenden\"\n    labelloc = t\n    fontsize = 16\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n    color = \"#999999\"\n  ]\n\n  // The beach (environment)\n  beach [\n    label = \"Der Strand\\n(Lernumgebung)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 16\n    margin = \"0.3,0.2\"\n  ]\n\n  terrain1 [\n    label = \"Aufgabendesign\\nWas wird verlangt?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain2 [\n    label = \"Prüfungsformat\\nWas wird gemessen?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain3 [\n    label = \"KI-Zugänglichkeit\\nWas ist verfügbar?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain4 [\n    label = \"Strukturelle Anreize\\nWas ist der einfachste Weg?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  // The ant (student)\n  ant [\n    label = \"Die Ameise\\n(Studierende)\"\n    fillcolor = \"#64748b\"\n    fontsize = 16\n    margin = \"0.3,0.2\"\n  ]\n\n  // Behavior\n  path_good [\n    label = \"Produktiver Weg\\nEigenes Denken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  path_easy [\n    label = \"Einfacher Weg\\nKI-Outsourcing\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  beach -> terrain1\n  beach -> terrain2\n  beach -> terrain3\n  beach -> terrain4\n\n  terrain1 -> ant [style = invis]\n  terrain4 -> ant [style = invis]\n\n  ant -> path_good [label = \"  Wenn Umgebung\\nAnstrengung belohnt  \" color = \"#0072B2\"]\n  ant -> path_easy [label = \"  Wenn Umgebung\\nAbkürzung ermöglicht  \" color = \"#D55E00\"]\n\n  // Key insight\n  insight [\n    label = \"Gestalte den Strand,\\nnicht die Ameise.\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 15\n    fontname = \"Helvetica Bold\"\n  ]\n\n  path_good -> insight [style = invis]\n  path_easy -> insight [style = invis]\n\n  {rank = same; terrain1; terrain2; terrain3; terrain4}\n  {rank = same; path_good; path_easy}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

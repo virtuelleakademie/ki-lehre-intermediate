@@ -6,7 +6,7 @@ Warum sich effektives Lernen oft anstrengend anfühlt, und was dabei tatsächlic
 
 In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus der Perspektive der kognitiven Psychologie? Was passiert im Gehirn, wenn wir Neues lernen? Und warum ist das, was sich wie Lernen *anfühlt*, oft das Gegenteil?
 
-Ohne dieses Grundverständnis lassen sich später kaum informierte Entscheidungen über den Einsatz von KI in der Lehre treffen.
+Diese Grundlagen helfen dir, in Teil 2 und 3 informierte Entscheidungen über den Einsatz von KI in deiner Lehre zu treffen.
 
 
 :::: {.panel-tabset}
@@ -20,7 +20,15 @@ Ohne dieses Grundverständnis lassen sich später kaum informierte Entscheidunge
 ::: {.facilitator}
 ### Slides + Aktivitäten (ca. 50 Min gesamt)
 
-Präsentiere die Slides (ca. 20-25 Min). Zwei Mikropausen einbauen (je 30 Sek): eine nach den CLT-Slides, eine nach dem Lernparadox. Die Digit Span Demo kommt nach dem Abschnitt über Arbeitsgedächtnis. Nach den Slides folgen die Gedächtnis-Aktivierungen, dann die Fallstudien-Analyse in Paaren.
+Präsentiere die Slides (Richtwert: 25 Min). Zwei Mikropausen einbauen (je 30 Sek): eine nach den CLT-Slides, eine nach dem Lernparadox. Die Digit Span Demo kommt nach dem Abschnitt über Arbeitsgedächtnis.
+
+**Zeitcheck nach den Slides:**
+
+- **Vor 09:35 fertig?** Alle Aktivitäten: Arbeitsgedächtnis-Übung (3 Min) + Schemata erleben (2 Min) + Expertise Reversal spüren (2 Min) + Gedächtnis-Aktivierungen + Fallstudien-Analyse (10 Min) + Wichtigste Erkenntnis (1 Min)
+- **Um 09:40 fertig?** Arbeitsgedächtnis-Übung (3 Min) + Gedächtnis-Aktivierungen + Fallstudien-Analyse (10 Min) + Wichtigste Erkenntnis (1 Min)
+- **Nach 09:40 fertig?** Nur Fallstudien-Analyse (10 Min) + Wichtigste Erkenntnis (1 Min)
+
+Die Gedächtnis-Aktivierungen (Retrieval Practice) sind nicht optional, sie demonstrieren das Prinzip, das der Slide "Warum Abrufpraxis funktioniert" erklärt. Die Fallstudien-Analyse ist die zentrale Transferaktivität und darf nicht gekürzt werden.
 :::
 
 
@@ -69,7 +77,7 @@ Diese Übung demonstriert **Elementinteraktivität**, das zentrale Konzept der C
 
 
 ::: {.active-processing}
-### Schemas erleben (2 Min)
+### Schemata erleben (2 Min)
 
 Du hörst gleich einen kurzen Text, der ein vertrautes Verfahren beschreibt, aber ohne Schlüsselbegriffe: Alle Fachbegriffe sind durch vage Pronomen und generische Beschreibungen ersetzt.
 
@@ -80,7 +88,7 @@ Dann hörst du denselben Text nochmals, diesmal mit dem Schlüsselwort vorab.
 :::
 
 ::: {.pro-tip collapse="true"}
-### Die Pointe: Schemas
+### Die Pointe: Schemata
 
 Der Text war identisch. Was sich verändert hat: Dein Langzeitgedächtnis hat ein **Schema** aktiviert, das die Elemente organisiert. Ohne Schema muss jedes Detail einzeln im Arbeitsgedächtnis verarbeitet werden. Mit Schema kollabieren die Details zu einer vertrauten Struktur. So klingt jede Vorlesung für Erstsemester in deinem Fach.
 :::
@@ -204,11 +212,11 @@ Dabei ist "Gedächtnis" kein einheitliches System: Deklaratives Wissen (Fakten, 
 
 #### Was unterscheidet Anfänger von Experten?
 
-Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organisiertes Langzeitgedächtnis** mit reichen, vernetzten Schemas, die als "Chunks" funktionieren.
+Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organisiertes Langzeitgedächtnis** mit reichen, vernetzten Schemata, die als "Chunks" funktionieren.
 
 | | Anfänger | Experte |
 |---|---|---|
-| **Wissen** | Isolierte Fakten (deklarativ) | Vernetzte Schemas (prozedural) |
+| **Wissen** | Isolierte Fakten (deklarativ) | Vernetzte Schemata (prozedural) |
 | **Verarbeitung** | Bewusst, langsam, fehleranfällig | Automatisiert, schnell, flexibel |
 | **Arbeitsgedächtnis** | Schnell überlastet | Effizient durch Chunking |
 

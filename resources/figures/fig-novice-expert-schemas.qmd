@@ -72,7 +72,7 @@ p <- ggplot() +
            fill = "#f8f9fa", color = "#e5e7eb", linewidth = 0.5) +
   annotate("text", x = 9.3, y = 5.5, label = "Expert:in",
            size = 5.5, fontface = "bold", color = color_positive) +
-  annotate("text", x = 9.3, y = -0.2, label = "Vernetzte Schemas",
+  annotate("text", x = 9.3, y = -0.2, label = "Vernetzte Schemata",
            size = 3.8, fontface = "italic", color = color_neutral) +
 
   # Cluster backgrounds

@@ -28,10 +28,10 @@ Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksam
 ## Zentrale Erkenntnisse
 
 1. **Arbeitsgedächtnis ist der Flaschenhals**, durch den alles Lernen hindurch muss: ca. 4 Elemente, 15--30 Sekunden ohne Auffrischung
-2. **Vorwissen verändert den Flaschenhals**: Schemas komprimieren Elemente; die effektive Kapazität variiert mit der Expertise
+2. **Vorwissen verändert den Flaschenhals**: Schemata komprimieren Elemente; die effektive Kapazität variiert mit der Expertise
 3. **Pausen sind keine verlorene Zeit**: Schon kurze Mikropausen ermöglichen die Auffrischung zerfallender Gedächtnisspuren
 4. **Das eigentliche Limit ist Bindung**: Nicht nur Elemente halten, sondern deren *Beziehungen zueinander* verarbeiten, das ist die anspruchsvollste Operation
-5. **Neue Inhalte belasten fundamental anders**: Ohne Schemas fehlen alle Mechanismen, die das Arbeitsgedächtnis normalerweise entlasten
+5. **Neue Inhalte belasten fundamental anders**: Ohne Schemata fehlen alle Mechanismen, die das Arbeitsgedächtnis normalerweise entlasten
 6. **Cognitive Load Theory übersetzt die Forschung in Lehrdesign**: Extrinsische Last eliminieren, um Raum für die produktive Verarbeitung der intrinsischen Komplexität zu schaffen
 
 
@@ -188,7 +188,7 @@ Für den Anfänger sind "F", "m" und "a" drei separate Elemente ohne Verbindung.
 
 Bei neuen Inhalten:
 
-- **Chunking kann nicht helfen**, weil es keine vorhandenen Schemas zum Komprimieren gibt
+- **Chunking kann nicht helfen**, weil es keine vorhandenen Schemata zum Komprimieren gibt
 - **Aktiviertes LTM hat nichts Relevantes** zur Unterstützung der aktuellen Verarbeitung
 - **Auffrischung ist weniger effektiv**, weil keine LTM-Anker die Spuren stabilisieren
 - **Jede Bindung ist willkürlich**, und die relationale Struktur muss durch rohe Anstrengung aufrechterhalten werden

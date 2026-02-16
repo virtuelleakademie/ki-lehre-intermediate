@@ -1,6 +1,6 @@
 ---
 title: "Wie Menschen lernen"
-subtitle: "The right kind of cognitive effort is not a bug---it's a signal that learning is happening"
+subtitle: "Warum sich effektives Lernen oft anstrengend anfühlt"
 ---
 
 
@@ -142,7 +142,7 @@ Wie Material präsentiert wird
 
 :::{.fragment}
 ::: {.callout-tip}
-**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemas aufbaut.
+**Das Ziel:** Raum schaffen für *germane processing*, die lernrelevante Verarbeitung, die Schemata aufbaut.
 :::
 :::
 
@@ -268,6 +268,24 @@ Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entw
 {{< include ../../resources/figures/fig-wissenskompilation.qmd >}}
 
 
+## Warum Abrufpraxis funktioniert {.smaller}
+
+**Abruf misst nicht nur Lernen, er *erzeugt* Lernen** [@roedigerCriticalRoleRetrieval2011]
+
+| Mechanismus | Wirkung |
+|-------------|---------|
+| **Stärkt Abrufrouten** | Jeder erfolgreiche Abruf macht die Erinnerung zugänglicher |
+| **Identifiziert Lücken** | Scheitern beim Abruf zeigt, was man nicht weiss |
+| **Fördert Elaboration** | Rekonstruktion aktiviert verwandtes Wissen |
+| **Aktualisiert Kontext** | Neue Abrufkontexte machen Wissen transferierbarer |
+
+:::{.fragment}
+::: {.callout-important}
+**Deshalb funktionieren die Gedächtnis-Aktivierungen im Workshop**: Nicht die Anstrengung selbst, sondern die durch den Abruf ausgelösten Prozesse festigen das Gelernte.
+:::
+:::
+
+
 ## Drei verbreitete Missverständnisse {.center}
 
 :::{.fragment}
@@ -364,7 +382,7 @@ Produktive Anstrengung **fühlt sich schwierig an**, signalisiert aber, dass ler
 
 . . .
 
-**Merksatz:** "The right kind of cognitive effort is not a bug---it's a signal that learning is happening."
+Produktive Anstrengung ist kein Fehler im System, sondern das Signal, dass Lernen stattfindet.
 
 
 ## Was wir jetzt wissen {.center}

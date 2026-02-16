@@ -92,28 +92,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
 <style>
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
 div.callout-individual.callout {
   border-left-color: #0072B2;
 }
@@ -125,15 +103,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: #059669;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-group.callout {
@@ -158,6 +136,17 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
 div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
@@ -180,15 +169,26 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 </style>
@@ -297,16 +297,9 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 
 
 <div class="cell">
-<div id="fig-expert-novice" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-expert-novice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-9b2db6612b939b3c2389" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-9b2db6612b939b3c2389">{"x":{"diagram":"\ndigraph expert_novice {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    rankdir = LR\n    nodesep = 0.6\n    ranksep = 1.0\n    compound = true\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_expert {\n    label = \"Expert:in\"\n    fontname = \"Helvetica\"\n    fontsize = 13\n    fontcolor = \"#0072B2\"\n    style = \"rounded,filled\"\n    fillcolor = \"#dce8f5\"\n    color = \"#0072B2\"\n    penwidth = 1.5\n\n    e_model [label = \"Starkes internes\\nModell\" fillcolor = \"#0072B2\"]\n    e_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    e_result [label = \"Korrektur\" fillcolor = \"#0072B2\"]\n\n    e_model -> e_ki [label = \"  Vergleich\\n  möglich  \" color = \"#222222\"]\n    e_ki -> e_result [label = \"  Fehler\\n  erkennbar  \" color = \"#222222\"]\n  }\n\n  subgraph cluster_novice {\n    label = \"Anfänger:in\"\n    fontname = \"Helvetica\"\n    fontsize = 13\n    fontcolor = \"#D55E00\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fde8d8\"\n    color = \"#D55E00\"\n    penwidth = 1.5\n\n    n_model [label = \"Schwaches internes\\nModell\" fillcolor = \"#D55E00\"]\n    n_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    n_result [label = \"Übernahme\" fillcolor = \"#D55E00\"]\n\n    n_model -> n_ki [label = \"  Kein Vergleichs-\\n  massstab  \" color = \"#999999\" style = dashed]\n    n_ki -> n_result [label = \"  Fehler\\n  unsichtbar  \" color = \"#999999\" style = dashed]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-expert-novice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1
-</figcaption>
-</figure>
+<div class="cell-output-display">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-af4121700efcaf4abcc4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-af4121700efcaf4abcc4">{"x":{"diagram":"\ndigraph expert_novice {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    rankdir = LR\n    nodesep = 0.6\n    ranksep = 1.0\n    compound = true\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_expert {\n    label = \"Expert:in\"\n    fontname = \"Helvetica\"\n    fontsize = 15\n    fontcolor = \"#0072B2\"\n    style = \"rounded,filled\"\n    fillcolor = \"#dce8f5\"\n    color = \"#0072B2\"\n    penwidth = 1.5\n\n    e_model [label = \"Starkes internes\\nModell\" fillcolor = \"#0072B2\"]\n    e_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    e_result [label = \"Korrektur\" fillcolor = \"#0072B2\"]\n\n    e_model -> e_ki [label = \"  Vergleich\\n  möglich  \" color = \"#222222\"]\n    e_ki -> e_result [label = \"  Fehler\\n  erkennbar  \" color = \"#222222\"]\n  }\n\n  subgraph cluster_novice {\n    label = \"Anfänger:in\"\n    fontname = \"Helvetica\"\n    fontsize = 15\n    fontcolor = \"#D55E00\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fde8d8\"\n    color = \"#D55E00\"\n    penwidth = 1.5\n\n    n_model [label = \"Schwaches internes\\nModell\" fillcolor = \"#D55E00\"]\n    n_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    n_result [label = \"Übernahme\" fillcolor = \"#D55E00\"]\n\n    n_model -> n_ki [label = \"  Kein Vergleichs-\\n  massstab  \" color = \"#999999\" style = dashed]\n    n_ki -> n_result [label = \"  Fehler\\n  unsichtbar  \" color = \"#999999\" style = dashed]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

@@ -48,7 +48,7 @@ digraph bottleneck {
   ]
 
   ltm [
-    label = 'Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemas'
+    label = 'Langzeitgedächtnis\\n\\nUnbegrenzte Kapazität\\nDauerhaft\\nOrganisiert in Schemata'
     fillcolor = '#0072B2'
     fontsize = 13
     margin = '0.3,0.2'

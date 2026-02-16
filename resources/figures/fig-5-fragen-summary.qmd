@@ -17,7 +17,7 @@ digraph five_questions_summary {
 
   node [
     fontname = 'Helvetica'
-    fontsize = 13
+    fontsize = 15
     style = 'filled,rounded'
     fontcolor = 'white'
     penwidth = 0
@@ -27,7 +27,7 @@ digraph five_questions_summary {
 
   edge [
     fontname = 'Helvetica'
-    fontsize = 11
+    fontsize = 13
     color = '#999999'
     arrowsize = 0.8
   ]
@@ -35,7 +35,7 @@ digraph five_questions_summary {
   start [
     label = 'Aufgabe analysieren'
     fillcolor = '#64748b'
-    fontsize = 14
+    fontsize = 16
   ]
 
   q1 [label = '1. Geht es primär\\nums Lernen?' fillcolor = '#0072B2']
@@ -53,13 +53,13 @@ digraph five_questions_summary {
   success [
     label = 'Aufgabe bereit ✓\\n(mit oder ohne KI)'
     fillcolor = '#0072B2'
-    fontsize = 14
+    fontsize = 16
   ]
 
   noai [
     label = 'Keine KI nötig ✓\\nAufgabe funktioniert bereits'
     fillcolor = '#0072B2'
-    fontsize = 12
+    fontsize = 14
   ]
 
   start -> q1

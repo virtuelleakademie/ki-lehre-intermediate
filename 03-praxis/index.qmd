@@ -37,6 +37,8 @@ Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Wo sind die
 ### THINK-PAIR-SHARE Aktivität (23 Min)
 
 Sicherstellen, dass alle zwei Aufgaben haben. Wer keine oder nur eine mitgebracht hat, nutzt die Fallstudien-Szenarien als Ergänzung. Timer für jede Phase starten und sichtbar machen. Nach der SHARE-Phase kurze Reflexion einleiten.
+
+**Zeitcheck:** Falls Aktivität 1 länger dauert als geplant, die SHARE-Phase auf 2 Min kürzen (1 Beispiel statt 2-3) und die Reflexionsfrage weglassen. Die THINK- und PAIR-Phasen nicht kürzen, sie sind der Kern.
 :::
 
 ### THINK Phase (8 Min)
@@ -116,6 +118,8 @@ Und dann: **Was erwartest du, wenn du dieselbe Analyse auf deine zweite mitgebra
 Überleitung: "Ihr habt eine Aufgabe analysiert und ein Redesign vorgeschlagen. Jetzt wenden wir dasselbe Framework auf eure zweite mitgebrachte Aufgabe an und diagnostizieren gegenseitig die Schwachstellen. **Bildschirme zu, Stifte raus.** Ab jetzt arbeiten wir analog."
 
 Neue Paare bilden (nicht dieselben wie bei Aktivität 1). Karteikarten oder halbe A4-Blätter verteilen. Timer für jede Phase starten.
+
+**Zeitcheck:** Falls weniger als 20 Min bleiben vor dem Closing (11:45), den Advocatus-Diaboli-Teil auf eine Runde kürzen (nur Person A stellt vor, Person B diagnostiziert, dann direkt zum 1-Satz-Redesign). Die gemeinsame Muster-&-Synthese-Phase (6 Min) kann notfalls auf 3 Min gekürzt werden, aber die individuelle Konsolidierung (5 Min) ist essenziell als Transfersicherung.
 :::
 
 **Bildschirme schliessen.** Diese Aktivität funktioniert bewusst mit Papier und Stift. Das reduziert Ablenkung, erzwingt den Abruf aus dem Gedächtnis und schafft einen spürbaren Rhythmuswechsel im Workshop.

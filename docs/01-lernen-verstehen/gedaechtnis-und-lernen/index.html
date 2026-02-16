@@ -101,6 +101,50 @@ div.csl-indent {
     document.body.classList.add('hypothesis-enabled');
   });
 </script><style>
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -121,50 +165,6 @@ div.callout-group.callout-style-default > .callout-header {
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -189,15 +189,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: #059669;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 </style>
@@ -357,7 +357,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   <li>
 <a href="#ged%C3%A4chtnis-ist-rekonstruktiv" id="toc-gedächtnis-ist-rekonstruktiv" class="nav-link" data-scroll-target="#ged%C3%A4chtnis-ist-rekonstruktiv">Gedächtnis ist rekonstruktiv</a>
   <ul class="collapse">
-<li><a href="#schemas-das-zweischneidige-schwert" id="toc-schemas-das-zweischneidige-schwert" class="nav-link" data-scroll-target="#schemas-das-zweischneidige-schwert">Schemas: Das zweischneidige Schwert</a></li>
+<li><a href="#schemata-das-zweischneidige-schwert" id="toc-schemata-das-zweischneidige-schwert" class="nav-link" data-scroll-target="#schemata-das-zweischneidige-schwert">Schemata: Das zweischneidige Schwert</a></li>
   <li><a href="#activate-conflict-resolve" id="toc-activate-conflict-resolve" class="nav-link" data-scroll-target="#activate-conflict-resolve">Activate — Conflict — Resolve</a></li>
   </ul>
 </li>
@@ -433,7 +433,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <li>
 <strong>Essentiell</strong>: Gedächtnissysteme + Der Testing Effect + Wünschenswerte Schwierigkeiten</li>
 <li>
-<strong>Vertiefung</strong>: Rekonstruktives Gedächtnis &amp; Schemas + Konsolidierung</li>
+<strong>Vertiefung</strong>: Rekonstruktives Gedächtnis &amp; Schemata + Konsolidierung</li>
 <li>
 <strong>Optional</strong>: Encoding Specificity + Spacing-Zeitpläne</li>
 </ul>
@@ -453,7 +453,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <li>
 <strong>Was sich leicht anfühlt, produziert oft schwaches Lernen</strong>: Spacing, Interleaving und Generation fühlen sich schwieriger an, produzieren aber dauerhafteres Wissen</li>
 <li>
-<strong>Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben</strong>, weil Schemas neue Information still umschreiben</li>
+<strong>Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben</strong>, weil Schemata neue Information still umschreiben</li>
 </ol></section><section id="gedächtnis-ist-nicht-ein-system" class="level2"><h2 class="anchored" data-anchor-id="gedächtnis-ist-nicht-ein-system">Gedächtnis ist nicht ein System</h2>
 <p>Die grundlegendste Einsicht der Gedächtnisforschung: Was wir beiläufig “Gedächtnis” nennen, ist eine <strong>Sammlung verschiedener Systeme</strong>, die nach unterschiedlichen Regeln arbeiten, verschiedene Arten von Information speichern und unterschiedliche Implikationen für die Lehre haben.</p>
 <section id="deklaratives-gedächtnis-wissen-dass" class="level3"><h3 class="anchored" data-anchor-id="deklaratives-gedächtnis-wissen-dass">Deklaratives Gedächtnis: Wissen, dass</h3>
@@ -579,16 +579,16 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 </div>
 </section></section><section id="gedächtnis-ist-rekonstruktiv" class="level2"><h2 class="anchored" data-anchor-id="gedächtnis-ist-rekonstruktiv">Gedächtnis ist rekonstruktiv</h2>
 <p>Vielleicht der kontraintuitivste Befund der Gedächtniswissenschaft <span class="citation" data-cites="schacterAdaptiveConstructiveProcesses2012">(<a href="#ref-schacterAdaptiveConstructiveProcesses2012" role="doc-biblioref">Schacter 2012</a>)</span>: <strong>Gedächtnis ist nicht reproduktiv, es ist rekonstruktiv.</strong> Wenn man sich an etwas erinnert, spielt man keine Aufnahme ab, sondern rekonstruiert eine Erfahrung aus gespeicherten Fragmenten, ergänzt durch Vorwissen, aktuelle Überzeugungen und kontextuelle Hinweise.</p>
-<section id="schemas-das-zweischneidige-schwert" class="level3"><h3 class="anchored" data-anchor-id="schemas-das-zweischneidige-schwert">Schemas: Das zweischneidige Schwert</h3>
-<p>Schemas, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werden, sind gleichzeitig der grösste Vorteil des Gedächtnisses und seine systematischste Fehlerquelle.</p>
-<p><strong>Vorteile von Schemas:</strong></p>
+<section id="schemata-das-zweischneidige-schwert" class="level3"><h3 class="anchored" data-anchor-id="schemata-das-zweischneidige-schwert">Schemata: Das zweischneidige Schwert</h3>
+<p>Schemata, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werden, sind gleichzeitig der grösste Vorteil des Gedächtnisses und seine systematischste Fehlerquelle.</p>
+<p><strong>Vorteile von Schemata:</strong></p>
 <ul>
 <li>Fehlende Details werden korrekt ergänzt</li>
 <li>Neue Information wird organisiert</li>
 <li>Schnelles Verstehen wird ermöglicht</li>
 <li>Inferenz und Vorhersage werden unterstützt</li>
 </ul>
-<p><strong>Kosten von Schemas:</strong></p>
+<p><strong>Kosten von Schemata:</strong></p>
 <ul>
 <li>Dinge werden ergänzt, die <em>nicht da waren</em>
 </li>
@@ -597,9 +597,9 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <li>Falsches Vertrauen in rekonstruierte Details</li>
 </ul>
 <p><strong>Beispiel</strong>: Studierende hören von einem Experiment mit “Kontrollgruppe” und “Interventionsgruppe”. Schema-konsistentes Detail (gut erinnert): “Die Interventionsgruppe erhielt die Behandlung.” Schema-fabriziertes Detail (fälschlich erinnert): “Die Teilnehmenden wurden randomisiert zugewiesen”, obwohl das nie gesagt wurde, weil das Schema es erwartet.</p>
-<p><strong>Lehrimplikation</strong>: Studierende werden neue Information systematisch <strong>an ihre bestehenden Schemas anpassen</strong>. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu <em>präsentieren</em> reicht oft nicht; du musst das Missverständnis <strong>explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen</strong>.</p>
+<p><strong>Lehrimplikation</strong>: Studierende werden neue Information systematisch <strong>an ihre bestehenden Schemata anpassen</strong>. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu <em>präsentieren</em> reicht oft nicht; du musst das Missverständnis <strong>explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen</strong>.</p>
 </section><section id="activate-conflict-resolve" class="level3"><h3 class="anchored" data-anchor-id="activate-conflict-resolve">Activate — Conflict — Resolve</h3>
-<p>Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemas schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.</p>
+<p>Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemata schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.</p>
 <p><strong>Beispiel</strong>: Student glaubt “Schwerere Objekte fallen schneller”. Dozent präsentiert: “Alle Objekte fallen im Vakuum gleich schnell.” Schema schreibt um: “Also ist der Unterschied im Vakuum kleiner.” <strong>Falsch, das Missverständnis überlebt.</strong></p>
 <p>Die Lösung:</p>
 <ol type="1">
@@ -857,7 +857,7 @@ Abbildung&nbsp;1
 <p>Die Prinzipien auf dieser Seite bilden die wissenschaftliche Grundlage für:</p>
 <ul>
 <li>Die <strong>wünschenswerten Schwierigkeiten</strong> (→ <a href="../../01-lernen-verstehen/">Teil 1</a>): Die vier Strategien und warum Anstrengung das Feature ist</li>
-<li>Das <strong>Evaluationsparadox</strong> (→ <a href="../../02-ki-und-lernen/">Teil 2</a>): Schemas, die KI-Output still umschreiben, sind derselbe Mechanismus wie Schemas, die Vorlesungsinhalte umschreiben</li>
+<li>Das <strong>Evaluationsparadox</strong> (→ <a href="../../02-ki-und-lernen/">Teil 2</a>): Schemata, die KI-Output still umschreiben, sind derselbe Mechanismus wie Schemata, die Vorlesungsinhalte umschreiben</li>
 <li>Die <strong>Versuch-dann-Prüfe-Struktur</strong> (→ <a href="../../03-praxis/5-fragen-framework/">5-Fragen-Framework</a>): Der Generierungseffekt erklärt, warum die Reihenfolge, <em>zuerst selbst denken, dann KI konsultieren</em>, entscheidend ist</li>
 <li>Das <strong>rekonstruktive Gedächtnis</strong> erklärt, warum Schein-Kompetenz (→ <a href="../../02-ki-und-lernen/">Teil 2</a>) so tückisch ist: Studierende <em>glauben</em>, sie hätten nachgedacht, weil ihr Schema die Rekonstruktion plausibel erscheinen lässt</li>
 </ul>
