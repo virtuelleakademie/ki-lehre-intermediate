@@ -1,11 +1,11 @@
 ---
-title: "Vorbereitung (ca. 20 Min.)"
+title: "Vorbereitung (ca. 30 Min.)"
 subtitle: "Deine Aufgabe unter der KI-Lupe"
 ---
 
 Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiterentwickeln. Damit wir direkt in die Arbeit einsteigen können, bringe bitte Folgendes vorbereitet mit.
 
-## Schritt 1: Zwei Aufgaben auswählen und mitbringen (5 Min.)
+## Schritt 1: Zwei Aufgaben auswählen und mitbringen (10 Min.)
 
 **Wähle zwei konkrete Aufgaben oder Prüfungen aus deiner Lehre**, die Studierende eigenständig bearbeiten, z.B. Hausaufgaben, Seminararbeiten, Übungsaufgaben oder Selbststudiums-Aufgaben.
 
@@ -19,7 +19,7 @@ Wähle wenn möglich **zwei unterschiedliche Aufgabentypen**. Im Workshop analys
 
 Bringe beide **Aufgabenstellungen** mit (digital oder ausgedruckt).
 
-## Schritt 2: Kurze Selbstanalyse der ersten Aufgabe (15 Min.)
+## Schritt 2: Kurze Selbstanalyse der ersten Aufgabe (20 Min.)
 
 Beantworte diese drei Fragen für deine **erste Aufgabe** in Stichworten und bringe deine Notizen in den Workshop mit. Die zweite Aufgabe analysierst du im Workshop selbst.
 
