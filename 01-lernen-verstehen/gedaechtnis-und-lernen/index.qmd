@@ -209,8 +209,7 @@ Jeder Abruf beinhaltet teilweises Vergessen &rarr; anstrengungsreiches Erinnern 
 Dies ist möglicherweise der wichtigste Befund für die Hochschullehre der letzten 30 Jahre [@roedigerCriticalRoleRetrieval2011]: **Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er *erzeugt* Lernen.**
 
 ### Der Testing Effect
-
-Hunderte von Studien haben gezeigt: Die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, verstärkt die Gedächtnisspur wirksamer als erneutes Studieren desselben Materials.
+Empirische Befunde legen nahe, dass die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, die Gedächtnisspur wirksamer verstärkt als erneutes Studieren desselben Materials [vgl. @roedigerCriticalRoleRetrieval2011; @roedigerTestenhancedLearningTaking2006].
 
 @roedigerTestenhancedLearningTaking2006:
 
