@@ -39,7 +39,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 
 **Nachlesen-Boxen framen:** "Auf den Seiten findet ihr graue 'Zum Nachlesen'-Boxen. Die sind für *nach* dem Workshop. Während des Workshops konzentrieren wir uns auf die Aktivitäten. Die Boxen bleiben online für euch stehen."
 
-**Übergang (Advance Organizer):** "In den nächsten 45 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das ist keine Theorie um der Theorie willen, sondern das Werkzeug, mit dem ihr in Teil 3 eure eigenen Aufgaben analysiert."
+**Übergang (Advance Organizer):** "In den nächsten 45 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das klingt vielleicht theoretisch, aber in Teil 3 braucht ihr genau dieses Verständnis, um eure eigenen Aufgaben zu analysieren."
 
 
 ## 09:05--09:50: Teil 1 -- Lernen verstehen (45 Min) {#teil1}
@@ -267,7 +267,7 @@ Ja, und dafür brauchen sie Fachkompetenz. Das Evaluationsparadox zeigt: Kompete
 
 ### "Das funktioniert in meinem Fach nicht."
 
-Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
+Das Framework ist bewusst fachunabhängig formuliert. In den bisherigen Workshops haben Teilnehmende aus Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung es auf ihre Aufgaben anwenden können. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
 
 ### "Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?"
 

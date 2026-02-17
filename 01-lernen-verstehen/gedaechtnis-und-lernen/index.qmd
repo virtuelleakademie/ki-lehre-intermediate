@@ -37,7 +37,7 @@ Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksam
 
 ## Gedächtnis ist nicht ein System
 
-Die grundlegendste Einsicht der Gedächtnisforschung: Was wir beiläufig "Gedächtnis" nennen, ist eine **Sammlung verschiedener Systeme**, die nach unterschiedlichen Regeln arbeiten, verschiedene Arten von Information speichern und unterschiedliche Implikationen für die Lehre haben.
+Eine zentrale Einsicht der Gedächtnisforschung: Was wir beiläufig "Gedächtnis" nennen, ist eine **Sammlung verschiedener Systeme**, die nach unterschiedlichen Regeln arbeiten, verschiedene Arten von Information speichern und unterschiedliche Implikationen für die Lehre haben.
 
 ### Deklaratives Gedächtnis: Wissen, dass
 
@@ -101,7 +101,7 @@ Dieser Übergang geschieht nicht automatisch. Er erfordert:
 ::: {.callout-tip collapse="true"}
 ### Encoding Specificity und das Transfer-Problem
 
-Endel Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] besagt: Gedächtnisabruf ist am effektivsten, wenn der Abrufkontext mit dem Enkodierungskontext übereinstimmt. Dies ist einer der am besten gesicherten Befunde der Gedächtnisforschung, und er hat eine weitreichende Implikation für die Lehre:
+Endel Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] besagt: Gedächtnisabruf ist am effektivsten, wenn der Abrufkontext mit dem Enkodierungskontext übereinstimmt. Dies ist ein gut replizierter Befund der Gedächtnisforschung, und er hat eine weitreichende Implikation für die Lehre:
 
 **Studierende "wissen" oft etwas im Kontext, in dem sie es gelernt haben, können aber in einem anderen Kontext nicht darauf zugreifen.**
 
@@ -147,7 +147,7 @@ Schemata, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werde
 
 **Lehrimplikation**: Studierende werden neue Information systematisch **an ihre bestehenden Schemata anpassen**. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu *präsentieren* reicht oft nicht; du musst das Missverständnis **explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen**.
 
-### Activate --- Conflict --- Resolve
+### Activate, Conflict, Resolve
 
 Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemata schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.
 
@@ -176,7 +176,7 @@ Enkodierung ist nicht das Ende der Geschichte. Nach dem initialen Lernen durchla
 
 ### Zentrale Konsolidierungsprinzipien
 
-**Schlaf konsolidiert Erinnerungen.** Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den *Kern* des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.
+**Schlaf konsolidiert Erinnerungen.** Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den *Kern* des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails [vgl. @oakleyMemoryParadoxWhy2025]. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.
 
 **Erinnerungen werden stabiler, aber weniger detailliert.** Frisch enkodierte Erinnerungen sind reich an Details, aber fragil. Mit fortschreitender Konsolidierung werden Erinnerungen stabiler und abstrakter: Der Kern bleibt erhalten, die Details verblassen. Das ist kein Fehler; es ist ein Feature. Abstraktion ist das, was Wissen transferierbar macht.
 
@@ -206,7 +206,7 @@ Jeder Abruf beinhaltet teilweises Vergessen &rarr; anstrengungsreiches Erinnern 
 
 ## Abruf ist ein Lernereignis
 
-Dies ist möglicherweise der wichtigste Befund für die Hochschullehre der letzten 30 Jahre [@roedigerCriticalRoleRetrieval2011]: **Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er *erzeugt* Lernen.**
+Einer der folgenreichsten Befunde für die Hochschullehre [@roedigerCriticalRoleRetrieval2011]: **Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er *erzeugt* Lernen.**
 
 ### Der Testing Effect
 Empirische Befunde legen nahe, dass die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, die Gedächtnisspur wirksamer verstärkt als erneutes Studieren desselben Materials [vgl. @roedigerCriticalRoleRetrieval2011; @roedigerTestenhancedLearningTaking2006].
@@ -259,7 +259,7 @@ Die Abrufversuche müssen **nicht benotet** werden, um wirksam zu sein. Was zäh
 
 ## Wünschenswerte Schwierigkeiten: Wenn schwieriger besser ist
 
-Robert Bjorks Konzept der **Desirable Difficulties** [@bjorkMakingThingsHard2011] ist eines der wichtigsten und kontraintuitivsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste *Leistung während des Lernens* erzeugen, auch die beste *langfristige Retention und den besten Transfer* produzieren.
+Robert Bjorks Konzept der **Desirable Difficulties** [@bjorkMakingThingsHard2011] ist eines der einflussreichsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste *Leistung während des Lernens* erzeugen, auch die beste *langfristige Retention und den besten Transfer* produzieren.
 
 Das tun sie nicht.
 
@@ -368,7 +368,7 @@ ggplot(quadrants) +
 
 #### 1. Spacing (Verteiltes Lernen)
 
-Lerneinheiten über die Zeit verteilen statt zusammenpressen. Derselbe Zeitaufwand, aber dramatisch unterschiedliche Ergebnisse.
+Lerneinheiten über die Zeit verteilen statt zusammenpressen. Derselbe Zeitaufwand, aber deutlich unterschiedliche Ergebnisse.
 
 **Warum es funktioniert:** Jede verteilte Sitzung beinhaltet partielles Vergessen, gefolgt von anstrengungsreichem Abruf, der die Erinnerung verstärkt. Massed Learning erlaubt Aufrechterhaltung im Arbeitsgedächtnis ohne Abruf aus dem Langzeitgedächtnis. Das fühlt sich leicht an, umgeht aber die Mechanismen, die dauerhafte Enkodierung erzeugen. Zusätzlich ermöglicht Spacing Konsolidierung zwischen den Sitzungen.
 
@@ -417,7 +417,7 @@ Die Standard-Lernstrategien der Studierenden sind kontraproduktiv, weil sie **Ve
 | Vor der Prüfung pauken (Massing) | Über Wochen verteilen (Spacing) |
 | "Ich verstehe das" (Vertrautheitsgefühl) | "Kann ich das aus dem Gedächtnis erklären?" (tatsächlicher Test) |
 
-Investiere **15 Minuten** in der ersten Sitzung, um die Performance-Learning-Unterscheidung zu lehren. Zeige die Testing-Effect-Daten. Vermittle Abruf + Spacing + Interleaving. Diese einzelne Intervention verbessert das Lernen in **jedem Kurs**, den die Studierenden besuchen.
+Investiere **15 Minuten** in der ersten Sitzung, um die Performance-Learning-Unterscheidung zu lehren. Zeige die Testing-Effect-Daten. Vermittle Abruf + Spacing + Interleaving. Diese einzelne Intervention kann das Lernen in den weiteren Kursen der Studierenden verbessern.
 
 
 ::: {.callout-tip}

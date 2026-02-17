@@ -101,6 +101,39 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -110,6 +143,17 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -134,50 +178,6 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #7c3aed;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
 div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
@@ -189,15 +189,15 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #64748b;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 </style>
@@ -554,7 +554,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 <div class="callout-body-container callout-body">
 <p><strong>Bevor ihr das Redesign seht:</strong> Notiert basierend auf der Diagnose, wie würdet <em>ihr</em> diese Aufgabe umgestalten? Was müsste sich ändern, damit der Denkprozess geschützt ist?</p>
-<p><em>Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Genau das Prinzip, das wir gerade besprochen haben.</em></p>
+<p><em>Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Dasselbe Prinzip, das wir gerade besprochen haben.</em></p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
@@ -612,7 +612,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <li>
 <strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe <strong>Elementinteraktivität</strong> hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Ohne die Schemata, die diese Komplexität organisieren, ist die intrinsische Last hoch. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden</li>
 <li>
-<strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet: <em>zuerst selbst denken, dann KI konsultieren</em>. Der eigene Versuch aktiviert den <strong>Generierungseffekt</strong> (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt <strong>Selbsterklärung</strong> (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
+<strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet: <em>zuerst selbst denken, dann KI konsultieren</em>. Der eigene Versuch aktiviert den <strong>Generierungseffekt</strong> (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt <strong>Selbsterklärung</strong> (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert <span class="citation" data-cites="bjorkMakingThingsHard2011">(vgl. <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span>, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
 </ol>
 <div class="cell">
 <div class="cell-output-display">
@@ -636,7 +636,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <div class="callout-body-container callout-body">
 <p>Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender den Aufgabentext als Prompt eingibt?</p>
 <p><strong>Vergleiche:</strong> Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?</p>
-<p><em>Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der <strong>Generierungseffekt</strong> in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Genau das Prinzip hinter “Versuch-dann-Prüfe”.</em></p>
+<p><em>Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der <strong>Generierungseffekt</strong> in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Dasselbe Prinzip steckt hinter “Versuch-dann-Prüfe”.</em></p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
@@ -733,7 +733,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </table>
 <p>Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der einen KI-generierten Entwurf gründlich überarbeitet; eine Studierende, die nach eigenem Versuch gezielt eine Frage an die KI stellt. Die entscheidende Variable ist nicht, <em>ob</em> KI genutzt wird, sondern <strong>wie viel eigene Denkarbeit die Lernenden geleistet haben, bevor sie dem KI-Output begegnen</strong>. Je aktiver das interne Modell, desto informativer das Feedback.</p>
 <blockquote class="blockquote">
-<p><strong>Outsourcing eliminiert die lernrelevante kognitive Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.</strong></p>
+<p><strong>Outsourcing eliminiert die lernrelevante kognitive Verarbeitung (Schemabildung, Abruf, Elaboration). Das <em>ist</em> das Kernproblem.</strong></p>
 </blockquote>
 <p>Erinnere dich an die Unterscheidung zwischen biologisch primärem und sekundärem Wissen aus Teil 1: Akademische Kompetenzen (Lesen, Schreiben, fachliches Denken) sind biologisch sekundär. Sie erfordern bewusste, aktive Verarbeitung. Outsourcing umgeht genau die Prozesse, die für diesen Erwerb nötig sind.</p>
 <p>Viele KI-Policies scheitern, weil sie diese Unterscheidung nicht machen. Die Frage ist nicht “Dürfen Studierende KI nutzen?”, sondern “Wird das Denken ausgelagert oder nur unterstützt?” Hier braucht es das Urteil der Lehrperson.</p>
@@ -797,7 +797,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <section id="warum-schemata-den-ki-output-umschreiben" class="level4"><h4 class="anchored" data-anchor-id="warum-schemata-den-ki-output-umschreiben">Warum Schemata den KI-Output umschreiben</h4>
-<p>Gedächtnis ist nicht reproduktiv, sondern <strong>rekonstruktiv</strong>. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemata, also organisierte Wissensstrukturen aus Erfahrung, sind dabei gleichzeitig der grösste Vorteil <em>und</em> die systematischste Fehlerquelle des Gedächtnisses.</p>
+<p>Gedächtnis ist nicht reproduktiv, sondern <strong>rekonstruktiv</strong>. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemata, also organisierte Wissensstrukturen aus Erfahrung, sind dabei Vorteil und Fehlerquelle zugleich.</p>
 <p>Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemata gefiltert und oft still <strong>an Erwartungen angepasst</strong>. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal <em>hinzufabriziert</em>, obwohl sie nie da waren.</p>
 <p>Das erklärt auch, warum <strong>Missverständnisse so hartnäckig</strong> sind: Einfach korrekte Information zu präsentieren reicht nicht, weil das bestehende Schema die neue Information umschreibt. Stattdessen braucht es den Dreischritt: <strong>Aktivieren</strong> (Missverständnis explizit machen) → <strong>Konflikt</strong> (Evidenz zeigen, die das Missverständnis nicht erklären kann) → <strong>Auflösen</strong> (korrekte Erklärung im Kontrast zum Missverständnis).</p>
 <blockquote class="blockquote">
@@ -821,10 +821,9 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <ul>
 <li>Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen</li>
 <li>Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde</li>
-<li>KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine <strong>pädagogische Gerechtigkeitsfrage</strong>
-</li>
+<li>KI-Policy ist auch eine <strong>pädagogische Gerechtigkeitsfrage</strong>, nicht bloss eine Frage der akademischen Integrität</li>
 </ul>
-<p>Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem “digitalen Matthäus-Effekt” aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.</p>
+<p>Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem “digitalen Matthäus-Effekt” aus der Bildungstechnologie-Forschung <span class="citation" data-cites="reichFailureDisruptWhy2020">(<a href="#ref-reichFailureDisruptWhy2020" role="doc-biblioref">Reich 2020</a>)</span>: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.</p>
 <p><strong>Konkrete Gegenmassnahmen:</strong></p>
 <ul>
 <li>
@@ -835,7 +834,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <strong>Sprachliche Zugänglichkeit beachten</strong>: KI-Tools funktionieren in verschiedenen Sprachen unterschiedlich gut. Für nicht-muttersprachliche Studierende kann die Sprachbarriere die ohnehin schwächere Ausgangsposition verschärfen</li>
 </ul></section><section id="was-uns-die-geschichte-der-bildungstechnologie-lehrt" class="level4"><h4 class="anchored" data-anchor-id="was-uns-die-geschichte-der-bildungstechnologie-lehrt">Was uns die Geschichte der Bildungstechnologie lehrt</h4>
 <p>Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Gerechtigkeitslücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.</p>
-<p>Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.</p>
+<p>Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren vielversprechende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen Matthäus-Effekte <span class="citation" data-cites="reichFailureDisruptWhy2020">(<a href="#ref-reichFailureDisruptWhy2020" role="doc-biblioref">Reich 2020</a>)</span>. Learning Management Systeme wurden zu digitalen Aktenschränken.</p>
 <p>Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkzeuge sinnvoll integrieren <span class="citation" data-cites="reichFailureDisruptWhy2020">(<a href="#ref-reichFailureDisruptWhy2020" role="doc-biblioref">Reich 2020</a>)</span>. Die angemessene Reaktion auf KI ist weder unkritische Begeisterung noch pauschale Ablehnung, sondern informierte, kontextbezogene Integration, genau das, was dieses Framework ermöglichen soll.</p>
 </section>
 </div>
@@ -912,6 +911,9 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bjorkMakingThingsHard2011" class="csl-entry" role="listitem">
+Bjork, Elizabeth Ligon, und Robert A. Bjork. 2011. <span>„Making Things Hard on Yourself, but in a Good Way: <span>Creating</span> Desirable Difficulties to Enhance Learning“</span>. In <em>Psychology and the Real World: <span>Essays</span> Illustrating Fundamental Contributions to Society</em>, 56–64. New York, NY, US: Worth Publishers.
+</div>
 <div id="ref-reichFailureDisruptWhy2020" class="csl-entry" role="listitem">
 Reich, Justin. 2020. <em>Failure to <span>Disrupt</span>: <span>Why Technology Alone Can</span>’t <span>Transform Education</span></em>. Cambridge London: Harvard University Press.
 </div>

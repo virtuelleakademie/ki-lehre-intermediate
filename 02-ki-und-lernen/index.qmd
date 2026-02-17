@@ -138,7 +138,7 @@ Das Framework zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfas
 
 **Bevor ihr das Redesign seht:** Notiert basierend auf der Diagnose, wie würdet *ihr* diese Aufgabe umgestalten? Was müsste sich ändern, damit der Denkprozess geschützt ist?
 
-*Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Genau das Prinzip, das wir gerade besprochen haben.*
+*Eigene Ideen zu generieren, bevor man eine Lösung sieht, ist informativer als passive Rezeption. Dasselbe Prinzip, das wir gerade besprochen haben.*
 :::
 
 ::: {.callout-note collapse="true"}
@@ -159,7 +159,7 @@ Drei Erkenntnisse für die eigene Praxis:
 
 1. **Produkt ≠ Prozess**: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den *Prozess* prüfen
 2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe **Elementinteraktivität** hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Ohne die Schemata, die diese Komplexität organisieren, ist die intrinsische Last hoch. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden
-3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Der eigene Versuch aktiviert den **Generierungseffekt** (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt **Selbsterklärung** (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
+3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Der eigene Versuch aktiviert den **Generierungseffekt** (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt **Selbsterklärung** (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
 {{< include ../resources/figures/fig-try-then-check.qmd >}}
 :::
@@ -171,7 +171,7 @@ Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender de
 
 **Vergleiche:** Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?
 
-*Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der **Generierungseffekt** in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Genau das Prinzip hinter "Versuch-dann-Prüfe".*
+*Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der **Generierungseffekt** in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Dasselbe Prinzip steckt hinter "Versuch-dann-Prüfe".*
 :::
 
 ::: {.active-processing}
@@ -221,7 +221,7 @@ Offloading und Outsourcing markieren die Endpunkte eines Spektrums:
 
 Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der einen KI-generierten Entwurf gründlich überarbeitet; eine Studierende, die nach eigenem Versuch gezielt eine Frage an die KI stellt. Die entscheidende Variable ist nicht, *ob* KI genutzt wird, sondern **wie viel eigene Denkarbeit die Lernenden geleistet haben, bevor sie dem KI-Output begegnen**. Je aktiver das interne Modell, desto informativer das Feedback.
 
-> **Outsourcing eliminiert die lernrelevante kognitive Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.**
+> **Outsourcing eliminiert die lernrelevante kognitive Verarbeitung (Schemabildung, Abruf, Elaboration). Das *ist* das Kernproblem.**
 
 Erinnere dich an die Unterscheidung zwischen biologisch primärem und sekundärem Wissen aus Teil 1: Akademische Kompetenzen (Lesen, Schreiben, fachliches Denken) sind biologisch sekundär. Sie erfordern bewusste, aktive Verarbeitung. Outsourcing umgeht genau die Prozesse, die für diesen Erwerb nötig sind.
 
@@ -257,7 +257,7 @@ Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert
 
 #### Warum Schemata den KI-Output umschreiben
 
-Gedächtnis ist nicht reproduktiv, sondern **rekonstruktiv**. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemata, also organisierte Wissensstrukturen aus Erfahrung, sind dabei gleichzeitig der grösste Vorteil *und* die systematischste Fehlerquelle des Gedächtnisses.
+Gedächtnis ist nicht reproduktiv, sondern **rekonstruktiv**. Wenn Studierende sich an etwas erinnern, spielen sie keine Aufnahme ab; sie rekonstruieren aus Fragmenten, ergänzt durch Vorwissen und aktuelle Überzeugungen. Schemata, also organisierte Wissensstrukturen aus Erfahrung, sind dabei Vorteil und Fehlerquelle zugleich.
 
 Für die KI-Nutzung bedeutet das: Wenn Studierende KI-Output lesen, wird dieser durch ihre bestehenden Schemata gefiltert und oft still **an Erwartungen angepasst**. Korrekte Information, die zum Schema passt, wird gut behalten. Korrekte Information, die dem Schema widerspricht, wird schlecht behalten oder uminterpretiert. Und Schema-konsistente Details werden manchmal *hinzufabriziert*, obwohl sie nie da waren.
 
@@ -293,9 +293,9 @@ Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtig
 
 - Stärkere Studierende haben kompensatorisches Vorwissen und können KI-Outputs besser einordnen
 - Schwächere Studierende werden am meisten geschädigt, weil ihnen genau die Grundlage fehlt, die eine kritische Nutzung erfordern würde
-- KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**
+- KI-Policy ist auch eine **pädagogische Gerechtigkeitsfrage**, nicht bloss eine Frage der akademischen Integrität
 
-Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
+Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung [@reichFailureDisruptWhy2020]: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
 
 **Konkrete Gegenmassnahmen:**
 
@@ -307,7 +307,7 @@ Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und
 
 Die Herausforderungen, die wir hier beschreiben (kognitives Outsourcing, Schein-Kompetenz, Gerechtigkeitslücken), sind nicht neu. Sie sind die jüngste Ausprägung eines wiederkehrenden Musters: Jede Welle von Bildungstechnologie wurde von Transformationsversprechen begleitet und dann von bestehenden Praktiken domestiziert.
 
-Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren beeindruckende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen massive Matthäus-Effekte. Learning Management Systeme wurden zu digitalen Aktenschränken.
+Computer in Schulen sollten in den 1980er Jahren das Lernen revolutionieren. Intelligente Tutoring-Systeme zeigten in den 1990er Jahren vielversprechende Ergebnisse in kontrollierten Studien, scheiterten aber an der Skalierung. MOOCs versprachen 2012 den Zugang zu Bildung zu demokratisieren und produzierten stattdessen Matthäus-Effekte [@reichFailureDisruptWhy2020]. Learning Management Systeme wurden zu digitalen Aktenschränken.
 
 Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkzeuge sinnvoll integrieren [@reichFailureDisruptWhy2020]. Die angemessene Reaktion auf KI ist weder unkritische Begeisterung noch pauschale Ablehnung, sondern informierte, kontextbezogene Integration, genau das, was dieses Framework ermöglichen soll.
 :::
