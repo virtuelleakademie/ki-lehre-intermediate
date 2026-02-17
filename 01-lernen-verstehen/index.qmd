@@ -167,6 +167,7 @@ Experten haben kein grösseres Arbeitsgedächtnis. Sie haben ein **besser organi
 | **Wissen** | Isolierte Fakten (deklarativ) | Vernetzte Schemata (prozedural) |
 | **Verarbeitung** | Bewusst, langsam, fehleranfällig | Automatisiert, schnell, flexibel |
 | **Arbeitsgedächtnis** | Schnell überlastet | Effizient durch Chunking |
+| **Transfer** | Kontextgebunden, fragil | Flexibel auf neue Situationen anwendbar |
 
 #### Wissenskompilation: Der Lernprozess
 
@@ -198,6 +199,8 @@ Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lerne
 3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
 4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
 
+Diese vier Strategien haben eines gemeinsam: Sie erzwingen variierende Verarbeitung in unterschiedlichen Kontexten und bauen so kontextunabhängige Abrufpfade auf, die **Transfer** ermöglichen.
+
 {{< include ../resources/figures/fig-testing-effect.qmd >}}
 
 #### Die metakognitive Falle
@@ -228,7 +231,7 @@ Die Konzepte aus Teil 1 stammen aus verschiedenen Forschungstraditionen, ergänz
 - **Wissenskompilation** (ACT-R) modelliert den Übergang von deklarativem zu prozeduralem Wissen durch Übung und Feedback
 - **Vorhersagefehler** beschreiben, wie das Gehirn aus Diskrepanzen zwischen Erwartung und Erfahrung lernt
 
-Gemeinsam ist diesen Ansätzen: Lernende müssen aktiv verarbeiten (abrufen, elaborieren, vergleichen, anwenden). Diese Prozesse fühlen sich oft anstrengend an, und genau das signalisiert, dass Lernen stattfinden kann.
+Gemeinsam ist diesen Ansätzen: Lernende müssen aktiv verarbeiten (abrufen, elaborieren, vergleichen, anwenden). Diese Prozesse fühlen sich oft anstrengend an, und genau das signalisiert, dass Lernen stattfinden kann. Das Ergebnis dieser aktiven Verarbeitung sind gut organisierte Schemata, und gut organisierte Schemata sind die Voraussetzung für **Transfer**: die Fähigkeit, Gelerntes auf neue, unbekannte Situationen anzuwenden.
 :::
 
 ::: {.pro-tip collapse="true"}

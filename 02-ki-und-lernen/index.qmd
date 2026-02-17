@@ -269,6 +269,8 @@ Das erklärt auch, warum **Missverständnisse so hartnäckig** sind: Einfach kor
 
 Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben. Und das Problem geht tiefer: Wer die Denkarbeit auslagert, baut nicht nur *dieses* Wissen nicht auf, sondern es fehlt auch die Grundlage, die Wissenstransfer auf neue Situationen ermöglicht. Ohne gut organisierte, tiefe Wissensstrukturen gibt es nichts, *was* transferiert werden könnte.
 
+Transfer ist das eigentliche Versprechen von Hochschulbildung: Studierende sollen Gelerntes in Situationen anwenden können, die sie im Studium nie gesehen haben. Wenn Outsourcing die Schemabildung verhindert, wird genau dieses Versprechen gebrochen.
+
 #### Schein-Kompetenz
 
 Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Das Phänomen ist nicht neu: Studierende haben schon vor KI mit Copy-Paste, strategischem Zusammenfassen und oberflächlichem Paraphrasieren akademische Fassaden errichtet. KI macht es nur einfacher und die Fassade überzeugender. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.

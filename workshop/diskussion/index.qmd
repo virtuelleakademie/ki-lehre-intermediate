@@ -52,5 +52,5 @@ Bevor wir teilen:
 
 **Wenn sich Lernen schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse aktiv sind: Schemabildung, Abruf, Elaboration. Nicht die Schwierigkeit selbst, sondern diese Prozesse erzeugen das Lernen.**
 
-Gute KI-Integration in der Lehre bedeutet, Lernumgebungen zu gestalten, in denen produktive Anstrengung der natürliche Weg ist, statt zu kontrollieren, ob Studierende KI nutzen.
+Gute KI-Integration in der Lehre bedeutet, Lernumgebungen zu gestalten, in denen produktive Anstrengung der natürliche Weg ist, statt zu kontrollieren, ob Studierende KI nutzen. Denn diese Anstrengung baut die Schemata auf, die Studierende brauchen, um Gelerntes auf neue Situationen zu übertragen.
 :::

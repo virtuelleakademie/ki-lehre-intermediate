@@ -12,6 +12,8 @@ Erfordert **aktive kognitive Verarbeitung**
 
 Fühlt sich **anstrengend** an (metakognitive Falle)
 
+Ziel: **Transfer**, also Wissen auf neue Situationen anwenden können
+
 :::{.fragment}
 ### Jetzt: Was macht KI mit diesen Prozessen?
 :::
@@ -139,6 +141,23 @@ Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etw
 Texte mit allen **Oberflächenmerkmalen** akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.
 
 Tückischer als Plagiat, weil es **Selbsttäuschung** ist.
+:::
+
+
+## Was auf dem Spiel steht: Transfer {.center}
+
+Ohne Schemata können Studierende Gelerntes nicht auf **neue, unbekannte Situationen** anwenden.
+
+:::{.fragment}
+Outsourcing produziert Ergebnisse, aber keine Schemata.
+
+Keine Schemata bedeutet: kein Transfer.
+:::
+
+:::{.fragment}
+::: {.callout-warning}
+**Das Kernproblem ist nicht Plagiat.** Das Kernproblem ist, dass Studierende in der Praxis, im nächsten Kurs, im Beruf auf Situationen treffen, für die sie keine internen Ressourcen aufgebaut haben.
+:::
 :::
 
 

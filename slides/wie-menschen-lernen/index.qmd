@@ -109,6 +109,21 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 {{< include ../../resources/figures/fig-novice-expert-schemas.qmd >}}
 
 
+## Was organisierte Schemata ermöglichen {.center}
+
+Gut vernetzte Schemata ermöglichen **Transfer**: Wissen auf neue, unbekannte Situationen anwenden.
+
+:::{.fragment}
+Anfänger sehen **Oberflächenmerkmale**. Experten erkennen die **Tiefenstruktur** und können Wissen auf neue Probleme übertragen.
+:::
+
+:::{.fragment}
+::: {.callout-tip}
+**Transfer ist das eigentliche Ziel von Hochschulbildung.** Wir unterrichten nicht, damit Studierende bekannte Aufgaben lösen. Wir unterrichten, damit sie mit *unbekannten* Situationen umgehen können.
+:::
+:::
+
+
 ## Das Nadelöhr des Lernens {.smaller}
 
 **Cognitive Load Theory** [@swellerDevelopmentCognitiveLoad2023]
@@ -239,10 +254,11 @@ Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourci
 1. **Keine Modellaktivierung**: Ohne eigenen Versuch bleibt Feedback uninformativ
 2. **Keine Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung
 3. **Keine Automatisierung**: Ohne Übungszyklen keine prozeduralen Fertigkeiten
+4. **Kein Transfer**: Ohne vernetzte Schemata kein Anwenden auf neue Situationen
 
 :::{.fragment}
 ::: {.callout-warning}
-Die Schwierigkeit ist kein Bug, sondern das zentrale Feature für Expertise-Entwicklung.
+Die Schwierigkeit ist kein Bug, sondern das zentrale Feature: Sie baut die Schemata auf, die Transfer ermöglichen.
 :::
 :::
 
@@ -392,6 +408,8 @@ Lernen = **Schemabildung** im Langzeitgedächtnis
 Erfordert **aktive kognitive Verarbeitung**
 
 Fühlt sich **anstrengend** an (metakognitive Falle)
+
+Ziel: **Transfer**, also Wissen auf neue Situationen anwenden können
 
 :::{.fragment}
 ### Jetzt die Frage: Was macht KI mit diesen Prozessen?

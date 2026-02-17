@@ -110,6 +110,8 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess |
 | 5. Gibt es **Versuch-dann-Prüfe**? | Generierungseffekt & Selbsterklärung: Der eigene Versuch aktiviert interne Verarbeitung; der Vergleich erzeugt Selbsterklärung. Die Diskrepanz zwischen eigenem und externem Ergebnis kann zusätzlich als informativer Vergleich wirken |
 
+Alle fünf Fragen dienen letztlich einem Ziel: **Transfer schützen.** Das Framework stellt sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.
+
 
 ## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
 

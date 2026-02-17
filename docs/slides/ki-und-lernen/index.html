@@ -177,6 +177,17 @@
     content: '📖';
     background-image: none;
   }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
   div.callout-pro-tip.callout {
     border-left-color: gold;
   }
@@ -188,37 +199,15 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-reflect.callout {
-    border-left-color: #64748b;
+  div.callout-group.callout {
+    border-left-color: #7c3aed;
   }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgba(124, 58, 237, 0.13);
   }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: #0072B2;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgba(0, 114, 178, 0.13);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   div.callout-pair.callout {
@@ -243,26 +232,37 @@
     content: '📋';
     background-image: none;
   }
-  div.callout-group.callout {
-    border-left-color: #7c3aed;
+  div.callout-individual.callout {
+    border-left-color: #0072B2;
   }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgba(124, 58, 237, 0.13);
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgba(0, 114, 178, 0.13);
   }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
     background-image: none;
   }
-  div.callout-active-processing.callout {
+  div.callout-reflect.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
+  div.callout-agent-potential.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
     background-image: none;
   }
   </style>
@@ -293,6 +293,7 @@ Andrew Ellis
 <p>Lernen = <strong>Schemabildung</strong> im Langzeitgedächtnis</p>
 <p>Erfordert <strong>aktive kognitive Verarbeitung</strong></p>
 <p>Fühlt sich <strong>anstrengend</strong> an (metakognitive Falle)</p>
+<p>Ziel: <strong>Transfer</strong>, also Wissen auf neue Situationen anwenden können</p>
 <div class="fragment">
 <h3 id="jetzt-was-macht-ki-mit-diesen-prozessen">Jetzt: Was macht KI mit diesen Prozessen?</h3>
 </div>
@@ -429,6 +430,23 @@ Andrew Ellis
 <p>Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist.</p>
 </div>
 </section>
+<section id="was-auf-dem-spiel-steht-transfer" class="slide level2 center">
+<h2>Was auf dem Spiel steht: Transfer</h2>
+<p>Ohne Schemata können Studierende Gelerntes nicht auf <strong>neue, unbekannte Situationen</strong> anwenden.</p>
+<div class="fragment">
+<p>Outsourcing produziert Ergebnisse, aber keine Schemata.</p>
+<p>Keine Schemata bedeutet: kein Transfer.</p>
+</div>
+<div class="fragment">
+<div class="callout callout-warning no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Das Kernproblem ist nicht Plagiat.</strong> Das Kernproblem ist, dass Studierende in der Praxis, im nächsten Kurs, im Beruf auf Situationen treffen, für die sie keine internen Ressourcen aufgebaut haben.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="the-beach-not-the-ant" class="slide level2 center">
 <h2>“The Beach, Not the Ant”</h2>
 <blockquote>
@@ -517,8 +535,8 @@ Andrew Ellis
 <h2>Versuch → dann → Prüfe</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-54237c65cdaca0395f85" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-54237c65cdaca0395f85">{"x":{"diagram":"\ndigraph try_then_check {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    compound = true\n    nodesep = 0.5\n    ranksep = 0.8\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_productive {\n    label = \"Produktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 16\n    fontcolor = \"#0072B2\"\n    style = \"rounded,filled\"\n    fillcolor = \"#dce8f5\"\n    color = \"#0072B2\"\n    penwidth = 1.5\n\n    try [label = \"1. Versuch\\nEigenen Ansatz\\ngenerieren\" fillcolor = \"#0072B2\"]\n    compare [label = \"2. Vergleich\\nMit KI-Output\\nabgleichen\" fillcolor = \"#56B4E9\"]\n    reflect [label = \"3. Reflexion\\nSchema\\naktualisieren\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n    try -> compare [label = \"  Prediction Error  \" color = \"#666666\"]\n    compare -> reflect [label = \"  Analyse  \" color = \"#666666\"]\n    reflect -> try [label = \"  Nächster Zyklus  \" color = \"#666666\" style = dashed]\n  }\n\n  subgraph cluster_unproductive {\n    label = \"Unproduktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 16\n    fontcolor = \"#D55E00\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fde8d8\"\n    color = \"#D55E00\"\n    penwidth = 1.5\n\n    direct [label = \"KI-Output\\ndirekt nutzen\" fillcolor = \"#D55E00\"]\n    passive [label = \"Passives\\nÜbernehmen\" fillcolor = \"#D55E00\"]\n    nolearn [label = \"Kein\\nLerneffekt\" fillcolor = \"#D55E00\"]\n\n    direct -> passive [color = \"#999999\" style = dashed]\n    passive -> nolearn [color = \"#999999\" style = dashed label = \"  Keine Reflexion\\n  möglich  \"]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-3351897cc45059941b33" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-3351897cc45059941b33">{"x":{"diagram":"\ndigraph try_then_check {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    compound = true\n    nodesep = 0.5\n    ranksep = 0.8\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_productive {\n    label = \"Produktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 16\n    fontcolor = \"#0072B2\"\n    style = \"rounded,filled\"\n    fillcolor = \"#dce8f5\"\n    color = \"#0072B2\"\n    penwidth = 1.5\n\n    try [label = \"1. Versuch\\nEigenen Ansatz\\ngenerieren\" fillcolor = \"#0072B2\"]\n    compare [label = \"2. Vergleich\\nMit KI-Output\\nabgleichen\" fillcolor = \"#56B4E9\"]\n    reflect [label = \"3. Reflexion\\nSchema\\naktualisieren\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n    try -> compare [label = \"  Diskrepanz  \" color = \"#666666\"]\n    compare -> reflect [label = \"  Analyse  \" color = \"#666666\"]\n    reflect -> try [label = \"  Nächster Zyklus  \" color = \"#666666\" style = dashed]\n  }\n\n  subgraph cluster_unproductive {\n    label = \"Unproduktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 16\n    fontcolor = \"#D55E00\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fde8d8\"\n    color = \"#D55E00\"\n    penwidth = 1.5\n\n    direct [label = \"KI-Output\\ndirekt nutzen\" fillcolor = \"#D55E00\"]\n    passive [label = \"Passives\\nÜbernehmen\" fillcolor = \"#D55E00\"]\n    nolearn [label = \"Kein\\nLerneffekt\" fillcolor = \"#D55E00\"]\n\n    direct -> passive [color = \"#999999\" style = dashed]\n    passive -> nolearn [color = \"#999999\" style = dashed label = \"  Keine Reflexion\\n  möglich  \"]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
