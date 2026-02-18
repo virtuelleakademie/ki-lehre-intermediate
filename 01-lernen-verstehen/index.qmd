@@ -219,6 +219,12 @@ Zwei Quellen kognitiver Belastung:
 | **Extrinsisch** | Schlechtes Design, Ablenkung, trägt nicht zum Lernen bei | **Minimieren** |
 
 **Das Designprinzip:** Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung "germane load"; heute spricht man präziser von **germane processing**, also der lernrelevanten Auseinandersetzung mit dem Material.
+
+#### Schwierig ≠ Komplex
+
+Eine häufig übersehene Unterscheidung [@chenCognitiveLoadTheory2023]: Aufgaben können *schwierig* sein, ohne komplex zu sein, und umgekehrt. Schwierig ist eine Aufgabe, wenn viele Elemente gelernt werden müssen, die aber unabhängig voneinander sind (z.B. Fachvokabular, Periodensystem-Symbole, Quellenformate). Die Elementinteraktivität ist niedrig, das Arbeitsgedächtnis wird kaum beansprucht. Komplex ist eine Aufgabe, wenn die Elemente gleichzeitig in Beziehung zueinander verarbeitet werden müssen (z.B. eine Argumentation aufbauen, eine Gleichung lösen, einen Fall analysieren). Die Elementinteraktivität ist hoch, und genau hier findet Schemabildung statt.
+
+Für den KI-Einsatz ist die Unterscheidung entscheidend: Bei schwierigen, aber nicht komplexen Aufgaben (niedrige Elementinteraktivität) kann KI-Unterstützung sinnvoll sein, weil diese Aufgaben keine Schemata aufbauen. Bei komplexen Aufgaben (hohe Elementinteraktivität) ist KI-Outsourcing schädlich, weil genau die kognitive Arbeit, die Schemata aufbaut, eliminiert wird.
 :::
 
 ::: {.callout-important}

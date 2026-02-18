@@ -32,6 +32,8 @@ Diese Leitfragen sind kein etabliertes Modell aus der Literatur, sondern eine Sy
 - **Grundlagenphase** (Anfänger:innen): Interne Verarbeitung ist essentiell für Schemabildung → KI erst *nach* dem eigenen Versuch
 - **Fortgeschrittene Phase**: Expert:innen haben die Schemata bereits, und KI kann als Verstärker dienen
 
+Der Mechanismus dahinter ist Elementinteraktivität [@chenCognitiveLoadTheory2023]: Dasselbe Material hat für Anfänger eine hohe Elementinteraktivität (viele Elemente müssen gleichzeitig in Beziehung zueinander verarbeitet werden), für Experten eine niedrige (das Ganze ist ein Chunk im Langzeitgedächtnis). "Grundlagen aufbauen" heisst: Die Elementinteraktivität ist für diese Studierenden noch hoch, und die kognitive Arbeit, diese Beziehungen zu verarbeiten, *ist* das Lernen. Wenn KI diese Arbeit übernimmt, entsteht kein Schema.
+
 > **Wenn ja**: Interne Verarbeitung verlangen. Studierende müssen die Grundlagen *selbst* aufbauen, bevor KI-Tools sinnvoll eingesetzt werden können (→ Evaluationsparadox).
 
 
@@ -51,6 +53,13 @@ Diese Leitfragen sind kein etabliertes Modell aus der Literatur, sondern eine Sy
 
 - Wenn ja: Die Aufgabe testet *Produktion*, nicht *Verstehen*
 - Lösung: Aufgabe umgestalten, sodass der *Denkprozess* sichtbar wird
+
+Die Antwort ist selten pauschal Ja oder Nein. Zerlege die Aufgabe in Teilschritte und analysiere die Elementinteraktivität jedes Schritts:
+
+- **Hohe Elementinteraktivität** (viele Elemente müssen gleichzeitig in Beziehung gesetzt werden): Argumentation aufbauen, Modell anwenden, Synthese erstellen, Fall analysieren → **schützen**
+- **Niedrige Elementinteraktivität** (Elemente können unabhängig verarbeitet werden): Quellen formatieren, Fachbegriffe nachschlagen, Daten bereinigen, Grammatikprüfung → **delegierbar**
+
+Diese Zerlegung verwandelt den Reality Check von einer Ja/Nein-Entscheidung in ein chirurgisches Werkzeug: Du schützt die Aufgabenanteile, die Schemata aufbauen, und entlastest Studierende von Routinearbeit, die keine kognitive Verarbeitung erfordert.
 
 > **Wenn ja**: Aufgabe umgestalten. Persönliche Erfahrungen einbauen, Prozessdokumentation verlangen, mündliche Komponenten hinzufügen, Troubleshooting statt Lösungsfindung.
 
@@ -105,12 +114,16 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | Frage | Theoretische Grundlage |
 |-------|------------------------|
 | 1. Geht es ums **Lernen**? | Lernen ≠ Leisten, denn Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau |
-| 2. Werden **Grundlagen** aufgebaut? | Novizen-Experten-Progression & Expertise Reversal Effect: Was Anfängern hilft, schadet Experten |
+| 2. Werden **Grundlagen** aufgebaut? | Elementinteraktivität & Expertise Reversal Effect: Dasselbe Material hat für Anfänger hohe, für Experten niedrige Elementinteraktivität |
 | 3. Muss **internes Wissen** nachgewiesen werden? | Schemabildung & Langzeitgedächtnis, also Wissen muss intern aufgebaut, nicht extern geliefert werden |
-| 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess |
+| 4. Kann KI **ohne Denkarbeit** erledigen? | Elementinteraktivität als Analysetool: Aufgabenteile mit hoher Elementinteraktivität schützen, Routineanteile delegierbar |
 | 5. Gibt es **Versuch-dann-Prüfe**? | Generierungseffekt & Selbsterklärung: Der eigene Versuch aktiviert interne Verarbeitung; der Vergleich erzeugt Selbsterklärung. Die Diskrepanz zwischen eigenem und externem Ergebnis kann zusätzlich als informativer Vergleich wirken |
 
 Alle fünf Fragen dienen letztlich einem Ziel: **Transfer schützen.** Die Leitfragen stellen sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.
+
+### Offloading und Outsourcing aus CLT-Sicht
+
+Die Unterscheidung zwischen Offloading und Outsourcing lässt sich präzise in der Sprache der Cognitive Load Theory formulieren [@chenCognitiveLoadTheory2023]: **Offloading** reduziert *extrinsische* Elementinteraktivität, also die kognitive Arbeit, die nicht zum Lernen beiträgt (Formatierung, Quellensuche, Syntaxprüfung). Die lernrelevante Verarbeitung bleibt bei den Studierenden. **Outsourcing** eliminiert *intrinsische* Elementinteraktivität, also genau die relationale Verarbeitung (Elemente gleichzeitig in Beziehung setzen), die Schemata aufbaut. Diese Präzisierung macht die Grenze zwischen sinnvoller KI-Nutzung und schädlicher KI-Nutzung analytisch bestimmbar statt nur intuitiv.
 
 
 ## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre

@@ -185,6 +185,24 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 :::
 
 
+## Schwierig ≠ Komplex {.smaller}
+
+Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
+
+| | **Schwierig, nicht komplex** | **Komplex** |
+|---|---|---|
+| **Elementinteraktivität** | Niedrig | Hoch |
+| **Was passiert** | Viele Elemente, die *unabhängig* gelernt werden | Wenige Elemente, die *alle gleichzeitig* verarbeitet werden müssen |
+| **Beispiel** | Fachvokabular, Periodensystem, Quellenformate | Argumentation aufbauen, Gleichung lösen, Fall analysieren |
+| **KI-Empfehlung** | Offloading möglich | Outsourcing verhindern |
+
+:::{.fragment}
+::: {.callout-important}
+**Die Konsequenz:** Schütze die *komplexen* Aufgabenanteile (hohe Elementinteraktivität) vor KI-Outsourcing. Die *schwierigen* Routineanteile (niedrige Elementinteraktivität) können delegiert werden.
+:::
+:::
+
+
 ## Der Expertise Reversal Effect
 
 **Was Anfängern hilft, schadet Experten, und umgekehrt** [@kalyugaExpertiseReversalEffect2009]
