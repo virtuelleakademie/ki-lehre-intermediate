@@ -188,7 +188,7 @@ Genuine Pause. Nichts geplant.
 ### Gedächtnis-Aktivierung (2 Min)
 
 - "Versucht, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren. Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage. Lücken sind willkommen: Sie zeigen euch, wo ihr bei der Anwendung besonders aufmerksam sein solltet."
-- Dann vergleichen mit dem [5-Fragen-Framework](../../03-praxis/5-fragen-framework/)
+- Dann vergleichen mit dem [5-Fragen-Framework](../../02-ki-und-lernen/5-fragen-framework/)
 - "Wo sind die grössten Unterschiede? Genau diese Stellen sind die produktivsten Lernmomente."
 
 ### Aktivität: THINK-PAIR-SHARE mit Advocatus Diaboli (33 Min)

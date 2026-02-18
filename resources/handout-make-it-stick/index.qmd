@@ -228,4 +228,4 @@ Szenario-Generierung ist ein starker Anwendungsfall. Aber: Wenn der Agent auch d
 4. **Macht der Agent das Lernen besser oder nur einfacher?**
 5. **Wie wird echter Lernfortschritt messbar?**
 
-Diese Leitfragen sind eine Kurzversion des [5-Fragen-Frameworks](../../03-praxis/5-fragen-framework/), das einen systematischeren Entscheidungsweg bietet.
+Diese Leitfragen sind eine Kurzversion des [5-Fragen-Frameworks](../../02-ki-und-lernen/5-fragen-framework/), das einen systematischeren Entscheidungsweg bietet.

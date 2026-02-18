@@ -13,7 +13,7 @@ Diese Seite hilft dir, die **pädagogische Entscheidung** zu treffen: Ergibt ein
 
 ## Voraussetzung: Die pädagogische Diagnose
 
-Du hast eine Aufgabe mit dem [5-Fragen-Framework](../5-fragen-framework/) analysiert und festgestellt, dass eine **Versuch-dann-Prüfe-Struktur** sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?
+Du hast eine Aufgabe mit dem [5-Fragen-Framework](../../02-ki-und-lernen/5-fragen-framework/) analysiert und festgestellt, dass eine **Versuch-dann-Prüfe-Struktur** sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?
 
 Diese Seite ist ein **optionaler nächster Schritt** nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Für die Prüfe-Phase gibt es oft einfachere Wege: eine Musterlösung zum Selbstvergleich, strukturiertes Peer-Feedback, oder eine Checkliste zur Selbstbewertung. Ein Agent lohnt sich, wenn:
 
