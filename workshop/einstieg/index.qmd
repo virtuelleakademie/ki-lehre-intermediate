@@ -21,18 +21,13 @@ Notiere 3 kurze Aussagen auf einer Karte. Wir sammeln sie ein und kommen am Ende
 
 {{< include ../../resources/figures/fig-workshop-flow.qmd >}}
 
-**Im Beginner-Workshop** haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.
+Im Beginner-Workshop haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen. Heute verstehen wir, warum.
 
-**Heute verstehen wir warum:**
-
-- **Teil 1**: Wie Lernen funktioniert, die kognitive Architektur
-- **Teil 2**: Was das für KI bedeutet, wann KI hilft und wann sie schadet
-- **Teil 3**: Vom Wissen zum Handeln, eure eigene Aufgabe analysieren und gegenseitig diagnostizieren
+Wir arbeiten uns in drei Schritten vor: Zuerst die kognitive Architektur hinter dem Lernen, dann die Frage, wann KI hilft und wann sie schadet, und schliesslich die Praxis mit eurer eigenen Aufgabe.
 
 ### Was ihr mitgebracht habt
 
-- **Eine eigene Aufgabe oder Prüfung** (aus der Vorbereitung)
-- **Fragen und Erfahrungen** aus eurer Lehre
+Ihr habt eine Aufgabe aus eurer Lehre mitgebracht (aus der Vorbereitung) und Fragen, die euch beschäftigen.
 
 ### Was ihr heute lernt
 

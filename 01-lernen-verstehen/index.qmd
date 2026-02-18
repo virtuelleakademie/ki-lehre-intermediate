@@ -2,9 +2,9 @@
 title: "Wie Menschen lernen"
 ---
 
-Warum sich effektives Lernen oft anstrengend anfühlt, und was dabei tatsächlich im Kopf passiert.
+Warum sich effektives Lernen oft anstrengend anfühlt, und was dabei im Kopf passiert.
 
-In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus der Perspektive der kognitiven Psychologie? Was passiert im Gehirn, wenn wir Neues lernen? Und warum ist das, was sich wie Lernen *anfühlt*, oft das Gegenteil?
+In diesem ersten Teil legen wir die wissenschaftlichen Grundlagen: Wie funktioniert Lernen aus kognitionspsychologischer Sicht? Und warum ist das, was sich wie Lernen *anfühlt*, oft das Gegenteil?
 
 Diese Grundlagen helfen dir, in Teil 2 und 3 informierte Entscheidungen über den Einsatz von KI in deiner Lehre zu treffen.
 

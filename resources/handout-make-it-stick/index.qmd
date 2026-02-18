@@ -43,7 +43,7 @@ Dieses Handout präsentiert die 8 Strategien in geblockter Reihenfolge (1, 2, 3,
 
 - Selbsttests, Karteikarten, Übungsfragen
 - Ohne Notizen erklären können
-- Frequent low-stakes quizzes
+- Regelmässige Low-Stakes-Tests
 
 ::: {.agent-potential}
 Würde ein KI-Agent hier helfen oder die produktive Abrufanstrengung eliminieren? Wenn ein Agent die Fragen generiert: Wer entscheidet, wann der Abruf "schwierig genug" ist, der Agent oder die Lernenden?
@@ -81,7 +81,7 @@ Ein Agent könnte Wiederholungsintervalle optimieren. Aber: Gehört die Planung 
 
 - Verschiedene Aufgabentypen mischen
 - Beispiel Mathe: Addition, Multiplikation, Brüche durchmischen
-- Nicht alle gleichen Aufgaben hintereinander
+- Nicht alle gleichartigen Aufgaben hintereinander lösen lassen
 
 ::: {.agent-potential}
 Ein Agent könnte Aufgaben intelligent mischen. Welche Voraussetzung müssen Studierende erfüllen, damit sie den Nutzen der Mischung überhaupt bewerten können? (Hinweis: Evaluationsparadox)
@@ -196,9 +196,9 @@ Personalisiertes Feedback ist einer der vielversprechendsten Einsatzbereiche fü
 
 **Praktische Umsetzung:**
 
-- Real-world Probleme lösen
-- Wissen in neuen Situationen anwenden
-- Von Theorie zur Praxis
+- Reale Probleme aus dem Fachgebiet bearbeiten
+- Konzepte auf neue, unbekannte Situationen übertragen
+- Theorie an konkreten Praxisbeispielen prüfen
 
 ::: {.agent-potential}
 Szenario-Generierung ist ein starker Anwendungsfall. Aber: Wenn der Agent auch die Stakeholder-Perspektiven liefert, was bleibt als eigene Denkleistung der Studierenden? Wo verläuft die Grenze zwischen Kontextvariation (Offloading) und Analyseübernahme (Outsourcing)?

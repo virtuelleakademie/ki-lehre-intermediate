@@ -14,8 +14,8 @@ Im Workshop wirst du eine eigene Aufgabe aus deiner Lehre analysieren und weiter
 Am besten eignen sich Aufgaben, die:
 
 - ausserhalb des Unterrichts bearbeitet werden (ohne direkte Aufsicht)
-- bei denen KI-Tools eine Rolle spielen könnten
-- die du idealerweise schon einmal eingesetzt hast
+- durch KI-Tools beeinflusst werden könnten
+- du idealerweise schon einmal eingesetzt hast
 
 Bringe die **Aufgabenstellung** mit (digital oder ausgedruckt).
 

@@ -50,7 +50,7 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 *Vollständig ausgearbeitetes Beispiel*
 
-### **Beispiel: Statistik-Tutor**
+### Beispiel: Statistik-Tutor
 
 - **Lehrthema**: Inferenzstatistik (Hypothesentests)
 - **Problem**: Studierende können Konzepte erkennen, aber nicht aktiv anwenden
@@ -76,7 +76,7 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 
 *Teilweise ausgearbeitet: "Warum es funktioniert" als Selbsterklärung*
 
-### **Beispiel: Programmier-Mentor**
+### Beispiel: Programmier-Mentor
 
 - **Lehrthema**: Algorithmen und Datenstrukturen
 - **Problem**: Können isolierte Konzepte, aber nicht entscheiden wann welches
@@ -84,8 +84,8 @@ Ohne Signale ist Lernen dem Zufall überlassen. Mit Signalen wird es steuerbar.
 **Agent macht:**
 
 - Mischt verschiedene Problemtypen intelligent
-- Erstellt "Mixed Practice" Sessions
-- Vermeidet predictable Patterns
+- Erstellt gemischte Übungseinheiten
+- Vermeidet vorhersagbare Muster
 - Analysiert welche Kombinationen am besten funktionieren
 
 **Lernende tun:**
@@ -106,7 +106,7 @@ Formuliere in eigenen Worten: Welches Lernprinzip aus Teil 1 wird hier konkret a
 
 *Nur Kontext gegeben: Agent- und Lernende-Rollen selbst gestalten*
 
-### **Beispiel: Schreibtrainer-Coach**
+### Beispiel: Schreibtrainer-Coach
 
 - **Lehrthema**: Akademisches Schreiben
 - **Problem**: Wenig Bewusstsein für eigene Schreibprozesse und -qualität
@@ -162,14 +162,14 @@ Anhand der Muster aus den ersten beiden Beispielen:
 
 - Generiert vielfältige Anwendungsszenarien
 - Variiert Parameter, Kontexte, Darstellungsformen
-- Erstellt real-world Problemsituationen
+- Erstellt realitätsnahe Problemsituationen
 
 **Lernende tun:**
 
 - Physikalische Prinzipien in verschiedenen Situationen erkennen
-- Von abstrakten Formeln zu konkreten Anwendungen
+- Abstrakte Formeln auf konkrete Anwendungen übertragen
 - Problem-Situationen selbst analysieren und modellieren
-- Transfer auf völlig neue Bereiche leisten
+- Gelerntes auf völlig neue Bereiche anwenden
 
 **Warum es funktioniert**: Agent variiert die Kontexte, Lernende müssen Prinzipien erkennen und anwenden.
 
@@ -185,7 +185,7 @@ Anhand der Muster aus den ersten beiden Beispielen:
 
 - Erstellt mehrdeutige Situationen
 - Präsentiert widersprüchliche Evidenz
-- Generiert "Productive Struggle" Szenarien
+- Generiert Szenarien für produktive Anstrengung
 - Gibt delayed und minimales Feedback
 
 **Lernende tun:**
