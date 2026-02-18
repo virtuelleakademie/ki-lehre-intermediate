@@ -3,7 +3,7 @@ title: "Wie Menschen lernen"
 subtitle: "Warum sich effektives Lernen oft anstrengend anfühlt"
 format:
   revealjs:
-    logo: ../../assets/bfh-logo.png
+    logo: /assets/bfh-logo.png
 ---
 
 
