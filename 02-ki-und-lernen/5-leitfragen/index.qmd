@@ -1,19 +1,19 @@
 ---
-title: "Das 5-Fragen-Framework"
-subtitle: "Aufgaben für das KI-Zeitalter gestalten"
+title: "Die 5 Leitfragen zur Aufgabengestaltung"
+subtitle: "Aufgaben systematisch auf lernrelevante kognitive Verarbeitung prüfen"
 ---
 
 
 ## Überblick
 
-Dieses Framework hilft, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie **lernrelevante kognitive Verarbeitung** bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.
+Diese Leitfragen helfen, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie **lernrelevante kognitive Verarbeitung** bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.
 
-Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wird, folgt eine klare Handlungsempfehlung.
+Die fünf Leitfragen bauen aufeinander auf. Wenn eine Frage mit "Ja" beantwortet wird, folgt eine klare Handlungsempfehlung.
 
-Dieses Framework ist kein etabliertes Modell aus der Literatur, sondern eine Synthese, die ich aus den lernwissenschaftlichen Grundlagen in Teil 1 für diesen Workshop-Kontext konstruiert habe. Der Ausgangspunkt war ein praktisches Designproblem: Pauschale KI-Policies ("Verbieten" oder "Erlauben") helfen Lehrenden wenig, wenn sie bei einer konkreten Aufgabe entscheiden müssen, ob und wie KI eingesetzt werden soll. Die fünf Fragen bilden einen Entscheidungsbaum, der von der breitesten Unterscheidung (Lern- vs. Leistungskontext) zur spezifischsten Gestaltungsentscheidung (Versuch-dann-Prüfe-Struktur) führt. Jede Frage ist direkt an einen kognitiven Mechanismus aus Teil 1 gebunden, sodass die Empfehlungen nicht auf Intuition beruhen, sondern auf der Architektur des Lernens selbst.
+Diese Leitfragen sind kein etabliertes Modell aus der Literatur, sondern eine Synthese, die ich aus den lernwissenschaftlichen Grundlagen in Teil 1 für diesen Workshop-Kontext konstruiert habe. Der Ausgangspunkt war ein praktisches Designproblem: Pauschale KI-Policies ("Verbieten" oder "Erlauben") helfen Lehrenden wenig, wenn sie bei einer konkreten Aufgabe entscheiden müssen, ob und wie KI eingesetzt werden soll. Die fünf Leitfragen bilden einen Entscheidungsbaum, der von der breitesten Unterscheidung (Lern- vs. Leistungskontext) zur spezifischsten Gestaltungsentscheidung (Versuch-dann-Prüfe-Struktur) führt. Jede Frage ist direkt an einen kognitiven Mechanismus aus Teil 1 gebunden, sodass die Empfehlungen nicht auf Intuition beruhen, sondern auf der Architektur des Lernens selbst.
 
 
-## Die 5 Fragen
+## Die 5 Leitfragen
 
 ### Frage 1: Geht es primär ums Lernen?
 
@@ -78,7 +78,7 @@ Ohne solche Hinweise bleibt der Vergleich beliebig. Mit ihnen wird er zum geziel
 ::: {.callout-warning}
 ### Wann Versuch-dann-Prüfe nicht funktioniert
 
-**Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.** Versuch-dann-Prüfe setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Frage 2 des Frameworks), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen [@swellerCognitiveLoadTheory2024]. Hier liegt auch eine Chance für KI: Ein Agent, der **ausgearbeitete Beispiele generiert** (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
+**Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.** Versuch-dann-Prüfe setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Leitfrage 2), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen [@swellerCognitiveLoadTheory2024]. Hier liegt auch eine Chance für KI: Ein Agent, der **ausgearbeitete Beispiele generiert** (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
 
 **Wenn die Qualität des Versuchs nicht gesichert ist.** Der Mechanismus funktioniert nur, wenn der Versuch echte kognitive Anstrengung erfordert. Ein oberflächlicher "erster Versuch", der die formale Anforderung erfüllt, ohne dass Studierende tatsächlich nachdenken, verfehlt den Zweck. Gestalte die Versuch-Phase so, dass das Denken sichtbar wird: handschriftlich, zeitbegrenzt, mit Prozessdokumentation, oder mündlich.
 
@@ -110,7 +110,7 @@ Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
 | 4. Kann KI **ohne Denkarbeit** erledigen? | Cognitive Outsourcing & Schein-Kompetenz: Oberflächenprodukte ohne Denkprozess |
 | 5. Gibt es **Versuch-dann-Prüfe**? | Generierungseffekt & Selbsterklärung: Der eigene Versuch aktiviert interne Verarbeitung; der Vergleich erzeugt Selbsterklärung. Die Diskrepanz zwischen eigenem und externem Ergebnis kann zusätzlich als informativer Vergleich wirken |
 
-Alle fünf Fragen dienen letztlich einem Ziel: **Transfer schützen.** Das Framework stellt sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.
+Alle fünf Fragen dienen letztlich einem Ziel: **Transfer schützen.** Die Leitfragen stellen sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.
 
 
 ## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
@@ -214,5 +214,5 @@ Die 5 Fragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach,
 {{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
 
 ::: {.callout-note title="Nicht jede Aufgabe braucht KI" appearance="simple"}
-Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Das Framework kann auch bestätigen, dass dein aktuelles Design bereits solide ist.
+Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Die Leitfragen können auch bestätigen, dass dein aktuelles Design bereits solide ist.
 :::

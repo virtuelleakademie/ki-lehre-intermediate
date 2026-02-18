@@ -10,7 +10,7 @@ title: Transfer & Abschluss
 - Welche **Erkenntnis** aus dem heutigen Workshop war am wichtigsten?
 - Welche **eine Änderung** an meiner Aufgabe setze ich als erstes um? Wann tue ich dies konkret (Kalendertermin)?
 - Wann bearbeite ich die Aufgabe **Rückkehr zu den Vorhersagen** (Kalendertermin)?
-- Wie kann ich das **5-Fragen-Framework** in meiner Lehre einsetzen?
+- Wie kann ich die **5 Leitfragen** in meiner Lehre einsetzen?
 
 ::: {.active-processing}
 ### Rückkehr zu den Vorhersagen (5 Min, Heimarbeit nach Workshop)
@@ -29,7 +29,7 @@ Erinnere dich an deine 3 Vorhersagen vom Anfang: *"Was sind die wichtigsten Fakt
 ## Reflexion 
 
 ### Eigenarbeit (6 min)
-Im letzten Aufgabenteil hast du eigenständig ein praxisnahes Problem gelöst, indem du das zuvor eingeführte 5-Fragen-Framework auf Aufgaben aus deinem Lehralltag angewendet hast.
+Im letzten Aufgabenteil hast du eigenständig ein praxisnahes Problem gelöst, indem du die zuvor eingeführten 5 Leitfragen auf Aufgaben aus deinem Lehralltag angewendet hast.
 Zu Beginn des Workshops hatten wir über die Passung von Aufgaben und Anleitung zum Hintergrundwissen gesprochen.
 Überlege kurz mit Bezug auf die "Think"- und die "Pair"-Phase:
 

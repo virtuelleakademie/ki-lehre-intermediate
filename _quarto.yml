@@ -114,7 +114,7 @@ website:
       background: light
       contents:
         - 02-ki-und-lernen/index.qmd
-        - 02-ki-und-lernen/5-fragen-framework/index.qmd
+        - 02-ki-und-lernen/5-leitfragen/index.qmd
 
     - title: "Teil 3: Praxis"
       style: "docked"

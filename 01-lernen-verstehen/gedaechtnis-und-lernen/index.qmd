@@ -427,7 +427,7 @@ Die Prinzipien auf dieser Seite bilden die wissenschaftliche Grundlage für:
 
 - Die **wünschenswerten Schwierigkeiten** (→ [Teil 1](../../01-lernen-verstehen/)): Die vier Strategien und warum Anstrengung das Feature ist
 - Das **Evaluationsparadox** (→ [Teil 2](../../02-ki-und-lernen/)): Schemata, die KI-Output still umschreiben, sind derselbe Mechanismus wie Schemata, die Vorlesungsinhalte umschreiben
-- Die **Versuch-dann-Prüfe-Struktur** (→ [5-Fragen-Framework](../../02-ki-und-lernen/5-fragen-framework/)): Der Generierungseffekt erklärt, warum die Reihenfolge, *zuerst selbst denken, dann KI konsultieren*, entscheidend ist
+- Die **Versuch-dann-Prüfe-Struktur** (→ [5 Leitfragen](../../02-ki-und-lernen/5-leitfragen/)): Der Generierungseffekt erklärt, warum die Reihenfolge, *zuerst selbst denken, dann KI konsultieren*, entscheidend ist
 - Das **rekonstruktive Gedächtnis** erklärt, warum Schein-Kompetenz (→ [Teil 2](../../02-ki-und-lernen/)) so tückisch ist: Studierende *glauben*, sie hätten nachgedacht, weil ihr Schema die Rekonstruktion plausibel erscheinen lässt
 
 Gedächtnisforschung erklärt, *warum* die Gestaltungsprinzipien funktionieren und *warum* Studierende ihnen intuitiv widerstehen.

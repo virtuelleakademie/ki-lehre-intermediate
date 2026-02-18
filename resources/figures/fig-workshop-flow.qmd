@@ -56,7 +56,7 @@ digraph workshop_flow {
   ]
 
   teil2 [
-    label = 'Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n5-Fragen-Framework\n\n30 min'
+    label = 'Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n5 Leitfragen\n\n30 min'
     fillcolor = '#E69F00'
     fontcolor = '#222222'
     fontsize = 12

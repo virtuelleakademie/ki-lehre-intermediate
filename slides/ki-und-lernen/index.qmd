@@ -200,7 +200,7 @@ KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frag
 :::
 
 
-## Das 5-Fragen-Framework (1/2) {.smaller}
+## Die 5 Leitfragen (1/2) {.smaller}
 
 **Schützt die Aufgabe das Lernen?**
 
@@ -221,7 +221,7 @@ KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frag
 :::
 
 
-## Das 5-Fragen-Framework (2/2) {.smaller}
+## Die 5 Leitfragen (2/2) {.smaller}
 
 **Muss die Aufgabe angepasst werden?**
 
@@ -236,7 +236,7 @@ KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frag
 :::
 
 
-## Das 5-Fragen-Framework: Übersicht
+## Die 5 Leitfragen: Übersicht
 
 {{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
 
@@ -260,7 +260,7 @@ Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende vergleichen ih
 
 ## Jetzt seid ihr dran {.center}
 
-Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an.
+Im nächsten Teil wendet ihr diese Leitfragen auf **eure eigenen Aufgaben** an.
 
 :::{.fragment}
 Auf der Website findet ihr ein **Agent-Template**: Studierende arbeiten zuerst selbst, dann gibt der Agent gezieltes Feedback.

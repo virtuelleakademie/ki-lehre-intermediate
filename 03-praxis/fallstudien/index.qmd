@@ -7,7 +7,7 @@ subtitle: "Effektiv vs. ineffektiv, und warum"
 
 Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Du kannst sie auf zwei Arten nutzen:
 
-- **Als Analysematerial mit dem [5-Fragen-Framework](../../02-ki-und-lernen/5-fragen-framework/)**: Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
+- **Als Analysematerial mit den [5 Leitfragen](../../02-ki-und-lernen/5-leitfragen/)**: Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
 - **Als Diskussionsgrundlage** für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.
 
 Jedes Paar enthält ein problematisches und ein effektives Beispiel.
@@ -24,9 +24,9 @@ Eine Dozentin erlaubt Studierenden, ChatGPT für ihre Programmieraufgaben zu nut
 Dieselbe Dozentin ändert die Struktur: Studierende müssen *zuerst* eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst *nach* einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: "Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft, aber gib mir nicht die Lösung."
 
 ::: {.individual}
-### 5-Fragen-Analyse: Szenario A1
+### Analyse mit den 5 Leitfragen: Szenario A1
 
-Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit dem Framework:
+Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit den 5 Leitfragen:
 
 | Frage | Deine Einschätzung |
 |-------|-------------------|
@@ -63,9 +63,9 @@ Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu s
 Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf *ohne* KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.
 
 ::: {.individual}
-### 5-Fragen-Analyse: Szenario B1
+### Analyse mit den 5 Leitfragen: Szenario B1
 
-Analysiere Szenario B1 (Seminararbeit im 3. Semester) mit dem Framework:
+Analysiere Szenario B1 (Seminararbeit im 3. Semester) mit den 5 Leitfragen:
 
 | Frage | Deine Einschätzung |
 |-------|-------------------|
@@ -102,9 +102,9 @@ In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und e
 Im gleichen Kurs müssen Studierende *zuerst* ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: "Was habe ich übersehen? Warum?"
 
 ::: {.individual}
-### 5-Fragen-Analyse: Szenario C1
+### Analyse mit den 5 Leitfragen: Szenario C1
 
-Analysiere Szenario C1 (klinischer Kurs im 4. Semester) mit dem Framework:
+Analysiere Szenario C1 (klinischer Kurs im 4. Semester) mit den 5 Leitfragen:
 
 | Frage | Deine Einschätzung |
 |-------|-------------------|
@@ -141,9 +141,9 @@ Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei a
 Dieselbe Dozentin differenziert: Für die *Risikoanalyse* (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den *Statusbericht* (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?
 
 ::: {.individual}
-### 5-Fragen-Analyse: Szenario D1
+### Analyse mit den 5 Leitfragen: Szenario D1
 
-Dieses Szenario ist anders als A, B und C. Analysiere es mit dem Framework und achte darauf, **wo die Antworten anders ausfallen**:
+Dieses Szenario ist anders als A, B und C. Analysiere es mit den 5 Leitfragen und achte darauf, **wo die Antworten anders ausfallen**:
 
 | Frage | Deine Einschätzung |
 |-------|-------------------|

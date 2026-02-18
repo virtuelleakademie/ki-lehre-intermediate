@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Das 5-Fragen-Framework – KI in der Lehre: Intermediate</title>
+<title>Die 5 Leitfragen zur Aufgabengestaltung – KI in der Lehre: Intermediate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,26 +101,26 @@ div.csl-indent {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: #059669;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-active-processing.callout {
@@ -132,28 +132,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #7c3aed;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -178,31 +156,53 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #64748b;
+div.callout-group.callout {
+  border-left-color: #7c3aed;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 </style>
-<meta property="og:title" content="Das 5-Fragen-Framework – KI in der Lehre: Intermediate">
-<meta property="og:description" content="Aufgaben für das KI-Zeitalter gestalten">
+<meta property="og:title" content="Die 5 Leitfragen zur Aufgabengestaltung – KI in der Lehre: Intermediate">
+<meta property="og:description" content="Aufgaben systematisch auf lernrelevante kognitive Verarbeitung prüfen">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
 </head>
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -294,7 +294,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../02-ki-und-lernen/5-fragen-framework/index.html">Das 5-Fragen-Framework</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../02-ki-und-lernen/5-leitfragen/index.html">Die 5 Leitfragen zur Aufgabengestaltung</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -318,8 +318,8 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../02-ki-und-lernen/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Das 5-Fragen-Framework</span></a>
+  <a href="../../02-ki-und-lernen/5-leitfragen/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Die 5 Leitfragen zur Aufgabengestaltung</span></a>
   </div>
 </li>
     </ul>
@@ -332,7 +332,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   <ul>
 <li><a href="#%C3%BCberblick" id="toc-überblick" class="nav-link active" data-scroll-target="#%C3%BCberblick">Überblick</a></li>
   <li>
-<a href="#die-5-fragen" id="toc-die-5-fragen" class="nav-link" data-scroll-target="#die-5-fragen">Die 5 Fragen</a>
+<a href="#die-5-leitfragen" id="toc-die-5-leitfragen" class="nav-link" data-scroll-target="#die-5-leitfragen">Die 5 Leitfragen</a>
   <ul class="collapse">
 <li><a href="#frage-1-geht-es-prim%C3%A4r-ums-lernen" id="toc-frage-1-geht-es-primär-ums-lernen" class="nav-link" data-scroll-target="#frage-1-geht-es-prim%C3%A4r-ums-lernen">Frage 1: Geht es primär ums Lernen?</a></li>
   <li><a href="#frage-2-werden-noch-grundlagen-aufgebaut" id="toc-frage-2-werden-noch-grundlagen-aufgebaut" class="nav-link" data-scroll-target="#frage-2-werden-noch-grundlagen-aufgebaut">Frage 2: Werden noch Grundlagen aufgebaut?</a></li>
@@ -365,8 +365,8 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Das 5-Fragen-Framework</h1>
-<p class="subtitle lead">Aufgaben für das KI-Zeitalter gestalten</p>
+<h1 class="title">Die 5 Leitfragen zur Aufgabengestaltung</h1>
+<p class="subtitle lead">Aufgaben systematisch auf lernrelevante kognitive Verarbeitung prüfen</p>
 </div>
 
 
@@ -381,10 +381,10 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 
 
 </header><section id="überblick" class="level2"><h2 class="anchored" data-anchor-id="überblick">Überblick</h2>
-<p>Dieses Framework hilft, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie <strong>lernrelevante kognitive Verarbeitung</strong> bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.</p>
-<p>Die fünf Fragen bauen aufeinander auf. Wenn eine Frage mit “Ja” beantwortet wird, folgt eine klare Handlungsempfehlung.</p>
-<p>Dieses Framework ist kein etabliertes Modell aus der Literatur, sondern eine Synthese, die ich aus den lernwissenschaftlichen Grundlagen in Teil 1 für diesen Workshop-Kontext konstruiert habe. Der Ausgangspunkt war ein praktisches Designproblem: Pauschale KI-Policies (“Verbieten” oder “Erlauben”) helfen Lehrenden wenig, wenn sie bei einer konkreten Aufgabe entscheiden müssen, ob und wie KI eingesetzt werden soll. Die fünf Fragen bilden einen Entscheidungsbaum, der von der breitesten Unterscheidung (Lern- vs.&nbsp;Leistungskontext) zur spezifischsten Gestaltungsentscheidung (Versuch-dann-Prüfe-Struktur) führt. Jede Frage ist direkt an einen kognitiven Mechanismus aus Teil 1 gebunden, sodass die Empfehlungen nicht auf Intuition beruhen, sondern auf der Architektur des Lernens selbst.</p>
-</section><section id="die-5-fragen" class="level2"><h2 class="anchored" data-anchor-id="die-5-fragen">Die 5 Fragen</h2>
+<p>Diese Leitfragen helfen, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie <strong>lernrelevante kognitive Verarbeitung</strong> bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.</p>
+<p>Die fünf Leitfragen bauen aufeinander auf. Wenn eine Frage mit “Ja” beantwortet wird, folgt eine klare Handlungsempfehlung.</p>
+<p>Diese Leitfragen sind kein etabliertes Modell aus der Literatur, sondern eine Synthese, die ich aus den lernwissenschaftlichen Grundlagen in Teil 1 für diesen Workshop-Kontext konstruiert habe. Der Ausgangspunkt war ein praktisches Designproblem: Pauschale KI-Policies (“Verbieten” oder “Erlauben”) helfen Lehrenden wenig, wenn sie bei einer konkreten Aufgabe entscheiden müssen, ob und wie KI eingesetzt werden soll. Die fünf Leitfragen bilden einen Entscheidungsbaum, der von der breitesten Unterscheidung (Lern- vs.&nbsp;Leistungskontext) zur spezifischsten Gestaltungsentscheidung (Versuch-dann-Prüfe-Struktur) führt. Jede Frage ist direkt an einen kognitiven Mechanismus aus Teil 1 gebunden, sodass die Empfehlungen nicht auf Intuition beruhen, sondern auf der Architektur des Lernens selbst.</p>
+</section><section id="die-5-leitfragen" class="level2"><h2 class="anchored" data-anchor-id="die-5-leitfragen">Die 5 Leitfragen</h2>
 <section id="frage-1-geht-es-primär-ums-lernen" class="level3"><h3 class="anchored" data-anchor-id="frage-1-geht-es-primär-ums-lernen">Frage 1: Geht es primär ums Lernen?</h3>
 <p><strong>Unterscheide Lern- von Leistungskontexten.</strong></p>
 <ul>
@@ -462,7 +462,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.</strong> Versuch-dann-Prüfe setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Frage 2 des Frameworks), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen <span class="citation" data-cites="swellerCognitiveLoadTheory2024">(<a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>. Hier liegt auch eine Chance für KI: Ein Agent, der <strong>ausgearbeitete Beispiele generiert</strong> (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des <a href="https://virtuelleakademie.github.io/ki-lehre-advanced/">Advanced Workshops</a>.</p>
+<p><strong>Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.</strong> Versuch-dann-Prüfe setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Leitfrage 2), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen <span class="citation" data-cites="swellerCognitiveLoadTheory2024">(<a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>. Hier liegt auch eine Chance für KI: Ein Agent, der <strong>ausgearbeitete Beispiele generiert</strong> (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des <a href="https://virtuelleakademie.github.io/ki-lehre-advanced/">Advanced Workshops</a>.</p>
 <p><strong>Wenn die Qualität des Versuchs nicht gesichert ist.</strong> Der Mechanismus funktioniert nur, wenn der Versuch echte kognitive Anstrengung erfordert. Ein oberflächlicher “erster Versuch”, der die formale Anforderung erfüllt, ohne dass Studierende tatsächlich nachdenken, verfehlt den Zweck. Gestalte die Versuch-Phase so, dass das Denken sichtbar wird: handschriftlich, zeitbegrenzt, mit Prozessdokumentation, oder mündlich.</p>
 <p><strong>Wenn die Referenz in der Prüfe-Phase nicht verlässlich ist.</strong> Versuch-dann-Prüfe setzt voraus, dass der Vergleichsmassstab korrekt ist. Eine Musterlösung erfüllt das. KI-Output tut es nicht immer: Sprachmodelle produzieren plausible, aber potenziell falsche Antworten. Wer die Fachkompetenz nicht hat, um den Fehler zu erkennen (Evaluationsparadox), kann aus einem fehlerhaften Vergleich das Falsche lernen. Für kritische Lerninhalte kann eine geprüfte Musterlösung die bessere Wahl sein.</p>
 </div>
@@ -523,7 +523,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </tr>
 </tbody>
 </table>
-<p>Alle fünf Fragen dienen letztlich einem Ziel: <strong>Transfer schützen.</strong> Das Framework stellt sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.</p>
+<p>Alle fünf Fragen dienen letztlich einem Ziel: <strong>Transfer schützen.</strong> Die Leitfragen stellen sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.</p>
 </section><section id="teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre" class="level2"><h2 class="anchored" data-anchor-id="teilbearbeitetes-anwendungsbeispiel-volkswirtschaftslehre">Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre</h2>
 <p><strong>Ursprüngliche Aufgabe</strong>: “Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt.”</p>
 <p>Die ersten drei Fragen sind analysiert. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.</p>
@@ -717,7 +717,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Das Framework kann auch bestätigen, dass dein aktuelles Design bereits solide ist.</p>
+<p>Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die Aufgabe nicht ohne Denkarbeit erledigen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Die Leitfragen können auch bestätigen, dass dein aktuelles Design bereits solide ist.</p>
 </div>
 </div>
 

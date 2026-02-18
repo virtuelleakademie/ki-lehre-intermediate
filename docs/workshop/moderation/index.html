@@ -87,17 +87,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -107,6 +96,17 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -120,6 +120,28 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-pro-tip.callout {
   border-left-color: gold;
 }
@@ -131,15 +153,15 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '💡';
   background-image: none;
 }
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-pair.callout {
+  border-left-color: #059669;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -162,28 +184,6 @@ div.callout-group.callout-style-default > .callout-header {
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
   background-image: none;
 }
 </style>
@@ -519,7 +519,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li><strong>“The Beach, Not the Ant”</strong>: Lernumgebung gestalten statt Studierende kontrollieren</li>
 <li><strong>Bounded Rationality</strong>: Studierende sind rational. Den Strand umgestalten.</li>
 <li><strong>Ungleiche Wirkung</strong>: Expertise Reversal Effect → Schwächere werden überproportional geschädigt</li>
-<li><strong>5-Fragen-Framework</strong>: Kurzübersicht als Brücke zu Teil 3</li>
+<li><strong>5 Leitfragen</strong>: Kurzübersicht als Brücke zu Teil 3</li>
 </ol>
 </section>
 <section id="diagnose-fragen-2-min" class="level3">
@@ -548,7 +548,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <li>“Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?”</li>
 <li>Optional (wenn 30 Sekunden übrig): “Vergleicht eure Formulierungen kurz mit dem Nachbarn.”</li>
 </ul>
-<p><strong>Übergang:</strong> “Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan.”</p>
+<p><strong>Übergang:</strong> “Im Worked Example habt ihr gesehen, wie die 5 Leitfragen eine Aufgabe Schritt für Schritt analysieren. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan.”</p>
 <p><strong>Timing-Check:</strong> Du solltest bei ca. 10:40 sein.</p>
 <ul>
 <li><strong>Wenn du früher fertig bist:</strong> Mehr Diskussion beim Worked Example, oder eine der Nachlesen-Abschnitte kurz ansprechen (ungleiche Wirkung eignet sich gut).</li>
@@ -572,8 +572,8 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <section id="gedächtnis-aktivierung-2-min" class="level3">
 <h3 class="anchored" data-anchor-id="gedächtnis-aktivierung-2-min">Gedächtnis-Aktivierung (2 Min)</h3>
 <ul>
-<li>“Versucht, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren. Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage. Lücken sind willkommen: Sie zeigen euch, wo ihr bei der Anwendung besonders aufmerksam sein solltet.”</li>
-<li>Dann vergleichen mit dem <a href="../../03-praxis/5-fragen-framework/">5-Fragen-Framework</a></li>
+<li>“Versucht, die 5 Leitfragen aus dem Gedächtnis zu notieren. Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage. Lücken sind willkommen: Sie zeigen euch, wo ihr bei der Anwendung besonders aufmerksam sein solltet.”</li>
+<li>Dann vergleichen mit den <a href="../../02-ki-und-lernen/5-leitfragen/">5 Leitfragen</a></li>
 <li>“Wo sind die grössten Unterschiede? Genau diese Stellen sind die produktivsten Lernmomente.”</li>
 </ul>
 </section>
@@ -582,9 +582,9 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <p><strong>THINK (10 Min, analog)</strong></p>
 <ul>
 <li>“Bildschirme für einen Moment schliessen. Analysiert eure Aufgabe auf Papier.”</li>
-<li>Alle arbeiten individuell an ihrer eigenen Aufgabe mit dem 5-Fragen-Framework</li>
+<li>Alle arbeiten individuell an ihrer eigenen Aufgabe mit den 5 Leitfragen</li>
 <li>Wer keine hat: Fallstudien-Szenario nehmen</li>
-<li>Geh durch den Raum und hilf bei Fragen zum Framework</li>
+<li>Geh durch den Raum und hilf bei Fragen zu den Leitfragen</li>
 <li>Für Disziplinen, die nicht in den Fallstudien vorkommen, bei Bedarf Brücken bauen:
 <ul>
 <li>Pflege: “Klinisches Reasoning funktioniert gleich wie die medizinische Fallstudie: Erst eigene Hypothese, dann vergleichen.”</li>
@@ -663,7 +663,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </section>
 <section id="das-funktioniert-in-meinem-fach-nicht." class="level3">
 <h3 class="anchored" data-anchor-id="das-funktioniert-in-meinem-fach-nicht.">“Das funktioniert in meinem Fach nicht.”</h3>
-<p>Das Framework ist bewusst fachunabhängig formuliert. In den bisherigen Workshops haben Teilnehmende aus Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung es auf ihre Aufgaben anwenden können. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip “Prozess statt Produkt prüfen” gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.</p>
+<p>Die Leitfragen sind bewusst fachunabhängig formuliert. In den bisherigen Workshops haben Teilnehmende aus Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung es auf ihre Aufgaben anwenden können. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip “Prozess statt Produkt prüfen” gilt überall. In Teil 3 werden die Teilnehmenden die Leitfragen auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.</p>
 </section>
 <section id="wie-kontrolliere-ich-ob-studierende-wirklich-selbst-arbeiten" class="level3">
 <h3 class="anchored" data-anchor-id="wie-kontrolliere-ich-ob-studierende-wirklich-selbst-arbeiten">“Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?”</h3>
@@ -671,11 +671,11 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </section>
 <section id="meine-kolleginnen-machen-das-nicht.-bringt-es-etwas-wenn-nur-ich-das-umsetze" class="level3">
 <h3 class="anchored" data-anchor-id="meine-kolleginnen-machen-das-nicht.-bringt-es-etwas-wenn-nur-ich-das-umsetze">“Meine Kolleg:innen machen das nicht. Bringt es etwas, wenn nur ich das umsetze?”</h3>
-<p>Ja, aber begrenzt. Eine gut gestaltete Aufgabe in einem Kurs ist besser als keine. Langfristig braucht es Abstimmung im Department. Der Workshop vermittelt ein Framework, das sich in Teamgesprächen nutzen lässt: “Wo auf dem Offloading-Outsourcing-Spektrum stehen unsere Aufgaben?”</p>
+<p>Ja, aber begrenzt. Eine gut gestaltete Aufgabe in einem Kurs ist besser als keine. Langfristig braucht es Abstimmung im Department. Der Workshop vermittelt Leitfragen, die sich in Teamgesprächen nutzen lassen: “Wo auf dem Offloading-Outsourcing-Spektrum stehen unsere Aufgaben?”</p>
 </section>
 <section id="wie-viel-mehrarbeit-bedeutet-das" class="level3">
 <h3 class="anchored" data-anchor-id="wie-viel-mehrarbeit-bedeutet-das">“Wie viel Mehrarbeit bedeutet das?”</h3>
-<p>Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe dauert 15-20 Minuten. Das Redesign kann aufwändiger sein (Suchprotokoll, In-Class-Synthese). Strategie: Mit einer Aufgabe anfangen, nicht alle gleichzeitig umstellen. Und: Templates und Diagnose-Fragen wiederverwenden.</p>
+<p>Ehrlich: Die erste Umstellung kostet Zeit. Die Analyse mit den 5 Leitfragen dauert 15-20 Minuten. Das Redesign kann aufwändiger sein (Suchprotokoll, In-Class-Synthese). Strategie: Mit einer Aufgabe anfangen, nicht alle gleichzeitig umstellen. Und: Templates und Diagnose-Fragen wiederverwenden.</p>
 </section>
 </section>
 <section id="varianten" class="level2">
@@ -701,7 +701,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <h3 class="anchored" data-anchor-id="wenn-die-gruppe-ki-skeptisch-ist">Wenn die Gruppe KI-skeptisch ist</h3>
 <ul>
 <li>Teil 1 betonen: “Es geht um Lernen, nicht um KI”</li>
-<li>Im Worked Example: herausarbeiten, dass das Framework auch “Keine KI nötig” als Ergebnis validiert</li>
+<li>Im Worked Example: herausarbeiten, dass die Leitfragen auch “Keine KI nötig” als Ergebnis validieren</li>
 <li>Die Advocatus-Diaboli-Phase funktioniert besonders gut mit KI-skeptischen Gruppen, da sie den Fokus auf Aufgabendesign legt</li>
 </ul>
 

@@ -33,5 +33,5 @@ Ihr habt eine Aufgabe aus eurer Lehre mitgebracht (aus der Vorbereitung) und Fra
 
 - Welche kognitiven Prozesse Lernen erzeugen und warum sich das anstrengend anfühlt
 - Wann KI-Nutzung **Offloading** (hilfreich) und wann **Outsourcing** (schädlich) ist
-- Wie ihr eure Aufgaben mit dem **5-Fragen-Framework** analysieren könnt
+- Wie ihr eure Aufgaben mit den **5 Leitfragen** analysieren könnt
 - Wie ein Agent aussieht, der **produktive Anstrengung fördert** (Ressource für danach)

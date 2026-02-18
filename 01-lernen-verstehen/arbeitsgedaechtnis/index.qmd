@@ -286,7 +286,7 @@ Was Anfängern hilft, kann Experten schaden (Expertise Reversal Effect). Scaffol
 
 Die Prinzipien auf dieser Seite bilden die kognitive Grundlage für:
 
-- Das **5-Fragen-Framework** (→ [Teil 2](../../02-ki-und-lernen/5-fragen-framework/)): Frage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt
+- Die **5 Leitfragen** (→ [Teil 2](../../02-ki-und-lernen/5-leitfragen/)): Leitfrage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt
 - Die **Offloading-vs.-Outsourcing-Unterscheidung** (→ [Teil 2](../../02-ki-und-lernen/)): Offloading reduziert extrinsische Last; Outsourcing eliminiert germane processing
 - Die **Peer-Diagnose** (→ [Teil 3](../../03-praxis/)): Die Advocatus-Diaboli-Phase fordert die eigene Analyse heraus und vertieft das Verständnis
 
