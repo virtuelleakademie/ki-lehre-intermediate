@@ -85,7 +85,7 @@ Nutze Tests als Lernwerkzeug, nicht nur zur Bewertung:
 - Peer-Teaching-Übungen
 - Übungsaufgaben ohne Nachschlagen lösen
 
-Forschung zeigt, dass Abrufübung besseren Transfer als reines Wiederholen bringt.
+Abrufübung bringt besseren Transfer als reines Wiederholen [@roedigerCriticalRoleRetrieval2011].
 :::
 
 ### 5. Vermischtes Üben [@rohrerInterleavingHelpsStudents2012]

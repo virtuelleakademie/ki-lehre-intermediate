@@ -6,7 +6,7 @@ subtitle: "Warum sich effektives Lernen oft anstrengend anfühlt"
 
 ## KI steigert Produktivität
 
-**Forschung zeigt:** KI verbessert Leistung bei kognitiven Aufgaben
+KI verbessert Leistung bei kognitiven Aufgaben
 
 - Routineaufgaben werden schneller erledigt
 - Kreative Arbeit wird unterstützt
