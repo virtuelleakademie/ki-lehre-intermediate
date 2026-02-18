@@ -6,11 +6,11 @@ subtitle: "Wann KI das Lernen unterstützt, und wann sie es verhindert"
 
 ## Was wir bisher wissen {.center}
 
-Lernen = **Schemabildung** im Langzeitgedächtnis
+Lernen = Schemabildung im Langzeitgedächtnis
 
-Erfordert **aktive kognitive Verarbeitung**
+Erfordert aktive kognitive Verarbeitung
 
-Fühlt sich **anstrengend** an (metakognitive Falle)
+Fühlt sich anstrengend an (metakognitive Falle)
 
 Ziel: **Transfer**, also Wissen auf neue Situationen anwenden können
 
@@ -21,13 +21,13 @@ Ziel: **Transfer**, also Wissen auf neue Situationen anwenden können
 
 ## Offloading vs. Outsourcing
 
-**Die entscheidende Unterscheidung**
+Die entscheidende Unterscheidung
 
 ::::{.columns}
 :::{.column width="50%"}
 ### Cognitive Offloading
 
-Tool reduziert Arbeitsgedächtnis-Last, **während** die Person denkt
+Tool reduziert Arbeitsgedächtnis-Last, während die Person denkt
 
 *Beispiel:* Taschenrechner bei Problemlösung
 
@@ -38,7 +38,7 @@ Lernrelevante Verarbeitung: **erhalten**
 :::{.fragment}
 ### Cognitive Outsourcing
 
-Tool **übernimmt** das Denken
+Tool übernimmt das Denken
 
 *Beispiel:* KI schreibt den Aufsatz
 
@@ -99,12 +99,12 @@ Dir fehlen die **Schemata** in quantitativer Methodenlehre. Alles klingt plausib
 
 ## Das Evaluationsparadox
 
-**Ein verbreiteter Vorschlag:**
+Man hört oft:
 
 > *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
 
 :::{.fragment}
-**Das Problem:**
+Aber:
 
 Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, die das Lernen erst entwickeln soll.
 :::
@@ -133,12 +133,12 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 
 ## Lernen ≠ Leisten {.smaller}
 
-Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für **Transfer** auf neue Situationen.
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für Transfer auf neue Situationen.
 
 :::{.fragment}
 ### Schein-Kompetenz
 
-Texte mit allen **Oberflächenmerkmalen** akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.
+Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.
 
 Tückischer als Plagiat, weil es **Selbsttäuschung** ist.
 :::
@@ -146,7 +146,7 @@ Tückischer als Plagiat, weil es **Selbsttäuschung** ist.
 
 ## Was auf dem Spiel steht: Transfer {.center}
 
-Ohne Schemata können Studierende Gelerntes nicht auf **neue, unbekannte Situationen** anwenden.
+Ohne Schemata können Studierende Gelerntes nicht auf neue, unbekannte Situationen anwenden.
 
 :::{.fragment}
 Outsourcing produziert Ergebnisse, aber keine Schemata.
@@ -156,7 +156,7 @@ Keine Schemata bedeutet: kein Transfer.
 
 :::{.fragment}
 ::: {.callout-warning}
-**Das Kernproblem ist nicht Plagiat.** Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie keine internen Ressourcen aufgebaut haben.
+Das Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie **keine internen Ressourcen** aufgebaut haben.
 :::
 :::
 
@@ -187,12 +187,12 @@ Sondern:
 
 Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede** [@cuiEffectsGenerativeAI2024]:
 
-- **Stärkere** Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
-- **Schwächere** Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt
+- Stärkere Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
+- Schwächere Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt
 
 :::{.fragment}
 ::: {.callout-warning}
-KI-Policy ist auch eine **pädagogische Gerechtigkeitsfrage**, nicht bloss eine Frage der akademischen Integrität.
+KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frage der akademischen Integrität.
 :::
 :::
 
@@ -260,5 +260,5 @@ Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende vergleichen ih
 Im nächsten Teil wendet ihr dieses Framework auf **eure eigenen Aufgaben** an.
 
 :::{.fragment}
-Auf der Website findet ihr ein **Agent-Template**, das die Versuch-dann-Prüfe-Struktur in einen KI-Agent übersetzt: Studierende arbeiten zuerst selbst, der Agent gibt erst danach gezieltes Feedback.
+Auf der Website findet ihr ein **Agent-Template**: Studierende arbeiten zuerst selbst, dann gibt der Agent gezieltes Feedback.
 :::

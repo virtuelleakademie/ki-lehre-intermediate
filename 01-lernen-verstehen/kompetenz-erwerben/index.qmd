@@ -26,14 +26,14 @@ Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsged
 ## Zentrale Erkenntnisse
 
 1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
-2. **Kognitive Anstrengung signalisiert, dass lernrelevante Prozesse aktiv sind** (Schemabildung, Abruf, Elaboration, Konsolidierung). Nicht die Anstrengung selbst, sondern diese Prozesse sind die Lernmechanismen
+2. **Kognitive Anstrengung ist nicht selbst der Lernmechanismus**, aber sie signalisiert, dass lernrelevante Prozesse aktiv sind: Schemabildung, Abruf, Elaboration, Konsolidierung
 3. **Expertise bedeutet: ein internes generatives Modell aufbauen**, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann
 4. **KI-Outsourcing liefert Ergebnisse ohne den Prozess**, der dieses interne Modell aufbaut
 5. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
 
 ## Die Reise vom Anfänger zum Experten
 
-Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Tatsächlich können Expertenwerkzeuge Anfängern sogar aktiv schaden.
+Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Mehr noch: Expertenwerkzeuge können Anfängern sogar aktiv schaden.
 
 ## Die Progression von schwachen zu starken Methoden
 
@@ -129,12 +129,7 @@ Expertise verändert die kognitive Belastung grundlegend. Was für Anfänger 7+ 
 
 ### Wie KI die kognitive Architektur stört
 
-Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen:
-
-1. **Umgeht Verarbeitung im Arbeitsgedächtnis**: Keine kognitive Anstrengung bedeutet keine Kodierung
-2. **Verhindert Speicherung im Langzeitgedächtnis**: Unverarbeitete Informationen werden nicht gespeichert
-3. **Eliminiert Schemabildung**: Lernende erhalten Antworten, ohne Wissensstrukturen aufzubauen
-4. **Blockiert den Übergang vom Anfänger zum Experten**: Kein Weg von begrenztem zu unbegrenztem Wissen
+Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen: Ohne kognitive Anstrengung findet keine Verarbeitung im Arbeitsgedächtnis statt, und unverarbeitete Informationen gelangen nicht ins Langzeitgedächtnis. Ohne Speicherung entstehen keine Schemata, und ohne Schemata bleibt der Weg vom Anfänger zum Experten blockiert.
 
 ::: {.callout-warning}
 **Das Grundproblem**: KI bietet die Vorteile von Expertise (sofortiger Zugriff auf organisiertes Wissen), ohne den Prozess, der Expertise schafft (Arbeitsgedächtnisanstrengung → Speicherung im Langzeitgedächtnis).
@@ -180,27 +175,23 @@ Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigenen Aufgaben
 
 #### Prinzip 1: Die Entwicklungssequenz respektieren
 
-- Schwache Methoden müssen zuerst kommen. Sie sind keine Fehler, sondern notwendig
-- Prozeduralisierung erfordert umfangreiche Übung mit überlegten Prozessen
-- Kompilierung geschieht automatisch nach ausreichender Wiederholung
+Schwache Methoden müssen zuerst kommen. Sie sind keine Fehler, sondern notwendig. Prozeduralisierung erfordert umfangreiche Übung mit überlegten Prozessen, und Kompilierung geschieht automatisch nach ausreichender Wiederholung.
 
 #### Prinzip 2: Kognitive Belastung kalibrieren
 
-- Anfänger brauchen vereinfachte, sequenzielle Darstellung
-- Experten können komplexe, parallele Verarbeitung bewältigen
-- Dasselbe Material muss je nach Expertenniveau unterschiedlich präsentiert werden
+Anfänger brauchen vereinfachte, sequenzielle Darstellung. Experten können komplexe, parallele Verarbeitung bewältigen. Dasselbe Material muss je nach Expertenniveau unterschiedlich präsentiert werden.
+
+Diese beiden Prinzipien betreffen das *Was* der Instruktion. Die nächsten beiden betreffen das *Wie* im Kontext von KI.
 
 #### Prinzip 3: Das Zeitfenster für produktive Anstrengung schützen
 
 - Genügend Zeit für eigenständiges Arbeiten vor KI-Konsultation geben
 - Denkprozesse dokumentieren, bevor externe Hilfe gesucht wird
-- Mehrere Versuche, bevor Lösungen zugänglich sind
+- Mehrere Versuche ermöglichen, bevor Lösungen zugänglich sind
 
 #### Prinzip 4: Scaffolding statt Substitution
 
-- KI nutzen, um irrelevante kognitive Belastung zu reduzieren, nicht jede Anstrengung zu eliminieren
-- Durchgearbeitete Beispiele liefern, die den Prozess zeigen, nicht nur die Antworten
-- Unterstützung schrittweise abbauen, sobald Kompetenz entsteht (Scaffolding)
+KI sollte irrelevante kognitive Belastung reduzieren, nicht jede Anstrengung eliminieren. Durchgearbeitete Beispiele zeigen den Prozess, nicht nur die Antwort. Und sobald Kompetenz entsteht, wird die Unterstützung schrittweise abgebaut (Scaffolding).
 
 ::: {.reflect}
 ### Reflexion: Prinzipien auf die eigene Lehre übertragen

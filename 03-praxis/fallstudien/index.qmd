@@ -5,7 +5,7 @@ subtitle: "Effektiv vs. ineffektiv, und warum"
 
 ## Übersicht
 
-Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Sie können auf zwei Arten genutzt werden:
+Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Du kannst sie auf zwei Arten nutzen:
 
 - **Als Analysematerial mit dem 5-Fragen-Framework** (Teil 3): Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
 - **Als Diskussionsgrundlage** für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.

@@ -101,15 +101,11 @@ Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtsch
 
 **Frage 1: Geht es primär ums Lernen?**
 
-Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.
-
-> **Outsourcing muss verhindert werden.**
+Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Also: Outsourcing muss hier verhindert werden.
 
 **Frage 2: Werden noch Grundlagen aufgebaut?**
 
-Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?"
-
-> **Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.**
+Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?" Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.
 
 **Frage 3: Muss internes Wissen nachgewiesen werden?**
 
@@ -119,9 +115,7 @@ Eigentlich ja, aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen
 
 **Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?**
 
-Ja. *"Finde 5 Quellen zu X und fasse sie zusammen"* ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.
-
-> **Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.**
+Ja. *"Finde 5 Quellen zu X und fasse sie zusammen"* ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten. Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.
 
 **Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?**
 
@@ -171,7 +165,7 @@ Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender de
 
 **Vergleiche:** Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?
 
-*Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der **Generierungseffekt** in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Dasselbe Prinzip steckt hinter "Versuch-dann-Prüfe".*
+*Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Dasselbe Prinzip steckt hinter "Versuch-dann-Prüfe".*
 :::
 
 ::: {.active-processing}
@@ -188,11 +182,7 @@ Bevor wir weitergehen, notiere in Stichworten:
 ::: {.callout-tip}
 ### Überleitung zur Praxis
 
-Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr:
-
-- Eine **konkrete Analyse** eurer eigenen Aufgabe
-- Eine **Peer-Diagnose** eures Redesigns
-- Einen **1-Satz-Redesign-Plan**, den ihr sofort umsetzen könnt
+Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr eine konkrete Analyse eurer eigenen Aufgabe, eine Peer-Diagnose eures Redesigns und einen Redesign-Plan, den ihr sofort umsetzen könnt.
 :::
 
 > [5-Fragen-Framework: Handout](../03-praxis/5-fragen-framework/)
@@ -208,7 +198,7 @@ Die folgenden Abschnitte vertiefen die Konzepte aus den Slides. Sie sind als Nac
 
 Die Slides behandeln Offloading und Outsourcing als Kernunterscheidung. Hier die vertiefte Erklärung mit Beispielen und Visualisierung.
 
-Die entscheidende Frage: **Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?**
+Was hier zählt, ist eine einzige Frage: Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?
 
 Offloading und Outsourcing markieren die Endpunkte eines Spektrums:
 
@@ -240,7 +230,8 @@ Das Problem: **Um KI-Outputs beurteilen zu können, braucht man genau die Fachko
 
 - Expert:innen haben unabhängige Bewertungskriterien und erkennen Fehler sofort
 - Anfänger:innen fehlen diese Kriterien, sodass "kritische Bewertung" zu oberflächlichem Prüfen wird
-- **Kompetente Nutzung setzt Kompetenz voraus**
+
+Die Konsequenz: Kompetente Nutzung setzt Kompetenz voraus.
 
 Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.
 
@@ -297,9 +288,9 @@ Der **Expertise Reversal Effect** hat eine direkte Konsequenz für die Gerechtig
 
 Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem "digitalen Matthäus-Effekt" aus der Bildungstechnologie-Forschung [@reichFailureDisruptWhy2020]: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.
 
-**Konkrete Gegenmassnahmen:**
+Was lässt sich dagegen tun?
 
-- **Differenziertes Scaffolding in der Versuch-Phase**: Versuch-dann-Prüfe setzt voraus, dass Studierende genug Vorwissen haben, um einen sinnvollen Versuch zu generieren. Für Studierende mit dem schwächsten Vorwissen kann es nötig sein, *vor* dem eigenen Versuch ein ausgearbeitetes Beispiel zu studieren (der **Worked Example Effect** aus der Cognitive Load Theory). Der nächste Schritt wäre dann ein teilweise bearbeitetes Problem zum Vervollständigen (Completion Problem), bevor der freie Versuch möglich wird. Diese Abstufung stellt sicher, dass die Versuch-Phase produktiv bleibt statt überfordernd
+- **Differenziertes Scaffolding in der Versuch-Phase**: Versuch-dann-Prüfe setzt voraus, dass Studierende genug Vorwissen haben, um einen sinnvollen Versuch zu generieren. Für Studierende mit schwachem Vorwissen kann es nötig sein, *vor* dem eigenen Versuch ein ausgearbeitetes Beispiel zu studieren (der **Worked Example Effect** aus der Cognitive Load Theory). Der nächste Schritt wäre ein teilweise bearbeitetes Problem zum Vervollständigen (Completion Problem), bevor der freie Versuch möglich wird
 - **Strategische Paarung in der Prüfe-Phase**: Bewusste Zusammensetzung von Tandems, die unterschiedliche Stärken einbringen, damit die Vergleichsphase für alle informativ ist
 - **Sprachliche Zugänglichkeit beachten**: KI-Tools funktionieren in verschiedenen Sprachen unterschiedlich gut. Für nicht-muttersprachliche Studierende kann die Sprachbarriere die ohnehin schwächere Ausgangsposition verschärfen
 
