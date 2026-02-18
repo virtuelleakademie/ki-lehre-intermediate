@@ -84,7 +84,7 @@ Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben 
 
 ::: {.column width="50%"}
 ::: {.callout-important}
-Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich.
+Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich [@swellerDevelopmentCognitiveLoad2023].
 :::
 :::
 
@@ -251,14 +251,14 @@ Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 
 Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
 
-1. **Keine Modellaktivierung**: Ohne eigenen Versuch bleibt Feedback uninformativ
-2. **Keine Konsolidierung**: Ohne aktive Verarbeitung keine Speicherung
-3. **Keine Automatisierung**: Ohne Übungszyklen keine prozeduralen Fertigkeiten
-4. **Kein Transfer**: Ohne vernetzte Schemata kein Anwenden auf neue Situationen
+1. Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird
+2. Ohne aktive Verarbeitung findet keine Konsolidierung statt
+3. Prozedurale Fertigkeiten entstehen nur durch Übungszyklen
+4. Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen
 
 :::{.fragment}
 ::: {.callout-warning}
-Die Schwierigkeit ist kein Bug, sondern das zentrale Feature: Sie baut die Schemata auf, die Transfer ermöglichen.
+Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
 :::
 :::
 
@@ -390,7 +390,7 @@ Die Schwierigkeit ist kein Bug, sondern das zentrale Feature: Sie baut die Schem
 
 ## Die gefährliche Umkehrung {.center}
 
-Wir verwechseln **Verarbeitungsflüssigkeit** (wie leicht sich etwas anfühlt) mit **Lernerfolg**.
+Wir verwechseln **Verarbeitungsflüssigkeit** (wie leicht sich etwas anfühlt) mit **Lernerfolg** [@bjorkMemoryMetamemoryConsiderations1994].
 
 . . .
 
@@ -398,7 +398,7 @@ Produktive Anstrengung **fühlt sich schwierig an**, signalisiert aber, dass ler
 
 . . .
 
-Produktive Anstrengung ist kein Fehler im System, sondern das Signal, dass Lernen stattfindet.
+Wenn es sich anstrengend anfühlt, ist das meistens ein gutes Zeichen.
 
 
 ## Was wir jetzt wissen {.center}

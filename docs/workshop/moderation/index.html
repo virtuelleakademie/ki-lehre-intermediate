@@ -87,37 +87,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-individual.callout {
+  border-left-color: #0072B2;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -131,15 +109,15 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '💭';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: #0072B2;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -151,6 +129,17 @@ div.callout-facilitator.callout-style-default > .callout-header {
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
   content: '📋';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -184,6 +173,17 @@ div.callout-group.callout-style-default > .callout-header {
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
   background-image: none;
 }
 </style>
@@ -414,7 +414,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>3 Teile kurz vorstellen: Lernen verstehen → KI einordnen → Praxis</li>
 </ul>
 <p><strong>Nachlesen-Boxen framen:</strong> “Auf den Seiten findet ihr graue ‘Zum Nachlesen’-Boxen. Die sind für <em>nach</em> dem Workshop. Während des Workshops konzentrieren wir uns auf die Aktivitäten. Die Boxen bleiben online für euch stehen.”</p>
-<p><strong>Übergang (Advance Organizer):</strong> “In den nächsten 45 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das ist keine Theorie um der Theorie willen, sondern das Werkzeug, mit dem ihr in Teil 3 eure eigenen Aufgaben analysiert.”</p>
+<p><strong>Übergang (Advance Organizer):</strong> “In den nächsten 45 Minuten legen wir die Grundlage für eine Entscheidung, die ihr täglich trefft: Wann sollen eure Studierenden KI nutzen, und wann nicht? Ohne ein Verständnis der kognitiven Architektur lässt sich diese Frage nicht fundiert beantworten. Das klingt vielleicht theoretisch, aber in Teil 3 braucht ihr genau dieses Verständnis, um eure eigenen Aufgaben zu analysieren.”</p>
 </section>
 </section>
 <section id="teil1" class="level2">
@@ -663,7 +663,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </section>
 <section id="das-funktioniert-in-meinem-fach-nicht." class="level3">
 <h3 class="anchored" data-anchor-id="das-funktioniert-in-meinem-fach-nicht.">“Das funktioniert in meinem Fach nicht.”</h3>
-<p>Das Framework ist fachunabhängig. Die 5 Fragen funktionieren für Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung gleichermassen. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip “Prozess statt Produkt prüfen” gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.</p>
+<p>Das Framework ist bewusst fachunabhängig formuliert. In den bisherigen Workshops haben Teilnehmende aus Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung es auf ihre Aufgaben anwenden können. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip “Prozess statt Produkt prüfen” gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.</p>
 </section>
 <section id="wie-kontrolliere-ich-ob-studierende-wirklich-selbst-arbeiten" class="level3">
 <h3 class="anchored" data-anchor-id="wie-kontrolliere-ich-ob-studierende-wirklich-selbst-arbeiten">“Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?”</h3>

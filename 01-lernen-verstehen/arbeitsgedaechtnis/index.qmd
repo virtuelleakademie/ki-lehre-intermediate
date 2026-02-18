@@ -1,6 +1,6 @@
 ---
 title: "Arbeitsgedächtnis und Instruktion"
-subtitle: "Warum der Flaschenhals des Lernens jede Lehrdesign-Entscheidung bestimmt"
+subtitle: "Warum der Flaschenhals des Lernens so viele Lehrdesign-Entscheidungen prägt"
 author:
   - name: Andrew Ellis
     url: https://github.com/awellis
@@ -154,7 +154,7 @@ Oberauers besondere Einsicht: Die eigentliche Engstelle ist nicht die Speicherun
 ::: {.callout-tip collapse="true"}
 ### Slots vs. Ressourcen: Eine aktuelle Debatte
 
-Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Genauigkeit (**Slots**) oder verteilt es eine kontinuierliche Ressource über Elemente (**Ressourcen**)? Neuere Evidenz favorisiert zunehmend **Hybridmodelle**, die Elemente beider Ansätze kombinieren, aber die Debatte hat praktische Implikationen:
+Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Genauigkeit (**Slots**) oder verteilt es eine kontinuierliche Ressource über Elemente (**Ressourcen**)? Neuere Evidenz favorisiert **Hybridmodelle**, die Elemente beider Ansätze kombinieren [vgl. @oberauerAccessInformationWorking2002], aber die Debatte hat praktische Implikationen:
 
 - **Slot-Modell**: Jedes gespeicherte Element hat volle Präzision; überschüssige Elemente fallen einfach weg
 - **Ressourcen-Modell**: Mehr Elemente = weniger Präzision für jedes einzelne; weniger Elemente = höhere Präzision

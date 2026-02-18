@@ -109,17 +109,6 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -153,6 +142,17 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-facilitator.callout {
   border-left-color: #d97706;
 }
@@ -164,26 +164,15 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-group.callout {
@@ -197,15 +186,26 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 </style>
@@ -485,7 +485,7 @@ window.Quarto = {
 </section>
 <section id="die-reise-vom-anfänger-zum-experten" class="level2">
 <h2 class="anchored" data-anchor-id="die-reise-vom-anfänger-zum-experten">Die Reise vom Anfänger zum Experten</h2>
-<p>Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswerte Transformation. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Schlimmer noch: <em>Expertenwerkzeuge können Anfängern aktiv schaden.</em></p>
+<p>Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Tatsächlich können Expertenwerkzeuge Anfängern sogar aktiv schaden.</p>
 </section>
 <section id="die-progression-von-schwachen-zu-starken-methoden" class="level2">
 <h2 class="anchored" data-anchor-id="die-progression-von-schwachen-zu-starken-methoden">Die Progression von schwachen zu starken Methoden</h2>
@@ -545,13 +545,13 @@ window.Quarto = {
 <section id="kompilierung-experten-stadium" class="level3">
 <h3 class="anchored" data-anchor-id="kompilierung-experten-stadium">3. <strong>Kompilierung</strong> (Experten-Stadium)</h3>
 <ul>
-<li>Wissen wird durch <strong>zahlreiche Übungsdurchläufe</strong> automatisch</li>
+<li>Wissen wird durch wiederholte Übungsdurchläufe automatisch <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982">(<a href="#ref-andersonAcquisitionCognitiveSkill1982" role="doc-biblioref">Anderson 1982</a>)</span></li>
 <li>Mustererkennung dominiert</li>
 <li>Minimale kognitive Belastung</li>
 <li>Schnell und fehlerfrei</li>
 <li>Kann die Schritte nicht mehr erklären!</li>
 </ul>
-<p><strong>Produktionsstärke</strong> bestimmt, welche Regeln ausgelöst werden: Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl die Geschwindigkeit ALS AUCH die Genauigkeit: Stärkere Produktionen setzen sich gegen schwächere Alternativen durch.</p>
+<p><strong>Produktionsstärke</strong> bestimmt, welche Regeln ausgelöst werden: Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl die Geschwindigkeit als auch die Genauigkeit: Stärkere Produktionen setzen sich gegen schwächere Alternativen durch.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -630,7 +630,7 @@ Warnung
 </section>
 <section id="warum-expertenmethoden-anfängern-aktiv-schaden" class="level3">
 <h3 class="anchored" data-anchor-id="warum-expertenmethoden-anfängern-aktiv-schaden">Warum Expertenmethoden Anfängern aktiv schaden</h3>
-<p>Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv, sondern <strong>aktiv schädlich</strong>:</p>
+<p>Anfängern Expertenwerkzeuge zu geben, kann aktiv schädlich sein:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -683,7 +683,7 @@ Warnung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken: Anfänglicher Erfolg schafft falsches Selbstvertrauen, schwache Methoden verkümmern durch Nichtgebrauch, und Transfer scheitert, wenn KI nicht verfügbar ist. Das Selbstbild aktualisiert sich: Lernende schliessen aus ihren Erfahrungen rational, dass sie es allein nicht können.</p>
+<p>Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken <span class="citation" data-cites="bastaniGenerativeAIGuardrails2025">(<a href="#ref-bastaniGenerativeAIGuardrails2025" role="doc-biblioref">Bastani u.&nbsp;a. 2025</a>)</span>: Anfänglicher Erfolg schafft falsches Selbstvertrauen, schwache Methoden verkümmern durch Nichtgebrauch, und Transfer scheitert, wenn KI nicht verfügbar ist. Das Selbstbild aktualisiert sich: Lernende schliessen aus ihren Erfahrungen rational, dass sie es allein nicht können.</p>
 <p>Das Ergebnis ist nicht “Verlernen” im engeren Sinne, sondern <strong>Fähigkeitsatrophie durch Nichtgebrauch</strong>.</p>
 </div>
 </div>
@@ -774,7 +774,7 @@ Warnung
 </section>
 <section id="vorhersagefehler-ein-wichtiger-lernmechanismus" class="level3">
 <h3 class="anchored" data-anchor-id="vorhersagefehler-ein-wichtiger-lernmechanismus">Vorhersagefehler: Ein wichtiger Lernmechanismus</h3>
-<p>Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Die Forschung dazu umfasst mehrere <strong>unterschiedliche theoretische Traditionen</strong>: dopaminerge Belohnungssignale (Rescorla-Wagner-Tradition), sensorische Vorhersagefehler (Predictive Processing) und Überraschung im Bayesianischen Sinne. Diese Traditionen teilen eine Grundidee, unterscheiden sich aber in Mechanismen und Geltungsbereich. Für die Lehrpraxis ist die gemeinsame Grundidee nützlich: <em>Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.</em></p>
+<p>Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Die Forschung dazu umfasst mehrere <strong>unterschiedliche theoretische Traditionen</strong>: dopaminerge Belohnungssignale (Rescorla-Wagner-Tradition), sensorische Vorhersagefehler (Predictive Processing) und Überraschung im Bayesianischen Sinne <span class="citation" data-cites="sprevakIntroductionPredictiveProcessing">(für einen Überblick siehe <a href="#ref-sprevakIntroductionPredictiveProcessing" role="doc-biblioref">Sprevak und Smith o.&nbsp;J.</a>)</span>. Diese Traditionen teilen eine Grundidee, unterscheiden sich aber in Mechanismen und Geltungsbereich. Für die Lehrpraxis ist die gemeinsame Grundidee nützlich: <em>Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.</em></p>
 <section id="der-vorhersagefehler-zyklus" class="level4">
 <h4 class="anchored" data-anchor-id="der-vorhersagefehler-zyklus">Der Vorhersagefehler-Zyklus</h4>
 <p><strong>Schritt 1: Bildung einer Vorhersage</strong></p>
@@ -867,7 +867,7 @@ Warnung
 </section>
 <section id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-verarmt" class="level4">
 <h4 class="anchored" data-anchor-id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-verarmt">Warum das Auslagern kognitiver Prozesse an KI das Lernsignal verarmt</h4>
-<p><strong>Wenn KI sofort fertige Antworten liefert</strong>, wird der Vorhersagefehler <em>nicht</em> null. Das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird <strong>uninformativ</strong>:</p>
+<p><strong>Wenn KI sofort fertige Antworten liefert</strong>, wird der Vorhersagefehler <em>nicht</em> null. Das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird vermutlich <strong>uninformativ</strong>:</p>
 <ul>
 <li>Ohne eigenen Lösungsversuch aktivieren Lernende ihr internes Modell nicht</li>
 <li>Ohne spezifische Vorhersage gibt es nichts, woran das Feedback sinnvoll andocken kann</li>
@@ -1047,6 +1047,9 @@ Newell, Allen, und Herbert A. Simon. 1972. <em>Human <span>Problem Solving</span
 </div>
 <div id="ref-oakleyMemoryParadoxWhy2025" class="csl-entry" role="listitem">
 Oakley, Barbara, Michael Johnston, Kenzen Chen, Eulho Jung, und Terrence Sejnowski. 2025. <span>„The <span>Memory Paradox</span>: <span>Why Our Brains Need Knowledge</span> in an <span>Age</span> of <span>AI</span>“</span>. 12. Mai 2025. <a href="https://doi.org/10.31234/osf.io/3xye5_v2">https://doi.org/10.31234/osf.io/3xye5_v2</a>.
+</div>
+<div id="ref-sprevakIntroductionPredictiveProcessing" class="csl-entry" role="listitem">
+Sprevak, Mark, und Ryan Smith. o.&nbsp;J. <span>„An <span>Introduction</span> to <span>Predictive Processing Models</span> of <span>Perception</span> and <span>Decision-Making</span>“</span>. <em>Topics in Cognitive Science</em> n/a (n/a). Zugegriffen 20. Januar 2026. <a href="https://doi.org/10.1111/tops.12704">https://doi.org/10.1111/tops.12704</a>.
 </div>
 <div id="ref-yangEffectivenessChatGPTAssisting2025" class="csl-entry" role="listitem">
 Yang, Tzu-Chi, Yi-Chuan Hsu, und Jiun-Yu Wu. 2025. <span>„The Effectiveness of <span>ChatGPT</span> in Assisting High School Students in Programming Learning: Evidence from a Quasi-Experimental Research“</span>. <em>Interactive Learning Environments</em>, Januar, 1–18. <a href="https://doi.org/10.1080/10494820.2025.2450659">https://doi.org/10.1080/10494820.2025.2450659</a>.

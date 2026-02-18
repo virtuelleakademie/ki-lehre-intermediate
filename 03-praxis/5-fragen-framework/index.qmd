@@ -72,7 +72,7 @@ In der Prüfphase brauchen Studierende **explizite Hinweise, worauf sie achten s
 **Statt:** "Vergleiche deinen Text mit dem KI-Text"
 **Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
 
-Ohne diesen kognitiven Scheinwerfer lernen Studierende zufällig; mit ihm wird der Vergleich zum gezielten Lernmoment.
+Ohne solche Hinweise bleibt der Vergleich beliebig. Mit ihnen wird er zum gezielten Lernmoment.
 :::
 
 ::: {.callout-warning}

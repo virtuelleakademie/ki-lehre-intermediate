@@ -152,7 +152,7 @@ Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden S
 
 **Wenn Studierende in der Grundlagenphase sind.** Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Frage 2 des 5-Fragen-Frameworks), können den Agent-Output nicht nur nicht *bewerten*, sie profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.
 
-**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt (zusätzliche kognitive Belastung ohne Lerngewinn), ohne den Lernprozess zu verbessern.
+**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.
 
 ::: {.callout-note}
 ### Aber: Ein Agent *für* Worked Examples?

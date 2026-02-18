@@ -30,6 +30,7 @@ __packages/
 pages/*_files/
 /notes/
 /_do-not-build/**
+**/*.quarto_ipynb
 
 # Spelling
 /.cspell/
@@ -45,5 +46,4 @@ pages/config.yaml
 
 /.luarc.json
 
-
-**/*.quarto_ipynb
+TODO.md

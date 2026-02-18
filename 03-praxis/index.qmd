@@ -125,7 +125,7 @@ Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und
 
 Wenn deine 5-Fragen-Analyse ergeben hat, dass eine Versuch-dann-Prüfe-Struktur mit KI-Unterstützung sinnvoll wäre, helfen dir diese Seiten bei der pädagogischen Entscheidung: Ergibt ein Agent Sinn, und wenn ja, welches Verhalten muss er zeigen?
 
-- [Agent-Template: Analyse & Anpassung](./agent-template/) -- Entscheidungshilfe: Wann lohnt sich ein Agent, und wann nicht?
-- [Agent-Beispiele: Lernstrategien illustriert](../resources/agent-beispiele/) -- Konzeptillustrationen für verschiedene Strategien
+- [Agent-Template: Analyse & Anpassung](./agent-template/): Entscheidungshilfe, wann sich ein Agent lohnt und wann nicht
+- [Agent-Beispiele: Lernstrategien illustriert](../resources/agent-beispiele/): Konzeptillustrationen für verschiedene Strategien
 
 Die technische Umsetzung ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).

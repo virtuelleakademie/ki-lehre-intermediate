@@ -49,7 +49,7 @@ Lernrelevante Verarbeitung: **eliminiert**
 
 :::{.fragment}
 ::: {.callout-warning}
-**Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.**
+**Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das *ist* das Kernproblem.**
 :::
 :::
 
@@ -86,12 +86,12 @@ Der folgende Absatz enthält **einen sachlich falschen Satz.** Welcher?
 
 > "[...] weshalb kleine Studien die tatsächliche Effektgrösse tendenziell **unterschätzen**."
 
-Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, **überschätzen** die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert (*Winner's Curse*).
+Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, **überschätzen** die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert [*Winner's Curse*; @buttonPowerFailureWhy2013].
 
 :::{.fragment}
 ### Warum du ihn wahrscheinlich nicht gefunden hast
 
-Dir fehlen die **Schemata** in quantitativer Methodenlehre. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Kriterien kannst du Richtiges nicht von Falschem unterscheiden.
+Dir fehlen die **Schemata** in quantitativer Methodenlehre. Alles klingt plausibel und fachlich korrekt, aber ohne eigene Kriterien kannst du Richtiges nicht von Falschem unterscheiden.
 
 **So geht es deinen Studierenden mit KI-generierten Texten in ihrem Fach.**
 :::
@@ -156,14 +156,14 @@ Keine Schemata bedeutet: kein Transfer.
 
 :::{.fragment}
 ::: {.callout-warning}
-**Das Kernproblem ist nicht Plagiat.** Das Kernproblem ist, dass Studierende in der Praxis, im nächsten Kurs, im Beruf auf Situationen treffen, für die sie keine internen Ressourcen aufgebaut haben.
+**Das Kernproblem ist nicht Plagiat.** Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie keine internen Ressourcen aufgebaut haben.
 :::
 :::
 
 
 ## "The Beach, Not the Ant" {.center}
 
-> Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.
+> Die Lernumgebung beeinflusst das Ergebnis oft stärker als die Motivation der Studierenden.
 
 . . .
 
@@ -185,14 +185,14 @@ Sondern:
 
 ## Ungleiche Wirkung {.smaller}
 
-Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede:**
+Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede** [@cuiEffectsGenerativeAI2024]:
 
 - **Stärkere** Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
 - **Schwächere** Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt
 
 :::{.fragment}
 ::: {.callout-warning}
-KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **pädagogische Gerechtigkeitsfrage**.
+KI-Policy ist auch eine **pädagogische Gerechtigkeitsfrage**, nicht bloss eine Frage der akademischen Integrität.
 :::
 :::
 
@@ -246,7 +246,7 @@ KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine **
 2. **Dann** wird mit KI verglichen, geprüft, oder erweitert
 
 :::{.fragment}
-Die Reihenfolge bewahrt die **aktive Schemabildung** und ermöglicht Lernen aus Vorhersagefehlern.
+Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende vergleichen ihr eigenes Modell mit dem KI-Output und lernen aus der Diskrepanz.
 :::
 
 

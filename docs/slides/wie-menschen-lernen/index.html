@@ -166,15 +166,26 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
+  div.callout-group.callout {
+    border-left-color: #7c3aed;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgba(124, 58, 237, 0.13);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   div.callout-individual.callout {
@@ -188,26 +199,15 @@
     content: '💻';
     background-image: none;
   }
-  div.callout-nachlesen.callout {
-    border-left-color: #64748b;
+  div.callout-pair.callout {
+    border-left-color: #059669;
   }
-  div.callout-nachlesen.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
   }
-  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-    content: '📖';
-    background-image: none;
-  }
-  div.callout-facilitator.callout {
-    border-left-color: #d97706;
-  }
-  div.callout-facilitator.callout-style-default > .callout-header {
-    background-color: rgba(217, 119, 6, 0.13);
-  }
-  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-    content: '📋';
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   div.callout-active-processing.callout {
@@ -221,15 +221,26 @@
     content: '📝';
     background-image: none;
   }
-  div.callout-group.callout {
-    border-left-color: #7c3aed;
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
   }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgba(124, 58, 237, 0.13);
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
+    background-image: none;
+  }
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
     background-image: none;
   }
   div.callout-pro-tip.callout {
@@ -243,26 +254,15 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: #059669;
+  div.callout-facilitator.callout {
+    border-left-color: #d97706;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
+  div.callout-facilitator.callout-style-default > .callout-header {
+    background-color: rgba(217, 119, 6, 0.13);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
+  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+    content: '📋';
     background-image: none;
   }
   </style>
@@ -366,7 +366,7 @@ Andrew Ellis
 <div class="callout callout-important no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Experten haben <strong>besser organisierte Wissensstrukturen (Schemata)</strong>, die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich.</p>
+<p>Experten haben <strong>besser organisierte Wissensstrukturen (Schemata)</strong>, die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Sweller 2023</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -605,16 +605,16 @@ Abbildung&nbsp;1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapa
 <h2>Warum Outsourcing Schemabildung verhindert</h2>
 <p>Schemabildung erfordert <strong>aktive Verarbeitung</strong> im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:</p>
 <ol type="1">
-<li><strong>Keine Modellaktivierung</strong>: Ohne eigenen Versuch bleibt Feedback uninformativ</li>
-<li><strong>Keine Konsolidierung</strong>: Ohne aktive Verarbeitung keine Speicherung</li>
-<li><strong>Keine Automatisierung</strong>: Ohne Übungszyklen keine prozeduralen Fertigkeiten</li>
-<li><strong>Kein Transfer</strong>: Ohne vernetzte Schemata kein Anwenden auf neue Situationen</li>
+<li>Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird</li>
+<li>Ohne aktive Verarbeitung findet keine Konsolidierung statt</li>
+<li>Prozedurale Fertigkeiten entstehen nur durch Übungszyklen</li>
+<li>Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen</li>
 </ol>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Die Schwierigkeit ist kein Bug, sondern das zentrale Feature: Sie baut die Schemata auf, die Transfer ermöglichen.</p>
+<p>Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.</p>
 </div>
 </div>
 </div>
@@ -790,12 +790,12 @@ Abbildung&nbsp;1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapa
 <img data-src="index_files/figure-revealjs/lernparadox-1.png" width="960" class="r-stretch"></section>
 <section id="die-gefährliche-umkehrung" class="slide level2 center">
 <h2>Die gefährliche Umkehrung</h2>
-<p>Wir verwechseln <strong>Verarbeitungsflüssigkeit</strong> (wie leicht sich etwas anfühlt) mit <strong>Lernerfolg</strong>.</p>
+<p>Wir verwechseln <strong>Verarbeitungsflüssigkeit</strong> (wie leicht sich etwas anfühlt) mit <strong>Lernerfolg</strong> <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>.</p>
 <div class="fragment">
 <p>Produktive Anstrengung <strong>fühlt sich schwierig an</strong>, signalisiert aber, dass lernrelevante Prozesse aktiv sind.</p>
 </div>
 <div class="fragment">
-<p>Produktive Anstrengung ist kein Fehler im System, sondern das Signal, dass Lernen stattfindet.</p>
+<p>Wenn es sich anstrengend anfühlt, ist das meistens ein gutes Zeichen.</p>
 </div>
 </section>
 <section id="was-wir-jetzt-wissen" class="slide level2 center">
@@ -813,6 +813,9 @@ Abbildung&nbsp;1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapa
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-andersonAcquisitionCognitiveSkill1982" class="csl-entry" role="listitem">
 Anderson, John R. 1982. <span>„Acquisition of Cognitive Skill“</span>. <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
+</div>
+<div id="ref-bjorkMemoryMetamemoryConsiderations1994" class="csl-entry" role="listitem">
+Bjork, Robert A. 1994. <span>„Memory and Metamemory Considerations in the Training of Human Beings“</span>. In <em>Metacognition: <span>Knowing</span> about Knowing</em>, 185–205. Cambridge, MA, US: The MIT Press. <a href="https://doi.org/10.7551/mitpress/4561.001.0001">https://doi.org/10.7551/mitpress/4561.001.0001</a>.
 </div>
 <div id="ref-cuiEffectsGenerativeAI2024" class="csl-entry" role="listitem">
 Cui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. <span>„The <span>Effects</span> of <span>Generative AI</span> on <span>High Skilled Work</span>: <span>Evidence</span> from <span>Three Field Experiments</span> with <span>Software Developers</span>“</span>. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. <a href="https://doi.org/10.2139/ssrn.4945566">https://doi.org/10.2139/ssrn.4945566</a>.

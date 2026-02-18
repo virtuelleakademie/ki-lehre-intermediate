@@ -101,6 +101,17 @@ div.csl-indent {
     document.body.classList.add('hypothesis-enabled');
   });
 </script><style>
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
+  background-image: none;
+}
 div.callout-pair.callout {
   border-left-color: #059669;
 }
@@ -134,39 +145,6 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
 div.callout-nachlesen.callout {
   border-left-color: #64748b;
 }
@@ -187,6 +165,28 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-group.callout {
@@ -362,7 +362,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <a href="#ged%C3%A4chtnis-ist-rekonstruktiv" id="toc-gedächtnis-ist-rekonstruktiv" class="nav-link" data-scroll-target="#ged%C3%A4chtnis-ist-rekonstruktiv">Gedächtnis ist rekonstruktiv</a>
   <ul class="collapse">
 <li><a href="#schemata-das-zweischneidige-schwert" id="toc-schemata-das-zweischneidige-schwert" class="nav-link" data-scroll-target="#schemata-das-zweischneidige-schwert">Schemata: Das zweischneidige Schwert</a></li>
-  <li><a href="#activate-conflict-resolve" id="toc-activate-conflict-resolve" class="nav-link" data-scroll-target="#activate-conflict-resolve">Activate — Conflict — Resolve</a></li>
+  <li><a href="#activate-conflict-resolve" id="toc-activate-conflict-resolve" class="nav-link" data-scroll-target="#activate-conflict-resolve">Activate, Conflict, Resolve</a></li>
   </ul>
 </li>
   <li>
@@ -459,7 +459,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>
 <strong>Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben</strong>, weil Schemata neue Information still umschreiben</li>
 </ol></section><section id="gedächtnis-ist-nicht-ein-system" class="level2"><h2 class="anchored" data-anchor-id="gedächtnis-ist-nicht-ein-system">Gedächtnis ist nicht ein System</h2>
-<p>Die grundlegendste Einsicht der Gedächtnisforschung: Was wir beiläufig “Gedächtnis” nennen, ist eine <strong>Sammlung verschiedener Systeme</strong>, die nach unterschiedlichen Regeln arbeiten, verschiedene Arten von Information speichern und unterschiedliche Implikationen für die Lehre haben.</p>
+<p>Eine zentrale Einsicht der Gedächtnisforschung: Was wir beiläufig “Gedächtnis” nennen, ist eine <strong>Sammlung verschiedener Systeme</strong>, die nach unterschiedlichen Regeln arbeiten, verschiedene Arten von Information speichern und unterschiedliche Implikationen für die Lehre haben.</p>
 <section id="deklaratives-gedächtnis-wissen-dass" class="level3"><h3 class="anchored" data-anchor-id="deklaratives-gedächtnis-wissen-dass">Deklaratives Gedächtnis: Wissen, dass</h3>
 <p>Deklaratives Gedächtnis speichert Information, auf die man bewusst zugreifen und die man verbal beschreiben kann. Es gibt zwei Formen:</p>
 <p><strong>Episodisches Gedächtnis</strong> speichert persönlich erlebte Ereignisse, gebunden an einen bestimmten Zeitpunkt und Ort. Wenn Studierende sich an <em>deine Vorlesung</em> erinnern, also den Raum, die Folie, das Beispiel, dann ist das episodisches Gedächtnis. Es ist reichhaltig, kontextgebunden und inhärent an die Umstände der Enkodierung geknüpft.</p>
@@ -556,7 +556,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Endel Tulvings <strong>Encoding-Specificity-Prinzip</strong> <span class="citation" data-cites="tulvingEpisodicMemoryMind2002">(<a href="#ref-tulvingEpisodicMemoryMind2002" role="doc-biblioref">2002</a>)</span> besagt: Gedächtnisabruf ist am effektivsten, wenn der Abrufkontext mit dem Enkodierungskontext übereinstimmt. Dies ist einer der am besten gesicherten Befunde der Gedächtnisforschung, und er hat eine weitreichende Implikation für die Lehre:</p>
+<p>Endel Tulvings <strong>Encoding-Specificity-Prinzip</strong> <span class="citation" data-cites="tulvingEpisodicMemoryMind2002">(<a href="#ref-tulvingEpisodicMemoryMind2002" role="doc-biblioref">2002</a>)</span> besagt: Gedächtnisabruf ist am effektivsten, wenn der Abrufkontext mit dem Enkodierungskontext übereinstimmt. Dies ist ein gut replizierter Befund der Gedächtnisforschung, und er hat eine weitreichende Implikation für die Lehre:</p>
 <p><strong>Studierende “wissen” oft etwas im Kontext, in dem sie es gelernt haben, können aber in einem anderen Kontext nicht darauf zugreifen.</strong></p>
 <p>Das erklärt, warum Studierende bei Hausaufgaben, die Vorlesungsbeispielen ähneln, gut abschneiden, aber bei Prüfungen scheitern, die die Anwendung derselben Konzepte in neuen Kontexten erfordern. Das Wissen ist da, aber der Abrufpfad ist kontextabhängig.</p>
 <p><strong>Lehrimplikation</strong>: Um transferierbares Wissen aufzubauen, musst du bewusst die <strong>Kontexte variieren</strong>, in denen Studierende Konzepte begegnen und üben. Verschiedene Beispiele, verschiedene Oberflächenmerkmale, verschiedene Aufgabenformate verwenden. Jeder neue Kontext schafft zusätzliche Abrufpfade. Das ist auch ein starkes Argument für <strong>Interleaving</strong>, also das Mischen verschiedener Aufgabentypen statt ihrer Blockung, weil Interleaving Studierende zwingt, die <em>Auswahl</em> des richtigen Wissens zu üben, nicht nur dessen Ausführung.</p>
@@ -602,7 +602,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </ul>
 <p><strong>Beispiel</strong>: Studierende hören von einem Experiment mit “Kontrollgruppe” und “Interventionsgruppe”. Schema-konsistentes Detail (gut erinnert): “Die Interventionsgruppe erhielt die Behandlung.” Schema-fabriziertes Detail (fälschlich erinnert): “Die Teilnehmenden wurden randomisiert zugewiesen”, obwohl das nie gesagt wurde, weil das Schema es erwartet.</p>
 <p><strong>Lehrimplikation</strong>: Studierende werden neue Information systematisch <strong>an ihre bestehenden Schemata anpassen</strong>. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu <em>präsentieren</em> reicht oft nicht; du musst das Missverständnis <strong>explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen</strong>.</p>
-</section><section id="activate-conflict-resolve" class="level3"><h3 class="anchored" data-anchor-id="activate-conflict-resolve">Activate — Conflict — Resolve</h3>
+</section><section id="activate-conflict-resolve" class="level3"><h3 class="anchored" data-anchor-id="activate-conflict-resolve">Activate, Conflict, Resolve</h3>
 <p>Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemata schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.</p>
 <p><strong>Beispiel</strong>: Student glaubt “Schwerere Objekte fallen schneller”. Dozent präsentiert: “Alle Objekte fallen im Vakuum gleich schnell.” Schema schreibt um: “Also ist der Unterschied im Vakuum kleiner.” <strong>Falsch, das Missverständnis überlebt.</strong></p>
 <p>Die Lösung:</p>
@@ -635,7 +635,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </section></section><section id="konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung" class="level2"><h2 class="anchored" data-anchor-id="konsolidierung-gedächtnis-verändert-sich-nach-der-enkodierung">Konsolidierung: Gedächtnis verändert sich nach der Enkodierung</h2>
 <p>Enkodierung ist nicht das Ende der Geschichte. Nach dem initialen Lernen durchlaufen Erinnerungen einen langwierigen Prozess der <strong>Konsolidierung</strong>, bei dem sie über Stunden, Tage und Wochen schrittweise reorganisiert, verstärkt und mit bestehendem Wissen integriert werden.</p>
 <section id="zentrale-konsolidierungsprinzipien" class="level3"><h3 class="anchored" data-anchor-id="zentrale-konsolidierungsprinzipien">Zentrale Konsolidierungsprinzipien</h3>
-<p><strong>Schlaf konsolidiert Erinnerungen.</strong> Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den <em>Kern</em> des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.</p>
+<p><strong>Schlaf konsolidiert Erinnerungen.</strong> Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den <em>Kern</em> des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(vgl. <a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref">Oakley u.&nbsp;a. 2025</a>)</span>. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.</p>
 <p><strong>Erinnerungen werden stabiler, aber weniger detailliert.</strong> Frisch enkodierte Erinnerungen sind reich an Details, aber fragil. Mit fortschreitender Konsolidierung werden Erinnerungen stabiler und abstrakter: Der Kern bleibt erhalten, die Details verblassen. Das ist kein Fehler; es ist ein Feature. Abstraktion ist das, was Wissen transferierbar macht.</p>
 <p><strong>Abruf während der Konsolidierung verstärkt Erinnerungen.</strong> Abruf während des Konsolidierungsfensters testet nicht nur das Gedächtnis, sondern verstärkt und stabilisiert aktiv die Gedächtnisspur. Deshalb ist verteilte Abrufpraxis so effektiv: Jedes Abrufereignis gibt der Erinnerung eine weitere Gelegenheit, stabilisiert und integriert zu werden.</p>
 <p><strong>Lehrimplikation</strong>: Die Struktur deines Kurses <em>über die Zeit</em> ist genauso wichtig wie der Inhalt einzelner Sitzungen. Lernen auf mehrere Sitzungen mit Schlaf dazwischen verteilen, Abrufgelegenheiten einbauen, die Tage und Wochen überspannen, und Schlüsselkonzepte in wachsenden Abständen wieder aufgreifen: All das nutzt Konsolidierung, um dauerhafteres, integrierteres, transferierbareres Wissen zu produzieren.</p>
@@ -664,9 +664,9 @@ C:      .  .  *  R  .  R  .  .  .  R   .   R
 </div>
 </div>
 </section></section><section id="abruf-ist-ein-lernereignis" class="level2"><h2 class="anchored" data-anchor-id="abruf-ist-ein-lernereignis">Abruf ist ein Lernereignis</h2>
-<p>Dies ist möglicherweise der wichtigste Befund für die Hochschullehre der letzten 30 Jahre <span class="citation" data-cites="roedigerCriticalRoleRetrieval2011">(<a href="#ref-roedigerCriticalRoleRetrieval2011" role="doc-biblioref">Roediger und Butler 2011</a>)</span>: <strong>Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er <em>erzeugt</em> Lernen.</strong></p>
+<p>Einer der folgenreichsten Befunde für die Hochschullehre <span class="citation" data-cites="roedigerCriticalRoleRetrieval2011">(<a href="#ref-roedigerCriticalRoleRetrieval2011" role="doc-biblioref">Roediger und Butler 2011</a>)</span>: <strong>Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er <em>erzeugt</em> Lernen.</strong></p>
 <section id="der-testing-effect" class="level3"><h3 class="anchored" data-anchor-id="der-testing-effect">Der Testing Effect</h3>
-<p>#TODO: find support for this claim in the literature Hunderte von Studien haben gezeigt: Die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, verstärkt die Gedächtnisspur wirksamer als erneutes Studieren desselben Materials.</p>
+<p>Empirische Befunde legen nahe, dass die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, die Gedächtnisspur wirksamer verstärkt als erneutes Studieren desselben Materials <span class="citation" data-cites="roedigerCriticalRoleRetrieval2011 roedigerTestenhancedLearningTaking2006">(vgl. <a href="#ref-roedigerCriticalRoleRetrieval2011" role="doc-biblioref">Roediger und Butler 2011</a>; <a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger und Karpicke 2006</a>)</span>.</p>
 <p><span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">Roediger und Karpicke (<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">2006</a>)</span>:</p>
 <table class="caption-top table">
 <thead><tr class="header">
@@ -738,7 +738,7 @@ C:      .  .  *  R  .  R  .  .  .  R   .   R
 </div>
 </div>
 </section></section><section id="wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist" class="level2"><h2 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist">Wünschenswerte Schwierigkeiten: Wenn schwieriger besser ist</h2>
-<p>Robert Bjorks Konzept der <strong>Desirable Difficulties</strong> <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span> ist eines der wichtigsten und kontraintuitivsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste <em>Leistung während des Lernens</em> erzeugen, auch die beste <em>langfristige Retention und den besten Transfer</em> produzieren.</p>
+<p>Robert Bjorks Konzept der <strong>Desirable Difficulties</strong> <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span> ist eines der einflussreichsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste <em>Leistung während des Lernens</em> erzeugen, auch die beste <em>langfristige Retention und den besten Transfer</em> produzieren.</p>
 <p>Das tun sie nicht.</p>
 <section id="die-performance-learning-unterscheidung" class="level3"><h3 class="anchored" data-anchor-id="die-performance-learning-unterscheidung">Die Performance-Learning-Unterscheidung</h3>
 <table class="caption-top table">
@@ -782,7 +782,7 @@ Abbildung&nbsp;1
 </div>
 </section><section id="die-drei-schlüsselstrategien" class="level3"><h3 class="anchored" data-anchor-id="die-drei-schlüsselstrategien">Die drei Schlüsselstrategien</h3>
 <section id="spacing-verteiltes-lernen" class="level4"><h4 class="anchored" data-anchor-id="spacing-verteiltes-lernen">1. Spacing (Verteiltes Lernen)</h4>
-<p>Lerneinheiten über die Zeit verteilen statt zusammenpressen. Derselbe Zeitaufwand, aber dramatisch unterschiedliche Ergebnisse.</p>
+<p>Lerneinheiten über die Zeit verteilen statt zusammenpressen. Derselbe Zeitaufwand, aber deutlich unterschiedliche Ergebnisse.</p>
 <p><strong>Warum es funktioniert:</strong> Jede verteilte Sitzung beinhaltet partielles Vergessen, gefolgt von anstrengungsreichem Abruf, der die Erinnerung verstärkt. Massed Learning erlaubt Aufrechterhaltung im Arbeitsgedächtnis ohne Abruf aus dem Langzeitgedächtnis. Das fühlt sich leicht an, umgeht aber die Mechanismen, die dauerhafte Enkodierung erzeugen. Zusätzlich ermöglicht Spacing Konsolidierung zwischen den Sitzungen.</p>
 </section><section id="interleaving-abwechslung" class="level4"><h4 class="anchored" data-anchor-id="interleaving-abwechslung">2. Interleaving (Abwechslung)</h4>
 <p>Verschiedene Aufgabentypen während der Übung mischen statt blockweise üben.</p>
@@ -847,7 +847,7 @@ Abbildung&nbsp;1
 </tr>
 </tbody>
 </table>
-<p>Investiere <strong>15 Minuten</strong> in der ersten Sitzung, um die Performance-Learning-Unterscheidung zu lehren. Zeige die Testing-Effect-Daten. Vermittle Abruf + Spacing + Interleaving. Diese einzelne Intervention verbessert das Lernen in <strong>jedem Kurs</strong>, den die Studierenden besuchen.</p>
+<p>Investiere <strong>15 Minuten</strong> in der ersten Sitzung, um die Performance-Learning-Unterscheidung zu lehren. Zeige die Testing-Effect-Daten. Vermittle Abruf + Spacing + Interleaving. Diese einzelne Intervention kann das Lernen in den weiteren Kursen der Studierenden verbessern.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -877,6 +877,9 @@ Bjork, Elizabeth Ligon, und Robert A. Bjork. 2011. <span>„Making Things Hard o
 </div>
 <div id="ref-dunloskyImprovingStudentsLearning2013" class="csl-entry" role="listitem">
 Dunlosky, John, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan, und Daniel T. Willingham. 2013. <span>„Improving <span>Students</span>’ <span>Learning With Effective Learning Techniques</span>: <span>Promising Directions From Cognitive</span> and <span>Educational Psychology</span>“</span>. <em>Psychological Science in the Public Interest: A Journal of the American Psychological Society</em> 14 (1): 4–58. <a href="https://doi.org/10.1177/1529100612453266">https://doi.org/10.1177/1529100612453266</a>.
+</div>
+<div id="ref-oakleyMemoryParadoxWhy2025" class="csl-entry" role="listitem">
+Oakley, Barbara, Michael Johnston, Kenzen Chen, Eulho Jung, und Terrence Sejnowski. 2025. <span>„The <span>Memory Paradox</span>: <span>Why Our Brains Need Knowledge</span> in an <span>Age</span> of <span>AI</span>“</span>. 12. Mai 2025. <a href="https://doi.org/10.31234/osf.io/3xye5_v2">https://doi.org/10.31234/osf.io/3xye5_v2</a>.
 </div>
 <div id="ref-roedigerCriticalRoleRetrieval2011" class="csl-entry" role="listitem">
 Roediger, Henry L., und Andrew C. Butler. 2011. <span>„The Critical Role of Retrieval Practice in Long-Term Retention“</span>. <em>Trends in Cognitive Sciences</em> 15 (1): 20–27. <a href="https://doi.org/10.1016/j.tics.2010.09.003">https://doi.org/10.1016/j.tics.2010.09.003</a>.

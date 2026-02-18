@@ -166,26 +166,15 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-nachlesen.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-nachlesen.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-    content: '📖';
-    background-image: none;
-  }
-  div.callout-active-processing.callout {
+  div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
+  div.callout-agent-potential.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
     background-image: none;
   }
   div.callout-pro-tip.callout {
@@ -199,28 +188,6 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-group.callout {
-    border-left-color: #7c3aed;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgba(124, 58, 237, 0.13);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-pair.callout {
-    border-left-color: #059669;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
   div.callout-facilitator.callout {
     border-left-color: #d97706;
   }
@@ -232,15 +199,15 @@
     content: '📋';
     background-image: none;
   }
-  div.callout-individual.callout {
-    border-left-color: #0072B2;
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
   }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgba(0, 114, 178, 0.13);
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-reflect.callout {
@@ -254,15 +221,48 @@
     content: '💭';
     background-image: none;
   }
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
+  div.callout-individual.callout {
+    border-left-color: #0072B2;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgba(0, 114, 178, 0.13);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
+  div.callout-group.callout {
+    border-left-color: #7c3aed;
+  }
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgba(124, 58, 237, 0.13);
+  }
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   </style>
@@ -319,7 +319,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist keine Nebenwirkung, sondern das Kernproblem.</strong></p>
+<p><strong>Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das <em>ist</em> das Kernproblem.</strong></p>
 </div>
 </div>
 </div>
@@ -353,10 +353,10 @@ Andrew Ellis
 <blockquote>
 <p>“[…] weshalb kleine Studien die tatsächliche Effektgrösse tendenziell <strong>unterschätzen</strong>.”</p>
 </blockquote>
-<p>Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, <strong>überschätzen</strong> die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert (<em>Winner’s Curse</em>).</p>
+<p>Das Gegenteil ist richtig: Kleine Studien, die signifikante Ergebnisse liefern, <strong>überschätzen</strong> die Effektgrösse systematisch. Nur ungewöhnlich grosse beobachtete Effekte schaffen es in kleinen Stichproben über die Signifikanzschwelle, daher sind die publizierten Effekte inflationiert [<em>Winner’s Curse</em>; <span class="citation" data-cites="buttonPowerFailureWhy2013">Button u.&nbsp;a. (<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">2013</a>)</span>].</p>
 <div class="fragment">
 <h3 id="warum-du-ihn-wahrscheinlich-nicht-gefunden-hast">Warum du ihn wahrscheinlich nicht gefunden hast</h3>
-<p>Dir fehlen die <strong>Schemata</strong> in quantitativer Methodenlehre. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Kriterien kannst du Richtiges nicht von Falschem unterscheiden.</p>
+<p>Dir fehlen die <strong>Schemata</strong> in quantitativer Methodenlehre. Alles klingt plausibel und fachlich korrekt, aber ohne eigene Kriterien kannst du Richtiges nicht von Falschem unterscheiden.</p>
 <p><strong>So geht es deinen Studierenden mit KI-generierten Texten in ihrem Fach.</strong></p>
 </div>
 </section>
@@ -441,7 +441,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Das Kernproblem ist nicht Plagiat.</strong> Das Kernproblem ist, dass Studierende in der Praxis, im nächsten Kurs, im Beruf auf Situationen treffen, für die sie keine internen Ressourcen aufgebaut haben.</p>
+<p><strong>Das Kernproblem ist nicht Plagiat.</strong> Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie keine internen Ressourcen aufgebaut haben.</p>
 </div>
 </div>
 </div>
@@ -450,7 +450,7 @@ Andrew Ellis
 <section id="the-beach-not-the-ant" class="slide level2 center">
 <h2>“The Beach, Not the Ant”</h2>
 <blockquote>
-<p>Die Lernumgebung bestimmt das Ergebnis mehr als die Motivation der Studierenden.</p>
+<p>Die Lernumgebung beeinflusst das Ergebnis oft stärker als die Motivation der Studierenden.</p>
 </blockquote>
 <div class="fragment">
 <p>Die richtige Frage ist nicht:</p>
@@ -472,7 +472,7 @@ Andrew Ellis
 </section>
 <section id="ungleiche-wirkung" class="slide level2 smaller">
 <h2>Ungleiche Wirkung</h2>
-<p>Unstrukturierter KI-Einsatz <strong>vergrössert Leistungsunterschiede:</strong></p>
+<p>Unstrukturierter KI-Einsatz <strong>vergrössert Leistungsunterschiede</strong> <span class="citation" data-cites="cuiEffectsGenerativeAI2024">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Cui u.&nbsp;a. 2024</a>)</span>:</p>
 <ul>
 <li><strong>Stärkere</strong> Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen</li>
 <li><strong>Schwächere</strong> Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt</li>
@@ -481,7 +481,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>KI-Policy ist nicht nur eine Frage der akademischen Integrität, sondern eine <strong>pädagogische Gerechtigkeitsfrage</strong>.</p>
+<p>KI-Policy ist auch eine <strong>pädagogische Gerechtigkeitsfrage</strong>, nicht bloss eine Frage der akademischen Integrität.</p>
 </div>
 </div>
 </div>
@@ -528,7 +528,7 @@ Andrew Ellis
 <li><strong>Dann</strong> wird mit KI verglichen, geprüft, oder erweitert</li>
 </ol>
 <div class="fragment">
-<p>Die Reihenfolge bewahrt die <strong>aktive Schemabildung</strong> und ermöglicht Lernen aus Vorhersagefehlern.</p>
+<p>Die Reihenfolge bewahrt die <strong>aktive Schemabildung</strong>: Studierende vergleichen ihr eigenes Modell mit dem KI-Output und lernen aus der Diskrepanz.</p>
 </div>
 </section>
 <section id="versuch-dann-prüfe-1" class="slide level2">
@@ -551,6 +551,12 @@ Andrew Ellis
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-bjorkMemoryMetamemoryConsiderations1994" class="csl-entry" role="listitem">
 Bjork, Robert A. 1994. <span>„Memory and Metamemory Considerations in the Training of Human Beings“</span>. In <em>Metacognition: <span>Knowing</span> about Knowing</em>, 185–205. Cambridge, MA, US: The MIT Press. <a href="https://doi.org/10.7551/mitpress/4561.001.0001">https://doi.org/10.7551/mitpress/4561.001.0001</a>.
+</div>
+<div id="ref-buttonPowerFailureWhy2013" class="csl-entry" role="listitem">
+Button, Katherine S., John P. A. Ioannidis, Claire Mokrysz, Brian A. Nosek, Jonathan Flint, Emma S. J. Robinson, und Marcus R. Munafò. 2013. <span>„Power Failure: Why Small Sample Size Undermines the Reliability of Neuroscience“</span>. <em>Nature Reviews Neuroscience</em> 14 (5): 365–76. <a href="https://doi.org/10.1038/nrn3475">https://doi.org/10.1038/nrn3475</a>.
+</div>
+<div id="ref-cuiEffectsGenerativeAI2024" class="csl-entry" role="listitem">
+Cui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. <span>„The <span>Effects</span> of <span>Generative AI</span> on <span>High Skilled Work</span>: <span>Evidence</span> from <span>Three Field Experiments</span> with <span>Software Developers</span>“</span>. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. <a href="https://doi.org/10.2139/ssrn.4945566">https://doi.org/10.2139/ssrn.4945566</a>.
 </div>
 </div>
 </section>

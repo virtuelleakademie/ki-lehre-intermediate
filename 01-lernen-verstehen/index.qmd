@@ -143,13 +143,13 @@ Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Je
 
 Wichtig: Die Zahl "4±1" gilt für einfache, unverbundene Elemente. Die *effektive* Kapazität hängt stark vom Vorwissen ab. Experten verarbeiten "F = ma" als **einen** Chunk, Anfänger als drei separate Elemente. @cowanMagicalMysteryFour2010 beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung, aber eine fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.
 
-Und: **Pausen sind keine verlorene Zeit.** Das TBRS-Modell [@barrouilletWorkingMemoryLoss2015] zeigt, dass Aufmerksamkeit zwischen Verarbeitung und Auffrischung von Gedächtnisspuren geteilt werden muss. Schon kurze Mikropausen (30--60 Sekunden) zwischen Instruktionssegmenten geben dem Gehirn Zeit, zerfallende Spuren aufzufrischen. Ununterbrochene Vermittlung ist schädlicher als dieselbe Menge Inhalt mit Atempausen.
+Und: **Pausen sind keine verlorene Zeit.** Das TBRS-Modell [@barrouilletWorkingMemoryLoss2015] zeigt, dass Aufmerksamkeit zwischen Verarbeitung und Auffrischung von Gedächtnisspuren geteilt werden muss. Schon kurze Mikropausen (30--60 Sekunden) zwischen Instruktionssegmenten geben dem Gehirn Zeit, zerfallende Spuren aufzufrischen. Das Modell legt nahe, dass ununterbrochene Vermittlung schädlicher ist als dieselbe Menge Inhalt mit Atempausen.
 
 > [Vertiefung: Arbeitsgedächtnis und Instruktion](./arbeitsgedaechtnis/). Die vier Modelle des Arbeitsgedächtnisses und was sie für die Lehre bedeuten
 
 #### Langzeitgedächtnis: Der unbegrenzte Speicher
 
-Das Langzeitgedächtnis ist praktisch unbegrenzt, aber passives Aufnehmen genügt nicht. Die Eintrittskarte sind aktive kognitive Prozesse: Abrufen, Elaborieren und Verknüpfen.
+Das Langzeitgedächtnis ist praktisch unbegrenzt, aber passives Aufnehmen genügt nicht. Damit Inhalte ins Langzeitgedächtnis gelangen, braucht es aktive kognitive Prozesse: Abrufen, Elaborieren und Verknüpfen.
 
 Dabei ist "Gedächtnis" kein einheitliches System: Deklaratives Wissen (Fakten, Konzepte) und prozedurales Wissen (Fertigkeiten, Abläufe) folgen unterschiedlichen Regeln und erfordern unterschiedliche Instruktionsansätze. Und der Übergang von episodischem Erinnern ("die Dienstags-Vorlesung in Raum 204") zu semantischem Wissen ("Regression minimiert quadrierte Residuen") geschieht nicht automatisch, sondern erfordert variierende Begegnungen und aktiven Abruf.
 :::
@@ -179,7 +179,7 @@ Ergänzend dazu beschreibt die Forschung zu **Vorhersagefehlern** (aus einer and
 
 #### Expertise Reversal Effect
 
-Was Anfängern hilft, schadet Experten, und umgekehrt:
+Was Anfängern hilft, schadet Experten, und umgekehrt [@kalyugaExpertiseReversalEffect2009]:
 
 - **Worked Examples** sind für Anfänger effektiver als Problemlösen
 - Für Experten kehrt sich dieser Effekt um
@@ -192,14 +192,14 @@ Was Anfängern hilft, schadet Experten, und umgekehrt:
 
 #### Wünschenswerte Schwierigkeiten (Desirable Difficulties)
 
-Vier Strategien, die sich *schwerer anfühlen*, aber nachweislich besseres Lernen erzeugen:
+Vier Strategien, die sich *schwerer anfühlen*, aber besseres Lernen erzeugen [@bjorkMakingThingsHard2011]:
 
 1. **Abrufpraxis (Retrieval Practice)**: Aktives Erinnern statt Wiederlesen
 2. **Verteiltes Lernen (Spacing)**: Über Zeit verteilen statt Pauken
 3. **Abwechslung (Interleaving)**: Aufgabentypen mischen statt blockweise üben
 4. **Generierungseffekt**: Selbst produzieren statt passiv aufnehmen
 
-Diese vier Strategien haben eines gemeinsam: Sie erzwingen variierende Verarbeitung in unterschiedlichen Kontexten und bauen so kontextunabhängige Abrufpfade auf, die **Transfer** ermöglichen.
+Diese vier Strategien haben eines gemeinsam: Sie erzwingen variierende Verarbeitung in unterschiedlichen Kontexten und bauen so kontextunabhängige Abrufpfade auf, die **Transfer** ermöglichen [@bjorkNewTheoryDisuse1992].
 
 {{< include ../resources/figures/fig-testing-effect.qmd >}}
 

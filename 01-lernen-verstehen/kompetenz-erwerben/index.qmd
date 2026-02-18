@@ -33,7 +33,7 @@ Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsged
 
 ## Die Reise vom Anfänger zum Experten
 
-Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswerte Transformation. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Schlimmer noch: _Expertenwerkzeuge können Anfängern aktiv schaden._
+Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Tatsächlich können Expertenwerkzeuge Anfängern sogar aktiv schaden.
 
 ## Die Progression von schwachen zu starken Methoden
 
@@ -83,13 +83,13 @@ In dieser Phase beginnen sich **Produktionsregeln** zu bilden. Das sind `WENN-DA
 
 ### 3. **Kompilierung** (Experten-Stadium)
 
-- Wissen wird durch **zahlreiche Übungsdurchläufe** automatisch
+- Wissen wird durch wiederholte Übungsdurchläufe automatisch [@andersonAcquisitionCognitiveSkill1982]
 - Mustererkennung dominiert
 - Minimale kognitive Belastung
 - Schnell und fehlerfrei
 - Kann die Schritte nicht mehr erklären!
 
-**Produktionsstärke** bestimmt, welche Regeln ausgelöst werden: Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl die Geschwindigkeit ALS AUCH die Genauigkeit: Stärkere Produktionen setzen sich gegen schwächere Alternativen durch.
+**Produktionsstärke** bestimmt, welche Regeln ausgelöst werden: Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl die Geschwindigkeit als auch die Genauigkeit: Stärkere Produktionen setzen sich gegen schwächere Alternativen durch.
 
 ::: {.callout-note}
 ## Beispiel: Experte löst $3x + 5 = 20$
@@ -148,7 +148,7 @@ Der gefährlichste Fehler in der Bildung ist anzunehmen, dass Anfänger so lerne
 
 ### Warum Expertenmethoden Anfängern aktiv schaden
 
-Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv, sondern **aktiv schädlich**:
+Anfängern Expertenwerkzeuge zu geben, kann aktiv schädlich sein:
 
 | Mechanismus | Experten | Anfänger | Ergebnis mit KI |
 |---|---|---|---|
@@ -160,7 +160,7 @@ Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv, sondern **aktiv
 ::: {.callout-warning}
 ## Die Abhängigkeitskaskade
 
-Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken: Anfänglicher Erfolg schafft falsches Selbstvertrauen, schwache Methoden verkümmern durch Nichtgebrauch, und Transfer scheitert, wenn KI nicht verfügbar ist. Das Selbstbild aktualisiert sich: Lernende schliessen aus ihren Erfahrungen rational, dass sie es allein nicht können.
+Wenn Anfänger zu früh Expertenwerkzeuge nutzen, können sich mehrere Risiken verstärken [@bastaniGenerativeAIGuardrails2025]: Anfänglicher Erfolg schafft falsches Selbstvertrauen, schwache Methoden verkümmern durch Nichtgebrauch, und Transfer scheitert, wenn KI nicht verfügbar ist. Das Selbstbild aktualisiert sich: Lernende schliessen aus ihren Erfahrungen rational, dass sie es allein nicht können.
 
 Das Ergebnis ist nicht "Verlernen" im engeren Sinne, sondern **Fähigkeitsatrophie durch Nichtgebrauch**.
 :::
@@ -221,7 +221,7 @@ Der folgende Abschnitt vertieft das Konzept des "Prediction Error Learning", das
 
 ### Vorhersagefehler: Ein wichtiger Lernmechanismus
 
-Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Die Forschung dazu umfasst mehrere **unterschiedliche theoretische Traditionen**: dopaminerge Belohnungssignale (Rescorla-Wagner-Tradition), sensorische Vorhersagefehler (Predictive Processing) und Überraschung im Bayesianischen Sinne. Diese Traditionen teilen eine Grundidee, unterscheiden sich aber in Mechanismen und Geltungsbereich. Für die Lehrpraxis ist die gemeinsame Grundidee nützlich: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.*
+Prediction Error Learning ist ein wichtiger neuronaler Mechanismus für den Kompetenzaufbau. Die Forschung dazu umfasst mehrere **unterschiedliche theoretische Traditionen**: dopaminerge Belohnungssignale (Rescorla-Wagner-Tradition), sensorische Vorhersagefehler (Predictive Processing) und Überraschung im Bayesianischen Sinne [für einen Überblick siehe @sprevakIntroductionPredictiveProcessing]. Diese Traditionen teilen eine Grundidee, unterscheiden sich aber in Mechanismen und Geltungsbereich. Für die Lehrpraxis ist die gemeinsame Grundidee nützlich: *Das Gehirn lernt aus der Diskrepanz zwischen Erwartung und Erfahrung.*
 
 #### Der Vorhersagefehler-Zyklus
 
@@ -290,7 +290,7 @@ Denke an eine Aufgabe in deiner Lehre:
 
 #### Warum das Auslagern kognitiver Prozesse an KI das Lernsignal verarmt
 
-**Wenn KI sofort fertige Antworten liefert**, wird der Vorhersagefehler *nicht* null. Das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird **uninformativ**:
+**Wenn KI sofort fertige Antworten liefert**, wird der Vorhersagefehler *nicht* null. Das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird vermutlich **uninformativ**:
 
 - Ohne eigenen Lösungsversuch aktivieren Lernende ihr internes Modell nicht
 - Ohne spezifische Vorhersage gibt es nichts, woran das Feedback sinnvoll andocken kann
