@@ -101,39 +101,6 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
 div.callout-individual.callout {
   border-left-color: #0072B2;
 }
@@ -143,6 +110,17 @@ div.callout-individual.callout-style-default > .callout-header {
 div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '💻';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -167,15 +145,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #64748b;
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -187,6 +165,28 @@ div.callout-pair.callout-style-default > .callout-header {
 div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '👥';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -517,25 +517,16 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <p>Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit dem 5-Fragen-Framework.</p>
 </section><section id="schritt-für-schritt-analyse" class="level3"><h3 class="anchored" data-anchor-id="schritt-für-schritt-analyse">Schritt-für-Schritt-Analyse</h3>
 <p><strong>Frage 1: Geht es primär ums Lernen?</strong></p>
-<p>Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren.</p>
-<blockquote class="blockquote">
-<p><strong>Outsourcing muss verhindert werden.</strong></p>
-</blockquote>
+<p>Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Also: Outsourcing muss hier verhindert werden.</p>
 <p><strong>Frage 2: Werden noch Grundlagen aufgebaut?</strong></p>
-<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?”</p>
-<blockquote class="blockquote">
-<p><strong>Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.</strong></p>
-</blockquote>
+<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?” Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.</p>
 <p><strong>Frage 3: Muss internes Wissen nachgewiesen werden?</strong></p>
 <p>Eigentlich ja, aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass <em>sie</em> die Quellen gelesen und bewertet haben.</p>
 <blockquote class="blockquote">
 <p><strong>Hier liegt die kritische Lücke.</strong></p>
 </blockquote>
 <p><strong>Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?</strong></p>
-<p>Ja. <em>“Finde 5 Quellen zu X und fasse sie zusammen”</em> ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten.</p>
-<blockquote class="blockquote">
-<p><strong>Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.</strong></p>
-</blockquote>
+<p>Ja. <em>“Finde 5 Quellen zu X und fasse sie zusammen”</em> ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten. Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.</p>
 <p><strong>Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</strong></p>
 <p>Nein. Es gibt keine eingebaute Phase, in der Studierende <em>zuerst selbst</em> suchen, bewerten und synthetisieren, bevor sie KI konsultieren.</p>
 <blockquote class="blockquote">
@@ -636,7 +627,7 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <div class="callout-body-container callout-body">
 <p>Schau dir deine Vorhersage von vorhin an: Was passiert, wenn ein Studierender den Aufgabentext als Prompt eingibt?</p>
 <p><strong>Vergleiche:</strong> Wo lag deine Vorhersage richtig? Wo hast du etwas über- oder unterschätzt?</p>
-<p><em>Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Das ist der <strong>Generierungseffekt</strong> in Aktion: Dein eigener Versuch hat dein internes Modell aktiviert, und der Vergleich hat Selbsterklärung erzeugt. Dasselbe Prinzip steckt hinter “Versuch-dann-Prüfe”.</em></p>
+<p><em>Wo deine Vorhersage nicht stimmte, hat dein internes Modell ein Update bekommen. Ohne eigene Vorhersage hättest du die Analyse nur passiv gelesen. Dasselbe Prinzip steckt hinter “Versuch-dann-Prüfe”.</em></p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
@@ -667,12 +658,7 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr:</p>
-<ul>
-<li>Eine <strong>konkrete Analyse</strong> eurer eigenen Aufgabe</li>
-<li>Eine <strong>Peer-Diagnose</strong> eures Redesigns</li>
-<li>Einen <strong>1-Satz-Redesign-Plan</strong>, den ihr sofort umsetzen könnt</li>
-</ul>
+<p>Im Worked Example habt ihr gesehen, wie das 5-Fragen-Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach diagnostiziert ihr das Redesign einer Kollegin oder eines Kollegen. Am Ende von Teil 3 habt ihr eine konkrete Analyse eurer eigenen Aufgabe, eine Peer-Diagnose eures Redesigns und einen Redesign-Plan, den ihr sofort umsetzen könnt.</p>
 </div>
 </div>
 <blockquote class="blockquote">
@@ -695,7 +681,7 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Die Slides behandeln Offloading und Outsourcing als Kernunterscheidung. Hier die vertiefte Erklärung mit Beispielen und Visualisierung.</p>
-<p>Die entscheidende Frage: <strong>Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?</strong></p>
+<p>Was hier zählt, ist eine einzige Frage: Wie aktiv ist das interne Modell der Lernenden, wenn sie KI-Output begegnen?</p>
 <p>Offloading und Outsourcing markieren die Endpunkte eines Spektrums:</p>
 <table class="caption-top table">
 <colgroup>
@@ -765,8 +751,8 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <ul>
 <li>Expert:innen haben unabhängige Bewertungskriterien und erkennen Fehler sofort</li>
 <li>Anfänger:innen fehlen diese Kriterien, sodass “kritische Bewertung” zu oberflächlichem Prüfen wird</li>
-<li><strong>Kompetente Nutzung setzt Kompetenz voraus</strong></li>
 </ul>
+<p>Die Konsequenz: Kompetente Nutzung setzt Kompetenz voraus.</p>
 <p>Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.</p>
 <p><strong>Wichtige Differenzierung:</strong> Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.</p>
 <div class="cell">
@@ -824,10 +810,10 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <li>KI-Policy ist auch eine <strong>pädagogische Gerechtigkeitsfrage</strong>, nicht bloss eine Frage der akademischen Integrität</li>
 </ul>
 <p>Die empirische Evidenzbasis zu KI-spezifischen ungleichen Wirkungen wächst, und die Richtung ist konsistent mit dem “digitalen Matthäus-Effekt” aus der Bildungstechnologie-Forschung <span class="citation" data-cites="reichFailureDisruptWhy2020">(<a href="#ref-reichFailureDisruptWhy2020" role="doc-biblioref">Reich 2020</a>)</span>: Technologie ohne starke pädagogische Rahmung verstärkt bestehende Unterschiede.</p>
-<p><strong>Konkrete Gegenmassnahmen:</strong></p>
+<p>Was lässt sich dagegen tun?</p>
 <ul>
 <li>
-<strong>Differenziertes Scaffolding in der Versuch-Phase</strong>: Versuch-dann-Prüfe setzt voraus, dass Studierende genug Vorwissen haben, um einen sinnvollen Versuch zu generieren. Für Studierende mit dem schwächsten Vorwissen kann es nötig sein, <em>vor</em> dem eigenen Versuch ein ausgearbeitetes Beispiel zu studieren (der <strong>Worked Example Effect</strong> aus der Cognitive Load Theory). Der nächste Schritt wäre dann ein teilweise bearbeitetes Problem zum Vervollständigen (Completion Problem), bevor der freie Versuch möglich wird. Diese Abstufung stellt sicher, dass die Versuch-Phase produktiv bleibt statt überfordernd</li>
+<strong>Differenziertes Scaffolding in der Versuch-Phase</strong>: Versuch-dann-Prüfe setzt voraus, dass Studierende genug Vorwissen haben, um einen sinnvollen Versuch zu generieren. Für Studierende mit schwachem Vorwissen kann es nötig sein, <em>vor</em> dem eigenen Versuch ein ausgearbeitetes Beispiel zu studieren (der <strong>Worked Example Effect</strong> aus der Cognitive Load Theory). Der nächste Schritt wäre ein teilweise bearbeitetes Problem zum Vervollständigen (Completion Problem), bevor der freie Versuch möglich wird</li>
 <li>
 <strong>Strategische Paarung in der Prüfe-Phase</strong>: Bewusste Zusammensetzung von Tandems, die unterschiedliche Stärken einbringen, damit die Vergleichsphase für alle informativ ist</li>
 <li>

@@ -82,39 +82,6 @@ ul.task-list li input[type="checkbox"] {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-group.callout {
-  border-left-color: #7c3aed;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
 div.callout-reflect.callout {
   border-left-color: #64748b;
 }
@@ -137,6 +104,17 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-pair.callout {
   border-left-color: #059669;
 }
@@ -157,6 +135,28 @@ div.callout-nachlesen.callout-style-default > .callout-header {
 div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
   content: '📖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -375,23 +375,11 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
 <script type="application/json" data-for="htmlwidget-334ea1c5bd146e67239b">{"x":{"diagram":"\ndigraph workshop_flow {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.9\n    margin = \"0.2,0.1\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 9\n    color = \"#b0b0b0\"\n    arrowsize = 0.7\n  ]\n\n  einstieg [\n    label = \"Einstieg\n10 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  teil1 [\n    label = \"Teil 1\nLernen verstehen\n\nKognitive Architektur\nSchemas & Expertise\n\n50 min\"\n    fillcolor = \"#0072B2\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  pause [\n    label = \"Pause\n15 min\"\n    fillcolor = \"#e5e7eb\"\n    fontcolor = \"#64748b\"\n    fontsize = 10\n    margin = \"0.15,0.12\"\n    style = \"filled\"\n    shape = ellipse\n  ]\n\n  teil2 [\n    label = \"Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n\n30 min\"\n    fillcolor = \"#E69F00\"\n    fontcolor = \"#222222\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  teil3 [\n    label = \"Teil 3\nPraxis\n\n5-Fragen-Framework\nPeer-Diagnose\n\n55 min\"\n    fillcolor = \"#9A4665\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  abschluss [\n    label = \"Abschluss\n15 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  einstieg -> teil1\n  teil1 -> pause\n  pause -> teil2 [label = \"  Abrufpraxis  \"]\n  teil2 -> teil3\n  teil3 -> abschluss\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<p><strong>Im Beginner-Workshop</strong> haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen.</p>
-<p><strong>Heute verstehen wir warum:</strong></p>
-<ul>
-<li>
-<strong>Teil 1</strong>: Wie Lernen funktioniert, die kognitive Architektur</li>
-<li>
-<strong>Teil 2</strong>: Was das für KI bedeutet, wann KI hilft und wann sie schadet</li>
-<li>
-<strong>Teil 3</strong>: Vom Wissen zum Handeln, eure eigene Aufgabe analysieren und gegenseitig diagnostizieren</li>
-</ul>
+<p>Im Beginner-Workshop haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen. Heute verstehen wir, warum.</p>
+<p>Wir arbeiten uns in drei Schritten vor: Zuerst die kognitive Architektur hinter dem Lernen, dann die Frage, wann KI hilft und wann sie schadet, und schliesslich die Praxis mit eurer eigenen Aufgabe.</p>
 <section id="was-ihr-mitgebracht-habt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-mitgebracht-habt">Was ihr mitgebracht habt</h3>
-<ul>
-<li>
-<strong>Eine eigene Aufgabe oder Prüfung</strong> (aus der Vorbereitung)</li>
-<li>
-<strong>Fragen und Erfahrungen</strong> aus eurer Lehre</li>
-</ul></section><section id="was-ihr-heute-lernt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-heute-lernt">Was ihr heute lernt</h3>
+<p>Ihr habt eine Aufgabe aus eurer Lehre mitgebracht (aus der Vorbereitung) und Fragen, die euch beschäftigen.</p>
+</section><section id="was-ihr-heute-lernt" class="level3"><h3 class="anchored" data-anchor-id="was-ihr-heute-lernt">Was ihr heute lernt</h3>
 <ul>
 <li>Welche kognitiven Prozesse Lernen erzeugen und warum sich das anstrengend anfühlt</li>
 <li>Wann KI-Nutzung <strong>Offloading</strong> (hilfreich) und wann <strong>Outsourcing</strong> (schädlich) ist</li>

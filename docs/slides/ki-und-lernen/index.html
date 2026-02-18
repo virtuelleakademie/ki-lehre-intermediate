@@ -166,6 +166,17 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
+  div.callout-facilitator.callout {
+    border-left-color: #d97706;
+  }
+  div.callout-facilitator.callout-style-default > .callout-header {
+    background-color: rgba(217, 119, 6, 0.13);
+  }
+  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+    content: '📋';
+    background-image: none;
+  }
   div.callout-nachlesen.callout {
     border-left-color: #64748b;
   }
@@ -175,61 +186,6 @@
   div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
     content: '📖';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
-  }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
-  }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
-    background-image: none;
-  }
-  div.callout-pair.callout {
-    border-left-color: #059669;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: #0072B2;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgba(0, 114, 178, 0.13);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
     background-image: none;
   }
   div.callout-group.callout {
@@ -243,6 +199,61 @@
     content: '👥';
     background-image: none;
   }
+  div.callout-reflect.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: #0072B2;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgba(0, 114, 178, 0.13);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
+    background-image: none;
+  }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
   div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
@@ -252,17 +263,6 @@
   div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
     content: '🤖';
-    background-image: none;
-  }
-  div.callout-facilitator.callout {
-    border-left-color: #d97706;
-  }
-  div.callout-facilitator.callout-style-default > .callout-header {
-    background-color: rgba(217, 119, 6, 0.13);
-  }
-  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-    content: '📋';
     background-image: none;
   }
   </style>
@@ -290,9 +290,9 @@ Andrew Ellis
 </section>
 <section id="was-wir-bisher-wissen" class="slide level2 center">
 <h2>Was wir bisher wissen</h2>
-<p>Lernen = <strong>Schemabildung</strong> im Langzeitgedächtnis</p>
-<p>Erfordert <strong>aktive kognitive Verarbeitung</strong></p>
-<p>Fühlt sich <strong>anstrengend</strong> an (metakognitive Falle)</p>
+<p>Lernen = Schemabildung im Langzeitgedächtnis</p>
+<p>Erfordert aktive kognitive Verarbeitung</p>
+<p>Fühlt sich anstrengend an (metakognitive Falle)</p>
 <p>Ziel: <strong>Transfer</strong>, also Wissen auf neue Situationen anwenden können</p>
 <div class="fragment">
 <h3 id="jetzt-was-macht-ki-mit-diesen-prozessen">Jetzt: Was macht KI mit diesen Prozessen?</h3>
@@ -300,17 +300,17 @@ Andrew Ellis
 </section>
 <section id="offloading-vs.-outsourcing" class="slide level2">
 <h2>Offloading vs.&nbsp;Outsourcing</h2>
-<p><strong>Die entscheidende Unterscheidung</strong></p>
+<p>Die entscheidende Unterscheidung</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="cognitive-offloading">Cognitive Offloading</h3>
-<p>Tool reduziert Arbeitsgedächtnis-Last, <strong>während</strong> die Person denkt</p>
+<p>Tool reduziert Arbeitsgedächtnis-Last, während die Person denkt</p>
 <p><em>Beispiel:</em> Taschenrechner bei Problemlösung</p>
 <p>Lernrelevante Verarbeitung: <strong>erhalten</strong></p>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
 <h3 id="cognitive-outsourcing">Cognitive Outsourcing</h3>
-<p>Tool <strong>übernimmt</strong> das Denken</p>
+<p>Tool übernimmt das Denken</p>
 <p><em>Beispiel:</em> KI schreibt den Aufsatz</p>
 <p>Lernrelevante Verarbeitung: <strong>eliminiert</strong></p>
 </div>
@@ -362,12 +362,12 @@ Andrew Ellis
 </section>
 <section id="das-evaluationsparadox" class="slide level2">
 <h2>Das Evaluationsparadox</h2>
-<p><strong>Ein verbreiteter Vorschlag:</strong></p>
+<p>Man hört oft:</p>
 <blockquote>
 <p><em>“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”</em></p>
 </blockquote>
 <div class="fragment">
-<p><strong>Das Problem:</strong></p>
+<p>Aber:</p>
 <p>Um KI-Outputs beurteilen zu können, braucht man genau die <strong>Fachkompetenz</strong>, die das Lernen erst entwickeln soll.</p>
 </div>
 </section>
@@ -423,16 +423,16 @@ Andrew Ellis
 </section>
 <section id="lernen-leisten" class="slide level2 smaller">
 <h2>Lernen ≠ Leisten</h2>
-<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für <strong>Transfer</strong> auf neue Situationen.</p>
+<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für Transfer auf neue Situationen.</p>
 <div class="fragment">
 <h3 id="schein-kompetenz">Schein-Kompetenz</h3>
-<p>Texte mit allen <strong>Oberflächenmerkmalen</strong> akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.</p>
+<p>Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.</p>
 <p>Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist.</p>
 </div>
 </section>
 <section id="was-auf-dem-spiel-steht-transfer" class="slide level2 center">
 <h2>Was auf dem Spiel steht: Transfer</h2>
-<p>Ohne Schemata können Studierende Gelerntes nicht auf <strong>neue, unbekannte Situationen</strong> anwenden.</p>
+<p>Ohne Schemata können Studierende Gelerntes nicht auf neue, unbekannte Situationen anwenden.</p>
 <div class="fragment">
 <p>Outsourcing produziert Ergebnisse, aber keine Schemata.</p>
 <p>Keine Schemata bedeutet: kein Transfer.</p>
@@ -441,7 +441,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Das Kernproblem ist nicht Plagiat.</strong> Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie keine internen Ressourcen aufgebaut haben.</p>
+<p>Das Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie <strong>keine internen Ressourcen</strong> aufgebaut haben.</p>
 </div>
 </div>
 </div>
@@ -474,14 +474,14 @@ Andrew Ellis
 <h2>Ungleiche Wirkung</h2>
 <p>Unstrukturierter KI-Einsatz <strong>vergrössert Leistungsunterschiede</strong> <span class="citation" data-cites="cuiEffectsGenerativeAI2024">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Cui u.&nbsp;a. 2024</a>)</span>:</p>
 <ul>
-<li><strong>Stärkere</strong> Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen</li>
-<li><strong>Schwächere</strong> Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt</li>
+<li>Stärkere Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen</li>
+<li>Schwächere Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt</li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>KI-Policy ist auch eine <strong>pädagogische Gerechtigkeitsfrage</strong>, nicht bloss eine Frage der akademischen Integrität.</p>
+<p>KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frage der akademischen Integrität.</p>
 </div>
 </div>
 </div>
@@ -544,7 +544,7 @@ Andrew Ellis
 <h2>Jetzt seid ihr dran</h2>
 <p>Im nächsten Teil wendet ihr dieses Framework auf <strong>eure eigenen Aufgaben</strong> an.</p>
 <div class="fragment">
-<p>Auf der Website findet ihr ein <strong>Agent-Template</strong>, das die Versuch-dann-Prüfe-Struktur in einen KI-Agent übersetzt: Studierende arbeiten zuerst selbst, der Agent gibt erst danach gezieltes Feedback.</p>
+<p>Auf der Website findet ihr ein <strong>Agent-Template</strong>: Studierende arbeiten zuerst selbst, dann gibt der Agent gezieltes Feedback.</p>
 </div>
 
 

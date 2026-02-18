@@ -109,17 +109,6 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -129,39 +118,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -175,15 +131,26 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: #7c3aed;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -197,15 +164,48 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-individual.callout {
+  border-left-color: #0072B2;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 </style>
@@ -477,7 +477,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="zentrale-erkenntnisse">Zentrale Erkenntnisse</h2>
 <ol type="1">
 <li><strong>Expertise erfordert schrittweisen Kompetenzaufbau</strong> durch schwache → starke Methoden</li>
-<li><strong>Kognitive Anstrengung signalisiert, dass lernrelevante Prozesse aktiv sind</strong> (Schemabildung, Abruf, Elaboration, Konsolidierung). Nicht die Anstrengung selbst, sondern diese Prozesse sind die Lernmechanismen</li>
+<li><strong>Kognitive Anstrengung ist nicht selbst der Lernmechanismus</strong>, aber sie signalisiert, dass lernrelevante Prozesse aktiv sind: Schemabildung, Abruf, Elaboration, Konsolidierung</li>
 <li><strong>Expertise bedeutet: ein internes generatives Modell aufbauen</strong>, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann</li>
 <li><strong>KI-Outsourcing liefert Ergebnisse ohne den Prozess</strong>, der dieses interne Modell aufbaut</li>
 <li><strong>Expertenmethoden schaden Anfängern aktiv</strong>, indem sie kognitive Überlastung und Abhängigkeit erzeugen</li>
@@ -485,7 +485,7 @@ window.Quarto = {
 </section>
 <section id="die-reise-vom-anfänger-zum-experten" class="level2">
 <h2 class="anchored" data-anchor-id="die-reise-vom-anfänger-zum-experten">Die Reise vom Anfänger zum Experten</h2>
-<p>Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Tatsächlich können Expertenwerkzeuge Anfängern sogar aktiv schaden.</p>
+<p>Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Mehr noch: Expertenwerkzeuge können Anfängern sogar aktiv schaden.</p>
 </section>
 <section id="die-progression-von-schwachen-zu-starken-methoden" class="level2">
 <h2 class="anchored" data-anchor-id="die-progression-von-schwachen-zu-starken-methoden">Die Progression von schwachen zu starken Methoden</h2>
@@ -602,13 +602,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="das-ki-bypass-problem">Das KI-Bypass-Problem</h2>
 <section id="wie-ki-die-kognitive-architektur-stört" class="level3">
 <h3 class="anchored" data-anchor-id="wie-ki-die-kognitive-architektur-stört">Wie KI die kognitive Architektur stört</h3>
-<p>Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen:</p>
-<ol type="1">
-<li><strong>Umgeht Verarbeitung im Arbeitsgedächtnis</strong>: Keine kognitive Anstrengung bedeutet keine Kodierung</li>
-<li><strong>Verhindert Speicherung im Langzeitgedächtnis</strong>: Unverarbeitete Informationen werden nicht gespeichert</li>
-<li><strong>Eliminiert Schemabildung</strong>: Lernende erhalten Antworten, ohne Wissensstrukturen aufzubauen</li>
-<li><strong>Blockiert den Übergang vom Anfänger zum Experten</strong>: Kein Weg von begrenztem zu unbegrenztem Wissen</li>
-</ol>
+<p>Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen: Ohne kognitive Anstrengung findet keine Verarbeitung im Arbeitsgedächtnis statt, und unverarbeitete Informationen gelangen nicht ins Langzeitgedächtnis. Ohne Speicherung entstehen keine Schemata, und ohne Schemata bleibt der Weg vom Anfänger zum Experten blockiert.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -710,35 +704,24 @@ Warnung
 <h3 class="anchored" data-anchor-id="lehren-im-einklang-mit-dem-gehirn">Lehren im Einklang mit dem Gehirn</h3>
 <section id="prinzip-1-die-entwicklungssequenz-respektieren" class="level4">
 <h4 class="anchored" data-anchor-id="prinzip-1-die-entwicklungssequenz-respektieren">Prinzip 1: Die Entwicklungssequenz respektieren</h4>
-<ul>
-<li>Schwache Methoden müssen zuerst kommen. Sie sind keine Fehler, sondern notwendig</li>
-<li>Prozeduralisierung erfordert umfangreiche Übung mit überlegten Prozessen</li>
-<li>Kompilierung geschieht automatisch nach ausreichender Wiederholung</li>
-</ul>
+<p>Schwache Methoden müssen zuerst kommen. Sie sind keine Fehler, sondern notwendig. Prozeduralisierung erfordert umfangreiche Übung mit überlegten Prozessen, und Kompilierung geschieht automatisch nach ausreichender Wiederholung.</p>
 </section>
 <section id="prinzip-2-kognitive-belastung-kalibrieren" class="level4">
 <h4 class="anchored" data-anchor-id="prinzip-2-kognitive-belastung-kalibrieren">Prinzip 2: Kognitive Belastung kalibrieren</h4>
-<ul>
-<li>Anfänger brauchen vereinfachte, sequenzielle Darstellung</li>
-<li>Experten können komplexe, parallele Verarbeitung bewältigen</li>
-<li>Dasselbe Material muss je nach Expertenniveau unterschiedlich präsentiert werden</li>
-</ul>
+<p>Anfänger brauchen vereinfachte, sequenzielle Darstellung. Experten können komplexe, parallele Verarbeitung bewältigen. Dasselbe Material muss je nach Expertenniveau unterschiedlich präsentiert werden.</p>
+<p>Diese beiden Prinzipien betreffen das <em>Was</em> der Instruktion. Die nächsten beiden betreffen das <em>Wie</em> im Kontext von KI.</p>
 </section>
 <section id="prinzip-3-das-zeitfenster-für-produktive-anstrengung-schützen" class="level4">
 <h4 class="anchored" data-anchor-id="prinzip-3-das-zeitfenster-für-produktive-anstrengung-schützen">Prinzip 3: Das Zeitfenster für produktive Anstrengung schützen</h4>
 <ul>
 <li>Genügend Zeit für eigenständiges Arbeiten vor KI-Konsultation geben</li>
 <li>Denkprozesse dokumentieren, bevor externe Hilfe gesucht wird</li>
-<li>Mehrere Versuche, bevor Lösungen zugänglich sind</li>
+<li>Mehrere Versuche ermöglichen, bevor Lösungen zugänglich sind</li>
 </ul>
 </section>
 <section id="prinzip-4-scaffolding-statt-substitution" class="level4">
 <h4 class="anchored" data-anchor-id="prinzip-4-scaffolding-statt-substitution">Prinzip 4: Scaffolding statt Substitution</h4>
-<ul>
-<li>KI nutzen, um irrelevante kognitive Belastung zu reduzieren, nicht jede Anstrengung zu eliminieren</li>
-<li>Durchgearbeitete Beispiele liefern, die den Prozess zeigen, nicht nur die Antworten</li>
-<li>Unterstützung schrittweise abbauen, sobald Kompetenz entsteht (Scaffolding)</li>
-</ul>
+<p>KI sollte irrelevante kognitive Belastung reduzieren, nicht jede Anstrengung eliminieren. Durchgearbeitete Beispiele zeigen den Prozess, nicht nur die Antwort. Und sobald Kompetenz entsteht, wird die Unterstützung schrittweise abgebaut (Scaffolding).</p>
 <div class="callout callout-style-default callout-reflect callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
