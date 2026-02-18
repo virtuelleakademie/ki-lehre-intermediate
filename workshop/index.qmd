@@ -15,10 +15,10 @@ title: "Ablauf"
 |                    | Abrufpraxis: 3 Konzepte ohne Notizen                                   | 5 min  |
 | **10:10 - 10:40**  | **Teil 2: KI & Lernen**                                                 |        |
 |                    | [Was bedeutet das für KI?](../02-ki-und-lernen/index.qmd)              | 30 min |
-| **10:40 - 10:50**  | *Buffer*                                                                | 10 min |
+| **10:40 - 10:50**  | *Flexible Zeit*                                                         | 10 min |
 | **10:50 - 11:25**  | **Teil 3: Vom Wissen zum Handeln**                                      |        |
 |                    | [Aufgaben analysieren & Peer-Diagnose](../03-praxis/index.qmd)         | 35 min |
-| **11:25 - 11:45**  | *Buffer / Overflow*                                                     | 20 min |
+| **11:25 - 11:45**  | *Flexible Zeit*                                                         | 20 min |
 | **11:45 - 12:00**  | **Transfer & Abschluss**                                                |        |
 |                    | [Umsetzung & nächste Schritte](diskussion/index.qmd)                   | 15 min |
 

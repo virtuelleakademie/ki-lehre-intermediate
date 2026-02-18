@@ -1,6 +1,9 @@
 ---
 title: "KI & Lernen"
 subtitle: "Wann KI das Lernen unterstützt, und wann sie es verhindert"
+format:
+  revealjs:
+    logo: ../../assets/bfh-logo.png
 ---
 
 

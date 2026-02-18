@@ -14,7 +14,7 @@ format:
         # header: Berner Fachhochschule | Bern University of Applied Sciences
         # footer: <a href="../index.html">back to website {{< bi box-arrow-up-left >}} </a>
         footer: Berner Fachhochschule | Bern University of Applied Sciences
-        logo: ../assets/bfh-logo.png
+        # logo: set per-slide (inherited path breaks on GitHub Pages)
         navigation-mode: linear
         progress: true
         scrollable: false
