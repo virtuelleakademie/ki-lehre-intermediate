@@ -30,7 +30,7 @@ Die Seite enthält Abrufübungen. Nutze diese, denn aktives Erinnern ist wirksam
 1. **Gedächtnis ist kein Aufnahmegerät**, sondern ein rekonstruktiver Prozess, der Informationen bei jeder Stufe transformiert
 2. **Deklaratives und prozedurales Wissen folgen unterschiedlichen Regeln** und erfordern unterschiedliche Instruktionsansätze
 3. **Der Übergang von episodischem zu semantischem Wissen** erfordert aktive, variierende Begegnungen und geschieht nicht von allein
-4. **Abruf *erzeugt* Lernen**, nicht nur misst es. Das ist der wirksamste verfügbare Lernmechanismus
+4. **Abruf misst Lernen nicht bloss, er *erzeugt* es.** Das ist der wirksamste verfügbare Lernmechanismus
 5. **Was sich leicht anfühlt, produziert oft schwaches Lernen**: Spacing, Interleaving und Generation fühlen sich schwieriger an, produzieren aber dauerhafteres Wissen
 6. **Missverständnisse kann man nicht durch korrektes Präsentieren überschreiben**, weil Schemata neue Information still umschreiben
 
