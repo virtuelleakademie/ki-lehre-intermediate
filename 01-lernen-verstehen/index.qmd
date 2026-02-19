@@ -139,7 +139,7 @@ Die folgenden Abschnitte vertiefen die Konzepte aus den Slides. Sie sind als Nac
 
 #### Arbeitsgedächtnis: Der Flaschenhals
 
-Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Jeder Denkakt (Verstehen, Problemlösen, Entscheiden) muss durch diesen Flaschenhals.
+Der Aufmerksamkeitsfokus unseres Arbeitsgedächtnisses umfasst nur etwa **4±1 Elemente** gleichzeitig [@cowanMagicalMysteryFour2010]. Jeder Denkakt (Verstehen, Problemlösen, Entscheiden) muss durch diesen Flaschenhals.
 
 Wichtig: Die Zahl "4±1" gilt für einfache, unverbundene Elemente. Die *effektive* Kapazität hängt stark vom Vorwissen ab. Experten verarbeiten "F = ma" als **einen** Chunk, Anfänger als drei separate Elemente. @cowanMagicalMysteryFour2010 beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung, aber eine fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.
 

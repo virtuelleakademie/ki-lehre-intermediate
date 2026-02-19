@@ -73,6 +73,18 @@ Diese Zerlegung verwandelt den Reality Check von einer Ja/Nein-Entscheidung in e
 
 > **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt die aktive Verarbeitung: Der eigene Versuch aktiviert den Generierungseffekt (internes Wissen wird abgerufen und organisiert), und der anschliessende Vergleich erzeugt Selbsterklärung (Studierende müssen Unterschiede identifizieren und einordnen).
 
+#### Drei Optionen für die Prüfe-Phase
+
+Nicht jede Referenz in der Prüfe-Phase ist gleich verlässlich. Die Wahl hängt vom Kontext und vom Kompetenzniveau ab:
+
+| Option | Verlässlichkeit | Skalierbarkeit | Am besten geeignet für |
+|--------|----------------|----------------|------------------------|
+| **1. Geprüfte Musterlösung** | Hoch | Niedrig (muss erstellt werden) | Kritische Lerninhalte, echte Anfänger |
+| **2. Strukturiertes Peer-Feedback** | Mittel (Peers können irren, aber Diskussion erzeugt Elaboration) | Mittel | Fortgeschrittene, die von Perspektivenwechsel profitieren |
+| **3. KI-Vergleich** | Variabel (kann falsch sein; Evaluationsparadox greift) | Hoch | Fortgeschrittene mit genug Vorwissen, um Fehler zu erkennen |
+
+Für Anfänger ist Option 1 oft die sicherste Wahl. KI-Vergleich (Option 3) ist am skalierbaren, birgt aber das Risiko, dass Studierende ihre korrekte Lösung zugunsten einer falschen KI-Antwort "korrigieren", weil ihnen die Schemata zur Beurteilung fehlen.
+
 ::: {.callout-tip}
 ## Praxistipp: Relevante Merkmale signalisieren
 

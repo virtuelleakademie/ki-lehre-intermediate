@@ -71,7 +71,7 @@ Wir unterscheiden zwischen [@gearyEvolutionarilyInformedEducation2008; @swellerD
 
 :::{.fragment}
 ::: {.callout-important}
-Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben [@kirschnerWhyMinimalGuidance2006].
+Akademische Fähigkeiten profitieren typischerweise stark von expliziter Anleitung und strukturiertem Üben [@kirschnerWhyMinimalGuidance2006]. Wie viel Anleitung optimal ist, hängt vom Expertise-Niveau ab (→ Expertise Reversal Effect).
 :::
 :::
 

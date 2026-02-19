@@ -293,7 +293,9 @@ Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert
 
 ### Das interne Modell: Was Expertise eigentlich ist
 
-Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Die Metapher des **"internen generativen Modells"** fasst diese Idee zusammen, sie ist allerdings eine **didaktische Synthese** aus verschiedenen Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), kein etablierter Fachbegriff einer einzelnen Theorie.
+Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Der Begriff **"internes generatives Modell"** fasst diese Idee zusammen: eine **Synthese** aus verschiedenen Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), die einen gemeinsamen Kern teilen: Expertise ist ein Modell im Kopf, das *generieren* kann.
+
+Ein wichtiger Unterschied: Wenn wir von einem "internen generativen Modell" sprechen, meinen wir etwas anderes als ein "generatives KI-Modell". Das interne Modell einer Expertin ist ein generatives Modell *ihres Fachgebiets*: Es erfasst kausale Zusammenhänge, strukturelle Beziehungen und kontextabhängige Regeln und kann daraus neue Vorhersagen, Erklärungen und Lösungen ableiten. Ob und in welchem Sinne ein LLM ebenfalls "Fachwissen besitzt", ist eine offene und kontroverse Frage: LLMs können Texte produzieren, die von Expertenarbeit kaum zu unterscheiden sind, was die Abgrenzung zwischen "Sprachstatistik" und "Domänenwissen" weniger eindeutig macht, als es zunächst scheint. Für die Lehre ist aber ein Punkt unstrittig: Studierende brauchen ihr *eigenes* generatives Modell, eines, das in ihrem Kopf läuft. Nur so können sie eigenständig Vorhersagen bilden, Fehler erkennen und in Situationen handeln, in denen kein KI-Tool verfügbar ist.
 
 Warum ist diese Perspektive trotzdem hilfreich? Sie erklärt auf einen Blick:
 

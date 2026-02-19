@@ -1,7 +1,7 @@
 ```{r}
 #| label: fig-cognitive-load
 #| echo: false
-#| fig-cap: "Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
+#| fig-cap: "Schematische Darstellung: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Die Prozentwerte sind illustrativ, nicht empirisch gemessen. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
 #| fig-width: 10
 #| fig-height: 6
 source(here::here("resources/viz-setup.R"))

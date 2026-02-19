@@ -211,6 +211,8 @@ Offloading und Outsourcing markieren die Endpunkte eines Spektrums:
 
 Die interessanten und schwierigen Fälle liegen in der Mitte: Ein Student, der einen KI-generierten Entwurf gründlich überarbeitet; eine Studierende, die nach eigenem Versuch gezielt eine Frage an die KI stellt. Die entscheidende Variable ist nicht, *ob* KI genutzt wird, sondern **wie viel eigene Denkarbeit die Lernenden geleistet haben, bevor sie dem KI-Output begegnen**. Je aktiver das interne Modell, desto informativer das Feedback.
 
+Dabei gilt ein oft übersehener Punkt: **Dieselbe Aktivität kann für eine Studierende Offloading und für eine andere Outsourcing sein.** Eine fortgeschrittene Studierende, die einen KI-Entwurf kritisch überarbeitet, hat die Schemata, um Fehler zu erkennen und strukturelle Schwächen zu identifizieren. Für sie ist die Überarbeitung echte kognitive Arbeit. Eine Anfängerin, der dieselben Schemata fehlen, übernimmt den Entwurf mit kosmetischen Änderungen, weil sie gar nicht erkennen kann, was fehlt. Ob eine KI-Nutzung Offloading oder Outsourcing ist, hängt also nicht nur von der Aufgabengestaltung ab, sondern auch vom Vorwissen der Studierenden. Das ist die direkte Konsequenz des Expertise Reversal Effect auf das Offloading-Outsourcing-Spektrum.
+
 > **Outsourcing eliminiert die lernrelevante kognitive Verarbeitung (Schemabildung, Abruf, Elaboration). Das *ist* das Kernproblem.**
 
 Erinnere dich an die Unterscheidung zwischen biologisch primärem und sekundärem Wissen aus Teil 1: Akademische Kompetenzen (Lesen, Schreiben, fachliches Denken) sind biologisch sekundär. Sie erfordern bewusste, aktive Verarbeitung. Outsourcing umgeht genau die Prozesse, die für diesen Erwerb nötig sind.
@@ -264,7 +266,7 @@ Transfer ist das eigentliche Versprechen von Hochschulbildung: Studierende solle
 
 #### Schein-Kompetenz
 
-Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Das Phänomen ist nicht neu: Studierende haben schon vor KI mit Copy-Paste, strategischem Zusammenfassen und oberflächlichem Paraphrasieren akademische Fassaden errichtet. KI macht es nur einfacher und die Fassade überzeugender. Tückischer als Plagiat, weil es **Selbsttäuschung** ist: Die Studierenden glauben oft selbst, sie hätten gründlich nachgedacht. Das rekonstruktive Gedächtnis erzeugt plausible Erinnerungen an einen Denkprozess, der nie stattfand.
+Studierende produzieren Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), ohne die zugrundeliegende intellektuelle Arbeit. Das Phänomen ist nicht neu: Studierende haben schon vor KI mit Copy-Paste, strategischem Zusammenfassen und oberflächlichem Paraphrasieren akademische Fassaden errichtet. KI macht es nur einfacher und die Fassade überzeugender. Die kognitionspsychologische Vorhersage: Schein-Kompetenz wird tückischer als strategisches Abkürzen, weil sie zur **Selbsttäuschung** werden kann. Das rekonstruktive Gedächtnis kann plausible Erinnerungen an einen Denkprozess erzeugen, der nie stattfand. Ob und wie oft dieses Risiko tatsächlich eintritt, wird die empirische Forschung zeigen müssen. Aber der Mechanismus (rekonstruktives Gedächtnis + oberflächliche Verarbeitung) ist gut belegt und legt nahe, dass das Risiko real ist.
 
 #### "The Beach, Not the Ant"
 
