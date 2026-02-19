@@ -109,10 +109,11 @@ Analysiert in Paaren ein Szenario-Paar (z.B. A1 und A2, oder B1 und B2), ein eff
 **Leitfrage:** *Welches Szenario erzeugt mehr Lernen? Warum?*
 
 Nutzt die Konzepte aus Teil 1:
+***Hinweis**: Die bezüge im Fallstudien-Material zu "5 Fragen" kannst du noch ignorieren*
 
 - Arbeitsgedächtnis & Langzeitgedächtnis
 - Desirable Difficulties & metakognitive Falle
-- Cognitive Load Theory (extrinsisch vs. germane)
+- Cognitive Load Theory (extrinsisch vs. intrinsisch)
 - Expertise Reversal Effect
 
 **Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Welcher kognitive Mechanismus wird im ineffektiven Szenario umgangen? (2) Wie stellt das effektive Szenario diesen Mechanismus wieder her? Seid bereit, eure Antwort in 30 Sekunden im Plenum vorzustellen.

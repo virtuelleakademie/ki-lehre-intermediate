@@ -7,8 +7,9 @@ subtitle: "Effektiv vs. ineffektiv, und warum"
 
 Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Du kannst sie auf zwei Arten nutzen:
 
-- **Als Analysematerial mit dem 5-Fragen-Framework** (Teil 3): Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
 - **Als Diskussionsgrundlage** für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.
+- **Als Analysematerial mit dem 5-Fragen-Framework** (Teil 3): Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
+
 
 Jedes Paar enthält ein problematisches und ein effektives Beispiel.
 
@@ -23,7 +24,7 @@ Eine Dozentin erlaubt Studierenden, ChatGPT für ihre Programmieraufgaben zu nut
 
 Dieselbe Dozentin ändert die Struktur: Studierende müssen *zuerst* eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst *nach* einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: "Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft, aber gib mir nicht die Lösung."
 
-::: {.individual}
+::: {.individual collapse="true"}
 ### 5-Fragen-Analyse: Szenario A1
 
 Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit dem Framework:
@@ -47,7 +48,7 @@ Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit d
 
 - Welches Szenario erzeugt mehr **Diskrepanzen** zwischen Erwartung und Ergebnis bei den Studierenden?
 - Wo findet **Wissenskompilation** statt, und wo nicht?
-- Wie verteilt sich die **kognitive Last** in beiden Szenarien (extrinsisch vs. germane)?
+- Wie verteilt sich die **kognitive Last** in beiden Szenarien (extrinsisch vs. intrinsisch)?
 - Was passiert mit der **Expertise-Entwicklung** in beiden Fällen?
 :::
 
@@ -62,7 +63,7 @@ Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu s
 
 Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf *ohne* KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.
 
-::: {.individual}
+::: {.individual collapse="true"}
 ### 5-Fragen-Analyse: Szenario B1
 
 Analysiere Szenario B1 (Seminararbeit im 3. Semester) mit dem Framework:
@@ -101,7 +102,7 @@ In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und e
 
 Im gleichen Kurs müssen Studierende *zuerst* ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: "Was habe ich übersehen? Warum?"
 
-::: {.individual}
+::: {.individual collapse="true"}
 ### 5-Fragen-Analyse: Szenario C1
 
 Analysiere Szenario C1 (klinischer Kurs im 4. Semester) mit dem Framework:
@@ -140,7 +141,7 @@ Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei a
 
 Dieselbe Dozentin differenziert: Für die *Risikoanalyse* (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den *Statusbericht* (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?
 
-::: {.individual}
+::: {.individual collapse="true"}
 ### 5-Fragen-Analyse: Szenario D1
 
 Dieses Szenario ist anders als A, B und C. Analysiere es mit dem Framework und achte darauf, **wo die Antworten anders ausfallen**:
@@ -165,7 +166,6 @@ Dieses Szenario ist anders als A, B und C. Analysiere es mit dem Framework und a
 - Was unterscheidet einen **Lernkontext** von einem **Leistungskontext**? Welche Teile dieser Aufgabe fallen in welche Kategorie?
 - Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?
 - Wie hilft das **Offloading-Outsourcing-Spektrum**, diese Unterscheidung zu treffen?
-- Wann ist die Entscheidung "Keine KI nötig" oder "KI ist hier sinnvoll" gleich berechtigt?
 :::
 
 
