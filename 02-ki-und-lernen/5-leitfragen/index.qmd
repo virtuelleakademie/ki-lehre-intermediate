@@ -73,6 +73,15 @@ Diese Zerlegung verwandelt den Reality Check von einer Ja/Nein-Entscheidung in e
 
 > **Wenn ja**: KI für die Prüfphase nutzen. Die Reihenfolge "Versuch → Prüfung" bewahrt die aktive Verarbeitung: Der eigene Versuch aktiviert den Generierungseffekt (internes Wissen wird abgerufen und organisiert), und der anschliessende Vergleich erzeugt Selbsterklärung (Studierende müssen Unterschiede identifizieren und einordnen).
 
+#### Vergleichshinweise: Was die Prüfe-Phase wirksam macht
+
+Die Prüfe-Phase funktioniert nur, wenn Studierende wissen, *worauf* sie vergleichen sollen. Ohne explizite Vergleichshinweise vergleichen Lernende Oberflächenmerkmale (Länge, Stil, Vokabular) statt der lernrelevanten Tiefenstruktur (Argumentationslogik, Annahmen, kausale Zusammenhänge). Die Forschung zur Selbsterklärung [@chiElicitingSelfExplanationsImproves1994] zeigt: Produktiver Vergleich erfordert strukturierte Anleitung.
+
+**Statt:** "Vergleiche deinen Text mit dem KI-Text"
+**Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
+
+Ohne solche Hinweise bleibt der Vergleich beliebig. Mit ihnen wird er zum gezielten Lernmoment. Vergleichshinweise sind kein optionaler Zusatz, sondern eine Voraussetzung dafür, dass die Versuch-dann-Prüfe-Struktur ihren Zweck erfüllt.
+
 #### Drei Optionen für die Prüfe-Phase
 
 Nicht jede Referenz in der Prüfe-Phase ist gleich verlässlich. Die Wahl hängt vom Kontext und vom Kompetenzniveau ab:
@@ -84,17 +93,6 @@ Nicht jede Referenz in der Prüfe-Phase ist gleich verlässlich. Die Wahl hängt
 | **3. KI-Vergleich** | Variabel (kann falsch sein; Evaluationsparadox greift) | Hoch | Fortgeschrittene mit genug Vorwissen, um Fehler zu erkennen |
 
 Für Anfänger ist Option 1 oft die sicherste Wahl. KI-Vergleich (Option 3) ist am skalierbaren, birgt aber das Risiko, dass Studierende ihre korrekte Lösung zugunsten einer falschen KI-Antwort "korrigieren", weil ihnen die Schemata zur Beurteilung fehlen.
-
-::: {.callout-tip}
-## Praxistipp: Relevante Merkmale signalisieren
-
-In der Prüfphase brauchen Studierende **explizite Hinweise, worauf sie achten sollen**. Ohne Signale vergleichen sie Oberflächenmerkmale (Länge, Stil, Vokabular) statt der lernrelevanten Strukturen (Argumentationslogik, Annahmen, Kausalität).
-
-**Statt:** "Vergleiche deinen Text mit dem KI-Text"
-**Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
-
-Ohne solche Hinweise bleibt der Vergleich beliebig. Mit ihnen wird er zum gezielten Lernmoment.
-:::
 
 ::: {.callout-warning}
 ### Wann Versuch-dann-Prüfe nicht funktioniert
@@ -111,7 +109,7 @@ Ohne solche Hinweise bleibt der Vergleich beliebig. Mit ihnen wird er zum geziel
 
 Verschiedene Prüfe-Formate stellen unterschiedliche kognitive Anforderungen:
 
-- **Musterlösung zum Selbstvergleich**: Niedrigste Belastung. Studierende vergleichen fokussiert, brauchen aber explizite Hinweise, worauf sie achten sollen (siehe Praxistipp oben).
+- **Musterlösung zum Selbstvergleich**: Niedrigste Belastung. Studierende vergleichen fokussiert, brauchen aber explizite Vergleichshinweise (siehe oben).
 - **Strukturiertes Peer-Feedback**: Mittlere Belastung. Der soziale Austausch erzeugt zusätzliche Elaboration, erfordert aber Kommunikationskompetenz.
 - **KI-Agent, der Rückfragen stellt**: Höchste Belastung. Studierende müssen *erneut* generieren (Antworten auf die Fragen), was für Fortgeschrittene produktiv ist, Anfänger aber überfordern kann.
 
