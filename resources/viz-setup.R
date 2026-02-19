@@ -2,15 +2,16 @@
 # Source this file in every setup chunk that produces figures.
 #
 # Brand palette defined in _brand.yml:
-#   dark-grey: #222222, lightgrey: #F5F5F5, accent: #9A4665
+#   black: #000000, light-grey: #F5F5F5, accent-burgundy: #9A4665, accent-gold: #D4A03E
 # Slide SCSS mirrors these in styles/custom-reveal.scss.
 
 library(tidyverse)
 
 # Brand colors (from _brand.yml)
-brand_dark <- "#222222"
+brand_dark <- "#000000"
 brand_light <- "#F5F5F5"
 brand_accent <- "#9A4665"
+brand_gold <- "#D4A03E"
 
 # Colorblind-safe palette (Okabe-Ito) for data encoding
 color_positive <- "#0072B2"    # Blue

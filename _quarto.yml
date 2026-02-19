@@ -151,7 +151,10 @@ lang: de
 format:
   html:
     theme:
-      light: simplex
+      - simplex
+      - styles/custom.scss
+    css: styles/styles.css
+    code-copy: true
     toc: true
     link-external-icon: true
     link-external-newwindow: true
@@ -181,155 +184,68 @@ filters:
   # - linkate
 
 custom-callout:
+  # Action callouts - what participants DO (Burgundy)
   active-processing:
-    icon-symbol: "📝"
+    title: "Aktive Verarbeitung"
+    icon-symbol: "fa-pen-to-square"
+    appearance: default
     collapse: false
     color: "#9A4665"
 
   agent-potential:
     title: "Agent-Potential"
-    icon-symbol: "🤖"
+    icon-symbol: "fa-robot"
+    appearance: default
     collapse: false
     color: "#9A4665"
 
-  # thumbs-up:
-  #   title: "Great job!"
-  #   icon-symbol: "👍🏼"
-  #   color: "steelblue"
-
-
-  # Activity Types
   individual:
-    title: "Individual Work"
-    icon-symbol: "💻"
-    color: "#0072B2"
+    title: "Einzelarbeit"
+    icon-symbol: "fa-user"
+    appearance: default
+    color: "#9A4665"
     collapse: false
 
   pair:
-    title: "Pair Work"
-    icon-symbol: "👥"
-    color: "#059669"
+    title: "Partnerarbeit"
+    icon-symbol: "fa-user-group"
+    appearance: default
+    color: "#9A4665"
     collapse: false
 
   group:
-    title: "Group Work"
-    icon-symbol: "👥"
-    color: "#7c3aed"
+    title: "Gruppenarbeit"
+    icon-symbol: "fa-users"
+    appearance: default
+    color: "#9A4665"
     collapse: false
 
-  # screens-down:
-  #   title: "Screens Down"
-  #   icon-symbol: "🔽"
-  #   color: "orange"
-  #   collapse: false
-
-  # screens-up:
-  #   title: "Screens Up"
-  #   icon-symbol: "🔼"
-  #   color: "green"
-  #   collapse: false
-
-  # # Learning Process
-  # try:
-  #   title: "Try It"
-  #   icon-symbol: "🔄"
-  #   color: "blue"
-  #   collapse: false
-
+  # Insight callouts - reflection and understanding (Gold)
   reflect:
-    title: "Reflection"
-    icon-symbol: "💭"
-    color: "#64748b"
+    title: "Reflexion"
+    icon-symbol: "fa-lightbulb"
+    appearance: default
+    color: "#D4A03E"
     collapse: false
-
-  # feedback:
-  #   title: "Feedback"
-  #   icon-symbol: "📝"
-  #   color: "teal"
-  #   collapse: true
-
-  # caution:
-  #   title: "Watch Out"
-  #   icon-symbol: "⚠️"
-  #   color: "orange"
-  #   collapse: true
 
   pro-tip:
-    title: "Pro Tip"
-    icon-symbol: "💡"
-    color: "gold"
+    title: "Tipp"
+    icon-symbol: "fa-wand-magic-sparkles"
+    appearance: default
+    color: "#D4A03E"
     collapse: true
 
   nachlesen:
     title: "Zum Nachlesen"
-    icon-symbol: "📖"
-    color: "#64748b"
+    icon-symbol: "fa-book-open"
+    appearance: default
+    color: "#D4A03E"
     collapse: true
 
+  # Neutral callouts (Dark grey)
   facilitator:
     title: "Moderationshinweis"
-    icon-symbol: "📋"
-    color: "#d97706"
+    icon-symbol: "fa-clipboard-list"
+    appearance: default
+    color: "#333333"
     collapse: true
-
-  # # Technical Elements
-  # prompt-example:
-  #   title: "Example Prompt"
-  #   icon-symbol: "👩🏼‍🔧"
-  #   color: "steelblue"
-  #   collapse: false
-
-  # output-example:
-  #   title: "Output Example"
-  #   icon-symbol: "📄"
-  #   color: "purple"
-  #   collapse: true
-
-  # prompt-template:
-  #   title: "Prompt Template"
-  #   icon-symbol: "📋"
-  #   color: "indigo"
-  #   collapse: true
-
-  # testing:
-  #   title: "Test Your Prompt"
-  #   icon-symbol: "🧪"
-  #   color: "green"
-  #   collapse: false
-
-  # export:
-  #   title: "Export"
-  #   icon-symbol: "📤"
-  #   color: "brown"
-  #   collapse: true
-
-  # # Workshop Flow
-  # setup:
-  #   title: "Setup"
-  #   icon-symbol: "⚙️"
-  #   color: "gray"
-  #   collapse: true
-
-  # timing:
-  #   title: "Time Check"
-  #   icon-symbol: "⏱️"
-  #   color: "red"
-  #   collapse: false
-
-  # break:
-  #   title: "Break Time"
-  #   icon-symbol: "☕"
-  #   color: "yellow"
-  #   collapse: false
-
-  # checkpoint:
-  #   title: "Checkpoint"
-  #   icon-symbol: "🎯"
-  #   color: "purple"
-  #   collapse: false
-
-  # schedule:
-  #   title: "Schedule"
-  #   icon-symbol: "⏰︎"
-  #   color: "steelblue"
-  #   collapse: false

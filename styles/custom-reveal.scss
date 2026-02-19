@@ -1,14 +1,13 @@
 /*-- scss:defaults --*/
 
-@import url(https://fonts.googleapis.com/css?family=Jura:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap');
 
 // Fonts
-$font-family-sans-serif: Lato, sans-serif !default;
+$font-family-sans-serif: "Urbanist", sans-serif !default;
 $presentation-font-size-root: 32px !default;
 
 // Brand palette (from _brand.yml)
-$brand-dark: #222222;
+$brand-dark: #000000;
 $brand-light: #F5F5F5;
 $brand-accent: #9A4665;
 $brand-accent-dark: #7a3552; // Darker burgundy for WCAG AAA links
@@ -22,6 +21,9 @@ $color-positive: #0072B2;
 $color-negative: #D55E00;
 $color-attention: #E69F00;
 
+// Accent gold (insight callouts)
+$color-accent-gold: #D4A03E;
+
 // Base colors
 $body-bg: #fff !default;
 $body-color: $brand-dark !default;
@@ -29,12 +31,17 @@ $link-color: $brand-accent-dark !default;
 $selection-bg: rgba(0, 0, 0, 0.99);
 
 // Headings
-$presentation-heading-font: "Jura", "Lato", sans-serif !default;
+$presentation-heading-font: "Urbanist", sans-serif !default;
 
 
 /*-- scss:rules --*/
 
-// Typography hierarchy — tighter letter-spacing and bolder weight for Jura
+// Sharp corners everywhere
+.reveal * {
+  border-radius: 0 !important;
+}
+
+// Typography hierarchy
 .reveal h2 {
   font-size: 1.6em;
   font-weight: 700;

@@ -1,0 +1,605 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// DESIGN TOKENS - Swiss Minimalist Design System
+// Adapted from ki-lehre-beginner, with burgundy accent identity
+// =============================================================================
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap');
+
+$font-family-sans-serif: "Urbanist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
+$headings-font-family: "Urbanist", sans-serif;
+
+// Font sizes
+$font-size-base: 1rem;
+$font-size-sm: 0.9rem;
+$font-size-xs: 0.85rem;
+$font-size-h1: 2.5rem;
+$font-size-h2: 1.75rem;
+$font-size-h3: 1.35rem;
+$font-size-h1-mobile: 1.85rem;
+$font-size-h2-mobile: 1.4rem;
+
+// Font weights
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+// Line heights
+$line-height-base: 1.6;
+$line-height-tight: 1.2;
+$line-height-relaxed: 1.7;
+
+// Colors - Core palette
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-grey-100: #F5F5F5;
+$color-grey-300: #E0E0E0;
+$color-grey-500: #666666;
+$color-grey-700: #333333;
+
+// Accent colors - Burgundy + Gold
+// NOTE: Keep in sync with _brand.yml, _quarto.yml callouts, and styles.css
+$color-accent-burgundy: #9A4665;    // Active states, action callouts
+$color-accent-burgundy-dark: #7a3552; // Darker variant for hover
+$color-accent-gold: #D4A03E;        // Insight callouts
+
+// Color assignments
+$color-background: $color-white;
+$color-text: $color-black;
+$color-text-secondary: $color-grey-500;
+$color-text-muted: $color-grey-700;
+$color-primary: $color-black;
+$color-surface: $color-grey-100;
+$color-border: $color-black;
+
+// Quarto theme variables
+$body-bg: $color-background;
+$body-color: $color-text;
+$primary: $color-primary;
+$secondary: $color-text-secondary;
+$light: $color-surface;
+$link-color: $color-accent-burgundy;
+
+// Borders
+$border-width: 2px;
+$border-width-thick: 4px;
+$border-style: solid;
+$border: $border-width $border-style $color-border;
+$border-thick: $border-width-thick $border-style $color-border;
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+
+// Transitions
+$transition-speed: 0.2s;
+$transition-ease: ease;
+$transition-default: all $transition-speed $transition-ease;
+
+// Breakpoints
+$breakpoint-mobile: 900px;
+
+/*-- scss:rules --*/
+
+// =============================================================================
+// MIXINS
+// =============================================================================
+
+@mixin border-bottom {
+  border-bottom: $border;
+}
+
+@mixin border-top {
+  border-top: $border;
+}
+
+@mixin border-left {
+  border-left: $border;
+}
+
+@mixin border-right {
+  border-right: $border;
+}
+
+@mixin border-all {
+  border: $border;
+}
+
+@mixin surface-background {
+  background-color: $color-surface;
+}
+
+@mixin transition-default {
+  transition: $transition-default;
+}
+
+@mixin text-secondary {
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+}
+
+@mixin active-indicator {
+  border-left: $border-width-thick solid $color-accent-burgundy;
+  padding-left: calc($spacing-md - $border-width-thick);
+}
+
+// =============================================================================
+// GLOBAL RESET - Sharp corners everywhere
+// =============================================================================
+
+* {
+  border-radius: 0 !important;
+}
+
+// =============================================================================
+// BASE STYLES
+// =============================================================================
+
+body {
+  background-color: $color-background;
+  color: $color-text;
+  font-family: $font-family-sans-serif;
+  line-height: $line-height-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+}
+
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $color-text;
+  font-weight: $font-weight-bold;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-md;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-weight: $font-weight-extrabold;
+  font-size: $font-size-h1;
+  margin-top: 0;
+  margin-bottom: $spacing-lg;
+  letter-spacing: -0.02em;
+  line-height: $line-height-tight;
+}
+
+h2 {
+  font-size: $font-size-h2;
+  margin-top: $spacing-2xl;
+}
+
+h3 {
+  font-size: $font-size-h3;
+  margin-top: $spacing-xl;
+  font-weight: $font-weight-semibold;
+}
+
+p {
+  margin-bottom: $spacing-lg;
+  font-size: $font-size-base;
+  line-height: $line-height-relaxed;
+  font-weight: $font-weight-normal;
+  color: $color-text;
+}
+
+// =============================================================================
+// LINKS
+// =============================================================================
+
+a {
+  color: $color-accent-burgundy;
+  text-decoration: none;
+  font-weight: $font-weight-medium;
+  @include transition-default;
+}
+
+a:hover {
+  color: $color-accent-burgundy-dark;
+}
+
+// =============================================================================
+// NAVBAR
+// =============================================================================
+
+.navbar {
+  background-color: $color-background;
+  padding: $spacing-lg 0;
+  @include border-bottom;
+  box-shadow: none !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: $color-text !important;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 $spacing-lg;
+}
+
+.navbar-nav .nav-link {
+  padding: $spacing-sm 0 !important;
+  margin: 0;
+  font-weight: $font-weight-semibold;
+  border-bottom: $border-width solid transparent;
+  text-decoration: none !important;
+  @include transition-default;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link[aria-current="page"] {
+  border-bottom: $border;
+  color: $color-text !important;
+}
+
+.quarto-navbar-tools .quarto-navigation-tool {
+  color: $color-text !important;
+  font-size: 1.1rem;
+  padding: $spacing-sm !important;
+  background: none;
+  @include transition-default;
+}
+
+.quarto-navbar-tools .quarto-navigation-tool:hover {
+  color: $color-text-secondary !important;
+  background: none;
+}
+
+#quarto-search .aa-DetachedSearchButtonIcon,
+#quarto-search .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon,
+.navbar #quarto-search .aa-DetachedSearchButtonIcon {
+  color: $color-text !important;
+  opacity: 1 !important;
+  fill: $color-text !important;
+}
+
+#quarto-search:hover .aa-DetachedSearchButtonIcon,
+.navbar #quarto-search:hover .aa-DetachedSearchButtonIcon {
+  color: $color-text-secondary !important;
+  fill: $color-text-secondary !important;
+}
+
+.navbar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar li {
+  padding-left: 0;
+}
+
+// =============================================================================
+// SIDEBAR
+// =============================================================================
+
+#quarto-sidebar {
+  background-color: $color-background;
+  @include border-right;
+}
+
+#quarto-sidebar .sidebar-menu-container {
+  padding: 0;
+}
+
+#quarto-sidebar .sidebar-menu-container > ul {
+  padding: 0;
+  margin: 0;
+}
+
+#quarto-sidebar .sidebar-item {
+  @include border-bottom;
+  margin: 0;
+  padding: 0;
+}
+
+// Remove borders from last items to avoid doubling
+#quarto-sidebar .sidebar-item:last-child {
+  border-bottom: none;
+}
+
+#quarto-sidebar .sidebar-section:last-child > .sidebar-item:last-child {
+  border-bottom: none;
+}
+
+// Add single consistent border at bottom of sidebar
+#quarto-sidebar .sidebar-menu-container {
+  border-bottom: $border;
+}
+
+#quarto-sidebar .sidebar-item a {
+  color: $color-text;
+  padding: $spacing-sm $spacing-md;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  display: block;
+  text-decoration: none !important;
+}
+
+#quarto-sidebar .sidebar-item a:hover {
+  @include surface-background;
+  color: $color-text;
+}
+
+#quarto-sidebar .sidebar-item a.active,
+#quarto-sidebar .sidebar-link.active {
+  @include surface-background;
+  color: $color-text;
+  font-weight: $font-weight-semibold;
+  @include active-indicator;
+  margin-left: 0;
+}
+
+// Sidebar section headers
+.sidebar-section .sidebar-section-header {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-sm;
+  color: $color-text;
+  padding: $spacing-md;
+  @include border-bottom;
+  @include surface-background;
+}
+
+// =============================================================================
+// BUTTONS
+// =============================================================================
+
+.btn-primary {
+  background-color: $color-primary;
+  border-color: $color-primary;
+  padding: $spacing-sm $spacing-lg;
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+  @include transition-default;
+}
+
+.btn-primary:hover {
+  background-color: $color-grey-700;
+  border-color: $color-grey-700;
+}
+
+// =============================================================================
+// CARDS
+// =============================================================================
+
+.card, .feature-card, .section-card {
+  background: $color-background;
+  @include border-all;
+  padding: $spacing-xl;
+  margin-bottom: $spacing-xl;
+  box-shadow: none !important;
+  @include transition-default;
+}
+
+.card:hover, .feature-card:hover {
+  border-color: $color-border;
+  box-shadow: none !important;
+}
+
+// =============================================================================
+// CALLOUTS - Sharp corners, keep semantic colors
+// =============================================================================
+
+.callout {
+  border-radius: 0 !important;
+  border-left-width: $border-width-thick;
+}
+
+.callout-header {
+  border-radius: 0 !important;
+}
+
+.callout-body-container {
+  border-radius: 0 !important;
+}
+
+.callout .callout-body {
+  border-radius: 0 !important;
+}
+
+// =============================================================================
+// TABLES
+// =============================================================================
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-lg 0;
+}
+
+th, td {
+  padding: $spacing-sm $spacing-md;
+  text-align: left;
+  @include border-bottom;
+}
+
+th {
+  @include surface-background;
+  color: $color-text;
+  font-weight: $font-weight-semibold;
+  border-bottom: $border;
+}
+
+.quarto-table-container table thead th {
+  background-color: $color-surface;
+  color: $color-text;
+  font-weight: $font-weight-bold;
+  border-bottom: $border;
+}
+
+// =============================================================================
+// TITLE BLOCKS
+// =============================================================================
+
+.quarto-title-block {
+  padding-bottom: $spacing-xl;
+  margin-bottom: $spacing-xl;
+}
+
+.quarto-title-block .quarto-title .title {
+  margin-bottom: $spacing-md;
+  font-weight: $font-weight-extrabold;
+  color: $color-text;
+}
+
+// =============================================================================
+// CODE BLOCKS
+// =============================================================================
+
+pre {
+  @include surface-background;
+  @include border-all;
+  padding: $spacing-md;
+}
+
+code {
+  font-family: $font-family-monospace;
+  font-size: 0.9em;
+}
+
+// =============================================================================
+// BLOCKQUOTES
+// =============================================================================
+
+blockquote {
+  border-left: 3px $border-style $color-border;
+  padding-left: $spacing-lg;
+  margin: $spacing-lg 0;
+  font-style: normal;
+  color: $color-grey-700;
+  font-weight: $font-weight-normal;
+}
+
+// =============================================================================
+// LISTS
+// =============================================================================
+
+ul {
+  list-style: disc;
+  padding-left: $spacing-lg;
+}
+
+li {
+  margin-bottom: $spacing-sm;
+  padding-left: $spacing-xs;
+}
+
+li::marker {
+  color: $color-text;
+}
+
+// =============================================================================
+// FOOTER
+// =============================================================================
+
+.page-footer {
+  @include surface-background;
+  color: $color-text;
+  padding: $spacing-xl 0;
+  margin-top: $spacing-3xl;
+  @include border-top;
+}
+
+.page-footer a {
+  color: $color-text;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: $color-accent-burgundy;
+}
+
+// =============================================================================
+// TIMER - Clean minimal styling with burgundy accent
+// =============================================================================
+
+.base-timer {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.base-timer__svg {
+  stroke: $color-accent-burgundy;
+}
+
+.base-timer__path-remaining {
+  stroke: $color-accent-burgundy !important;
+}
+
+// =============================================================================
+// TABSETS - Minimal tabs with burgundy accent
+// =============================================================================
+
+.nav-tabs {
+  border-bottom: $border;
+  gap: 0;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+  border-bottom: 3px solid transparent !important;
+  background: none !important;
+  color: $color-text-secondary;
+  font-weight: $font-weight-medium;
+  padding: $spacing-sm $spacing-md;
+  margin-bottom: -2px;
+  @include transition-default;
+}
+
+.nav-tabs .nav-link:hover {
+  color: $color-text;
+  border-bottom-color: $color-grey-300 !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: $color-text !important;
+  border-bottom-color: $color-accent-burgundy !important;
+  font-weight: $font-weight-semibold;
+  background: none !important;
+}
+
+.tab-content {
+  border: none !important;
+  padding: $spacing-lg 0;
+}
+
+.tab-pane {
+  border: none !important;
+}
+
+// =============================================================================
+// RESPONSIVE
+// =============================================================================
+
+@media (max-width: $breakpoint-mobile) {
+  h1 {
+    font-size: $font-size-h1-mobile;
+  }
+
+  h2 {
+    font-size: $font-size-h2-mobile;
+  }
+
+  .card, .feature-card {
+    padding: $spacing-lg;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0 $spacing-sm;
+  }
+}
