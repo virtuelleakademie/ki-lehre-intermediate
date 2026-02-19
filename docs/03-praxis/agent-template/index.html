@@ -109,6 +109,17 @@ div.csl-indent {
   });
 </script>
 <style>
+div.callout-individual.callout {
+  border-left-color: #0072B2;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
 div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
@@ -118,6 +129,17 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   content: '🤖';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-pair.callout {
@@ -131,26 +153,15 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-group.callout {
+  border-left-color: #7c3aed;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -175,37 +186,26 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: #7c3aed;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: #0072B2;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 </style>
@@ -337,12 +337,6 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../03-praxis/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Das 5-Fragen-Framework</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
   </div>
@@ -412,7 +406,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </section>
 <section id="voraussetzung-die-pädagogische-diagnose" class="level2">
 <h2 class="anchored" data-anchor-id="voraussetzung-die-pädagogische-diagnose">Voraussetzung: Die pädagogische Diagnose</h2>
-<p>Du hast eine Aufgabe mit dem <a href="../5-fragen-framework/">5-Fragen-Framework</a> analysiert und festgestellt, dass eine <strong>Versuch-dann-Prüfe-Struktur</strong> sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?</p>
+<p>Du hast eine Aufgabe mit den <a href="../../02-ki-und-lernen/5-leitfragen/">5 Leitfragen</a> analysiert und festgestellt, dass eine <strong>Versuch-dann-Prüfe-Struktur</strong> sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?</p>
 <p>Diese Seite ist ein <strong>optionaler nächster Schritt</strong> nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Für die Prüfe-Phase gibt es oft einfachere Wege: eine Musterlösung zum Selbstvergleich, strukturiertes Peer-Feedback, oder eine Checkliste zur Selbstbewertung. Ein Agent lohnt sich, wenn:</p>
 <ul>
 <li>Die Prüfphase <strong>personalisiertes Feedback</strong> erfordert, das du als Lehrperson nicht für alle Studierenden leisten kannst</li>
@@ -573,7 +567,7 @@ nur "richtige Antworten" zu produzieren.</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Frage 2 des 5-Fragen-Frameworks) kann ein rein fragenbasierter Agent die kognitive Belastung erhöhen, ohne dass produktives Nachdenken entsteht: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.</p>
+<p>Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Leitfrage 4) kann ein rein fragenbasierter Agent die kognitive Belastung erhöhen, ohne dass produktives Nachdenken entsteht: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.</p>
 <p>Cognitive Load Theory legt einen anderen Weg nahe: Für echte Anfänger ist <strong>direkte Instruktion</strong> wirksamer, z.B. ein ausgearbeitetes Beispiel mit Selbsterklärungs-Prompts oder ein teilweise gelöstes Problem zum Vervollständigen. Erst mit wachsender Kompetenz wird ein fragenbasierter Agent zum produktiven Werkzeug. Die VERBOTEN-Regeln im Template oben setzen Studierende voraus, die bereits über Grundlagenwissen verfügen.</p>
 </div>
 </div>
@@ -582,8 +576,8 @@ nur "richtige Antworten" zu produzieren.</code></pre>
 <h2 class="anchored" data-anchor-id="wann-kein-agent-die-richtige-antwort-ist">Wann kein Agent die richtige Antwort ist</h2>
 <p>Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden Situationen ist ein Agent kontraproduktiv:</p>
 <p><strong>Wenn der Versuch das gesamte Lernziel ist.</strong> Bei Aufgaben, in denen der eigenständige Versuch selbst die Kompetenz aufbaut (z.B. freies Schreiben, klinische Ersteinschätzung, mathematische Beweisführung), fügt ein Agent in der Prüfphase keinen Mehrwert hinzu, der über manuelles Peer-Feedback oder eine Musterlösung hinausgeht.</p>
-<p><strong>Wenn Studierende in der Grundlagenphase sind.</strong> Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Frage 2 des 5-Fragen-Frameworks), können den Agent-Output nicht <em>bewerten</em> und profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.</p>
-<p><strong>Wenn die Aufgabe bereits produktive Anstrengung erzeugt.</strong> Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.</p>
+<p><strong>Wenn Studierende in der Grundlagenphase sind.</strong> Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Leitfrage 4), können den Agent-Output nicht <em>bewerten</em> und profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.</p>
+<p><strong>Wenn die Aufgabe bereits produktive Anstrengung erzeugt.</strong> Wenn deine Analyse mit den 5 Leitfragen zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

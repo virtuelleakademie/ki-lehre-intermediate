@@ -34,10 +34,14 @@ Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsged
 ## Die Reise vom Anfänger zum Experten
 
 Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Mehr noch: Expertenwerkzeuge können Anfängern sogar aktiv schaden.
-
+ 
 ## Die Progression von schwachen zu starken Methoden
 
-Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert, **wie** dieser Übergang durch Wissenskompilation geschieht: Deklaratives Wissen wird durch Übung und Feedback zu automatisierten Produktionsregeln. Expertise entwickelt sich durch eine vorhersehbare Progression:
+Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert, **wie** dieser Übergang durch Wissenskompilation geschieht: Deklaratives Wissen wird durch Übung und Feedback zu automatisierten Produktionsregeln.
+
+Diese Darstellung vereinfacht: In modernem ACT-R ist die Beziehung zwischen deklarativem und prozeduralem Wissen dynamischer und bidirektionaler, als das Stufenmodell suggeriert. Auch Experten behalten deklarative Repräsentationen, die weiterhin aktualisiert werden können. Für den Lehrkontext bleibt die grundlegende Progressionslogik aber nützlich.
+
+Expertise entwickelt sich durch eine vorhersehbare Progression:
 
 ### 1. **Schwache Methoden** (Anfänger-Stadium)
 
@@ -165,7 +169,7 @@ Das Ergebnis ist nicht "Verlernen" im engeren Sinne, sondern **Fähigkeitsatroph
 
 Diese Prinzipien bilden die Grundlage für:
 
-- Das **5-Fragen-Framework** in Teil 3 (Fragen 2 & 5 behandeln den Kompetenzaufbau und die Versuch-dann-Prüfe-Struktur)
+- Die **5 Leitfragen** in Teil 2 (Leitfragen 2 & 5 behandeln den Kompetenzaufbau und die Versuch-dann-Prüfe-Struktur)
 - Die **Peer-Diagnose** in Teil 3: Die Advocatus-Diaboli-Frage ("Könnte eine Studierende das Denken nach deiner Änderung immer noch delegieren?") prüft, ob der Kompetenzaufbauprozess geschützt ist
 
 Du wirst diese Prinzipien in der Praxis anwenden, wenn du deine eigenen Aufgaben analysierst.
@@ -291,9 +295,13 @@ Das entscheidende Problem: Je weniger Vorwissen Lernende haben, desto weniger k�
 
 Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert sein internes Modell, bildet spezifische Vorhersagen und erzeugt dadurch **informative Vorhersagefehler**, genau die Art von Diskrepanz, aus der das Gehirn effektiv lernen kann.
 
+Anders formuliert: Lernen lässt sich als Aktualisierung von Überzeugungen verstehen. Lernende haben ein aktuelles Modell (ihre bisherigen Schemata), machen daraus eine Vorhersage und passen ihr Modell anhand der beobachteten Diskrepanz an. Je spezifischer die Vorhersage, desto informativer das Feedback. Genau deshalb funktioniert die Versuch-dann-Prüfe-Struktur: Der eigene Versuch erzeugt eine konkrete Erwartung, an der das anschliessende Feedback maximal informativ andocken kann. Ohne eigenen Versuch ist Feedback diffus, so als wollte man eine Überzeugung aktualisieren, die man nie hatte.
+
 ### Das interne Modell: Was Expertise eigentlich ist
 
-Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Die Metapher des **"internen generativen Modells"** fasst diese Idee zusammen, sie ist allerdings eine **didaktische Synthese** aus verschiedenen Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), kein etablierter Fachbegriff einer einzelnen Theorie.
+Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Der Begriff **"internes generatives Modell"** fasst diese Idee zusammen: eine **Synthese** aus verschiedenen Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), die einen gemeinsamen Kern teilen: Expertise ist ein Modell im Kopf, das *generieren* kann.
+
+Ein wichtiger Unterschied: Wenn wir von einem "internen generativen Modell" sprechen, meinen wir etwas anderes als ein "generatives KI-Modell". Ein LLM ist ein statistisches Modell der Sprache: Es lernt Verteilungsmuster aus Texten und sagt das nächste Token in einer Sequenz vorher. Das interne Modell einer Expertin ist ein generatives Modell *ihres Fachgebiets*: Es erfasst kausale Zusammenhänge, strukturelle Beziehungen und kontextabhängige Regeln und kann daraus neue Vorhersagen, Erklärungen und Lösungen ableiten. Dieser Unterschied erklärt, warum LLM-Output so überzeugend und zugleich so leer sein kann: Das LLM modelliert, *wie Menschen über ein Fachgebiet schreiben*, nicht das Fachgebiet selbst. Deshalb brauchen Studierende ihr *eigenes* generatives Modell, eines, das im kausalen Verständnis ihrer Domäne verankert ist.
 
 Warum ist diese Perspektive trotzdem hilfreich? Sie erklärt auf einen Blick:
 
@@ -309,7 +317,7 @@ Die entscheidende Frage für jede Lernsituation lautet deshalb: **Wie aktiv ist 
 
 Lernen erfordert sogenannte "desirable difficulties" [@bjorkMakingThingsHard2011]: Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern (Abrufübung, verteiltes Wiederholen, Interleaving, Generierung). Eine ausführliche Darstellung dieser Strategien mit praktischen Beispielen findest du im Deep-Dive [Gedächtnis & Lernstrategien](../gedaechtnis-und-lernen/).
 
-Aktuelle Studien zeigen, dass KI-Outsourcing diese Mechanismen systematisch untergräbt: weniger kritisches Denken bei hohem KI-Vertrauen [@leeImpactGenerativeAI2025], nur oberflächliches Lernen bei Programmierstudierenden [@yangEffectivenessChatGPTAssisting2025] und verminderte Problemlösefähigkeiten bei Mathematiklernenden [@bastaniGenerativeAIGuardrails2025].
+Die theoretischen Vorhersagen werden durch erste empirische Befunde gestützt: weniger kritisches Denken bei hohem KI-Vertrauen [@leeImpactGenerativeAI2025], nur oberflächliches Lernen bei Programmierstudierenden [@yangEffectivenessChatGPTAssisting2025] und verminderte Problemlösefähigkeiten bei Mathematiklernenden [@bastaniGenerativeAIGuardrails2025]. Die theoretische Argumentation steht auf Jahrzehnten kognitionswissenschaftlicher Forschung.
 
 
 ::: {.reflect}
@@ -324,14 +332,6 @@ Bevor du weiterliest, fasse für dich zusammen:
 *Diese Selbsterklärung ist der Übergang vom Verstehen zum Anwenden.*
 :::
 
-
-::: {.pro-tip collapse="true"}
-### Für Interessierte: Biologische Grundlagen des Lernens
-
-Lernen ist nicht nur ein kognitiver, sondern ein biologischer Prozess [@oakleyMemoryParadoxWhy2025]. Schlafkonsolidierung spielt eine zentrale Rolle: Sharp wave ripples im Schlaf spielen Erlebtes erneut ab, Erinnerungen wandern vom Hippocampus in den Kortex, und neue neuronale Verbindungen festigen sich. Man kann Schlaf nicht herunterladen, genauso wenig wie Expertise.
-
-Das "Grokking"-Phänomen in maschinellen Lernmodellen zeigt ein ähnliches Muster: Nach einer langen Plateauphase ohne sichtbaren Fortschritt kommt ein plötzlicher Sprung zur Generalisierung. Manchmal braucht es viel mehr Trainingsschritte als bis zum Memorieren, dann findet das Modell plötzlich die zugrundeliegende Regel.
-:::
 
 
 ::: {.reflect}

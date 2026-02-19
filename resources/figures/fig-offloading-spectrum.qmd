@@ -8,8 +8,8 @@ source(here::here("resources/viz-setup.R"))
 spectrum_examples <- tibble(
   position = c(0.12, 0.30, 0.50, 0.75, 0.92),
   label = c(
-    "Taschenrechner\nfür Arithmetik",
     "KI prüft\nZitationsformat",
+    "Taschenrechner\nfür Arithmetik",
     "Studierender\nüberarbeitet\nKI-Entwurf",
     "Frage an KI ohne\neigenen Versuch",
     "KI schreibt\nden Aufsatz"

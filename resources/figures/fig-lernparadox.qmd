@@ -17,7 +17,7 @@ quadrants <- tibble(
     "Illusion des\nLernens"
   ),
   fill_color = c(color_positive, color_sky, "#9ca3af", color_negative),
-  importance = c("ZIEL", "OK für Fortgeschrittene", "Vermeiden", "FALLE")
+  importance = c("ZIEL", "OK für Fortgeschrittene", "Vermeiden", "Metakognitive Falle")
 )
 
 ggplot(quadrants) +
@@ -56,14 +56,14 @@ ggplot(quadrants) +
     color = brand_accent,
     linewidth = 1.2
   ) +
-  annotate(
-    "text",
-    x = 5, y = 4.3,
-    label = "Metakognitive Falle",
-    size = 4.2,
-    fontface = "bold.italic",
-    color = brand_accent,
-  ) +
+  # annotate(
+  #   "text",
+  #   x = 5, y = 4.3,
+  #   label = "Metakognitive Falle",
+  #   size = 4.2,
+  #   fontface = "bold.italic",
+  #   color = brand_accent,
+  # ) +
   scale_x_continuous(
     breaks = c(2.5, 7.5),
     labels = c("Schwierig", "Leicht"),

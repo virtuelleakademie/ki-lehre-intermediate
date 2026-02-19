@@ -13,7 +13,7 @@ Diese Seite hilft dir, die **pädagogische Entscheidung** zu treffen: Ergibt ein
 
 ## Voraussetzung: Die pädagogische Diagnose
 
-Du hast eine Aufgabe mit dem [5-Fragen-Framework](../5-fragen-framework/) analysiert und festgestellt, dass eine **Versuch-dann-Prüfe-Struktur** sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?
+Du hast eine Aufgabe mit den [5 Leitfragen](../../02-ki-und-lernen/5-leitfragen/) analysiert und festgestellt, dass eine **Versuch-dann-Prüfe-Struktur** sinnvoll wäre. Jetzt stellt sich die Frage: Könnte ein KI-Agent diese Struktur unterstützen?
 
 Diese Seite ist ein **optionaler nächster Schritt** nach der Aufgaben-Analyse. Nicht jede Aufgabe mit Versuch-dann-Prüfe-Struktur braucht einen Agent. Für die Prüfe-Phase gibt es oft einfachere Wege: eine Musterlösung zum Selbstvergleich, strukturiertes Peer-Feedback, oder eine Checkliste zur Selbstbewertung. Ein Agent lohnt sich, wenn:
 
@@ -138,7 +138,7 @@ Gute Agents für Lernen:
 ::: {.callout-warning}
 ### "Fragen statt Antworten" hat eine Grenze
 
-Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Frage 2 des 5-Fragen-Frameworks) kann ein rein fragenbasierter Agent die kognitive Belastung erhöhen, ohne dass produktives Nachdenken entsteht: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.
+Prinzip 2 gilt nicht für alle Studierenden gleichermassen. Ein Agent, der ausschliesslich Rückfragen stellt, setzt voraus, dass die Studierenden genug Vorwissen haben, um die Fragen produktiv zu bearbeiten. Für Studierende in der Grundlagenphase (Leitfrage 4) kann ein rein fragenbasierter Agent die kognitive Belastung erhöhen, ohne dass produktives Nachdenken entsteht: Die Studierenden wissen schlicht nicht genug, um sinnvoll zu antworten.
 
 Cognitive Load Theory legt einen anderen Weg nahe: Für echte Anfänger ist **direkte Instruktion** wirksamer, z.B. ein ausgearbeitetes Beispiel mit Selbsterklärungs-Prompts oder ein teilweise gelöstes Problem zum Vervollständigen. Erst mit wachsender Kompetenz wird ein fragenbasierter Agent zum produktiven Werkzeug. Die VERBOTEN-Regeln im Template oben setzen Studierende voraus, die bereits über Grundlagenwissen verfügen.
 :::
@@ -150,9 +150,9 @@ Nicht jede Versuch-dann-Prüfe-Struktur braucht einen KI-Agenten. In folgenden S
 
 **Wenn der Versuch das gesamte Lernziel ist.** Bei Aufgaben, in denen der eigenständige Versuch selbst die Kompetenz aufbaut (z.B. freies Schreiben, klinische Ersteinschätzung, mathematische Beweisführung), fügt ein Agent in der Prüfphase keinen Mehrwert hinzu, der über manuelles Peer-Feedback oder eine Musterlösung hinausgeht.
 
-**Wenn Studierende in der Grundlagenphase sind.** Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Frage 2 des 5-Fragen-Frameworks), können den Agent-Output nicht *bewerten* und profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.
+**Wenn Studierende in der Grundlagenphase sind.** Das Problem geht über das Evaluationsparadox hinaus: Studierende, denen die Grundlagen fehlen (Leitfrage 4), können den Agent-Output nicht *bewerten* und profitieren auch nicht von fragenbasierter Anleitung. Wer die Schemata nicht hat, um eine Rückfrage produktiv zu bearbeiten, erlebt Verwirrung statt produktiver Anstrengung. In dieser Phase sind ausgearbeitete Beispiele mit Selbsterklärungs-Prompts oder strukturiertes Peer-Feedback wirksamer als ein Agent.
 
-**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine 5-Fragen-Analyse zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.
+**Wenn die Aufgabe bereits produktive Anstrengung erzeugt.** Wenn deine Analyse mit den 5 Leitfragen zeigt, dass die Aufgabe die lernrelevante kognitive Verarbeitung bereits gut schützt, besteht die Gefahr, dass ein Agent unnötige Komplexität hinzufügt, ohne den Lernprozess zu verbessern.
 
 ::: {.callout-note}
 ### Aber: Ein Agent *für* Worked Examples?

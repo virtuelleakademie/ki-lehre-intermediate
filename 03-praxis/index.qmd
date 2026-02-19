@@ -5,7 +5,7 @@ title: "Vom Wissen zum Handeln"
 ::: {.active-processing}
 ## Praxis: Aufgaben analysieren & Peer-Diagnose (35 Min)
 
-Wir wenden die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an: Erst analysierst du deine Aufgabe mit dem 5-Fragen-Framework, dann fordert dein Partner deine Analyse als Advocatus Diaboli heraus.
+Wir wenden die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an: Erst analysierst du deine Aufgabe mit den 5 Leitfragen, dann fordert dein Partner deine Analyse als Advocatus Diaboli heraus.
 
 **Ziel**: Die eigene Aufgabe kritisch analysieren, gegenseitig Schwachstellen diagnostizieren und mit einem konkreten Umsetzungsplan nach Hause gehen.
 :::
@@ -16,7 +16,7 @@ Wir wenden die Erkenntnisse aus Teil 1 und 2 auf eure eigene Lehre an: Erst anal
 
 Das ist keine Prüfung, sondern eine Lernübung. Lücken beim Abruf sind nicht peinlich, sie sind die produktivsten Lernmomente: Was du jetzt nicht abrufen kannst, wirst du dir nach dem Vergleich besonders gut merken.
 
-**Versuche, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren.** Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage.
+**Versuche, die 5 Leitfragen aus dem Gedächtnis zu notieren.** Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage.
 
 1. ________________________
 2. ________________________
@@ -24,7 +24,7 @@ Das ist keine Prüfung, sondern eine Lernübung. Lücken beim Abruf sind nicht p
 4. ________________________
 5. ________________________
 
-Vergleiche dann mit dem [5-Fragen-Framework](./5-fragen-framework/). Wo sind die grössten Unterschiede zwischen deiner Version und dem Original? Genau diese Stellen sind die produktivsten Lernmomente.
+Vergleiche dann mit den [5 Leitfragen](../02-ki-und-lernen/5-leitfragen/). Wo sind die grössten Unterschiede zwischen deiner Version und dem Original? Genau diese Stellen sind die produktivsten Lernmomente.
 :::
 
 
@@ -43,20 +43,20 @@ Sicherstellen, dass alle eine Aufgabe haben. Wer keine mitgebracht hat, nutzt di
 ::: {.individual}
 ### Eigene Aufgabe analysieren
 
-**Wähle eine Aufgabe oder Prüfung aus deiner Lehre** und analysiere sie mit dem [5-Fragen-Framework](./5-fragen-framework/). *Falls du keine eigene Aufgabe mitgebracht hast, nutze eines der [Fallstudien-Szenarien](./fallstudien/).*
+**Wähle eine Aufgabe oder Prüfung aus deiner Lehre** und analysiere sie mit den [5 Leitfragen](../02-ki-und-lernen/5-leitfragen/). *Falls du keine eigene Aufgabe mitgebracht hast, nutze eines der [Fallstudien-Szenarien](./fallstudien/).*
 
 | Frage | Deine Einschätzung |
 |-------|-------------------|
 | 1. Geht es primär ums **Lernen**? | |
-| 2. Werden noch **Grundlagen** aufgebaut? | |
-| 3. Muss **internes Wissen** nachgewiesen werden? | |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen) | |
+| 3. Welche dieser Operationen würde **KI übernehmen**? | |
+| 4. Werden noch **Grundlagen** aufgebaut? | |
+| 5. Arbeiten Studierende **zuerst selbst**, bevor KI ins Spiel kommt? | |
 
 **Dann identifiziere:**
 
-- Wo könnte KI die **lernrelevante kognitive Verarbeitung** eliminieren?
-- Welche **eine Änderung** würde produktive Anstrengung bewahren?
+- Welche der identifizierten **Operationen** könnte KI übernehmen?
+- Welche **eine Änderung** würde diese Operationen schützen?
 
 **Notiere:**
 
@@ -113,7 +113,7 @@ Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und
 
 ### Handouts
 
-- [Das 5-Fragen-Framework](./5-fragen-framework/)
+- [Die 5 Leitfragen](../02-ki-und-lernen/5-leitfragen/)
 - [Lernstrategien aus Make it Stick](../resources/handout-make-it-stick/)
 
 ### Vertiefung
@@ -123,7 +123,7 @@ Das Ziel war nicht, die perfekte Aufgabe zu entwerfen, sondern durch Analyse und
 
 ### Vertiefung: KI-Agents als Lernunterstützung (optional)
 
-Wenn deine 5-Fragen-Analyse ergeben hat, dass eine Versuch-dann-Prüfe-Struktur mit KI-Unterstützung sinnvoll wäre, helfen dir diese Seiten bei der pädagogischen Entscheidung: Ergibt ein Agent Sinn, und wenn ja, welches Verhalten muss er zeigen?
+Wenn deine Analyse mit den 5 Leitfragen ergeben hat, dass eine Versuch-dann-Prüfe-Struktur mit KI-Unterstützung sinnvoll wäre, helfen dir diese Seiten bei der pädagogischen Entscheidung: Ergibt ein Agent Sinn, und wenn ja, welches Verhalten muss er zeigen?
 
 - [Agent-Template: Analyse & Anpassung](./agent-template/): Entscheidungshilfe, wann sich ein Agent lohnt und wann nicht
 - [Agent-Beispiele: Lernstrategien illustriert](../resources/agent-beispiele/): Konzeptillustrationen für verschiedene Strategien

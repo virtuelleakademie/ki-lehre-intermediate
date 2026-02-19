@@ -138,7 +138,7 @@ Präsentiere die Slides. Kernbotschaften:
 5. **"The Beach, Not the Ant"**: Lernumgebung gestalten statt Studierende kontrollieren
 6. **Bounded Rationality**: Studierende sind rational. Den Strand umgestalten.
 7. **Ungleiche Wirkung**: Expertise Reversal Effect → Schwächere werden überproportional geschädigt
-8. **5-Fragen-Framework**: Kurzübersicht als Brücke zu Teil 3
+8. **5 Leitfragen**: Kurzübersicht als Brücke zu Teil 3
 
 ### 3 Diagnose-Fragen (2 Min)
 
@@ -163,7 +163,7 @@ Direkt nach den drei Erkenntnissen aus dem Worked Example:
 - "Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?"
 - Optional (wenn 30 Sekunden übrig): "Vergleicht eure Formulierungen kurz mit dem Nachbarn."
 
-**Übergang:** "Im Worked Example habt ihr gesehen, wie das Framework eine Aufgabe Schritt für Schritt analysiert. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
+**Übergang:** "Im Worked Example habt ihr gesehen, wie die 5 Leitfragen eine Aufgabe Schritt für Schritt analysieren. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
 
 **Timing-Check:** Du solltest bei ca. 10:40 sein.
 
@@ -187,8 +187,8 @@ Genuine Pause. Nichts geplant.
 
 ### Gedächtnis-Aktivierung (2 Min)
 
-- "Versucht, die 5 Fragen des Frameworks aus dem Gedächtnis zu notieren. Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage. Lücken sind willkommen: Sie zeigen euch, wo ihr bei der Anwendung besonders aufmerksam sein solltet."
-- Dann vergleichen mit dem [5-Fragen-Framework](../../03-praxis/5-fragen-framework/)
+- "Versucht, die 5 Leitfragen aus dem Gedächtnis zu notieren. Es geht nicht um exakte Formulierungen, sondern um den Kern jeder Frage. Lücken sind willkommen: Sie zeigen euch, wo ihr bei der Anwendung besonders aufmerksam sein solltet."
+- Dann vergleichen mit den [5 Leitfragen](../../02-ki-und-lernen/5-leitfragen/)
 - "Wo sind die grössten Unterschiede? Genau diese Stellen sind die produktivsten Lernmomente."
 
 ### Aktivität: THINK-PAIR-SHARE mit Advocatus Diaboli (33 Min)
@@ -196,9 +196,9 @@ Genuine Pause. Nichts geplant.
 **THINK (10 Min, analog)**
 
 - "Bildschirme für einen Moment schliessen. Analysiert eure Aufgabe auf Papier."
-- Alle arbeiten individuell an ihrer eigenen Aufgabe mit dem 5-Fragen-Framework
+- Alle arbeiten individuell an ihrer eigenen Aufgabe mit den 5 Leitfragen
 - Wer keine hat: Fallstudien-Szenario nehmen
-- Geh durch den Raum und hilf bei Fragen zum Framework
+- Geh durch den Raum und hilf bei Fragen zu den Leitfragen
 - Für Disziplinen, die nicht in den Fallstudien vorkommen, bei Bedarf Brücken bauen:
     - Pflege: "Klinisches Reasoning funktioniert gleich wie die medizinische Fallstudie: Erst eigene Hypothese, dann vergleichen."
     - Technik: "Versuch-dann-Prüfe entspricht dem Engineering Design Cycle: Prototyp, testen, iterieren."
@@ -267,7 +267,7 @@ Ja, und dafür brauchen sie Fachkompetenz. Das Evaluationsparadox zeigt: Kompete
 
 ### "Das funktioniert in meinem Fach nicht."
 
-Das Framework ist bewusst fachunabhängig formuliert. In den bisherigen Workshops haben Teilnehmende aus Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung es auf ihre Aufgaben anwenden können. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In Teil 3 werden die Teilnehmenden das Framework auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
+Die Leitfragen sind bewusst fachunabhängig formuliert. In den bisherigen Workshops haben Teilnehmende aus Programmierung, Pflege, Wirtschaft, Sozialarbeit und Gestaltung es auf ihre Aufgaben anwenden können. Das Worked Example (annotierte Bibliografie) zeigt eine typische geisteswissenschaftliche Aufgabe, aber das Prinzip "Prozess statt Produkt prüfen" gilt überall. In Teil 3 werden die Teilnehmenden die Leitfragen auf ihre eigenen Aufgaben aus verschiedenen Disziplinen anwenden und in der Advocatus-Diaboli-Phase sehen, dass die Muster sich über Fachgrenzen hinweg wiederholen.
 
 ### "Wie kontrolliere ich, ob Studierende wirklich selbst arbeiten?"
 
@@ -275,11 +275,11 @@ Das ist die falsche Frage (Beach, Not the Ant). Statt Kontrolle: Aufgaben so ges
 
 ### "Meine Kolleg:innen machen das nicht. Bringt es etwas, wenn nur ich das umsetze?"
 
-Ja, aber begrenzt. Eine gut gestaltete Aufgabe in einem Kurs ist besser als keine. Langfristig braucht es Abstimmung im Department. Der Workshop vermittelt ein Framework, das sich in Teamgesprächen nutzen lässt: "Wo auf dem Offloading-Outsourcing-Spektrum stehen unsere Aufgaben?"
+Ja, aber begrenzt. Eine gut gestaltete Aufgabe in einem Kurs ist besser als keine. Langfristig braucht es Abstimmung im Department. Der Workshop vermittelt Leitfragen, die sich in Teamgesprächen nutzen lassen: "Wo auf dem Offloading-Outsourcing-Spektrum stehen unsere Aufgaben?"
 
 ### "Wie viel Mehrarbeit bedeutet das?"
 
-Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe dauert 15-20 Minuten. Das Redesign kann aufwändiger sein (Suchprotokoll, In-Class-Synthese). Strategie: Mit einer Aufgabe anfangen, nicht alle gleichzeitig umstellen. Und: Templates und Diagnose-Fragen wiederverwenden.
+Ehrlich: Die erste Umstellung kostet Zeit. Die Analyse mit den 5 Leitfragen dauert 15-20 Minuten. Das Redesign kann aufwändiger sein (Suchprotokoll, In-Class-Synthese). Strategie: Mit einer Aufgabe anfangen, nicht alle gleichzeitig umstellen. Und: Templates und Diagnose-Fragen wiederverwenden.
 
 
 ## Varianten
@@ -300,5 +300,5 @@ Ehrlich: Die erste Umstellung kostet Zeit. Die 5-Fragen-Analyse einer Aufgabe da
 ### Wenn die Gruppe KI-skeptisch ist
 
 - Teil 1 betonen: "Es geht um Lernen, nicht um KI"
-- Im Worked Example: herausarbeiten, dass das Framework auch "Keine KI nötig" als Ergebnis validiert
+- Im Worked Example: herausarbeiten, dass die Leitfragen auch "Keine KI nötig" als Ergebnis validieren
 - Die Advocatus-Diaboli-Phase funktioniert besonders gut mit KI-skeptischen Gruppen, da sie den Fokus auf Aufgabendesign legt

@@ -1,15 +1,15 @@
 ```{r}
 #| label: fig-cognitive-load
 #| echo: false
-#| fig-cap: "Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
+#| fig-cap: "Schematische Darstellung: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Die Prozentwerte sind illustrativ, nicht empirisch gemessen. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
 #| fig-width: 10
 #| fig-height: 6
 source(here::here("resources/viz-setup.R"))
 
 cognitive_load_data <- tibble(
   scenario = factor(
-    rep(c("Schlechtes Design", "Gutes Design", "KI-Outsourcing"), each = 4),
-    levels = c("Schlechtes Design", "Gutes Design", "KI-Outsourcing")
+    rep(c("Schlechtes Design", "Gutes Design", "Outsourcing"), each = 4),
+    levels = c("Schlechtes Design", "Gutes Design", "Outsourcing")
   ),
   load_type = factor(
     rep(c("Extrinsische Belastung", "Intrinsische Belastung",
@@ -50,7 +50,7 @@ ggplot(cognitive_load_data, aes(x = scenario, y = percentage, fill = load_type))
   annotate(
     "text",
     x = 3.45, y = 102,
-    label = "Kapazitätsgrenze",
+    label = "",
     size = 3.5, hjust = 0  ) +
   scale_fill_manual(values = load_colors, name = "Belastungsart") +
   scale_y_continuous(
@@ -60,7 +60,7 @@ ggplot(cognitive_load_data, aes(x = scenario, y = percentage, fill = load_type))
   ) +
   labs(
     title = "Verteilung der kognitiven Belastung",
-    subtitle = "Arbeitsgedächtniskapazität ist begrenzt\u2002\u2013\u2002die Verteilung macht den Unterschied",
+    subtitle = "Arbeitsgedächtniskapazität ist begrenzt",
     x = NULL,
     y = "Arbeitsgedächtniskapazität"
   ) +

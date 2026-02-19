@@ -71,18 +71,18 @@ Wir unterscheiden zwischen [@gearyEvolutionarilyInformedEducation2008; @swellerD
 
 :::{.fragment}
 ::: {.callout-important}
-Akademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben [@kirschnerWhyMinimalGuidance2006].
+Akademische Fähigkeiten profitieren typischerweise stark von expliziter Anleitung und strukturiertem Üben [@kirschnerWhyMinimalGuidance2006]. Wie viel Anleitung optimal ist, hängt vom Expertise-Niveau ab (→ Expertise Reversal Effect).
 :::
 :::
 
 
-## Biologisch primär vs. sekundär
+<!-- ## Biologisch primär vs. sekundär
 
-{{< include ../../resources/figures/fig-primaer-sekundaer.qmd >}}
+{{< include ../../resources/figures/fig-primaer-sekundaer.qmd >}} -->
 
 
 ## Experten vs. Anfänger
-
+<!-- #TODO: we haven't introduced the concept of working memory yet -->
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -106,11 +106,13 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 | **Verarbeiten** | Schritt-für-Schritt       | Automatische Prozeduren             |
 | **Wissen**      | Isolierte Fakten          | Vernetzte Schemata                  |
 
+<!-- Here I need an example for step-by -step processing, weak methods,
+means-end analysis, etc -->
 
 ## Gleiche Hardware, unterschiedliche Software
 
 {{< include ../../resources/figures/fig-novice-expert-schemas.qmd >}}
-
+<!-- Der Weg von links nach rechts *ist Lernen* -->
 
 ## Was organisierte Schemata ermöglichen {.center}
 
@@ -137,6 +139,7 @@ Anfänger sehen **Oberflächenmerkmale**. Experten erkennen die **Tiefenstruktur
 **Kernprinzip**: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung.
 :::
 
+<!-- This figure needs explaining -->
 
 ## Zwei Quellen kognitiver Belastung
 
@@ -145,18 +148,21 @@ Anfänger sehen **Oberflächenmerkmale**. Experten erkennen die **Tiefenstruktur
 **Intrinsisch**
 
 Komplexität des Lernstoffs selbst (Elementinteraktivität)
-
-*Begrenzt steuerbar (Sequenzierung)*
+<!-- Wie viele Elemente müssen gleichzeitig in Beziehung zueinander verarbeitet werden -->
+*Begrenzt steuerbar (z.B. durch Sequenzierung)*
 :::
 
 :::{.column width="50%"}
 **Extrinsisch**
-
+<!-- Schlechtes Design, Ablenkung, unnötige Komplexität -->
 Wie Material präsentiert wird
 
 *Durch Design **minimierbar***
 :::
 ::::
+
+<!-- Das Ziel ist, Raum zu schaffen für *germane processing*, also für die
+lernrelevante Verarbeitung, die Schemata aufbaut -->
 
 :::{.fragment}
 ::: {.callout-tip}
@@ -172,27 +178,64 @@ Wie Material präsentiert wird
 
 ## Das Lerndilemma
 
+::::{.columns}
+:::{.column width="50%"}
 Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.
 
 :::{.fragment}
 Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für Expertise-Entwicklung.
 :::
 
+
+:::
+
+:::{.column width="50%"}
+![](../../assets/images/fig-cognitive-load.png)
+:::
+::::
 :::{.fragment}
 ::: {.callout-warning}
 **Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen.
 :::
 :::
 
+## Schwierig ≠ Komplex {.smaller}
+<!-- Here we use the terms offloading and outsourcing, but these haven't been
+properly introduced yet -->
+Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
 
-## Der Expertise Reversal Effect
+| | **Schwierig, nicht komplex** | **Komplex** |
+|---|---|---|
+| **Elementinteraktivität** | Niedrig | Hoch |
+| **Was passiert** | Viele Elemente, die *unabhängig* gelernt werden | Wenige Elemente, die *alle gleichzeitig* verarbeitet werden müssen |
+| **Beispiel** | Fachvokabular, Periodensystem, Quellenformate | Argumentation aufbauen, Gleichung lösen, Fall analysieren |
+| **KI-Empfehlung** | Offloading möglich | Outsourcing verhindern |
+
+:::{.fragment}
+::: {.callout-important}
+**Die Konsequenz:** Schütze die *komplexen* Aufgabenanteile (hohe Elementinteraktivität) vor KI-Outsourcing. Die *schwierigen* Routineanteile (niedrige Elementinteraktivität) können delegiert werden.
+:::
+:::
+<!-- We need an example here -->
+
+## Der Expertise Reversal Effect {.smaller}
 
 **Was Anfängern hilft, schadet Experten, und umgekehrt** [@kalyugaExpertiseReversalEffect2009]
 
+
+::::{.columns}
+:::{.column width="50%"}
 | Prinzip | Für Anfänger | Für Fortgeschrittene |
 |---------|--------------|----------------------|
 | **Worked Examples** | Reduziert kognitive Last | Redundante Information erzeugt extrinsische Last |
 | **Problem Solving** | Überfordert Arbeitsgedächtnis | Verfeinert und vernetzt bestehende Schemata |
+
+:::
+
+:::{.column width="50%"}
+![](../../assets/images/fig-expertise-reversal.png)
+:::
+::::
 
 :::{.fragment}
 ::: {.callout-important}
@@ -200,80 +243,14 @@ Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für 
 :::
 :::
 
-
-## Die KI-Falle {.center}
-
-KI-Tools bieten **permanentes Scaffolding**, das nie abgebaut wird.
-
-:::{.fragment}
-Sie verletzen das Fading-Prinzip systematisch.
-:::
-
-
-## Expertise Reversal Effect
-
-{{< include ../../resources/figures/fig-expertise-reversal.qmd >}}
-
-
-## CLT und KI: Was passiert bei Outsourcing? {.smaller}
-
-**KI optimiert für Produktion statt Lernen**
-
-| Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
-|--------|---------|--------|
-| **Intrinsisch** | Bleibt konstant | Lernende begegnen der Komplexität nicht |
-| **Extrinsisch** | Variabel | Minimiert |
-| **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
-
-:::{.fragment}
-Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
-:::
-
-
-## CLT und KI: Der Vergleich
-
-{{< include ../../resources/figures/fig-outsourcing-comparison.qmd >}}
-
-
-## CLT und KI: Die Nuance
-
-::: {.callout-note}
-Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
-:::
-
-:::{.fragment}
-Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung **erhalten bleiben**.
-:::
-
-:::{.fragment}
-Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
-:::
-
-
-## Warum Outsourcing Schemabildung verhindert
-
-Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
-
-1. Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird
-2. Ohne aktive Verarbeitung findet keine Konsolidierung statt
-3. Prozedurale Fertigkeiten entstehen nur durch Übungszyklen
-4. Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen
-
-:::{.fragment}
-::: {.callout-warning}
-Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
-:::
-:::
-
-
 ## Wie Expertise entwickelt wird {.smaller}
 
 **Von Fakten zu automatisierten Prozeduren** [@andersonAcquisitionCognitiveSkill1982]
 
 | Gedächtnissystem | Beschreibung | Beispiel |
 | ---------------- | ------------ | -------- |
-| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | Regel kennen: "5 von beiden Seiten subtrahieren" |
-| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | Gleichung sehen → sofort umstellen |
+| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | $x + 5 = 12$ → Regel abrufen: "5 von beiden Seiten subtrahieren" → $x = 7$ |
+| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $x + 5 = 12$ → sofort sehen: $x = 7$ |
 
 :::{.fragment}
 ### Der Weg zur Expertise
@@ -282,14 +259,16 @@ Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
 :::
 
 
-## Der Weg zur Expertise
+<!-- ## Der Weg zur Expertise
 
-{{< include ../../resources/figures/fig-wissenskompilation.qmd >}}
+{{< include ../../resources/figures/fig-wissenskompilation.qmd >}} -->
 
 
 ## Warum Abrufpraxis funktioniert {.smaller}
 
-**Abruf misst nicht nur Lernen, er *erzeugt* Lernen** [@roedigerCriticalRoleRetrieval2011]
+Abruf (Retrieval) ist eine der wirksamsten Formen dieser Übungszyklen, denn Abruf misst nicht nur Lernen, er *erzeugt* Lernen [@roedigerCriticalRoleRetrieval2011]
+
+<br>
 
 | Mechanismus | Wirkung |
 |-------------|---------|
@@ -386,22 +365,25 @@ Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
 :::
 
 
-## Das Lernparadox: Die Übersicht
+## Das Lernparadox: Die Übersicht {.smaller}
 
-{{< include ../../resources/figures/fig-lernparadox.qmd >}}
+::::{.columns}
+:::{.column width="50%"}
+![](../../assets/images/fig-lernparadox.png)
+:::
 
-
-## Die gefährliche Umkehrung {.center}
-
+:::{.column width="50%"}
 Wir verwechseln **Verarbeitungsflüssigkeit** (wie leicht sich etwas anfühlt) mit **Lernerfolg** [@bjorkMemoryMetamemoryConsiderations1994].
 
-. . .
-
+:::{.fragment}
 Produktive Anstrengung **fühlt sich schwierig an**, signalisiert aber, dass lernrelevante Prozesse aktiv sind.
+:::
 
-. . .
-
+:::{.fragment}
 Wenn es sich anstrengend anfühlt, ist das meistens ein gutes Zeichen.
+:::
+:::
+::::
 
 
 ## Was wir jetzt wissen {.center}

@@ -1,0 +1,296 @@
+---
+title: "Die 5 Leitfragen zur Aufgabengestaltung"
+subtitle: "Aufgaben systematisch auf lernrelevante kognitive Verarbeitung prüfen"
+---
+
+
+## Überblick
+
+Diese Leitfragen helfen, bestehende Aufgaben und Prüfungen systematisch darauf zu prüfen, ob sie **lernrelevante kognitive Verarbeitung** bewahren, oder ob KI-Tools das Denken der Studierenden ersetzen können.
+
+Die fünf Leitfragen haben unterschiedliche Funktionen: 
+
+| Frage | Funktion | Ergebnis |
+|:-----:|----------|----------|
+| 1 | **Filtern** | Lern- vs. Leistungskontext |
+| 2 | **Analysieren** | Kognitive Operationen der Aufgabe identifizieren |
+| 3 | **Anwenden** | Welche Operationen würde KI übernehmen? |
+| 4 | **Modulieren** | Strenge nach Kompetenzniveau anpassen |
+| 5 | **Absichern** | Eigener Versuch vor KI-Einsatz |
+
+Der Ablauf als Entscheidungsbaum:
+
+{{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
+
+Diese Leitfragen sind kein etabliertes Modell aus der Literatur, sondern eine Synthese, die ich aus den lernwissenschaftlichen Grundlagen in Teil 1 für diesen Workshop-Kontext konstruiert habe. Der Ausgangspunkt war ein praktisches Designproblem: Pauschale KI-Policies ("Verbieten" oder "Erlauben") helfen Lehrenden wenig, wenn sie bei einer konkreten Aufgabe entscheiden müssen, ob und wie KI eingesetzt werden soll. Die fünf Leitfragen verbinden die breiteste Unterscheidung (Lern- vs. Leistungskontext) mit einer konkreten Aufgabenanalyse (welche Denkarbeit ist lernrelevant?) und praktischen Gestaltungsentscheidungen. Jede Frage ist direkt an einen kognitiven Mechanismus aus Teil 1 gebunden, sodass die Empfehlungen nicht auf Intuition beruhen, sondern auf der Architektur des Lernens selbst.
+
+
+## Die 5 Leitfragen
+
+### Frage 1: Geht es primär ums Lernen?
+
+**Unterscheide Lern- von Leistungskontexten.**
+
+- **Lernkontext** (Übungen, Hausaufgaben, Selbststudium): Der Prozess zählt, nicht das Produkt. Die kognitive Arbeit der Studierenden *ist* das Lernziel.
+- **Leistungskontext** (Prüfungen, professionelle Aufgaben): Das Ergebnis zählt. KI-Unterstützung kann hier sinnvoll sein.
+
+Wenn die Aufgabe primär dem Lernen dient, muss die kognitive Arbeit bei den Studierenden bleiben. Die lernrelevante Verarbeitung (Abruf, Elaboration, Schemabildung) ist das eigentliche Ziel, nicht das Produkt. Nächster Schritt: herausfinden, *welche* Denkarbeit die Aufgabe verlangt.
+
+
+### Frage 2: Welche Denkarbeit verlangt die Aufgabe?
+
+**Identifiziere die kognitiven Operationen, die die Aufgabe von den Studierenden verlangt.**
+
+Vier Operationen bilden die Kernprozesse der Schemabildung ab. Sie sind eine Zusammenfassung der Lernmechanismen aus Teil 1. Wenn eine dieser Operationen wegfällt, geht ein spezifischer Lernmechanismus verloren.
+
+| Operation | Was Studierende tun | Wozu es dient |
+|-----------|-------------------|---------------|
+| **Abrufen** | Wissen aus dem Gedächtnis aktivieren | Festigt Schemata (Retrieval Practice) |
+| **Generieren** | Eigenen Versuch produzieren | Baut neue Verbindungen auf (Generation Effect) |
+| **Verknüpfen** | Vergleichen, einordnen, integrieren, erklären | Erweitert und vernetzt Schemata |
+| **Überwachen** | Eigene Arbeit prüfen, Fehler erkennen | Stärkt metakognitive Kontrolle |
+
+#### Die vier Operationen im Detail
+
+**Abrufen** bedeutet, gespeichertes Wissen ohne externe Hilfe zu aktivieren. Jeder erfolgreiche Abruf stärkt die Gedächtnisspur und macht zukünftigen Abruf schneller und zuverlässiger. Deshalb erzeugt Abrufpraxis (Testing Effect) andere Lernergebnisse als blosses Wiederlesen, selbst wenn die Information identisch ist: Der Abrufversuch selbst verändert das Gedächtnis. Liefert die KI die Antwort, wird kein Abrufprozess im Gedächtnis der Studierenden ausgelöst. Die Aktivierungsstärkung bleibt aus, und nicht abgerufenes Wissen wird mit der Zeit funktional unzugänglich.
+
+Beim **Generieren** produzieren Studierende aus eigenen Ressourcen eine Antwort, Lösung oder Hypothese, bevor sie externe Inputs sehen. Das ist aufwendiger als blosser Abruf, weil vorhandene Wissenselemente zu einer neuen Konfiguration zusammengesetzt werden müssen. Selbst generiertes Material wird besser behalten als passiv gelesenes (Generation Effect), weil die Erzeugung eine tiefere Verarbeitung der Beziehungen zwischen Elementen erzwingt. Generieren ist der Beginn der Wissenskompilation. Liefert die KI die Lösung, durchlaufen die Studierenden diesen Zusammensetzungsprozess nie. Jeder eigene Generierungsversuch, auch ein fehlerhafter, trainiert die Prozeduren, die diesen Zusammenbau steuern. Ein fehlerhafter Versuch mit anschliessendem Feedback ist weitaus produktiver als kein Versuch.
+
+Von den vier Operationen ist **Verknüpfen** am engsten mit der Schemabildung verbunden: mehrere Elemente, Ideen oder Perspektiven gleichzeitig in Beziehung setzen, vergleichen, einordnen, integrieren, sich selbst erklären. Schemata *sind* relationale Strukturen. Elementinteraktivität [@chenCognitiveLoadTheory2023] beschreibt genau diese Anforderung: Hohe Elementinteraktivität bedeutet, dass viele Elemente gleichzeitig verarbeitet werden müssen. Wenn Studierende zwei Argumente vergleichen, ein Modell auf Daten anwenden oder Befunde aus mehreren Quellen zu einer Synthese zusammenführen, bauen sie die relationale Struktur auf, die ein Schema ausmacht. Wenn KI die Integration übernimmt (die Synthese schreibt, den Vergleich zieht, die Verbindung herstellt), erhalten die Studierenden das *Produkt* relationaler Verarbeitung, ohne die Verarbeitung selbst geleistet zu haben. Die relationale Struktur existiert im KI-Output, aber nicht im Langzeitgedächtnis der Studierenden. Das ist die am schwersten erkennbare Form von Outsourcing, weil das Produkt nach Verständnis *aussieht*.
+
+Die eigene Arbeit gegen interne Kriterien prüfen, Fehler erkennen, Konfidenz einschätzen, das eigene Wissen kalibrieren: Das ist **Überwachen**. Genaues Überwachen ist selbst eine Kompetenz, die sich mit Fachexpertise entwickelt. Anfänger sind schlechte Kalibrierer, weil ihnen die Schemata fehlen, die als Bewertungskriterien dienen (das ist die direkte Verbindung zum Evaluationsparadox). Übernimmt die KI die Evaluation (Grammatikprüfung, Logikcheck, Faktencheck), werden die eigenen Fehlererkennungsprozesse nicht trainiert. Langfristig entsteht Abhängigkeit von externer Überwachung. Metakognitive Kalibrierung ist einer der stärksten Prädiktoren für effektives selbstreguliertes Lernen.
+
+#### Wie analysiert man eine Aufgabe?
+
+Nimm die Aufgabenstellung. Für jeden Schritt, den Studierende durchführen müssen, frage: Welche kognitive Operation ist hier primär gefordert? Die meisten Aufgaben erfordern mehrere Operationen. Die Frage ist: Welche davon tragen das Lernen?
+
+*Beispiel Fallstudie Pflege:* Studierende müssen Symptome **abrufen**, eine Differentialdiagnose **generieren**, Befunde **verknüpfen** und ihr Urteil **überwachen**. Alle vier Operationen sind lernrelevant. Wenn KI die Diagnose liefert, werden Generieren und Verknüpfen eliminiert.
+
+::: {.callout-note appearance="simple"}
+Diese vier Operationen sind analytisch unterscheidbar, treten aber selten isoliert auf. Ein einzelner Aufgabenschritt kann gleichzeitig Abruf, Generierung und Überwachung erfordern. Die Analyse fragt: Welche Operation ist die *primäre* kognitive Anforderung bei jedem Schritt? Erwarte keine sauberen Eins-zu-eins-Zuordnungen. Der Punkt ist nicht perfekte Klassifikation, sondern die kognitive Struktur sichtbar genug zu machen, um die richtigen Fragen stellen zu können.
+:::
+
+Ein oft übersehener Punkt: Die Operationen beschreiben, was im Kopf der *Studierenden* passiert, nicht was die Aufgabenanleitung sagt. Dieselbe Aufgabe kann je nach Vorwissen unterschiedliche Operationen erfordern. Was für Anfänger Generieren ist, kann für Fortgeschrittene nur Abrufen sein (weil die Prozedur bereits kompiliert ist). Deshalb kommt Frage 4 *nach* der Aufgabenanalyse: Die Antworten auf Frage 2 hängen vom Kompetenzniveau ab.
+
+Diese Operationen *sind* das Lernen. Was davon wegfällt, fehlt im Kopf der Studierenden.
+
+
+### Frage 3: Welche dieser Operationen würde KI übernehmen?
+
+**Gegeben die Operationen aus Frage 2: Welche davon würde KI anstelle der Studierenden durchführen?**
+
+Die Antwort ist selten pauschal "alle" oder "keine". Zerlege die Aufgabe in Teilschritte und analysiere, welche Operationen bei jedem Schritt betroffen sind:
+
+- **Hohe Elementinteraktivität** (viele Elemente müssen gleichzeitig in Beziehung gesetzt werden): Argumentation aufbauen, Modell anwenden, Synthese erstellen, Fall analysieren. Hier stecken typischerweise **Verknüpfen** und komplexes **Generieren**. Diese Operationen sind lernrelevant und müssen geschützt werden.
+- **Niedrige Elementinteraktivität** (Elemente können unabhängig verarbeitet werden): Quellen formatieren, Fachbegriffe nachschlagen, Daten bereinigen, Grammatikprüfung. Hier handelt es sich um Routineanteile, die delegierbar sind.
+
+Diese Zerlegung macht die Analyse trennscharf: Du schützt die Aufgabenanteile, die Schemata aufbauen, und entlastest Studierende von Routinearbeit, die keine lernrelevante Verarbeitung erfordert.
+
+#### Reality Check
+
+Ein praktischer Weg: Gib die Aufgabe testweise an ein KI-Tool. Vergleiche, was es produziert, mit der Operationsliste aus Frage 2. Welche Operationen hat die KI durchgeführt? Genau diese sind gefährdet.
+
+#### Aufgabenformat als Schutz
+
+Manche Aufgabenformate machen Outsourcing *architektonisch unmöglich*, nicht bloss unerwünscht: Mündliche Prüfungen schützen Abrufen. In-Class-Writing schützt Generieren. Erklärungen in eigenen Worten erzwingen Verknüpfen. Spontane Anwendungsfragen erfordern alle vier Operationen in Echtzeit. Wenn KI genau die Operationen übernehmen würde, die das Lernen tragen, kann ein Formatwechsel die wirksamste Intervention sein.
+
+::: {.callout-warning}
+Manchmal übernimmt KI nur einen Teil der Aufgabe. Oft ist genau dieser Teil der lernrelevante. Deshalb reicht die Frage "Kann KI die Aufgabe?" nicht. Die richtige Frage ist: "Welche *Operationen* übernimmt KI?"
+:::
+
+
+### Frage 4: Werden noch Grundlagen aufgebaut?
+
+**Wo stehen die Studierenden auf dem Anfänger-Experten-Kontinuum?**
+
+Die Aufgabenanalyse aus Frage 2 liefert für Anfänger und Fortgeschrittene unterschiedliche Ergebnisse. Der Mechanismus dahinter ist Elementinteraktivität [@chenCognitiveLoadTheory2023]: Dasselbe Material hat für Anfänger eine hohe Elementinteraktivität (viele Elemente müssen gleichzeitig in Beziehung zueinander verarbeitet werden), für Experten eine niedrige (das Ganze ist ein Chunk im Langzeitgedächtnis).
+
+- **Grundlagenphase** (Anfänger): Die in Frage 2 identifizierten Operationen, besonders Verknüpfen, sind genau die Prozesse, die Schemata aufbauen. Diese Operationen müssen bei den Studierenden bleiben.
+- **Fortgeschrittene Phase**: Studierende haben bereits Schemata aufgebaut. Sie können KI-Output einordnen und gezielt nutzen, weil sie eigene Kriterien haben.
+
+"Grundlagen aufbauen" heisst: Die Elementinteraktivität ist für diese Studierenden noch hoch, und die kognitive Arbeit, diese Beziehungen zu verarbeiten, *ist* das Lernen. Wenn KI diese Arbeit übernimmt, entsteht kein Schema. Das ist auch die direkte Verbindung zum Evaluationsparadox: Wer die Schemata noch nicht hat, kann KI-Output nicht beurteilen, und braucht die Operationen deshalb erst recht selbst.
+
+
+### Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?
+
+**Die Minimalanforderung für jede Aufgabe, bei der KI eine Rolle spielt:**
+
+1. Studierende durchlaufen die Kernoperationen *zuerst* selbst (Hypothese generieren, Lösung skizzieren, Argument formulieren)
+2. *Dann* wird mit KI verglichen, geprüft oder erweitert
+
+Der eigene Versuch aktiviert den Generierungseffekt (internes Wissen wird abgerufen und organisiert), und der anschliessende Vergleich erzeugt Selbsterklärung (Studierende müssen Unterschiede identifizieren und einordnen). Ohne eigenen Versuch gibt es nichts, woran KI-Feedback ansetzen kann.
+
+#### Vergleichshinweise: Was die Prüfe-Phase wirksam macht
+
+Die Prüfe-Phase funktioniert nur, wenn Studierende wissen, *worauf* sie vergleichen sollen. Ohne explizite Vergleichshinweise vergleichen Lernende Oberflächenmerkmale (Länge, Stil, Vokabular) statt der lernrelevanten Tiefenstruktur (Argumentationslogik, Annahmen, kausale Zusammenhänge). Die Forschung zur Selbsterklärung [@chiElicitingSelfExplanationsImproves1994] zeigt: Produktiver Vergleich erfordert strukturierte Anleitung.
+
+**Statt:** "Vergleiche deinen Text mit dem KI-Text"
+**Besser:** "Vergleiche die *kausale Argumentationskette* deines Textes mit der KI-Version. Wo unterscheiden sich die Annahmen?"
+
+Ohne solche Hinweise bleibt der Vergleich beliebig. Mit ihnen wird er zum gezielten Lernmoment. Vergleichshinweise sind kein optionaler Zusatz, sondern eine Voraussetzung dafür, dass die Reihenfolge "erst selbst, dann KI" ihren Zweck erfüllt.
+
+#### Drei Optionen für die Prüfe-Phase
+
+Nicht jede Referenz in der Prüfe-Phase ist gleich verlässlich. Die Wahl hängt vom Kontext und vom Kompetenzniveau ab:
+
+| Option | Verlässlichkeit | Skalierbarkeit | Am besten geeignet für |
+|--------|----------------|----------------|------------------------|
+| **1. Geprüfte Musterlösung** | Hoch | Niedrig (muss erstellt werden) | Kritische Lerninhalte, echte Anfänger |
+| **2. Strukturiertes Peer-Feedback** | Mittel (Peers können irren, aber Diskussion erzeugt Elaboration) | Mittel | Fortgeschrittene, die von Perspektivenwechsel profitieren |
+| **3. KI-Vergleich** | Variabel (kann falsch sein; Evaluationsparadox greift) | Hoch | Fortgeschrittene mit genug Vorwissen, um Fehler zu erkennen |
+
+Für Anfänger ist Option 1 oft die sicherste Wahl. KI-Vergleich (Option 3) ist am skalierbarsten, birgt aber das Risiko, dass Studierende ihre korrekte Lösung zugunsten einer falschen KI-Antwort "korrigieren", weil ihnen die Schemata zur Beurteilung fehlen.
+
+::: {.callout-warning}
+### Wann "zuerst selbst" nicht funktioniert
+
+**Wenn Studierende zu wenig Vorwissen haben, um einen sinnvollen Versuch zu generieren.** Die Reihenfolge "erst selbst, dann KI" setzt voraus, dass Studierende genug Schemata haben, um überhaupt etwas Substanzielles zu produzieren. Bei echten Anfängern, die noch keine Grundlagen aufgebaut haben (Leitfrage 4), erzeugt der offene Versuch Frustration statt produktiver Anstrengung. Cognitive Load Theory empfiehlt in dieser Phase einen anderen Weg: zuerst ein vollständig ausgearbeitetes Beispiel studieren, dann ein teilweise bearbeitetes Problem vervollständigen (Completion Problem), und erst mit wachsender Kompetenz zum freien Versuch übergehen [@swellerCognitiveLoadTheory2024]. Hier liegt auch eine Chance für KI: Ein Agent, der **ausgearbeitete Beispiele generiert** (statt Fragen zu stellen), kann Lehrpersonen dabei unterstützen, personalisierte Worked Examples für viele Studierende bereitzustellen. Das Design solcher Agents erfordert allerdings sorgfältige Qualitätskontrolle und ist Thema des [Advanced Workshops](https://virtuelleakademie.github.io/ki-lehre-advanced/).
+
+**Wenn die Qualität des Versuchs nicht gesichert ist.** Der Mechanismus funktioniert nur, wenn der Versuch echte kognitive Anstrengung erfordert. Ein oberflächlicher "erster Versuch", der die formale Anforderung erfüllt, ohne dass Studierende tatsächlich nachdenken, verfehlt den Zweck. Gestalte die Versuch-Phase so, dass das Denken sichtbar wird: handschriftlich, zeitbegrenzt, mit Prozessdokumentation, oder mündlich.
+
+**Wenn die Referenz in der Prüfe-Phase nicht verlässlich ist.** Die Reihenfolge "erst selbst, dann vergleichen" setzt voraus, dass der Vergleichsmassstab korrekt ist. Eine Musterlösung erfüllt das. KI-Output tut es nicht immer: Sprachmodelle produzieren plausible, aber potenziell falsche Antworten. Wer die Fachkompetenz nicht hat, um den Fehler zu erkennen (Evaluationsparadox), kann aus einem fehlerhaften Vergleich das Falsche lernen. Für kritische Lerninhalte kann eine geprüfte Musterlösung die bessere Wahl sein.
+:::
+
+::: {.callout-tip}
+### Prüfe-Phase: Nicht alle Formate sind gleichwertig
+
+Verschiedene Prüfe-Formate stellen unterschiedliche kognitive Anforderungen:
+
+- **Musterlösung zum Selbstvergleich**: Niedrigste Belastung. Studierende vergleichen fokussiert, brauchen aber explizite Vergleichshinweise (siehe oben).
+- **Strukturiertes Peer-Feedback**: Mittlere Belastung. Der soziale Austausch erzeugt zusätzliche Elaboration, erfordert aber Kommunikationskompetenz.
+- **KI-Agent, der Rückfragen stellt**: Höchste Belastung. Studierende müssen *erneut* generieren (Antworten auf die Fragen), was für Fortgeschrittene produktiv ist, Anfänger aber überfordern kann.
+
+Wähle das Prüfe-Format passend zum Kompetenzniveau der Studierenden.
+:::
+
+
+## Theoretische Fundierung
+
+Jede der 5 Fragen ist in den wissenschaftlichen Grundlagen aus Teil 1 verankert:
+
+| Frage | Theoretische Grundlage |
+|-------|------------------------|
+| 1. Geht es ums **Lernen**? | Lernen ≠ Leisten [@bjorkMemoryMetamemoryConsiderations1994]: Produktion korrekter Ergebnisse ist nicht gleich Kompetenzaufbau |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? | Abrufpraxis (Testing Effect), Generierungseffekt, Elaboration und Selbsterklärung, Metakognitives Monitoring: die Mechanismen, die Schemata aufbauen |
+| 3. Welche Operationen würde **KI übernehmen**? | Elementinteraktivität als Analysetool: Aufgabenanteile mit hoher Elementinteraktivität schützen, Routineanteile delegierbar. Evaluationsparadox: Wer die Schemata nicht hat, kann KI-Output nicht beurteilen |
+| 4. Werden noch **Grundlagen** aufgebaut? | Expertise Reversal Effect: Dieselben Operationen haben für Anfänger andere kognitive Kosten als für Experten |
+| 5. Arbeiten Studierende **zuerst selbst**? | Generierungseffekt & Selbsterklärung: Der eigene Versuch aktiviert interne Verarbeitung; der Vergleich erzeugt Elaboration |
+
+Alle fünf Fragen dienen letztlich einem Ziel: **Transfer schützen.** Die Leitfragen stellen sicher, dass Studierende die internen Wissensstrukturen aufbauen, die sie brauchen, um Gelerntes auf neue Situationen anwenden zu können.
+
+### Offloading und Outsourcing aus CLT-Sicht
+
+Die Unterscheidung zwischen Offloading und Outsourcing lässt sich präzise in der Sprache der Cognitive Load Theory formulieren [@chenCognitiveLoadTheory2023]: **Offloading** reduziert *extrinsische* Elementinteraktivität, also die kognitive Arbeit, die nicht zum Lernen beiträgt (Formatierung, Quellensuche, Syntaxprüfung). Die in Frage 2 identifizierten Operationen bleiben bei den Studierenden. **Outsourcing** eliminiert *intrinsische* Elementinteraktivität, also genau die relationale Verarbeitung (Elemente gleichzeitig in Beziehung setzen), die Schemata aufbaut. Diese Präzisierung macht die Grenze zwischen sinnvoller KI-Nutzung und schädlicher KI-Nutzung analytisch bestimmbar statt nur intuitiv.
+
+
+## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
+
+**Ursprüngliche Aufgabe**: "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
+
+Die ersten drei Fragen sind analysiert. Frage 2 zeigt die kognitive Aufgabenanalyse, Frage 3 zeigt, welche Operationen KI übernehmen würde. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.
+
+| Frage | Analyse |
+|-------|---------|
+| 1. Lernen? | Ja, denn es ist eine Hausaufgabe im 2. Semester |
+| 2. Welche Denkarbeit? | **Abrufen** (makroökonomische Grundkonzepte aktivieren: Zinsmechanismus, Kreditmarkt, Angebot-Nachfrage), **Generieren** (eigene kausale Argumentationskette aufbauen), **Verknüpfen** (mehrere Wirkungsketten gleichzeitig in Beziehung setzen: Kreditkosten, Bauinvestitionen, Mietpreise), **Überwachen** (eigene Argumentation auf Lücken prüfen) |
+| 3. Was übernimmt KI? | **Generieren** vollständig (liefert fertige Argumentationskette), **Verknüpfen** grossteils (integriert die Wirkungsketten). **Abrufen** wird umgangen (Studierende müssen Wissen nie aktivieren). **Überwachen** wird illusorisch (ohne eigene Argumentation fehlt der Massstab) |
+| 4. Grundlagen? | *Deine Einschätzung:* ________________________ |
+| 5. Zuerst selbst? | *Deine Einschätzung:* ________________________ |
+
+::: {.pro-tip collapse="true"}
+### Lösung: Fragen 4 und 5
+
+**Frage 4: Werden noch Grundlagen aufgebaut?** Ja. Makroökonomische Modelle werden gerade aufgebaut. Die oben identifizierten Operationen, besonders Verknüpfen, sind genau die Prozesse, durch die makroökonomische Schemata entstehen. Studierende in dieser Phase können KI-Output nicht einordnen, weil ihnen die eigenen Kriterien fehlen.
+
+**Frage 5: Arbeiten Studierende zuerst selbst?** Nein. Es gibt keine eingebaute Phase, in der Studierende zuerst selbst analysieren, bevor sie KI konsultieren.
+
+**Redesign:**
+
+- **Phase 1**: Studierende skizzieren *zuerst* ihre eigene kausale Argumentationskette (handschriftlich oder zeitbegrenzt). Das erzwingt Abrufen und Generieren.
+- **Phase 2**: KI-generierte Analyse als Vergleich, wobei Studierende Unterschiede in den Argumentationsketten identifizieren. Das aktiviert Verknüpfen und Überwachen.
+- **Phase 3**: Mündliche Kurzpräsentation der Synthese (2 Min). Das macht Outsourcing unmöglich.
+
+Die Reihenfolge bewahrt alle vier Operationen: Studierende aktivieren ihr Wissen, bilden Erwartungen und lernen aus der Diskrepanz.
+:::
+
+
+## Disziplinspezifische Hinweise
+
+### Mathematik und Naturwissenschaften
+
+Kernoperationen: **Generieren** (eigene Lösungswege) + **Überwachen** (Plausibilitätsprüfung)
+
+- Problemlösung *ohne* KI verlangen, dann mit KI-Lösung vergleichen
+- Erklärungsfragen einbauen ("Warum funktioniert dieser Schritt?"), was Verknüpfen erzwingt
+- Zwei-Phasen-Aufgaben: Handschriftlich lösen, dann mit Tools prüfen
+
+### Schreiben und Geisteswissenschaften
+
+Die zentralen Operationen sind **Generieren** (eigene Argumentation) und **Verknüpfen** (Synthese, Quellenbezüge).
+
+- Persönliche oder erfahrungsbasierte Komponenten einbauen, um Generieren zu schützen
+- Prozessdokumentation verlangen (Entwürfe, Gedankenprotokolle). Das macht Generieren sichtbar
+- Mündliche Komponenten (Verteidigung, Erklärung) erzwingen Abrufen
+- Fokus auf das Denken *hinter* dem Text, nicht den Text selbst
+
+### Professionelle Fächer
+
+Hier sind alle vier Operationen gefragt, besonders **Überwachen** unter Ambiguität.
+
+- Simulierte Praxis ohne KI (Beratungsgespräche, klinische Entscheidungen)
+- Echtzeitreasoning unter Zeitdruck erzwingt Abrufen und Generieren gleichzeitig
+- Fälle mit Ambiguität, die kein eindeutiges "richtig" haben, trainieren Überwachen
+
+### Sprachen
+
+Kernoperationen: **Abrufen** (spontane Produktion) + **Generieren** (eigene Formulierungen)
+
+- Spontane mündliche Interaktion maximieren. Das schützt Abrufen
+- Zeitbegrenzte Schreibübungen erzwingen Generieren
+- KI als Post-Produktions-Check, nicht als Produktionstool: So wird nur das Überwachen von Oberflächenmerkmalen delegiert
+
+
+## Vom Design zur Praxis: 3 Diagnose-Fragen für den Lehralltag
+
+Die 5 Leitfragen helfen beim **Gestalten** von Aufgaben. Aber wie prüft man danach, ob das Denken tatsächlich bei den Studierenden geblieben ist? Drei Diagnose-Fragen bilden ein einfaches Werkzeug, das direkt an die vier Operationen aus Frage 2 anschliesst:
+
+- **Vorher** prüft, ob Abrufen und Generieren stattgefunden haben
+- **Während** prüft, ob Verknüpfen und Überwachen aktiv waren
+- **Nachher** prüft, ob sich das Schema aktualisiert hat
+
+### Die 3 Diagnose-Fragen
+
+| Zeitpunkt | Frage an Studierende | Was sie diagnostiziert | Theoretischer Anker |
+|-----------|---------------------|----------------------|---------------------|
+| **Vorher** | "Was hast du versucht, bevor du KI gefragt hast?" | Gab es Abrufen und Generieren? | Generierungseffekt, Abrufpraxis |
+| **Während** | "Wo hat dich die KI überrascht, und warum?" | Waren Verknüpfen und Überwachen aktiv? | Vorhersagefehler, Metakognitives Monitoring |
+| **Nachher** | "Was machst du nächstes Mal anders, ohne KI?" | Hat sich das Schema aktualisiert? | Wissenskompilation, Schemabildung |
+
+### So klingen die Antworten
+
+| Zeitpunkt | Outsourcing (Denken ausgelagert) | Genuine Verarbeitung (Denken geblieben) |
+|-----------|--------------------------------|---------------------------------------|
+| **Vorher** | "Ich hab direkt ChatGPT gefragt" / vages "Ich hab mal überlegt" | "Ich hab zuerst X probiert, bin bei Y steckengeblieben, weil..." |
+| **Während** | "Nichts hat mich überrascht" / "Die KI hat gut geschrieben" | "Ich dachte, der Zusammenhang sei A, aber die KI hat B argumentiert, und das hat mich zum Nachdenken gebracht, weil..." |
+| **Nachher** | "Keine Ahnung" / "Ich würde es genauso machen" | "Beim nächsten Mal würde ich zuerst X klären, weil ich gemerkt habe, dass..." |
+
+**Die Schlüsselfrage ist "Während":** Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten, denn es gab keinen aktiven Vergleich zwischen eigenem Modell und KI-Output. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.
+
+### Zwei Einsatzmodi
+
+**Modus 1, Einbauen:** Die Fragen als Teil der Aufgabe verlangen. Z.B.: *"Reiche neben deiner Lösung eine 3-Satz-Reflexion ein: Was hast du vor der KI-Nutzung versucht? Wo hat dich der KI-Output überrascht? Was machst du nächstes Mal anders?"* So wird die Diagnostik zum strukturellen Bestandteil der Aufgabe.
+
+**Modus 2, Nachfragen:** In Sprechstunden, mündlichen Prüfungen oder Seminardiskussionen dieselben drei Fragen als Gesprächswerkzeug nutzen. Keine Vorbereitung nötig, denn die Fragen funktionieren in jedem Fach.
+
+::: {.callout-warning}
+### Vorsicht vor Fehldiagnosen
+
+- **Flüssige Leistung ≠ Outsourcing.** Fortgeschrittene Studierende produzieren glatte Arbeit *und* bestehen die Diagnose-Fragen. Kompetenz nicht mit Outsourcing verwechseln.
+- **KI-Nutzung ≠ Outsourcing.** Wer KI für Formatierung, Sprachkorrektur oder Literatursuche nutzt, während die konzeptuelle Arbeit intern bleibt, betreibt legitimes Offloading.
+- **Prozessdokumentation kann fabriziert werden.** Achte auf *Spezifität und Idiosynkrasie*: Echte Denkspuren enthalten konkrete Sackgassen und spezifische Verwirrungsmomente. Fabrizierte sind generisch und narrativ zu glatt.
+:::
+
+
+::: {.callout-note title="Nicht jede Aufgabe braucht KI" appearance="simple"}
+Wenn die Analyse zeigt, dass deine Aufgabe bereits produktive Anstrengung bewahrt und KI die lernrelevanten Operationen nicht übernehmen kann: Das ist ein gutes Ergebnis. Nicht jede Aufgabe braucht eine KI-Komponente. Die Leitfragen können auch bestätigen, dass dein aktuelles Design bereits solide ist.
+:::

@@ -213,15 +213,16 @@ Expertise Reversal Effekt nach @kalyugaExpertiseReversalEffect2009: Worked Examp
 
 Die Cognitive Load Theory [CLT; @swellerCognitiveLoadTheory2011], entwickelt von John Sweller, übersetzt die Arbeitsgedächtnisforschung in Prinzipien für das Instruktionsdesign.
 
-### Drei Arten kognitiver Belastung
+### Zwei Quellen kognitiver Belastung
+
+Das aktuelle CLT-Modell [@swellerDevelopmentCognitiveLoad2023] unterscheidet zwei Arten von Belastung:
 
 | Art | Beschreibung | Ziel |
 |-----|-------------|------|
 | **Intrinsisch** | Inhärente Komplexität des Materials (Elementinteraktivität) | Angemessen dosieren, und zwar durch Sequenzierung und Vorwissensaufbau |
 | **Extrinsisch** | Verursacht durch schlechtes Instruktionsdesign | **Minimieren** |
-| **Germane Processing*** | Produktive Verarbeitung: Schemabildung, Integration, Elaboration | **Raum dafür schaffen** |
 
-\* In der aktuellen CLT wurde "germane load" als *germane processing* rekonzeptualisiert, nicht als separater Belastungstyp, sondern als der produktive Anteil der intrinsischen Verarbeitung, der der Schemakonstruktion gewidmet ist [@swellerDevelopmentCognitiveLoad2023].
+Wenn extrinsische Last reduziert wird, werden Arbeitsgedächtnisressourcen frei. Diese können für **germane processing** genutzt werden: die produktive Verarbeitung, die Schemata aufbaut (Elaboration, Integration, Verknüpfung mit Vorwissen). In der älteren CLT-Literatur wurde germane processing als dritte, eigenständige Belastungsart ("germane load") behandelt. Die aktuelle Forschung sieht es präziser als den produktiven Anteil der intrinsischen Verarbeitung, nicht als separaten Belastungstyp.
 
 ### Vier behebbare Quellen extrinsischer Last
 
@@ -286,7 +287,7 @@ Was Anfängern hilft, kann Experten schaden (Expertise Reversal Effect). Scaffol
 
 Die Prinzipien auf dieser Seite bilden die kognitive Grundlage für:
 
-- Das **5-Fragen-Framework** (→ [Teil 3](../../03-praxis/5-fragen-framework/)): Frage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt
+- Die **5 Leitfragen** (→ [Teil 2](../../02-ki-und-lernen/5-leitfragen/)): Leitfrage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt
 - Die **Offloading-vs.-Outsourcing-Unterscheidung** (→ [Teil 2](../../02-ki-und-lernen/)): Offloading reduziert extrinsische Last; Outsourcing eliminiert germane processing
 - Die **Peer-Diagnose** (→ [Teil 3](../../03-praxis/)): Die Advocatus-Diaboli-Phase fordert die eigene Analyse heraus und vertieft das Verständnis
 

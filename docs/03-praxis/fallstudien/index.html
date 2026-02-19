@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../03-praxis/agent-template/index.html" rel="next">
-<link href="../../03-praxis/5-fragen-framework/index.html" rel="prev">
+<link href="../../03-praxis/index.html" rel="prev">
 <link href="../..//assets/robot.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-nachlesen.callout {
@@ -111,15 +111,15 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -144,6 +144,17 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '👥';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: #7c3aed;
 }
@@ -153,17 +164,6 @@ div.callout-group.callout-style-default > .callout-header {
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -177,15 +177,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #64748b;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 </style>
@@ -317,12 +317,6 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../03-praxis/5-fragen-framework/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Das 5-Fragen-Framework</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../03-praxis/fallstudien/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Fallstudien: KI-Integration in der Lehre</span></a>
   </div>
@@ -349,20 +343,20 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   <li><a href="#szenario-a1-ki-als-problemlöser" id="toc-szenario-a1-ki-als-problemlöser" class="nav-link" data-scroll-target="#szenario-a1-ki-als-problemlöser">Szenario A1: “KI als Problemlöser”</a></li>
   <li><a href="#szenario-a2-ki-als-debugging-partner" id="toc-szenario-a2-ki-als-debugging-partner" class="nav-link" data-scroll-target="#szenario-a2-ki-als-debugging-partner">Szenario A2: “KI als Debugging-Partner”</a></li>
   </ul></li>
-  <li><a href="#fallstudie-b-wissenschaftliches-schreiben" id="toc-fallstudie-b-wissenschaftliches-schreiben" class="nav-link" data-scroll-target="#fallstudie-b-wissenschaftliches-schreiben">Fallstudie B: Wissenschaftliches Schreiben</a>
+  <li><a href="#fallstudie-b-projektmanagement-leistungskontext" id="toc-fallstudie-b-projektmanagement-leistungskontext" class="nav-link" data-scroll-target="#fallstudie-b-projektmanagement-leistungskontext">Fallstudie B: Projektmanagement (Leistungskontext)</a>
   <ul class="collapse">
-  <li><a href="#szenario-b1-ki-gestütztes-schreiben" id="toc-szenario-b1-ki-gestütztes-schreiben" class="nav-link" data-scroll-target="#szenario-b1-ki-gestütztes-schreiben">Szenario B1: “KI-gestütztes Schreiben”</a></li>
-  <li><a href="#szenario-b2-denken-vor-dem-schreiben" id="toc-szenario-b2-denken-vor-dem-schreiben" class="nav-link" data-scroll-target="#szenario-b2-denken-vor-dem-schreiben">Szenario B2: “Denken vor dem Schreiben”</a></li>
+  <li><a href="#szenario-b1-ki-verbot-im-berufsalltag" id="toc-szenario-b1-ki-verbot-im-berufsalltag" class="nav-link" data-scroll-target="#szenario-b1-ki-verbot-im-berufsalltag">Szenario B1: “KI-Verbot im Berufsalltag”</a></li>
+  <li><a href="#szenario-b2-ki-als-professionelles-werkzeug" id="toc-szenario-b2-ki-als-professionelles-werkzeug" class="nav-link" data-scroll-target="#szenario-b2-ki-als-professionelles-werkzeug">Szenario B2: “KI als professionelles Werkzeug”</a></li>
   </ul></li>
-  <li><a href="#fallstudie-c-medizinische-fallanalyse" id="toc-fallstudie-c-medizinische-fallanalyse" class="nav-link" data-scroll-target="#fallstudie-c-medizinische-fallanalyse">Fallstudie C: Medizinische Fallanalyse</a>
+  <li><a href="#fallstudie-c-wissenschaftliches-schreiben" id="toc-fallstudie-c-wissenschaftliches-schreiben" class="nav-link" data-scroll-target="#fallstudie-c-wissenschaftliches-schreiben">Fallstudie C: Wissenschaftliches Schreiben</a>
   <ul class="collapse">
-  <li><a href="#szenario-c1-ki-als-diagnose-assistent" id="toc-szenario-c1-ki-als-diagnose-assistent" class="nav-link" data-scroll-target="#szenario-c1-ki-als-diagnose-assistent">Szenario C1: “KI als Diagnose-Assistent”</a></li>
-  <li><a href="#szenario-c2-hypothese-vor-konsultation" id="toc-szenario-c2-hypothese-vor-konsultation" class="nav-link" data-scroll-target="#szenario-c2-hypothese-vor-konsultation">Szenario C2: “Hypothese vor Konsultation”</a></li>
+  <li><a href="#szenario-c1-ki-gestütztes-schreiben" id="toc-szenario-c1-ki-gestütztes-schreiben" class="nav-link" data-scroll-target="#szenario-c1-ki-gestütztes-schreiben">Szenario C1: “KI-gestütztes Schreiben”</a></li>
+  <li><a href="#szenario-c2-denken-vor-dem-schreiben" id="toc-szenario-c2-denken-vor-dem-schreiben" class="nav-link" data-scroll-target="#szenario-c2-denken-vor-dem-schreiben">Szenario C2: “Denken vor dem Schreiben”</a></li>
   </ul></li>
-  <li><a href="#fallstudie-d-projektmanagement-leistungskontext" id="toc-fallstudie-d-projektmanagement-leistungskontext" class="nav-link" data-scroll-target="#fallstudie-d-projektmanagement-leistungskontext">Fallstudie D: Projektmanagement (Leistungskontext)</a>
+  <li><a href="#fallstudie-d-medizinische-fallanalyse" id="toc-fallstudie-d-medizinische-fallanalyse" class="nav-link" data-scroll-target="#fallstudie-d-medizinische-fallanalyse">Fallstudie D: Medizinische Fallanalyse</a>
   <ul class="collapse">
-  <li><a href="#szenario-d1-ki-verbot-im-berufsalltag" id="toc-szenario-d1-ki-verbot-im-berufsalltag" class="nav-link" data-scroll-target="#szenario-d1-ki-verbot-im-berufsalltag">Szenario D1: “KI-Verbot im Berufsalltag”</a></li>
-  <li><a href="#szenario-d2-ki-als-professionelles-werkzeug" id="toc-szenario-d2-ki-als-professionelles-werkzeug" class="nav-link" data-scroll-target="#szenario-d2-ki-als-professionelles-werkzeug">Szenario D2: “KI als professionelles Werkzeug”</a></li>
+  <li><a href="#szenario-d1-ki-als-diagnose-assistent" id="toc-szenario-d1-ki-als-diagnose-assistent" class="nav-link" data-scroll-target="#szenario-d1-ki-als-diagnose-assistent">Szenario D1: “KI als Diagnose-Assistent”</a></li>
+  <li><a href="#szenario-d2-hypothese-vor-konsultation" id="toc-szenario-d2-hypothese-vor-konsultation" class="nav-link" data-scroll-target="#szenario-d2-hypothese-vor-konsultation">Szenario D2: “Hypothese vor Konsultation”</a></li>
   </ul></li>
   <li><a href="#allgemeine-reflexionsfragen" id="toc-allgemeine-reflexionsfragen" class="nav-link" data-scroll-target="#allgemeine-reflexionsfragen">Allgemeine Reflexionsfragen</a></li>
   </ul>
@@ -395,7 +389,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
 <p>Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Du kannst sie auf zwei Arten nutzen:</p>
 <ul>
-<li><strong>Als Analysematerial mit dem 5-Fragen-Framework</strong> (Teil 3): Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.</li>
+<li><strong>Als Analysematerial mit den <a href="../../02-ki-und-lernen/5-leitfragen/">5 Leitfragen</a></strong>: Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.</li>
 <li><strong>Als Diskussionsgrundlage</strong> für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.</li>
 </ul>
 <p>Jedes Paar enthält ein problematisches und ein effektives Beispiel.</p>
@@ -415,12 +409,16 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario A1
+<span class="screen-reader-only">Individual</span>Analyse mit den 5 Leitfragen: Szenario A1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit dem Framework:</p>
+<p>Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit den 5 Leitfragen:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Frage</th>
@@ -433,26 +431,26 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <td></td>
 </tr>
 <tr class="even">
-<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td>2. Welche <strong>Denkarbeit</strong> verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen)</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>3. Welche dieser Operationen würde <strong>KI übernehmen</strong>?</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>4. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td>5. Arbeiten Studierende <strong>zuerst selbst</strong>, bevor KI ins Spiel kommt?</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Dann identifiziere:</strong></p>
 <ul>
-<li>Wo eliminiert KI die <strong>lernrelevante kognitive Verarbeitung</strong>?</li>
+<li>Welche der identifizierten <strong>Operationen</strong> würde KI übernehmen?</li>
 <li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario A2.)</em></li>
 </ul>
 </div>
@@ -472,7 +470,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <ul>
 <li>Welches Szenario erzeugt mehr <strong>Diskrepanzen</strong> zwischen Erwartung und Ergebnis bei den Studierenden?</li>
 <li>Wo findet <strong>Wissenskompilation</strong> statt, und wo nicht?</li>
-<li>Wie verteilt sich die <strong>kognitive Last</strong> in beiden Szenarien (extrinsisch vs.&nbsp;germane)?</li>
+<li>Wie verteilt sich die <strong>kognitive Last</strong> in beiden Szenarien (extrinsische Belastung vs.&nbsp;lernrelevante Verarbeitung)?</li>
 <li>Was passiert mit der <strong>Expertise-Entwicklung</strong> in beiden Fällen?</li>
 </ul>
 </div>
@@ -480,27 +478,31 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </div>
 </section>
 </section>
-<section id="fallstudie-b-wissenschaftliches-schreiben" class="level2">
-<h2 class="anchored" data-anchor-id="fallstudie-b-wissenschaftliches-schreiben">Fallstudie B: Wissenschaftliches Schreiben</h2>
-<section id="szenario-b1-ki-gestütztes-schreiben" class="level3">
-<h3 class="anchored" data-anchor-id="szenario-b1-ki-gestütztes-schreiben">Szenario B1: “KI-gestütztes Schreiben”</h3>
-<p>Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu schreiben. Die Studierenden prompten ChatGPT mit ihrem Thema, überarbeiten den Output, fügen Quellenangaben hinzu und reichen ab. Die Texte sind sprachlich korrekt und gut strukturiert.</p>
+<section id="fallstudie-b-projektmanagement-leistungskontext" class="level2">
+<h2 class="anchored" data-anchor-id="fallstudie-b-projektmanagement-leistungskontext">Fallstudie B: Projektmanagement (Leistungskontext)</h2>
+<section id="szenario-b1-ki-verbot-im-berufsalltag" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-b1-ki-verbot-im-berufsalltag">Szenario B1: “KI-Verbot im Berufsalltag”</h3>
+<p>Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei allen Aufgaben. In einem Modul zu Projektmanagement müssen erfahrene Projektleiterinnen (5+ Jahre Berufserfahrung) einen Statusbericht für ein reales Projekt von Hand schreiben, inklusive Risikoanalyse. Die Studierenden empfinden die Aufgabe als praxisfern, da sie im Berufsalltag selbstverständlich KI-Tools nutzen.</p>
 </section>
-<section id="szenario-b2-denken-vor-dem-schreiben" class="level3">
-<h3 class="anchored" data-anchor-id="szenario-b2-denken-vor-dem-schreiben">Szenario B2: “Denken vor dem Schreiben”</h3>
-<p>Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf <em>ohne</em> KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.</p>
+<section id="szenario-b2-ki-als-professionelles-werkzeug" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-b2-ki-als-professionelles-werkzeug">Szenario B2: “KI als professionelles Werkzeug”</h3>
+<p>Dieselbe Dozentin differenziert: Für die <em>Risikoanalyse</em> (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den <em>Statusbericht</em> (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?</p>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario B1
+<span class="screen-reader-only">Individual</span>Analyse mit den 5 Leitfragen: Szenario B1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Analysiere Szenario B1 (Seminararbeit im 3. Semester) mit dem Framework:</p>
+<p>Dieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen und achte darauf, <strong>wo die Antworten anders ausfallen</strong>:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Frage</th>
@@ -513,27 +515,27 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <td></td>
 </tr>
 <tr class="even">
-<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td>2. Welche <strong>Denkarbeit</strong> verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen)</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>3. Welche dieser Operationen würde <strong>KI übernehmen</strong>?</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>4. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td>5. Arbeiten Studierende <strong>zuerst selbst</strong>, bevor KI ins Spiel kommt?</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Dann identifiziere:</strong></p>
 <ul>
-<li>Wo eliminiert KI die <strong>lernrelevante kognitive Verarbeitung</strong>?</li>
-<li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario B2.)</em></li>
+<li>Welche Teile der Aufgabe sind <strong>Lernkontext</strong>, welche <strong>Leistungskontext</strong>?</li>
+<li>Wo ist KI-Unterstützung die <strong>richtige</strong> Antwort, und warum?</li>
 </ul>
 </div>
 </div>
@@ -550,37 +552,41 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Wo liegt das <strong>Evaluationsparadox</strong>? Können Studierende in Szenario B1 die KI-Outputs tatsächlich kritisch bewerten?</li>
-<li>Inwiefern ist Szenario B1 ein Beispiel für <strong>Schein-Kompetenz</strong>?</li>
-<li>Welche Rolle spielt die <strong>Versuch-dann-Prüfe-Struktur</strong> in Szenario B2?</li>
-<li>Wie wirkt sich jedes Szenario auf die <strong>Gerechtigkeit</strong> aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?</li>
+<li>Was unterscheidet einen <strong>Lernkontext</strong> von einem <strong>Leistungskontext</strong>? Welche Teile dieser Aufgabe fallen in welche Kategorie?</li>
+<li>Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?</li>
+<li>Wie hilft das <strong>Offloading-Outsourcing-Spektrum</strong>, diese Unterscheidung zu treffen?</li>
+<li>Wann ist die Entscheidung “Keine KI nötig” oder “KI ist hier sinnvoll” gleich berechtigt?</li>
 </ul>
 </div>
 </div>
 </div>
 </section>
 </section>
-<section id="fallstudie-c-medizinische-fallanalyse" class="level2">
-<h2 class="anchored" data-anchor-id="fallstudie-c-medizinische-fallanalyse">Fallstudie C: Medizinische Fallanalyse</h2>
-<section id="szenario-c1-ki-als-diagnose-assistent" class="level3">
-<h3 class="anchored" data-anchor-id="szenario-c1-ki-als-diagnose-assistent">Szenario C1: “KI als Diagnose-Assistent”</h3>
-<p>In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und erhalten differenzialdiagnostische Vorschläge. Sie wählen die plausibelste Diagnose und dokumentieren sie.</p>
+<section id="fallstudie-c-wissenschaftliches-schreiben" class="level2">
+<h2 class="anchored" data-anchor-id="fallstudie-c-wissenschaftliches-schreiben">Fallstudie C: Wissenschaftliches Schreiben</h2>
+<section id="szenario-c1-ki-gestütztes-schreiben" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-c1-ki-gestütztes-schreiben">Szenario C1: “KI-gestütztes Schreiben”</h3>
+<p>Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu schreiben. Die Studierenden prompten ChatGPT mit ihrem Thema, überarbeiten den Output, fügen Quellenangaben hinzu und reichen ab. Die Texte sind sprachlich korrekt und gut strukturiert.</p>
 </section>
-<section id="szenario-c2-hypothese-vor-konsultation" class="level3">
-<h3 class="anchored" data-anchor-id="szenario-c2-hypothese-vor-konsultation">Szenario C2: “Hypothese vor Konsultation”</h3>
-<p>Im gleichen Kurs müssen Studierende <em>zuerst</em> ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: “Was habe ich übersehen? Warum?”</p>
+<section id="szenario-c2-denken-vor-dem-schreiben" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-c2-denken-vor-dem-schreiben">Szenario C2: “Denken vor dem Schreiben”</h3>
+<p>Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf <em>ohne</em> KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.</p>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario C1
+<span class="screen-reader-only">Individual</span>Analyse mit den 5 Leitfragen: Szenario C1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Analysiere Szenario C1 (klinischer Kurs im 4. Semester) mit dem Framework:</p>
+<p>Analysiere Szenario C1 (Seminararbeit im 3. Semester) mit den 5 Leitfragen:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Frage</th>
@@ -593,26 +599,26 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <td></td>
 </tr>
 <tr class="even">
-<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td>2. Welche <strong>Denkarbeit</strong> verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen)</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>3. Welche dieser Operationen würde <strong>KI übernehmen</strong>?</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>4. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td>5. Arbeiten Studierende <strong>zuerst selbst</strong>, bevor KI ins Spiel kommt?</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Dann identifiziere:</strong></p>
 <ul>
-<li>Wo eliminiert KI die <strong>lernrelevante kognitive Verarbeitung</strong>?</li>
+<li>Welche der identifizierten <strong>Operationen</strong> würde KI übernehmen?</li>
 <li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario C2.)</em></li>
 </ul>
 </div>
@@ -630,37 +636,41 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Welches Szenario fördert die <strong>Schemabildung</strong> für klinisches Reasoning?</li>
-<li>Wo findet <strong>Offloading</strong> statt, wo <strong>Outsourcing</strong>?</li>
-<li>Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs.&nbsp;KI → Auswahl) auf das <strong>Lernen</strong> aus?</li>
-<li>Welches Szenario bereitet besser auf Situationen vor, in denen <em>keine</em> KI verfügbar ist?</li>
+<li>Wo liegt das <strong>Evaluationsparadox</strong>? Können Studierende in Szenario C1 die KI-Outputs tatsächlich kritisch bewerten?</li>
+<li>Inwiefern ist Szenario C1 ein Beispiel für <strong>Schein-Kompetenz</strong>?</li>
+<li>Welche Rolle spielt die <strong>Versuch-dann-Prüfe-Struktur</strong> in Szenario C2?</li>
+<li>Wie wirkt sich jedes Szenario auf die <strong>Gerechtigkeit</strong> aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?</li>
 </ul>
 </div>
 </div>
 </div>
 </section>
 </section>
-<section id="fallstudie-d-projektmanagement-leistungskontext" class="level2">
-<h2 class="anchored" data-anchor-id="fallstudie-d-projektmanagement-leistungskontext">Fallstudie D: Projektmanagement (Leistungskontext)</h2>
-<section id="szenario-d1-ki-verbot-im-berufsalltag" class="level3">
-<h3 class="anchored" data-anchor-id="szenario-d1-ki-verbot-im-berufsalltag">Szenario D1: “KI-Verbot im Berufsalltag”</h3>
-<p>Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei allen Aufgaben. In einem Modul zu Projektmanagement müssen erfahrene Projektleiterinnen (5+ Jahre Berufserfahrung) einen Statusbericht für ein reales Projekt von Hand schreiben, inklusive Risikoanalyse. Die Studierenden empfinden die Aufgabe als praxisfern, da sie im Berufsalltag selbstverständlich KI-Tools nutzen.</p>
+<section id="fallstudie-d-medizinische-fallanalyse" class="level2">
+<h2 class="anchored" data-anchor-id="fallstudie-d-medizinische-fallanalyse">Fallstudie D: Medizinische Fallanalyse</h2>
+<section id="szenario-d1-ki-als-diagnose-assistent" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-d1-ki-als-diagnose-assistent">Szenario D1: “KI als Diagnose-Assistent”</h3>
+<p>In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und erhalten differenzialdiagnostische Vorschläge. Sie wählen die plausibelste Diagnose und dokumentieren sie.</p>
 </section>
-<section id="szenario-d2-ki-als-professionelles-werkzeug" class="level3">
-<h3 class="anchored" data-anchor-id="szenario-d2-ki-als-professionelles-werkzeug">Szenario D2: “KI als professionelles Werkzeug”</h3>
-<p>Dieselbe Dozentin differenziert: Für die <em>Risikoanalyse</em> (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den <em>Statusbericht</em> (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?</p>
+<section id="szenario-d2-hypothese-vor-konsultation" class="level3">
+<h3 class="anchored" data-anchor-id="szenario-d2-hypothese-vor-konsultation">Szenario D2: “Hypothese vor Konsultation”</h3>
+<p>Im gleichen Kurs müssen Studierende <em>zuerst</em> ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: “Was habe ich übersehen? Warum?”</p>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>5-Fragen-Analyse: Szenario D1
+<span class="screen-reader-only">Individual</span>Analyse mit den 5 Leitfragen: Szenario D1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dieses Szenario ist anders als A, B und C. Analysiere es mit dem Framework und achte darauf, <strong>wo die Antworten anders ausfallen</strong>:</p>
+<p>Analysiere Szenario D1 (klinischer Kurs im 4. Semester) mit den 5 Leitfragen:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Frage</th>
@@ -673,27 +683,27 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <td></td>
 </tr>
 <tr class="even">
-<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td>2. Welche <strong>Denkarbeit</strong> verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen)</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
+<td>3. Welche dieser Operationen würde <strong>KI übernehmen</strong>?</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
+<td>4. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
+<td>5. Arbeiten Studierende <strong>zuerst selbst</strong>, bevor KI ins Spiel kommt?</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Dann identifiziere:</strong></p>
 <ul>
-<li>Welche Teile der Aufgabe sind <strong>Lernkontext</strong>, welche <strong>Leistungskontext</strong>?</li>
-<li>Wo ist KI-Unterstützung die <strong>richtige</strong> Antwort, und warum?</li>
+<li>Welche der identifizierten <strong>Operationen</strong> würde KI übernehmen?</li>
+<li>Welche <strong>eine Änderung</strong> würde produktive Anstrengung bewahren? <em>(Vergleiche deine Idee mit Szenario D2.)</em></li>
 </ul>
 </div>
 </div>
@@ -710,10 +720,10 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Was unterscheidet einen <strong>Lernkontext</strong> von einem <strong>Leistungskontext</strong>? Welche Teile dieser Aufgabe fallen in welche Kategorie?</li>
-<li>Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?</li>
-<li>Wie hilft das <strong>Offloading-Outsourcing-Spektrum</strong>, diese Unterscheidung zu treffen?</li>
-<li>Wann ist die Entscheidung “Keine KI nötig” oder “KI ist hier sinnvoll” gleich berechtigt?</li>
+<li>Welches Szenario fördert die <strong>Schemabildung</strong> für klinisches Reasoning?</li>
+<li>Wo findet <strong>Offloading</strong> statt, wo <strong>Outsourcing</strong>?</li>
+<li>Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs.&nbsp;KI → Auswahl) auf das <strong>Lernen</strong> aus?</li>
+<li>Welches Szenario bereitet besser auf Situationen vor, in denen <em>keine</em> KI verfügbar ist?</li>
 </ul>
 </div>
 </div>
@@ -726,7 +736,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <ol type="1">
 <li>Was unterscheidet die effektiven von den ineffektiven Szenarien?</li>
 <li>Gibt es ein gemeinsames <strong>Designprinzip</strong>, das alle effektiven Szenarien teilen?</li>
-<li><strong>Wann ist KI-Unterstützung die richtige Antwort?</strong> Was unterscheidet Fallstudie D von den anderen drei?</li>
+<li><strong>Wann ist KI-Unterstützung die richtige Antwort?</strong> Was unterscheidet Fallstudie B von den anderen drei?</li>
 <li>Wie lässt sich dieses Prinzip auf <em>eure eigene</em> Lehre übertragen?</li>
 </ol>
 
@@ -1143,8 +1153,8 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../03-praxis/5-fragen-framework/index.html" class="pagination-link" aria-label="Das 5-Fragen-Framework">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Das 5-Fragen-Framework</span>
+      <a href="../../03-praxis/index.html" class="pagination-link" aria-label="Vom Wissen zum Handeln">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Vom Wissen zum Handeln</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

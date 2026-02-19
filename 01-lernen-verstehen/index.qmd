@@ -34,12 +34,15 @@ Die Fallstudien-Analyse ist die zentrale Transferaktivität und darf nicht gekü
 
 ## {{< bi pencil-square >}} Aktivitäten
 
-::: {.facilitator}
-Wähle Variante A oder B für die Arbeitsgedächtnis-Übung. Die restlichen Aktivitäten folgen in der angegebenen Reihenfolge.
-:::
+::::::: {.callout-note collapse="true"}
+### Arbeitsgedächtnis erleben
+
+:::: {.facilitator}
+Wähle Variante A oder B für die Arbeitsgedächtnis-Übung.
+::::
 
 ::: {.active-processing}
-### Arbeitsgedächtnis erleben, Variante A: Rechenketten (3 Min)
+### Variante A: Rechenketten (3 Min)
 
 **Elementinteraktivität spüren:** Dieselben Zahlen, zwei verschiedene Aufgaben.
 
@@ -55,7 +58,7 @@ In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig vone
 :::
 
 ::: {.active-processing}
-### Arbeitsgedächtnis erleben, Variante B: Sortieraufgabe (3 Min)
+### Variante B: Sortieraufgabe (3 Min)
 
 **Elementinteraktivität spüren:** Dieselben Begriffe, zwei verschiedene Aufgaben.
 
@@ -74,6 +77,7 @@ Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht veränd
 
 Diese Übung demonstriert **Elementinteraktivität**, das zentrale Konzept der Cognitive Load Theory. Die Kapazitätsgrenze des Arbeitsgedächtnisses wird nicht durch die Anzahl isolierter Elemente bestimmt, sondern durch die Anzahl der *Beziehungen zwischen Elementen*, die gleichzeitig verarbeitet werden müssen. Dieselbe Erfahrung, die hier in drei Minuten spürbar wird, findet in jeder Lehrveranstaltung statt, wenn Studierende neue Konzepte verstehen sollen. *Der Workshop macht erlebbar, was er erklärt.*
 :::
+:::::
 
 
 ::: {.active-processing}
@@ -139,7 +143,7 @@ Die folgenden Abschnitte vertiefen die Konzepte aus den Slides. Sie sind als Nac
 
 #### Arbeitsgedächtnis: Der Flaschenhals
 
-Unser Arbeitsgedächtnis kann nur **4±1 Elemente** gleichzeitig verarbeiten. Jeder Denkakt (Verstehen, Problemlösen, Entscheiden) muss durch diesen Flaschenhals.
+Der Aufmerksamkeitsfokus unseres Arbeitsgedächtnisses umfasst nur etwa **4±1 Elemente** gleichzeitig [@cowanMagicalMysteryFour2010]. Jeder Denkakt (Verstehen, Problemlösen, Entscheiden) muss durch diesen Flaschenhals.
 
 Wichtig: Die Zahl "4±1" gilt für einfache, unverbundene Elemente. Die *effektive* Kapazität hängt stark vom Vorwissen ab. Experten verarbeiten "F = ma" als **einen** Chunk, Anfänger als drei separate Elemente. @cowanMagicalMysteryFour2010 beschreibt Arbeitsgedächtnis als aktivierte Teile des Langzeitgedächtnisses: Vorwissen kann schnell aktiviert werden und die aktuelle Verarbeitung unterstützen. Dasselbe Material, dieselbe Erklärung, aber eine fundamental unterschiedliche kognitive Aufgabe, je nach Vorwissen.
 
@@ -219,6 +223,12 @@ Zwei Quellen kognitiver Belastung:
 | **Extrinsisch** | Schlechtes Design, Ablenkung, trägt nicht zum Lernen bei | **Minimieren** |
 
 **Das Designprinzip:** Extrinsische Last reduzieren → Arbeitsgedächtnisressourcen freisetzen, damit sie für die produktive Verarbeitung der intrinsischen Komplexität zur Verfügung stehen. In der älteren CLT-Literatur hiess diese produktive Verarbeitung "germane load"; heute spricht man präziser von **germane processing**, also der lernrelevanten Auseinandersetzung mit dem Material.
+
+#### Schwierig ≠ Komplex
+
+Eine häufig übersehene Unterscheidung [@chenCognitiveLoadTheory2023]: Aufgaben können *schwierig* sein, ohne komplex zu sein, und umgekehrt. Schwierig ist eine Aufgabe, wenn viele Elemente gelernt werden müssen, die aber unabhängig voneinander sind (z.B. Fachvokabular, Periodensystem-Symbole, Quellenformate). Die Elementinteraktivität ist niedrig, das Arbeitsgedächtnis wird kaum beansprucht. Komplex ist eine Aufgabe, wenn die Elemente gleichzeitig in Beziehung zueinander verarbeitet werden müssen (z.B. eine Argumentation aufbauen, eine Gleichung lösen, einen Fall analysieren). Die Elementinteraktivität ist hoch, und genau hier findet Schemabildung statt.
+
+Für den KI-Einsatz ist die Unterscheidung entscheidend: Bei schwierigen, aber nicht komplexen Aufgaben (niedrige Elementinteraktivität) kann KI-Unterstützung sinnvoll sein, weil diese Aufgaben keine Schemata aufbauen. Bei komplexen Aufgaben (hohe Elementinteraktivität) ist KI-Outsourcing schädlich, weil genau die kognitive Arbeit, die Schemata aufbaut, eliminiert wird.
 :::
 
 ::: {.callout-important}
@@ -231,7 +241,11 @@ Die Konzepte aus Teil 1 stammen aus verschiedenen Forschungstraditionen, ergänz
 - **Wissenskompilation** (ACT-R) modelliert den Übergang von deklarativem zu prozeduralem Wissen durch Übung und Feedback
 - **Vorhersagefehler** beschreiben, wie das Gehirn aus Diskrepanzen zwischen Erwartung und Erfahrung lernt
 
-Gemeinsam ist diesen Ansätzen: Lernende müssen aktiv verarbeiten (abrufen, elaborieren, vergleichen, anwenden). Diese Prozesse fühlen sich oft anstrengend an, und genau das signalisiert, dass Lernen stattfinden kann. Das Ergebnis dieser aktiven Verarbeitung sind gut organisierte Schemata, und gut organisierte Schemata sind die Voraussetzung für **Transfer**: die Fähigkeit, Gelerntes auf neue, unbekannte Situationen anzuwenden.
+Gemeinsam ist diesen Ansätzen: Lernende müssen aktiv verarbeiten (abrufen, elaborieren, vergleichen, anwenden). Diese Prozesse fühlen sich oft anstrengend an, und genau das signalisiert, dass Lernen stattfinden kann.
+
+Ein scheinbarer Widerspruch zwischen diesen Traditionen verdient Beachtung: Einerseits zeigt die Forschung zu expliziter Instruktion, dass Anfänger bei minimaler Anleitung scheitern. Andererseits zeigt die Desirable-Difficulties-Forschung, dass es dem langfristigen Lernen schadet, wenn man es Lernenden *zu leicht* macht. Der Expertise Reversal Effect löst diese Spannung auf: Anfänger brauchen mehr Anleitung, um unproduktive kognitive Belastung zu reduzieren, während Fortgeschrittene von "productive struggle" profitieren. Entscheidend ist, den Grad der Unterstützung an den aktuellen Wissensstand der Lernenden anzupassen.
+
+All diese Mechanismen dienen einem tieferen Zweck: Sie bauen interne Modelle auf, die es ermöglichen, von Erfahrungen auf neue Situationen zu *generalisieren*. Gut organisierte Schemata sind eine notwendige Voraussetzung für Transfer, aber allein nicht hinreichend. Transfer erfordert auch Übung darin, zu erkennen, *wann und wo* das eigene Wissen anwendbar ist. Genau deshalb sind Variation und Interleaving so wichtig: Sie schaffen die Abrufpfade, die Wissen auf neue Kontexte übertragbar machen. Wer die Prozesse eliminiert, die diese internen Modelle aufbauen, eliminiert die Fähigkeit zur Generalisierung.
 :::
 
 ::: {.pro-tip collapse="true"}

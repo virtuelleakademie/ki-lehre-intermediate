@@ -103,15 +103,48 @@ div.csl-indent {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-group.callout {
-  border-left-color: #7c3aed;
+div.callout-individual.callout {
+  border-left-color: #0072B2;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #d97706;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(217, 119, 6, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -136,48 +169,26 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '📖';
   background-image: none;
 }
-div.callout-facilitator.callout {
-  border-left-color: #d97706;
+div.callout-pair.callout {
+  border-left-color: #059669;
 }
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
 }
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: #0072B2;
+div.callout-group.callout {
+  border-left-color: #7c3aed;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -189,17 +200,6 @@ div.callout-reflect.callout-style-default > .callout-header {
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   content: '💭';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -363,7 +363,7 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   <li>
 <a href="#cognitive-load-theory-vom-labor-ins-klassenzimmer" id="toc-cognitive-load-theory-vom-labor-ins-klassenzimmer" class="nav-link" data-scroll-target="#cognitive-load-theory-vom-labor-ins-klassenzimmer">Cognitive Load Theory: Vom Labor ins Klassenzimmer</a>
   <ul class="collapse">
-<li><a href="#drei-arten-kognitiver-belastung" id="toc-drei-arten-kognitiver-belastung" class="nav-link" data-scroll-target="#drei-arten-kognitiver-belastung">Drei Arten kognitiver Belastung</a></li>
+<li><a href="#zwei-quellen-kognitiver-belastung" id="toc-zwei-quellen-kognitiver-belastung" class="nav-link" data-scroll-target="#zwei-quellen-kognitiver-belastung">Zwei Quellen kognitiver Belastung</a></li>
   <li><a href="#vier-behebbare-quellen-extrinsischer-last" id="toc-vier-behebbare-quellen-extrinsischer-last" class="nav-link" data-scroll-target="#vier-behebbare-quellen-extrinsischer-last">Vier behebbare Quellen extrinsischer Last</a></li>
   </ul>
 </li>
@@ -732,7 +732,8 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <p>Expertise Reversal Effekt nach <span class="citation" data-cites="kalyugaExpertiseReversalEffect2009">Kalyuga (<a href="#ref-kalyugaExpertiseReversalEffect2009" role="doc-biblioref">2009</a>)</span>: Worked Examples (hohe Anleitung) führen bei Anfängern zu besseren Lernergebnissen, weil sie die extrinsische kognitive Last senken. Mit zunehmender Expertise kehrt sich der Effekt um: Dieselbe Anleitung wird redundant und belastet das Arbeitsgedächtnis zusätzlich. Am Kreuzungspunkt überholt eigenständiges Problemlösen die angeleitete Instruktion. Ab diesem Punkt sollten Worked Examples schrittweise durch offenere Aufgabenformate ersetzt werden (Fading).</p>
 </section></section><section id="cognitive-load-theory-vom-labor-ins-klassenzimmer" class="level2"><h2 class="anchored" data-anchor-id="cognitive-load-theory-vom-labor-ins-klassenzimmer">Cognitive Load Theory: Vom Labor ins Klassenzimmer</h2>
 <p>Die Cognitive Load Theory [CLT; <span class="citation" data-cites="swellerCognitiveLoadTheory2011">Sweller, Ayres, und Kalyuga (<a href="#ref-swellerCognitiveLoadTheory2011" role="doc-biblioref">2011</a>)</span>], entwickelt von John Sweller, übersetzt die Arbeitsgedächtnisforschung in Prinzipien für das Instruktionsdesign.</p>
-<section id="drei-arten-kognitiver-belastung" class="level3"><h3 class="anchored" data-anchor-id="drei-arten-kognitiver-belastung">Drei Arten kognitiver Belastung</h3>
+<section id="zwei-quellen-kognitiver-belastung" class="level3"><h3 class="anchored" data-anchor-id="zwei-quellen-kognitiver-belastung">Zwei Quellen kognitiver Belastung</h3>
+<p>Das aktuelle CLT-Modell <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span> unterscheidet zwei Arten von Belastung:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -755,15 +756,9 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
 <td>Verursacht durch schlechtes Instruktionsdesign</td>
 <td><strong>Minimieren</strong></td>
 </tr>
-<tr class="odd">
-<td>
-<strong>Germane Processing</strong>*</td>
-<td>Produktive Verarbeitung: Schemabildung, Integration, Elaboration</td>
-<td><strong>Raum dafür schaffen</strong></td>
-</tr>
 </tbody>
 </table>
-<p>* In der aktuellen CLT wurde “germane load” als <em>germane processing</em> rekonzeptualisiert, nicht als separater Belastungstyp, sondern als der produktive Anteil der intrinsischen Verarbeitung, der der Schemakonstruktion gewidmet ist <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span>.</p>
+<p>Wenn extrinsische Last reduziert wird, werden Arbeitsgedächtnisressourcen frei. Diese können für <strong>germane processing</strong> genutzt werden: die produktive Verarbeitung, die Schemata aufbaut (Elaboration, Integration, Verknüpfung mit Vorwissen). In der älteren CLT-Literatur wurde germane processing als dritte, eigenständige Belastungsart (“germane load”) behandelt. Die aktuelle Forschung sieht es präziser als den produktiven Anteil der intrinsischen Verarbeitung, nicht als separaten Belastungstyp.</p>
 </section><section id="vier-behebbare-quellen-extrinsischer-last" class="level3"><h3 class="anchored" data-anchor-id="vier-behebbare-quellen-extrinsischer-last">Vier behebbare Quellen extrinsischer Last</h3>
 <table class="caption-top table">
 <colgroup>
@@ -860,7 +855,7 @@ Abbildung&nbsp;1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapa
 <div class="callout-body-container callout-body">
 <p>Die Prinzipien auf dieser Seite bilden die kognitive Grundlage für:</p>
 <ul>
-<li>Das <strong>5-Fragen-Framework</strong> (→ <a href="../../03-praxis/5-fragen-framework/">Teil 3</a>): Frage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt</li>
+<li>Die <strong>5 Leitfragen</strong> (→ <a href="../../02-ki-und-lernen/5-leitfragen/">Teil 2</a>): Leitfrage 4 prüft, ob die kognitive Arbeit bei den Studierenden bleibt</li>
 <li>Die <strong>Offloading-vs.-Outsourcing-Unterscheidung</strong> (→ <a href="../../02-ki-und-lernen/">Teil 2</a>): Offloading reduziert extrinsische Last; Outsourcing eliminiert germane processing</li>
 <li>Die <strong>Peer-Diagnose</strong> (→ <a href="../../03-praxis/">Teil 3</a>): Die Advocatus-Diaboli-Phase fordert die eigene Analyse heraus und vertieft das Verständnis</li>
 </ul>
