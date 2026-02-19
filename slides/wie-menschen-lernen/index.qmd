@@ -76,13 +76,13 @@ Akademische Fähigkeiten profitieren typischerweise stark von expliziter Anleitu
 :::
 
 
-## Biologisch primär vs. sekundär
+<!-- ## Biologisch primär vs. sekundär
 
-{{< include ../../resources/figures/fig-primaer-sekundaer.qmd >}}
+{{< include ../../resources/figures/fig-primaer-sekundaer.qmd >}} -->
 
 
 ## Experten vs. Anfänger
-
+<!-- #TODO: we haven't introduced the concept of working memory yet -->
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -106,11 +106,13 @@ Experten haben **besser organisierte Wissensstrukturen (Schemata)**, die Anfäng
 | **Verarbeiten** | Schritt-für-Schritt       | Automatische Prozeduren             |
 | **Wissen**      | Isolierte Fakten          | Vernetzte Schemata                  |
 
+<!-- Here I need an example for step-by -step processing, weak methods,
+means-end analysis, etc -->
 
 ## Gleiche Hardware, unterschiedliche Software
 
 {{< include ../../resources/figures/fig-novice-expert-schemas.qmd >}}
-
+<!-- Der Weg von links nach rechts *ist Lernen* -->
 
 ## Was organisierte Schemata ermöglichen {.center}
 
@@ -137,6 +139,7 @@ Anfänger sehen **Oberflächenmerkmale**. Experten erkennen die **Tiefenstruktur
 **Kernprinzip**: Lernen erfordert Transfer vom Arbeits- ins Langzeitgedächtnis durch Schemabildung.
 :::
 
+<!-- This figure needs explaining -->
 
 ## Zwei Quellen kognitiver Belastung
 
@@ -145,18 +148,21 @@ Anfänger sehen **Oberflächenmerkmale**. Experten erkennen die **Tiefenstruktur
 **Intrinsisch**
 
 Komplexität des Lernstoffs selbst (Elementinteraktivität)
-
-*Begrenzt steuerbar (Sequenzierung)*
+<!-- Wie viele Elemente müssen gleichzeitig in Beziehung zueinander verarbeitet werden -->
+*Begrenzt steuerbar (z.B. durch Sequenzierung)*
 :::
 
 :::{.column width="50%"}
 **Extrinsisch**
-
+<!-- Schlechtes Design, Ablenkung, unnötige Komplexität -->
 Wie Material präsentiert wird
 
 *Durch Design **minimierbar***
 :::
 ::::
+
+<!-- Das Ziel ist, Raum zu schaffen für *germane processing*, also für die
+lernrelevante Verarbeitung, die Schemata aufbaut -->
 
 :::{.fragment}
 ::: {.callout-tip}
@@ -172,21 +178,30 @@ Wie Material präsentiert wird
 
 ## Das Lerndilemma
 
+::::{.columns}
+:::{.column width="50%"}
 Die Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.
 
 :::{.fragment}
 Aber: Lernrelevante Verarbeitung (*germane processing*) ist **essentiell** für Expertise-Entwicklung.
 :::
 
+
+:::
+
+:::{.column width="50%"}
+![](../../assets/images/fig-cognitive-load.png)
+:::
+::::
 :::{.fragment}
 ::: {.callout-warning}
 **Lösung**: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen.
 :::
 :::
 
-
 ## Schwierig ≠ Komplex {.smaller}
-
+<!-- Here we use the terms offloading and outsourcing, but these haven't been
+properly introduced yet -->
 Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
 
 | | **Schwierig, nicht komplex** | **Komplex** |
@@ -201,88 +216,32 @@ Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
 **Die Konsequenz:** Schütze die *komplexen* Aufgabenanteile (hohe Elementinteraktivität) vor KI-Outsourcing. Die *schwierigen* Routineanteile (niedrige Elementinteraktivität) können delegiert werden.
 :::
 :::
+<!-- We need an example here -->
 
-
-## Der Expertise Reversal Effect
+## Der Expertise Reversal Effect {.smaller}
 
 **Was Anfängern hilft, schadet Experten, und umgekehrt** [@kalyugaExpertiseReversalEffect2009]
 
+
+::::{.columns}
+:::{.column width="50%"}
 | Prinzip | Für Anfänger | Für Fortgeschrittene |
 |---------|--------------|----------------------|
 | **Worked Examples** | Reduziert kognitive Last | Redundante Information erzeugt extrinsische Last |
 | **Problem Solving** | Überfordert Arbeitsgedächtnis | Verfeinert und vernetzt bestehende Schemata |
+
+:::
+
+:::{.column width="50%"}
+![](../../assets/images/fig-expertise-reversal.png)
+:::
+::::
 
 :::{.fragment}
 ::: {.callout-important}
 **Praktische Regel**: Beginne mit hoher Unterstützung und reduziere sie graduell mit wachsender Expertise (Fading).
 :::
 :::
-
-
-## Die KI-Falle {.center}
-
-KI-Tools bieten **permanentes Scaffolding**, das nie abgebaut wird.
-
-:::{.fragment}
-Sie verletzen das Fading-Prinzip systematisch.
-:::
-
-
-## Expertise Reversal Effect
-
-{{< include ../../resources/figures/fig-expertise-reversal.qmd >}}
-
-
-## CLT und KI: Was passiert bei Outsourcing? {.smaller}
-
-**KI optimiert für Produktion statt Lernen**
-
-| Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
-|--------|---------|--------|
-| **Intrinsisch** | Bleibt konstant | Lernende begegnen der Komplexität nicht |
-| **Extrinsisch** | Variabel | Minimiert |
-| **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
-
-:::{.fragment}
-Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
-:::
-
-
-## CLT und KI: Der Vergleich
-
-{{< include ../../resources/figures/fig-outsourcing-comparison.qmd >}}
-
-
-## CLT und KI: Die Nuance
-
-::: {.callout-note}
-Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
-:::
-
-:::{.fragment}
-Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung **erhalten bleiben**.
-:::
-
-:::{.fragment}
-Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
-:::
-
-
-## Warum Outsourcing Schemabildung verhindert
-
-Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
-
-1. Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird
-2. Ohne aktive Verarbeitung findet keine Konsolidierung statt
-3. Prozedurale Fertigkeiten entstehen nur durch Übungszyklen
-4. Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen
-
-:::{.fragment}
-::: {.callout-warning}
-Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
-:::
-:::
-
 
 ## Wie Expertise entwickelt wird {.smaller}
 

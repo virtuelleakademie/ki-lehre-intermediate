@@ -25,7 +25,7 @@
     "href": "slides/wie-menschen-lernen/index.html#warum-existieren-schulen",
     "title": "Wie Menschen lernen",
     "section": "Warum existieren Schulen?",
-    "text": "Warum existieren Schulen?\nWir unterscheiden zwischen (Geary 2008; Sweller 2023):\n\n\n Biologisch primär\n\nEntwickelt sich natürlich\nKeine formale Instruktion nötig\n\nBeispiele: Sprechen, Gesichtserkennung, soziale Interaktion\n\n Biologisch sekundär\n\nKulturelle Errungenschaften\nErfordert bewusste Anstrengung\n\nBeispiele: Lesen, Schreiben, Mathematik, Programmieren\n\n\n\n\n\nAkademische Fähigkeiten erfordern explizite Anleitung und strukturiertes Üben (Kirschner, und and Clark 2006)."
+    "text": "Warum existieren Schulen?\nWir unterscheiden zwischen (Geary 2008; Sweller 2023):\n\n\n Biologisch primär\n\nEntwickelt sich natürlich\nKeine formale Instruktion nötig\n\nBeispiele: Sprechen, Gesichtserkennung, soziale Interaktion\n\n Biologisch sekundär\n\nKulturelle Errungenschaften\nErfordert bewusste Anstrengung\n\nBeispiele: Lesen, Schreiben, Mathematik, Programmieren\n\n\n\n\n\nAkademische Fähigkeiten profitieren typischerweise stark von expliziter Anleitung und strukturiertem Üben (Kirschner, und and Clark 2006). Wie viel Anleitung optimal ist, hängt vom Expertise-Niveau ab (→ Expertise Reversal Effect)."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#biologisch-primär-vs.-sekundär",
@@ -39,7 +39,7 @@
     "href": "slides/wie-menschen-lernen/index.html#experten-vs.-anfänger",
     "title": "Wie Menschen lernen",
     "section": "Experten vs. Anfänger",
-    "text": "Experten vs. Anfänger\n\n\n\n\n\nExperten haben besser organisierte Wissensstrukturen (Schemata), die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich (Sweller 2023)."
+    "text": "Experten vs. Anfänger\n\n\n\n\n\n\nExperten haben besser organisierte Wissensstrukturen (Schemata), die Anfänger erst aufbauen müssen. Die kognitive Architektur (Arbeitsgedächtnis, Langzeitgedächtnis) ist bei allen Menschen gleich (Sweller 2023)."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#gleiche-hardware-unterschiedliche-software",
@@ -74,28 +74,28 @@
     "href": "slides/wie-menschen-lernen/index.html#zwei-quellen-kognitiver-belastung",
     "title": "Wie Menschen lernen",
     "section": "Zwei Quellen kognitiver Belastung",
-    "text": "Zwei Quellen kognitiver Belastung\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst (Elementinteraktivität)\nBegrenzt steuerbar (Sequenzierung)\n\nExtrinsisch\nWie Material präsentiert wird\nDurch Design minimierbar\n\n\n\n\n\nDas Ziel: Raum schaffen für germane processing, die lernrelevante Verarbeitung, die Schemata aufbaut."
+    "text": "Zwei Quellen kognitiver Belastung\n\n\nIntrinsisch\nKomplexität des Lernstoffs selbst (Elementinteraktivität)  Begrenzt steuerbar (z.B. durch Sequenzierung)\n\nExtrinsisch  Wie Material präsentiert wird\nDurch Design minimierbar\n\n\n\n\n\n\nDas Ziel: Raum schaffen für germane processing, die lernrelevante Verarbeitung, die Schemata aufbaut."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#verteilung-der-kognitiven-belastung",
     "href": "slides/wie-menschen-lernen/index.html#verteilung-der-kognitiven-belastung",
     "title": "Wie Menschen lernen",
     "section": "Verteilung der kognitiven Belastung",
-    "text": "Verteilung der kognitiven Belastung\n\n\nAbbildung 1: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
+    "text": "Verteilung der kognitiven Belastung\n\n\nAbbildung 1: Schematische Darstellung: Die Gesamthöhe repräsentiert die fixe Arbeitsgedächtniskapazität. Die Prozentwerte sind illustrativ, nicht empirisch gemessen. Entscheidend ist, wie viel Raum für lernrelevante Verarbeitung bleibt."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#das-lerndilemma",
     "href": "slides/wie-menschen-lernen/index.html#das-lerndilemma",
     "title": "Wie Menschen lernen",
     "section": "Das Lerndilemma",
-    "text": "Das Lerndilemma\nDie Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.\n\nAber: Lernrelevante Verarbeitung (germane processing) ist essentiell für Expertise-Entwicklung.\n\n\n\n\n\nLösung: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen."
+    "text": "Das Lerndilemma\n\n\nDie Gesamtlast darf das Arbeitsgedächtnis nicht überfordern.\n\nAber: Lernrelevante Verarbeitung (germane processing) ist essentiell für Expertise-Entwicklung.\n\n\n\n\n\n\n\n\nLösung: Extrinsische Last minimieren, um Raum für lernrelevante Verarbeitung zu schaffen."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#der-expertise-reversal-effect",
     "href": "slides/wie-menschen-lernen/index.html#der-expertise-reversal-effect",
     "title": "Wie Menschen lernen",
     "section": "Der Expertise Reversal Effect",
-    "text": "Der Expertise Reversal Effect\nWas Anfängern hilft, schadet Experten, und umgekehrt (Kalyuga 2009)\n\n\n\n\n\n\n\n\nPrinzip\nFür Anfänger\nFür Fortgeschrittene\n\n\n\n\nWorked Examples\nReduziert kognitive Last\nRedundante Information erzeugt extrinsische Last\n\n\nProblem Solving\nÜberfordert Arbeitsgedächtnis\nVerfeinert und vernetzt bestehende Schemata\n\n\n\n\n\n\n\nPraktische Regel: Beginne mit hoher Unterstützung und reduziere sie graduell mit wachsender Expertise (Fading)."
+    "text": "Der Expertise Reversal Effect\nWas Anfängern hilft, schadet Experten, und umgekehrt (Kalyuga 2009)\n\n\n\n\n\n\n\n\n\n\nPrinzip\nFür Anfänger\nFür Fortgeschrittene\n\n\n\n\nWorked Examples\nReduziert kognitive Last\nRedundante Information erzeugt extrinsische Last\n\n\nProblem Solving\nÜberfordert Arbeitsgedächtnis\nVerfeinert und vernetzt bestehende Schemata\n\n\n\n\n\n\n\n\n\n\nPraktische Regel: Beginne mit hoher Unterstützung und reduziere sie graduell mit wachsender Expertise (Fading)."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#die-ki-falle",
@@ -207,7 +207,7 @@
     "href": "slides/wie-menschen-lernen/index.html#bibliographie",
     "title": "Wie Menschen lernen",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\nAnderson, John R. 1982. „Acquisition of Cognitive Skill“. Psychological Review 89 (4): 369–406. https://doi.org/10.1037/0033-295X.89.4.369.\n\n\nBjork, Robert A. 1994. „Memory and Metamemory Considerations in the Training of Human Beings“. In Metacognition: Knowing about Knowing, 185–205. Cambridge, MA, US: The MIT Press. https://doi.org/10.7551/mitpress/4561.001.0001.\n\n\nCui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. „The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers“. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. https://doi.org/10.2139/ssrn.4945566.\n\n\nDell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, und Karim R. Lakhani. 2023. „Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality“. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4573321.\n\n\nGeary, David C. 2008. „An Evolutionarily Informed Education Science“. Educational Psychologist 43 (4): 179–95. https://doi.org/10.1080/00461520802392133.\n\n\nKalyuga, Slava. 2009. „The Expertise Reversal Effect“. In Managing Cognitive Load in Adaptive Multimedia Learning, 58–80. IGI Global Scientific Publishing. https://doi.org/10.4018/978-1-60566-048-6.ch003.\n\n\nKirschner, Paul A., Sweller, und Richard E. and Clark. 2006. „Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching“. Educational Psychologist 41 (2): 75–86. https://doi.org/10.1207/s15326985ep4102_1.\n\n\nRoediger, Henry L., und Andrew C. Butler. 2011. „The Critical Role of Retrieval Practice in Long-Term Retention“. Trends in Cognitive Sciences 15 (1): 20–27. https://doi.org/10.1016/j.tics.2010.09.003.\n\n\nSweller, John. 2023. „The Development of Cognitive Load Theory: Replication Crises and Incorporation of Other Theories Can Lead to Theory Expansion“. Educational Psychology Review 35 (4): 95. https://doi.org/10.1007/s10648-023-09817-2.\n\n\nToner-Rodgers, Aidan. 2025. „Artificial Intelligence, Scientific Discovery, and Product Innovation“. 20. Mai 2025. https://doi.org/10.48550/arXiv.2412.17866."
+    "text": "Bibliographie\n\n\nAnderson, John R. 1982. „Acquisition of Cognitive Skill“. Psychological Review 89 (4): 369–406. https://doi.org/10.1037/0033-295X.89.4.369.\n\n\nBjork, Robert A. 1994. „Memory and Metamemory Considerations in the Training of Human Beings“. In Metacognition: Knowing about Knowing, 185–205. Cambridge, MA, US: The MIT Press. https://doi.org/10.7551/mitpress/4561.001.0001.\n\n\nChen, Ouhao, Fred Paas, und John Sweller. 2023. „A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity“. Educational Psychology Review 35 (2): 63. https://doi.org/10.1007/s10648-023-09782-w.\n\n\nCui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. „The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers“. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. https://doi.org/10.2139/ssrn.4945566.\n\n\nDell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, und Karim R. Lakhani. 2023. „Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality“. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4573321.\n\n\nGeary, David C. 2008. „An Evolutionarily Informed Education Science“. Educational Psychologist 43 (4): 179–95. https://doi.org/10.1080/00461520802392133.\n\n\nKalyuga, Slava. 2009. „The Expertise Reversal Effect“. In Managing Cognitive Load in Adaptive Multimedia Learning, 58–80. IGI Global Scientific Publishing. https://doi.org/10.4018/978-1-60566-048-6.ch003.\n\n\nKirschner, Paul A., Sweller, und Richard E. and Clark. 2006. „Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching“. Educational Psychologist 41 (2): 75–86. https://doi.org/10.1207/s15326985ep4102_1.\n\n\nRoediger, Henry L., und Andrew C. Butler. 2011. „The Critical Role of Retrieval Practice in Long-Term Retention“. Trends in Cognitive Sciences 15 (1): 20–27. https://doi.org/10.1016/j.tics.2010.09.003.\n\n\nSweller, John. 2023. „The Development of Cognitive Load Theory: Replication Crises and Incorporation of Other Theories Can Lead to Theory Expansion“. Educational Psychology Review 35 (4): 95. https://doi.org/10.1007/s10648-023-09817-2.\n\n\nToner-Rodgers, Aidan. 2025. „Artificial Intelligence, Scientific Discovery, and Product Innovation“. 20. Mai 2025. https://doi.org/10.48550/arXiv.2412.17866."
   },
   {
     "objectID": "resources/resources.html",
@@ -1625,7 +1625,7 @@
     "href": "slides/wie-menschen-lernen/index.html#schwierig-komplex",
     "title": "Wie Menschen lernen",
     "section": "Schwierig ≠ Komplex",
-    "text": "Schwierig ≠ Komplex\nNicht jede schwierige Aufgabe ist komplex (Chen, Paas, und Sweller 2023)\n\n\n\n\n\n\n\n\n\nSchwierig, nicht komplex\nKomplex\n\n\n\n\nElementinteraktivität\nNiedrig\nHoch\n\n\nWas passiert\nViele Elemente, die unabhängig gelernt werden\nWenige Elemente, die alle gleichzeitig verarbeitet werden müssen\n\n\nBeispiel\nFachvokabular, Periodensystem, Quellenformate\nArgumentation aufbauen, Gleichung lösen, Fall analysieren\n\n\nKI-Empfehlung\nOffloading möglich\nOutsourcing verhindern\n\n\n\n\n\n\n\nDie Konsequenz: Schütze die komplexen Aufgabenanteile (hohe Elementinteraktivität) vor KI-Outsourcing. Die schwierigen Routineanteile (niedrige Elementinteraktivität) können delegiert werden."
+    "text": "Schwierig ≠ Komplex\n\nNicht jede schwierige Aufgabe ist komplex (Chen, Paas, und Sweller 2023)\n\n\n\n\n\n\n\n\n\nSchwierig, nicht komplex\nKomplex\n\n\n\n\nElementinteraktivität\nNiedrig\nHoch\n\n\nWas passiert\nViele Elemente, die unabhängig gelernt werden\nWenige Elemente, die alle gleichzeitig verarbeitet werden müssen\n\n\nBeispiel\nFachvokabular, Periodensystem, Quellenformate\nArgumentation aufbauen, Gleichung lösen, Fall analysieren\n\n\nKI-Empfehlung\nOffloading möglich\nOutsourcing verhindern\n\n\n\n\n\n\n\nDie Konsequenz: Schütze die komplexen Aufgabenanteile (hohe Elementinteraktivität) vor KI-Outsourcing. Die schwierigen Routineanteile (niedrige Elementinteraktivität) können delegiert werden."
   },
   {
     "objectID": "03-praxis/fallstudien/index.html#fallstudie-b-projektmanagement-leistungskontext",
@@ -1659,5 +1659,33 @@
       "3: Praxis",
       "Fallstudien: KI-Integration in der Lehre"
     ]
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#clt-und-ki-was-passiert-bei-outsourcing",
+    "href": "slides/ki-und-lernen/index.html#clt-und-ki-was-passiert-bei-outsourcing",
+    "title": "KI & Lernen",
+    "section": "CLT und KI: Was passiert bei Outsourcing?",
+    "text": "CLT und KI: Was passiert bei Outsourcing?\nKI optimiert für Produktion statt Lernen\n\n\n\n\n\n\n\n\nKognitive Last\nOhne KI\nMit KI (Outsourcing)\n\n\n\n\nIntrinsisch\nBleibt konstant\nLernende begegnen der Komplexität nicht\n\n\nExtrinsisch\nVariabel\nMinimiert\n\n\nLernrelevante Verarbeitung\nWird aufgebracht\nEliminiert\n\n\n\n\nDie Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#clt-und-ki-der-vergleich",
+    "href": "slides/ki-und-lernen/index.html#clt-und-ki-der-vergleich",
+    "title": "KI & Lernen",
+    "section": "CLT und KI: Der Vergleich",
+    "text": "CLT und KI: Der Vergleich"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#clt-und-ki-die-nuance",
+    "href": "slides/ki-und-lernen/index.html#clt-und-ki-die-nuance",
+    "title": "KI & Lernen",
+    "section": "CLT und KI: Die Nuance",
+    "text": "CLT und KI: Die Nuance\n\n\n\nLernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit übernimmt (Outsourcing).\n\n\n\n\nWenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung erhalten bleiben.\n\n\nDie Reihenfolge entscheidet: Versuch → dann → KI-Feedback"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#warum-outsourcing-schemabildung-verhindert",
+    "href": "slides/ki-und-lernen/index.html#warum-outsourcing-schemabildung-verhindert",
+    "title": "KI & Lernen",
+    "section": "Warum Outsourcing Schemabildung verhindert",
+    "text": "Warum Outsourcing Schemabildung verhindert\nSchemabildung erfordert aktive Verarbeitung im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:\n\nOhne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird\nOhne aktive Verarbeitung findet keine Konsolidierung statt\nProzedurale Fertigkeiten entstehen nur durch Übungszyklen\nVernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen\n\n\n\n\n\nDie Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen."
   }
 ]

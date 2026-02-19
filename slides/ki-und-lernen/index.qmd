@@ -63,6 +63,57 @@ Lernrelevante Verarbeitung: **eliminiert**
 {{< include ../../resources/figures/fig-offloading-spectrum.qmd >}}
 
 
+## CLT und KI: Was passiert bei Outsourcing? {.smaller}
+
+**KI optimiert für Produktion statt Lernen**
+
+| Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
+|--------|---------|--------|
+| **Intrinsisch** | Bleibt konstant | Lernende begegnen der Komplexität nicht |
+| **Extrinsisch** | Variabel | Minimiert |
+| **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
+
+:::{.fragment}
+Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
+:::
+
+
+## CLT und KI: Der Vergleich
+
+{{< include ../../resources/figures/fig-outsourcing-comparison.qmd >}}
+
+
+## CLT und KI: Die Nuance
+
+::: {.callout-note}
+Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
+:::
+
+:::{.fragment}
+Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung **erhalten bleiben**.
+:::
+
+:::{.fragment}
+Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
+:::
+
+
+## Warum Outsourcing Schemabildung verhindert
+
+Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
+
+1. Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird
+2. Ohne aktive Verarbeitung findet keine Konsolidierung statt
+3. Prozedurale Fertigkeiten entstehen nur durch Übungszyklen
+4. Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen
+
+:::{.fragment}
+::: {.callout-warning}
+Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
+:::
+:::
+
+
 ## Die Frage ist nicht... {.center}
 
 . . .
