@@ -52,7 +52,7 @@ website:
 
     right:
       - icon: book
-        text: "Dokumente"
+        text: "Ressourcen"
         menu:
           - text: "Die 8 Make it Stick Strategien"
             file: resources/handout-make-it-stick/index.qmd
@@ -63,6 +63,9 @@ website:
           - text: "Produktive Anstrengung durch Design"
             file: resources/produktive-anstrengung/index.qmd
           - text: "---"
+      - icon: file-earmark-pdf
+        text: "Dokumente"
+        menu:
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
           - text: "Begleitdokument: KI Policy (PDF)"
@@ -73,6 +76,10 @@ website:
             file: assets/pdfs/Orientierungshilfe.pdf
 
     tools:
+      - icon: mortarboard-fill
+        text: "BFH Weiterbildung: KI in der Lehre"
+        href: https://virtuelleakademie.github.io/de/teaching/bfh-weiterbildung/
+        target: _blan
       - icon: lightbulb-fill
         text: Knowledge Base
         href: https://virtuelleakademie.ch/knowledge-base/

@@ -112,39 +112,53 @@ Was hier **kein** Lernziel ist: *Formal* korrekt zitieren (APA-Format, Seitenzah
 
 Analysieren wir die Aufgabe jetzt mit den 5 Leitfragen.
 
+---
+
 ### Schritt-für-Schritt-Analyse
 
-**Frage 1: Geht es primär ums Lernen?**
+::: {.callout-note appearance="simple"}
+#### Frage 1: Geht es primär ums Lernen?
 
 Ja. Es ist eine Kursaufgabe, kein professionelles Produkt. Die kognitive Arbeit muss bei den Studierenden bleiben.
+:::
 
-**Frage 2: Welche Denkarbeit verlangt die Aufgabe?**
+::: {.callout-note appearance="simple"}
+#### Frage 2: Welche Denkarbeit verlangt die Aufgabe?
 
 - **Abrufen**: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? welche Suchbegriffe? welche Eingrenzungskriterien?)
 - **Generieren**: Für jede Quelle eine eigene Zusammenfassung *und* Bewertung produzieren. Zusammenfassen (Kernargument in eigenen Worten extrahieren) und Bewerten (Qualität beurteilen) sind zwei verschiedene Anforderungen, die beide eigene kognitive Arbeit verlangen
 - **Verknüpfen**: Quellen zu einer Synthese integrieren (hohe Elementinteraktivität: mehrere Argumente, Methoden und Befunde gleichzeitig in Beziehung setzen). Dazu gehört auch die intellektuelle Seite des Zitierens: entscheiden, welche Behauptungen Belege brauchen und welche Vorarbeiten das eigene Argument stützen
 - **Überwachen**: Eigene Bewertungskriterien hinterfragen, Vollständigkeit der Recherche prüfen
+:::
 
-**Frage 3: Welche dieser Operationen würde KI übernehmen?**
+::: {.callout-note appearance="simple"}
+#### Frage 3: Welche dieser Operationen würde KI übernehmen?
 
 - **Generieren** wird vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Bewertungen.
 - Auch das **Verknüpfen** übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Aber KI behandelt Zitieren als Formatierungsaufgabe (welche Quelle passt formal hierhin?), nicht als intellektuelle Entscheidung (welche Behauptung in *meinem* Argument braucht einen Beleg, und warum gerade *diese* Quelle?).
 - Eine eigene Suchstrategie (**Abrufen**) entwickeln Studierende gar nicht erst.
 - Und **Überwachen**? Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox).
+:::
 
 > Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen, Synthese, formal korrekte Zitationen), sondern im *Prozess* (Suchen, Bewerten, Entscheiden, intellektuell Verorten). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.
 
-**Frage 4: Werden noch Grundlagen aufgebaut?**
+::: {.callout-note appearance="simple"}
+#### Frage 4: Werden noch Grundlagen aufgebaut?
 
 Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?" Genau die Operationen, die wir identifiziert haben, vor allem Generieren und Verknüpfen, sind die Prozesse, durch die diese Schemata entstehen.
+:::
 
-**Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?**
+::: {.callout-note appearance="simple"}
+#### Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?
 
 Nein. Es gibt keine eingebaute Phase, in der Studierende *zuerst selbst* suchen, bewerten und synthetisieren, bevor sie KI konsultieren.
+:::
 
+::: {.callout-important}
 ### Die Diagnose
 
 Alle vier Kernoperationen werden von KI übernommen. Das Lernen wird nicht unterstützt, sondern umgangen.
+:::
 
 ::: {.active-processing}
 ### Selbsterklärung (2 Min)
@@ -157,23 +171,34 @@ Alle vier Kernoperationen werden von KI übernommen. Das Lernen wird nicht unter
 ::: {.callout-note collapse="true"}
 ### Ein mögliches Redesign
 
-| Phase | Was Studierende tun | Rolle der KI |
-|-------|---------------------|--------------|
-| 1. Suchprotokoll | Dokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? | Keine |
-| 2. Bewertungs- und Zitiernotizen | Für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? *Welche eigene Behauptung stützt diese Quelle?* | Keine |
-| 3. Synthese in der Lehrveranstaltung | Einseitige Synthese *vor Ort*, nur mit eigenen Notizen, ohne KI und ohne Internet (bei Anfängern: mit vorgegebener Synthesestruktur) | Keine |
-| 3b. Vergleich mit KI-Synthese | KI-generierte Synthese derselben Quellen lesen. Unterschiede in Argumentation, Gewichtung und Lücken identifizieren und erklären | Vergleichsreferenz *nach* eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden |
-| 4. Formale Qualitätsprüfung | KI prüft Zitationsformat und sprachliche Korrektheit | Offloading: Die inhaltliche Entscheidung wurde in Phase 2 getroffen. Hier geht es nur noch um Formatierung |
+| Phase | Studierende | KI |
+|-------|-------------|-----|
+| 1. Suchprotokoll | Suchstrategie dokumentieren | Keine |
+| 2. Bewertungsnotizen | Quellen bewerten, Zitiergründe festhalten | Keine |
+| 3. Synthese (vor Ort) | Einseitige Synthese, nur eigene Notizen | Keine |
+| 3b. KI-Vergleich | Unterschiede zur KI-Synthese erklären | Vergleichsreferenz |
+| 4. Formale Prüfung | Zitationsformat und Sprache prüfen | Offloading |
 
 **Was sich ändert:** Die Studierenden müssen *den Prozess* durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.
 
-Phase 3 ist der anspruchsvollste Schritt (hohe Elementinteraktivität). Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur ("Quellen A und B stimmen überein, dass ___. Sie unterscheiden sich bei ___, weil ___.") bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. Phase 3b birgt ein Risiko durch das Evaluationsparadox: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version "korrigieren", auch wenn ihre eigene besser war. Deshalb lautet die Aufgabe "Unterschiede identifizieren und erklären", nicht "Synthese verbessern".
+**Phase 1** dokumentiert die Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? **Phase 2** verlangt für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? *Welche eigene Behauptung stützt diese Quelle?* Damit wird die intellektuelle Zitierentscheidung bei den Studierenden verankert. **Phase 3** schützt die Synthese als den Schritt mit der höchsten Elementinteraktivität. Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur ("Quellen A und B stimmen überein, dass ___. Sie unterscheiden sich bei ___, weil ___.") bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. **Phase 3b** aktiviert Überwachen: Studierende vergleichen *nach* eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden. Vorsicht: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version "korrigieren" (Evaluationsparadox). Deshalb lautet die Aufgabe "Unterschiede identifizieren und erklären", nicht "Synthese verbessern". **Phase 4** delegiert nur noch Formatierung. Die inhaltliche Entscheidung wurde in Phase 2 getroffen.
 
 #### Was zeigt dieses Beispiel?
 
-1. **Lernziele zuerst, dann Operationen**: Die Analyse beginnt mit "Was sollen Studierende lernen?", nicht mit "Kann KI das?" Erst wenn die Lernziele klar sind, lassen sich die kognitiven Operationen identifizieren, die sie tragen. Das Redesign schützt gezielt diese Operationen und delegiert Routineanteile
-2. **Offloading am richtigen Punkt**: Was wir "Zitieren" nennen, bündelt zwei verschiedene Aktivitäten mit sehr unterschiedlichem kognitivem Profil: die inhaltliche Entscheidung (was und warum) und die formale Umsetzung (APA-Format). Die erste ist lernrelevant, die zweite nicht. Dasselbe gilt für die Synthese: Ihre hohe Elementinteraktivität macht sie besonders schützenswert, weil genau dieser Prozess die Schemata aufbaut, die Studierende später brauchen
-3. **Erst selbst, dann KI**: Die eigene Synthese (Phase 3) aktiviert Abrufen und Generieren. Der Vergleich mit der KI-Synthese (Phase 3b) aktiviert Verknüpfen und Überwachen, weil Studierende Unterschiede zwischen ihrer eigenen Argumentation und der KI-Version erklären müssen. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
+::: {.callout-tip appearance="simple"}
+#### Lernziele zuerst, dann Operationen
+Die Analyse beginnt mit "Was sollen Studierende lernen?", nicht mit "Kann KI das?" Erst wenn die Lernziele klar sind, lassen sich die kognitiven Operationen identifizieren, die sie tragen. Das Redesign schützt gezielt diese Operationen und delegiert Routineanteile.
+:::
+
+::: {.callout-tip appearance="simple"}
+#### Offloading am richtigen Punkt
+Was wir "Zitieren" nennen, bündelt zwei verschiedene Aktivitäten mit sehr unterschiedlichem kognitivem Profil: die inhaltliche Entscheidung (was und warum) und die formale Umsetzung (APA-Format). Die erste ist lernrelevant, die zweite nicht. Dasselbe gilt für die Synthese: Ihre hohe Elementinteraktivität macht sie besonders schützenswert, weil genau dieser Prozess die Schemata aufbaut, die Studierende später brauchen.
+:::
+
+::: {.callout-tip appearance="simple"}
+#### Erst selbst, dann KI
+Die eigene Synthese (Phase 3) aktiviert Abrufen und Generieren. Der Vergleich mit der KI-Synthese (Phase 3b) aktiviert Verknüpfen und Überwachen, weil Studierende Unterschiede zwischen ihrer eigenen Argumentation und der KI-Version erklären müssen. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium.
+:::
 
 {{< include ../resources/figures/fig-try-then-check.qmd >}}
 :::
