@@ -102,14 +102,36 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-group.callout {
-  border-left-color: #7c3aed;
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #64748b;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '👥';
   background-image: none;
 }
@@ -124,6 +146,17 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '🤖';
   background-image: none;
 }
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -135,15 +168,15 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #64748b;
+div.callout-individual.callout {
+  border-left-color: #0072B2;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(0, 114, 178, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '💻';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -166,39 +199,6 @@ div.callout-facilitator.callout-style-default > .callout-header {
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
   content: '📋';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
   background-image: none;
 }
 </style>
@@ -522,40 +522,50 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </div>
 </div>
 </div>
-<p>Bevor ihr die Leitfragen auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.</p>
+<p>Bevor ihr die Leitfragen auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussehen könnte.</p>
 <section id="die-aufgabe-annotierte-bibliografie" class="level3"><h3 class="anchored" data-anchor-id="die-aufgabe-annotierte-bibliografie">Die Aufgabe: “Annotierte Bibliografie”</h3>
 <blockquote class="blockquote">
 <p>Studierende suchen 5 relevante Quellen zu einem vorgegebenen Thema, fassen jede in 150 Wörtern zusammen und verfassen eine einseitige Synthese zum aktuellen Forschungsstand.</p>
 </blockquote>
-<p>Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit den 5 Leitfragen.</p>
+<p>Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik.</p>
+<p><strong>Erster Schritt: Was sollen Studierende dabei lernen?</strong></p>
+<p>Zuerst die Lernziele. Was sollen Studierende bei dieser Aufgabe eigentlich lernen?</p>
+<ul>
+<li>Suchstrategie entwickeln: Wo und wie suchen? Welche Datenbanken, welche Begriffe, welche Eingrenzung?</li>
+<li>Quellenqualität beurteilen: Ist die Quelle relevant? Methodisch solide? Aktuell genug?</li>
+<li>Einzelne Quellen zusammenfassen: Das Kernargument in eigenen Worten extrahieren</li>
+<li>Über Quellen hinweg synthetisieren: Muster, Widersprüche und Lücken im Forschungsstand identifizieren</li>
+<li>Zitieren als intellektuelle Praxis: Verstehen, <em>warum</em> man zitiert (welche Behauptungen brauchen Belege? Auf welche Vorarbeiten stützt sich das eigene Argument?)</li>
+</ul>
+<p>Was hier <strong>kein</strong> Lernziel ist: <em>Formal</em> korrekt zitieren (APA-Format, Seitenzahlen, Kursivierung). Das sind mechanische Konventionen, die Werkzeuge wie Zotero seit Jahren übernehmen. Die eigentliche intellektuelle Leistung beim Zitieren ist die <em>Entscheidung</em>, was zitiert wird und warum.</p>
+<p>Analysieren wir die Aufgabe jetzt mit den 5 Leitfragen.</p>
 </section><section id="schritt-für-schritt-analyse" class="level3"><h3 class="anchored" data-anchor-id="schritt-für-schritt-analyse">Schritt-für-Schritt-Analyse</h3>
 <p><strong>Frage 1: Geht es primär ums Lernen?</strong></p>
-<p>Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Die kognitive Arbeit muss bei den Studierenden bleiben.</p>
+<p>Ja. Es ist eine Kursaufgabe, kein professionelles Produkt. Die kognitive Arbeit muss bei den Studierenden bleiben.</p>
 <p><strong>Frage 2: Welche Denkarbeit verlangt die Aufgabe?</strong></p>
 <ul>
 <li>
-<strong>Abrufen</strong>: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? Welche Suchbegriffe?)</li>
+<strong>Abrufen</strong>: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? welche Suchbegriffe? welche Eingrenzungskriterien?)</li>
 <li>
-<strong>Generieren</strong>: Eigene Bewertung jeder Quelle produzieren (relevant? Methodisch solide? Aktuell?)</li>
+<strong>Generieren</strong>: Für jede Quelle eine eigene Zusammenfassung <em>und</em> Bewertung produzieren. Zusammenfassen (Kernargument in eigenen Worten extrahieren) und Bewerten (Qualität beurteilen) sind zwei verschiedene Anforderungen, die beide eigene kognitive Arbeit verlangen</li>
 <li>
-<strong>Verknüpfen</strong>: Mehrere Quellen zu einer Synthese integrieren, Gemeinsamkeiten und Widersprüche identifizieren</li>
+<strong>Verknüpfen</strong>: Quellen zu einer Synthese integrieren (hohe Elementinteraktivität: mehrere Argumente, Methoden und Befunde gleichzeitig in Beziehung setzen). Dazu gehört auch die intellektuelle Seite des Zitierens: entscheiden, welche Behauptungen Belege brauchen und welche Vorarbeiten das eigene Argument stützen</li>
 <li>
 <strong>Überwachen</strong>: Eigene Bewertungskriterien hinterfragen, Vollständigkeit der Recherche prüfen</li>
 </ul>
 <p><strong>Frage 3: Welche dieser Operationen würde KI übernehmen?</strong></p>
 <ul>
 <li>
-<strong>Generieren</strong> und <strong>Verknüpfen</strong> werden vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Synthesen mit korrekten Zitationsformaten</li>
-<li>
-<strong>Abrufen</strong> wird umgangen: Studierende entwickeln keine eigene Suchstrategie</li>
-<li>
-<strong>Überwachen</strong> bleibt illusorisch: Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox)</li>
+<strong>Generieren</strong> wird vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Bewertungen.</li>
+<li>Auch das <strong>Verknüpfen</strong> übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Aber KI behandelt Zitieren als Formatierungsaufgabe (welche Quelle passt formal hierhin?), nicht als intellektuelle Entscheidung (welche Behauptung in <em>meinem</em> Argument braucht einen Beleg, und warum gerade <em>diese</em> Quelle?).</li>
+<li>Eine eigene Suchstrategie (<strong>Abrufen</strong>) entwickeln Studierende gar nicht erst.</li>
+<li>Und <strong>Überwachen</strong>? Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox).</li>
 </ul>
 <blockquote class="blockquote">
-<p>Die kognitive Arbeit steckt nicht im <em>Produkt</em> (Zusammenfassungen + Synthese), sondern im <em>Prozess</em> (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.</p>
+<p>Die kognitive Arbeit steckt nicht im <em>Produkt</em> (Zusammenfassungen, Synthese, formal korrekte Zitationen), sondern im <em>Prozess</em> (Suchen, Bewerten, Entscheiden, intellektuell Verorten). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.</p>
 </blockquote>
 <p><strong>Frage 4: Werden noch Grundlagen aufgebaut?</strong></p>
-<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?” Die identifizierten Operationen, besonders Generieren (eigene Bewertung) und Verknüpfen (Synthese), sind genau die Prozesse, die diese Schemata aufbauen.</p>
+<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?” Genau die Operationen, die wir identifiziert haben, vor allem Generieren und Verknüpfen, sind die Prozesse, durch die diese Schemata entstehen.</p>
 <p><strong>Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?</strong></p>
 <p>Nein. Es gibt keine eingebaute Phase, in der Studierende <em>zuerst selbst</em> suchen, bewerten und synthetisieren, bevor sie KI konsultieren.</p>
 </section><section id="die-diagnose" class="level3"><h3 class="anchored" data-anchor-id="die-diagnose">Die Diagnose</h3>
@@ -599,37 +609,43 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </tr></thead>
 <tbody>
 <tr class="odd">
-<td><strong>1. Suchprotokoll</strong></td>
+<td>1. Suchprotokoll</td>
 <td>Dokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung?</td>
 <td>Keine</td>
 </tr>
 <tr class="even">
-<td><strong>2. Bewertungsnotizen</strong></td>
-<td>Für jede Quelle: Warum aufgenommen oder verworfen? Was ist die zentrale Argumentation?</td>
+<td>2. Bewertungs- und Zitiernotizen</td>
+<td>Für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? <em>Welche eigene Behauptung stützt diese Quelle?</em>
+</td>
 <td>Keine</td>
 </tr>
 <tr class="odd">
-<td><strong>3. Synthese in der Lehrveranstaltung</strong></td>
-<td>Einseitige Synthese <em>vor Ort</em>, nur mit eigenen Notizen, ohne KI und ohne Internet</td>
+<td>3. Synthese in der Lehrveranstaltung</td>
+<td>Einseitige Synthese <em>vor Ort</em>, nur mit eigenen Notizen, ohne KI und ohne Internet (bei Anfängern: mit vorgegebener Synthesestruktur)</td>
 <td>Keine</td>
 </tr>
 <tr class="even">
-<td><strong>4. Qualitätsprüfung</strong></td>
+<td>3b. Vergleich mit KI-Synthese</td>
+<td>KI-generierte Synthese derselben Quellen lesen. Unterschiede in Argumentation, Gewichtung und Lücken identifizieren und erklären</td>
+<td>Vergleichsreferenz <em>nach</em> eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden</td>
+</tr>
+<tr class="odd">
+<td>4. Formale Qualitätsprüfung</td>
 <td>KI prüft Zitationsformat und sprachliche Korrektheit</td>
-<td>Offloading (extrinsische Last, <em>bezogen auf das inhaltliche Lernziel</em>; wäre das Lernziel korrektes Zitieren, wäre es Outsourcing)</td>
+<td>Offloading: Die inhaltliche Entscheidung wurde in Phase 2 getroffen. Hier geht es nur noch um Formatierung</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Was sich ändert:</strong> Die Studierenden müssen <em>den Prozess</em> durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.</p>
+<p>Phase 3 ist der anspruchsvollste Schritt (hohe Elementinteraktivität). Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur (“Quellen A und B stimmen überein, dass <strong><em>. Sie unterscheiden sich bei </em></strong>, weil ___.”) bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. Phase 3b birgt ein Risiko durch das Evaluationsparadox: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version “korrigieren”, auch wenn ihre eigene besser war. Deshalb lautet die Aufgabe “Unterschiede identifizieren und erklären”, nicht “Synthese verbessern”.</p>
 <section id="was-zeigt-dieses-beispiel" class="level4"><h4 class="anchored" data-anchor-id="was-zeigt-dieses-beispiel">Was zeigt dieses Beispiel?</h4>
-<p>Drei Erkenntnisse für die eigene Praxis:</p>
 <ol type="1">
 <li>
-<strong>Operationen identifizieren</strong>: Die Analyse beginnt nicht mit “Kann KI das?”, sondern mit “Welche Denkarbeit verlangt die Aufgabe?” Das Redesign schützt gezielt die Operationen, die das Lernen tragen (Generieren, Verknüpfen), und delegiert Routineanteile (Zitationsformat)</li>
+<strong>Lernziele zuerst, dann Operationen</strong>: Die Analyse beginnt mit “Was sollen Studierende lernen?”, nicht mit “Kann KI das?” Erst wenn die Lernziele klar sind, lassen sich die kognitiven Operationen identifizieren, die sie tragen. Das Redesign schützt gezielt diese Operationen und delegiert Routineanteile</li>
 <li>
-<strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (Verknüpfen) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe <strong>Elementinteraktivität</strong> hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden</li>
+<strong>Offloading am richtigen Punkt</strong>: Was wir “Zitieren” nennen, bündelt zwei verschiedene Aktivitäten mit sehr unterschiedlichem kognitivem Profil: die inhaltliche Entscheidung (was und warum) und die formale Umsetzung (APA-Format). Die erste ist lernrelevant, die zweite nicht. Dasselbe gilt für die Synthese: Ihre hohe Elementinteraktivität macht sie besonders schützenswert, weil genau dieser Prozess die Schemata aufbaut, die Studierende später brauchen</li>
 <li>
-<strong>Erst selbst, dann KI</strong>: Die Reihenfolge entscheidet. Der eigene Versuch aktiviert Abrufen und Generieren, und der Vergleich erzeugt Verknüpfen und Überwachen. Dieses Prinzip ist theoretisch gut fundiert <span class="citation" data-cites="bjorkMakingThingsHard2011">(vgl. <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span>, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
+<strong>Erst selbst, dann KI</strong>: Die eigene Synthese (Phase 3) aktiviert Abrufen und Generieren. Der Vergleich mit der KI-Synthese (Phase 3b) aktiviert Verknüpfen und Überwachen, weil Studierende Unterschiede zwischen ihrer eigenen Argumentation und der KI-Version erklären müssen. Dieses Prinzip ist theoretisch gut fundiert <span class="citation" data-cites="bjorkMakingThingsHard2011">(vgl. <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span>, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
 </ol>
 <div class="cell">
 <div class="cell-output-display">
@@ -782,18 +798,9 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <p>Die Konsequenz: Kompetente Nutzung setzt Kompetenz voraus.</p>
 <p>Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.</p>
 <p><strong>Wichtige Differenzierung:</strong> Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-1aff17537f9366a6e24e" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-1aff17537f9366a6e24e">{"x":{"diagram":"\ndigraph evaluation_paradox {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 1.0\n    label = \"Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht\"\n    labelloc = t\n    fontsize = 16\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  evaluate [\n    label = \"KI-Output\\nbewerten\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  competence [\n    label = \"Fachkompetenz\"\n    fillcolor = \"#64748b\"\n  ]\n\n  learning [\n    label = \"Eigenes\\nLernen\"\n    fillcolor = \"#64748b\"\n  ]\n\n  thinking [\n    label = \"Eigenes\\nDenken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  center [\n    label = \"Internes Modell\\nnoch nicht aufgebaut\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 13\n  ]\n\n  evaluate -> competence [label = \"  erfordert  \"]\n  competence -> learning [label = \"  entsteht durch  \"]\n  learning -> thinking [label = \"  erfordert  \"]\n  thinking -> evaluate [label = \"  wird ersetzt\\n  durch KI  \" style = dashed color = \"#D55E00\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-698a1370fdd0911f5740" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-698a1370fdd0911f5740">{"x":{"diagram":"\ndigraph expert_novice {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    rankdir = LR\n    nodesep = 0.6\n    ranksep = 1.0\n    compound = true\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_expert {\n    label = \"Expert:in\"\n    fontname = \"Helvetica\"\n    fontsize = 15\n    fontcolor = \"#0072B2\"\n    style = \"rounded,filled\"\n    fillcolor = \"#dce8f5\"\n    color = \"#0072B2\"\n    penwidth = 1.5\n\n    e_model [label = \"Starkes internes\\nModell\" fillcolor = \"#0072B2\"]\n    e_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    e_result [label = \"Korrektur\" fillcolor = \"#0072B2\"]\n\n    e_model -> e_ki [label = \"  Vergleich\\n  möglich  \" color = \"#222222\"]\n    e_ki -> e_result [label = \"  Fehler\\n  erkennbar  \" color = \"#222222\"]\n  }\n\n  subgraph cluster_novice {\n    label = \"Anfänger:in\"\n    fontname = \"Helvetica\"\n    fontsize = 15\n    fontcolor = \"#D55E00\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fde8d8\"\n    color = \"#D55E00\"\n    penwidth = 1.5\n\n    n_model [label = \"Schwaches internes\\nModell\" fillcolor = \"#D55E00\"]\n    n_ki [label = \"KI-Output\" fillcolor = \"#64748b\"]\n    n_result [label = \"Übernahme\" fillcolor = \"#D55E00\"]\n\n    n_model -> n_ki [label = \"  Kein Vergleichs-\\n  massstab  \" color = \"#999999\" style = dashed]\n    n_ki -> n_result [label = \"  Fehler\\n  unsichtbar  \" color = \"#999999\" style = dashed]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<!-- {{< include ../resources/figures/fig-evaluation-paradox.qmd >}}
+
+{{< include ../resources/figures/fig-expert-novice.qmd >}} -->
 </div>
 </div>
 </div>

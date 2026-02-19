@@ -90,38 +90,53 @@ Gleich analysieren wir gemeinsam eine typische Aufgabe ("Annotierte Bibliografie
 Dieses Beispiel Schritt für Schritt gemeinsam durcharbeiten. Jeden Schritt vorlesen oder zusammenfassen, dann kurz Reaktionen abfragen. Vor dem Redesign PAUSE für die Selbsterklärung (2 Min). Dann das Redesign zeigen und die drei Erkenntnisse besprechen.
 :::
 
-Bevor ihr die Leitfragen auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussieht.
+Bevor ihr die Leitfragen auf eure eigenen Aufgaben anwendet, schauen wir uns gemeinsam an, wie eine Analyse Schritt für Schritt aussehen könnte.
 
 ### Die Aufgabe: "Annotierte Bibliografie"
 
 > Studierende suchen 5 relevante Quellen zu einem vorgegebenen Thema, fassen jede in 150 Wörtern zusammen und verfassen eine einseitige Synthese zum aktuellen Forschungsstand.
 
-Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit den 5 Leitfragen.
+Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik.
+
+**Erster Schritt: Was sollen Studierende dabei lernen?**
+
+Zuerst die Lernziele. Was sollen Studierende bei dieser Aufgabe eigentlich lernen?
+
+- Suchstrategie entwickeln: Wo und wie suchen? Welche Datenbanken, welche Begriffe, welche Eingrenzung?
+- Quellenqualität beurteilen: Ist die Quelle relevant? Methodisch solide? Aktuell genug?
+- Einzelne Quellen zusammenfassen: Das Kernargument in eigenen Worten extrahieren
+- Über Quellen hinweg synthetisieren: Muster, Widersprüche und Lücken im Forschungsstand identifizieren
+- Zitieren als intellektuelle Praxis: Verstehen, *warum* man zitiert (welche Behauptungen brauchen Belege? Auf welche Vorarbeiten stützt sich das eigene Argument?)
+
+Was hier **kein** Lernziel ist: *Formal* korrekt zitieren (APA-Format, Seitenzahlen, Kursivierung). Das sind mechanische Konventionen, die Werkzeuge wie Zotero seit Jahren übernehmen. Die eigentliche intellektuelle Leistung beim Zitieren ist die *Entscheidung*, was zitiert wird und warum.
+
+Analysieren wir die Aufgabe jetzt mit den 5 Leitfragen.
 
 ### Schritt-für-Schritt-Analyse
 
 **Frage 1: Geht es primär ums Lernen?**
 
-Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Die kognitive Arbeit muss bei den Studierenden bleiben.
+Ja. Es ist eine Kursaufgabe, kein professionelles Produkt. Die kognitive Arbeit muss bei den Studierenden bleiben.
 
 **Frage 2: Welche Denkarbeit verlangt die Aufgabe?**
 
-- **Abrufen**: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? Welche Suchbegriffe?)
-- **Generieren**: Eigene Bewertung jeder Quelle produzieren (relevant? Methodisch solide? Aktuell?)
-- **Verknüpfen**: Mehrere Quellen zu einer Synthese integrieren, Gemeinsamkeiten und Widersprüche identifizieren
+- **Abrufen**: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? welche Suchbegriffe? welche Eingrenzungskriterien?)
+- **Generieren**: Für jede Quelle eine eigene Zusammenfassung *und* Bewertung produzieren. Zusammenfassen (Kernargument in eigenen Worten extrahieren) und Bewerten (Qualität beurteilen) sind zwei verschiedene Anforderungen, die beide eigene kognitive Arbeit verlangen
+- **Verknüpfen**: Quellen zu einer Synthese integrieren (hohe Elementinteraktivität: mehrere Argumente, Methoden und Befunde gleichzeitig in Beziehung setzen). Dazu gehört auch die intellektuelle Seite des Zitierens: entscheiden, welche Behauptungen Belege brauchen und welche Vorarbeiten das eigene Argument stützen
 - **Überwachen**: Eigene Bewertungskriterien hinterfragen, Vollständigkeit der Recherche prüfen
 
 **Frage 3: Welche dieser Operationen würde KI übernehmen?**
 
-- **Generieren** und **Verknüpfen** werden vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Synthesen mit korrekten Zitationsformaten
-- **Abrufen** wird umgangen: Studierende entwickeln keine eigene Suchstrategie
-- **Überwachen** bleibt illusorisch: Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox)
+- **Generieren** wird vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Bewertungen.
+- Auch das **Verknüpfen** übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Aber KI behandelt Zitieren als Formatierungsaufgabe (welche Quelle passt formal hierhin?), nicht als intellektuelle Entscheidung (welche Behauptung in *meinem* Argument braucht einen Beleg, und warum gerade *diese* Quelle?).
+- Eine eigene Suchstrategie (**Abrufen**) entwickeln Studierende gar nicht erst.
+- Und **Überwachen**? Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox).
 
-> Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.
+> Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen, Synthese, formal korrekte Zitationen), sondern im *Prozess* (Suchen, Bewerten, Entscheiden, intellektuell Verorten). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.
 
 **Frage 4: Werden noch Grundlagen aufgebaut?**
 
-Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?" Die identifizierten Operationen, besonders Generieren (eigene Bewertung) und Verknüpfen (Synthese), sind genau die Prozesse, die diese Schemata aufbauen.
+Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?" Genau die Operationen, die wir identifiziert haben, vor allem Generieren und Verknüpfen, sind die Prozesse, durch die diese Schemata entstehen.
 
 **Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?**
 
@@ -144,20 +159,21 @@ Alle vier Kernoperationen werden von KI übernommen. Das Lernen wird nicht unter
 
 | Phase | Was Studierende tun | Rolle der KI |
 |-------|---------------------|--------------|
-| **1. Suchprotokoll** | Dokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? | Keine |
-| **2. Bewertungsnotizen** | Für jede Quelle: Warum aufgenommen oder verworfen? Was ist die zentrale Argumentation? | Keine |
-| **3. Synthese in der Lehrveranstaltung** | Einseitige Synthese *vor Ort*, nur mit eigenen Notizen, ohne KI und ohne Internet | Keine |
-| **4. Qualitätsprüfung** | KI prüft Zitationsformat und sprachliche Korrektheit | Offloading (extrinsische Last, *bezogen auf das inhaltliche Lernziel*; wäre das Lernziel korrektes Zitieren, wäre es Outsourcing) |
+| 1. Suchprotokoll | Dokumentieren ihre Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? | Keine |
+| 2. Bewertungs- und Zitiernotizen | Für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? *Welche eigene Behauptung stützt diese Quelle?* | Keine |
+| 3. Synthese in der Lehrveranstaltung | Einseitige Synthese *vor Ort*, nur mit eigenen Notizen, ohne KI und ohne Internet (bei Anfängern: mit vorgegebener Synthesestruktur) | Keine |
+| 3b. Vergleich mit KI-Synthese | KI-generierte Synthese derselben Quellen lesen. Unterschiede in Argumentation, Gewichtung und Lücken identifizieren und erklären | Vergleichsreferenz *nach* eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden |
+| 4. Formale Qualitätsprüfung | KI prüft Zitationsformat und sprachliche Korrektheit | Offloading: Die inhaltliche Entscheidung wurde in Phase 2 getroffen. Hier geht es nur noch um Formatierung |
 
 **Was sich ändert:** Die Studierenden müssen *den Prozess* durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.
 
+Phase 3 ist der anspruchsvollste Schritt (hohe Elementinteraktivität). Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur ("Quellen A und B stimmen überein, dass ___. Sie unterscheiden sich bei ___, weil ___.") bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. Phase 3b birgt ein Risiko durch das Evaluationsparadox: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version "korrigieren", auch wenn ihre eigene besser war. Deshalb lautet die Aufgabe "Unterschiede identifizieren und erklären", nicht "Synthese verbessern".
+
 #### Was zeigt dieses Beispiel?
 
-Drei Erkenntnisse für die eigene Praxis:
-
-1. **Operationen identifizieren**: Die Analyse beginnt nicht mit "Kann KI das?", sondern mit "Welche Denkarbeit verlangt die Aufgabe?" Das Redesign schützt gezielt die Operationen, die das Lernen tragen (Generieren, Verknüpfen), und delegiert Routineanteile (Zitationsformat)
-2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (Verknüpfen) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe **Elementinteraktivität** hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden
-3. **Erst selbst, dann KI**: Die Reihenfolge entscheidet. Der eigene Versuch aktiviert Abrufen und Generieren, und der Vergleich erzeugt Verknüpfen und Überwachen. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
+1. **Lernziele zuerst, dann Operationen**: Die Analyse beginnt mit "Was sollen Studierende lernen?", nicht mit "Kann KI das?" Erst wenn die Lernziele klar sind, lassen sich die kognitiven Operationen identifizieren, die sie tragen. Das Redesign schützt gezielt diese Operationen und delegiert Routineanteile
+2. **Offloading am richtigen Punkt**: Was wir "Zitieren" nennen, bündelt zwei verschiedene Aktivitäten mit sehr unterschiedlichem kognitivem Profil: die inhaltliche Entscheidung (was und warum) und die formale Umsetzung (APA-Format). Die erste ist lernrelevant, die zweite nicht. Dasselbe gilt für die Synthese: Ihre hohe Elementinteraktivität macht sie besonders schützenswert, weil genau dieser Prozess die Schemata aufbaut, die Studierende später brauchen
+3. **Erst selbst, dann KI**: Die eigene Synthese (Phase 3) aktiviert Abrufen und Generieren. Der Vergleich mit der KI-Synthese (Phase 3b) aktiviert Verknüpfen und Überwachen, weil Studierende Unterschiede zwischen ihrer eigenen Argumentation und der KI-Version erklären müssen. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
 {{< include ../resources/figures/fig-try-then-check.qmd >}}
 :::
@@ -243,9 +259,9 @@ Die Expert:innen-Anfänger:innen-Asymmetrie aus Teil 1 wirkt hier direkt: Expert
 
 **Wichtige Differenzierung:** Das Paradox ist nicht absolut, sondern variiert mit dem Kompetenzniveau. Für echte Anfänger:innen ist es am gravierendsten; fortgeschrittene Studierende mit Grundlagenwissen können bereits grobe Fehler, logische Inkonsistenzen oder fehlende Belege erkennen. Auch können strukturierte Evaluationsaufgaben (z.B. zwei KI-Outputs vergleichen, spezifische Behauptungen gegen Primärquellen prüfen) das Paradox teilweise abmildern, ohne es aufzulösen.
 
-{{< include ../resources/figures/fig-evaluation-paradox.qmd >}}
+<!-- {{< include ../resources/figures/fig-evaluation-paradox.qmd >}}
 
-{{< include ../resources/figures/fig-expert-novice.qmd >}}
+{{< include ../resources/figures/fig-expert-novice.qmd >}} -->
 :::
 
 
