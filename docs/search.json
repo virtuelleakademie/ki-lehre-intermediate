@@ -1319,7 +1319,7 @@
     "href": "slides/ki-und-lernen/index.html#lernen-leisten",
     "title": "KI & Lernen",
     "section": "Lernen ≠ Leisten",
-    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben (Bjork 1994). Die Folge: Schein-Kompetenz. Texte mit allen Oberflächenmerkmalen akademischer Arbeit, aber ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es Selbsttäuschung ist.\n\n\n\n\nKein Outsourcing, kein Transfer\n\n\nDas Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie keine internen Ressourcen aufgebaut haben."
+    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben (Bjork 1994). Die Folge: Schein-Kompetenz. Texte, die fachlich korrekt aussehen, aber ohne eigene kognitive Arbeit entstanden sind.\n\nDas sichtbare Problem ist akademische Integrität.\nDas eigentliche Problem liegt tiefer: Ohne eigene Verarbeitung entstehen keine Schemata. Ohne Schemata kein Transfer. Wenn Studierende später in neuen Situationen auf sich gestellt sind, fehlen ihnen die internen Ressourcen.\n\n\n\n\n\n\nDas Kernproblem ist nicht Plagiat\n\n\nDas Kernproblem ist, dass Studierende kompetent aussehen können, ohne kompetent zu sein. Die Lücke wird erst sichtbar, wenn die KI nicht mehr verfügbar ist.\n\n\n\n\n\nDieser Punkt ist zentral und wird von Lehrenden oft übersehen, weil die Plagiatsdiskussion so dominant ist. Wenn wir KI-Nutzung nur als Integritätsproblem framen (“Studierende schummeln”), dann behandeln wir das Symptom, nicht die Ursache.\nDer eigentliche Schaden: Studierende täuschen nicht nur uns, sie täuschen sich selbst. Sie erleben sich als kompetent, weil sie gute Ergebnisse abliefern. Aber die Wissensstrukturen, die sie bräuchten, um in neuen Situationen eigenständig zu handeln, wurden nie aufgebaut. Das ist tückischer als klassisches Plagiat, weil Plagiat bewusst geschieht. Hier merken Studierende oft gar nicht, dass sie nichts gelernt haben.\nPraktisch: Wenn ihr in eurer Lehre über KI-Policy nachdenkt, verschiebt den Fokus von “Wie erwischen wir Betrügende?” zu “Wie stellen wir sicher, dass die kognitive Arbeit bei den Studierenden bleibt?”"
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#was-auf-dem-spiel-steht-transfer",
@@ -1516,14 +1516,14 @@
     "href": "slides/ki-und-lernen/index.html#die-5-leitfragen-12",
     "title": "KI & Lernen",
     "section": "Die 5 Leitfragen (1/2)",
-    "text": "Die 5 Leitfragen (1/2)\nSchützt die Aufgabe das Lernen?\n1. Geht es primär ums Lernen?\n→ Ja: Outsourcing verhindern\n\n2. Werden noch Grundlagen aufgebaut?\n→ Ja: Interne Verarbeitung verlangen\n\n\n3. Muss internes Wissen nachgewiesen werden?\n→ Ja: Outsourcing unmöglich machen"
+    "text": "Die 5 Leitfragen (1/2)\nSchützt die Aufgabe das Lernen?\n1. Geht es primär ums Lernen?\nNein → KI-Unterstützung kann sinnvoll sein. Ja → weiter.\n\n2. Werden noch Grundlagen aufgebaut?\nJa → Studierende brauchen eigene kognitive Verarbeitung, bevor KI ins Spiel kommt.\n\n\n3. Muss internes Wissen nachgewiesen werden?\nJa → Aufgabenformat so wählen, dass KI nicht stellvertretend antworten kann."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#die-5-leitfragen-22",
     "href": "slides/ki-und-lernen/index.html#die-5-leitfragen-22",
     "title": "KI & Lernen",
     "section": "Die 5 Leitfragen (2/2)",
-    "text": "Die 5 Leitfragen (2/2)\nMuss die Aufgabe angepasst werden?\n4. Kann KI die Aufgabe ohne Denkarbeit erledigen?\n→ Ja: Aufgabe umgestalten\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\n→ Nein: Struktur einbauen"
+    "text": "Die 5 Leitfragen (2/2)\nMuss die Aufgabe angepasst werden?\n4. Kann KI die Aufgabe ohne eigenes Denken erledigen?\nJa → Die Aufgabe verlangt keine eigene Verarbeitung. Umgestalten.\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\nNein → Einbauen: erst eigener Versuch, dann KI-Vergleich."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#die-5-leitfragen-übersicht",
@@ -1708,5 +1708,89 @@
     "title": "KI & Lernen",
     "section": "Versuch → dann → Prüfe",
     "text": "Versuch → dann → Prüfe"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#wie-gestalten-wir-aufgaben-die-das-lernen-schützen",
+    "href": "slides/ki-und-lernen/index.html#wie-gestalten-wir-aufgaben-die-das-lernen-schützen",
+    "title": "KI & Lernen",
+    "section": "Wie gestalten wir Aufgaben, die das Lernen schützen?",
+    "text": "Wie gestalten wir Aufgaben, die das Lernen schützen?\n\n5 Leitfragen für die Aufgabenanalyse"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#geht-es-primär-ums-lernen",
+    "href": "slides/ki-und-lernen/index.html#geht-es-primär-ums-lernen",
+    "title": "KI & Lernen",
+    "section": "1. Geht es primär ums Lernen?",
+    "text": "1. Geht es primär ums Lernen?\nNein → KI-Unterstützung kann sinnvoll sein. Ja → weiter."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#welche-denkarbeit-verlangt-die-aufgabe",
+    "href": "slides/ki-und-lernen/index.html#welche-denkarbeit-verlangt-die-aufgabe",
+    "title": "KI & Lernen",
+    "section": "2. Welche Denkarbeit verlangt die Aufgabe?",
+    "text": "2. Welche Denkarbeit verlangt die Aufgabe?\n\n\n\n\n\n\n\n\nOperation\nWas Studierende tun\nWozu es dient\n\n\n\n\nAbrufen\nWissen aus dem Gedächtnis aktivieren\nFestigt Schemata (Retrieval Practice)\n\n\nGenerieren\nEigenen Versuch produzieren\nBaut neue Verbindungen auf (Generation Effect)\n\n\nVerknüpfen\nVergleichen, einordnen, integrieren\nErweitert und vernetzt Schemata\n\n\nÜberwachen\nEigene Arbeit prüfen, Fehler erkennen\nStärkt metakognitive Kontrolle"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#welche-dieser-operationen-würde-ki-übernehmen",
+    "href": "slides/ki-und-lernen/index.html#welche-dieser-operationen-würde-ki-übernehmen",
+    "title": "KI & Lernen",
+    "section": "3. Welche dieser Operationen würde KI übernehmen?",
+    "text": "3. Welche dieser Operationen würde KI übernehmen?\nNicht die ganze Aufgabe, sondern: Welche spezifische Denkarbeit fällt weg, wenn Studierende KI einsetzen?\n\n4. Werden noch Grundlagen aufgebaut?\nJa → Die identifizierten Operationen müssen bei den Studierenden bleiben. KI darf sie nicht ersetzen.\n\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\nNein → Einbauen: Studierende durchlaufen die Kernoperationen zuerst selbst, dann KI-Vergleich.\n\n\nFrage 3 ist der Moment, wo die Analyse konkret wird. Nicht “Kann KI die Aufgabe?” sondern “Welche der vier Operationen übernimmt KI?” Das ist ein wichtiger Unterschied: Manchmal kann KI eine Aufgabe teilweise übernehmen, und der Teil, den sie übernimmt, ist genau der lernrelevante.\nFrage 4 moduliert die Strenge: Wenn Studierende schon Expertise haben, können sie KI als Verstärker nutzen. Wenn sie noch Grundlagen aufbauen, müssen die Kernoperationen geschützt werden.\nFrage 5 ist die Minimalanforderung für jede Aufgabe, bei der KI ins Spiel kommt."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#die-5-leitfragen-13",
+    "href": "slides/ki-und-lernen/index.html#die-5-leitfragen-13",
+    "title": "KI & Lernen",
+    "section": "Die 5 Leitfragen (1/3)",
+    "text": "Die 5 Leitfragen (1/3)\n1. Geht es primär ums Lernen?\nNein → KI-Unterstützung kann sinnvoll sein. Ja → weiter."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#die-5-leitfragen-23",
+    "href": "slides/ki-und-lernen/index.html#die-5-leitfragen-23",
+    "title": "KI & Lernen",
+    "section": "Die 5 Leitfragen (2/3)",
+    "text": "Die 5 Leitfragen (2/3)\n2. Welche Denkarbeit verlangt die Aufgabe?\n\n\n\n\n\n\n\n\nOperation\nWas Studierende tun\nWozu es dient\n\n\n\n\nAbrufen\nWissen aus dem Gedächtnis aktivieren\nFestigt Schemata (Retrieval Practice)\n\n\nGenerieren\nEigenen Versuch produzieren\nBaut neue Verbindungen auf (Generation Effect)\n\n\nVerknüpfen\nVergleichen, einordnen, integrieren\nErweitert und vernetzt Schemata\n\n\nÜberwachen\nEigene Arbeit prüfen, Fehler erkennen\nStärkt metakognitive Kontrolle\n\n\n\n\n3. Welche dieser Operationen würde KI übernehmen?\nNicht die ganze Aufgabe, sondern: Welche spezifische Denkarbeit fällt weg?\n\n\nFrage 2 ist der Kern der Analyse. Welche dieser vier Operationen verlangt eure Aufgabe? Die meisten Aufgaben erfordern mehrere davon. Die Frage ist: welche davon sind die, die das Lernen tragen? Das sind die Operationen, die ihr vor KI-Outsourcing schützen müsst.\nBeispiel Fallstudie Pflege: Studierende müssen Symptome abrufen, eine Differentialdiagnose generieren, Befunde verknüpfen, und ihr Urteil überwachen. Alle vier Operationen sind lernrelevant. Wenn KI die Diagnose liefert, werden Generieren und Verknüpfen eliminiert.\nFrage 3 macht die Analyse konkret. Nicht “Kann KI die Aufgabe?” sondern “Welche der vier Operationen übernimmt KI?” Das ist ein wichtiger Unterschied: Manchmal kann KI eine Aufgabe teilweise übernehmen, und der Teil, den sie übernimmt, ist genau der lernrelevante."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#die-5-leitfragen-33",
+    "href": "slides/ki-und-lernen/index.html#die-5-leitfragen-33",
+    "title": "KI & Lernen",
+    "section": "Die 5 Leitfragen (3/3)",
+    "text": "Die 5 Leitfragen (3/3)\n4. Werden noch Grundlagen aufgebaut?\nJa → Die identifizierten Operationen müssen bei den Studierenden bleiben. KI darf sie nicht ersetzen.\n\n5. Gibt es eine Versuch-dann-Prüfe-Struktur?\nNein → Einbauen: Studierende durchlaufen die Kernoperationen zuerst selbst, dann KI-Vergleich.\n\n\nFrage 4 moduliert die Strenge: Wenn Studierende schon Expertise haben, können sie KI als Verstärker nutzen. Wenn sie noch Grundlagen aufbauen, müssen die Kernoperationen geschützt werden.\nFrage 5 ist die Minimalanforderung für jede Aufgabe, bei der KI ins Spiel kommt."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#leitfrage-1",
+    "href": "slides/ki-und-lernen/index.html#leitfrage-1",
+    "title": "KI & Lernen",
+    "section": "Leitfrage 1",
+    "text": "Leitfrage 1\nGeht es primär ums Lernen?\n\n\nNein\n\nDie Aufgabe dient der Produktion, nicht dem Kompetenzaufbau. KI-Unterstützung kann sinnvoll sein.\n\n\nJa\n\nDie kognitive Arbeit muss geschützt werden. Nächster Schritt: herausfinden, welche Denkarbeit die Aufgabe verlangt."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#leitfrage-2",
+    "href": "slides/ki-und-lernen/index.html#leitfrage-2",
+    "title": "KI & Lernen",
+    "section": "Leitfrage 2",
+    "text": "Leitfrage 2\nWelche Denkarbeit verlangt die Aufgabe?\n\n\n\n\n\n\n\n\nOperation\nWas Studierende tun\nWozu es dient\n\n\n\n\nAbrufen\nWissen aus dem Gedächtnis aktivieren\nFestigt Schemata (Retrieval Practice)\n\n\nGenerieren\nEigenen Versuch produzieren\nBaut neue Verbindungen auf (Generation Effect)\n\n\nVerknüpfen\nVergleichen, einordnen, integrieren\nErweitert und vernetzt Schemata\n\n\nÜberwachen\nEigene Arbeit prüfen, Fehler erkennen\nStärkt metakognitive Kontrolle\n\n\n\n\nDiese Operationen sind das Lernen. Was davon wegfällt, fehlt im Kopf der Studierenden.\n\n\nDas ist der Kern der Analyse. Welche dieser vier Operationen verlangt eure Aufgabe? Die meisten Aufgaben erfordern mehrere davon. Die Frage ist: welche davon sind die, die das Lernen tragen? Das sind die Operationen, die ihr vor KI-Outsourcing schützen müsst.\nBeispiel Fallstudie Pflege: Studierende müssen Symptome abrufen, eine Differentialdiagnose generieren, Befunde verknüpfen, und ihr Urteil überwachen. Alle vier Operationen sind lernrelevant. Wenn KI die Diagnose liefert, werden Generieren und Verknüpfen eliminiert."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#leitfrage-3",
+    "href": "slides/ki-und-lernen/index.html#leitfrage-3",
+    "title": "KI & Lernen",
+    "section": "Leitfrage 3",
+    "text": "Leitfrage 3\nWelche dieser Operationen würde KI übernehmen?\nNicht die ganze Aufgabe, sondern: Welche spezifische Denkarbeit fällt weg, wenn Studierende KI einsetzen?\n\n\n\n\nManchmal übernimmt KI nur einen Teil der Aufgabe. Oft ist genau dieser Teil der lernrelevante.\n\n\n\n\n\nFrage 3 macht die Analyse konkret. Nicht “Kann KI die Aufgabe?” sondern “Welche der vier Operationen übernimmt KI?” Das ist ein wichtiger Unterschied: Manchmal kann KI eine Aufgabe teilweise übernehmen, und der Teil, den sie übernimmt, ist genau der lernrelevante."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#leitfrage-4",
+    "href": "slides/ki-und-lernen/index.html#leitfrage-4",
+    "title": "KI & Lernen",
+    "section": "Leitfrage 4",
+    "text": "Leitfrage 4\nWerden noch Grundlagen aufgebaut?\n\n\nJa\n\nStudierende bauen noch Grundwissen auf. Die identifizierten Operationen müssen bei ihnen bleiben.\n\n\nNein\n\nStudierende haben bereits Schemata aufgebaut. Sie können KI-Output einordnen und gezielt nutzen, weil sie eigene Kriterien haben.\n\n\n\nFrage 4 moduliert die Strenge: Wenn Studierende schon Expertise haben, können sie KI als Verstärker nutzen. Wenn sie noch Grundlagen aufbauen, müssen die Kernoperationen geschützt werden."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#leitfrage-5",
+    "href": "slides/ki-und-lernen/index.html#leitfrage-5",
+    "title": "KI & Lernen",
+    "section": "Leitfrage 5",
+    "text": "Leitfrage 5\nArbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?\n\n\nJa\n\nStudierende durchlaufen die Kernoperationen zuerst selbst, KI kommt danach. Die Reihenfolge ist bereits richtig.\n\n\nNein\n\nOhne eigenen Versuch gibt es nichts, woran KI-Feedback ansetzen kann. Reihenfolge einbauen: erst Versuch, dann KI.\n\n\n\nFrage 5 ist die Minimalanforderung für jede Aufgabe, bei der KI ins Spiel kommt. Auch wenn alle anderen Fragen beantwortet sind: Ohne die richtige Reihenfolge wird die lernrelevante Verarbeitung trotzdem umgangen."
   }
 ]

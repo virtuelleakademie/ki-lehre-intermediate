@@ -151,60 +151,153 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 
 ## Lernen ≠ Leisten {.smaller}
 
-Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Die Folge: **Schein-Kompetenz**. Texte mit allen Oberflächenmerkmalen akademischer Arbeit, aber ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es Selbsttäuschung ist.
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Die Folge: **Schein-Kompetenz**. Texte, die fachlich korrekt aussehen, aber ohne eigene kognitive Arbeit entstanden sind.
+
+:::{.fragment}
+Das sichtbare Problem ist akademische Integrität. 
+
+Das eigentliche Problem liegt tiefer: Ohne eigene Verarbeitung entstehen keine Schemata. Ohne Schemata kein Transfer. Wenn Studierende später in neuen Situationen auf sich gestellt sind, fehlen ihnen die **internen Ressourcen**.
+:::
+
+<br>
 
 :::{.fragment}
 ::: {.callout-warning}
-### Kein Outsourcing, kein Transfer
-Das Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie **keine internen Ressourcen** aufgebaut haben.
+### Das Kernproblem ist nicht Plagiat
+Das Kernproblem ist, dass Studierende **kompetent aussehen können, ohne kompetent zu sein**. Die Lücke wird erst sichtbar, wenn die KI nicht mehr verfügbar ist.
 :::
 :::
 
+::: {.notes}
+Dieser Punkt ist zentral und wird von Lehrenden oft übersehen, weil die Plagiatsdiskussion so dominant ist. Wenn wir KI-Nutzung nur als Integritätsproblem framen ("Studierende schummeln"), dann behandeln wir das Symptom, nicht die Ursache.
 
-## Die 5 Leitfragen (1/2) {.smaller}
+Der eigentliche Schaden: Studierende täuschen nicht nur uns, sie täuschen sich selbst. Sie erleben sich als kompetent, weil sie gute Ergebnisse abliefern. Aber die Wissensstrukturen, die sie bräuchten, um in neuen Situationen eigenständig zu handeln, wurden nie aufgebaut. Das ist tückischer als klassisches Plagiat, weil Plagiat bewusst geschieht. Hier merken Studierende oft gar nicht, dass sie nichts gelernt haben.
 
-**Schützt die Aufgabe das Lernen?**
+Praktisch: Wenn ihr in eurer Lehre über KI-Policy nachdenkt, verschiebt den Fokus von "Wie erwischen wir Betrügende?" zu "Wie stellen wir sicher, dass die kognitive Arbeit bei den Studierenden bleibt?"
+:::
 
-### 1. Geht es primär ums **Lernen**?
 
-[→ Ja: Outsourcing verhindern]{style="color: #64748b;"}
+## Wie gestalten wir Aufgaben, die das Lernen schützen? {.center}
+
+. . .
+
+### 5 Leitfragen für die Aufgabenanalyse
+
+
+## Leitfrage 1
+
+### Geht es primär ums Lernen?
+
+::::{.columns}
+:::{.column width="50%"}
+[**Nein**]{style="color: #0072B2; font-size: 1.2em;"}
 
 :::{.fragment}
-### 2. Werden noch **Grundlagen** aufgebaut?
-
-[→ Ja: Interne Verarbeitung verlangen]{style="color: #64748b;"}
+Die Aufgabe dient der Produktion, nicht dem Kompetenzaufbau. KI-Unterstützung kann sinnvoll sein.
 :::
+:::
+
+:::{.column width="50%"}
+[**Ja**]{style="color: #D55E00; font-size: 1.2em;"}
 
 :::{.fragment}
-### 3. Muss **internes Wissen** nachgewiesen werden?
-
-[→ Ja: Outsourcing unmöglich machen]{style="color: #64748b;"}
+Die kognitive Arbeit muss geschützt werden. Nächster Schritt: herausfinden, *welche* Denkarbeit die Aufgabe verlangt.
 :::
+:::
+::::
 
 
-## Die 5 Leitfragen (2/2) {.smaller}
+## Leitfrage 2 {.smaller}
 
-**Muss die Aufgabe angepasst werden?**
+### Welche Denkarbeit verlangt die Aufgabe?
 
-### 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen?
-
-[→ Ja: Aufgabe umgestalten]{style="color: #64748b;"}
+| Operation | Was Studierende tun | Wozu es dient |
+|-----------|-------------------|---------------|
+| **Abrufen** | Wissen aus dem Gedächtnis aktivieren | Festigt Schemata (Retrieval Practice) |
+| **Generieren** | Eigenen Versuch produzieren | Baut neue Verbindungen auf (Generation Effect) |
+| **Verknüpfen** | Vergleichen, einordnen, integrieren | Erweitert und vernetzt Schemata |
+| **Überwachen** | Eigene Arbeit prüfen, Fehler erkennen | Stärkt metakognitive Kontrolle |
 
 :::{.fragment}
-### 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**?
+Diese Operationen *sind* das Lernen. Was davon wegfällt, fehlt im Kopf der Studierenden.
+:::
 
-[→ Nein: Struktur einbauen]{style="color: #64748b;"}
+::: {.notes}
+Das ist der Kern der Analyse. Welche dieser vier Operationen verlangt eure Aufgabe? Die meisten Aufgaben erfordern mehrere davon. Die Frage ist: welche davon sind die, die das Lernen tragen? Das sind die Operationen, die ihr vor KI-Outsourcing schützen müsst.
+
+Beispiel Fallstudie Pflege: Studierende müssen Symptome abrufen, eine Differentialdiagnose generieren, Befunde verknüpfen, und ihr Urteil überwachen. Alle vier Operationen sind lernrelevant. Wenn KI die Diagnose liefert, werden Generieren und Verknüpfen eliminiert.
 :::
 
 
-## Die 5 Leitfragen: Übersicht
+## Leitfrage 3
 
-{{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
+### Welche dieser Operationen würde KI übernehmen?
+
+Nicht die ganze Aufgabe, sondern: Welche *spezifische Denkarbeit* fällt weg, wenn Studierende KI einsetzen?
+
+:::{.fragment}
+::: {.callout-warning}
+Manchmal übernimmt KI nur einen Teil der Aufgabe. Oft ist genau dieser Teil der lernrelevante.
+:::
+:::
+
+::: {.notes}
+Frage 3 macht die Analyse konkret. Nicht "Kann KI die Aufgabe?" sondern "Welche der vier Operationen übernimmt KI?" Das ist ein wichtiger Unterschied: Manchmal kann KI eine Aufgabe teilweise übernehmen, und der Teil, den sie übernimmt, ist genau der lernrelevante.
+:::
 
 
-## Versuch → dann → Prüfe
+## Leitfrage 4
 
-{{< include ../../resources/figures/fig-try-then-check.qmd >}}
+### Werden noch Grundlagen aufgebaut?
+
+::::{.columns}
+:::{.column width="50%"}
+[**Ja**]{style="color: #D55E00; font-size: 1.2em;"}
+
+:::{.fragment}
+Studierende bauen noch Grundwissen auf. Die identifizierten Operationen müssen bei ihnen bleiben.
+:::
+:::
+
+:::{.column width="50%"}
+[**Nein**]{style="color: #0072B2; font-size: 1.2em;"}
+
+:::{.fragment}
+Studierende haben bereits Schemata aufgebaut. Sie können KI-Output einordnen und gezielt nutzen, weil sie eigene Kriterien haben.
+:::
+:::
+::::
+
+::: {.notes}
+Frage 4 moduliert die Strenge: Wenn Studierende schon Expertise haben, können sie KI als Verstärker nutzen. Wenn sie noch Grundlagen aufbauen, müssen die Kernoperationen geschützt werden.
+:::
+
+
+## Leitfrage 5
+
+### Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?
+
+::::{.columns}
+:::{.column width="50%"}
+[**Ja**]{style="color: #0072B2; font-size: 1.2em;"}
+
+:::{.fragment}
+Studierende durchlaufen die Kernoperationen zuerst selbst, KI kommt danach. Die Reihenfolge ist bereits richtig.
+:::
+:::
+
+:::{.column width="50%"}
+[**Nein**]{style="color: #D55E00; font-size: 1.2em;"}
+
+:::{.fragment}
+Ohne eigenen Versuch gibt es nichts, woran KI-Feedback ansetzen kann. Reihenfolge einbauen: erst Versuch, dann KI.
+:::
+:::
+::::
+
+::: {.notes}
+Frage 5 ist die Minimalanforderung für jede Aufgabe, bei der KI ins Spiel kommt. Auch wenn alle anderen Fragen beantwortet sind: Ohne die richtige Reihenfolge wird die lernrelevante Verarbeitung trotzdem umgangen.
+:::
 
 
 ## Jetzt seid ihr dran {.center}

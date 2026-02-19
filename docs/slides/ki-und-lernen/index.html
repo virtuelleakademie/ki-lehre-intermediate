@@ -161,23 +161,7 @@
       margin-right: 0; 
     }
   </style>
-  <link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-  <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-  <script src="../../site_libs/viz-1.8.2/viz.js"></script>
-  <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-  <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-agent-potential.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-agent-potential.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
-    background-image: none;
-  }
   div.callout-group.callout {
     border-left-color: #7c3aed;
   }
@@ -187,50 +171,6 @@
   div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
     content: '👥';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: #0072B2;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgba(0, 114, 178, 0.13);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
-    background-image: none;
-  }
-  div.callout-nachlesen.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-nachlesen.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-    content: '📖';
-    background-image: none;
-  }
-  div.callout-facilitator.callout {
-    border-left-color: #d97706;
-  }
-  div.callout-facilitator.callout-style-default > .callout-header {
-    background-color: rgba(217, 119, 6, 0.13);
-  }
-  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-    content: '📋';
     background-image: none;
   }
   div.callout-active-processing.callout {
@@ -244,6 +184,17 @@
     content: '📝';
     background-image: none;
   }
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
   div.callout-pro-tip.callout {
     border-left-color: gold;
   }
@@ -255,15 +206,59 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: #059669;
+  div.callout-reflect.callout {
+    border-left-color: #64748b;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
+    background-image: none;
+  }
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
+    background-image: none;
+  }
+  div.callout-facilitator.callout {
+    border-left-color: #d97706;
+  }
+  div.callout-facilitator.callout-style-default > .callout-header {
+    background-color: rgba(217, 119, 6, 0.13);
+  }
+  div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+    content: '📋';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: #0072B2;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgba(0, 114, 178, 0.13);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
     background-image: none;
   }
   </style>
@@ -428,61 +423,203 @@ Andrew Ellis
 </section>
 <section id="lernen-leisten" class="slide level2 smaller">
 <h2>Lernen ≠ Leisten</h2>
-<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>. Die Folge: <strong>Schein-Kompetenz</strong>. Texte mit allen Oberflächenmerkmalen akademischer Arbeit, aber ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es Selbsttäuschung ist.</p>
+<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>. Die Folge: <strong>Schein-Kompetenz</strong>. Texte, die fachlich korrekt aussehen, aber ohne eigene kognitive Arbeit entstanden sind.</p>
+<div class="fragment">
+<p>Das sichtbare Problem ist akademische Integrität.</p>
+<p>Das eigentliche Problem liegt tiefer: Ohne eigene Verarbeitung entstehen keine Schemata. Ohne Schemata kein Transfer. Wenn Studierende später in neuen Situationen auf sich gestellt sind, fehlen ihnen die <strong>internen Ressourcen</strong>.</p>
+</div>
+<p><br></p>
 <div class="fragment">
 <div class="callout callout-warning no-icon callout-titled callout-style-simple">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>Kein Outsourcing, kein Transfer</strong></p>
+<p><strong>Das Kernproblem ist nicht Plagiat</strong></p>
 </div>
 <div class="callout-content">
-<p>Das Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie <strong>keine internen Ressourcen</strong> aufgebaut haben.</p>
+<p>Das Kernproblem ist, dass Studierende <strong>kompetent aussehen können, ohne kompetent zu sein</strong>. Die Lücke wird erst sichtbar, wenn die KI nicht mehr verfügbar ist.</p>
 </div>
 </div>
 </div>
 </div>
+<aside class="notes">
+<p>Dieser Punkt ist zentral und wird von Lehrenden oft übersehen, weil die Plagiatsdiskussion so dominant ist. Wenn wir KI-Nutzung nur als Integritätsproblem framen (“Studierende schummeln”), dann behandeln wir das Symptom, nicht die Ursache.</p>
+<p>Der eigentliche Schaden: Studierende täuschen nicht nur uns, sie täuschen sich selbst. Sie erleben sich als kompetent, weil sie gute Ergebnisse abliefern. Aber die Wissensstrukturen, die sie bräuchten, um in neuen Situationen eigenständig zu handeln, wurden nie aufgebaut. Das ist tückischer als klassisches Plagiat, weil Plagiat bewusst geschieht. Hier merken Studierende oft gar nicht, dass sie nichts gelernt haben.</p>
+<p>Praktisch: Wenn ihr in eurer Lehre über KI-Policy nachdenkt, verschiebt den Fokus von “Wie erwischen wir Betrügende?” zu “Wie stellen wir sicher, dass die kognitive Arbeit bei den Studierenden bleibt?”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="die-5-leitfragen-12" class="slide level2 smaller">
-<h2>Die 5 Leitfragen (1/2)</h2>
-<p><strong>Schützt die Aufgabe das Lernen?</strong></p>
-<h3 id="geht-es-primär-ums-lernen">1. Geht es primär ums <strong>Lernen</strong>?</h3>
-<p><span style="color: #64748b;">→ Ja: Outsourcing verhindern</span></p>
+<section id="wie-gestalten-wir-aufgaben-die-das-lernen-schützen" class="slide level2 center">
+<h2>Wie gestalten wir Aufgaben, die das Lernen schützen?</h2>
 <div class="fragment">
-<h3 id="werden-noch-grundlagen-aufgebaut">2. Werden noch <strong>Grundlagen</strong> aufgebaut?</h3>
-<p><span style="color: #64748b;">→ Ja: Interne Verarbeitung verlangen</span></p>
+<h3 id="leitfragen-für-die-aufgabenanalyse">5 Leitfragen für die Aufgabenanalyse</h3>
 </div>
+</section>
+<section id="leitfrage-1" class="slide level2">
+<h2>Leitfrage 1</h2>
+<h3 id="geht-es-primär-ums-lernen">Geht es primär ums Lernen?</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span style="color: #0072B2; font-size: 1.2em;"><strong>Nein</strong></span></p>
 <div class="fragment">
-<h3 id="muss-internes-wissen-nachgewiesen-werden">3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</h3>
-<p><span style="color: #64748b;">→ Ja: Outsourcing unmöglich machen</span></p>
+<p>Die Aufgabe dient der Produktion, nicht dem Kompetenzaufbau. KI-Unterstützung kann sinnvoll sein.</p>
 </div>
-</section>
-<section id="die-5-leitfragen-22" class="slide level2 smaller">
-<h2>Die 5 Leitfragen (2/2)</h2>
-<p><strong>Muss die Aufgabe angepasst werden?</strong></p>
-<h3 id="kann-ki-die-aufgabe-ohne-denkarbeit-erledigen">4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</h3>
-<p><span style="color: #64748b;">→ Ja: Aufgabe umgestalten</span></p>
+</div><div class="column" style="width:50%;">
+<p><span style="color: #D55E00; font-size: 1.2em;"><strong>Ja</strong></span></p>
 <div class="fragment">
-<h3 id="gibt-es-eine-versuch-dann-prüfe-struktur">5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</h3>
-<p><span style="color: #64748b;">→ Nein: Struktur einbauen</span></p>
+<p>Die kognitive Arbeit muss geschützt werden. Nächster Schritt: herausfinden, <em>welche</em> Denkarbeit die Aufgabe verlangt.</p>
 </div>
+</div></div>
 </section>
-<section id="die-5-leitfragen-übersicht" class="slide level2">
-<h2>Die 5 Leitfragen: Übersicht</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-2bf0a1d7733adb593d6a" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-2bf0a1d7733adb593d6a">{"x":{"diagram":"\ndigraph five_questions_summary {\n  graph [\n    rankdir = TB\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.7\n    margin = 0.2\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 15\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  start [\n    label = \"Aufgabe analysieren\"\n    fillcolor = \"#64748b\"\n    fontsize = 16\n  ]\n\n  q1 [label = \"1. Geht es primär\\nums Lernen?\" fillcolor = \"#0072B2\"]\n  q2 [label = \"2. Werden noch\\nGrundlagen aufgebaut?\" fillcolor = \"#0072B2\"]\n  q3 [label = \"3. Muss internes Wissen\\nnachgewiesen werden?\" fillcolor = \"#0072B2\"]\n  q4 [label = \"4. Kann KI ohne\\nDenkarbeit erledigen?\" fillcolor = \"#0072B2\"]\n  q5 [label = \"5. Gibt es eine Versuch-\\ndann-Prüfe-Struktur?\" fillcolor = \"#0072B2\"]\n\n  e1 [label = \"KI-Unterstützung\\nkann sinnvoll sein\" fillcolor = \"#0072B2\"]\n  e2 [label = \"KI als Verstärker\\nmöglich\" fillcolor = \"#0072B2\"]\n  e3 [label = \"Aufgabenformat\\nändern\" fillcolor = \"#D55E00\"]\n  e4 [label = \"Aufgabe\\numgestalten\" fillcolor = \"#D55E00\"]\n  e5 [label = \"Struktur\\neinbauen\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n  success [\n    label = \"Aufgabe bereit ✓\\n(mit oder ohne KI)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 16\n  ]\n\n  noai [\n    label = \"Keine KI nötig ✓\\nAufgabe funktioniert bereits\"\n    fillcolor = \"#0072B2\"\n    fontsize = 14\n  ]\n\n  start -> q1\n\n  q1 -> q2 [label = \"  Ja  \"]\n  q2 -> q3 [label = \"  Ja  \"]\n  q3 -> q4 [label = \"  Ja  \"]\n  q4 -> q5 [label = \"  Nein  \"]\n  q4 -> noai [label = \"  Nein +\\n  bewahrt Anstrengung  \"]\n  q5 -> success [label = \"  Ja  \"]\n\n  q1 -> e1 [label = \"  Nein  \"]\n  q2 -> e2 [label = \"  Nein  \"]\n  q3 -> e3 [label = \"  Nein  \"]\n  q4 -> e4 [label = \"  Ja  \"]\n  q5 -> e5 [label = \"  Nein  \"]\n\n  {rank = same; q1; e1}\n  {rank = same; q2; e2}\n  {rank = same; q3; e3}\n  {rank = same; q4; e4; noai}\n  {rank = same; q5; e5}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<section id="leitfrage-2" class="slide level2 smaller">
+<h2>Leitfrage 2</h2>
+<h3 id="welche-denkarbeit-verlangt-die-aufgabe">Welche Denkarbeit verlangt die Aufgabe?</h3>
+<table class="caption-top">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 42%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operation</th>
+<th>Was Studierende tun</th>
+<th>Wozu es dient</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Abrufen</strong></td>
+<td>Wissen aus dem Gedächtnis aktivieren</td>
+<td>Festigt Schemata (Retrieval Practice)</td>
+</tr>
+<tr class="even">
+<td><strong>Generieren</strong></td>
+<td>Eigenen Versuch produzieren</td>
+<td>Baut neue Verbindungen auf (Generation Effect)</td>
+</tr>
+<tr class="odd">
+<td><strong>Verknüpfen</strong></td>
+<td>Vergleichen, einordnen, integrieren</td>
+<td>Erweitert und vernetzt Schemata</td>
+</tr>
+<tr class="even">
+<td><strong>Überwachen</strong></td>
+<td>Eigene Arbeit prüfen, Fehler erkennen</td>
+<td>Stärkt metakognitive Kontrolle</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<p>Diese Operationen <em>sind</em> das Lernen. Was davon wegfällt, fehlt im Kopf der Studierenden.</p>
 </div>
-</div>
+<aside class="notes">
+<p>Das ist der Kern der Analyse. Welche dieser vier Operationen verlangt eure Aufgabe? Die meisten Aufgaben erfordern mehrere davon. Die Frage ist: welche davon sind die, die das Lernen tragen? Das sind die Operationen, die ihr vor KI-Outsourcing schützen müsst.</p>
+<p>Beispiel Fallstudie Pflege: Studierende müssen Symptome abrufen, eine Differentialdiagnose generieren, Befunde verknüpfen, und ihr Urteil überwachen. Alle vier Operationen sind lernrelevant. Wenn KI die Diagnose liefert, werden Generieren und Verknüpfen eliminiert.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="versuch-dann-prüfe" class="slide level2">
-<h2>Versuch → dann → Prüfe</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-3351897cc45059941b33" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-3351897cc45059941b33">{"x":{"diagram":"\ndigraph try_then_check {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    compound = true\n    nodesep = 0.5\n    ranksep = 0.8\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.12\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n  ]\n\n  subgraph cluster_productive {\n    label = \"Produktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 16\n    fontcolor = \"#0072B2\"\n    style = \"rounded,filled\"\n    fillcolor = \"#dce8f5\"\n    color = \"#0072B2\"\n    penwidth = 1.5\n\n    try [label = \"1. Versuch\\nEigenen Ansatz\\ngenerieren\" fillcolor = \"#0072B2\"]\n    compare [label = \"2. Vergleich\\nMit KI-Output\\nabgleichen\" fillcolor = \"#56B4E9\"]\n    reflect [label = \"3. Reflexion\\nSchema\\naktualisieren\" fillcolor = \"#E69F00\" fontcolor = \"#222222\"]\n\n    try -> compare [label = \"  Diskrepanz  \" color = \"#666666\"]\n    compare -> reflect [label = \"  Analyse  \" color = \"#666666\"]\n    reflect -> try [label = \"  Nächster Zyklus  \" color = \"#666666\" style = dashed]\n  }\n\n  subgraph cluster_unproductive {\n    label = \"Unproduktiver Weg\"\n    fontname = \"Helvetica\"\n    fontsize = 16\n    fontcolor = \"#D55E00\"\n    style = \"rounded,filled\"\n    fillcolor = \"#fde8d8\"\n    color = \"#D55E00\"\n    penwidth = 1.5\n\n    direct [label = \"KI-Output\\ndirekt nutzen\" fillcolor = \"#D55E00\"]\n    passive [label = \"Passives\\nÜbernehmen\" fillcolor = \"#D55E00\"]\n    nolearn [label = \"Kein\\nLerneffekt\" fillcolor = \"#D55E00\"]\n\n    direct -> passive [color = \"#999999\" style = dashed]\n    passive -> nolearn [color = \"#999999\" style = dashed label = \"  Keine Reflexion\\n  möglich  \"]\n  }\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<section id="leitfrage-3" class="slide level2">
+<h2>Leitfrage 3</h2>
+<h3 id="welche-dieser-operationen-würde-ki-übernehmen">Welche dieser Operationen würde KI übernehmen?</h3>
+<p>Nicht die ganze Aufgabe, sondern: Welche <em>spezifische Denkarbeit</em> fällt weg, wenn Studierende KI einsetzen?</p>
+<div class="fragment">
+<div class="callout callout-warning no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p>Manchmal übernimmt KI nur einen Teil der Aufgabe. Oft ist genau dieser Teil der lernrelevante.</p>
 </div>
 </div>
+</div>
+</div>
+<aside class="notes">
+<p>Frage 3 macht die Analyse konkret. Nicht “Kann KI die Aufgabe?” sondern “Welche der vier Operationen übernimmt KI?” Das ist ein wichtiger Unterschied: Manchmal kann KI eine Aufgabe teilweise übernehmen, und der Teil, den sie übernimmt, ist genau der lernrelevante.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="leitfrage-4" class="slide level2">
+<h2>Leitfrage 4</h2>
+<h3 id="werden-noch-grundlagen-aufgebaut">Werden noch Grundlagen aufgebaut?</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span style="color: #D55E00; font-size: 1.2em;"><strong>Ja</strong></span></p>
+<div class="fragment">
+<p>Studierende bauen noch Grundwissen auf. Die identifizierten Operationen müssen bei ihnen bleiben.</p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><span style="color: #0072B2; font-size: 1.2em;"><strong>Nein</strong></span></p>
+<div class="fragment">
+<p>Studierende haben bereits Schemata aufgebaut. Sie können KI-Output einordnen und gezielt nutzen, weil sie eigene Kriterien haben.</p>
+</div>
+</div></div>
+<aside class="notes">
+<p>Frage 4 moduliert die Strenge: Wenn Studierende schon Expertise haben, können sie KI als Verstärker nutzen. Wenn sie noch Grundlagen aufbauen, müssen die Kernoperationen geschützt werden.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="leitfrage-5" class="slide level2">
+<h2>Leitfrage 5</h2>
+<h3 id="arbeiten-studierende-zuerst-selbst-bevor-ki-ins-spiel-kommt">Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span style="color: #0072B2; font-size: 1.2em;"><strong>Ja</strong></span></p>
+<div class="fragment">
+<p>Studierende durchlaufen die Kernoperationen zuerst selbst, KI kommt danach. Die Reihenfolge ist bereits richtig.</p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><span style="color: #D55E00; font-size: 1.2em;"><strong>Nein</strong></span></p>
+<div class="fragment">
+<p>Ohne eigenen Versuch gibt es nichts, woran KI-Feedback ansetzen kann. Reihenfolge einbauen: erst Versuch, dann KI.</p>
+</div>
+</div></div>
+<aside class="notes">
+<p>Frage 5 ist die Minimalanforderung für jede Aufgabe, bei der KI ins Spiel kommt. Auch wenn alle anderen Fragen beantwortet sind: Ohne die richtige Reihenfolge wird die lernrelevante Verarbeitung trotzdem umgangen.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="jetzt-seid-ihr-dran" class="slide level2 smaller scrollable">
 <h2>Jetzt seid ihr dran</h2>
