@@ -179,7 +179,7 @@ Der Weg vom Anfänger zum Experten verläuft nach ACT-R [@andersonAcquisitionCog
 
 Ergänzend dazu beschreibt die Forschung zu **Vorhersagefehlern** (aus einer anderen theoretischen Tradition) einen weiteren wichtigen Lernmechanismus: Das Gehirn bildet Erwartungen, vergleicht sie mit der Realität und aktualisiert seine internen Modelle bei Diskrepanzen. Zusammen mit Konsolidierung, Elaboration und Mustererkennung erklären diese Mechanismen, *warum* die didaktischen Strategien funktionieren, die wir gleich kennenlernen.
 
-**Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger.
+<!-- **Überraschung aus der Motorik-Forschung:** Explizites, strategisches Denken *nimmt mit Expertise zu*, allerdings auf einer höheren Ebene. Experten automatisieren Grundkomponenten, denken aber bewusster über übergeordnete Strategien nach als Anfänger. -->
 
 #### Expertise Reversal Effect
 

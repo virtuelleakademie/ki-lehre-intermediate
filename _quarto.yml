@@ -63,9 +63,6 @@ website:
           - text: "Produktive Anstrengung durch Design"
             file: resources/produktive-anstrengung/index.qmd
           - text: "---"
-      - icon: file-earmark-pdf
-        text: "Dokumente"
-        menu:
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
           - text: "Begleitdokument: KI Policy (PDF)"
