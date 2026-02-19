@@ -87,7 +87,7 @@ Dieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen 
 - Was unterscheidet einen **Lernkontext** von einem **Leistungskontext**? Welche Teile dieser Aufgabe fallen in welche Kategorie?
 - Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?
 - Wie hilft das **Offloading-Outsourcing-Spektrum**, diese Unterscheidung zu treffen?
-- Wann ist die Entscheidung "Keine KI nötig" oder "KI ist hier sinnvoll" gleich berechtigt?
+- In welchen Situationen sind "Keine KI nötig" und "KI ist hier sinnvoll" gleich gute Antworten?
 :::
 
 
