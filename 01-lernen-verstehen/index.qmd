@@ -34,12 +34,15 @@ Die Fallstudien-Analyse ist die zentrale Transferaktivität und darf nicht gekü
 
 ## {{< bi pencil-square >}} Aktivitäten
 
-::: {.facilitator}
-Wähle Variante A oder B für die Arbeitsgedächtnis-Übung. Die restlichen Aktivitäten folgen in der angegebenen Reihenfolge.
-:::
+::::::: {.callout-note collapse="true"}
+### Arbeitsgedächtnis erleben
+
+:::: {.facilitator}
+Wähle Variante A oder B für die Arbeitsgedächtnis-Übung.
+::::
 
 ::: {.active-processing}
-### Arbeitsgedächtnis erleben, Variante A: Rechenketten (3 Min)
+### Variante A: Rechenketten (3 Min)
 
 **Elementinteraktivität spüren:** Dieselben Zahlen, zwei verschiedene Aufgaben.
 
@@ -55,7 +58,7 @@ In beiden Aufgaben waren es vier Zahlen. In Aufgabe 1 waren sie unabhängig vone
 :::
 
 ::: {.active-processing}
-### Arbeitsgedächtnis erleben, Variante B: Sortieraufgabe (3 Min)
+### Variante B: Sortieraufgabe (3 Min)
 
 **Elementinteraktivität spüren:** Dieselben Begriffe, zwei verschiedene Aufgaben.
 
@@ -74,6 +77,7 @@ Die vier Begriffe sind dieselben. Euer Arbeitsgedächtnis hat sich nicht veränd
 
 Diese Übung demonstriert **Elementinteraktivität**, das zentrale Konzept der Cognitive Load Theory. Die Kapazitätsgrenze des Arbeitsgedächtnisses wird nicht durch die Anzahl isolierter Elemente bestimmt, sondern durch die Anzahl der *Beziehungen zwischen Elementen*, die gleichzeitig verarbeitet werden müssen. Dieselbe Erfahrung, die hier in drei Minuten spürbar wird, findet in jeder Lehrveranstaltung statt, wenn Studierende neue Konzepte verstehen sollen. *Der Workshop macht erlebbar, was er erklärt.*
 :::
+:::::
 
 
 ::: {.active-processing}
