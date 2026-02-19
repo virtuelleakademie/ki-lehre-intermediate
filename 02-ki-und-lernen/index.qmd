@@ -30,7 +30,7 @@ Lücken sind willkommen: Sie zeigen dir, wo du beim Weiterhören besonders aufme
 ::: {.facilitator}
 ### Slides und Übergang zum Worked Example (ca. 10 Min)
 
-Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, "The Beach, Not the Ant", ungleiche Wirkung, 5 Leitfragen. Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.
+Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, 5 Leitfragen mit den vier Operationen (Abrufen, Generieren, Verknüpfen, Überwachen). Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.
 :::
 
 
@@ -101,31 +101,34 @@ Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtsch
 
 **Frage 1: Geht es primär ums Lernen?**
 
-Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Also: Outsourcing muss hier verhindert werden.
+Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Die kognitive Arbeit muss bei den Studierenden bleiben.
 
-**Frage 2: Werden noch Grundlagen aufgebaut?**
+**Frage 2: Welche Denkarbeit verlangt die Aufgabe?**
 
-Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?" Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.
+- **Abrufen**: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? Welche Suchbegriffe?)
+- **Generieren**: Eigene Bewertung jeder Quelle produzieren (relevant? Methodisch solide? Aktuell?)
+- **Verknüpfen**: Mehrere Quellen zu einer Synthese integrieren, Gemeinsamkeiten und Widersprüche identifizieren
+- **Überwachen**: Eigene Bewertungskriterien hinterfragen, Vollständigkeit der Recherche prüfen
 
-**Frage 3: Muss internes Wissen nachgewiesen werden?**
+**Frage 3: Welche dieser Operationen würde KI übernehmen?**
 
-Eigentlich ja, aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass *sie* die Quellen gelesen und bewertet haben.
+- **Generieren** und **Verknüpfen** werden vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Synthesen mit korrekten Zitationsformaten
+- **Abrufen** wird umgangen: Studierende entwickeln keine eigene Suchstrategie
+- **Überwachen** wird illusorisch: Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox)
 
-> **Hier liegt die kritische Lücke.**
+> **Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.**
 
-**Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?**
+**Frage 4: Werden noch Grundlagen aufgebaut?**
 
-Ja. *"Finde 5 Quellen zu X und fasse sie zusammen"* ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten. Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.
+Ja. Studierende lernen erst, *wie man Quellen bewertet*. Sie haben noch keine Schemata für: "Ist diese Quelle relevant? Methodisch solide? Aktuell genug?" Die identifizierten Operationen, besonders Generieren (eigene Bewertung) und Verknüpfen (Synthese), sind genau die Prozesse, die diese Schemata aufbauen.
 
-**Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?**
+**Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?**
 
 Nein. Es gibt keine eingebaute Phase, in der Studierende *zuerst selbst* suchen, bewerten und synthetisieren, bevor sie KI konsultieren.
 
-> **Hier liegt die Redesign-Möglichkeit.**
-
 ### Die Diagnose
 
-Die Analyse zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern. **Das Lernen wird umgangen, nicht unterstützt.**
+Alle vier Kernoperationen werden von KI übernommen. Das Lernen wird nicht unterstützt, sondern umgangen.
 
 ::: {.active-processing}
 ### Selbsterklärung (2 Min)
@@ -151,9 +154,9 @@ Die Analyse zeigt: Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassu
 
 Drei Erkenntnisse für die eigene Praxis:
 
-1. **Produkt ≠ Prozess**: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den *Prozess* prüfen
-2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe **Elementinteraktivität** hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Ohne die Schemata, die diese Komplexität organisieren, ist die intrinsische Last hoch. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden
-3. **Versuch-dann-Prüfe als Designprinzip**: Die Reihenfolge entscheidet: *zuerst selbst denken, dann KI konsultieren*. Der eigene Versuch aktiviert den **Generierungseffekt** (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt **Selbsterklärung** (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
+1. **Operationen identifizieren**: Die Analyse beginnt nicht mit "Kann KI das?", sondern mit "Welche Denkarbeit verlangt die Aufgabe?" Das Redesign schützt gezielt die Operationen, die das Lernen tragen (Generieren, Verknüpfen), und delegiert Routineanteile (Zitationsformat)
+2. **Offloading am richtigen Punkt**: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (Verknüpfen) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe **Elementinteraktivität** hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden
+3. **Erst selbst, dann KI**: Die Reihenfolge entscheidet. Der eigene Versuch aktiviert Abrufen und Generieren, und der Vergleich erzeugt Verknüpfen und Überwachen. Dieses Prinzip ist theoretisch gut fundiert [vgl. @bjorkMakingThingsHard2011], aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium
 
 {{< include ../resources/figures/fig-try-then-check.qmd >}}
 :::
@@ -311,13 +314,13 @@ Dieses Muster ist kein Scheitern, sondern die Art, wie Institutionen neue Werkze
 
 Ein praktisches Werkzeug für die Aufgabengestaltung:
 
-| Frage | Wenn ja... |
-|-------|-----------|
-| 1. Geht es primär ums **Lernen**? | → Outsourcing verhindern |
-| 2. Werden noch **Grundlagen** aufgebaut? | → Interne Verarbeitung verlangen |
-| 3. Muss **internes Wissen** nachgewiesen werden? | → Outsourcing unmöglich machen |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | → Aufgabe umgestalten |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | → KI für die Prüfphase nutzen |
+| Frage | Ergebnis |
+|-------|----------|
+| 1. Geht es primär ums **Lernen**? | → Kognitive Arbeit schützen |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? | → Operationen identifizieren (Abrufen, Generieren, Verknüpfen, Überwachen) |
+| 3. Welche Operationen würde **KI übernehmen**? | → Lernrelevante Operationen schützen, Routineanteile delegierbar |
+| 4. Werden noch **Grundlagen** aufgebaut? | → Studierende brauchen die Operationen selbst |
+| 5. Arbeiten Studierende **zuerst selbst**? | → Reihenfolge einbauen: erst Versuch, dann KI |
 :::
 
 

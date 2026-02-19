@@ -102,6 +102,17 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
+div.callout-pair.callout {
+  border-left-color: #059669;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(5, 150, 105, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
@@ -111,50 +122,6 @@ div.callout-active-processing.callout-style-default > .callout-header {
 div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #64748b;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #64748b;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -168,15 +135,48 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '📋';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: #059669;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #7c3aed;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(124, 58, 237, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '👥';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #64748b;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  content: '📖';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  content: '🤖';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -190,15 +190,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: #7c3aed;
+div.callout-reflect.callout {
+  border-left-color: #64748b;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(100, 116, 139, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
   background-image: none;
 }
 </style>
@@ -399,7 +399,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Präsentiere die Slides. Kernbotschaften: Offloading vs.&nbsp;Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, “The Beach, Not the Ant”, ungleiche Wirkung, 5 Leitfragen. Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.</p>
+<p>Präsentiere die Slides. Kernbotschaften: Offloading vs.&nbsp;Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, 5 Leitfragen mit den vier Operationen (Abrufen, Generieren, Verknüpfen, Überwachen). Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.</p>
 </div>
 </div>
 </div>
@@ -524,23 +524,36 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <p>Eine Aufgabe, die in vielen Disziplinen vorkommt, von Sozialarbeit über Wirtschaft bis Informatik. Analysieren wir sie mit den 5 Leitfragen.</p>
 </section><section id="schritt-für-schritt-analyse" class="level3"><h3 class="anchored" data-anchor-id="schritt-für-schritt-analyse">Schritt-für-Schritt-Analyse</h3>
 <p><strong>Frage 1: Geht es primär ums Lernen?</strong></p>
-<p>Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Also: Outsourcing muss hier verhindert werden.</p>
-<p><strong>Frage 2: Werden noch Grundlagen aufgebaut?</strong></p>
-<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?” Die interne Verarbeitung, also das eigene Urteil, ist der Lerninhalt.</p>
-<p><strong>Frage 3: Muss internes Wissen nachgewiesen werden?</strong></p>
-<p>Eigentlich ja, aber das aktuelle Design erzwingt es nicht. Die Zusammenfassungen und die Synthese könnten vollständig von KI stammen. Es gibt keinen Moment, in dem die Studierenden zeigen müssen, dass <em>sie</em> die Quellen gelesen und bewertet haben.</p>
+<p>Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden sollen lernen, Literatur zu finden, zu bewerten und zu synthetisieren. Die kognitive Arbeit muss bei den Studierenden bleiben.</p>
+<p><strong>Frage 2: Welche Denkarbeit verlangt die Aufgabe?</strong></p>
+<ul>
+<li>
+<strong>Abrufen</strong>: Suchstrategie aus dem Gedächtnis aktivieren (welche Datenbanken? Welche Suchbegriffe?)</li>
+<li>
+<strong>Generieren</strong>: Eigene Bewertung jeder Quelle produzieren (relevant? Methodisch solide? Aktuell?)</li>
+<li>
+<strong>Verknüpfen</strong>: Mehrere Quellen zu einer Synthese integrieren, Gemeinsamkeiten und Widersprüche identifizieren</li>
+<li>
+<strong>Überwachen</strong>: Eigene Bewertungskriterien hinterfragen, Vollständigkeit der Recherche prüfen</li>
+</ul>
+<p><strong>Frage 3: Welche dieser Operationen würde KI übernehmen?</strong></p>
+<ul>
+<li>
+<strong>Generieren</strong> und <strong>Verknüpfen</strong> werden vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Synthesen mit korrekten Zitationsformaten</li>
+<li>
+<strong>Abrufen</strong> wird umgangen: Studierende entwickeln keine eigene Suchstrategie</li>
+<li>
+<strong>Überwachen</strong> wird illusorisch: Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox)</li>
+</ul>
 <blockquote class="blockquote">
-<p><strong>Hier liegt die kritische Lücke.</strong></p>
+<p><strong>Die kognitive Arbeit steckt nicht im <em>Produkt</em> (Zusammenfassungen + Synthese), sondern im <em>Prozess</em> (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.</strong></p>
 </blockquote>
-<p><strong>Frage 4: Kann KI die Aufgabe ohne Denkarbeit erledigen?</strong></p>
-<p>Ja. <em>“Finde 5 Quellen zu X und fasse sie zusammen”</em> ist ein einfacher Prompt. KI liefert sogar plausible Synthesen mit korrekten Zitationsformaten. Die Aufgabe testet ein Produkt, das KI mühelos produzieren kann.</p>
-<p><strong>Frage 5: Gibt es eine Versuch-dann-Prüfe-Struktur?</strong></p>
+<p><strong>Frage 4: Werden noch Grundlagen aufgebaut?</strong></p>
+<p>Ja. Studierende lernen erst, <em>wie man Quellen bewertet</em>. Sie haben noch keine Schemata für: “Ist diese Quelle relevant? Methodisch solide? Aktuell genug?” Die identifizierten Operationen, besonders Generieren (eigene Bewertung) und Verknüpfen (Synthese), sind genau die Prozesse, die diese Schemata aufbauen.</p>
+<p><strong>Frage 5: Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?</strong></p>
 <p>Nein. Es gibt keine eingebaute Phase, in der Studierende <em>zuerst selbst</em> suchen, bewerten und synthetisieren, bevor sie KI konsultieren.</p>
-<blockquote class="blockquote">
-<p><strong>Hier liegt die Redesign-Möglichkeit.</strong></p>
-</blockquote>
 </section><section id="die-diagnose" class="level3"><h3 class="anchored" data-anchor-id="die-diagnose">Die Diagnose</h3>
-<p>Die Analyse zeigt: Die kognitive Arbeit steckt nicht im <em>Produkt</em> (Zusammenfassungen + Synthese), sondern im <em>Prozess</em> (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern. <strong>Das Lernen wird umgangen, nicht unterstützt.</strong></p>
+<p>Alle vier Kernoperationen werden von KI übernommen. Das Lernen wird nicht unterstützt, sondern umgangen.</p>
 <div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -606,11 +619,11 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <p>Drei Erkenntnisse für die eigene Praxis:</p>
 <ol type="1">
 <li>
-<strong>Produkt ≠ Prozess</strong>: Wenn KI das Produkt erzeugen kann, muss die Aufgabe den <em>Prozess</em> prüfen</li>
+<strong>Operationen identifizieren</strong>: Die Analyse beginnt nicht mit “Kann KI das?”, sondern mit “Welche Denkarbeit verlangt die Aufgabe?” Das Redesign schützt gezielt die Operationen, die das Lernen tragen (Generieren, Verknüpfen), und delegiert Routineanteile (Zitationsformat)</li>
 <li>
-<strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (lernrelevante Verarbeitung) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe <strong>Elementinteraktivität</strong> hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Ohne die Schemata, die diese Komplexität organisieren, ist die intrinsische Last hoch. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden</li>
+<strong>Offloading am richtigen Punkt</strong>: KI für Zitationsformat (extrinsische Last) ist sinnvoll. KI für die Synthese (Verknüpfen) eliminiert das Lernen. Warum gerade die Synthese? Weil sie hohe <strong>Elementinteraktivität</strong> hat: Studierende müssen gleichzeitig mehrere Quellen, deren Argumente und die Beziehungen zwischen ihnen verarbeiten. Genau deshalb ist KI-Outsourcing hier so schädlich: Es verhindert den Aufbau der Schemata, die später die Last reduzieren würden</li>
 <li>
-<strong>Versuch-dann-Prüfe als Designprinzip</strong>: Die Reihenfolge entscheidet: <em>zuerst selbst denken, dann KI konsultieren</em>. Der eigene Versuch aktiviert den <strong>Generierungseffekt</strong> (internes Wissen wird abgerufen und organisiert), und der Vergleich erzeugt <strong>Selbsterklärung</strong> (Studierende identifizieren und verarbeiten Unterschiede). Die Diskrepanz zwischen eigenem Versuch und externem Ergebnis kann zusätzlich als informativer Vergleich wirken. Dieses Prinzip ist theoretisch gut fundiert <span class="citation" data-cites="bjorkMakingThingsHard2011">(vgl. <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span>, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
+<strong>Erst selbst, dann KI</strong>: Die Reihenfolge entscheidet. Der eigene Versuch aktiviert Abrufen und Generieren, und der Vergleich erzeugt Verknüpfen und Überwachen. Dieses Prinzip ist theoretisch gut fundiert <span class="citation" data-cites="bjorkMakingThingsHard2011">(vgl. <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span>, aber die empirische Forschung zur spezifischen Anwendung mit KI-Tools ist noch in einem frühen Stadium</li>
 </ol>
 <div class="cell">
 <div class="cell-output-display">
@@ -849,33 +862,33 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <p>Ein praktisches Werkzeug für die Aufgabengestaltung:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 38%">
-<col style="width: 61%">
+<col style="width: 41%">
+<col style="width: 58%">
 </colgroup>
 <thead><tr class="header">
 <th>Frage</th>
-<th>Wenn ja…</th>
+<th>Ergebnis</th>
 </tr></thead>
 <tbody>
 <tr class="odd">
 <td>1. Geht es primär ums <strong>Lernen</strong>?</td>
-<td>→ Outsourcing verhindern</td>
+<td>→ Kognitive Arbeit schützen</td>
 </tr>
 <tr class="even">
-<td>2. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
-<td>→ Interne Verarbeitung verlangen</td>
+<td>2. Welche <strong>Denkarbeit</strong> verlangt die Aufgabe?</td>
+<td>→ Operationen identifizieren (Abrufen, Generieren, Verknüpfen, Überwachen)</td>
 </tr>
 <tr class="odd">
-<td>3. Muss <strong>internes Wissen</strong> nachgewiesen werden?</td>
-<td>→ Outsourcing unmöglich machen</td>
+<td>3. Welche Operationen würde <strong>KI übernehmen</strong>?</td>
+<td>→ Lernrelevante Operationen schützen, Routineanteile delegierbar</td>
 </tr>
 <tr class="even">
-<td>4. Kann KI die Aufgabe <strong>ohne Denkarbeit</strong> erledigen?</td>
-<td>→ Aufgabe umgestalten</td>
+<td>4. Werden noch <strong>Grundlagen</strong> aufgebaut?</td>
+<td>→ Studierende brauchen die Operationen selbst</td>
 </tr>
 <tr class="odd">
-<td>5. Gibt es eine <strong>Versuch-dann-Prüfe-Struktur</strong>?</td>
-<td>→ KI für die Prüfphase nutzen</td>
+<td>5. Arbeiten Studierende <strong>zuerst selbst</strong>?</td>
+<td>→ Reihenfolge einbauen: erst Versuch, dann KI</td>
 </tr>
 </tbody>
 </table>

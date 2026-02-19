@@ -31,14 +31,14 @@ Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit d
 | Frage | Deine Einschätzung |
 |-------|-------------------|
 | 1. Geht es primär ums **Lernen**? | |
-| 2. Werden noch **Grundlagen** aufgebaut? | |
-| 3. Muss **internes Wissen** nachgewiesen werden? | |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen) | |
+| 3. Welche dieser Operationen würde **KI übernehmen**? | |
+| 4. Werden noch **Grundlagen** aufgebaut? | |
+| 5. Arbeiten Studierende **zuerst selbst**, bevor KI ins Spiel kommt? | |
 
 **Dann identifiziere:**
 
-- Wo eliminiert KI die **lernrelevante kognitive Verarbeitung**?
+- Welche der identifizierten **Operationen** würde KI übernehmen?
 - Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario A2.)*
 :::
 
@@ -70,10 +70,10 @@ Dieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen 
 | Frage | Deine Einschätzung |
 |-------|-------------------|
 | 1. Geht es primär ums **Lernen**? | |
-| 2. Werden noch **Grundlagen** aufgebaut? | |
-| 3. Muss **internes Wissen** nachgewiesen werden? | |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen) | |
+| 3. Welche dieser Operationen würde **KI übernehmen**? | |
+| 4. Werden noch **Grundlagen** aufgebaut? | |
+| 5. Arbeiten Studierende **zuerst selbst**, bevor KI ins Spiel kommt? | |
 
 **Dann identifiziere:**
 
@@ -109,14 +109,14 @@ Analysiere Szenario C1 (Seminararbeit im 3. Semester) mit den 5 Leitfragen:
 | Frage | Deine Einschätzung |
 |-------|-------------------|
 | 1. Geht es primär ums **Lernen**? | |
-| 2. Werden noch **Grundlagen** aufgebaut? | |
-| 3. Muss **internes Wissen** nachgewiesen werden? | |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen) | |
+| 3. Welche dieser Operationen würde **KI übernehmen**? | |
+| 4. Werden noch **Grundlagen** aufgebaut? | |
+| 5. Arbeiten Studierende **zuerst selbst**, bevor KI ins Spiel kommt? | |
 
 **Dann identifiziere:**
 
-- Wo eliminiert KI die **lernrelevante kognitive Verarbeitung**?
+- Welche der identifizierten **Operationen** würde KI übernehmen?
 - Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario C2.)*
 :::
 
@@ -148,14 +148,14 @@ Analysiere Szenario D1 (klinischer Kurs im 4. Semester) mit den 5 Leitfragen:
 | Frage | Deine Einschätzung |
 |-------|-------------------|
 | 1. Geht es primär ums **Lernen**? | |
-| 2. Werden noch **Grundlagen** aufgebaut? | |
-| 3. Muss **internes Wissen** nachgewiesen werden? | |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen) | |
+| 3. Welche dieser Operationen würde **KI übernehmen**? | |
+| 4. Werden noch **Grundlagen** aufgebaut? | |
+| 5. Arbeiten Studierende **zuerst selbst**, bevor KI ins Spiel kommt? | |
 
 **Dann identifiziere:**
 
-- Wo eliminiert KI die **lernrelevante kognitive Verarbeitung**?
+- Welche der identifizierten **Operationen** würde KI übernehmen?
 - Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario D2.)*
 :::
 

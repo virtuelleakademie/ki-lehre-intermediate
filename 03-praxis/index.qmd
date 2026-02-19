@@ -48,15 +48,15 @@ Sicherstellen, dass alle eine Aufgabe haben. Wer keine mitgebracht hat, nutzt di
 | Frage | Deine Einschätzung |
 |-------|-------------------|
 | 1. Geht es primär ums **Lernen**? | |
-| 2. Werden noch **Grundlagen** aufgebaut? | |
-| 3. Muss **internes Wissen** nachgewiesen werden? | |
-| 4. Kann KI die Aufgabe **ohne Denkarbeit** erledigen? | |
-| 5. Gibt es eine **Versuch-dann-Prüfe-Struktur**? | |
+| 2. Welche **Denkarbeit** verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen) | |
+| 3. Welche dieser Operationen würde **KI übernehmen**? | |
+| 4. Werden noch **Grundlagen** aufgebaut? | |
+| 5. Arbeiten Studierende **zuerst selbst**, bevor KI ins Spiel kommt? | |
 
 **Dann identifiziere:**
 
-- Wo könnte KI die **lernrelevante kognitive Verarbeitung** eliminieren?
-- Welche **eine Änderung** würde produktive Anstrengung bewahren?
+- Welche der identifizierten **Operationen** könnte KI übernehmen?
+- Welche **eine Änderung** würde diese Operationen schützen?
 
 **Notiere:**
 
