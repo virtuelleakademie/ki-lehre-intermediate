@@ -5,12 +5,12 @@ subtitle: "Effektiv vs. ineffektiv, und warum"
 
 ## Übersicht
 
-Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Du kannst sie auf zwei Arten nutzen:
+Diese Fallstudien zeigen effektive und ineffektive KI-Integration in der Hochschullehre. Jedes Paar enthält ein problematisches und ein effektives Beispiel.
 
-- **Als Analysematerial mit den [5 Leitfragen](../../02-ki-und-lernen/5-leitfragen/)**: Wähle ein Szenario und analysiere es mit der Tabelle unter jedem Fall.
-- **Als Diskussionsgrundlage** für die theoretische Analyse mit Konzepten der kognitiven Lernpsychologie.
+Unter jedem Szenario-Paar findest du zwei Analyse-Perspektiven:
 
-Jedes Paar enthält ein problematisches und ein effektives Beispiel.
+- **Kognitive Analyse (Teil 1):** Analysiere die Szenarien mit den Konzepten der kognitiven Lernpsychologie (Arbeitsgedächtnis, Schemabildung, Desirable Difficulties, CLT, Expertise Reversal).
+- **Leitfragen-Analyse (Teil 3):** Analysiere die Szenarien systematisch mit den [5 Leitfragen](../../02-ki-und-lernen/5-leitfragen/).
 
 
 ## Fallstudie A: Einführung in die Programmierung
@@ -23,8 +23,27 @@ Eine Dozentin erlaubt Studierenden, ChatGPT für ihre Programmieraufgaben zu nut
 
 Dieselbe Dozentin ändert die Struktur: Studierende müssen *zuerst* eigenen Code schreiben (wird durch Versionskontrolle dokumentiert). Erst *nach* einem funktionierenden oder gescheiterten Versuch dürfen sie KI als Debugging-Partner nutzen: "Hier ist mein Code und die Fehlermeldung. Erkläre mir, was falsch läuft, aber gib mir nicht die Lösung."
 
+:::: {.panel-tabset}
+
+### Kognitive Analyse (Teil 1)
+
+::: {.pair}
+#### Szenario A1 vs. A2: Welches erzeugt mehr Lernen?
+
+Analysiert in Paaren dieses Szenario-Paar mit den Konzepten aus Teil 1:
+
+- **Wissenskompilation:** In welchem Szenario findet der Übergang von deklarativem zu prozeduralem Wissen statt? Wo wird dieser Prozess umgangen?
+- **Vorhersagefehler:** Welches Szenario erzeugt mehr Diskrepanzen zwischen Erwartung und Ergebnis bei den Studierenden?
+- **Cognitive Load Theory:** Wie verteilt sich die kognitive Last in beiden Szenarien (extrinsische Belastung vs. lernrelevante Verarbeitung)?
+- **Expertise-Entwicklung:** Was passiert mit der Schemabildung in beiden Fällen?
+
+**Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Welcher kognitive Mechanismus wird in A1 umgangen? (2) Wie stellt A2 diesen Mechanismus wieder her?
+:::
+
+### Leitfragen-Analyse (Teil 3)
+
 ::: {.individual}
-### Analyse mit den 5 Leitfragen: Szenario A1
+#### Analyse mit den 5 Leitfragen: Szenario A1
 
 Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit den 5 Leitfragen:
 
@@ -42,14 +61,7 @@ Analysiere Szenario A1 (Programmieraufgabe als Hausaufgabe im 2. Semester) mit d
 - Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario A2.)*
 :::
 
-::: {.pro-tip collapse="true"}
-### Vertiefung: Theoretische Analyse
-
-- Welches Szenario erzeugt mehr **Diskrepanzen** zwischen Erwartung und Ergebnis bei den Studierenden?
-- Wo findet **Wissenskompilation** statt, und wo nicht?
-- Wie verteilt sich die **kognitive Last** in beiden Szenarien (extrinsische Belastung vs. lernrelevante Verarbeitung)?
-- Was passiert mit der **Expertise-Entwicklung** in beiden Fällen?
-:::
+::::
 
 
 ## Fallstudie B: Projektmanagement (Leistungskontext)
@@ -62,8 +74,27 @@ Eine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei a
 
 Dieselbe Dozentin differenziert: Für die *Risikoanalyse* (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den *Statusbericht* (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?
 
+:::: {.panel-tabset}
+
+### Kognitive Analyse (Teil 1)
+
+::: {.pair}
+#### Szenario B1 vs. B2: Welches erzeugt mehr Lernen?
+
+Dieses Szenario-Paar ist anders als Fallstudie A. Analysiert in Paaren:
+
+- **Expertise Reversal Effect:** Die Studierenden haben 5+ Jahre Berufserfahrung. Für welche Teile der Aufgabe haben sie bereits automatisierte Schemata, und für welche nicht?
+- **Cognitive Load Theory:** Bei welchem Teil der Aufgabe erzeugt das KI-Verbot in B1 extrinsische Belastung ohne Lerngewinn?
+- **Desirable Difficulties:** Bei welchem Teil der Aufgabe ist die Anstrengung tatsächlich lernrelevant, und wo ist sie nur mühsam?
+- **Schemabildung:** Was soll in diesem Modul *neu gelernt* werden, und was können die Studierenden schon?
+
+**Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Warum schadet ein pauschales KI-Verbot in diesem Kontext? (2) Wie differenziert B2 sinnvoll?
+:::
+
+### Leitfragen-Analyse (Teil 3)
+
 ::: {.individual}
-### Analyse mit den 5 Leitfragen: Szenario B1
+#### Analyse mit den 5 Leitfragen: Szenario B1
 
 Dieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen und achte darauf, **wo die Antworten anders ausfallen**:
 
@@ -81,13 +112,7 @@ Dieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen 
 - Wo ist KI-Unterstützung die **richtige** Antwort, und warum?
 :::
 
-::: {.pro-tip collapse="true"}
-### Vertiefung: Theoretische Analyse
-
-- Was unterscheidet einen **Lernkontext** von einem **Leistungskontext**? Welche Teile dieser Aufgabe fallen in welche Kategorie?
-- Warum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?
-- Wie hilft das **Offloading-Outsourcing-Spektrum**, diese Unterscheidung zu treffen?
-:::
+::::
 
 
 ## Fallstudie C: Wissenschaftliches Schreiben
@@ -100,8 +125,27 @@ Ein Dozent empfiehlt Studierenden, ihre Seminararbeit mit KI-Unterstützung zu s
 
 Derselbe Dozent strukturiert den Prozess um: (1) Studierende schreiben zuerst eine handschriftliche Argumentationsskizze (30 Min, in der Lehrveranstaltung). (2) Sie verfassen einen Erstentwurf *ohne* KI. (3) Erst dann nutzen sie KI für Sprachkorrektur und Strukturfeedback. (4) In einer mündlichen Kurzpräsentation (3 Min) erklären sie ihre zentrale Argumentation.
 
+:::: {.panel-tabset}
+
+### Kognitive Analyse (Teil 1)
+
+::: {.pair}
+#### Szenario C1 vs. C2: Welches erzeugt mehr Lernen?
+
+Analysiert in Paaren dieses Szenario-Paar mit den Konzepten aus Teil 1:
+
+- **Metakognitive Falle:** Die Texte in C1 sind sprachlich korrekt und gut strukturiert. Warum ist das trügerisch? Was verwechseln die Studierenden mit Verständnis?
+- **Generierungseffekt:** Wo liegt der Unterschied zwischen "einen Text überarbeiten" und "einen Text selbst produzieren"? Was passiert kognitiv in jedem Fall?
+- **Schemabildung:** Was passiert mit dem Aufbau von Argumentationsschemata in beiden Szenarien?
+- **Expertise-Entwicklung:** Können Studierende im 3. Semester die Qualität eines KI-generierten Texts beurteilen, wenn ihnen die Schemata für wissenschaftliches Argumentieren noch fehlen?
+
+**Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Welcher kognitive Mechanismus wird in C1 umgangen? (2) Wie stellt C2 diesen Mechanismus wieder her?
+:::
+
+### Leitfragen-Analyse (Teil 3)
+
 ::: {.individual}
-### Analyse mit den 5 Leitfragen: Szenario C1
+#### Analyse mit den 5 Leitfragen: Szenario C1
 
 Analysiere Szenario C1 (Seminararbeit im 3. Semester) mit den 5 Leitfragen:
 
@@ -119,14 +163,7 @@ Analysiere Szenario C1 (Seminararbeit im 3. Semester) mit den 5 Leitfragen:
 - Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario C2.)*
 :::
 
-::: {.pro-tip collapse="true"}
-### Vertiefung: Theoretische Analyse
-
-- Wo liegt das **Evaluationsparadox**? Können Studierende in Szenario C1 die KI-Outputs tatsächlich kritisch bewerten?
-- Inwiefern ist Szenario C1 ein Beispiel für **Schein-Kompetenz**?
-- Welche Rolle spielt die **Versuch-dann-Prüfe-Struktur** in Szenario C2?
-- Wie wirkt sich jedes Szenario auf die **Gerechtigkeit** aus, also werden schwächere Studierende gleich oder unterschiedlich betroffen?
-:::
+::::
 
 
 ## Fallstudie D: Medizinische Fallanalyse
@@ -139,8 +176,27 @@ In einem klinischen Kurs beschreiben Studierende Symptome in einem KI-Chat und e
 
 Im gleichen Kurs müssen Studierende *zuerst* ihre eigene Differenzialdiagnose formulieren, mit Begründung. Erst dann vergleichen sie mit einem KI-generierten Vorschlag. Abschliessend dokumentieren sie: "Was habe ich übersehen? Warum?"
 
+:::: {.panel-tabset}
+
+### Kognitive Analyse (Teil 1)
+
+::: {.pair}
+#### Szenario D1 vs. D2: Welches erzeugt mehr Lernen?
+
+Analysiert in Paaren dieses Szenario-Paar mit den Konzepten aus Teil 1:
+
+- **Schemabildung:** Welches Szenario fördert den Aufbau von Schemata für klinisches Reasoning? Wo entsteht das vernetzte Wissen, das Experten von Anfängern unterscheidet?
+- **Vorhersagefehler:** In welchem Szenario entstehen Diskrepanzen zwischen eigener Hypothese und tatsächlichem Befund? Warum sind diese Diskrepanzen lernwirksam?
+- **Wissenskompilation:** Wo findet der Übergang von deklarativem Wissen ("ich weiss, welche Symptome zu welcher Diagnose gehören") zu prozeduralem Wissen ("ich kann systematisch differenzialdiagnostisch denken") statt?
+- **Desirable Difficulties:** Welches Szenario bereitet besser auf Situationen vor, in denen *keine* KI verfügbar ist?
+
+**Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Welcher kognitive Mechanismus wird in D1 umgangen? (2) Wie stellt D2 diesen Mechanismus wieder her?
+:::
+
+### Leitfragen-Analyse (Teil 3)
+
 ::: {.individual}
-### Analyse mit den 5 Leitfragen: Szenario D1
+#### Analyse mit den 5 Leitfragen: Szenario D1
 
 Analysiere Szenario D1 (klinischer Kurs im 4. Semester) mit den 5 Leitfragen:
 
@@ -158,14 +214,7 @@ Analysiere Szenario D1 (klinischer Kurs im 4. Semester) mit den 5 Leitfragen:
 - Welche **eine Änderung** würde produktive Anstrengung bewahren? *(Vergleiche deine Idee mit Szenario D2.)*
 :::
 
-::: {.pro-tip collapse="true"}
-### Vertiefung: Theoretische Analyse
-
-- Welches Szenario fördert die **Schemabildung** für klinisches Reasoning?
-- Wo findet **Offloading** statt, wo **Outsourcing**?
-- Wie wirkt sich die Reihenfolge (eigener Versuch → KI vs. KI → Auswahl) auf das **Lernen** aus?
-- Welches Szenario bereitet besser auf Situationen vor, in denen *keine* KI verfügbar ist?
-:::
+::::
 
 
 ## Allgemeine Reflexionsfragen
