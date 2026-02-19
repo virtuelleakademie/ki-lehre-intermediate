@@ -42,13 +42,13 @@ website:
         text: Workshop
       - icon: person-gear
         href: 01-lernen-verstehen/index.qmd
-        text: "1: Lernen verstehen"
+        text: "Lernen verstehen"
       - icon: motherboard
         href: 02-ki-und-lernen/index.qmd
-        text: "2: KI & Lernen"
+        text: "KI & Lernen"
       - icon: marker-tip
         href: 03-praxis/index.qmd
-        text: "3: Praxis"
+        text: "Praxis"
 
     right:
       - icon: book
