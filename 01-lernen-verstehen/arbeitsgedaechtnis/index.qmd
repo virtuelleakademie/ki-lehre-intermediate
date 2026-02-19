@@ -201,7 +201,7 @@ Die Modelle legen nahe, dass der initiale Erwerb **qualitativ unterschiedlichen 
 Instruktionshilfen, die Anfängern helfen (z.B. durchgearbeitete Beispiele), können Experten sogar *schaden*:
 
 - Für **Anfänger** reduzieren durchgearbeitete Beispiele die extrinsische Last, indem sie vororganisierte relationale Struktur liefern
-- Für **Experten** ist dieselbe Strukturierung redundant, weil sie sie zwingt, Information zu verarbeiten, die sie bereits geChunkt haben
+- Für **Experten** ist dieselbe Strukturierung redundant, weil sie sie zwingt, Information zu verarbeiten, die sie bereits zu chunks verarbeitet haben
 
 **Lehrimplikation**: Biete Scaffolding als *optionales* Material an, nicht als Pflicht, damit fortgeschrittene Studierende nicht gezwungen werden, redundante Struktur zu verarbeiten.
 
