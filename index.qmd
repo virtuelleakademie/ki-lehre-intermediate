@@ -30,7 +30,7 @@ about:
 
 <br>
 
-## Dozent
+## Dozenten
 
 [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Raphael Schween](mailto:raphael.schween@bfh.ch) sind Kognitionspsychologen und wissenschaftliche Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. Sie befassen sich mit der Frage, wie KI in der Hochschullehre lernförderlich integriert werden kann.
 
