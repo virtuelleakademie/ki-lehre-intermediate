@@ -249,8 +249,8 @@ Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
 
 | Gedächtnissystem | Beschreibung | Beispiel |
 | ---------------- | ------------ | -------- |
-| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | Regel kennen: "5 von beiden Seiten subtrahieren" |
-| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | Gleichung sehen → sofort umstellen |
+| **Deklarativ** ("Wissen dass") | Fakten, Regeln; bewusster Abruf | $x + 5 = 12$ → Regel abrufen: "5 von beiden Seiten subtrahieren" → $x = 7$ |
+| **Prozedural** ("Wissen wie") | Automatisiert; schnelle Ausführung | $x + 5 = 12$ → sofort sehen: $x = 7$ |
 
 :::{.fragment}
 ### Der Weg zur Expertise
@@ -259,14 +259,16 @@ Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
 :::
 
 
-## Der Weg zur Expertise
+<!-- ## Der Weg zur Expertise
 
-{{< include ../../resources/figures/fig-wissenskompilation.qmd >}}
+{{< include ../../resources/figures/fig-wissenskompilation.qmd >}} -->
 
 
 ## Warum Abrufpraxis funktioniert {.smaller}
 
-**Abruf misst nicht nur Lernen, er *erzeugt* Lernen** [@roedigerCriticalRoleRetrieval2011]
+Abruf (Retrieval) ist eine der wirksamsten Formen dieser Übungszyklen, denn Abruf misst nicht nur Lernen, er *erzeugt* Lernen [@roedigerCriticalRoleRetrieval2011]
+
+<br>
 
 | Mechanismus | Wirkung |
 |-------------|---------|
@@ -363,22 +365,25 @@ Nicht jede schwierige Aufgabe ist komplex [@chenCognitiveLoadTheory2023]
 :::
 
 
-## Das Lernparadox: Die Übersicht
+## Das Lernparadox: Die Übersicht {.smaller}
 
-{{< include ../../resources/figures/fig-lernparadox.qmd >}}
+::::{.columns}
+:::{.column width="50%"}
+![](../../assets/images/fig-lernparadox.png)
+:::
 
-
-## Die gefährliche Umkehrung {.center}
-
+:::{.column width="50%"}
 Wir verwechseln **Verarbeitungsflüssigkeit** (wie leicht sich etwas anfühlt) mit **Lernerfolg** [@bjorkMemoryMetamemoryConsiderations1994].
 
-. . .
-
+:::{.fragment}
 Produktive Anstrengung **fühlt sich schwierig an**, signalisiert aber, dass lernrelevante Prozesse aktiv sind.
+:::
 
-. . .
-
+:::{.fragment}
 Wenn es sich anstrengend anfühlt, ist das meistens ein gutes Zeichen.
+:::
+:::
+::::
 
 
 ## Was wir jetzt wissen {.center}

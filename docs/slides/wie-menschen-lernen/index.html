@@ -167,26 +167,15 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-pair.callout {
-    border-left-color: #059669;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-agent-potential.callout {
+  div.callout-active-processing.callout {
     border-left-color: #9A4665;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
+  div.callout-active-processing.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
     background-image: none;
   }
   div.callout-facilitator.callout {
@@ -200,37 +189,15 @@
     content: '📋';
     background-image: none;
   }
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
-  }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
-  }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
-    background-image: none;
-  }
-  div.callout-nachlesen.callout {
+  div.callout-reflect.callout {
     border-left-color: #64748b;
   }
-  div.callout-nachlesen.callout-style-default > .callout-header {
+  div.callout-reflect.callout-style-default > .callout-header {
     background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-    content: '📖';
-    background-image: none;
-  }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   div.callout-individual.callout {
@@ -244,6 +211,50 @@
     content: '💻';
     background-image: none;
   }
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-nachlesen.callout {
+    border-left-color: #64748b;
+  }
+  div.callout-nachlesen.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
+  }
+  div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+    content: '📖';
+    background-image: none;
+  }
   div.callout-group.callout {
     border-left-color: #7c3aed;
   }
@@ -253,17 +264,6 @@
   div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
     content: '👥';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
     background-image: none;
   }
   </style>
@@ -614,12 +614,12 @@ properly introduced yet -->
 <tr class="odd">
 <td><strong>Deklarativ</strong> (“Wissen dass”)</td>
 <td>Fakten, Regeln; bewusster Abruf</td>
-<td>Regel kennen: “5 von beiden Seiten subtrahieren”</td>
+<td><span class="math inline">\(x + 5 = 12\)</span> → Regel abrufen: “5 von beiden Seiten subtrahieren” → <span class="math inline">\(x = 7\)</span></td>
 </tr>
 <tr class="even">
 <td><strong>Prozedural</strong> (“Wissen wie”)</td>
 <td>Automatisiert; schnelle Ausführung</td>
-<td>Gleichung sehen → sofort umstellen</td>
+<td><span class="math inline">\(x + 5 = 12\)</span> → sofort sehen: <span class="math inline">\(x = 7\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -627,19 +627,14 @@ properly introduced yet -->
 <h3 id="der-weg-zur-expertise">Der Weg zur Expertise</h3>
 <p><strong>Deklarativ</strong> → Übungszyklen mit Feedback → <strong>Prozedural</strong></p>
 </div>
-</section>
-<section id="der-weg-zur-expertise-1" class="slide level2">
-<h2>Der Weg zur Expertise</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-22d2a91ddcc14281f137" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-22d2a91ddcc14281f137">{"x":{"diagram":"\ndigraph wissenskompilation {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.7\n    ranksep = 1.2\n    label = \"Wissenskompilation: Der Weg zur Expertise\\nDeklaratives Wissen wird durch Übungszyklen zu prozeduralem Wissen\"\n    labelloc = t\n    fontsize = 14\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 10\n    arrowsize = 0.8\n  ]\n\n  deklarativ [\n    label = \"Deklarativ\\n(Wissen dass)\\n\\nRegeln kennen\\nBewusster Abruf\\nLangsam, fehleranfällig\"\n    fillcolor = \"#D55E00\"\n    fontsize = 11\n    margin = \"0.3,0.2\"\n  ]\n\n  uebung [\n    label = \"Übungszyklen\\nmit Feedback\\n\\nTausende Wiederholungen\\nVariierende Kontexte\\nKorrektives Feedback\"\n    fillcolor = \"#E69F00\"\n    fontcolor = \"#222222\"\n    fontsize = 11\n    margin = \"0.3,0.2\"\n  ]\n\n  prozedural [\n    label = \"Prozedural\\n(Wissen wie)\\n\\nAutomatisiert\\nSchnelle Ausführung\\nFlexibel anwendbar\"\n    fillcolor = \"#0072B2\"\n    fontsize = 11\n    margin = \"0.3,0.2\"\n  ]\n\n  deklarativ -> uebung [\n    label = \"  Aktive\\n  Verarbeitung  \"\n    color = \"#666666\"\n    penwidth = 2\n  ]\n\n  uebung -> prozedural [\n    label = \"  Kompilation &\\n  Automatisierung  \"\n    color = \"#666666\"\n    penwidth = 2\n  ]\n\n  // KI bypass\n  bypass [\n    label = \"KI-Outsourcing\\nüberspringt diesen Prozess\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 11\n  ]\n\n  deklarativ -> bypass [\n    style = dashed\n    color = \"#9A4665\"\n    label = \"  Shortcut  \"\n    fontcolor = \"#9A4665\"\n  ]\n\n  bypass -> prozedural [\n    style = dashed\n    color = \"#9A4665\"\n    label = \"  X Nicht möglich  \"\n    fontcolor = \"#9A4665\"\n  ]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<!-- ## Der Weg zur Expertise
+
+{{< include ../../resources/figures/fig-wissenskompilation.qmd >}} -->
 </section>
 <section id="warum-abrufpraxis-funktioniert" class="slide level2 smaller">
 <h2>Warum Abrufpraxis funktioniert</h2>
-<p><strong>Abruf misst nicht nur Lernen, er <em>erzeugt</em> Lernen</strong> <span class="citation" data-cites="roedigerCriticalRoleRetrieval2011">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Roediger und Butler 2011</a>)</span></p>
+<p>Abruf (Retrieval) ist eine der wirksamsten Formen dieser Übungszyklen, denn Abruf misst nicht nur Lernen, er <em>erzeugt</em> Lernen <span class="citation" data-cites="roedigerCriticalRoleRetrieval2011">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Roediger und Butler 2011</a>)</span></p>
+<p><br></p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 59%">
@@ -758,12 +753,12 @@ properly introduced yet -->
 </div>
 </div>
 </section>
-<section id="das-lernparadox-die-übersicht" class="slide level2">
+<section id="das-lernparadox-die-übersicht" class="slide level2 smaller">
 <h2>Das Lernparadox: Die Übersicht</h2>
-
-<img data-src="index_files/figure-revealjs/lernparadox-1.png" width="960" class="r-stretch"></section>
-<section id="die-gefährliche-umkehrung" class="slide level2 center">
-<h2>Die gefährliche Umkehrung</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/fig-lernparadox.png"></p>
+</div><div class="column" style="width:50%;">
 <p>Wir verwechseln <strong>Verarbeitungsflüssigkeit</strong> (wie leicht sich etwas anfühlt) mit <strong>Lernerfolg</strong> <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>.</p>
 <div class="fragment">
 <p>Produktive Anstrengung <strong>fühlt sich schwierig an</strong>, signalisiert aber, dass lernrelevante Prozesse aktiv sind.</p>
@@ -771,6 +766,7 @@ properly introduced yet -->
 <div class="fragment">
 <p>Wenn es sich anstrengend anfühlt, ist das meistens ein gutes Zeichen.</p>
 </div>
+</div></div>
 </section>
 <section id="was-wir-jetzt-wissen" class="slide level2 center">
 <h2>Was wir jetzt wissen</h2>
