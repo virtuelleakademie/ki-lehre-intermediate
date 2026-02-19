@@ -1263,7 +1263,7 @@
     "href": "slides/ki-und-lernen/index.html#offloading-vs.-outsourcing",
     "title": "KI & Lernen",
     "section": "Offloading vs. Outsourcing",
-    "text": "Offloading vs. Outsourcing\nDie entscheidende Unterscheidung\n\n\nCognitive Offloading\nTool reduziert Arbeitsgedächtnis-Last, während die Person denkt\nBeispiel: Taschenrechner bei Problemlösung\nLernrelevante Verarbeitung: erhalten\n\n\nCognitive Outsourcing\nTool übernimmt das Denken\nBeispiel: KI schreibt den Aufsatz\nLernrelevante Verarbeitung: eliminiert\n\n\n\n\n\n\nOutsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist das Kernproblem."
+    "text": "Offloading vs. Outsourcing\nDie entscheidende Unterscheidung\n\n\nCognitive Offloading\nTool reduziert Arbeitsgedächtnis-Last, während die Person denkt\nBeispiel: Taschenrechner bei Problemlösung\nLernrelevante Verarbeitung: erhalten\n\n\nCognitive Outsourcing\nTool übernimmt das Denken\nBeispiel: KI schreibt den Aufsatz\nLernrelevante Verarbeitung: eliminiert\n\n\n\n\n\n\nDie Frage ist nicht “Dürfen Studierende KI nutzen?”, sondern: Wird das Denken ausgelagert oder nur unterstützt?"
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#das-offloading-outsourcing-spektrum",
@@ -1298,7 +1298,7 @@
     "href": "slides/ki-und-lernen/index.html#das-evaluationsparadox",
     "title": "KI & Lernen",
     "section": "Das Evaluationsparadox",
-    "text": "Das Evaluationsparadox\n\n“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”\n\nUm KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.\n\n\n\n\n\nExpert:innen\nAnfänger:innen\n\n\n\n\nBewertungskriterien\nUnabhängig vorhanden\nFehlen\n\n\nKI-Fehler\nSofort erkennbar\nNicht erkennbar\n\n\n“Kritische Nutzung”\nEchte Evaluation\nOberflächliches Prüfen\n\n\n\n\n\n\n\n\nKompetente Nutzung setzt Kompetenz voraus\n\n\nExpert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit."
+    "text": "Das Evaluationsparadox\n\n“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”\n\nUm KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.\n\n\n\n\n\nExpert:innen\nAnfänger:innen\n\n\n\n\nBewertungskriterien\nUnabhängig vorhanden\nFehlen\n\n\nKI-Fehler\nSofort erkennbar\nNicht erkennbar\n\n\n“Kritische Nutzung”\nEchte Evaluation\nOberflächliches Prüfen\n\n\n\n\n\n\n\n\nKompetente Nutzung setzt Kompetenz voraus\n\n\nExpert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit. Das trifft Studierende mit schwachem Vorwissen überproportional (Cui u. a. 2024)."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#das-evaluationsparadox-1",
@@ -1319,7 +1319,7 @@
     "href": "slides/ki-und-lernen/index.html#lernen-leisten",
     "title": "KI & Lernen",
     "section": "Lernen ≠ Leisten",
-    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben (Bjork 1994). Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für Transfer auf neue Situationen.\n\nSchein-Kompetenz\nTexte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.\nTückischer als Plagiat, weil es Selbsttäuschung ist."
+    "text": "Lernen ≠ Leisten\nStudierende können mit KI korrekte Ergebnisse produzieren (leisten), ohne etwas gelernt zu haben (Bjork 1994). Die Folge: Schein-Kompetenz. Texte mit allen Oberflächenmerkmalen akademischer Arbeit, aber ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es Selbsttäuschung ist.\n\n\n\n\nKein Outsourcing, kein Transfer\n\n\nDas Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie keine internen Ressourcen aufgebaut haben."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#was-auf-dem-spiel-steht-transfer",
@@ -1694,5 +1694,19 @@
     "title": "KI & Lernen",
     "section": "Aber können Studierende nicht einfach prüfen, was die KI liefert?",
     "text": "Aber können Studierende nicht einfach prüfen, was die KI liefert?\n\nMachen wir den Test."
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#clt-und-ki",
+    "href": "slides/ki-und-lernen/index.html#clt-und-ki",
+    "title": "KI & Lernen",
+    "section": "CLT und KI",
+    "text": "CLT und KI\n\n\n\n\nKI optimiert für Produktion statt Lernen: Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.\n\nLernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit übernimmt (Outsourcing).\n\n\nWenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung erhalten bleiben.\n\n\nDie Reihenfolge entscheidet: Versuch → dann → KI-Feedback"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#versuch-dann-prüfe",
+    "href": "slides/ki-und-lernen/index.html#versuch-dann-prüfe",
+    "title": "KI & Lernen",
+    "section": "Versuch → dann → Prüfe",
+    "text": "Versuch → dann → Prüfe"
   }
 ]

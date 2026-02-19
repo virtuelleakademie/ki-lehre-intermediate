@@ -167,28 +167,6 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
-  div.callout-pair.callout {
-    border-left-color: #059669;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
-  }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
-  }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
-    background-image: none;
-  }
   div.callout-agent-potential.callout {
     border-left-color: #9A4665;
   }
@@ -211,15 +189,15 @@
     content: '👥';
     background-image: none;
   }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
+  div.callout-reflect.callout {
+    border-left-color: #64748b;
   }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgba(100, 116, 139, 0.13);
   }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   div.callout-individual.callout {
@@ -231,17 +209,6 @@
   div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
     content: '💻';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: #64748b;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgba(100, 116, 139, 0.13);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
     background-image: none;
   }
   div.callout-nachlesen.callout {
@@ -264,6 +231,39 @@
   div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
     content: '📋';
+    background-image: none;
+  }
+  div.callout-active-processing.callout {
+    border-left-color: #9A4665;
+  }
+  div.callout-active-processing.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
+  }
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
     background-image: none;
   }
   </style>
@@ -320,7 +320,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p>Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist das Kernproblem.</p>
+<p>Die Frage ist nicht <em>“Dürfen Studierende KI nutzen?”</em>, sondern: <strong>Wird das Denken ausgelagert oder nur unterstützt?</strong></p>
 </div>
 </div>
 </div>
@@ -330,56 +330,15 @@ Andrew Ellis
 <h2>Das Offloading-Outsourcing-Spektrum</h2>
 
 <img data-src="index_files/figure-revealjs/offloading-spectrum-1.png" width="1152" class="r-stretch"></section>
-<section id="clt-und-ki-was-passiert-bei-outsourcing" class="slide level2 smaller">
-<h2>CLT und KI: Was passiert bei Outsourcing?</h2>
-<p><strong>KI optimiert für Produktion statt Lernen</strong></p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 32%">
-<col style="width: 36%">
-<col style="width: 32%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Kognitive Last</th>
-<th>Ohne KI</th>
-<th>Mit KI (Outsourcing)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Intrinsisch</strong></td>
-<td>Bleibt konstant</td>
-<td>Lernende begegnen der Komplexität nicht</td>
-</tr>
-<tr class="even">
-<td><strong>Extrinsisch</strong></td>
-<td>Variabel</td>
-<td>Minimiert</td>
-</tr>
-<tr class="odd">
-<td><strong>Lernrelevante Verarbeitung</strong></td>
-<td>Wird aufgebracht</td>
-<td><strong>Eliminiert</strong></td>
-</tr>
-</tbody>
-</table>
-<div class="fragment">
-<p>Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.</p>
-</div>
-</section>
-<section id="clt-und-ki-die-nuance" class="slide level2 smaller">
-<h2>CLT und KI: Die Nuance</h2>
+<section id="clt-und-ki" class="slide level2 smaller">
+<h2>CLT und KI</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="../../assets/images/fig-outsourcing-comparison.png"></p>
 </div><div class="column" style="width:50%;">
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
+<p>KI optimiert für <strong>Produktion</strong> statt Lernen: Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.</p>
+<div class="fragment">
 <p>Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit <strong>übernimmt</strong> (Outsourcing).</p>
-</div>
-</div>
 </div>
 <div class="fragment">
 <p>Wenn KI <em>nach eigenem Versuch</em> als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung <strong>erhalten bleiben</strong>.</p>
@@ -388,28 +347,6 @@ Andrew Ellis
 <p>Die Reihenfolge entscheidet: <strong>Versuch → dann → KI-Feedback</strong></p>
 </div>
 </div></div>
-</section>
-<section id="warum-outsourcing-schemabildung-verhindert" class="slide level2">
-<h2>Warum Outsourcing Schemabildung verhindert</h2>
-<p>Schemata entstehen nur durch <strong>eigene kognitive Arbeit</strong>. Outsourcing unterbricht diese Kette:</p>
-<ol type="1">
-<li><strong>Kein Versuch</strong> → kein eigenes mentales Modell, an dem Feedback ansetzen kann</li>
-<li><strong>Keine Verarbeitung</strong> → keine neuen Verbindungen im Langzeitgedächtnis</li>
-<li><strong>Keine Übung</strong> → keine Automatisierung (deklarativ bleibt deklarativ)</li>
-<li><strong>Keine Schemata</strong> → kein Transfer auf neue Situationen</li>
-</ol>
-<!-- :::{.fragment}
-::: {.callout-warning}
-Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht bereits bei Schritt 1.
-::: -->
-<p>:::</p>
-</section>
-<section id="die-frage-ist-nicht" class="slide level2 center">
-<h2>Die Frage ist nicht…</h2>
-<p><em>“Dürfen Studierende KI nutzen?”</em></p>
-<div class="fragment">
-<h3 id="sondern-wird-das-denken-ausgelagert-oder-nur-unterstützt">Sondern: “Wird das Denken ausgelagert oder nur unterstützt?”</h3>
-</div>
 </section>
 <section id="aber-können-studierende-nicht-einfach-prüfen-was-die-ki-liefert" class="slide level2 center">
 <h2>Aber können Studierende nicht einfach prüfen, was die KI liefert?</h2>
@@ -480,7 +417,7 @@ Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht be
 <p><strong>Kompetente Nutzung setzt Kompetenz voraus</strong></p>
 </div>
 <div class="callout-content">
-<p>Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.</p>
+<p>Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit. Das trifft Studierende mit schwachem Vorwissen überproportional <span class="citation" data-cites="cuiEffectsGenerativeAI2024">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Cui u.&nbsp;a. 2024</a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -491,65 +428,15 @@ Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht be
 </section>
 <section id="lernen-leisten" class="slide level2 smaller">
 <h2>Lernen ≠ Leisten</h2>
-<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für Transfer auf neue Situationen.</p>
+<p>Studierende können mit KI korrekte Ergebnisse <em>produzieren</em> (leisten), ohne etwas <em>gelernt</em> zu haben <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Bjork 1994</a>)</span>. Die Folge: <strong>Schein-Kompetenz</strong>. Texte mit allen Oberflächenmerkmalen akademischer Arbeit, aber ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es Selbsttäuschung ist.</p>
 <div class="fragment">
-<h3 id="schein-kompetenz">Schein-Kompetenz</h3>
-<p>Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.</p>
-<p>Tückischer als Plagiat, weil es <strong>Selbsttäuschung</strong> ist.</p>
-</div>
-</section>
-<section id="was-auf-dem-spiel-steht-transfer" class="slide level2 center">
-<h2>Was auf dem Spiel steht: Transfer</h2>
-<p>Ohne Schemata können Studierende Gelerntes nicht auf neue, unbekannte Situationen anwenden.</p>
-<div class="fragment">
-<p>Outsourcing produziert Ergebnisse, aber keine Schemata.</p>
-<p>Keine Schemata bedeutet: kein Transfer.</p>
-</div>
-<div class="fragment">
-<div class="callout callout-warning no-icon callout-style-simple">
+<div class="callout callout-warning no-icon callout-titled callout-style-simple">
 <div class="callout-body">
+<div class="callout-title">
+<p><strong>Kein Outsourcing, kein Transfer</strong></p>
+</div>
 <div class="callout-content">
 <p>Das Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie <strong>keine internen Ressourcen</strong> aufgebaut haben.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="the-beach-not-the-ant" class="slide level2 center">
-<h2>“The Beach, Not the Ant”</h2>
-<blockquote>
-<p>Die Lernumgebung beeinflusst das Ergebnis oft stärker als die Motivation der Studierenden.</p>
-</blockquote>
-<div class="fragment">
-<p>Die richtige Frage ist nicht:</p>
-<p><em>“Wie verhindern wir, dass Studierende schummeln?”</em></p>
-</div>
-<div class="fragment">
-<p>Sondern:</p>
-<p><strong>“Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?”</strong></p>
-</div>
-</section>
-<section id="den-strand-gestalten-nicht-die-ameise" class="slide level2">
-<h2>Den Strand gestalten, nicht die Ameise</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-fe7c383c47b888c636c0" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-fe7c383c47b888c636c0">{"x":{"diagram":"\ndigraph beach_ant {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.8\n    label = \"The Beach, Not the Ant (Herbert Simon)\\nDie Lernumgebung bestimmt das Verhalten mehr als die Motivation der Lernenden\"\n    labelloc = t\n    fontsize = 16\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 12\n    arrowsize = 0.8\n    color = \"#999999\"\n  ]\n\n  // The beach (environment)\n  beach [\n    label = \"Der Strand\\n(Lernumgebung)\"\n    fillcolor = \"#0072B2\"\n    fontsize = 16\n    margin = \"0.3,0.2\"\n  ]\n\n  terrain1 [\n    label = \"Aufgabendesign\\nWas wird verlangt?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain2 [\n    label = \"Prüfungsformat\\nWas wird gemessen?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain3 [\n    label = \"KI-Zugänglichkeit\\nWas ist verfügbar?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  terrain4 [\n    label = \"Strukturelle Anreize\\nWas ist der einfachste Weg?\"\n    fillcolor = \"#56B4E9\"\n  ]\n\n  // The ant (student)\n  ant [\n    label = \"Die Ameise\\n(Studierende)\"\n    fillcolor = \"#64748b\"\n    fontsize = 16\n    margin = \"0.3,0.2\"\n  ]\n\n  // Behavior\n  path_good [\n    label = \"Produktiver Weg\\nEigenes Denken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  path_easy [\n    label = \"Einfacher Weg\\nKI-Outsourcing\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  beach -> terrain1\n  beach -> terrain2\n  beach -> terrain3\n  beach -> terrain4\n\n  terrain1 -> ant [style = invis]\n  terrain4 -> ant [style = invis]\n\n  ant -> path_good [label = \"  Wenn Umgebung\\nAnstrengung belohnt  \" color = \"#0072B2\"]\n  ant -> path_easy [label = \"  Wenn Umgebung\\nAbkürzung ermöglicht  \" color = \"#D55E00\"]\n\n  // Key insight\n  insight [\n    label = \"Gestalte den Strand,\\nnicht die Ameise.\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 15\n    fontname = \"Helvetica Bold\"\n  ]\n\n  path_good -> insight [style = invis]\n  path_easy -> insight [style = invis]\n\n  {rank = same; terrain1; terrain2; terrain3; terrain4}\n  {rank = same; path_good; path_easy}\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="ungleiche-wirkung" class="slide level2 smaller">
-<h2>Ungleiche Wirkung</h2>
-<p>Unstrukturierter KI-Einsatz <strong>vergrössert Leistungsunterschiede</strong> <span class="citation" data-cites="cuiEffectsGenerativeAI2024">(<a href="#/jetzt-seid-ihr-dran" role="doc-biblioref" onclick="">Cui u.&nbsp;a. 2024</a>)</span>:</p>
-<ul>
-<li>Stärkere Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen</li>
-<li>Schwächere Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt</li>
-</ul>
-<div class="fragment">
-<div class="callout callout-warning no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frage der akademischen Integrität.</p>
 </div>
 </div>
 </div>
@@ -588,18 +475,7 @@ Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht be
 </div>
 </div>
 </section>
-<section id="die-minimalanforderung" class="slide level2 center">
-<h2>Die Minimalanforderung</h2>
-<h3 id="versuch-dann-prüfe">Versuch → dann → Prüfe</h3>
-<ol type="1">
-<li>Studierende machen <strong>zuerst</strong> einen eigenen Versuch</li>
-<li><strong>Dann</strong> wird mit KI verglichen, geprüft, oder erweitert</li>
-</ol>
-<div class="fragment">
-<p>Die Reihenfolge bewahrt die <strong>aktive Schemabildung</strong>: Studierende vergleichen ihr eigenes Modell mit dem KI-Output und lernen aus der Diskrepanz.</p>
-</div>
-</section>
-<section id="versuch-dann-prüfe-1" class="slide level2">
+<section id="versuch-dann-prüfe" class="slide level2">
 <h2>Versuch → dann → Prüfe</h2>
 <div class="cell">
 <div class="cell-output-display">

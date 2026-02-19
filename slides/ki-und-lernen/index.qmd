@@ -52,10 +52,9 @@ Lernrelevante Verarbeitung: **eliminiert**
 
 :::{.fragment}
 ::: {.callout-warning}
-Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist das Kernproblem.
+Die Frage ist nicht *"Dürfen Studierende KI nutzen?"*, sondern: **Wird das Denken ausgelagert oder nur unterstützt?**
 :::
 :::
-
 
 
 ## Das Offloading-Outsourcing-Spektrum
@@ -63,22 +62,7 @@ Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Ela
 {{< include ../../resources/figures/fig-offloading-spectrum.qmd >}}
 
 
-## CLT und KI: Was passiert bei Outsourcing? {.smaller}
-
-**KI optimiert für Produktion statt Lernen**
-
-| Kognitive Last | Ohne KI | Mit KI (Outsourcing) |
-|--------|---------|--------|
-| **Intrinsisch** | Bleibt konstant | Lernende begegnen der Komplexität nicht |
-| **Extrinsisch** | Variabel | Minimiert |
-| **Lernrelevante Verarbeitung** | Wird aufgebracht | **Eliminiert** |
-
-:::{.fragment}
-Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
-:::
-
-
-## CLT und KI: Die Nuance {.smaller}
+## CLT und KI {.smaller}
 
 ::::{.columns}
 :::{.column width="50%"}
@@ -86,7 +70,9 @@ Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr
 :::
 
 :::{.column width="50%"}
-::: {.callout-note}
+KI optimiert für **Produktion** statt Lernen: Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.
+
+:::{.fragment}
 Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
 :::
 
@@ -99,33 +85,6 @@ Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 :::
 :::
 ::::
-
-
-## Warum Outsourcing Schemabildung verhindert
-
-Schemata entstehen nur durch **eigene kognitive Arbeit**. Outsourcing unterbricht diese Kette:
-
-1. **Kein Versuch** → kein eigenes mentales Modell, an dem Feedback ansetzen kann
-2. **Keine Verarbeitung** → keine neuen Verbindungen im Langzeitgedächtnis
-3. **Keine Übung** → keine Automatisierung (deklarativ bleibt deklarativ)
-4. **Keine Schemata** → kein Transfer auf neue Situationen
-
-<!-- :::{.fragment}
-::: {.callout-warning}
-Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht bereits bei Schritt 1.
-::: -->
-:::
-
-
-## Die Frage ist nicht... {.center}
-
-
-
-*"Dürfen Studierende KI nutzen?"*
-
-. . .
-
-### Sondern: "Wird das Denken ausgelagert oder nur unterstützt?"
 
 
 ## Aber können Studierende nicht einfach prüfen, was die KI liefert? {.center}
@@ -180,7 +139,7 @@ Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, di
 :::{.fragment}
 ::: {.callout-important}
 ### Kompetente Nutzung setzt Kompetenz voraus
-Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit.
+Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit. Das trifft Studierende mit schwachem Vorwissen überproportional [@cuiEffectsGenerativeAI2024].
 :::
 :::
 
@@ -192,66 +151,12 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 
 ## Lernen ≠ Leisten {.smaller}
 
-Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Ohne tiefe Wissensstrukturen fehlt auch die Grundlage für Transfer auf neue Situationen.
-
-:::{.fragment}
-### Schein-Kompetenz
-
-Texte mit allen Oberflächenmerkmalen akademischer Arbeit (Hedging, Zitationen, Fachvokabular), aber ohne die zugrundeliegende intellektuelle Arbeit.
-
-Tückischer als Plagiat, weil es **Selbsttäuschung** ist.
-:::
-
-
-## Was auf dem Spiel steht: Transfer {.center}
-
-Ohne Schemata können Studierende Gelerntes nicht auf neue, unbekannte Situationen anwenden.
-
-:::{.fragment}
-Outsourcing produziert Ergebnisse, aber keine Schemata.
-
-Keine Schemata bedeutet: kein Transfer.
-:::
+Studierende können mit KI korrekte Ergebnisse *produzieren* (leisten), ohne etwas *gelernt* zu haben [@bjorkMemoryMetamemoryConsiderations1994]. Die Folge: **Schein-Kompetenz**. Texte mit allen Oberflächenmerkmalen akademischer Arbeit, aber ohne die zugrundeliegende intellektuelle Arbeit. Tückischer als Plagiat, weil es Selbsttäuschung ist.
 
 :::{.fragment}
 ::: {.callout-warning}
+### Kein Outsourcing, kein Transfer
 Das Kernproblem ist nicht Plagiat. Das Kernproblem ist, dass Studierende in neuen Situationen auf Anforderungen treffen, für die sie **keine internen Ressourcen** aufgebaut haben.
-:::
-:::
-
-
-## "The Beach, Not the Ant" {.center}
-
-> Die Lernumgebung beeinflusst das Ergebnis oft stärker als die Motivation der Studierenden.
-
-. . .
-
-Die richtige Frage ist nicht:
-
-*"Wie verhindern wir, dass Studierende schummeln?"*
-
-. . .
-
-Sondern:
-
-**"Wie gestalten wir Umgebungen, in denen produktive Anstrengung der natürliche Weg ist?"**
-
-
-## Den Strand gestalten, nicht die Ameise
-
-{{< include ../../resources/figures/fig-beach-ant.qmd >}}
-
-
-## Ungleiche Wirkung {.smaller}
-
-Unstrukturierter KI-Einsatz **vergrössert Leistungsunterschiede** [@cuiEffectsGenerativeAI2024]:
-
-- Stärkere Studierende: kompensatorisches Vorwissen, können KI-Outputs einordnen
-- Schwächere Studierende: werden am meisten geschädigt, weil ihnen die Grundlage für kritische Nutzung fehlt
-
-:::{.fragment}
-::: {.callout-warning}
-KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frage der akademischen Integrität.
 :::
 :::
 
@@ -295,18 +200,6 @@ KI-Policy ist auch eine pädagogische Gerechtigkeitsfrage, nicht bloss eine Frag
 ## Die 5 Leitfragen: Übersicht
 
 {{< include ../../resources/figures/fig-5-fragen-summary.qmd >}}
-
-
-## Die Minimalanforderung {.center}
-
-### Versuch → dann → Prüfe
-
-1. Studierende machen **zuerst** einen eigenen Versuch
-2. **Dann** wird mit KI verglichen, geprüft, oder erweitert
-
-:::{.fragment}
-Die Reihenfolge bewahrt die **aktive Schemabildung**: Studierende vergleichen ihr eigenes Modell mit dem KI-Output und lernen aus der Diskrepanz.
-:::
 
 
 ## Versuch → dann → Prüfe
