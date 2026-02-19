@@ -404,17 +404,6 @@
     ]
   },
   {
-    "objectID": "02-ki-und-lernen/5-leitfragen/index.html#disziplinspezifische-hinweise",
-    "href": "02-ki-und-lernen/5-leitfragen/index.html#disziplinspezifische-hinweise",
-    "title": "Die 5 Leitfragen zur Aufgabengestaltung",
-    "section": "Disziplinspezifische Hinweise",
-    "text": "Disziplinspezifische Hinweise\nMathematik und Naturwissenschaften\nKernoperationen: Generieren (eigene Lösungswege) + Überwachen (Plausibilitätsprüfung)\n\nProblemlösung ohne KI verlangen, dann mit KI-Lösung vergleichen\nErklärungsfragen einbauen (“Warum funktioniert dieser Schritt?”), was Verknüpfen erzwingt\nZwei-Phasen-Aufgaben: Handschriftlich lösen, dann mit Tools prüfen\nSchreiben und Geisteswissenschaften\nDie zentralen Operationen sind Generieren (eigene Argumentation) und Verknüpfen (Synthese, Quellenbezüge).\n\nPersönliche oder erfahrungsbasierte Komponenten einbauen, um Generieren zu schützen\nProzessdokumentation verlangen (Entwürfe, Gedankenprotokolle). Das macht Generieren sichtbar\nMündliche Komponenten (Verteidigung, Erklärung) erzwingen Abrufen\nFokus auf das Denken hinter dem Text, nicht den Text selbst\nProfessionelle Fächer\nHier sind alle vier Operationen gefragt, besonders Überwachen unter Ambiguität.\n\nSimulierte Praxis ohne KI (Beratungsgespräche, klinische Entscheidungen)\nEchtzeitreasoning unter Zeitdruck erzwingt Abrufen und Generieren gleichzeitig\nFälle mit Ambiguität, die kein eindeutiges “richtig” haben, trainieren Überwachen\nSprachen\nKernoperationen: Abrufen (spontane Produktion) + Generieren (eigene Formulierungen)\n\nSpontane mündliche Interaktion maximieren. Das schützt Abrufen\nZeitbegrenzte Schreibübungen erzwingen Generieren\nKI als Post-Produktions-Check, nicht als Produktionstool: So wird nur das Überwachen von Oberflächenmerkmalen delegiert",
-    "crumbs": [
-      "KI & Lernen",
-      "Die 5 Leitfragen zur Aufgabengestaltung"
-    ]
-  },
-  {
     "objectID": "02-ki-und-lernen/5-leitfragen/index.html#vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag",
     "href": "02-ki-und-lernen/5-leitfragen/index.html#vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag",
     "title": "Die 5 Leitfragen zur Aufgabengestaltung",
@@ -587,11 +576,11 @@
     "text": "20. Februar 2026\n9:00–12:00 Uhr\nP107, Brückenstrasse 73, 3005 Bern"
   },
   {
-    "objectID": "index.html#dozent",
-    "href": "index.html#dozent",
+    "objectID": "index.html#dozenten",
+    "href": "index.html#dozenten",
     "title": "KI in der Lehre: Intermediate",
-    "section": "Dozent",
-    "text": "Dozent\nDr. Andrew Ellis und Dr. Raphael Schween sind Kognitionspsychologen und wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Sie befassen sich mit der Frage, wie KI in der Hochschullehre lernförderlich integriert werden kann."
+    "section": "Dozenten",
+    "text": "Dozenten\nDr. Andrew Ellis und Dr. Raphael Schween sind Kognitionspsychologen und wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Sie befassen sich mit der Frage, wie KI in der Hochschullehre lernförderlich integriert werden kann."
   },
   {
     "objectID": "index.html#website",
@@ -1013,7 +1002,7 @@
     "href": "03-praxis/fallstudien/index.html#fallstudie-b-projektmanagement-leistungskontext",
     "title": "Fallstudien: KI-Integration in der Lehre",
     "section": "Fallstudie B: Projektmanagement (Leistungskontext)",
-    "text": "Fallstudie B: Projektmanagement (Leistungskontext)\n\nSzenario B1: “KI-Verbot im Berufsalltag”\nEine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei allen Aufgaben. In einem Modul zu Projektmanagement müssen erfahrene Projektleiterinnen (5+ Jahre Berufserfahrung) einen Statusbericht für ein reales Projekt von Hand schreiben, inklusive Risikoanalyse. Die Studierenden empfinden die Aufgabe als praxisfern, da sie im Berufsalltag selbstverständlich KI-Tools nutzen.\n\n\nSzenario B2: “KI als professionelles Werkzeug”\nDieselbe Dozentin differenziert: Für die Risikoanalyse (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den Statusbericht (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?\n\n\n\n\n\n\nIndividualAnalyse mit den 5 Leitfragen: Szenario B1\n\n\n\nDieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen und achte darauf, wo die Antworten anders ausfallen:\n\n\n\n\n\n\n\nFrage\nDeine Einschätzung\n\n\n\n\n1. Geht es primär ums Lernen?\n\n\n\n2. Welche Denkarbeit verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen)\n\n\n\n3. Welche dieser Operationen würde KI übernehmen?\n\n\n\n4. Werden noch Grundlagen aufgebaut?\n\n\n\n5. Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?\n\n\n\n\nDann identifiziere:\n\nWelche Teile der Aufgabe sind Lernkontext, welche Leistungskontext?\nWo ist KI-Unterstützung die richtige Antwort, und warum?\n\n\n\n\n\n\n\n\n\nPro-tipVertiefung: Theoretische Analyse\n\n\n\n\n\n\nWas unterscheidet einen Lernkontext von einem Leistungskontext? Welche Teile dieser Aufgabe fallen in welche Kategorie?\nWarum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?\nWie hilft das Offloading-Outsourcing-Spektrum, diese Unterscheidung zu treffen?\nIn welchen Situationen sind “Keine KI nötig” und “KI ist hier sinnvoll” gleich gute Antworten?",
+    "text": "Fallstudie B: Projektmanagement (Leistungskontext)\n\nSzenario B1: “KI-Verbot im Berufsalltag”\nEine Dozentin in einem berufsbegleitenden Studiengang verbietet KI-Nutzung bei allen Aufgaben. In einem Modul zu Projektmanagement müssen erfahrene Projektleiterinnen (5+ Jahre Berufserfahrung) einen Statusbericht für ein reales Projekt von Hand schreiben, inklusive Risikoanalyse. Die Studierenden empfinden die Aufgabe als praxisfern, da sie im Berufsalltag selbstverständlich KI-Tools nutzen.\n\n\nSzenario B2: “KI als professionelles Werkzeug”\nDieselbe Dozentin differenziert: Für die Risikoanalyse (Kernkompetenz, die vertieft werden soll) müssen die Studierenden zuerst eigene Einschätzungen formulieren. Für den Statusbericht (Routineaufgabe, Kompetenz bereits vorhanden) dürfen sie KI zur Texterstellung nutzen und konzentrieren sich stattdessen auf die kritische Prüfung: Stimmen die Fakten? Ist der Ton angemessen?\n\n\n\n\n\n\nIndividualAnalyse mit den 5 Leitfragen: Szenario B1\n\n\n\nDieses Szenario ist anders als Fallstudie A. Analysiere es mit den 5 Leitfragen und achte darauf, wo die Antworten anders ausfallen:\n\n\n\n\n\n\n\nFrage\nDeine Einschätzung\n\n\n\n\n1. Geht es primär ums Lernen?\n\n\n\n2. Welche Denkarbeit verlangt die Aufgabe? (Abrufen, Generieren, Verknüpfen, Überwachen)\n\n\n\n3. Welche dieser Operationen würde KI übernehmen?\n\n\n\n4. Werden noch Grundlagen aufgebaut?\n\n\n\n5. Arbeiten Studierende zuerst selbst, bevor KI ins Spiel kommt?\n\n\n\n\nDann identifiziere:\n\nWelche Teile der Aufgabe sind Lernkontext, welche Leistungskontext?\nWo ist KI-Unterstützung die richtige Antwort, und warum?\n\n\n\n\n\n\n\n\n\nPro-tipVertiefung: Theoretische Analyse\n\n\n\n\n\n\nWas unterscheidet einen Lernkontext von einem Leistungskontext? Welche Teile dieser Aufgabe fallen in welche Kategorie?\nWarum ist KI-Unterstützung beim Statusbericht sinnvoll, bei der Risikoanalyse aber nicht?\nWie hilft das Offloading-Outsourcing-Spektrum, diese Unterscheidung zu treffen?",
     "crumbs": [
       "Praxis",
       "Fallstudien: KI-Integration in der Lehre"
@@ -1300,12 +1289,5 @@
     "title": "KI & Lernen",
     "section": "Jetzt seid ihr dran",
     "text": "Jetzt seid ihr dran\nIm nächsten Teil wendet ihr diese Leitfragen auf eure eigenen Aufgaben an.\n\nAuf der Website findet ihr ein Agent-Template: Studierende arbeiten zuerst selbst, dann gibt der Agent gezieltes Feedback.\n\n\n\n\n\nBjork, Robert A. 1994. „Memory and Metamemory Considerations in the Training of Human Beings“. In Metacognition: Knowing about Knowing, 185–205. Cambridge, MA, US: The MIT Press. https://doi.org/10.7551/mitpress/4561.001.0001.\n\n\nButton, Katherine S., John P. A. Ioannidis, Claire Mokrysz, Brian A. Nosek, Jonathan Flint, Emma S. J. Robinson, und Marcus R. Munafò. 2013. „Power Failure: Why Small Sample Size Undermines the Reliability of Neuroscience“. Nature Reviews Neuroscience 14 (5): 365–76. https://doi.org/10.1038/nrn3475.\n\n\nCui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, und Tobias Salz. 2024. „The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers“. SSRN Scholarly Paper. Rochester, NY. 3. September 2024. https://doi.org/10.2139/ssrn.4945566."
-  },
-  {
-    "objectID": "index.html#dozenten",
-    "href": "index.html#dozenten",
-    "title": "KI in der Lehre: Intermediate",
-    "section": "Dozenten",
-    "text": "Dozenten\nDr. Andrew Ellis und Dr. Raphael Schween sind Kognitionspsychologen und wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Sie befassen sich mit der Frage, wie KI in der Hochschullehre lernförderlich integriert werden kann."
   }
 ]
