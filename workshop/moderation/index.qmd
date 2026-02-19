@@ -5,6 +5,16 @@ title: "Moderationsanleitung"
 Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite ergänzt die Inhaltsseiten, die jeweils eigene Moderationshinweise enthalten.
 
 
+## Rollenverteilung
+
+| Rolle | Wer | Umfang |
+|-------|-----|--------|
+| **Präsentation** | Andrew | Slide-Vorträge (Teil 1 + Teil 2), Worked Example, Rahmen setzen, Take-Away |
+| **Moderation** | Raphael | Alle Aktivitäten: Generierung, Arbeitsgedächtnis, Gedächtnis-Aktivierungen, Fallstudien, Diagnose-Fragen, Teil 3 komplett (Think-Pair-Share), Abschluss-Reflexion |
+
+Übergaben sind im Ablauf mit **Andrew** bzw. **Raphael** markiert. In Teil 1 wechseln sich die Rollen ab (Andrew präsentiert, Raphael moderiert die Aktivitäten zwischen den Slide-Blöcken). Ab Teil 3 moderiert Raphael durchgehend.
+
+
 ## Vor dem Workshop
 
 ### Materialien
@@ -24,14 +34,14 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 
 ## 09:00--09:05: Einstieg (5 Min) {#einstieg}
 
-### Generierungsaktivität (5 Min)
+### Generierungsaktivität (5 Min) — Raphael
 
 1. Karten verteilen
 2. Prompt vorlesen: "Was sind deiner Erfahrung nach die wichtigsten Faktoren für effektives Lernen? Schreibe 3 Vorhersagen auf."
 3. Karten **einsammeln** und aufbewahren (wichtig für den Abschluss!)
 4. Nicht diskutieren, nur sammeln. Die Spannung zwischen Vorhersage und späterer Erkenntnis ist der Lernmechanismus.
 
-### Rahmen setzen
+### Rahmen setzen — Andrew
 
 - "Im Beginner-Workshop: KI macht produktiver. Heute: Ist Produktivität Lernen?"
 - 3 Teile kurz vorstellen: Lernen verstehen → KI einordnen → Praxis
@@ -45,7 +55,7 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 
 **Seite:** [Wie Menschen lernen](../../01-lernen-verstehen/)
 
-### Slides: Wie Menschen lernen (20--25 Min)
+### Slides: Wie Menschen lernen (20--25 Min) — Andrew
 
 Präsentiere die Slides im Vollbild. Kernbotschaften:
 
@@ -58,7 +68,7 @@ Präsentiere die Slides im Vollbild. Kernbotschaften:
 7. **Desirable Difficulties**: Anstrengung fühlt sich falsch an, ist aber der Mechanismus
 8. **Die metakognitive Falle**: Leichtigkeit ≠ Lernen
 
-### Arbeitsgedächtnis erleben (3 Min)
+### Arbeitsgedächtnis erleben (3 Min) — Raphael
 
 Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis. Wähle eine der beiden Varianten (siehe [Aktivitäten](../../01-lernen-verstehen/#aktivitäten)).
 
@@ -75,12 +85,12 @@ Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis. Wähle eine der beiden 
 
 **Pointe herausarbeiten:** "Dieselben Elemente, aber eine fundamental andere Aufgabe. Nicht die *Menge*, sondern die *Interaktion* zwischen den Elementen erzeugt die kognitive Belastung. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen."
 
-### Gedächtnis-Aktivierung (1 Min)
+### Gedächtnis-Aktivierung (1 Min) — Raphael
 
 - "Versuche aus dem Gedächtnis: Expertise Reversal Effect in einem Satz?"
 - Nicht auflösen, nur generieren lassen. Lücken normalisieren: "Lücken sind willkommen, sie zeigen, worauf ihr beim Weiterhören achten könnt."
 
-### Vertrautheit ≠ Verständnis (1 Min)
+### Vertrautheit ≠ Verständnis (1 Min) — Raphael
 
 1. "Schätzt ehrlich: Wie gut habt ihr die Cognitive Load Theory verstanden? 1 bis 5."
 2. "Jetzt: Erklärt eurem Nachbarn in 30 Sekunden den Unterschied zwischen intrinsischer und extrinsischer Last, ohne in die Slides zu schauen."
@@ -88,7 +98,7 @@ Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis. Wähle eine der beiden 
 
 *Diese Übung kann bei Zeitnot entfallen (siehe Zeitcheck). Die Gedächtnis-Aktivierung und Fallstudien haben Priorität.*
 
-### Mikropausen während der Slides
+### Mikropausen während der Slides — Andrew
 
 Zwei kurze Atempausen (je 30 Sekunden) einbauen:
 
@@ -97,7 +107,7 @@ Zwei kurze Atempausen (je 30 Sekunden) einbauen:
 
 Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedächtnisspuren (TBRS-Modell) und modellieren das Prinzip, das die eigenen Materialien empfehlen.
 
-### Fallstudien-Analyse (10 Min)
+### Fallstudien-Analyse (10 Min) — Raphael
 
 1. Paare bilden. Jedes Paar wählt ein Szenario-Paar (A, B, C oder D). Möglichst verschiedene Fallstudien über die Paare verteilen.
 2. Material: [Fallstudien](../../03-praxis/fallstudien/) -- Tab **"Kognitive Analyse (Teil 1)"** verwenden. Die Teilnehmenden finden dort für jede Fallstudie passende Analyse-Fragen mit den Konzepten aus Teil 1. Der zweite Tab ("Leitfragen-Analyse") ist erst für Teil 3 relevant.
@@ -108,7 +118,7 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 
 **Hinweis zur Fallstudien-Auswahl:** Fallstudie B (Projektmanagement) ist anders als die anderen drei, weil erfahrene Berufsleute involviert sind. Der Expertise Reversal Effect wird hier besonders greifbar. Wenn ein Paar schnell fertig ist, kann es B als Kontrast zu seinem ersten Szenario analysieren.
 
-### Wichtigste Erkenntnis (1 Min)
+### Wichtigste Erkenntnis (1 Min) — Raphael
 
 - "Schreibe einen Satz auf, bevor wir in die Pause gehen."
 - Das ist Konsolidierung vor dem Kontextwechsel.
@@ -128,7 +138,7 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 
 ## 10:05--10:10: Gedächtnis-Aktivierung (5 Min) {#retrieval}
 
-**Seite:** [KI & Lernen](../../02-ki-und-lernen/) (ganz oben)
+**Seite:** [KI & Lernen](../../02-ki-und-lernen/) (ganz oben) | **Raphael**
 
 1. "Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen. Ergänze bei jedem Konzept in einem Satz, *warum es für den KI-Einsatz relevant ist*. Lücken sind willkommen: Sie zeigen, wo ihr beim Weiterhören besonders aufmerksam sein könnt."
 2. 2 Min individuell schreiben
@@ -143,7 +153,7 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 
 **Seite:** [KI & Lernen](../../02-ki-und-lernen/)
 
-### Slides: Was bedeutet das für KI? (8--10 Min)
+### Slides: Was bedeutet das für KI? (8--10 Min) — Andrew
 
 Präsentiere die Slides. Kernbotschaften:
 
@@ -156,13 +166,13 @@ Präsentiere die Slides. Kernbotschaften:
 7. **Ungleiche Wirkung**: Expertise Reversal Effect → Schwächere werden überproportional geschädigt
 8. **5 Leitfragen**: Kurzübersicht als Brücke zu Teil 3
 
-### 3 Diagnose-Fragen (2 Min)
+### 3 Diagnose-Fragen (2 Min) — Raphael
 
 1. Tabelle mit den Diagnose-Fragen kurz zeigen (auf der Seite unter den Slides)
 2. Aktivität: "Wähle eine Frage. Wie würdest du sie in deinem Fach einsetzen?"
 3. 1 Min mit Nachbar:in austauschen
 
-### Worked Example: Annotierte Bibliografie (12--15 Min)
+### Worked Example: Annotierte Bibliografie (12--15 Min) — Andrew
 
 **Das ist das Herzstück von Teil 2. Gemeinsam durcharbeiten, nicht überspringen.**
 
@@ -174,14 +184,14 @@ Präsentiere die Slides. Kernbotschaften:
 6. Drei Erkenntnisse herausarbeiten: Produkt ≠ Prozess, Offloading am richtigen Punkt, Versuch-dann-Prüfe
 7. **Rückkehr zur Vorhersage** (1 Min): "Schaut euch eure Vorhersage von vorhin an. Wo lagt ihr richtig, wo habt ihr etwas über- oder unterschätzt?" Meta-Moment: "Die Lücke zwischen Vorhersage und Analyse IST der Lerneffekt. Ohne eigene Vorhersage hättet ihr die Analyse nur passiv gelesen."
 
-### Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min)
+### Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min) — Raphael
 
 Nach dem Worked Example (inkl. Rückkehr zur Vorhersage):
 
 - "Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?"
 - Optional (wenn 30 Sekunden übrig): "Vergleicht eure Formulierungen kurz mit dem Nachbarn."
 
-**Übergang:** "Im Worked Example habt ihr gesehen, wie die 5 Leitfragen eine Aufgabe Schritt für Schritt analysieren. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
+**Übergabe an Raphael.** Andrew: "Im Worked Example habt ihr gesehen, wie die 5 Leitfragen eine Aufgabe Schritt für Schritt analysieren. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan."
 
 **Timing-Check:** Du solltest bei ca. 10:40 sein.
 
@@ -201,7 +211,7 @@ Genuine Pause. Nichts geplant.
 
 ## 10:50--11:25: Teil 3 -- Vom Wissen zum Handeln (35 Min) {#teil3}
 
-**Seite:** [Vom Wissen zum Handeln](../../03-praxis/)
+**Seite:** [Vom Wissen zum Handeln](../../03-praxis/) | **Raphael moderiert durchgehend**
 
 ### Gedächtnis-Aktivierung (2 Min)
 
@@ -246,35 +256,50 @@ Genuine Pause. Nichts geplant.
 **Timing-Check:** Du solltest bei ca. 11:25 sein. Falls du früher fertig bist: Muster-Diskussion vertiefen oder direkt zum Closing übergehen. Falls du später dran bist: SHARE auf 3 Min kürzen (1 Beispiel). Die Konsolidierung nicht kürzen, sie ist die Transfersicherung.
 
 
-## 11:25--11:45: Buffer / Overflow (20 Min) {#overflow}
+## 11:25--11:40: Buffer / Overflow (15 Min) {#overflow}
 
 - Falls Teil 3 pünktlich fertig: Durchatmen, Raum für spontane Fragen, früher ins Closing starten
 - Falls Teil 3 länger dauert: Diese Zeit absorbiert die Verzögerung
 - Falls die Gruppe engagiert diskutiert: Muster-Diskussion hier vertiefen
 
 
-## 11:45--12:00: Transfer & Abschluss (15 Min) {#abschluss}
+## 11:40--12:00: Transfer & Abschluss (20 Min) {#abschluss}
 
-**Seite:** [Transfer & Abschluss](../diskussion/)
+**Seite:** [Transfer & Abschluss](../diskussion/) | **Raphael moderiert, Andrew schliesst mit Take-Away**
 
-### Rückkehr zu den Vorhersagen (5 Min)
+### Was nehme ich mit? (6 Min, individuell)
 
-1. Karten vom Anfang zurückgeben
-2. "Vergleicht: Was habt ihr am Anfang geschrieben? Was würdet ihr jetzt anders formulieren?"
-3. Kurzer Austausch: "Welche Konzepte würdet ihr hinzufügen?"
-4. Meta-Moment: "Die Lücke zwischen Vorhersage und jetzigem Wissen IST das Lernen."
+- "Welche **Erkenntnis** aus dem Workshop war am wichtigsten?"
+- "Welche **eine Änderung** an einer Aufgabe setzt du als erstes um? Wann konkret?" (Kalendertermin einfordern)
+- "Wann bearbeitest du die *Rückkehr zu den Vorhersagen*?" (Kalendertermin einfordern)
+- "Wie kannst du die **5 Leitfragen** in deiner Lehre einsetzen?"
 
-### Persönlicher Umsetzungsplan (5 Min)
+Die Frage nach dem Kalendertermin ist ernst gemeint. Wer keinen Termin setzt, setzt nichts um.
 
-- "Welche EINE Änderung setzt ihr als erstes um?"
-- Konkret machen: nicht "ich werde mehr über KI nachdenken", sondern "ich werde bei Aufgabe X Phase Y einbauen"
+### Rückkehr zu den Vorhersagen — Heimarbeit
 
-### Blitzlicht (5 Min)
+Nicht im Workshop durchführen. Karten vom Anfang zurückgeben und darauf hinweisen, dass der Vergleich zwischen Vorhersage und jetzigem Wissen als **Heimarbeit** gedacht ist. Die Diskussionsseite erklärt den Ablauf. Der Zeitpunkt sollte im "Was nehme ich mit?" als Kalendertermin festgelegt worden sein.
 
-- Erst: "Erkläre in zwei Sätzen, warum kognitive Anstrengung der Mechanismus für Lernen ist."
-- Dann: "Welches Lernprinzip hast du heute am eigenen Leib erlebt, und in welchem Moment?" (Meta-Reflexion über das Self-Modeling des Workshops)
-- Dann: 30 Sekunden pro Person: eine Erkenntnis, ein nächster Schritt
-- Take-Away: "Die Schwierigkeit des Lernens ist nicht das Problem, sondern der Mechanismus."
+### Reflexion: Eigenarbeit (6 Min, individuell)
+
+Überleitung: "Im letzten Aufgabenteil habt ihr eigenständig die 5 Leitfragen auf eure eigenen Aufgaben angewendet. Jetzt reflektieren wir kurz, wie sich das angefühlt hat."
+
+- "Was waren die wichtigsten Punkte zur Passung von Aufgaben und Anleitung zu Hintergrundwissen?" (2 Min)
+- "Wie hat sich die eigenständige Aufgabenbearbeitung (Think-Phase) angefühlt? Konntest du an Hintergrundwissen anknüpfen, oder hat die Neuheit eher überfordert?" (2 Min)
+- "Hat der Austausch mit deinem Partner daran etwas verändert? Falls ja, was genau?" (1 Min)
+- "Welche Momente waren am anstrengendsten? War die Anstrengung eher produktiv (Nachdenken, Verknüpfen) oder unproduktiv (Orientierungslosigkeit, unklare Anleitung)?" (1 Min)
+
+### Reflexion: 3er-Gruppen (5 Min)
+
+- 1 Minute pro Person: produktive und unproduktive Anstrengungsmomente teilen
+- Gemeinsam (3 Min): "Welche Elemente des Scaffolding lassen sich in der Heranführung an die Praxisaufgabe erkennen?"
+
+Optionale Pointe (falls Zeit): "Vermutlich habt ihr die Angemessenheit unserer Aufgabenwahl und des Scaffolding unterschiedlich erlebt. Gutes Scaffolding ist schwierig und wird nicht immer perfekt klappen. Der Workshop soll motivieren und Werkzeuge liefern, sich darin weiterzuentwickeln."
+
+### Take-Away (1 Min) — Andrew
+
+- "Wenn sich Lernen schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse aktiv sind. Nicht die Schwierigkeit selbst, sondern diese Prozesse erzeugen das Lernen."
+- "Gute KI-Integration bedeutet, Lernumgebungen zu gestalten, in denen produktive Anstrengung der natürliche Weg ist."
 
 
 ## Häufige Fragen

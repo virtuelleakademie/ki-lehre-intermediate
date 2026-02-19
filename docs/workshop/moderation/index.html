@@ -87,6 +87,78 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f044';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #333333;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(51, 51, 51, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f46d';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #D4A03E;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(212, 160, 62, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f544';
+  background-image: none;
+}
+div.callout-nachlesen.callout {
+  border-left-color: #D4A03E;
+}
+div.callout-nachlesen.callout-style-default > .callout-header {
+  background-color: rgba(212, 160, 62, 0.13);
+}
+div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f518';
+  background-image: none;
+}
 div.callout-pair.callout {
   border-left-color: #9A4665;
 }
@@ -111,30 +183,6 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '\e2ca';
   background-image: none;
 }
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f544';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #9A4665;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f007';
-  background-image: none;
-}
 div.callout-group.callout {
   border-left-color: #9A4665;
 }
@@ -145,54 +193,6 @@ div.callout-group .callout-toggle::before {  background-image: url('data:image/s
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f0c0';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #D4A03E;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(212, 160, 62, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #333333;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(51, 51, 51, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f46d';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f044';
-  background-image: none;
-}
-div.callout-nachlesen.callout {
-  border-left-color: #D4A03E;
-}
-div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(212, 160, 62, 0.13);
-}
-div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f518';
   background-image: none;
 }
 </style>
@@ -303,34 +303,35 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#vor-dem-workshop" id="toc-vor-dem-workshop" class="nav-link active" data-scroll-target="#vor-dem-workshop">Vor dem Workshop</a>
+  <li><a href="#rollenverteilung" id="toc-rollenverteilung" class="nav-link active" data-scroll-target="#rollenverteilung">Rollenverteilung</a></li>
+  <li><a href="#vor-dem-workshop" id="toc-vor-dem-workshop" class="nav-link" data-scroll-target="#vor-dem-workshop">Vor dem Workshop</a>
   <ul class="collapse">
   <li><a href="#materialien" id="toc-materialien" class="nav-link" data-scroll-target="#materialien">Materialien</a></li>
   <li><a href="#raum" id="toc-raum" class="nav-link" data-scroll-target="#raum">Raum</a></li>
   </ul></li>
   <li><a href="#einstieg" id="toc-einstieg" class="nav-link" data-scroll-target="#einstieg">09:00–09:05: Einstieg (5 Min)</a>
   <ul class="collapse">
-  <li><a href="#generierungsaktivität-5-min" id="toc-generierungsaktivität-5-min" class="nav-link" data-scroll-target="#generierungsaktivität-5-min">Generierungsaktivität (5 Min)</a></li>
-  <li><a href="#rahmen-setzen" id="toc-rahmen-setzen" class="nav-link" data-scroll-target="#rahmen-setzen">Rahmen setzen</a></li>
+  <li><a href="#generierungsaktivität-5-min-raphael" id="toc-generierungsaktivität-5-min-raphael" class="nav-link" data-scroll-target="#generierungsaktivität-5-min-raphael">Generierungsaktivität (5 Min) — Raphael</a></li>
+  <li><a href="#rahmen-setzen-andrew" id="toc-rahmen-setzen-andrew" class="nav-link" data-scroll-target="#rahmen-setzen-andrew">Rahmen setzen — Andrew</a></li>
   </ul></li>
   <li><a href="#teil1" id="toc-teil1" class="nav-link" data-scroll-target="#teil1">09:05–09:50: Teil 1 – Lernen verstehen (45 Min)</a>
   <ul class="collapse">
-  <li><a href="#slides-wie-menschen-lernen-2025-min" id="toc-slides-wie-menschen-lernen-2025-min" class="nav-link" data-scroll-target="#slides-wie-menschen-lernen-2025-min">Slides: Wie Menschen lernen (20–25 Min)</a></li>
-  <li><a href="#arbeitsgedächtnis-erleben-3-min" id="toc-arbeitsgedächtnis-erleben-3-min" class="nav-link" data-scroll-target="#arbeitsgedächtnis-erleben-3-min">Arbeitsgedächtnis erleben (3 Min)</a></li>
-  <li><a href="#gedächtnis-aktivierung-1-min" id="toc-gedächtnis-aktivierung-1-min" class="nav-link" data-scroll-target="#gedächtnis-aktivierung-1-min">Gedächtnis-Aktivierung (1 Min)</a></li>
-  <li><a href="#vertrautheit-verständnis-1-min" id="toc-vertrautheit-verständnis-1-min" class="nav-link" data-scroll-target="#vertrautheit-verständnis-1-min">Vertrautheit ≠ Verständnis (1 Min)</a></li>
-  <li><a href="#mikropausen-während-der-slides" id="toc-mikropausen-während-der-slides" class="nav-link" data-scroll-target="#mikropausen-während-der-slides">Mikropausen während der Slides</a></li>
-  <li><a href="#fallstudien-analyse-10-min" id="toc-fallstudien-analyse-10-min" class="nav-link" data-scroll-target="#fallstudien-analyse-10-min">Fallstudien-Analyse (10 Min)</a></li>
-  <li><a href="#wichtigste-erkenntnis-1-min" id="toc-wichtigste-erkenntnis-1-min" class="nav-link" data-scroll-target="#wichtigste-erkenntnis-1-min">Wichtigste Erkenntnis (1 Min)</a></li>
+  <li><a href="#slides-wie-menschen-lernen-2025-min-andrew" id="toc-slides-wie-menschen-lernen-2025-min-andrew" class="nav-link" data-scroll-target="#slides-wie-menschen-lernen-2025-min-andrew">Slides: Wie Menschen lernen (20–25 Min) — Andrew</a></li>
+  <li><a href="#arbeitsgedächtnis-erleben-3-min-raphael" id="toc-arbeitsgedächtnis-erleben-3-min-raphael" class="nav-link" data-scroll-target="#arbeitsgedächtnis-erleben-3-min-raphael">Arbeitsgedächtnis erleben (3 Min) — Raphael</a></li>
+  <li><a href="#gedächtnis-aktivierung-1-min-raphael" id="toc-gedächtnis-aktivierung-1-min-raphael" class="nav-link" data-scroll-target="#gedächtnis-aktivierung-1-min-raphael">Gedächtnis-Aktivierung (1 Min) — Raphael</a></li>
+  <li><a href="#vertrautheit-verständnis-1-min-raphael" id="toc-vertrautheit-verständnis-1-min-raphael" class="nav-link" data-scroll-target="#vertrautheit-verständnis-1-min-raphael">Vertrautheit ≠ Verständnis (1 Min) — Raphael</a></li>
+  <li><a href="#mikropausen-während-der-slides-andrew" id="toc-mikropausen-während-der-slides-andrew" class="nav-link" data-scroll-target="#mikropausen-während-der-slides-andrew">Mikropausen während der Slides — Andrew</a></li>
+  <li><a href="#fallstudien-analyse-10-min-raphael" id="toc-fallstudien-analyse-10-min-raphael" class="nav-link" data-scroll-target="#fallstudien-analyse-10-min-raphael">Fallstudien-Analyse (10 Min) — Raphael</a></li>
+  <li><a href="#wichtigste-erkenntnis-1-min-raphael" id="toc-wichtigste-erkenntnis-1-min-raphael" class="nav-link" data-scroll-target="#wichtigste-erkenntnis-1-min-raphael">Wichtigste Erkenntnis (1 Min) — Raphael</a></li>
   </ul></li>
   <li><a href="#pause" id="toc-pause" class="nav-link" data-scroll-target="#pause">09:50–10:05: Pause (15 Min)</a></li>
   <li><a href="#retrieval" id="toc-retrieval" class="nav-link" data-scroll-target="#retrieval">10:05–10:10: Gedächtnis-Aktivierung (5 Min)</a></li>
   <li><a href="#teil2" id="toc-teil2" class="nav-link" data-scroll-target="#teil2">10:10–10:40: Teil 2 – KI &amp; Lernen (30 Min)</a>
   <ul class="collapse">
-  <li><a href="#slides-was-bedeutet-das-für-ki-810-min" id="toc-slides-was-bedeutet-das-für-ki-810-min" class="nav-link" data-scroll-target="#slides-was-bedeutet-das-für-ki-810-min">Slides: Was bedeutet das für KI? (8–10 Min)</a></li>
-  <li><a href="#diagnose-fragen-2-min" id="toc-diagnose-fragen-2-min" class="nav-link" data-scroll-target="#diagnose-fragen-2-min">3 Diagnose-Fragen (2 Min)</a></li>
-  <li><a href="#worked-example-annotierte-bibliografie-1215-min" id="toc-worked-example-annotierte-bibliografie-1215-min" class="nav-link" data-scroll-target="#worked-example-annotierte-bibliografie-1215-min">Worked Example: Annotierte Bibliografie (12–15 Min)</a></li>
-  <li><a href="#gedächtnis-aktivierung-kernkonzepte-sichern-1-min" id="toc-gedächtnis-aktivierung-kernkonzepte-sichern-1-min" class="nav-link" data-scroll-target="#gedächtnis-aktivierung-kernkonzepte-sichern-1-min">Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min)</a></li>
+  <li><a href="#slides-was-bedeutet-das-für-ki-810-min-andrew" id="toc-slides-was-bedeutet-das-für-ki-810-min-andrew" class="nav-link" data-scroll-target="#slides-was-bedeutet-das-für-ki-810-min-andrew">Slides: Was bedeutet das für KI? (8–10 Min) — Andrew</a></li>
+  <li><a href="#diagnose-fragen-2-min-raphael" id="toc-diagnose-fragen-2-min-raphael" class="nav-link" data-scroll-target="#diagnose-fragen-2-min-raphael">3 Diagnose-Fragen (2 Min) — Raphael</a></li>
+  <li><a href="#worked-example-annotierte-bibliografie-1215-min-andrew" id="toc-worked-example-annotierte-bibliografie-1215-min-andrew" class="nav-link" data-scroll-target="#worked-example-annotierte-bibliografie-1215-min-andrew">Worked Example: Annotierte Bibliografie (12–15 Min) — Andrew</a></li>
+  <li><a href="#gedächtnis-aktivierung-kernkonzepte-sichern-1-min-raphael" id="toc-gedächtnis-aktivierung-kernkonzepte-sichern-1-min-raphael" class="nav-link" data-scroll-target="#gedächtnis-aktivierung-kernkonzepte-sichern-1-min-raphael">Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min) — Raphael</a></li>
   </ul></li>
   <li><a href="#buffer" id="toc-buffer" class="nav-link" data-scroll-target="#buffer">10:40–10:50: Buffer (10 Min)</a></li>
   <li><a href="#teil3" id="toc-teil3" class="nav-link" data-scroll-target="#teil3">10:50–11:25: Teil 3 – Vom Wissen zum Handeln (35 Min)</a>
@@ -339,12 +340,14 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   <li><a href="#aktivität-think-pair-share-mit-advocatus-diaboli-33-min" id="toc-aktivität-think-pair-share-mit-advocatus-diaboli-33-min" class="nav-link" data-scroll-target="#aktivität-think-pair-share-mit-advocatus-diaboli-33-min">Aktivität: THINK-PAIR-SHARE mit Advocatus Diaboli (33 Min)</a></li>
   <li><a href="#konsolidierung-5-min-individuell" id="toc-konsolidierung-5-min-individuell" class="nav-link" data-scroll-target="#konsolidierung-5-min-individuell">Konsolidierung (5 Min, individuell)</a></li>
   </ul></li>
-  <li><a href="#overflow" id="toc-overflow" class="nav-link" data-scroll-target="#overflow">11:25–11:45: Buffer / Overflow (20 Min)</a></li>
-  <li><a href="#abschluss" id="toc-abschluss" class="nav-link" data-scroll-target="#abschluss">11:45–12:00: Transfer &amp; Abschluss (15 Min)</a>
+  <li><a href="#overflow" id="toc-overflow" class="nav-link" data-scroll-target="#overflow">11:25–11:40: Buffer / Overflow (15 Min)</a></li>
+  <li><a href="#abschluss" id="toc-abschluss" class="nav-link" data-scroll-target="#abschluss">11:40–12:00: Transfer &amp; Abschluss (20 Min)</a>
   <ul class="collapse">
-  <li><a href="#rückkehr-zu-den-vorhersagen-5-min" id="toc-rückkehr-zu-den-vorhersagen-5-min" class="nav-link" data-scroll-target="#rückkehr-zu-den-vorhersagen-5-min">Rückkehr zu den Vorhersagen (5 Min)</a></li>
-  <li><a href="#persönlicher-umsetzungsplan-5-min" id="toc-persönlicher-umsetzungsplan-5-min" class="nav-link" data-scroll-target="#persönlicher-umsetzungsplan-5-min">Persönlicher Umsetzungsplan (5 Min)</a></li>
-  <li><a href="#blitzlicht-5-min" id="toc-blitzlicht-5-min" class="nav-link" data-scroll-target="#blitzlicht-5-min">Blitzlicht (5 Min)</a></li>
+  <li><a href="#was-nehme-ich-mit-6-min-individuell" id="toc-was-nehme-ich-mit-6-min-individuell" class="nav-link" data-scroll-target="#was-nehme-ich-mit-6-min-individuell">Was nehme ich mit? (6 Min, individuell)</a></li>
+  <li><a href="#rückkehr-zu-den-vorhersagen-heimarbeit" id="toc-rückkehr-zu-den-vorhersagen-heimarbeit" class="nav-link" data-scroll-target="#rückkehr-zu-den-vorhersagen-heimarbeit">Rückkehr zu den Vorhersagen — Heimarbeit</a></li>
+  <li><a href="#reflexion-eigenarbeit-6-min-individuell" id="toc-reflexion-eigenarbeit-6-min-individuell" class="nav-link" data-scroll-target="#reflexion-eigenarbeit-6-min-individuell">Reflexion: Eigenarbeit (6 Min, individuell)</a></li>
+  <li><a href="#reflexion-3er-gruppen-5-min" id="toc-reflexion-3er-gruppen-5-min" class="nav-link" data-scroll-target="#reflexion-3er-gruppen-5-min">Reflexion: 3er-Gruppen (5 Min)</a></li>
+  <li><a href="#take-away-1-min-andrew" id="toc-take-away-1-min-andrew" class="nav-link" data-scroll-target="#take-away-1-min-andrew">Take-Away (1 Min) — Andrew</a></li>
   </ul></li>
   <li><a href="#häufige-fragen" id="toc-häufige-fragen" class="nav-link" data-scroll-target="#häufige-fragen">Häufige Fragen</a>
   <ul class="collapse">
@@ -386,6 +389,36 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 
 
 <p>Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite ergänzt die Inhaltsseiten, die jeweils eigene Moderationshinweise enthalten.</p>
+<section id="rollenverteilung" class="level2">
+<h2 class="anchored" data-anchor-id="rollenverteilung">Rollenverteilung</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 25%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rolle</th>
+<th>Wer</th>
+<th>Umfang</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Präsentation</strong></td>
+<td>Andrew</td>
+<td>Slide-Vorträge (Teil 1 + Teil 2), Worked Example, Rahmen setzen, Take-Away</td>
+</tr>
+<tr class="even">
+<td><strong>Moderation</strong></td>
+<td>Raphael</td>
+<td>Alle Aktivitäten: Generierung, Arbeitsgedächtnis, Gedächtnis-Aktivierungen, Fallstudien, Diagnose-Fragen, Teil 3 komplett (Think-Pair-Share), Abschluss-Reflexion</td>
+</tr>
+</tbody>
+</table>
+<p>Übergaben sind im Ablauf mit <strong>Andrew</strong> bzw. <strong>Raphael</strong> markiert. In Teil 1 wechseln sich die Rollen ab (Andrew präsentiert, Raphael moderiert die Aktivitäten zwischen den Slide-Blöcken). Ab Teil 3 moderiert Raphael durchgehend.</p>
+</section>
 <section id="vor-dem-workshop" class="level2">
 <h2 class="anchored" data-anchor-id="vor-dem-workshop">Vor dem Workshop</h2>
 <section id="materialien" class="level3">
@@ -409,8 +442,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </section>
 <section id="einstieg" class="level2">
 <h2 class="anchored" data-anchor-id="einstieg">09:00–09:05: Einstieg (5 Min)</h2>
-<section id="generierungsaktivität-5-min" class="level3">
-<h3 class="anchored" data-anchor-id="generierungsaktivität-5-min">Generierungsaktivität (5 Min)</h3>
+<section id="generierungsaktivität-5-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="generierungsaktivität-5-min-raphael">Generierungsaktivität (5 Min) — Raphael</h3>
 <ol type="1">
 <li>Karten verteilen</li>
 <li>Prompt vorlesen: “Was sind deiner Erfahrung nach die wichtigsten Faktoren für effektives Lernen? Schreibe 3 Vorhersagen auf.”</li>
@@ -418,8 +451,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <li>Nicht diskutieren, nur sammeln. Die Spannung zwischen Vorhersage und späterer Erkenntnis ist der Lernmechanismus.</li>
 </ol>
 </section>
-<section id="rahmen-setzen" class="level3">
-<h3 class="anchored" data-anchor-id="rahmen-setzen">Rahmen setzen</h3>
+<section id="rahmen-setzen-andrew" class="level3">
+<h3 class="anchored" data-anchor-id="rahmen-setzen-andrew">Rahmen setzen — Andrew</h3>
 <ul>
 <li>“Im Beginner-Workshop: KI macht produktiver. Heute: Ist Produktivität Lernen?”</li>
 <li>3 Teile kurz vorstellen: Lernen verstehen → KI einordnen → Praxis</li>
@@ -431,8 +464,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <section id="teil1" class="level2">
 <h2 class="anchored" data-anchor-id="teil1">09:05–09:50: Teil 1 – Lernen verstehen (45 Min)</h2>
 <p><strong>Seite:</strong> <a href="../../01-lernen-verstehen/">Wie Menschen lernen</a></p>
-<section id="slides-wie-menschen-lernen-2025-min" class="level3">
-<h3 class="anchored" data-anchor-id="slides-wie-menschen-lernen-2025-min">Slides: Wie Menschen lernen (20–25 Min)</h3>
+<section id="slides-wie-menschen-lernen-2025-min-andrew" class="level3">
+<h3 class="anchored" data-anchor-id="slides-wie-menschen-lernen-2025-min-andrew">Slides: Wie Menschen lernen (20–25 Min) — Andrew</h3>
 <p>Präsentiere die Slides im Vollbild. Kernbotschaften:</p>
 <ol type="1">
 <li><strong>Biologisch primäres vs.&nbsp;sekundäres Wissen</strong>: Sprache lernen wir mühelos, Statistik nicht</li>
@@ -445,8 +478,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <li><strong>Die metakognitive Falle</strong>: Leichtigkeit ≠ Lernen</li>
 </ol>
 </section>
-<section id="arbeitsgedächtnis-erleben-3-min" class="level3">
-<h3 class="anchored" data-anchor-id="arbeitsgedächtnis-erleben-3-min">Arbeitsgedächtnis erleben (3 Min)</h3>
+<section id="arbeitsgedächtnis-erleben-3-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="arbeitsgedächtnis-erleben-3-min-raphael">Arbeitsgedächtnis erleben (3 Min) — Raphael</h3>
 <p>Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis. Wähle eine der beiden Varianten (siehe <a href="../../01-lernen-verstehen/#aktivitäten">Aktivitäten</a>).</p>
 <p><strong>Variante A: Rechenketten</strong></p>
 <ol type="1">
@@ -461,15 +494,15 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </ol>
 <p><strong>Pointe herausarbeiten:</strong> “Dieselben Elemente, aber eine fundamental andere Aufgabe. Nicht die <em>Menge</em>, sondern die <em>Interaktion</em> zwischen den Elementen erzeugt die kognitive Belastung. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen.”</p>
 </section>
-<section id="gedächtnis-aktivierung-1-min" class="level3">
-<h3 class="anchored" data-anchor-id="gedächtnis-aktivierung-1-min">Gedächtnis-Aktivierung (1 Min)</h3>
+<section id="gedächtnis-aktivierung-1-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="gedächtnis-aktivierung-1-min-raphael">Gedächtnis-Aktivierung (1 Min) — Raphael</h3>
 <ul>
 <li>“Versuche aus dem Gedächtnis: Expertise Reversal Effect in einem Satz?”</li>
 <li>Nicht auflösen, nur generieren lassen. Lücken normalisieren: “Lücken sind willkommen, sie zeigen, worauf ihr beim Weiterhören achten könnt.”</li>
 </ul>
 </section>
-<section id="vertrautheit-verständnis-1-min" class="level3">
-<h3 class="anchored" data-anchor-id="vertrautheit-verständnis-1-min">Vertrautheit ≠ Verständnis (1 Min)</h3>
+<section id="vertrautheit-verständnis-1-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="vertrautheit-verständnis-1-min-raphael">Vertrautheit ≠ Verständnis (1 Min) — Raphael</h3>
 <ol type="1">
 <li>“Schätzt ehrlich: Wie gut habt ihr die Cognitive Load Theory verstanden? 1 bis 5.”</li>
 <li>“Jetzt: Erklärt eurem Nachbarn in 30 Sekunden den Unterschied zwischen intrinsischer und extrinsischer Last, ohne in die Slides zu schauen.”</li>
@@ -477,8 +510,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </ol>
 <p><em>Diese Übung kann bei Zeitnot entfallen (siehe Zeitcheck). Die Gedächtnis-Aktivierung und Fallstudien haben Priorität.</em></p>
 </section>
-<section id="mikropausen-während-der-slides" class="level3">
-<h3 class="anchored" data-anchor-id="mikropausen-während-der-slides">Mikropausen während der Slides</h3>
+<section id="mikropausen-während-der-slides-andrew" class="level3">
+<h3 class="anchored" data-anchor-id="mikropausen-während-der-slides-andrew">Mikropausen während der Slides — Andrew</h3>
 <p>Zwei kurze Atempausen (je 30 Sekunden) einbauen:</p>
 <ul>
 <li><strong>Mikropause 1:</strong> Nach den Cognitive Load Theory Slides (drei Lastarten), bevor es zum Expertise Reversal Effect geht. “Pause. Schaut 30 Sekunden vom Bildschirm weg. Was bleibt hängen?”</li>
@@ -486,8 +519,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </ul>
 <p>Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedächtnisspuren (TBRS-Modell) und modellieren das Prinzip, das die eigenen Materialien empfehlen.</p>
 </section>
-<section id="fallstudien-analyse-10-min" class="level3">
-<h3 class="anchored" data-anchor-id="fallstudien-analyse-10-min">Fallstudien-Analyse (10 Min)</h3>
+<section id="fallstudien-analyse-10-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="fallstudien-analyse-10-min-raphael">Fallstudien-Analyse (10 Min) — Raphael</h3>
 <ol type="1">
 <li>Paare bilden. Jedes Paar wählt ein Szenario-Paar (A, B, C oder D). Möglichst verschiedene Fallstudien über die Paare verteilen.</li>
 <li>Material: <a href="../../03-praxis/fallstudien/">Fallstudien</a> – Tab <strong>“Kognitive Analyse (Teil 1)”</strong> verwenden. Die Teilnehmenden finden dort für jede Fallstudie passende Analyse-Fragen mit den Konzepten aus Teil 1. Der zweite Tab (“Leitfragen-Analyse”) ist erst für Teil 3 relevant.</li>
@@ -498,8 +531,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </ol>
 <p><strong>Hinweis zur Fallstudien-Auswahl:</strong> Fallstudie B (Projektmanagement) ist anders als die anderen drei, weil erfahrene Berufsleute involviert sind. Der Expertise Reversal Effect wird hier besonders greifbar. Wenn ein Paar schnell fertig ist, kann es B als Kontrast zu seinem ersten Szenario analysieren.</p>
 </section>
-<section id="wichtigste-erkenntnis-1-min" class="level3">
-<h3 class="anchored" data-anchor-id="wichtigste-erkenntnis-1-min">Wichtigste Erkenntnis (1 Min)</h3>
+<section id="wichtigste-erkenntnis-1-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="wichtigste-erkenntnis-1-min-raphael">Wichtigste Erkenntnis (1 Min) — Raphael</h3>
 <ul>
 <li>“Schreibe einen Satz auf, bevor wir in die Pause gehen.”</li>
 <li>Das ist Konsolidierung vor dem Kontextwechsel.</li>
@@ -521,7 +554,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </section>
 <section id="retrieval" class="level2">
 <h2 class="anchored" data-anchor-id="retrieval">10:05–10:10: Gedächtnis-Aktivierung (5 Min)</h2>
-<p><strong>Seite:</strong> <a href="../../02-ki-und-lernen/">KI &amp; Lernen</a> (ganz oben)</p>
+<p><strong>Seite:</strong> <a href="../../02-ki-und-lernen/">KI &amp; Lernen</a> (ganz oben) | <strong>Raphael</strong></p>
 <ol type="1">
 <li>“Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen. Ergänze bei jedem Konzept in einem Satz, <em>warum es für den KI-Einsatz relevant ist</em>. Lücken sind willkommen: Sie zeigen, wo ihr beim Weiterhören besonders aufmerksam sein könnt.”</li>
 <li>2 Min individuell schreiben</li>
@@ -534,8 +567,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <section id="teil2" class="level2">
 <h2 class="anchored" data-anchor-id="teil2">10:10–10:40: Teil 2 – KI &amp; Lernen (30 Min)</h2>
 <p><strong>Seite:</strong> <a href="../../02-ki-und-lernen/">KI &amp; Lernen</a></p>
-<section id="slides-was-bedeutet-das-für-ki-810-min" class="level3">
-<h3 class="anchored" data-anchor-id="slides-was-bedeutet-das-für-ki-810-min">Slides: Was bedeutet das für KI? (8–10 Min)</h3>
+<section id="slides-was-bedeutet-das-für-ki-810-min-andrew" class="level3">
+<h3 class="anchored" data-anchor-id="slides-was-bedeutet-das-für-ki-810-min-andrew">Slides: Was bedeutet das für KI? (8–10 Min) — Andrew</h3>
 <p>Präsentiere die Slides. Kernbotschaften:</p>
 <ol type="1">
 <li><strong>Offloading vs.&nbsp;Outsourcing</strong>: Spektrum, nicht Binär. “Wird das Denken ausgelagert oder nur unterstützt?”</li>
@@ -548,16 +581,16 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <li><strong>5 Leitfragen</strong>: Kurzübersicht als Brücke zu Teil 3</li>
 </ol>
 </section>
-<section id="diagnose-fragen-2-min" class="level3">
-<h3 class="anchored" data-anchor-id="diagnose-fragen-2-min">3 Diagnose-Fragen (2 Min)</h3>
+<section id="diagnose-fragen-2-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="diagnose-fragen-2-min-raphael">3 Diagnose-Fragen (2 Min) — Raphael</h3>
 <ol type="1">
 <li>Tabelle mit den Diagnose-Fragen kurz zeigen (auf der Seite unter den Slides)</li>
 <li>Aktivität: “Wähle eine Frage. Wie würdest du sie in deinem Fach einsetzen?”</li>
 <li>1 Min mit Nachbar:in austauschen</li>
 </ol>
 </section>
-<section id="worked-example-annotierte-bibliografie-1215-min" class="level3">
-<h3 class="anchored" data-anchor-id="worked-example-annotierte-bibliografie-1215-min">Worked Example: Annotierte Bibliografie (12–15 Min)</h3>
+<section id="worked-example-annotierte-bibliografie-1215-min-andrew" class="level3">
+<h3 class="anchored" data-anchor-id="worked-example-annotierte-bibliografie-1215-min-andrew">Worked Example: Annotierte Bibliografie (12–15 Min) — Andrew</h3>
 <p><strong>Das ist das Herzstück von Teil 2. Gemeinsam durcharbeiten, nicht überspringen.</strong></p>
 <ol type="1">
 <li><strong>Vorhersage</strong> (1 Min): “Gleich analysieren wir die Aufgabe ‘Annotierte Bibliografie’. Bevor wir starten: Was passiert, wenn ein Studierender diese Aufgabe mithilfe eines LLM löst? Schreibt einen Satz auf.” Die eigene Vorhersage aktiviert das interne Modell und macht die spätere Analyse informativer.</li>
@@ -569,14 +602,14 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 <li><strong>Rückkehr zur Vorhersage</strong> (1 Min): “Schaut euch eure Vorhersage von vorhin an. Wo lagt ihr richtig, wo habt ihr etwas über- oder unterschätzt?” Meta-Moment: “Die Lücke zwischen Vorhersage und Analyse IST der Lerneffekt. Ohne eigene Vorhersage hättet ihr die Analyse nur passiv gelesen.”</li>
 </ol>
 </section>
-<section id="gedächtnis-aktivierung-kernkonzepte-sichern-1-min" class="level3">
-<h3 class="anchored" data-anchor-id="gedächtnis-aktivierung-kernkonzepte-sichern-1-min">Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min)</h3>
+<section id="gedächtnis-aktivierung-kernkonzepte-sichern-1-min-raphael" class="level3">
+<h3 class="anchored" data-anchor-id="gedächtnis-aktivierung-kernkonzepte-sichern-1-min-raphael">Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min) — Raphael</h3>
 <p>Nach dem Worked Example (inkl. Rückkehr zur Vorhersage):</p>
 <ul>
 <li>“Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?”</li>
 <li>Optional (wenn 30 Sekunden übrig): “Vergleicht eure Formulierungen kurz mit dem Nachbarn.”</li>
 </ul>
-<p><strong>Übergang:</strong> “Im Worked Example habt ihr gesehen, wie die 5 Leitfragen eine Aufgabe Schritt für Schritt analysieren. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan.”</p>
+<p><strong>Übergabe an Raphael.</strong> Andrew: “Im Worked Example habt ihr gesehen, wie die 5 Leitfragen eine Aufgabe Schritt für Schritt analysieren. Jetzt wendet ihr dasselbe auf eure eigene Aufgabe an. Danach fordert euer Partner eure Analyse als Advocatus Diaboli heraus. Am Ende habt ihr eine konkrete Analyse, eine Peer-Diagnose und einen 1-Satz-Redesign-Plan.”</p>
 <p><strong>Timing-Check:</strong> Du solltest bei ca. 10:40 sein.</p>
 <ul>
 <li><strong>Wenn du früher fertig bist:</strong> Mehr Diskussion beim Worked Example, oder eine der Nachlesen-Abschnitte kurz ansprechen (ungleiche Wirkung eignet sich gut).</li>
@@ -596,7 +629,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </section>
 <section id="teil3" class="level2">
 <h2 class="anchored" data-anchor-id="teil3">10:50–11:25: Teil 3 – Vom Wissen zum Handeln (35 Min)</h2>
-<p><strong>Seite:</strong> <a href="../../03-praxis/">Vom Wissen zum Handeln</a></p>
+<p><strong>Seite:</strong> <a href="../../03-praxis/">Vom Wissen zum Handeln</a> | <strong>Raphael moderiert durchgehend</strong></p>
 <section id="gedächtnis-aktivierung-2-min" class="level3">
 <h3 class="anchored" data-anchor-id="gedächtnis-aktivierung-2-min">Gedächtnis-Aktivierung (2 Min)</h3>
 <ul>
@@ -647,7 +680,7 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </section>
 </section>
 <section id="overflow" class="level2">
-<h2 class="anchored" data-anchor-id="overflow">11:25–11:45: Buffer / Overflow (20 Min)</h2>
+<h2 class="anchored" data-anchor-id="overflow">11:25–11:40: Buffer / Overflow (15 Min)</h2>
 <ul>
 <li>Falls Teil 3 pünktlich fertig: Durchatmen, Raum für spontane Fragen, früher ins Closing starten</li>
 <li>Falls Teil 3 länger dauert: Diese Zeit absorbiert die Verzögerung</li>
@@ -655,31 +688,45 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </ul>
 </section>
 <section id="abschluss" class="level2">
-<h2 class="anchored" data-anchor-id="abschluss">11:45–12:00: Transfer &amp; Abschluss (15 Min)</h2>
-<p><strong>Seite:</strong> <a href="../diskussion/">Transfer &amp; Abschluss</a></p>
-<section id="rückkehr-zu-den-vorhersagen-5-min" class="level3">
-<h3 class="anchored" data-anchor-id="rückkehr-zu-den-vorhersagen-5-min">Rückkehr zu den Vorhersagen (5 Min)</h3>
-<ol type="1">
-<li>Karten vom Anfang zurückgeben</li>
-<li>“Vergleicht: Was habt ihr am Anfang geschrieben? Was würdet ihr jetzt anders formulieren?”</li>
-<li>Kurzer Austausch: “Welche Konzepte würdet ihr hinzufügen?”</li>
-<li>Meta-Moment: “Die Lücke zwischen Vorhersage und jetzigem Wissen IST das Lernen.”</li>
-</ol>
-</section>
-<section id="persönlicher-umsetzungsplan-5-min" class="level3">
-<h3 class="anchored" data-anchor-id="persönlicher-umsetzungsplan-5-min">Persönlicher Umsetzungsplan (5 Min)</h3>
+<h2 class="anchored" data-anchor-id="abschluss">11:40–12:00: Transfer &amp; Abschluss (20 Min)</h2>
+<p><strong>Seite:</strong> <a href="../diskussion/">Transfer &amp; Abschluss</a> | <strong>Raphael moderiert, Andrew schliesst mit Take-Away</strong></p>
+<section id="was-nehme-ich-mit-6-min-individuell" class="level3">
+<h3 class="anchored" data-anchor-id="was-nehme-ich-mit-6-min-individuell">Was nehme ich mit? (6 Min, individuell)</h3>
 <ul>
-<li>“Welche EINE Änderung setzt ihr als erstes um?”</li>
-<li>Konkret machen: nicht “ich werde mehr über KI nachdenken”, sondern “ich werde bei Aufgabe X Phase Y einbauen”</li>
+<li>“Welche <strong>Erkenntnis</strong> aus dem Workshop war am wichtigsten?”</li>
+<li>“Welche <strong>eine Änderung</strong> an einer Aufgabe setzt du als erstes um? Wann konkret?” (Kalendertermin einfordern)</li>
+<li>“Wann bearbeitest du die <em>Rückkehr zu den Vorhersagen</em>?” (Kalendertermin einfordern)</li>
+<li>“Wie kannst du die <strong>5 Leitfragen</strong> in deiner Lehre einsetzen?”</li>
+</ul>
+<p>Die Frage nach dem Kalendertermin ist ernst gemeint. Wer keinen Termin setzt, setzt nichts um.</p>
+</section>
+<section id="rückkehr-zu-den-vorhersagen-heimarbeit" class="level3">
+<h3 class="anchored" data-anchor-id="rückkehr-zu-den-vorhersagen-heimarbeit">Rückkehr zu den Vorhersagen — Heimarbeit</h3>
+<p>Nicht im Workshop durchführen. Karten vom Anfang zurückgeben und darauf hinweisen, dass der Vergleich zwischen Vorhersage und jetzigem Wissen als <strong>Heimarbeit</strong> gedacht ist. Die Diskussionsseite erklärt den Ablauf. Der Zeitpunkt sollte im “Was nehme ich mit?” als Kalendertermin festgelegt worden sein.</p>
+</section>
+<section id="reflexion-eigenarbeit-6-min-individuell" class="level3">
+<h3 class="anchored" data-anchor-id="reflexion-eigenarbeit-6-min-individuell">Reflexion: Eigenarbeit (6 Min, individuell)</h3>
+<p>Überleitung: “Im letzten Aufgabenteil habt ihr eigenständig die 5 Leitfragen auf eure eigenen Aufgaben angewendet. Jetzt reflektieren wir kurz, wie sich das angefühlt hat.”</p>
+<ul>
+<li>“Was waren die wichtigsten Punkte zur Passung von Aufgaben und Anleitung zu Hintergrundwissen?” (2 Min)</li>
+<li>“Wie hat sich die eigenständige Aufgabenbearbeitung (Think-Phase) angefühlt? Konntest du an Hintergrundwissen anknüpfen, oder hat die Neuheit eher überfordert?” (2 Min)</li>
+<li>“Hat der Austausch mit deinem Partner daran etwas verändert? Falls ja, was genau?” (1 Min)</li>
+<li>“Welche Momente waren am anstrengendsten? War die Anstrengung eher produktiv (Nachdenken, Verknüpfen) oder unproduktiv (Orientierungslosigkeit, unklare Anleitung)?” (1 Min)</li>
 </ul>
 </section>
-<section id="blitzlicht-5-min" class="level3">
-<h3 class="anchored" data-anchor-id="blitzlicht-5-min">Blitzlicht (5 Min)</h3>
+<section id="reflexion-3er-gruppen-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="reflexion-3er-gruppen-5-min">Reflexion: 3er-Gruppen (5 Min)</h3>
 <ul>
-<li>Erst: “Erkläre in zwei Sätzen, warum kognitive Anstrengung der Mechanismus für Lernen ist.”</li>
-<li>Dann: “Welches Lernprinzip hast du heute am eigenen Leib erlebt, und in welchem Moment?” (Meta-Reflexion über das Self-Modeling des Workshops)</li>
-<li>Dann: 30 Sekunden pro Person: eine Erkenntnis, ein nächster Schritt</li>
-<li>Take-Away: “Die Schwierigkeit des Lernens ist nicht das Problem, sondern der Mechanismus.”</li>
+<li>1 Minute pro Person: produktive und unproduktive Anstrengungsmomente teilen</li>
+<li>Gemeinsam (3 Min): “Welche Elemente des Scaffolding lassen sich in der Heranführung an die Praxisaufgabe erkennen?”</li>
+</ul>
+<p>Optionale Pointe (falls Zeit): “Vermutlich habt ihr die Angemessenheit unserer Aufgabenwahl und des Scaffolding unterschiedlich erlebt. Gutes Scaffolding ist schwierig und wird nicht immer perfekt klappen. Der Workshop soll motivieren und Werkzeuge liefern, sich darin weiterzuentwickeln.”</p>
+</section>
+<section id="take-away-1-min-andrew" class="level3">
+<h3 class="anchored" data-anchor-id="take-away-1-min-andrew">Take-Away (1 Min) — Andrew</h3>
+<ul>
+<li>“Wenn sich Lernen schwierig anfühlt, signalisiert das, dass lernrelevante Prozesse aktiv sind. Nicht die Schwierigkeit selbst, sondern diese Prozesse erzeugen das Lernen.”</li>
+<li>“Gute KI-Integration bedeutet, Lernumgebungen zu gestalten, in denen produktive Anstrengung der natürliche Weg ist.”</li>
 </ul>
 </section>
 </section>
