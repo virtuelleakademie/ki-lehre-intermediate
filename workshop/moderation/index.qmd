@@ -14,7 +14,6 @@ Minute-für-Minute Anleitung für die Durchführung des Workshops. Diese Seite e
 - Slides geladen: `wie-menschen-lernen` und `ki-und-lernen`
 - Browser-Tabs vorbereitet: [Teil 1](../../01-lernen-verstehen/), [Teil 2](../../02-ki-und-lernen/), [Teil 3](../../03-praxis/), [Fallstudien](../../03-praxis/fallstudien/)
 - Timer-App bereit (oder das Timer-Shortcode auf den Seiten nutzen)
-- Zahlenfolgen für die Digit Span Demo vorbereiten (4, 5, 6, 7, 8 Ziffern)
 
 ### Raum
 
@@ -59,20 +58,35 @@ Präsentiere die Slides im Vollbild. Kernbotschaften:
 7. **Desirable Difficulties**: Anstrengung fühlt sich falsch an, ist aber der Mechanismus
 8. **Die metakognitive Falle**: Leichtigkeit ≠ Lernen
 
-### Digit Span Demo (3 Min)
+### Arbeitsgedächtnis erleben (3 Min)
 
-Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis.
+Kommt nach dem Slide-Abschnitt über Arbeitsgedächtnis. Wähle eine der beiden Varianten (siehe [Aktivitäten](../../01-lernen-verstehen/#aktivitäten)).
 
-1. Lies Zahlenfolgen vor (beginne mit 4 Ziffern, steigere auf 8)
-2. Teilnehmende schreiben nach jeder Folge auf, was sie behalten haben
-3. Frage: "Ab wann wurde es schwierig?"
-4. **Pointe herausarbeiten:** "Dieses Erlebnis IST die Lernarchitektur. Jeder Gedanke eurer Studierenden durchläuft genau diesen Flaschenhals."
-5. Den Meta-Moment kurz ansprechen: "Der Workshop modelliert, was er lehrt."
+**Variante A: Rechenketten**
 
-### Gedächtnis-Aktivierung 1 (1 Min)
+1. Vier Zahlen vorlesen (z.B. 3, 7, 2, 5). Teilnehmende schreiben sie nach kurzer Pause auf.
+2. Dieselben Zahlen als Rechenkette: "Nimm 3. Addiere 7. Multipliziere mit 2. Subtrahiere 5." Im Kopf lösen.
+3. Optional Bonusrunde: Zwei Ketten gleichzeitig, abwechselnd.
+
+**Variante B: Sortieraufgabe**
+
+1. Vier Begriffe merken: *Hund, Tisch, Wolke, Ring*. Nach kurzer Pause aufschreiben.
+2. Dieselben Begriffe gleichzeitig vom Kleinsten zum Grössten ordnen und dem Nachbarn erklären.
+
+**Pointe herausarbeiten:** "Dieselben Elemente, aber eine fundamental andere Aufgabe. Nicht die *Menge*, sondern die *Interaktion* zwischen den Elementen erzeugt die kognitive Belastung. Genau das passiert, wenn eure Studierenden ein neues Konzept verstehen sollen."
+
+### Gedächtnis-Aktivierung (1 Min)
 
 - "Versuche aus dem Gedächtnis: Expertise Reversal Effect in einem Satz?"
 - Nicht auflösen, nur generieren lassen. Lücken normalisieren: "Lücken sind willkommen, sie zeigen, worauf ihr beim Weiterhören achten könnt."
+
+### Vertrautheit ≠ Verständnis (1 Min)
+
+1. "Schätzt ehrlich: Wie gut habt ihr die Cognitive Load Theory verstanden? 1 bis 5."
+2. "Jetzt: Erklärt eurem Nachbarn in 30 Sekunden den Unterschied zwischen intrinsischer und extrinsischer Last, ohne in die Slides zu schauen."
+3. **Pointe:** "Die Lücke zwischen eurer Einschätzung und eurer Erklärfähigkeit ist die metakognitive Falle. Fliessend zuhören erzeugt Vertrautheit, nicht Verständnis. Eure Studierenden erleben das nach jeder Vorlesung."
+
+*Diese Übung kann bei Zeitnot entfallen (siehe Zeitcheck). Die Gedächtnis-Aktivierung und Fallstudien haben Priorität.*
 
 ### Mikropausen während der Slides
 
@@ -85,12 +99,14 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 
 ### Fallstudien-Analyse (10 Min)
 
-1. Paare bilden
-2. Material: [Fallstudien](../../03-praxis/fallstudien/) (Browser-Tab oder ausgedruckt)
-3. Leitfrage vorlesen: "Welches Szenario erzeugt mehr Lernen? Warum?"
+1. Paare bilden. Jedes Paar wählt ein Szenario-Paar (A, B, C oder D). Möglichst verschiedene Fallstudien über die Paare verteilen.
+2. Material: [Fallstudien](../../03-praxis/fallstudien/) -- Tab **"Kognitive Analyse (Teil 1)"** verwenden. Die Teilnehmenden finden dort für jede Fallstudie passende Analyse-Fragen mit den Konzepten aus Teil 1. Der zweite Tab ("Leitfragen-Analyse") ist erst für Teil 3 relevant.
+3. Leitfrage vorlesen: "Welches Szenario erzeugt mehr Lernen? Warum? Nutzt die Analyse-Fragen auf der Seite."
 4. Konkretes Ergebnis verlangen: "Formuliert gemeinsam 2-3 Sätze: Welcher kognitive Mechanismus wird im ineffektiven Szenario umgangen, und wie stellt das effektive Szenario ihn wieder her?"
-5. Nach 8 Min: 2 Min Kurzaustausch im Plenum. 2-3 Paare stellen ihre Sätze vor (je 30 Sekunden).
+5. Nach 8 Min: 2 Min Kurzaustausch im Plenum. 2-3 Paare stellen ihre Sätze vor (je 30 Sekunden). Idealerweise verschiedene Fallstudien hören.
 6. Falls die Gruppe Disziplinen enthält, die in den Fallstudien nicht vertreten sind (z.B. Pflege, Technik, Design, Soziale Arbeit): in der Plenumsphase gezielt nach diesen Perspektiven fragen.
+
+**Hinweis zur Fallstudien-Auswahl:** Fallstudie B (Projektmanagement) ist anders als die anderen drei, weil erfahrene Berufsleute involviert sind. Der Expertise Reversal Effect wird hier besonders greifbar. Wenn ein Paar schnell fertig ist, kann es B als Kontrast zu seinem ersten Szenario analysieren.
 
 ### Wichtigste Erkenntnis (1 Min)
 
@@ -114,7 +130,7 @@ Diese Pausen kosten 1 Minute, erlauben aber die Auffrischung zerfallender Gedäc
 
 **Seite:** [KI & Lernen](../../02-ki-und-lernen/) (ganz oben)
 
-1. "Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen. Lücken sind willkommen: Sie zeigen, wo ihr beim Weiterhören besonders aufmerksam sein könnt."
+1. "Schreibe 3 zentrale Konzepte aus Teil 1 auf, ohne Notizen. Ergänze bei jedem Konzept in einem Satz, *warum es für den KI-Einsatz relevant ist*. Lücken sind willkommen: Sie zeigen, wo ihr beim Weiterhören besonders aufmerksam sein könnt."
 2. 2 Min individuell schreiben
 3. 2 Min zu zweit vergleichen: "Wo sind die grössten Unterschiede?"
 4. Kurz im Plenum: "Was war überraschend schwierig zu erinnern?"
@@ -150,15 +166,17 @@ Präsentiere die Slides. Kernbotschaften:
 
 **Das ist das Herzstück von Teil 2. Gemeinsam durcharbeiten, nicht überspringen.**
 
-1. Aufgabe vorlesen: "Studierende suchen 5 Quellen..."
-2. Fragen 1-5 Schritt für Schritt durchgehen, bei jeder Frage kurz Reaktionen abfragen
-3. **PAUSE vor dem Redesign** (2 Min): "Bevor ihr das Redesign seht: Wie würdet IHR diese Aufgabe umgestalten?"
-4. Redesign-Tabelle zeigen und besprechen
-5. Drei Erkenntnisse herausarbeiten: Produkt ≠ Prozess, Offloading am richtigen Punkt, Versuch-dann-Prüfe
+1. **Vorhersage** (1 Min): "Gleich analysieren wir die Aufgabe 'Annotierte Bibliografie'. Bevor wir starten: Was passiert, wenn ein Studierender diese Aufgabe mithilfe eines LLM löst? Schreibt einen Satz auf." Die eigene Vorhersage aktiviert das interne Modell und macht die spätere Analyse informativer.
+2. Aufgabe vorlesen: "Studierende suchen 5 Quellen..."
+3. Fragen 1-5 Schritt für Schritt durchgehen, bei jeder Frage kurz Reaktionen abfragen
+4. **PAUSE vor dem Redesign** (2 Min): "Bevor ihr das Redesign seht: Wie würdet IHR diese Aufgabe umgestalten?" Teilnehmende notieren ihre Idee.
+5. Redesign-Tabelle zeigen und besprechen
+6. Drei Erkenntnisse herausarbeiten: Produkt ≠ Prozess, Offloading am richtigen Punkt, Versuch-dann-Prüfe
+7. **Rückkehr zur Vorhersage** (1 Min): "Schaut euch eure Vorhersage von vorhin an. Wo lagt ihr richtig, wo habt ihr etwas über- oder unterschätzt?" Meta-Moment: "Die Lücke zwischen Vorhersage und Analyse IST der Lerneffekt. Ohne eigene Vorhersage hättet ihr die Analyse nur passiv gelesen."
 
 ### Gedächtnis-Aktivierung: Kernkonzepte sichern (1 Min)
 
-Direkt nach den drei Erkenntnissen aus dem Worked Example:
+Nach dem Worked Example (inkl. Rückkehr zur Vorhersage):
 
 - "Bevor wir weitergehen, notiert in Stichworten: Was ist der Unterschied zwischen Offloading und Outsourcing? Und: Was ist das Evaluationsparadox in einem Satz?"
 - Optional (wenn 30 Sekunden übrig): "Vergleicht eure Formulierungen kurz mit dem Nachbarn."
@@ -177,7 +195,7 @@ Genuine Pause. Nichts geplant.
 
 - Durchatmen. Wasser holen.
 - Sicherstellen, dass alle ihre mitgebrachte Aufgabe griffbereit haben
-- Wer keine hat: [Fallstudien](../../03-praxis/fallstudien/) als Ersatz verteilen
+- Wer keine hat: [Fallstudien](../../03-praxis/fallstudien/) als Ersatz verteilen (Tab "Leitfragen-Analyse (Teil 3)" verwenden)
 - Falls du Zeit übrig hast: Das ist gut. Nutze sie nicht.
 
 
@@ -197,7 +215,7 @@ Genuine Pause. Nichts geplant.
 
 - "Bildschirme für einen Moment schliessen. Analysiert eure Aufgabe auf Papier."
 - Alle arbeiten individuell an ihrer eigenen Aufgabe mit den 5 Leitfragen
-- Wer keine hat: Fallstudien-Szenario nehmen
+- Wer keine hat: [Fallstudien](../../03-praxis/fallstudien/) nehmen (Tab "Leitfragen-Analyse (Teil 3)")
 - Geh durch den Raum und hilf bei Fragen zu den Leitfragen
 - Für Disziplinen, die nicht in den Fallstudien vorkommen, bei Bedarf Brücken bauen:
     - Pflege: "Klinisches Reasoning funktioniert gleich wie die medizinische Fallstudie: Erst eigene Hypothese, dann vergleichen."

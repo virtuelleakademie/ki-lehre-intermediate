@@ -121,7 +121,7 @@ Nutzt die Konzepte aus Teil 1:
 
 **Euer Ergebnis:** Formuliert gemeinsam in 2-3 Sätzen: (1) Welcher kognitive Mechanismus wird im ineffektiven Szenario umgangen? (2) Wie stellt das effektive Szenario diesen Mechanismus wieder her? Seid bereit, eure Antwort in 30 Sekunden im Plenum vorzustellen.
 
-> [Fallstudien-Material](../03-praxis/fallstudien/)
+> [Fallstudien-Material](../03-praxis/fallstudien/) (nutze den Tab "Kognitive Analyse")
 :::
 
 ::: {.individual}
