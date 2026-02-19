@@ -167,6 +167,17 @@
   <link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
   <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script>
   <style>
+  div.callout-pair.callout {
+    border-left-color: #059669;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgba(5, 150, 105, 0.13);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
   div.callout-pro-tip.callout {
     border-left-color: gold;
   }
@@ -178,15 +189,15 @@
     content: '💡';
     background-image: none;
   }
-  div.callout-individual.callout {
-    border-left-color: #0072B2;
+  div.callout-agent-potential.callout {
+    border-left-color: #9A4665;
   }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgba(0, 114, 178, 0.13);
+  div.callout-agent-potential.callout-style-default > .callout-header {
+    background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
+  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+    content: '🤖';
     background-image: none;
   }
   div.callout-group.callout {
@@ -200,15 +211,26 @@
     content: '👥';
     background-image: none;
   }
-  div.callout-agent-potential.callout {
+  div.callout-active-processing.callout {
     border-left-color: #9A4665;
   }
-  div.callout-agent-potential.callout-style-default > .callout-header {
+  div.callout-active-processing.callout-style-default > .callout-header {
     background-color: rgba(154, 70, 101, 0.13);
   }
-  div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-    content: '🤖';
+  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+    content: '📝';
+    background-image: none;
+  }
+  div.callout-individual.callout {
+    border-left-color: #0072B2;
+  }
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgba(0, 114, 178, 0.13);
+  }
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
     background-image: none;
   }
   div.callout-reflect.callout {
@@ -231,28 +253,6 @@
   div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
     content: '📖';
-    background-image: none;
-  }
-  div.callout-active-processing.callout {
-    border-left-color: #9A4665;
-  }
-  div.callout-active-processing.callout-style-default > .callout-header {
-    background-color: rgba(154, 70, 101, 0.13);
-  }
-  div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-    content: '📝';
-    background-image: none;
-  }
-  div.callout-pair.callout {
-    border-left-color: #059669;
-  }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgba(5, 150, 105, 0.13);
-  }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-    content: '👥';
     background-image: none;
   }
   div.callout-facilitator.callout {
@@ -320,7 +320,7 @@ Andrew Ellis
 <div class="callout callout-warning no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das <em>ist</em> das Kernproblem.</strong></p>
+<p>Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist das Kernproblem.</p>
 </div>
 </div>
 </div>
@@ -368,12 +368,12 @@ Andrew Ellis
 <p>Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr nie.</p>
 </div>
 </section>
-<section id="clt-und-ki-der-vergleich" class="slide level2">
-<h2>CLT und KI: Der Vergleich</h2>
-
-<img data-src="index_files/figure-revealjs/outsourcing-comparison-1.png" width="960" class="r-stretch"></section>
-<section id="clt-und-ki-die-nuance" class="slide level2">
+<section id="clt-und-ki-die-nuance" class="slide level2 smaller">
 <h2>CLT und KI: Die Nuance</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/fig-outsourcing-comparison.png"></p>
+</div><div class="column" style="width:50%;">
 <div class="callout callout-note no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
@@ -387,33 +387,34 @@ Andrew Ellis
 <div class="fragment">
 <p>Die Reihenfolge entscheidet: <strong>Versuch → dann → KI-Feedback</strong></p>
 </div>
+</div></div>
 </section>
 <section id="warum-outsourcing-schemabildung-verhindert" class="slide level2">
 <h2>Warum Outsourcing Schemabildung verhindert</h2>
-<p>Schemabildung erfordert <strong>aktive Verarbeitung</strong> im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:</p>
+<p>Schemata entstehen nur durch <strong>eigene kognitive Arbeit</strong>. Outsourcing unterbricht diese Kette:</p>
 <ol type="1">
-<li>Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird</li>
-<li>Ohne aktive Verarbeitung findet keine Konsolidierung statt</li>
-<li>Prozedurale Fertigkeiten entstehen nur durch Übungszyklen</li>
-<li>Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen</li>
+<li><strong>Kein Versuch</strong> → kein eigenes mentales Modell, an dem Feedback ansetzen kann</li>
+<li><strong>Keine Verarbeitung</strong> → keine neuen Verbindungen im Langzeitgedächtnis</li>
+<li><strong>Keine Übung</strong> → keine Automatisierung (deklarativ bleibt deklarativ)</li>
+<li><strong>Keine Schemata</strong> → kein Transfer auf neue Situationen</li>
 </ol>
-<div class="fragment">
-<div class="callout callout-warning no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.</p>
-</div>
-</div>
-</div>
-</div>
+<!-- :::{.fragment}
+::: {.callout-warning}
+Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht bereits bei Schritt 1.
+::: -->
+<p>:::</p>
 </section>
 <section id="die-frage-ist-nicht" class="slide level2 center">
 <h2>Die Frage ist nicht…</h2>
-<div class="fragment">
 <p><em>“Dürfen Studierende KI nutzen?”</em></p>
-</div>
 <div class="fragment">
 <h3 id="sondern-wird-das-denken-ausgelagert-oder-nur-unterstützt">Sondern: “Wird das Denken ausgelagert oder nur unterstützt?”</h3>
+</div>
+</section>
+<section id="aber-können-studierende-nicht-einfach-prüfen-was-die-ki-liefert" class="slide level2 center">
+<h2>Aber können Studierende nicht einfach prüfen, was die KI liefert?</h2>
+<div class="fragment">
+<p>Machen wir den Test.</p>
 </div>
 </section>
 <section id="finde-den-fehler" class="slide level2 smaller">
@@ -438,19 +439,13 @@ Andrew Ellis
 <p><strong>So geht es deinen Studierenden mit KI-generierten Texten in ihrem Fach.</strong></p>
 </div>
 </section>
-<section id="das-evaluationsparadox" class="slide level2">
+<section id="das-evaluationsparadox" class="slide level2 smaller">
 <h2>Das Evaluationsparadox</h2>
-<p>Man hört oft:</p>
 <blockquote>
 <p><em>“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”</em></p>
 </blockquote>
-<div class="fragment">
-<p>Aber:</p>
 <p>Um KI-Outputs beurteilen zu können, braucht man genau die <strong>Fachkompetenz</strong>, die das Lernen erst entwickeln soll.</p>
-</div>
-</section>
-<section id="das-evaluationsparadox-1" class="slide level2 smaller">
-<h2>Das Evaluationsparadox</h2>
+<div class="fragment">
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -477,6 +472,7 @@ Andrew Ellis
 </tr>
 </tbody>
 </table>
+</div>
 <div class="fragment">
 <div class="callout callout-important no-icon callout-titled callout-style-simple">
 <div class="callout-body">
@@ -489,15 +485,9 @@ Andrew Ellis
 </div>
 </div>
 </div>
-</section>
-<section id="das-evaluationsparadox-der-kreislauf" class="slide level2">
-<h2>Das Evaluationsparadox: Der Kreislauf</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-1bca1756cd335a84c2f2" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-1bca1756cd335a84c2f2">{"x":{"diagram":"\ndigraph evaluation_paradox {\n  graph [\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.8\n    ranksep = 1.0\n    label = \"Das Evaluationsparadox\\nUm KI-Output zu bewerten, braucht man Kompetenz, die erst durch Lernen entsteht\"\n    labelloc = t\n    fontsize = 16\n    fontcolor = \"#666666\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    fontsize = 14\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n    margin = \"0.25,0.15\"\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 13\n    color = \"#999999\"\n    arrowsize = 0.8\n  ]\n\n  evaluate [\n    label = \"KI-Output\\nbewerten\"\n    fillcolor = \"#D55E00\"\n  ]\n\n  competence [\n    label = \"Fachkompetenz\"\n    fillcolor = \"#64748b\"\n  ]\n\n  learning [\n    label = \"Eigenes\\nLernen\"\n    fillcolor = \"#64748b\"\n  ]\n\n  thinking [\n    label = \"Eigenes\\nDenken\"\n    fillcolor = \"#0072B2\"\n  ]\n\n  center [\n    label = \"Internes Modell\\nnoch nicht aufgebaut\"\n    fillcolor = \"#F5F5F5\"\n    fontcolor = \"#9A4665\"\n    style = \"filled\"\n    shape = plaintext\n    fontsize = 13\n  ]\n\n  evaluate -> competence [label = \"  erfordert  \"]\n  competence -> learning [label = \"  entsteht durch  \"]\n  learning -> thinking [label = \"  erfordert  \"]\n  thinking -> evaluate [label = \"  wird ersetzt\\n  durch KI  \" style = dashed color = \"#D55E00\"]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<!-- ## Das Evaluationsparadox: Der Kreislauf
+
+{{< include ../../resources/figures/fig-evaluation-paradox.qmd >}} -->
 </section>
 <section id="lernen-leisten" class="slide level2 smaller">
 <h2>Lernen ≠ Leisten</h2>

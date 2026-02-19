@@ -52,7 +52,7 @@ Lernrelevante Verarbeitung: **eliminiert**
 
 :::{.fragment}
 ::: {.callout-warning}
-**Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das *ist* das Kernproblem.**
+Outsourcing eliminiert die lernrelevante Verarbeitung (Schemabildung, Abruf, Elaboration). Das ist das Kernproblem.
 :::
 :::
 
@@ -78,13 +78,14 @@ Die Komplexität des Materials bleibt gleich, aber die Studierenden begegnen ihr
 :::
 
 
-## CLT und KI: Der Vergleich
+## CLT und KI: Die Nuance {.smaller}
 
-{{< include ../../resources/figures/fig-outsourcing-comparison.qmd >}}
+::::{.columns}
+:::{.column width="50%"}
+![](../../assets/images/fig-outsourcing-comparison.png)
+:::
 
-
-## CLT und KI: Die Nuance
-
+:::{.column width="50%"}
 ::: {.callout-note}
 Lernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit **übernimmt** (Outsourcing).
 :::
@@ -96,33 +97,42 @@ Wenn KI *nach eigenem Versuch* als Feedback-Werkzeug dient (Offloading), kann di
 :::{.fragment}
 Die Reihenfolge entscheidet: **Versuch → dann → KI-Feedback**
 :::
+:::
+::::
 
 
 ## Warum Outsourcing Schemabildung verhindert
 
-Schemabildung erfordert **aktive Verarbeitung** im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:
+Schemata entstehen nur durch **eigene kognitive Arbeit**. Outsourcing unterbricht diese Kette:
 
-1. Ohne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird
-2. Ohne aktive Verarbeitung findet keine Konsolidierung statt
-3. Prozedurale Fertigkeiten entstehen nur durch Übungszyklen
-4. Vernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen
+1. **Kein Versuch** → kein eigenes mentales Modell, an dem Feedback ansetzen kann
+2. **Keine Verarbeitung** → keine neuen Verbindungen im Langzeitgedächtnis
+3. **Keine Übung** → keine Automatisierung (deklarativ bleibt deklarativ)
+4. **Keine Schemata** → kein Transfer auf neue Situationen
 
-:::{.fragment}
+<!-- :::{.fragment}
 ::: {.callout-warning}
-Die Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen.
-:::
+Jeder Schritt in dieser Kette braucht den vorherigen. Outsourcing unterbricht bereits bei Schritt 1.
+::: -->
 :::
 
 
 ## Die Frage ist nicht... {.center}
 
-. . .
+
 
 *"Dürfen Studierende KI nutzen?"*
 
 . . .
 
 ### Sondern: "Wird das Denken ausgelagert oder nur unterstützt?"
+
+
+## Aber können Studierende nicht einfach prüfen, was die KI liefert? {.center}
+
+. . .
+
+Machen wir den Test.
 
 
 ## Finde den Fehler {.smaller}
@@ -151,26 +161,21 @@ Dir fehlen die **Schemata** in quantitativer Methodenlehre. Alles klingt plausib
 :::
 
 
-## Das Evaluationsparadox
-
-Man hört oft:
+## Das Evaluationsparadox {.smaller}
 
 > *"Studierende müssen lernen, KI-Outputs kritisch zu bewerten."*
 
-:::{.fragment}
-Aber:
-
 Um KI-Outputs beurteilen zu können, braucht man genau die **Fachkompetenz**, die das Lernen erst entwickeln soll.
-:::
 
-
-## Das Evaluationsparadox {.smaller}
+:::{.fragment}
 
 | | Expert:innen | Anfänger:innen |
 |---|---|---|
 | **Bewertungskriterien** | Unabhängig vorhanden | Fehlen |
 | **KI-Fehler** | Sofort erkennbar | Nicht erkennbar |
 | **"Kritische Nutzung"** | Echte Evaluation | Oberflächliches Prüfen |
+
+:::
 
 :::{.fragment}
 ::: {.callout-important}
@@ -180,9 +185,9 @@ Expert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerh
 :::
 
 
-## Das Evaluationsparadox: Der Kreislauf
+<!-- ## Das Evaluationsparadox: Der Kreislauf
 
-{{< include ../../resources/figures/fig-evaluation-paradox.qmd >}}
+{{< include ../../resources/figures/fig-evaluation-paradox.qmd >}} -->
 
 
 ## Lernen ≠ Leisten {.smaller}

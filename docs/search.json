@@ -1277,7 +1277,7 @@
     "href": "slides/ki-und-lernen/index.html#die-frage-ist-nicht",
     "title": "KI & Lernen",
     "section": "Die Frage ist nicht…",
-    "text": "Die Frage ist nicht…\n\n“Dürfen Studierende KI nutzen?”\n\n\nSondern: “Wird das Denken ausgelagert oder nur unterstützt?”"
+    "text": "Die Frage ist nicht…\n“Dürfen Studierende KI nutzen?”\n\nSondern: “Wird das Denken ausgelagert oder nur unterstützt?”"
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#finde-den-fehler",
@@ -1298,7 +1298,7 @@
     "href": "slides/ki-und-lernen/index.html#das-evaluationsparadox",
     "title": "KI & Lernen",
     "section": "Das Evaluationsparadox",
-    "text": "Das Evaluationsparadox\nMan hört oft:\n\n“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”\n\n\nAber:\nUm KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll."
+    "text": "Das Evaluationsparadox\n\n“Studierende müssen lernen, KI-Outputs kritisch zu bewerten.”\n\nUm KI-Outputs beurteilen zu können, braucht man genau die Fachkompetenz, die das Lernen erst entwickeln soll.\n\n\n\n\n\nExpert:innen\nAnfänger:innen\n\n\n\n\nBewertungskriterien\nUnabhängig vorhanden\nFehlen\n\n\nKI-Fehler\nSofort erkennbar\nNicht erkennbar\n\n\n“Kritische Nutzung”\nEchte Evaluation\nOberflächliches Prüfen\n\n\n\n\n\n\n\n\nKompetente Nutzung setzt Kompetenz voraus\n\n\nExpert:innen können KI als Verstärker nutzen. Anfänger:innen riskieren dauerhafte Abhängigkeit."
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#das-evaluationsparadox-1",
@@ -1679,13 +1679,20 @@
     "href": "slides/ki-und-lernen/index.html#clt-und-ki-die-nuance",
     "title": "KI & Lernen",
     "section": "CLT und KI: Die Nuance",
-    "text": "CLT und KI: Die Nuance\n\n\n\nLernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit übernimmt (Outsourcing).\n\n\n\n\nWenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung erhalten bleiben.\n\n\nDie Reihenfolge entscheidet: Versuch → dann → KI-Feedback"
+    "text": "CLT und KI: Die Nuance\n\n\n\n\n\n\n\nLernrelevante Verarbeitung wird nur eliminiert, wenn KI die Denkarbeit übernimmt (Outsourcing).\n\n\n\n\nWenn KI nach eigenem Versuch als Feedback-Werkzeug dient (Offloading), kann die lernrelevante Verarbeitung erhalten bleiben.\n\n\nDie Reihenfolge entscheidet: Versuch → dann → KI-Feedback"
   },
   {
     "objectID": "slides/ki-und-lernen/index.html#warum-outsourcing-schemabildung-verhindert",
     "href": "slides/ki-und-lernen/index.html#warum-outsourcing-schemabildung-verhindert",
     "title": "KI & Lernen",
     "section": "Warum Outsourcing Schemabildung verhindert",
-    "text": "Warum Outsourcing Schemabildung verhindert\nSchemabildung erfordert aktive Verarbeitung im Arbeitsgedächtnis. Outsourcing eliminiert genau diese Verarbeitung:\n\nOhne eigenen Versuch bleibt Feedback uninformativ, weil kein mentales Modell aktiviert wird\nOhne aktive Verarbeitung findet keine Konsolidierung statt\nProzedurale Fertigkeiten entstehen nur durch Übungszyklen\nVernetzte Schemata sind Voraussetzung für Transfer, und genau die fehlen\n\n\n\n\n\nDie Anstrengung selbst baut die Schemata auf, die Transfer ermöglichen."
+    "text": "Warum Outsourcing Schemabildung verhindert\nSchemata entstehen nur durch eigene kognitive Arbeit. Outsourcing unterbricht diese Kette:\n\nKein Versuch → kein eigenes mentales Modell, an dem Feedback ansetzen kann\nKeine Verarbeitung → keine neuen Verbindungen im Langzeitgedächtnis\nKeine Übung → keine Automatisierung (deklarativ bleibt deklarativ)\nKeine Schemata → kein Transfer auf neue Situationen\n\n\n:::"
+  },
+  {
+    "objectID": "slides/ki-und-lernen/index.html#aber-können-studierende-nicht-einfach-prüfen-was-die-ki-liefert",
+    "href": "slides/ki-und-lernen/index.html#aber-können-studierende-nicht-einfach-prüfen-was-die-ki-liefert",
+    "title": "KI & Lernen",
+    "section": "Aber können Studierende nicht einfach prüfen, was die KI liefert?",
+    "text": "Aber können Studierende nicht einfach prüfen, was die KI liefert?\n\nMachen wir den Test."
   }
 ]
