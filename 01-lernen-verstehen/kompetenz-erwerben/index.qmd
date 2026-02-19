@@ -309,7 +309,7 @@ Die entscheidende Frage für jede Lernsituation lautet deshalb: **Wie aktiv ist 
 
 Lernen erfordert sogenannte "desirable difficulties" [@bjorkMakingThingsHard2011]: Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern (Abrufübung, verteiltes Wiederholen, Interleaving, Generierung). Eine ausführliche Darstellung dieser Strategien mit praktischen Beispielen findest du im Deep-Dive [Gedächtnis & Lernstrategien](../gedaechtnis-und-lernen/).
 
-Aktuelle Studien zeigen, dass KI-Outsourcing diese Mechanismen systematisch untergräbt: weniger kritisches Denken bei hohem KI-Vertrauen [@leeImpactGenerativeAI2025], nur oberflächliches Lernen bei Programmierstudierenden [@yangEffectivenessChatGPTAssisting2025] und verminderte Problemlösefähigkeiten bei Mathematiklernenden [@bastaniGenerativeAIGuardrails2025].
+Aktuelle Studien deuten darauf hin, dass KI-Outsourcing diese Mechanismen zu untergraben droht: weniger kritisches Denken bei hohem KI-Vertrauen [@leeImpactGenerativeAI2025], nur oberflächliches Lernen bei Programmierstudierenden [@yangEffectivenessChatGPTAssisting2025] und verminderte Problemlösefähigkeiten bei Mathematiklernenden [@bastaniGenerativeAIGuardrails2025].
 
 
 ::: {.reflect}
