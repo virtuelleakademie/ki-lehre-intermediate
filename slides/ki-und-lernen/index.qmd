@@ -300,6 +300,25 @@ Frage 5 ist die Minimalanforderung für jede Aufgabe, bei der KI ins Spiel kommt
 :::
 
 
+## 3 Diagnose-Fragen {.smaller}
+
+### Hat das Denken bei den Studierenden stattgefunden?
+
+| Zeitpunkt | Frage an Studierende | Was sie zeigt |
+|-----------|---------------------|---------------|
+| **Vorher** | "Was hast du versucht, bevor du KI gefragt hast?" | Gab es einen eigenen Versuch? |
+| **Während** | "Wo hat dich die KI überrascht, und warum?" | War das interne Modell aktiv? |
+| **Nachher** | "Was machst du nächstes Mal anders, ohne KI?" | Hat sich das Verständnis aktualisiert? |
+
+:::{.fragment}
+**Die Schlüsselfrage ist "Während":** Wer outsourct, hat keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen.
+:::
+
+::: {.notes}
+Die 5 Leitfragen sind ein Design-Werkzeug. Die 3 Diagnose-Fragen sind ein Prüf-Werkzeug für danach: Hat das Design funktioniert? Bleibt die kognitive Arbeit bei den Studierenden? Die Fragen lassen sich in Sprechstunden, mündlichen Prüfungen oder als Reflexionsaufgabe einsetzen.
+:::
+
+
 ## Jetzt seid ihr dran {.center}
 
 Im nächsten Teil wendet ihr diese Leitfragen auf **eure eigenen Aufgaben** an.

@@ -30,7 +30,7 @@ Lücken sind willkommen: Sie zeigen dir, wo du beim Weiterhören besonders aufme
 ::: {.facilitator}
 ### Slides und Übergang zum Worked Example (ca. 10 Min)
 
-Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, 5 Leitfragen mit den vier Operationen (Abrufen, Generieren, Verknüpfen, Überwachen). Nach den Slides kurz die 3 Diagnose-Fragen zeigen (Tabelle unten) und die Aktivität durchführen, dann direkt zum Worked Example übergehen.
+Präsentiere die Slides. Kernbotschaften: Offloading vs. Outsourcing, Evaluationsparadox, Lernen ≠ Leisten, 5 Leitfragen mit den vier Operationen (Abrufen, Generieren, Verknüpfen, Überwachen), 3 Diagnose-Fragen. Die Diagnose-Fragen sind in den Slides enthalten. Nach den Slides die Aktivität (unten) durchführen, dann direkt zum Worked Example übergehen.
 :::
 
 
@@ -46,19 +46,19 @@ Die [5 Leitfragen](./5-leitfragen/) helfen beim **Gestalten** von Aufgaben. Aber
 
 Wer outsourct, hat auf Frage 2 keine Antwort: Es gab keine spezifischen Erwartungen, die überrascht werden konnten. Wer das Denken selbst geleistet hat, kann konkrete Überraschungsmomente benennen. → [Ausführliche Anleitung mit Beispielen](./5-leitfragen/#vom-design-zur-praxis-3-diagnose-fragen-für-den-lehralltag)
 
-::: {.pair}
+::: {.pair collapse="true"}
 ### Die 3 Diagnose-Fragen ausprobieren (1 Min)
 
 Wähle eine der 3 Fragen. Wie würdest du sie in deiner Lehre konkret einsetzen? Formuliere eine Beispielfrage für dein Fach und tausche sie mit deinem Nachbarn aus.
 :::
 
-::: {.active-processing}
+::: {.active-processing collapse="true"}
 ### Das Evaluationsparadox erleben (1 Min)
 
 Der folgende Absatz enthält **einen sachlich falschen Satz.** Welcher?
 
 > Der p-Wert ist eines der meistverwendeten und meistmissverstandenen Konzepte der empirischen Forschung. Er gibt die Wahrscheinlichkeit an, die beobachteten Daten (oder extremere) zu erhalten, unter der Annahme, dass die Nullhypothese zutrifft. Ein häufig übersehenes Problem: Statistische Signifikanz hängt stark von der Stichprobengrösse ab. Mit genügend grossen Stichproben wird praktisch jeder noch so kleine Effekt signifikant. Umgekehrt gilt: Je kleiner die Stichprobe, desto grösser muss der beobachtete Effekt sein, um Signifikanz zu erreichen, weshalb kleine Studien die tatsächliche Effektgrösse tendenziell unterschätzen.
-:::
+
 
 ::: {.pro-tip collapse="true"}
 ### Die Pointe: Evaluationsparadox
@@ -68,6 +68,7 @@ Der folgende Absatz enthält **einen sachlich falschen Satz.** Welcher?
 Du hast den Fehler wahrscheinlich nicht gefunden, weil dir die Schemata in Statistik fehlen. Alles klingt fachlich, kohärent, plausibel, aber ohne unabhängige Bewertungskriterien gibt es keine Grundlage, Richtiges von Falschem zu unterscheiden. In deinem eigenen Fach hättest du einen vergleichbaren Fehler sofort erkannt.
 
 Genau das ist das **Evaluationsparadox**: KI-Outputs kritisch bewerten zu können setzt die Fachkompetenz voraus, die Studierende erst aufbauen sollen.
+:::
 :::
 
 ::: {.active-processing}
@@ -114,9 +115,9 @@ Ja, es ist eine Kursaufgabe, kein professionelles Produkt. Die Studierenden soll
 
 - **Generieren** und **Verknüpfen** werden vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Synthesen mit korrekten Zitationsformaten
 - **Abrufen** wird umgangen: Studierende entwickeln keine eigene Suchstrategie
-- **Überwachen** wird illusorisch: Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox)
+- **Überwachen** bleibt illusorisch: Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox)
 
-> **Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.**
+> Die kognitive Arbeit steckt nicht im *Produkt* (Zusammenfassungen + Synthese), sondern im *Prozess* (Suchen, Bewerten, Entscheiden). Die aktuelle Aufgabe prüft das Produkt, und genau das kann KI liefern.
 
 **Frage 4: Werden noch Grundlagen aufgebaut?**
 

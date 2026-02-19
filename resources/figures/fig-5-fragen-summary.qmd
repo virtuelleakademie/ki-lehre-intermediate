@@ -48,9 +48,10 @@ digraph five_questions_summary {
 
   q2out [
     label = 'Operationen identifiziert:\\nAbrufen, Generieren,\\nVerknüpfen, Überwachen'
-    fillcolor = '#9A4665'
+    fillcolor = '#C4789A'
     fontsize = 12
-    shape = note
+    shape = box
+    style = 'filled,dashed,rounded'
   ]
 
   q3 [label = '3. Welche Operationen\\nwürde KI übernehmen?' fillcolor = '#0072B2']
