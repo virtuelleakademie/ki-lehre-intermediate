@@ -51,7 +51,9 @@ digraph five_questions_summary {
     fillcolor = '#C4789A'
     fontsize = 12
     shape = box
-    style = 'filled,dashed,rounded'
+    style = 'filled,rounded'
+    penwidth = 1.5
+    color = '#9A4665'
   ]
 
   q3 [label = '3. Welche Operationen\\nwürde KI übernehmen?' fillcolor = '#0072B2']

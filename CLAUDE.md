@@ -66,7 +66,13 @@ Key extensions: `custom-callout` (activity blocks), `timer` (countdown timers), 
 
 ### Branding
 
-`_brand.yml` defines colors (dark grey `#222222`, light grey `#F5F5F5`) and Jura font (Google Fonts). Accent link color: `#9A4665` (burgundy), set in `_quarto.yml`.
+Swiss minimalist design system shared with the beginner workshop. Sharp corners (0px border-radius), 2px solid black borders, no box shadows.
+
+`_brand.yml` defines Urbanist font (Google Fonts) and core colors: black `#000000` (primary text), light grey `#F5F5F5` (surface), burgundy `#9A4665` (primary accent), gold `#D4A03E` (secondary accent for insight callouts).
+
+`styles/custom.scss` provides the full website design system (typography, navbar, sidebar, cards, callouts, tables, code blocks, footer, tabs). `styles/styles.css` provides callout icon/body color overrides and timer styling. `styles/custom-reveal.scss` provides slide-specific styling.
+
+Callouts use a dual-accent color system: burgundy for action callouts (individual, pair, group, active-processing, agent-potential) and gold for insight callouts (reflect, pro-tip, nachlesen). Facilitator callouts use dark grey. All callout icons are Font Awesome (fa-*), not emoji.
 
 ## Writing Style
 

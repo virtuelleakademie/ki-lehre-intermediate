@@ -213,7 +213,7 @@ Die ersten drei Fragen sind analysiert. Frage 2 zeigt die kognitive Aufgabenanal
 Die Reihenfolge bewahrt alle vier Operationen: Studierende aktivieren ihr Wissen, bilden Erwartungen und lernen aus der Diskrepanz.
 :::
 
-
+<!-- 
 ## Disziplinspezifische Hinweise
 
 ### Mathematik und Naturwissenschaften
@@ -247,7 +247,7 @@ Kernoperationen: **Abrufen** (spontane Produktion) + **Generieren** (eigene Form
 
 - Spontane mündliche Interaktion maximieren. Das schützt Abrufen
 - Zeitbegrenzte Schreibübungen erzwingen Generieren
-- KI als Post-Produktions-Check, nicht als Produktionstool: So wird nur das Überwachen von Oberflächenmerkmalen delegiert
+- KI als Post-Produktions-Check, nicht als Produktionstool: So wird nur das Überwachen von Oberflächenmerkmalen delegiert -->
 
 
 ## Vom Design zur Praxis: 3 Diagnose-Fragen für den Lehralltag

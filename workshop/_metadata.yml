@@ -14,7 +14,7 @@ format:
         toc: true
         code-fold: false
         code-link: true
-        callout-appearance: minimal
+        # callout-appearance: minimal
         callout-icon: true
 # editor:
 #   markdown:

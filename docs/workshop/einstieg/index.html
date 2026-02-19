@@ -36,14 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a94639a2a79a10208c3806ea22bc16b3.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-f7ea35562251465ded65364387175922.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-a94639a2a79a10208c3806ea22bc16b3.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e25c20a99952d6e7b7d684c1036d1994.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-e25c20a99952d6e7b7d684c1036d1994.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e25c20a99952d6e7b7d684c1036d1994.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -82,59 +82,28 @@ ul.task-list li input[type="checkbox"] {
 </script><link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../site_libs/viz-1.8.2/viz.js"></script><link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
-div.callout-group.callout {
-  border-left-color: #7c3aed;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(124, 58, 237, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #059669;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(5, 150, 105, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
 div.callout-facilitator.callout {
-  border-left-color: #d97706;
+  border-left-color: #333333;
 }
 div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(217, 119, 6, 0.13);
+  background-color: rgba(51, 51, 51, 0.13);
 }
 div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  content: '📋';
+  font-family: 'Font Awesome 6 Free';
+  content: '\f46d';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #9A4665;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c0';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -145,43 +114,84 @@ div.callout-agent-potential.callout-style-default > .callout-header {
 }
 div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  content: '🤖';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #0072B2;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(0, 114, 178, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
+  font-family: 'Font Awesome 6 Free';
+  content: '\f544';
   background-image: none;
 }
 div.callout-reflect.callout {
-  border-left-color: #64748b;
+  border-left-color: #D4A03E;
 }
 div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+  background-color: rgba(212, 160, 62, 0.13);
 }
 div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
+}
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f044';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: #D4A03E;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(212, 160, 62, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
   background-image: none;
 }
 div.callout-nachlesen.callout {
-  border-left-color: #64748b;
+  border-left-color: #D4A03E;
 }
 div.callout-nachlesen.callout-style-default > .callout-header {
-  background-color: rgba(100, 116, 139, 0.13);
+  background-color: rgba(212, 160, 62, 0.13);
 }
 div.callout-nachlesen .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
-  content: '📖';
+  font-family: 'Font Awesome 6 Free';
+  content: '\f518';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: #9A4665;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f500';
   background-image: none;
 }
 </style>
+<link rel="stylesheet" href="../../styles/styles.css">
 <meta property="og:title" content="Aktivierender Einstieg – KI in der Lehre: Intermediate">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="KI in der Lehre: Intermediate">
@@ -360,10 +370,10 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 
 
 </header><section id="generierungsaktivität-5-min" class="level2"><h2 class="anchored" data-anchor-id="generierungsaktivität-5-min">Generierungsaktivität (5 Min)</h2>
-<div class="callout callout-style-simple callout-active-processing no-icon callout-titled">
+<div class="callout callout-style-default callout-active-processing callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Active-processing</span>Was macht Lernen effektiv?
@@ -381,8 +391,8 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
 </section><section id="rahmen-für-heute" class="level2"><h2 class="anchored" data-anchor-id="rahmen-für-heute">Rahmen für heute</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-68f285e40fd4f147bc1a" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-68f285e40fd4f147bc1a">{"x":{"diagram":"\ndigraph workshop_flow {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.9\n    margin = \"0.2,0.1\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 9\n    color = \"#b0b0b0\"\n    arrowsize = 0.7\n  ]\n\n  einstieg [\n    label = \"Einstieg\n10 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  teil1 [\n    label = \"Teil 1\nLernen verstehen\n\nKognitive Architektur\nSchemas & Expertise\n\n50 min\"\n    fillcolor = \"#0072B2\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  pause [\n    label = \"Pause\n15 min\"\n    fillcolor = \"#e5e7eb\"\n    fontcolor = \"#64748b\"\n    fontsize = 10\n    margin = \"0.15,0.12\"\n    style = \"filled\"\n    shape = ellipse\n  ]\n\n  teil2 [\n    label = \"Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n5-Fragen-Framework\n\n30 min\"\n    fillcolor = \"#E69F00\"\n    fontcolor = \"#222222\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  teil3 [\n    label = \"Teil 3\nPraxis\n\nAufgaben-Analyse\nPeer-Diagnose\n\n55 min\"\n    fillcolor = \"#9A4665\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  abschluss [\n    label = \"Abschluss\n15 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  einstieg -> teil1\n  teil1 -> pause\n  pause -> teil2 [label = \"  Abrufpraxis  \"]\n  teil2 -> teil3\n  teil3 -> abschluss\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-7e3278d6cb924460d612" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-7e3278d6cb924460d612">{"x":{"diagram":"\ndigraph workshop_flow {\n  graph [\n    rankdir = LR\n    fontname = \"Helvetica\"\n    bgcolor = \"transparent\"\n    nodesep = 0.6\n    ranksep = 0.9\n    margin = \"0.2,0.1\"\n  ]\n\n  node [\n    fontname = \"Helvetica\"\n    style = \"filled,rounded\"\n    fontcolor = \"white\"\n    penwidth = 0\n    shape = box\n  ]\n\n  edge [\n    fontname = \"Helvetica\"\n    fontsize = 9\n    color = \"#b0b0b0\"\n    arrowsize = 0.7\n  ]\n\n  einstieg [\n    label = \"Einstieg\n10 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  teil1 [\n    label = \"Teil 1\nLernen verstehen\n\nKognitive Architektur\nSchemas & Expertise\n\n50 min\"\n    fillcolor = \"#0072B2\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  pause [\n    label = \"Pause\n15 min\"\n    fillcolor = \"#e5e7eb\"\n    fontcolor = \"#64748b\"\n    fontsize = 10\n    margin = \"0.15,0.12\"\n    style = \"filled\"\n    shape = ellipse\n  ]\n\n  teil2 [\n    label = \"Teil 2\nKI & Lernen\n\nOffloading vs. Outsourcing\nEvaluationsparadox\n5 Leitfragen\n\n30 min\"\n    fillcolor = \"#E69F00\"\n    fontcolor = \"#222222\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  teil3 [\n    label = \"Teil 3\nPraxis\n\nAufgaben-Analyse\nPeer-Diagnose\n\n55 min\"\n    fillcolor = \"#9A4665\"\n    fontsize = 12\n    margin = \"0.25,0.18\"\n    width = 2.2\n  ]\n\n  abschluss [\n    label = \"Abschluss\n15 min\"\n    fillcolor = \"#64748b\"\n    fontsize = 11\n    margin = \"0.2,0.15\"\n  ]\n\n  einstieg -> teil1\n  teil1 -> pause\n  pause -> teil2 [label = \"  Abrufpraxis  \"]\n  teil2 -> teil3\n  teil3 -> abschluss\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>Im Beginner-Workshop haben wir gesehen: KI macht uns produktiver, aber Produktivität ist nicht Lernen. Heute verstehen wir, warum.</p>
