@@ -159,7 +159,7 @@ Speichert das Arbeitsgedächtnis eine feste Anzahl von Elementen bei voller Gena
 - **Slot-Modell**: Jedes gespeicherte Element hat volle Präzision; überschüssige Elemente fallen einfach weg
 - **Ressourcen-Modell**: Mehr Elemente = weniger Präzision für jedes einzelne; weniger Elemente = höhere Präzision
 
-**Lehrimplikation**: Eine Überladung des Arbeitsgedächtnisses führt möglicherweise nicht dazu, dass Elemente einfach *verschwinden*. Stattdessen werden alle Repräsentationen *verrauschter und weniger präzise*. Das entspricht der Erfahrung mit Studierenden, die "so ungefähr" mehrere Dinge verstehen, aber keines davon sicher beherrschen. Manchmal ist es besser, weniger Dinge gründlich zu lehren als viele Dinge oberflächlich.
+**Lehrimplikation**: Eine Überladung des Arbeitsgedächtnisses führt möglicherweise nicht dazu, dass Elemente einfach *verschwinden*. Stattdessen werden alle Repräsentationen *verrauschter und weniger präzise*. 
 :::
 
 ::: {.reflect}
