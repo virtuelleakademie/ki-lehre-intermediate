@@ -251,7 +251,7 @@ Die Abrufversuche müssen nicht benotet werden, um wirksam zu sein. Was zählt, 
 
 ## Wünschenswerte Schwierigkeiten: Wenn schwieriger besser ist
 
-Robert Bjorks Konzept der **Desirable Difficulties** [@bjorkMakingThingsHard2011] ist eines der einflussreichsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste *Leistung während des Lernens* erzeugen, auch die beste *langfristige Retention und den besten Transfer* produzieren.
+Robert Bjorks Konzept der **Desirable Difficulties** [@bjorkMakingThingsHard2011] ist eines der einflussreichsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste Leistung während des Lernens erzeugen, auch die beste langfristige Retention und den besten Transfer produzieren.
 
 Das tun sie nicht.
 
@@ -262,99 +262,11 @@ Das tun sie nicht.
 | **Leichte Bedingungen** (Massed, Blocked, Wiederlesen) | Hohe Leistung. Fühlt sich produktiv an. | Schwache Retention. Hält nicht. |
 | **Schwierige Bedingungen** (Spaced, Interleaved, Abrufpraxis) | Niedrigere Leistung. Fühlt sich frustrierend an. | Starke Retention. Dauerhaft und flexibel. |
 
-Diese Unterscheidung ist kritisch, weil **Studierende und Dozierende ihr eigenes Lernen systematisch falsch einschätzen.** Bedingungen, die sich flüssig und produktiv anfühlen, erzeugen eine Illusion des Lernens.
+Diese Unterscheidung ist kritisch, weil Studierende und Dozierende ihr eigenes Lernen systematisch falsch einschätzen. Bedingungen, die sich flüssig und produktiv anfühlen, erzeugen eine Illusion des Lernens.
 
-```{r}
-#| label: fig-lernparadox
-#| echo: false
-#| fig-width: 10
-#| fig-height: 8
+{{< include ../../resources/figures/fig-lernparadox.qmd >}}
 
-quadrants <- tibble(
-  xmin = c(0, 5, 0, 5),
-  xmax = c(5, 10, 5, 10),
-  ymin = c(5, 5, 0, 0),
-  ymax = c(10, 10, 5, 5),
-  quadrant = c(
-    "Produktive\nAnstrengung",
-    "Experten-\nEffizienz",
-    "Unproduktive\nFrustration",
-    "Illusion des\nLernens"
-  ),
-  fill_color = c(color_positive, color_sky, "#9ca3af", color_negative),
-  importance = c("ZIEL", "OK für Fortgeschrittene", "Vermeiden", "FALLE")
-)
-
-ggplot(quadrants) +
-  geom_rect(
-    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = I(fill_color)),
-    alpha = 0.3,
-    color = brand_dark,
-    linewidth = 0.8
-  ) +
-  geom_text(
-    aes(
-      x = (xmin + xmax) / 2,
-      y = (ymin + ymax) / 2 + 0.7,
-      label = quadrant
-    ),
-    size = 5.5,
-    fontface = "bold",
-    lineheight = 0.9,
-    color = brand_dark,
-  ) +
-  geom_text(
-    aes(
-      x = (xmin + xmax) / 2,
-      y = (ymin + ymax) / 2 - 0.9,
-      label = importance
-    ),
-    size = 3.8,
-    fontface = "italic",
-    color = brand_dark,
-  ) +
-  geom_curve(
-    data = tibble(x = 8.2, y = 1.8, xend = 1.8, yend = 8.2),
-    aes(x = x, y = y, xend = xend, yend = yend),
-    arrow = arrow(length = unit(0.3, "cm"), type = "closed"),
-    curvature = -0.3,
-    color = brand_accent,
-    linewidth = 1.2
-  ) +
-  annotate(
-    "text",
-    x = 5, y = 4.3,
-    label = "Metakognitive Falle",
-    size = 4.2,
-    fontface = "bold.italic",
-    color = brand_accent,
-  ) +
-  scale_x_continuous(
-    breaks = c(2.5, 7.5),
-    labels = c("Schwierig", "Leicht"),
-    expand = c(0, 0)
-  ) +
-  scale_y_continuous(
-    breaks = c(2.5, 7.5),
-    labels = c("Wenig", "Viel"),
-    expand = c(0, 0)
-  ) +
-  labs(
-    title = "Das Lernparadox",
-    subtitle = "Subjektives Gefühl und tatsächliches Lernen können auseinanderklaffen",
-    x = "\nSubjektives Gefühl beim Lernen",
-    y = "Tatsächliches Lernen\n"
-  ) +
-  theme_workshop() +
-  theme(
-    panel.grid = element_blank(),
-    axis.line = element_line(color = brand_dark, linewidth = 0.8),
-    axis.text = element_text(size = 12, face = "bold"),
-    axis.title = element_text(size = 12),
-    plot.margin = margin(15, 15, 15, 15)
-  ) +
-  coord_fixed(ratio = 1)
-```
+Die vier Quadranten ergeben sich aus der Kombination von subjektivem Lernerleben (x-Achse) und tatsächlichem Lernerfolg (y-Achse). Produktive Anstrengung (oben links) ist das Ziel: hoher Lernerfolg bei subjektiv schwierigem Erleben. Die metakognitive Falle (unten rechts) ist das Gegenstück: Lernen fühlt sich leicht an, produziert aber wenig dauerhaftes Wissen. Der Pfeil zeigt die Gefahr der Fehleinschätzung: Wenn Leichtigkeit als Signal für Lernerfolg interpretiert wird, werden bevorzugt Strategien gewählt, die sich produktiv anfühlen, aber wenig bewirken.
 
 ### Die drei Schlüsselstrategien
 
@@ -376,11 +288,11 @@ Verschiedene Aufgabentypen während der Übung mischen statt blockweise üben.
 
 Eine Antwort generieren, bevor man sie gezeigt bekommt, selbst wenn die generierte Antwort falsch ist, verbessert das anschliessende Lernen der korrekten Antwort.
 
-**Warum es funktioniert:** Der Versuch, eine Antwort zu generieren, aktiviert relevantes Wissen, erzeugt einen Kontext der Neugierde und macht die spätere Antwort einprägsamer, besonders wenn sie der Vorhersage widerspricht (der "Hypercorrection Effect": Fehler mit hohem Vertrauen werden nach Korrektur besser erinnert als Fehler mit niedrigem Vertrauen).
+**Warum es funktioniert:** Der Versuch, eine Antwort zu generieren, aktiviert relevantes Wissen, erzeugt einen Kontext der Neugierde und macht die spätere Antwort einprägsamer [vgl. @bjorkMakingThingsHard2011], besonders wenn sie der Vorhersage widerspricht (der "Hypercorrection Effect": Fehler mit hohem Vertrauen werden nach Korrektur besser erinnert als Fehler mit niedrigem Vertrauen).
 
 ### Wann sind Schwierigkeiten "wünschenswert"?
 
-Nicht jede Schwierigkeit ist wünschenswert. Eine Schwierigkeit ist wünschenswert, wenn sie produktive kognitive Verarbeitung auslöst. Sie ist **nicht** wünschenswert, wenn sie nur Verwirrung erzeugt oder das Arbeitsgedächtnis überlastet, ohne das Lernen voranzubringen.
+Nicht jede Schwierigkeit ist wünschenswert. Eine Schwierigkeit ist wünschenswert, wenn sie produktive kognitive Verarbeitung auslöst. Sie ist nicht wünschenswert, wenn sie nur Verwirrung erzeugt oder das Arbeitsgedächtnis überlastet, ohne das Lernen voranzubringen.
 
 **Entscheidende Bedingung**: Studierende müssen genug Vorwissen haben, um sich produktiv mit der Schwierigkeit auseinanderzusetzen.
 
@@ -389,9 +301,9 @@ Nicht jede Schwierigkeit ist wünschenswert. Eine Schwierigkeit ist wünschenswe
 
 Analysiere einen deiner Kurse:
 
-1. Wo setzen Studierende hauptsächlich **Wiederlesen** ein? Wie könntest du **Abrufpraxis** einbauen?
-2. Üben Studierende Aufgabentypen **blockweise**? Könntest du **Interleaving** einführen?
-3. Gibt es Stellen, an denen Studierende **Antworten empfangen**, bevor sie selbst versucht haben? Wie könntest du den **Generierungseffekt** nutzen?
+1. Wo setzen Studierende hauptsächlich Wiederlesen ein? Wie könntest du Abrufpraxis einbauen?
+2. Üben Studierende Aufgabentypen blockweise? Könntest du Interleaving einführen?
+3. Gibt es Stellen, an denen Studierende Antworten empfangen, bevor sie selbst versucht haben? Wie könntest du den Generierungseffekt nutzen?
 
 Identifiziere eine konkrete Änderung, die du umsetzen könntest.
 :::
@@ -399,7 +311,7 @@ Identifiziere eine konkrete Änderung, die du umsetzen könntest.
 
 ## Studierenden beibringen, wie Lernen funktioniert
 
-Die Standard-Lernstrategien der Studierenden sind kontraproduktiv, weil sie **Vertrautheit mit Lernen verwechseln** [vgl. @dunloskyImprovingStudentsLearning2013].
+Viele Standard-Lernstrategien der Studierenden sind kontraproduktiv, weil sie Vertrautheit mit Lernen verwechseln [vgl. @dunloskyImprovingStudentsLearning2013].
 
 | Was Studierende tun | Was tatsächlich funktioniert |
 |---|---|

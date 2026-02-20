@@ -101,6 +101,30 @@ div.csl-indent {
     document.body.classList.add('hypothesis-enabled');
   });
 </script><style>
+div.callout-agent-potential.callout {
+  border-left-color: #9A4665;
+}
+div.callout-agent-potential.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f544';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: #9A4665;
 }
@@ -125,18 +149,6 @@ div.callout-facilitator.callout-style-default .callout-icon::before, div.callout
   content: '\f46d';
   background-image: none;
 }
-div.callout-agent-potential.callout {
-  border-left-color: #9A4665;
-}
-div.callout-agent-potential.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f544';
-  background-image: none;
-}
 div.callout-nachlesen.callout {
   border-left-color: #D4A03E;
 }
@@ -147,30 +159,6 @@ div.callout-nachlesen .callout-toggle::before {  background-image: url('data:ima
 div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f518';
-  background-image: none;
-}
-div.callout-active-processing.callout {
-  border-left-color: #9A4665;
-}
-div.callout-active-processing.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f044';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #9A4665;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f500';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -185,6 +173,18 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '\e2ca';
   background-image: none;
 }
+div.callout-pair.callout {
+  border-left-color: #9A4665;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f500';
+  background-image: none;
+}
 div.callout-reflect.callout {
   border-left-color: #D4A03E;
 }
@@ -197,16 +197,16 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '\f0eb';
   background-image: none;
 }
-div.callout-individual.callout {
+div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
-div.callout-individual.callout-style-default > .callout-header {
+div.callout-active-processing.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f007';
+  content: '\f044';
   background-image: none;
 }
 </style>
@@ -750,7 +750,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </div>
 </div>
 </section></section><section id="wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist" class="level2"><h2 class="anchored" data-anchor-id="wünschenswerte-schwierigkeiten-wenn-schwieriger-besser-ist">Wünschenswerte Schwierigkeiten: Wenn schwieriger besser ist</h2>
-<p>Robert Bjorks Konzept der <strong>Desirable Difficulties</strong> <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span> ist eines der einflussreichsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste <em>Leistung während des Lernens</em> erzeugen, auch die beste <em>langfristige Retention und den besten Transfer</em> produzieren.</p>
+<p>Robert Bjorks Konzept der <strong>Desirable Difficulties</strong> <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span> ist eines der einflussreichsten Prinzipien der Lernforschung. Es stellt eine tief verwurzelte Annahme in Frage: dass Bedingungen, die die beste Leistung während des Lernens erzeugen, auch die beste langfristige Retention und den besten Transfer produzieren.</p>
 <p>Das tun sie nicht.</p>
 <section id="die-performance-learning-unterscheidung" class="level3"><h3 class="anchored" data-anchor-id="die-performance-learning-unterscheidung">Die Performance-Learning-Unterscheidung</h3>
 <table class="caption-top table">
@@ -779,19 +779,16 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </tr>
 </tbody>
 </table>
-<p>Diese Unterscheidung ist kritisch, weil <strong>Studierende und Dozierende ihr eigenes Lernen systematisch falsch einschätzen.</strong> Bedingungen, die sich flüssig und produktiv anfühlen, erzeugen eine Illusion des Lernens.</p>
+<p>Diese Unterscheidung ist kritisch, weil Studierende und Dozierende ihr eigenes Lernen systematisch falsch einschätzen. Bedingungen, die sich flüssig und produktiv anfühlen, erzeugen eine Illusion des Lernens.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-lernparadox" class="quarto-float quarto-figure quarto-figure-center anchored" width="960">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-lernparadox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="index_files/figure-html/fig-lernparadox-1.png" id="fig-lernparadox" class="img-fluid figure-img" width="960">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-lernparadox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1
-</figcaption></figure>
+<div>
+<figure class="figure"><p><img src="index_files/figure-html/lernparadox-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
 </div>
 </div>
 </div>
+<p>Die vier Quadranten ergeben sich aus der Kombination von subjektivem Lernerleben (x-Achse) und tatsächlichem Lernerfolg (y-Achse). Produktive Anstrengung (oben links) ist das Ziel: hoher Lernerfolg bei subjektiv schwierigem Erleben. Die metakognitive Falle (unten rechts) ist das Gegenstück: Lernen fühlt sich leicht an, produziert aber wenig dauerhaftes Wissen. Der Pfeil zeigt die Gefahr der Fehleinschätzung: Wenn Leichtigkeit als Signal für Lernerfolg interpretiert wird, werden bevorzugt Strategien gewählt, die sich produktiv anfühlen, aber wenig bewirken.</p>
 </section><section id="die-drei-schlüsselstrategien" class="level3"><h3 class="anchored" data-anchor-id="die-drei-schlüsselstrategien">Die drei Schlüsselstrategien</h3>
 <section id="spacing-verteiltes-lernen" class="level4"><h4 class="anchored" data-anchor-id="spacing-verteiltes-lernen">1. Spacing (Verteiltes Lernen)</h4>
 <p>Lerneinheiten über die Zeit verteilen statt zusammenpressen. Derselbe Zeitaufwand, aber deutlich unterschiedliche Ergebnisse.</p>
@@ -802,9 +799,9 @@ Abbildung&nbsp;1
 <p><em>Hinweis</em>: Interleaving ist am wirksamsten, wenn Kategorien oder Aufgabentypen leicht miteinander verwechselt werden können; der Vorteil ist kleiner für stark verschiedene Kategorien.</p>
 </section><section id="generation-generierungseffekt" class="level4"><h4 class="anchored" data-anchor-id="generation-generierungseffekt">3. Generation (Generierungseffekt)</h4>
 <p>Eine Antwort generieren, bevor man sie gezeigt bekommt, selbst wenn die generierte Antwort falsch ist, verbessert das anschliessende Lernen der korrekten Antwort.</p>
-<p><strong>Warum es funktioniert:</strong> Der Versuch, eine Antwort zu generieren, aktiviert relevantes Wissen, erzeugt einen Kontext der Neugierde und macht die spätere Antwort einprägsamer, besonders wenn sie der Vorhersage widerspricht (der “Hypercorrection Effect”: Fehler mit hohem Vertrauen werden nach Korrektur besser erinnert als Fehler mit niedrigem Vertrauen).</p>
+<p><strong>Warum es funktioniert:</strong> Der Versuch, eine Antwort zu generieren, aktiviert relevantes Wissen, erzeugt einen Kontext der Neugierde und macht die spätere Antwort einprägsamer <span class="citation" data-cites="bjorkMakingThingsHard2011">(vgl. <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork und Bjork 2011</a>)</span>, besonders wenn sie der Vorhersage widerspricht (der “Hypercorrection Effect”: Fehler mit hohem Vertrauen werden nach Korrektur besser erinnert als Fehler mit niedrigem Vertrauen).</p>
 </section></section><section id="wann-sind-schwierigkeiten-wünschenswert" class="level3"><h3 class="anchored" data-anchor-id="wann-sind-schwierigkeiten-wünschenswert">Wann sind Schwierigkeiten “wünschenswert”?</h3>
-<p>Nicht jede Schwierigkeit ist wünschenswert. Eine Schwierigkeit ist wünschenswert, wenn sie produktive kognitive Verarbeitung auslöst. Sie ist <strong>nicht</strong> wünschenswert, wenn sie nur Verwirrung erzeugt oder das Arbeitsgedächtnis überlastet, ohne das Lernen voranzubringen.</p>
+<p>Nicht jede Schwierigkeit ist wünschenswert. Eine Schwierigkeit ist wünschenswert, wenn sie produktive kognitive Verarbeitung auslöst. Sie ist nicht wünschenswert, wenn sie nur Verwirrung erzeugt oder das Arbeitsgedächtnis überlastet, ohne das Lernen voranzubringen.</p>
 <p><strong>Entscheidende Bedingung</strong>: Studierende müssen genug Vorwissen haben, um sich produktiv mit der Schwierigkeit auseinanderzusetzen.</p>
 <div class="callout callout-style-default callout-reflect callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -818,15 +815,15 @@ Abbildung&nbsp;1
 <div class="callout-body-container callout-body">
 <p>Analysiere einen deiner Kurse:</p>
 <ol type="1">
-<li>Wo setzen Studierende hauptsächlich <strong>Wiederlesen</strong> ein? Wie könntest du <strong>Abrufpraxis</strong> einbauen?</li>
-<li>Üben Studierende Aufgabentypen <strong>blockweise</strong>? Könntest du <strong>Interleaving</strong> einführen?</li>
-<li>Gibt es Stellen, an denen Studierende <strong>Antworten empfangen</strong>, bevor sie selbst versucht haben? Wie könntest du den <strong>Generierungseffekt</strong> nutzen?</li>
+<li>Wo setzen Studierende hauptsächlich Wiederlesen ein? Wie könntest du Abrufpraxis einbauen?</li>
+<li>Üben Studierende Aufgabentypen blockweise? Könntest du Interleaving einführen?</li>
+<li>Gibt es Stellen, an denen Studierende Antworten empfangen, bevor sie selbst versucht haben? Wie könntest du den Generierungseffekt nutzen?</li>
 </ol>
 <p>Identifiziere eine konkrete Änderung, die du umsetzen könntest.</p>
 </div>
 </div>
 </section></section><section id="studierenden-beibringen-wie-lernen-funktioniert" class="level2"><h2 class="anchored" data-anchor-id="studierenden-beibringen-wie-lernen-funktioniert">Studierenden beibringen, wie Lernen funktioniert</h2>
-<p>Die Standard-Lernstrategien der Studierenden sind kontraproduktiv, weil sie <strong>Vertrautheit mit Lernen verwechseln</strong> <span class="citation" data-cites="dunloskyImprovingStudentsLearning2013">(vgl. <a href="#ref-dunloskyImprovingStudentsLearning2013" role="doc-biblioref">Dunlosky u.&nbsp;a. 2013</a>)</span>.</p>
+<p>Viele Standard-Lernstrategien der Studierenden sind kontraproduktiv, weil sie Vertrautheit mit Lernen verwechseln <span class="citation" data-cites="dunloskyImprovingStudentsLearning2013">(vgl. <a href="#ref-dunloskyImprovingStudentsLearning2013" role="doc-biblioref">Dunlosky u.&nbsp;a. 2013</a>)</span>.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
