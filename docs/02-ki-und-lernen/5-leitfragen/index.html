@@ -113,16 +113,16 @@ div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.c
   content: '\f500';
   background-image: none;
 }
-div.callout-active-processing.callout {
+div.callout-group.callout {
   border-left-color: #9A4665;
 }
-div.callout-active-processing.callout-style-default > .callout-header {
+div.callout-group.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f044';
+  content: '\f0c0';
   background-image: none;
 }
 div.callout-facilitator.callout {
@@ -149,18 +149,6 @@ div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-n
   content: '\f518';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: #D4A03E;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(212, 160, 62, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
-  background-image: none;
-}
 div.callout-individual.callout {
   border-left-color: #9A4665;
 }
@@ -173,16 +161,16 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '\f007';
   background-image: none;
 }
-div.callout-agent-potential.callout {
+div.callout-active-processing.callout {
   border-left-color: #9A4665;
 }
-div.callout-agent-potential.callout-style-default > .callout-header {
+div.callout-active-processing.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f544';
+  content: '\f044';
   background-image: none;
 }
 div.callout-pro-tip.callout {
@@ -197,16 +185,28 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '\e2ca';
   background-image: none;
 }
-div.callout-group.callout {
+div.callout-reflect.callout {
+  border-left-color: #D4A03E;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(212, 160, 62, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
+div.callout-agent-potential.callout {
   border-left-color: #9A4665;
 }
-div.callout-group.callout-style-default > .callout-header {
+div.callout-agent-potential.callout-style-default > .callout-header {
   background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-agent-potential .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-agent-potential.callout-style-default .callout-icon::before, div.callout-agent-potential.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
+  content: '\f544';
   background-image: none;
 }
 </style>
@@ -484,10 +484,10 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 </tbody>
 </table>
 <section id="die-vier-operationen-im-detail" class="level4"><h4 class="anchored" data-anchor-id="die-vier-operationen-im-detail">Die vier Operationen im Detail</h4>
-<p><strong>Abrufen</strong> bedeutet, gespeichertes Wissen ohne externe Hilfe zu aktivieren. Jeder erfolgreiche Abruf stärkt die Gedächtnisspur und macht zukünftigen Abruf schneller und zuverlässiger. Deshalb erzeugt Abrufpraxis (Testing Effect) andere Lernergebnisse als blosses Wiederlesen, selbst wenn die Information identisch ist: Der Abrufversuch selbst verändert das Gedächtnis. Liefert die KI die Antwort, wird kein Abrufprozess im Gedächtnis der Studierenden ausgelöst. Die Aktivierungsstärkung bleibt aus, und nicht abgerufenes Wissen wird mit der Zeit funktional unzugänglich.</p>
+<p><strong>Abrufen</strong> bedeutet, gespeichertes Wissen ohne externe Hilfe zu aktivieren. Jeder erfolgreiche Abruf stärkt die Gedächtnisspur und macht zukünftigen Abruf schneller und zuverlässiger. Deshalb erzeugt Abrufpraxis (Testing Effect) andere Lernergebnisse als blosses Wiederlesen, selbst wenn die Information identisch ist: Der Abrufversuch selbst verändert das Gedächtnis. Liefert die KI die Antwort, wird kein Abrufprozess im Gedächtnis der Studierenden ausgelöst. Die Aktivierungsstärkung bleibt aus, und nicht abgerufenes Wissen wird mit der Zeit unzugänglich.</p>
 <p>Beim <strong>Generieren</strong> produzieren Studierende aus eigenen Ressourcen eine Antwort, Lösung oder Hypothese, bevor sie externe Inputs sehen. Das ist aufwendiger als blosser Abruf, weil vorhandene Wissenselemente zu einer neuen Konfiguration zusammengesetzt werden müssen. Selbst generiertes Material wird besser behalten als passiv gelesenes (Generation Effect), weil die Erzeugung eine tiefere Verarbeitung der Beziehungen zwischen Elementen erzwingt. Generieren ist der Beginn der Wissenskompilation. Liefert die KI die Lösung, durchlaufen die Studierenden diesen Zusammensetzungsprozess nie. Jeder eigene Generierungsversuch, auch ein fehlerhafter, trainiert die Prozeduren, die diesen Zusammenbau steuern. Ein fehlerhafter Versuch mit anschliessendem Feedback ist weitaus produktiver als kein Versuch.</p>
 <p>Von den vier Operationen ist <strong>Verknüpfen</strong> am engsten mit der Schemabildung verbunden: mehrere Elemente, Ideen oder Perspektiven gleichzeitig in Beziehung setzen, vergleichen, einordnen, integrieren, sich selbst erklären. Schemata <em>sind</em> relationale Strukturen. Elementinteraktivität <span class="citation" data-cites="chenCognitiveLoadTheory2023">(<a href="#ref-chenCognitiveLoadTheory2023" role="doc-biblioref">Chen, Paas, und Sweller 2023</a>)</span> beschreibt genau diese Anforderung: Hohe Elementinteraktivität bedeutet, dass viele Elemente gleichzeitig verarbeitet werden müssen. Wenn Studierende zwei Argumente vergleichen, ein Modell auf Daten anwenden oder Befunde aus mehreren Quellen zu einer Synthese zusammenführen, bauen sie die relationale Struktur auf, die ein Schema ausmacht. Wenn KI die Integration übernimmt (die Synthese schreibt, den Vergleich zieht, die Verbindung herstellt), erhalten die Studierenden das <em>Produkt</em> relationaler Verarbeitung, ohne die Verarbeitung selbst geleistet zu haben. Die relationale Struktur existiert im KI-Output, aber nicht im Langzeitgedächtnis der Studierenden. Das ist die am schwersten erkennbare Form von Outsourcing, weil das Produkt nach Verständnis <em>aussieht</em>.</p>
-<p>Die eigene Arbeit gegen interne Kriterien prüfen, Fehler erkennen, Konfidenz einschätzen, das eigene Wissen kalibrieren: Das ist <strong>Überwachen</strong>. Genaues Überwachen ist selbst eine Kompetenz, die sich mit Fachexpertise entwickelt. Anfänger sind schlechte Kalibrierer, weil ihnen die Schemata fehlen, die als Bewertungskriterien dienen (das ist die direkte Verbindung zum Evaluationsparadox). Übernimmt die KI die Evaluation (Grammatikprüfung, Logikcheck, Faktencheck), werden die eigenen Fehlererkennungsprozesse nicht trainiert. Langfristig entsteht Abhängigkeit von externer Überwachung. Metakognitive Kalibrierung ist einer der stärksten Prädiktoren für effektives selbstreguliertes Lernen.</p>
+<p>Die eigene Arbeit gegen interne Kriterien prüfen, Fehler erkennen, Konfidenz einschätzen, das eigene Wissen kalibrieren: Das ist <strong>Überwachen</strong>. Genaues Überwachen ist selbst eine Kompetenz, die sich mit Fachexpertise entwickelt. Anfänger sind schlecht kalibriert, weil ihnen die Schemata fehlen, die als Bewertungskriterien dienen (das ist die direkte Verbindung zum Evaluationsparadox). Übernimmt die KI die Evaluation (Grammatikprüfung, Logikcheck, Faktencheck), werden die eigenen Fehlererkennungsprozesse nicht trainiert. Langfristig entsteht Abhängigkeit von externer Überwachung. Metakognitive Kalibrierung ist einer der stärksten Prädiktoren für effektives selbstreguliertes Lernen.</p>
 </section><section id="wie-analysiert-man-eine-aufgabe" class="level4"><h4 class="anchored" data-anchor-id="wie-analysiert-man-eine-aufgabe">Wie analysiert man eine Aufgabe?</h4>
 <p>Nimm die Aufgabenstellung. Für jeden Schritt, den Studierende durchführen müssen, frage: Welche kognitive Operation ist hier primär gefordert? Die meisten Aufgaben erfordern mehrere Operationen. Die Frage ist: Welche davon tragen das Lernen?</p>
 <p><em>Beispiel Fallstudie Pflege:</em> Studierende müssen Symptome <strong>abrufen</strong>, eine Differentialdiagnose <strong>generieren</strong>, Befunde <strong>verknüpfen</strong> und ihr Urteil <strong>überwachen</strong>. Alle vier Operationen sind lernrelevant. Wenn KI die Diagnose liefert, werden Generieren und Verknüpfen eliminiert.</p>
@@ -512,7 +512,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <li>
 <strong>Niedrige Elementinteraktivität</strong> (Elemente können unabhängig verarbeitet werden): Quellen formatieren, Fachbegriffe nachschlagen, Daten bereinigen, Grammatikprüfung. Hier handelt es sich um Routineanteile, die delegierbar sind.</li>
 </ul>
-<p>Diese Zerlegung macht die Analyse trennscharf: Du schützt die Aufgabenanteile, die Schemata aufbauen, und entlastest Studierende von Routinearbeit, die keine lernrelevante Verarbeitung erfordert.</p>
+<p>So wird die Analyse konkret: Die Aufgabenanteile, die Schemata aufbauen, bleiben bei den Studierenden. Routinearbeit, die keine lernrelevante Verarbeitung erfordert, kann delegiert werden.</p>
 <section id="reality-check" class="level4"><h4 class="anchored" data-anchor-id="reality-check">Reality Check</h4>
 <p>Ein praktischer Weg: Gib die Aufgabe testweise an ein KI-Tool. Vergleiche, was es produziert, mit der Operationsliste aus Frage 2. Welche Operationen hat die KI durchgeführt? Genau diese sind gefährdet.</p>
 </section><section id="aufgabenformat-als-schutz" class="level4"><h4 class="anchored" data-anchor-id="aufgabenformat-als-schutz">Aufgabenformat als Schutz</h4>
@@ -582,7 +582,7 @@ Warnung
 </tr>
 <tr class="odd">
 <td><strong>3. KI-Vergleich</strong></td>
-<td>Variabel (kann falsch sein; Evaluationsparadox greift)</td>
+<td>Variabel (kann falsch sein; Evaluationsparadox ist relevant)</td>
 <td>Hoch</td>
 <td>Fortgeschrittene mit genug Vorwissen, um Fehler zu erkennen</td>
 </tr>
