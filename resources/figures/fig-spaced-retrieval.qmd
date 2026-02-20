@@ -1,0 +1,62 @@
+```{r}
+#| label: spaced-retrieval
+#| echo: false
+#| fig-width: 9
+#| fig-height: 3.5
+source(here::here("resources/viz-setup.R"))
+
+schedule <- tibble(
+  thema = rep(c("Thema A", "Thema B", "Thema C"), each = 12),
+  woche = rep(1:12, 3),
+  typ = NA_character_
+)
+
+schedule <- schedule |>
+  mutate(typ = case_when(
+    thema == "Thema A" & woche == 1 ~ "Vermitteln",
+    thema == "Thema A" & woche %in% c(2, 4, 8, 12) ~ "Abrufen",
+    thema == "Thema B" & woche == 2 ~ "Vermitteln",
+    thema == "Thema B" & woche %in% c(3, 5, 9, 12) ~ "Abrufen",
+    thema == "Thema C" & woche == 3 ~ "Vermitteln",
+    thema == "Thema C" & woche %in% c(4, 6, 10, 12) ~ "Abrufen",
+    .default = NA_character_
+  ))
+
+schedule_plot <- schedule |>
+  filter(!is.na(typ))
+
+ggplot(schedule_plot, aes(x = woche, y = fct_rev(thema))) +
+  geom_point(
+    aes(shape = typ, fill = typ),
+    size = 5,
+    color = brand_dark,
+    stroke = 0.6
+  ) +
+  scale_shape_manual(
+    values = c("Vermitteln" = 22, "Abrufen" = 21),
+    name = NULL
+  ) +
+  scale_fill_manual(
+    values = c("Vermitteln" = brand_accent, "Abrufen" = brand_gold),
+    name = NULL
+  ) +
+  scale_x_continuous(
+    breaks = 1:12,
+    labels = 1:12,
+    expand = expansion(add = 0.5)
+  ) +
+  labs(
+    title = "Gestaffelter Abrufzeitplan",
+    subtitle = "Abstände zwischen Abrufgelegenheiten wachsen über die Zeit",
+    x = "Woche",
+    y = NULL
+  ) +
+  theme_workshop() +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.major.x = element_line(color = "#e5e7eb", linewidth = 0.2),
+    axis.text.y = element_text(face = "bold", size = 11),
+    legend.position = "bottom",
+    legend.text = element_text(size = 11)
+  )
+```

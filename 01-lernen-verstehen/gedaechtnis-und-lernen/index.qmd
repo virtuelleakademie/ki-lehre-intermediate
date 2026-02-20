@@ -81,7 +81,7 @@ Einer der wichtigsten Prozesse beim Lernen ist die Entwicklung von stark **episo
 
 ### Von episodischer Enkodierung zu semantischem Wissen
 
-Wenn Studierende zum ersten Mal neues Material begegnen, sind ihre Erinnerungen stark episodisch: gebunden an den spezifischen Kontext des Lernens. Sie erinnern sich an die *Vorlesung*, das *Beispiel*, die *Folie*. Mit der Zeit und mit variierten Erfahrungen wird Wissen allmählich dekontextualisiert, es löst sich von spezifischen Episoden und wird Teil der allgemeinen Wissensstruktur.
+Wenn Studierende zum ersten Mal neuem Material begegnen, sind ihre Erinnerungen stark episodisch: gebunden an den spezifischen Kontext des Lernens. Sie erinnern sich an die *Vorlesung*, das *Beispiel*, die *Folie*. Mit der Zeit und mit variierten Erfahrungen wird Wissen allmählich dekontextualisiert, es löst sich von spezifischen Episoden und wird Teil der allgemeinen Wissensstruktur.
 
 *Wichtig*: Dies ist eine Vereinfachung. Die Beziehung zwischen episodischem und semantischem Gedächtnis ist bidirektional und fortlaufend, kein einfacher Einweg-Prozess. Episodische Spuren können bestehen bleiben, auch wenn sich semantisches Wissen entwickelt, und semantisches Wissen kann die episodische Enkodierung verbessern. Die praktische Implikation bleibt: Variierende Begegnungen und aktiver Abruf unterstützen die Entwicklung dekontextualisierten, transferierbaren Wissens.
 
@@ -145,13 +145,13 @@ Schemata, also organisierte Wissensstrukturen, die aus Erfahrung aufgebaut werde
 
 **Beispiel**: Studierende hören von einem Experiment mit "Kontrollgruppe" und "Interventionsgruppe". Schema-konsistentes Detail (gut erinnert): "Die Interventionsgruppe erhielt die Behandlung." Schema-fabriziertes Detail (fälschlich erinnert): "Die Teilnehmenden wurden randomisiert zugewiesen", obwohl das nie gesagt wurde, weil das Schema es erwartet.
 
-**Lehrimplikation**: Studierende werden neue Information systematisch **an ihre bestehenden Schemata anpassen**. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu *präsentieren* reicht oft nicht; du musst das Missverständnis **explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen**.
+**Lehrimplikation**: Studierende werden neue Information systematisch an ihre bestehenden Schemata anpassen. Das ist keine Nachlässigkeit, so funktioniert Gedächtnis. Einfach korrekte Information zu präsentieren reicht oft nicht; du musst das Missverständnis explizit aktivieren, kognitiven Konflikt erzeugen und dann auflösen.
 
 ### Activate, Conflict, Resolve
 
-Wenn Studierende falsche Vorstellungen mitbringen, versagt die einfache Korrektur. Schemata schreiben die neue Information still um, um zum bestehenden Verständnis zu passen.
+Wenn Studierende falsche Vorstellungen mitbringen, reicht es nicht, die korrekte Erklärung zu präsentieren. Neue Information wird durch bestehende Schemata gefiltert und dabei so verarbeitet, dass sie zum bisherigen Verständnis passt. Das Missverständnis überlebt die Korrektur, wenn es nie direkt herausgefordert wird.
 
-**Beispiel**: Student glaubt "Schwerere Objekte fallen schneller". Dozent präsentiert: "Alle Objekte fallen im Vakuum gleich schnell." Schema schreibt um: "Also ist der Unterschied im Vakuum kleiner." **Falsch, das Missverständnis überlebt.**
+**Beispiel**: Ein Studierender glaubt, der p-Wert sei die Wahrscheinlichkeit, dass die Nullhypothese stimmt. Die Dozentin erklärt korrekt: "Der p-Wert ist die Wahrscheinlichkeit, diese oder extremere Daten zu beobachten, *gegeben* die Nullhypothese ist wahr." Der Studierende enkodiert das durch sein bestehendes Schema und versteht: "Also sagt p = 0.03, dass die Nullhypothese nur zu 3% stimmt." Die korrekte Definition wurde gehört, aber durch das bestehende Schema verzerrt enkodiert.
 
 Die Lösung:
 
@@ -176,7 +176,7 @@ Enkodierung ist nicht das Ende der Geschichte. Nach dem initialen Lernen durchla
 
 ### Zentrale Konsolidierungsprinzipien
 
-**Schlaf konsolidiert Erinnerungen.** Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den *Kern* des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails [vgl. @oakleyMemoryParadoxWhy2025]. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.
+**Schlaf konsolidiert Erinnerungen.** Im Schlaf werden kürzlich enkodierte Erinnerungen reaktiviert und mit bestehenden Wissensstrukturen integriert. Schlaf scheint bevorzugt den *Kern* des gelernten Materials zu konsolidieren, also die zugrundeliegenden Muster und Regeln, eher als Oberflächendetails [@diekelmannMemoryFunctionSleep2010; vgl. @oakleyMemoryParadoxWhy2025]. (Dies ist stärker belegt für neutrales deklaratives Material; Schlaf kann unter bestimmten Bedingungen, besonders bei emotionalem Material, auch spezifische Details konsolidieren.) Lernen, das über mehrere Tage verteilt wird (mit Schlaf zwischen den Sitzungen), produziert qualitativ anderes Gedächtnis als dieselbe Lernmenge in einer einzigen Sitzung.
 
 **Erinnerungen werden stabiler, aber weniger detailliert.** Frisch enkodierte Erinnerungen sind reich an Details, aber fragil. Mit fortschreitender Konsolidierung werden Erinnerungen stabiler und abstrakter: Der Kern bleibt erhalten, die Details verblassen. Das ist kein Fehler; es ist ein Feature. Abstraktion ist das, was Wissen transferierbar macht.
 
@@ -187,16 +187,9 @@ Enkodierung ist nicht das Ende der Geschichte. Nach dem initialen Lernen durchla
 ::: {.callout-tip collapse="true"}
 ### Gestaffelter Abrufzeitplan
 
-Ein bewährtes Prinzip für die Kursgestaltung:
+Ein bewährtes Prinzip für die Kursgestaltung: Jedes Thema wird nach der Vermittlung in wachsenden Abständen abgerufen.
 
-```
-Woche:  1  2  3  4  5  6  7  8  9  10  11  12
-A:      *  R  .  R  .  .  .  R  .  .   .   R
-B:      .  *  R  .  R  .  .  .  R  .   .   R
-C:      .  .  *  R  .  R  .  .  .  R   .   R
-
-* = Vermitteln   R = Abrufen   Abstände wachsen über die Zeit
-```
+{{< include ../../resources/figures/fig-spaced-retrieval.qmd >}}
 
 Jeder Abruf beinhaltet teilweises Vergessen &rarr; anstrengungsreiches Erinnern &rarr; Restabilisierung. Die Abstände wachsen, weil jeder erfolgreiche Abruf die Spur dauerhafter macht.
 
@@ -206,12 +199,11 @@ Jeder Abruf beinhaltet teilweises Vergessen &rarr; anstrengungsreiches Erinnern 
 
 ## Abruf ist ein Lernereignis
 
-Einer der folgenreichsten Befunde für die Hochschullehre [@roedigerCriticalRoleRetrieval2011]: **Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er *erzeugt* Lernen.**
+
+Einer der folgenreichsten Befunde für die Hochschullehre [@roedigerCriticalRoleRetrieval2011]: Abruf von Information aus dem Gedächtnis misst nicht nur Lernen, er *erzeugt* Lernen.
 
 ### Der Testing Effect
 Empirische Befunde legen nahe, dass die Handlung des Abrufens, also eine Frage beantworten, eine Antwort generieren, ein Problem aus dem Gedächtnis lösen, die Gedächtnisspur wirksamer verstärkt als erneutes Studieren desselben Materials [vgl. @roedigerCriticalRoleRetrieval2011; @roedigerTestenhancedLearningTaking2006].
-
-@roedigerTestenhancedLearningTaking2006:
 
 | Bedingung | Erinnerung nach 1 Woche |
 |---|---|
@@ -219,7 +211,7 @@ Empirische Befunde legen nahe, dass die Handlung des Abrufens, also eine Frage b
 | 3× Studieren + 1× Testen | ~56% |
 | 1× Studieren + 3× Testen | **~61%** |
 
-Exakte Werte variieren über Studien hinweg, aber das Muster ist robust: Das Ersetzen von Wiederlesen durch Abrufpraxis verbessert die Langzeitretention substanziell.
+: Daten basierend auf @roedigerTestenhancedLearningTaking2006. Exakte Werte variieren über Studien hinweg, aber das Muster ist robust: Das Ersetzen von Wiederlesen durch Abrufpraxis verbessert die Langzeitretention substanziell.
 
 {{< include ../../resources/figures/fig-testing-effect.qmd >}}
 
@@ -232,7 +224,7 @@ Warum funktioniert Abrufpraxis?
 
 ### Abrufpraxis &ne; Prüfung
 
-Das reframed die Rolle von Tests in der Lehre. Traditionelle Sicht: Tests messen, was Studierende gelernt haben. Evidenzbasierte Sicht: **Tests sind ein Lernwerkzeug**, und ihr Wert liegt nicht primär in der Note, sondern in der Abrufpraxis, die sie bieten.
+Diese Befunde verändern die Rolle von Tests in der Lehre grundlegend. Traditionelle Sicht: Tests messen, was Studierende gelernt haben. Evidenzbasierte Sicht: Tests sind ein Lernwerkzeug, und ihr Wert liegt nicht primär in der Note, sondern in der Abrufpraxis, die sie bieten.
 
 **Praktische Umsetzung:**
 
@@ -242,7 +234,7 @@ Das reframed die Rolle von Tests in der Lehre. Traditionelle Sicht: Tests messen
 - Studierende ermutigen, sich selbst zu testen statt wiederzulesen
 - Antwortschlüssel oder Feedback bereitstellen, damit Abruffehler korrigiert werden
 
-Die Abrufversuche müssen **nicht benotet** werden, um wirksam zu sein. Was zählt, ist der Akt des Abrufens selbst.
+Die Abrufversuche müssen nicht benotet werden, um wirksam zu sein. Was zählt, ist der Akt des Abrufens selbst.
 
 ::: {.reflect}
 ### Selbsttest: Testing Effect
