@@ -183,11 +183,137 @@ Alle fünf Fragen dienen letztlich einem Ziel: **Transfer schützen.** Die Leitf
 Die Unterscheidung zwischen Offloading und Outsourcing lässt sich präzise in der Sprache der Cognitive Load Theory formulieren [@chenCognitiveLoadTheory2023]: **Offloading** reduziert *extrinsische* Elementinteraktivität, also die kognitive Arbeit, die nicht zum Lernen beiträgt (Formatierung, Quellensuche, Syntaxprüfung). Die in Frage 2 identifizierten Operationen bleiben bei den Studierenden. **Outsourcing** eliminiert *intrinsische* Elementinteraktivität, also genau die relationale Verarbeitung (Elemente gleichzeitig in Beziehung setzen), die Schemata aufbaut. Diese Präzisierung macht die Grenze zwischen sinnvoller KI-Nutzung und schädlicher KI-Nutzung analytisch bestimmbar statt nur intuitiv.
 
 
+## Ausgearbeitetes Beispiel: Multiple Regression (Statistik)
+
+Dieses Beispiel zeigt, wie Elementinteraktivität als Analysetool funktioniert: Welche Aufgabenanteile bauen Schemata auf und müssen geschützt werden? Welche sind Routine oder designbedingt und können delegiert werden?
+
+::: {.nachlesen collapse="true"}
+### Vollständige Analyse
+
+#### Die Aufgabe
+
+Statistikkurs im 2. Semester. Studierende erhalten einen Datensatz und sollen eine multiple Regression durchführen, die Prüfungsleistung aus Lernstunden und Motivation vorhersagt. Sie sollen den Output interpretieren und die Ergebnisse aufschreiben.
+
+#### Aufgabenanalyse mit den 5 Leitfragen
+
+| Frage | Analyse |
+|-------|---------|
+| 1. Lernen? | Ja, Übungsaufgabe im 2. Semester |
+| 2. Welche Denkarbeit? | Abrufen (statistische Grundkonzepte aktivieren), Generieren (eigene Interpretation formulieren), Verknüpfen (Koeffizient, Konditionierung, Skala und Signifikanz gleichzeitig in Beziehung setzen), Überwachen (eigene Interpretation auf Lücken prüfen) |
+| 3. Was übernimmt KI? | Generieren vollständig (liefert fertige Interpretation), Verknüpfen grossteils (integriert die Elemente der Interpretation). Abrufen wird umgangen (Studierende müssen Wissen nie aktivieren). Überwachen wird illusorisch (ohne eigene Interpretation fehlt der Massstab) |
+| 4. Grundlagen? | Ja. Regressionsinterpretation wird gerade aufgebaut (siehe unten) |
+| 5. Zuerst selbst? | Muss eingebaut werden (siehe Redesign unten) |
+
+#### Elementinteraktivität als Analysewerkzeug
+
+Die Aufgabe besteht aus mehreren Teilaktivitäten. Nicht alle haben dieselbe Elementinteraktivität, und genau das bestimmt, was geschützt werden muss.
+
+##### Hohe intrinsische Elementinteraktivität
+
+*Interpretation eines Regressionskoeffizienten.* Um den Satz "Pro zusätzlicher Lernstunde steigt die Prüfungsleistung um 2.3 Punkte, bei konstant gehaltener Motivation" zu verstehen, müssen Studierende gleichzeitig verarbeiten:
+
+- Was 2.3 auf der Outcome-Skala bedeutet (ist das viel?)
+- Was "bei konstant gehaltener Motivation" statistisch heisst (partielle Regression, nicht bivariate Korrelation)
+- Warum sich dieser Wert von der einfachen Korrelation zwischen Lernstunden und Prüfungsleistung unterscheidet
+- Ob p < .01 die Aussage rechtfertigt
+- Ob der Effekt praktisch relevant ist, nicht nur statistisch signifikant
+
+Diese fünf Elemente sind wechselseitig abhängig. Der Koeffizient ist ohne die Konditionierungslogik nicht interpretierbar. Die praktische Bedeutsamkeit ergibt sich nur aus der Skala. Der p-Wert ist nur im Kontext der getesteten Hypothese sinnvoll. Dieses Netzwerk gleichzeitiger Beziehungen *ist* das Konzept der multiplen Regressionsinterpretation.
+
+Und hier liegt der entscheidende Punkt: Die Verarbeitung dieser Beziehungen ist nicht einfach "schwierig". Sie ist der Mechanismus, durch den das Schema für Regressionsinterpretation entsteht. Das Schema *ist* die relationale Struktur, die kodiert, wie Koeffizient, Konditionierung, Skala und Signifikanz zusammenhängen. Jedes Mal, wenn Studierende diese Integration selbst durcharbeiten, wird das Schema elaborierter und abrufbarer. Wenn KI die Integration übernimmt, erhalten Studierende das Produkt relationaler Verarbeitung, ohne die Verarbeitung selbst geleistet zu haben. Das Schema entsteht nicht.
+
+*Multikollinearitätsdiagnose.* Studierende müssen eine kausale Kette nachvollziehen: korrelierte Prädiktoren → aufgeblähte Standardfehler → breitere Konfidenzintervalle → nicht-signifikante p-Werte, die reale Effekte verdecken. Jedes Glied der Kette ergibt nur in Bezug auf die anderen Sinn.
+
+##### Niedrige Elementinteraktivität
+
+*R-Code schreiben.* Die Syntax `lm(score ~ hours + motivation, data = df)` ist ein Template. Einmal gesehen, ist sie ein einzelner Chunk. Keine tiefe relationale Struktur.
+
+*Output-Tabelle lesen.* Den richtigen Koeffizienten in einer gedruckten Tabelle finden ist eine perzeptuelle Aufgabe, keine konzeptuelle.
+
+*APA-Ergebnisbericht.* Sobald die Interpretation steht, ist das Aufschreiben Templatearbeit: "Eine multiple Regression wurde durchgeführt... Das Modell erklärte X% der Varianz..."
+
+##### Extrinsische Elementinteraktivität (designbedingt, nicht lernrelevant)
+
+Manche Aufgabenanteile erzeugen hohe Elementinteraktivität, die nichts mit dem Lernziel zu tun hat:
+
+- *Unaufgeräumter Datensatz.* Fehlende Header, gemischte Datumsformate, unklare Kodierung fehlender Werte. All das erfordert kognitive Arbeit, die Arbeitsgedächtniskapazität verbraucht, aber kein Schema für Regressionsinterpretation aufbaut.
+- *Inkonsistente Notation.* Wenn die Vorlesung β für Populationsparameter verwendet, das Lehrbuch b für unstandardisierte und β für standardisierte Koeffizienten, und der R-Output `Estimate` anzeigt, müssen Studierende eine Dreifach-Zuordnung aufrechterhalten, während sie das Konzept verstehen sollen.
+- *Überladener Software-Output.* R's `summary(lm(...))` zeigt Residuenquantile, F-Statistiken, korrigiertes R² und weitere Grössen, die Anfänger noch nicht brauchen. Studierende müssen herausfinden, welche Zahlen relevant sind.
+
+Extrinsische Elementinteraktivität erzeugt reale kognitive Arbeit, baut aber kein Schema auf. Reduziere sie: saubere Datensätze bereitstellen, konsistente Notation verwenden, Output vereinfachen oder gezielt anleiten, welche Zeilen und Spalten relevant sind. Die frei werdende Arbeitsgedächtniskapazität steht dann für die intrinsische Verarbeitung zur Verfügung.
+
+#### Delegationsentscheidung
+
+| Schützen (hohe intrinsische Elementinteraktivität) | Delegierbar (niedrige / extrinsische Elementinteraktivität) |
+|---|---|
+| Interpretation der Koeffizienten im Kontext | R-Code schreiben |
+| "Bei konstant gehaltener Motivation" in eigenen Worten erklären | Output-Tabelle formatieren |
+| Variablenauswahl theoretisch begründen | APA-Ergebnisbericht, *nachdem* die Interpretation steht |
+| Multikollinearitätsdiagnose und deren Konsequenzen | Datenbereinigung und -aufbereitung |
+| Annahmenprüfung und Implikationen für die Schlussfolgerungen | Nachschlagen, welcher Diagnosetest passt |
+
+Die linke Spalte enthält die Aktivitäten, bei denen Schemata entstehen. Die rechte Spalte enthält Routine (niedriger intrinsischer Interaktivität) oder Designbedingtes (extrinsische Interaktivität).
+
+#### Elementinteraktivität ist expertiseabhängig
+
+Die Delegationstabelle oben gilt für Studierende im 2. Semester. Sie ist nicht fix, denn Elementinteraktivität hängt von den bestehenden Schemata ab, nicht nur vom Inhalt.
+
+Für Studierende im 2. Semester besteht die Koeffizienteninterpretation aus fünf gleichzeitig zu verarbeitenden Elementen. Die Elementinteraktivität ist hoch, weil noch kein Schema existiert, das diese Elemente zusammenfasst. Genau in dieser Situation ist KI-Delegation am schädlichsten.
+
+Für Master-Studierende, die Dutzende von Regressionsmodellen interpretiert haben, ist "Koeffizienteninterpretation" ein einzelnes Schema geworden. Was einmal fünf interagierende Elemente waren, ist jetzt eine abrufbare Einheit. Die Elementinteraktivität ist niedrig. Diese Studierenden können KI sinnvoll nutzen, um Routineinterpretationen zu beschleunigen, und ihre Aufmerksamkeit auf Modellierungsentscheidungen richten, bei denen *ihre* Elementinteraktivität noch hoch ist.
+
+Für Doktorierende in quantitativen Methoden ist sogar die Multikollinearitätsdiagnose ein einzelner Chunk. Ihre hohe Elementinteraktivität hat sich verschoben: zu Modellspezifikation, Sensitivitätsanalysen und kausaler Identifikation.
+
+Das ist derselbe Mechanismus wie beim Expertise Reversal Effect: Was Anfängern hilft, wird für Fortgeschrittene redundant. Die Delegationsentscheidung muss relativ zum Kompetenzniveau getroffen werden. Dieselbe Aufgabenkomponente, die für Anfänger geschützt werden muss, ist für Experten delegierbar. Und genau das ist die Brücke zu Frage 4 der Leitfragen: "Werden noch Grundlagen aufgebaut?" bestimmt, ob die Elementinteraktivität für diese Studierenden noch hoch genug ist, dass Delegation die Schemabildung verhindern würde.
+
+#### Wenn die intrinsische Elementinteraktivität zu hoch ist: Isolated Elements Strategy
+
+"Nicht an KI delegieren" ist nur die halbe Antwort, wenn die Elementinteraktivität hoch ist. Die andere Hälfte ist Scaffolding.
+
+Wenn Studierende im 2. Semester zum ersten Mal eine vollständige Koeffizienteninterpretation versuchen, kann die Aufgabe das Arbeitsgedächtnis überlasten. Fünf gleichzeitig interagierende Elemente sind viel für jemanden ohne relevante Schemata. Die CLT-basierte Antwort ist die Isolated Elements Strategy [@pollockAssimilatingComplexInformation2002]: Teilelemente zunächst isoliert vermitteln, bevor die gleichzeitige Integration verlangt wird.
+
+Konkret:
+
+1. Zuerst vermitteln, was ein Regressionskoeffizient in einer einfachen (bivariaten) Regression bedeutet, wo "bei konstant gehaltener..." noch nicht relevant ist. Die Studierenden bauen ein Schema für "b = Veränderung in Y pro Einheit X" auf.
+2. Dann vermitteln, was "bei konstant gehaltener Motivation" konzeptuell bedeutet, anhand eines konkreten Beispiels ohne statistischen Output.
+3. Dann vermitteln, wie p-Werte gelesen werden und welche Hypothese getestet wird.
+4. Erst dann alle Elemente in einer vollständigen multiplen Regressionsinterpretation kombinieren.
+
+In jeder Phase ist die Elementinteraktivität handhabbar, weil weniger gleichzeitige Interaktionen verarbeitet werden müssen. Wenn Studierende die vollständige Aufgabe erreichen, haben sie Teilschemata aufgebaut, die die effektive Elementinteraktivität reduzieren.
+
+Die Implikation für KI-Delegation: In den Phasen 1 bis 3 haben die Teilaufgaben *designbedingt* niedrigere Elementinteraktivität, aber sie sind nach wie vor intrinsisch zum Lernziel. Sie sollten nicht delegiert werden. KI-Delegation ist angemessen für Aufgabenkomponenten, die bereits automatisiert sind (R-Code schreiben, Formatieren), nicht für Komponenten, die als Scaffold auf dem Weg zur Gesamtaufgabe gerade gelernt werden.
+
+#### Evaluationsparadox
+
+Studierende, die noch kein Schema für die Ceteris-Paribus-Interpretation aufgebaut haben, können nicht beurteilen, ob ChatGPTs Interpretation eines Regressionskoeffizienten korrekt ist. Die KI könnte produzieren: "Lernstunden hatten einen signifikanten positiven Effekt auf die Prüfungsleistung (b = 2.3, p < .01)." Das klingt korrekt, lässt aber die Konditionierungslogik weg, genau das, was multiple Regression von einer bivariaten Korrelation unterscheidet. Ohne das Schema können Studierende nicht sehen, was fehlt, weil das Erkennen der Auslassung genau das Wissen erfordert, das die Interpretationsübung aufbauen sollte.
+
+Das ist das Evaluationsparadox in konkreter Form: Die Studierenden, die am ehesten die Interpretation an KI delegieren (weil sie sie schwierig finden), sind genau die Studierenden, die am wenigsten in der Lage sind, die KI-Antwort zu beurteilen. Und was die Aufgabe schwierig macht, ist genau die hohe intrinsische Elementinteraktivität, die gleichzeitige Verarbeitung vieler wechselseitig abhängiger Elemente, die das Lernen ausmacht.
+
+Master-Studierende, die das Schema aufgebaut haben, *können* die Auslassung der KI erkennen, weil sie eine eigene interne Repräsentation haben, mit der sie vergleichen. Studierende im 2. Semester können das nicht. Deshalb ist Frage 4 ("Werden noch Grundlagen aufgebaut?") so zentral: Sie bestimmt, ob die Elementinteraktivität hoch genug ist, dass Delegation die Schemabildung verhindert, und ob den Studierenden die Schemata fehlen, um KI-Output zu evaluieren.
+
+::: {.pro-tip collapse="true"}
+### Redesign der Aufgabe
+
+Die ursprüngliche Aufgabe ("Führe eine multiple Regression durch, interpretiere den Output und schreibe die Ergebnisse auf") schützt keine der lernrelevanten Operationen vor KI-Delegation. Ein Redesign in drei Phasen:
+
+*Phase 1 (Isolated Elements).* Studierende interpretieren zuerst einzelne Elemente isoliert: Was bedeutet b = 2.3? Was heisst "bei konstant gehaltener Motivation"? Ist der Effekt praktisch relevant? Jede Teilfrage wird separat bearbeitet, handschriftlich oder zeitbegrenzt. Das reduziert die Elementinteraktivität auf ein handhabbares Mass und erzwingt Abrufen und Generieren.
+
+*Phase 2 (Integration).* Studierende formulieren eine vollständige Interpretation, die alle Elemente gleichzeitig berücksichtigt. Erst dann wird mit einer KI-generierten Interpretation verglichen. Der Vergleichshinweis ist gezielt: "Vergleiche die *Konditionierungslogik* deiner Interpretation mit der KI-Version. Erwähnt die KI, worauf sich der Koeffizient bezieht, wenn die anderen Variablen konstant gehalten werden?"
+
+*Phase 3 (Transfer).* Studierende erhalten einen neuen Datensatz mit anderen Variablen und interpretieren ohne KI-Unterstützung. Mündliche Kurzpräsentation (2 Min) macht Outsourcing unmöglich und prüft, ob das Schema transferiert.
+
+Die Reihenfolge bewahrt alle vier Operationen und berücksichtigt die Elementinteraktivität: zuerst isolierte Elemente aufbauen, dann integrieren, dann transferieren.
+:::
+
+:::
+
+
 ## Teilbearbeitetes Anwendungsbeispiel: Volkswirtschaftslehre
 
-**Ursprüngliche Aufgabe**: "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt."
+Ursprüngliche Aufgabe: "Analysiere die Auswirkungen einer Zinserhöhung auf den Wohnungsmarkt." Die ersten drei Fragen sind analysiert. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.
 
-Die ersten drei Fragen sind analysiert. Frage 2 zeigt die kognitive Aufgabenanalyse, Frage 3 zeigt, welche Operationen KI übernehmen würde. Versuche, Fragen 4 und 5 selbst zu beantworten, bevor du die Lösung aufklappst.
+::: {.nachlesen collapse="true"}
+### Analyse und Lösung
 
 | Frage | Analyse |
 |-------|---------|
@@ -213,7 +339,10 @@ Die ersten drei Fragen sind analysiert. Frage 2 zeigt die kognitive Aufgabenanal
 Die Reihenfolge bewahrt alle vier Operationen: Studierende aktivieren ihr Wissen, bilden Erwartungen und lernen aus der Diskrepanz.
 :::
 
-<!-- 
+:::
+
+
+<!--
 ## Disziplinspezifische Hinweise
 
 ### Mathematik und Naturwissenschaften
