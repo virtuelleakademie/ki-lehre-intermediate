@@ -23,7 +23,7 @@ KI verbessert Leistung bei kognitiven Aufgaben
 ## Aber es gibt Nebenwirkungen
 
 :::{.fragment}
-**Deskilling**: Eigene Fähigkeiten verkümmern bei dauerhafter KI-Nutzung
+Fähigkeitsatrophie: Eigene Fähigkeiten verkümmern bei dauerhafter KI-Nutzung
 :::
 
 :::{.fragment}

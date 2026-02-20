@@ -23,27 +23,15 @@ Diese Seite vertieft die wissenschaftlichen Grundlagen des Workshops mit Fokus a
 Für verwandte Themen siehe: [Arbeitsgedächtnis & Cognitive Load](../arbeitsgedaechtnis/) | [Gedächtnis & Lernstrategien](../gedaechtnis-und-lernen/)
 :::
 
-## Zentrale Erkenntnisse
-
-1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
-2. **Kognitive Anstrengung ist nicht selbst der Lernmechanismus**, aber sie signalisiert, dass lernrelevante Prozesse aktiv sind: Schemabildung, Abruf, Elaboration, Konsolidierung
-3. **Expertise bedeutet: ein internes generatives Modell aufbauen**, das eigenständig Vorhersagen, Erklärungen und Lösungen produzieren kann
-4. **KI-Outsourcing liefert Ergebnisse ohne den Prozess**, der dieses interne Modell aufbaut
-5. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
-
-## Die Reise vom Anfänger zum Experten
-
-Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wenn man versteht, wie dieser Prozess abläuft, wird klar: Wer kognitive Arbeit an KI auslagert, riskiert, dass echte Expertise gar nicht erst entsteht. Mehr noch: Expertenwerkzeuge können Anfängern sogar aktiv schaden.
- 
 ## Die Progression von schwachen zu starken Methoden
 
-Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert, **wie** dieser Übergang durch Wissenskompilation geschieht: Deklaratives Wissen wird durch Übung und Feedback zu automatisierten Produktionsregeln.
+Wenn wir neue Fähigkeiten erlernen, verändert sich die Art, wie unser Gehirn Information verarbeitet. Wer versteht, wie dieser Prozess abläuft, erkennt auch, warum das Auslagern kognitiver Arbeit an KI den Aufbau echter Expertise gefährden kann.
+
+Newell und Simon [-@newellHumanProblemSolving1972] beschrieben erstmals die Progression von schwachen zu starken Problemlösungsmethoden. John Andersons ACT-R-Theorie [@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007] modelliert, wie dieser Übergang durch Wissenskompilation geschieht: Deklaratives Wissen wird durch Übung und Feedback zu automatisierten Produktionsregeln.
 
 Diese Darstellung vereinfacht: In modernem ACT-R ist die Beziehung zwischen deklarativem und prozeduralem Wissen dynamischer und bidirektionaler, als das Stufenmodell suggeriert. Auch Experten behalten deklarative Repräsentationen, die weiterhin aktualisiert werden können. Für den Lehrkontext bleibt die grundlegende Progressionslogik aber nützlich.
 
-Expertise entwickelt sich durch eine vorhersehbare Progression:
-
-### 1. **Schwache Methoden** (Anfänger-Stadium)
+### Schwache Methoden (Anfänger-Stadium)
 
 Schwache Methoden sind domänenübergreifende Problemlösungsstrategien, die Anfänger verwenden, wenn ihnen spezifisches Wissen fehlt:
 
@@ -71,29 +59,21 @@ Mit schwachen Methoden:
 **Beachte das überlegte, schrittweise Vorgehen!**
 :::
 
-### 2. **Prozeduralisierung** (Fortgeschrittenen-Stadium)
+### Prozeduralisierung (Fortgeschrittenen-Stadium)
 
-- Wiederkehrende Muster werden zu Prozeduren
-- Immer noch bewusst, aber flüssiger
-- Geringere kognitive Belastung
-- Schneller mit weniger Fehlern
-- Beispiel: Nutzung des Einmaleins aus dem Gedächtnis
+In dieser Phase werden wiederkehrende Muster zu Prozeduren. Der Prozess ist immer noch bewusst, läuft aber flüssiger ab, mit geringerer kognitiver Belastung und weniger Fehlern. Ein typisches Beispiel: Das Einmaleins wird direkt aus dem Gedächtnis abgerufen, statt jedes Mal neu berechnet.
 
-In dieser Phase beginnen sich **Produktionsregeln** zu bilden. Das sind `WENN-DANN`-Bedingungs-Aktionspaare:
+Gleichzeitig beginnen sich **Produktionsregeln** zu bilden. Das sind `WENN-DANN`-Bedingungs-Aktionspaare:
 
 - `WENN` ich "3 × 4" sehe `DANN` antworte "12"
 - `WENN` eine Gleichung die Form $ax + b = c$ hat `DANN` subtrahiere b von beiden Seiten
 - `WENN` der Code nicht kompiliert `DANN` prüfe zuerst auf Syntaxfehler
 
-### 3. **Kompilierung** (Experten-Stadium)
+### Kompilierung (Experten-Stadium)
 
-- Wissen wird durch wiederholte Übungsdurchläufe automatisch [@andersonAcquisitionCognitiveSkill1982]
-- Mustererkennung dominiert
-- Minimale kognitive Belastung
-- Schnell und fehlerfrei
-- Kann die Schritte nicht mehr erklären!
+Durch wiederholte Übungsdurchläufe wird Wissen automatisch [@andersonAcquisitionCognitiveSkill1982]. Mustererkennung dominiert, die kognitive Belastung sinkt auf ein Minimum, und die Ausführung wird schnell und fehlerfrei. Das Paradoxe daran: Experten können ihre eigenen Schritte oft nicht mehr erklären!
 
-**Produktionsstärke** bestimmt, welche Regeln ausgelöst werden: Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl die Geschwindigkeit als auch die Genauigkeit: Stärkere Produktionen setzen sich gegen schwächere Alternativen durch.
+Welche Regeln in einer Situation ausgelöst werden, hängt von ihrer **Produktionsstärke** ab. Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl Geschwindigkeit als auch Genauigkeit, weil sich stärkere Produktionen gegen schwächere Alternativen durchsetzen.
 
 ::: {.callout-note}
 ## Beispiel: Experte löst $3x + 5 = 20$
@@ -126,14 +106,14 @@ Denke an ein Thema, das du deinen Studierenden beibringst:
 
 Die Cognitive Load Theory erklärt, warum Anfänger und Experten das gleiche Material völlig unterschiedlich verarbeiten. Eine ausführliche Darstellung findest du im Deep-Dive [Arbeitsgedächtnis & Cognitive Load](../arbeitsgedaechtnis/). Hier das Wesentliche für den Kompetenzaufbau:
 
-Expertise verändert die kognitive Belastung grundlegend. Was für Anfänger 7+ interagierende Elemente im Arbeitsgedächtnis erfordert (z.B. das Lösen von $(x + 3)(x - 2) = 0$), ist für Experten ein einziger Chunk. Beim Auslagern an KI: 0 Arbeitsgedächtnisverarbeitung, also kein Lernen. Dieser Mechanismus, der **Expertise Reversal Effect**, hat direkte Konsequenzen für den KI-Einsatz: Was Experten hilft (komplexe Werkzeuge, offene Probleme), überfordert Anfänger und umgekehrt.
+Expertise verändert die kognitive Belastung grundlegend. Was für Anfänger 7+ interagierende Elemente im Arbeitsgedächtnis erfordert (z.B. das Lösen von $(x + 3)(x - 2) = 0$), ist für Experten ein einziger Chunk. Wer kognitive Arbeit vollständig an KI auslagert, verarbeitet nichts im Arbeitsgedächtnis, und ohne Verarbeitung findet kein Lernen statt. Dieser Zusammenhang ist als **Expertise Reversal Effect** bekannt und hat direkte Konsequenzen für den KI-Einsatz: Was Experten hilft (komplexe Werkzeuge, offene Probleme), überfordert Anfänger, und umgekehrt.
 
 
 ## Das KI-Bypass-Problem
 
 ### Wie KI die kognitive Architektur stört
 
-Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen: Ohne kognitive Anstrengung findet keine Verarbeitung im Arbeitsgedächtnis statt, und unverarbeitete Informationen gelangen nicht ins Langzeitgedächtnis. Ohne Speicherung entstehen keine Schemata, und ohne Schemata bleibt der Weg vom Anfänger zum Experten blockiert.
+Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschliessen. Ohne kognitive Anstrengung findet keine Verarbeitung im Arbeitsgedächtnis statt, und unverarbeitete Informationen gelangen nicht ins Langzeitgedächtnis. Ohne Speicherung entstehen keine Schemata, und ohne Schemata bleibt der Weg vom Anfänger zum Experten blockiert.
 
 ::: {.callout-warning}
 **Das Grundproblem**: KI bietet die Vorteile von Expertise (sofortiger Zugriff auf organisiertes Wissen), ohne den Prozess, der Expertise schafft (Arbeitsgedächtnisanstrengung → Speicherung im Langzeitgedächtnis).
@@ -232,18 +212,13 @@ Beim Auftreten eines Problems prognostiziert das Gehirn automatisch, was passier
 
 Man versucht eine Lösung und vergleicht das tatsächliche Ergebnis mit der Vorhersage:
 
-- **Positiver Vorhersagefehler**: „Das lief besser als erwartet!"
-- **Negativer Vorhersagefehler**: „Das hat nicht wie gedacht funktioniert"
-- **Null-Fehler**: „Es lief genau wie vorhergesagt"
+- Positiver Vorhersagefehler: „Das lief besser als erwartet!"
+- Negativer Vorhersagefehler: „Das hat nicht wie gedacht funktioniert"
+- Null-Fehler: „Es lief genau wie vorhergesagt"
 
 **Schritt 3: Neuronales Update**
 
-Das Gehirn nutzt diese Fehler zur Anpassung des Wissens:
-
-- **Neuronale Signale** markieren Vorhersagefehler als wichtige Lernmomente
-- **Neuronale Pfade**, die am Fehler beteiligt waren, werden verstärkt
-- **Synaptische Verbindungen** werden je nach Fehlergrösse angepasst
-- **Konsolidierung im Schlaf** macht diese Änderungen dauerhaft
+Das Gehirn nutzt diese Fehler, um sein Wissen anzupassen. Neuronale Signale markieren Vorhersagefehler als wichtige Lernmomente, beteiligte Pfade werden verstärkt, und synaptische Verbindungen verändern sich proportional zur Fehlergrösse. Konsolidierung im Schlaf macht die Änderungen dauerhaft.
 
 ::: {.pro-tip collapse="true"}
 ### Neurowissenschaftliche Details (optional)
@@ -285,30 +260,29 @@ Denke an eine Aufgabe in deiner Lehre:
 
 #### Warum das Auslagern kognitiver Prozesse an KI das Lernsignal verarmt
 
-**Wenn KI sofort fertige Antworten liefert**, wird der Vorhersagefehler *nicht* null. Das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird vermutlich **uninformativ**:
+Wenn KI sofort fertige Antworten liefert, wird der Vorhersagefehler *nicht* null. Das Gehirn bildet immer automatisch Erwartungen. Aber der Vorhersagefehler wird vermutlich uninformativ:
 
 - Ohne eigenen Lösungsversuch aktivieren Lernende ihr internes Modell nicht
 - Ohne spezifische Vorhersage gibt es nichts, woran das Feedback sinnvoll andocken kann
-- Das Ergebnis ist ein **diffuser, unstrukturierter Vorhersagefehler**, der kaum Lernen erzeugt
+- Das Ergebnis ist ein diffuser, unstrukturierter Vorhersagefehler, der kaum Lernen erzeugt
 
-Das entscheidende Problem: Je weniger Vorwissen Lernende haben, desto weniger können sie mit dem KI-Output anfangen. Ihr internes Modell ist noch zu undifferenziert, um dem Feedback Bedeutung zuzuschreiben.
+Das verschärft sich für Anfänger. Je weniger Vorwissen sie mitbringen, desto weniger können sie mit dem KI-Output anfangen. Ihr internes Modell ist noch zu undifferenziert, um dem Feedback Bedeutung zuzuschreiben.
 
-Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert sein internes Modell, bildet spezifische Vorhersagen und erzeugt dadurch **informative Vorhersagefehler**, genau die Art von Diskrepanz, aus der das Gehirn effektiv lernen kann.
+Im Gegensatz dazu: Wer zuerst selbst einen Lösungsversuch unternimmt, aktiviert sein internes Modell, bildet spezifische Vorhersagen und erzeugt dadurch informative Vorhersagefehler, genau die Art von Diskrepanz, aus der das Gehirn effektiv lernen kann.
 
-Anders formuliert: Lernen lässt sich als Aktualisierung von Überzeugungen verstehen. Lernende haben ein aktuelles Modell (ihre bisherigen Schemata), machen daraus eine Vorhersage und passen ihr Modell anhand der beobachteten Diskrepanz an. Je spezifischer die Vorhersage, desto informativer das Feedback. Genau deshalb funktioniert die Versuch-dann-Prüfe-Struktur: Der eigene Versuch erzeugt eine konkrete Erwartung, an der das anschliessende Feedback maximal informativ andocken kann. Ohne eigenen Versuch ist Feedback diffus, so als wollte man eine Überzeugung aktualisieren, die man nie hatte.
+Anders formuliert: Lernen lässt sich als Aktualisierung von Überzeugungen verstehen. Lernende haben ein aktuelles Modell (ihre bisherigen Schemata), machen daraus eine Vorhersage und passen ihr Modell anhand der beobachteten Diskrepanz an. Je spezifischer die Vorhersage, desto informativer das Feedback. Genau deshalb funktioniert die Versuch-dann-Prüfe-Struktur: Der eigene Versuch erzeugt eine konkrete Erwartung, die dem anschliessenden Feedback eine klare Bezugsgrösse gibt. Ohne eigenen Versuch ist Feedback diffus, so als wollte man eine Überzeugung aktualisieren, die man nie hatte.
 
 ### Das interne Modell: Was Expertise eigentlich ist
 
-Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Der Begriff **"internes generatives Modell"** fasst diese Idee zusammen: eine **Synthese** aus verschiedenen Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), die einen gemeinsamen Kern teilen: Expertise ist ein Modell im Kopf, das *generieren* kann.
+Ein Experte "weiss" nicht einfach mehr Fakten. Expertise bedeutet, reichhaltige, vernetzte Wissensstrukturen (Schemata) aufgebaut zu haben, die eigenständig Vorhersagen, Erklärungen und Lösungen ermöglichen. Der Begriff **"internes generatives Modell"** fasst diese Idee zusammen. Er verbindet verschiedene Traditionen (ACT-R-Produktionsregeln, Schema-Theorie, Predictive Processing), die einen gemeinsamen Kern teilen: Expertise ist ein Modell im Kopf, das *generieren* kann.
 
-Ein wichtiger Unterschied: Wenn wir von einem "internen generativen Modell" sprechen, meinen wir etwas anderes als ein "generatives KI-Modell". Ein LLM ist ein statistisches Modell der Sprache: Es lernt Verteilungsmuster aus Texten und sagt das nächste Token in einer Sequenz vorher. Das interne Modell einer Expertin ist ein generatives Modell *ihres Fachgebiets*: Es erfasst kausale Zusammenhänge, strukturelle Beziehungen und kontextabhängige Regeln und kann daraus neue Vorhersagen, Erklärungen und Lösungen ableiten. Dieser Unterschied erklärt, warum LLM-Output so überzeugend und zugleich so leer sein kann: Das LLM modelliert, *wie Menschen über ein Fachgebiet schreiben*, nicht das Fachgebiet selbst. Deshalb brauchen Studierende ihr *eigenes* generatives Modell, eines, das im kausalen Verständnis ihrer Domäne verankert ist.
+Ein wichtiger Unterschied: Wenn wir von einem "internen generativen Modell" sprechen, meinen wir etwas anderes als ein "generatives KI-Modell". Ein LLM ist ein statistisches Modell der Sprache: Es lernt Verteilungsmuster aus Texten und sagt das nächste Token in einer Sequenz vorher. Das interne Modell einer Expertin ist ein generatives Modell *ihres Fachgebiets*: Es erfasst kausale Zusammenhänge, strukturelle Beziehungen und kontextabhängige Regeln und kann daraus neue Hypothesen aufstellen und Probleme eigenständig lösen. Dieser Unterschied erklärt, warum LLM-Output so überzeugend und zugleich so leer sein kann: Das LLM modelliert, *wie Menschen über ein Fachgebiet schreiben*, nicht das Fachgebiet selbst. Deshalb brauchen Studierende ihr *eigenes* generatives Modell, eines, das im kausalen Verständnis ihrer Domäne verankert ist.
 
-Warum ist diese Perspektive trotzdem hilfreich? Sie erklärt auf einen Blick:
+Warum ist diese Perspektive trotzdem hilfreich? Sie erklärt auf einen Blick, warum aktives Problemlösen so wirksam ist: Es zwingt Lernende, ihr internes Modell zu aktivieren, es "laufen zu lassen" und konkrete Vorhersagen zu generieren, die dann an der Realität scheitern oder bestätigt werden können.
 
-- **Warum aktives Problemlösen so wirksam ist**: Es zwingt Lernende, ihr internes Modell zu aktivieren, es "laufen zu lassen" und konkrete Vorhersagen zu generieren, die dann an der Realität scheitern oder bestätigt werden können.
-- **Warum Experten von KI-Feedback profitieren**: Ihr Modell ist differenziert genug, um spezifische Vorhersagen zu machen. Feedback dockt an konkreten Erwartungen an und ist deshalb *informativ*.
-- **Warum Anfänger durch KI-Outsourcing gefährdet sind**: Ihr Modell ist noch zu undifferenziert. Ohne eigenen Lösungsversuch aktivieren sie es nicht, und der KI-Output bleibt ein diffuser Datenpunkt, aus dem wenig gelernt werden kann.
-- **Warum das Evaluationsparadox existiert**: KI-Output zu bewerten *ist selbst eine Form von Inferenz*. Man muss das eigene Modell aktivieren und prüfen, ob der Output damit konsistent ist. Ohne entwickeltes Modell fehlt die Grundlage dafür.
+Für Experten bedeutet das, dass sie von KI-Feedback tatsächlich profitieren können. Ihr Modell ist differenziert genug, um spezifische Vorhersagen zu machen, und das Feedback dockt an konkreten Erwartungen an. Für Anfänger sieht das anders aus: Ihr Modell ist noch zu undifferenziert. Ohne eigenen Lösungsversuch aktivieren sie es nicht, und der KI-Output bleibt ein diffuser Datenpunkt, aus dem wenig gelernt werden kann.
+
+Das erklärt auch, warum das Evaluationsparadox existiert. KI-Output zu bewerten *ist selbst eine Form von Inferenz*. Man muss das eigene Modell aktivieren und prüfen, ob der Output damit konsistent ist. Ohne entwickeltes Modell fehlt die Grundlage dafür.
 
 Die entscheidende Frage für jede Lernsituation lautet deshalb: **Wie aktiv ist das interne Modell der Lernenden, wenn sie dem KI-Output begegnen?** Je aktiver das Modell, desto informativer das Feedback, und desto mehr wird gelernt.
 
@@ -329,7 +303,7 @@ Bevor du weiterliest, fasse für dich zusammen:
 - Welche **eine Änderung** an einer Aufgabe wirst du zuerst umsetzen?
 - Wo erwartest du den grössten Widerstand von Studierenden?
 
-*Diese Selbsterklärung ist der Übergang vom Verstehen zum Anwenden.*
+*Wer seine Erkenntnisse in eigene Worte fasst, verankert sie besser.*
 :::
 
 
