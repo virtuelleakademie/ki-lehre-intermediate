@@ -102,6 +102,18 @@ div.csl-indent {
 </script><link href="../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../site_libs/viz-1.8.2/viz.js"></script><link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
 <script src="../site_libs/grViz-binding-1.0.11/grViz.js"></script><style>
+div.callout-pro-tip.callout {
+  border-left-color: #D4A03E;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(212, 160, 62, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
+  background-image: none;
+}
 div.callout-nachlesen.callout {
   border-left-color: #D4A03E;
 }
@@ -112,42 +124,6 @@ div.callout-nachlesen .callout-toggle::before {  background-image: url('data:ima
 div.callout-nachlesen.callout-style-default .callout-icon::before, div.callout-nachlesen.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f518';
-  background-image: none;
-}
-div.callout-facilitator.callout {
-  border-left-color: #333333;
-}
-div.callout-facilitator.callout-style-default > .callout-header {
-  background-color: rgba(51, 51, 51, 0.13);
-}
-div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f46d';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #9A4665;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: #9A4665;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f500';
   background-image: none;
 }
 div.callout-agent-potential.callout {
@@ -162,16 +138,52 @@ div.callout-agent-potential.callout-style-default .callout-icon::before, div.cal
   content: '\f544';
   background-image: none;
 }
-div.callout-pro-tip.callout {
+div.callout-pair.callout {
+  border-left-color: #9A4665;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f500';
+  background-image: none;
+}
+div.callout-reflect.callout {
   border-left-color: #D4A03E;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgba(212, 160, 62, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
+  content: '\f0eb';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #9A4665;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c0';
+  background-image: none;
+}
+div.callout-facilitator.callout {
+  border-left-color: #333333;
+}
+div.callout-facilitator.callout-style-default > .callout-header {
+  background-color: rgba(51, 51, 51, 0.13);
+}
+div.callout-facilitator .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-facilitator.callout-style-default .callout-icon::before, div.callout-facilitator.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f46d';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -196,18 +208,6 @@ div.callout-active-processing .callout-toggle::before {  background-image: url('
 div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f044';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #D4A03E;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(212, 160, 62, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
   background-image: none;
 }
 </style>
@@ -599,7 +599,7 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 <ul>
 <li>
 <strong>Generieren</strong> wird vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Bewertungen.</li>
-<li>Auch das <strong>Verknüpfen</strong> übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Aber KI behandelt Zitieren als Formatierungsaufgabe (welche Quelle passt formal hierhin?), nicht als intellektuelle Entscheidung (welche Behauptung in <em>meinem</em> Argument braucht einen Beleg, und warum gerade <em>diese</em> Quelle?).</li>
+<li>Auch das <strong>Verknüpfen</strong> übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Damit entfällt für Studierende die intellektuelle Entscheidung: Welche Behauptung in <em>meinem</em> Argument braucht einen Beleg, und warum gerade <em>diese</em> Quelle?</li>
 <li>Eine eigene Suchstrategie (<strong>Abrufen</strong>) entwickeln Studierende gar nicht erst.</li>
 <li>Und <strong>Überwachen</strong>? Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox).</li>
 </ul>
@@ -713,7 +713,11 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
 </tbody>
 </table>
 <p><strong>Was sich ändert:</strong> Die Studierenden müssen <em>den Prozess</em> durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.</p>
-<p><strong>Phase 1</strong> dokumentiert die Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? <strong>Phase 2</strong> verlangt für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? <em>Welche eigene Behauptung stützt diese Quelle?</em> Damit wird die intellektuelle Zitierentscheidung bei den Studierenden verankert. <strong>Phase 3</strong> schützt die Synthese als den Schritt mit der höchsten Elementinteraktivität. Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur (“Quellen A und B stimmen überein, dass <strong><em>. Sie unterscheiden sich bei </em></strong>, weil ___.”) bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. <strong>Phase 3b</strong> aktiviert Überwachen: Studierende vergleichen <em>nach</em> eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden. Vorsicht: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version “korrigieren” (Evaluationsparadox). Deshalb lautet die Aufgabe “Unterschiede identifizieren und erklären”, nicht “Synthese verbessern”. <strong>Phase 4</strong> delegiert nur noch Formatierung. Die inhaltliche Entscheidung wurde in Phase 2 getroffen.</p>
+<p><strong>Phase 1</strong> dokumentiert die Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung?</p>
+<p><strong>Phase 2</strong> verlangt für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? <em>Welche eigene Behauptung stützt diese Quelle?</em> Damit wird die intellektuelle Zitierentscheidung bei den Studierenden verankert.</p>
+<p><strong>Phase 3</strong> schützt die Synthese als den Schritt mit der höchsten Elementinteraktivität. Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst.</p>
+<p><strong>Phase 3b</strong> aktiviert Überwachen: Studierende vergleichen <em>nach</em> eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden. Vorsicht: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version “korrigieren” (Evaluationsparadox). Deshalb lautet die Aufgabe “Unterschiede identifizieren und erklären”, nicht “Synthese verbessern”.</p>
+<p><strong>Phase 4</strong> delegiert nur noch Formatierung. Die inhaltliche Entscheidung wurde in Phase 2 getroffen.</p>
 <section id="was-zeigt-dieses-beispiel" class="level4"><h4 class="anchored" data-anchor-id="was-zeigt-dieses-beispiel">Was zeigt dieses Beispiel?</h4>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">

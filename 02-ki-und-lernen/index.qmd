@@ -135,7 +135,7 @@ Ja. Es ist eine Kursaufgabe, kein professionelles Produkt. Die kognitive Arbeit 
 #### Frage 3: Welche dieser Operationen würde KI übernehmen?
 
 - **Generieren** wird vollständig übernommen: KI liefert fertige Zusammenfassungen und plausible Bewertungen.
-- Auch das **Verknüpfen** übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Aber KI behandelt Zitieren als Formatierungsaufgabe (welche Quelle passt formal hierhin?), nicht als intellektuelle Entscheidung (welche Behauptung in *meinem* Argument braucht einen Beleg, und warum gerade *diese* Quelle?).
+- Auch das **Verknüpfen** übernimmt die KI komplett. Sie produziert kohärente Synthesen und setzt Zitationen. Damit entfällt für Studierende die intellektuelle Entscheidung: Welche Behauptung in *meinem* Argument braucht einen Beleg, und warum gerade *diese* Quelle?
 - Eine eigene Suchstrategie (**Abrufen**) entwickeln Studierende gar nicht erst.
 - Und **Überwachen**? Ohne eigene Bewertungskriterien fehlt der Massstab (Evaluationsparadox).
 :::
@@ -181,7 +181,15 @@ Alle vier Kernoperationen werden von KI übernommen. Das Lernen wird nicht unter
 
 **Was sich ändert:** Die Studierenden müssen *den Prozess* durchlaufen. Das Produkt allein reicht nicht mehr, denn die Denkarbeit wird sichtbar und geschützt.
 
-**Phase 1** dokumentiert die Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? **Phase 2** verlangt für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? *Welche eigene Behauptung stützt diese Quelle?* Damit wird die intellektuelle Zitierentscheidung bei den Studierenden verankert. **Phase 3** schützt die Synthese als den Schritt mit der höchsten Elementinteraktivität. Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur ("Quellen A und B stimmen überein, dass ___. Sie unterscheiden sich bei ___, weil ___.") bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. **Phase 3b** aktiviert Überwachen: Studierende vergleichen *nach* eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden. Vorsicht: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version "korrigieren" (Evaluationsparadox). Deshalb lautet die Aufgabe "Unterschiede identifizieren und erklären", nicht "Synthese verbessern". **Phase 4** delegiert nur noch Formatierung. Die inhaltliche Entscheidung wurde in Phase 2 getroffen.
+**Phase 1** dokumentiert die Suchstrategie: Welche Datenbanken? Welche Begriffe? Warum diese Eingrenzung? 
+
+**Phase 2** verlangt für jede Quelle: Warum aufgenommen oder verworfen? Was ist das Kernargument? *Welche eigene Behauptung stützt diese Quelle?* Damit wird die intellektuelle Zitierentscheidung bei den Studierenden verankert. 
+
+**Phase 3** schützt die Synthese als den Schritt mit der höchsten Elementinteraktivität. Für echte Anfänger kann eine offene Synthese das Arbeitsgedächtnis überfordern. Eine vorgegebene Struktur bewahrt die relationale Verarbeitung, reduziert aber die extrinsische Last. Hier greift Leitfrage 4: Wer noch Grundlagen aufbaut, braucht mehr Gerüst. 
+
+**Phase 3b** aktiviert Überwachen: Studierende vergleichen *nach* eigenem Versuch. Ohne eigene Synthese gibt es nichts, woran Unterschiede sichtbar werden. Vorsicht: Anfänger könnten ihre eigene Synthese in Richtung der KI-Version "korrigieren" (Evaluationsparadox). Deshalb lautet die Aufgabe "Unterschiede identifizieren und erklären", nicht "Synthese verbessern". 
+
+**Phase 4** delegiert nur noch Formatierung. Die inhaltliche Entscheidung wurde in Phase 2 getroffen.
 
 #### Was zeigt dieses Beispiel?
 
