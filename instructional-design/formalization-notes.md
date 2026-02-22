@@ -1,6 +1,6 @@
 # Formalization Notes: Instructional Design in the Age of AI
 
-Working notes on how to formalize the arguments in `workshop-concept-instructional-design.md`. Informed by two expert consultations: a Bayesian cognition perspective (Tenenbaum-style probabilistic models, information theory, POMDPs) and a cognitive architecture perspective (Anderson-style ACT-R mechanisms, rational analysis, activation dynamics). The point is not to choose between frameworks but to see what each reveals.
+Working notes on how to formalize the arguments in `workshop-concept-instructional-design.md`. 
 
 ---
 
