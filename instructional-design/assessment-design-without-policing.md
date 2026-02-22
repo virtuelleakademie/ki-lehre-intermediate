@@ -188,7 +188,28 @@ The task demands an input that exists only inside the student's head, and assess
 This makes the strategic path and the learning path identical. The student who wants the best grade must activate genuine prior knowledge (retrieval), contribute their own predictions or experiences (generation), process discrepancies (linking), and identify their own errors (monitoring). These are the four cognitive operations that build schemas.
 
 
-## Part 6: What to Tell Lecturers Who Say "My Students Are Lazy"
+## Part 6: How Robust Are These Patterns, Really?
+
+The claim that AI "cannot satisfy" criteria based on student-internal inputs is too strong. A sufficiently motivated student can game any pattern. Someone could ask AI to generate a plausible misconception and a convincing revision. Someone could fabricate a professional experience with realistic messy details. The strong version of the claim is false, and any skeptical lecturer will see through it immediately.
+
+The defensible claim is economic, not logical: **these patterns change the cost structure so that genuine cognitive engagement becomes the path of least resistance.**
+
+Consider what it takes to fabricate a convincing prediction-revision pair. The student must generate a plausible wrong prediction (not any wrong answer, but one a real student would hold), understand the correct answer well enough to identify the precise conceptual gap, and articulate the transition. That second step is the trap: to fabricate the revision convincingly, you must understand the material. The fabrication requires the understanding it is trying to avoid. At some point, fabrication costs more effort than genuine engagement, and a boundedly rational agent who satisfices will take the genuine path.
+
+This is the same argument that applies to physical locks. No lock is unpickable. But a good lock makes picking harder than using the key. You do not need a perfect lock. You need one where the legitimate path is easier than the illegitimate one.
+
+Three properties make this argument hold:
+
+**The cognitive floor is raised.** Even a student who games every pattern still does more cognitive work than one who pastes an assignment into ChatGPT and submits the output. At minimum, they must retrieve genuine prior beliefs, identify real experiences, or be present in real conversations. The floor of engagement is higher even for the most strategic student.
+
+**The patterns degrade gracefully.** A student who submits a genuine prediction but outsources the revision to AI has still done retrieval (recalling what they believed) and some comparison (recognizing the lecture said something different). They have outsourced the deepest operation (articulating *why* the prediction was wrong), and they learn less than someone who processes the discrepancy themselves. But they learn more than someone who never made a prediction at all. Under traditional product-only assessment, partial outsourcing yields zero learning. Under these patterns, partial outsourcing still yields partial learning.
+
+**The comparison class matters.** These patterns are not competing against perfect compliance (which never existed). They are competing against traditional assignments, which are trivially outsourced to AI with near-zero cognitive engagement. Against that baseline, every pattern described here is a substantial improvement.
+
+The honest position for workshop participants: these patterns do not guarantee that every student will do every cognitive operation. No assessment design ever has, and no assessment design ever will. What they do is make genuine engagement the cheaper, easier, more natural path. For a population of boundedly rational satisficers, that is the strongest achievable guarantee.
+
+
+## Part 7: What to Tell Lecturers Who Say "My Students Are Lazy"
 
 The reframe, in practical terms:
 
