@@ -224,6 +224,27 @@ All four patterns share the same underlying structure:
 The task demands an input that exists only inside the student's head and assesses the quality of the connection between this internal input and the external material. AI has no access to the internal input, not because it is banned, but because it originates *before* contact with the material or from actual personal experience.
 
 
+## How Robust Are These Patterns?
+
+The claim that AI "cannot satisfy" criteria based on student-internal inputs is too strong. A sufficiently motivated student can game any pattern. Someone could ask AI to generate a plausible misconception and a convincing revision. Someone could fabricate a professional experience with realistic messy details. The strong version of the claim is false, and any skeptical lecturer will see through it immediately.
+
+The defensible claim is economic, not logical: **these patterns change the cost structure so that genuine cognitive engagement becomes the path of least resistance.**
+
+Consider what it takes to fabricate a convincing prediction-revision pair. The student must generate a plausible wrong prediction (not any wrong answer, but one a real student would hold), understand the correct answer well enough to identify the precise conceptual gap, and articulate the transition. That second step is the trap: to fabricate the revision convincingly, you must understand the material. The fabrication requires the understanding it is trying to avoid. At some point, fabrication costs more effort than genuine engagement, and a boundedly rational agent who satisfices will take the genuine path.
+
+This is the same argument that applies to physical locks. No lock is unpickable. But a good lock makes picking harder than using the key. You do not need a perfect lock. You need one where the legitimate path is easier than the illegitimate one.
+
+Three properties make this argument hold:
+
+**The cognitive floor is raised.** Even a student who games every pattern still does more cognitive work than one who pastes an assignment into ChatGPT and submits the output. At minimum, they must retrieve genuine prior beliefs, identify real experiences, or be present in real conversations. The floor of engagement is higher even for the most strategic student.
+
+**The patterns degrade gracefully.** A student who submits a genuine prediction but outsources the revision to AI has still done retrieval (recalling what they believed) and some comparison (recognizing the lecture said something different). They have outsourced the deepest operation (articulating *why* the prediction was wrong), and they learn less than someone who processes the discrepancy themselves. But they learn more than someone who never made a prediction at all. Under traditional product-only assessment, partial outsourcing yields zero learning. Under these patterns, partial outsourcing still yields partial learning.
+
+**The comparison class matters.** These patterns are not competing against perfect compliance, which never existed. They are competing against traditional assignments, which are trivially outsourced to AI with near-zero cognitive engagement. Against that baseline, every pattern described here is a substantial improvement.
+
+These patterns do not guarantee that every student will do every cognitive operation. No assessment design ever has, and no assessment design ever will. What they do is make genuine engagement the cheaper, easier, more natural path. For a population of boundedly rational satisficers, that is the strongest achievable guarantee.
+
+
 ## Responding to "My Students Are Lazy"
 
 1. **Check task design.** If students can complete the assignment by outsourcing the cognitive operations and still produce an acceptable output, the task architecture has made the cognitive work separable from the product. Redesign so the operations are inherent, not incidental.
@@ -235,6 +256,8 @@ The task demands an input that exists only inside the student's head and assesse
 4. **Align incentives.** If the assessment system rewards products, it will get products. If it rewards reasoning processes, it will get reasoning.
 
 5. **Provide credible rationales.** Not "because learning science says so," but "because in professional practice, when your AI tool gives you a plausible-sounding but subtly wrong recommendation, you will need the ability to detect that error. That ability comes from having done the integration work yourself, repeatedly."
+
+6. **Accept the limits of your influence.** You cannot make every student deeply engage with every cognitive operation in every assignment. This was true before AI. What you can do is create conditions where the rational path goes through the cognitive work. Beyond that, students are adults making choices in complex life circumstances. Design for the students you have, not the students you wish you had.
 
 
 ## The Evaluation Paradox as Foundation
