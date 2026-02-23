@@ -144,7 +144,7 @@ page-footer:
       href: https://github.com/virtuelleakademie/ki-lehre-intermediate/
 
 lang: de
-
+license: CC BY-SA 4.0
 format:
   html:
     theme:

@@ -264,3 +264,4 @@ Tulvings **Encoding-Specificity-Prinzip** [-@tulvingEpisodicMemoryMind2002] zeig
 - [Wie man Kompetenzen erwirbt](./kompetenz-erwerben/). Wissenschaftliche Grundlagen der Expertise-Entwicklung
 
 ::::
+j
