@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap');
 
 // Fonts
-$font-family-sans-serif: "Urbanist", sans-serif !default;
-$presentation-font-size-root: 32px !default;
+$font-family-sans-serif: "Urbanist", sans-serif;
+$presentation-font-size-root: 32px;
 
 // Brand palette (from _brand.yml)
 $brand-dark: #000000;
@@ -31,10 +31,15 @@ $link-color: $brand-accent-dark !default;
 $selection-bg: rgba(0, 0, 0, 0.99);
 
 // Headings
-$presentation-heading-font: "Urbanist", sans-serif !default;
+$presentation-heading-font: "Urbanist", sans-serif;
 
 
 /*-- scss:rules --*/
+
+// Force Urbanist for all slide text — override brand serif font
+.reveal {
+  font-family: "Urbanist", sans-serif !important;
+}
 
 // Sharp corners everywhere
 .reveal * {

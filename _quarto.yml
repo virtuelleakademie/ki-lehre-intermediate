@@ -5,7 +5,7 @@ project:
     - assets/images/*
     - assets/pdfs/*
   preview:
-    port: 8800
+    port: 8809
     browser: false
   output-dir: docs
   render:
